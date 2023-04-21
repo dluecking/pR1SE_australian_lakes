@@ -1,0 +1,26 @@
+localrules: iterative_blastp
+rule iterative_blastp:
+    conda: "diamond"
+    input: "initial_proteins/{ORF}_initial_proteins.faa"
+    output: "blastp2_proteins/{ORF}_blastp_proteins.faa"
+    resources:
+        mem="50GB",
+        threads=4,
+        time="10:00:00",
+        partition="CLUSTER"
+    params: 
+        db="/bioinf/home/dlueckin/dbs/diamond_nr/nr.dmnd",
+        evalue=0.00001,
+        bitscore=50
+    log:
+        "log/{ORF}_test.log"
+    shell:
+        """
+        mkdir blastp2_proteins
+        python3 scripts/01_iterative_blast.py \
+        {input} {output} --db {params.db} \
+        --evalue {params.evalue} \
+        --bitscore {params.bitscore} 
+        """
+
+        

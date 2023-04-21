@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 1
+Conda environments: ignored
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+iterative_blastp        1              1              1
+total                   1              1              1
+
+Select jobs to execute...
+
+[Fri Apr 21 11:27:10 2023]
+rule iterative_blastp:
+    input: initial_proteins/ORF6_initial_proteins.faa
+    output: blastp_proteins/ORF6_blastp_proteins.faa
+    jobid: 0
+    wildcards: ORF=ORF6
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10:00:00
+
+Error submitting jobscript (exit code 1):
+
+Shutting down, this might take some time.
+Terminating processes on user request, this might take some time.
+Will exit after finishing currently running jobs.
+Cancelling snakemake on user request.
