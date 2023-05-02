@@ -30,6 +30,6 @@ rule iterative_blastp:
 
 rule iterative_blastp_ASL:
     conda: "diamond"
-    input: ooutput: "blastp_proteins/{ORF}_blastp_proteins.faa"
-utput: "blastp_proteins/{ORF}_blastp_proteins.faa"
+    input: "blastp_proteins/{ORF}_blastp_proteins.faa"
+    output: "blastp_proteins/{ORF}_blastp_proteins.faa"
 
