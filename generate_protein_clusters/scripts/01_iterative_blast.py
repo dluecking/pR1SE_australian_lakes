@@ -4,10 +4,12 @@ from Bio import SeqIO, Entrez
 import re
 import shutil
 import os
+import time
 
 ################################################################################
 # constants
-EMAIL="dom.luecking@gmail.com"
+EMAIL = "dom.luecking@gmail.com"
+API_KEY = "ed38a68e4cac02507e4bc585e8913bab5a08"
 MAX_ITERATIONS = 5
 
 # variables
@@ -27,7 +29,8 @@ args = parser.parse_args()
 ################################################################################
 def get_record(accession):
     Entrez.email = EMAIL
-    handle = Entrez.efetch(db="protein", id=accession, rettype="fasta", retmode="text")
+    Entrez.api = API_KEY
+    handle = Entrez.efetch(db="protein", id=accession, rettype="fasta", retmode="text", api_key=Entrez.api)
     record = SeqIO.read(handle, "fasta")
     return record
 
@@ -48,6 +51,8 @@ def get_new_hit_accessions(blast_result, known_accessions):
 ################################################################################
 # get ORF
 ORF = re.findall('ORF\d*', args.input_file)[0]
+# get DB
+DB = os.path.basename(args.db)
 
 print(args)
 
@@ -58,7 +63,7 @@ shutil.copy(args.input_file, tmp_file)
 
 while iteration_counter < MAX_ITERATIONS:
     # blastp
-    blast_out_file = f'blast_results/{ORF}_it{iteration_counter}_blast_results.tsv'
+    blast_out_file = f'blast_results/{ORF}_it{iteration_counter}_{DB}_blast_results.tsv'
     subprocess.run(['diamond', 'blastp', '-d', args.db, '-q', tmp_file, '-o', blast_out_file, '--faster'])
 
     # add accessions present in input file to known_accessions
@@ -72,6 +77,8 @@ while iteration_counter < MAX_ITERATIONS:
     new_records = []
     for acc in new_hit_accessions:
         new_records.append(get_record(acc))
+        time.sleep(1)
+        
     
     if new_records:
         # append new records to tmpfile

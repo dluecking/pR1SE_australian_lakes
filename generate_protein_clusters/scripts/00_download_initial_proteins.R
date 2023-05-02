@@ -3,13 +3,13 @@
 
 # libraries ---------------------------------------------------------------
 library(data.table)
-library(tidyr)
+library(dplyr)
 library(rentrez)
 
 
 # load clean df -----------------------------------------------------------
 # local
-INPUT_PATH <- "input/pR1SE core set - clean input.csv"
+INPUT_PATH <- "pR1SE core set - clean input.csv"
 
 # read input df
 input_df <- fread(INPUT_PATH)
