@@ -1,0 +1,39 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_530840_2-421     -          ORF10a.faa           -               0.17   18.5   1.4       7.2   13.3   0.0   2.3   1   1   0   2   2   2   0 # 2 # 421 # -1 # ID=530840_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.486
+megahit_139000_1384-1659 -          ORF10a.faa           -               0.49   17.0   0.2      0.63   16.7   0.2   1.2   1   0   0   1   1   1   0 # 1384 # 1659 # -1 # ID=139000_3;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.630
+megahit_15121_21-458     -          ORF10a.faa           -               0.58   16.8   2.9        86    9.9   0.1   2.2   2   0   0   2   2   2   0 # 21 # 458 # 1 # ID=15121_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.626
+megahit_1002178_1-207    -          ORF10a.faa           -               0.72   16.5   0.6      0.92   16.2   0.6   1.2   1   0   0   1   1   1   0 # 1 # 207 # -1 # ID=1002178_1;partial=10;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.614
+megahit_297264_3-371     -          ORF10a.faa           -                1.3   15.6   0.9       1.8   15.2   0.4   1.5   1   1   0   1   1   1   0 # 3 # 371 # 1 # ID=297264_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.480
+megahit_691736_1023-1394 -          ORF10a.faa           -                1.5   15.5   0.6       2.1   15.0   0.6   1.3   1   0   0   1   1   1   0 # 1023 # 1394 # -1 # ID=691736_2;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.296
+megahit_64744_2-178      -          ORF10a.faa           -                2.6   14.7   0.1       2.7   14.7   0.1   1.1   1   0   0   1   1   1   0 # 2 # 178 # 1 # ID=64744_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.537
+megahit_775716_2-499     -          ORF10a.faa           -                2.6   14.7   0.7   6.8e+02    7.0   0.2   2.3   2   0   0   2   2   2   0 # 2 # 499 # -1 # ID=775716_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.665
+megahit_64567_2-277      -          ORF10a.faa           -                3.2   14.4   0.2       5.9   13.6   0.2   1.4   1   1   0   1   1   1   0 # 2 # 277 # 1 # ID=64567_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.659
+megahit_746495_2-277     -          ORF10a.faa           -                3.3   14.4   0.2       5.9   13.6   0.2   1.4   1   1   0   1   1   1   0 # 2 # 277 # 1 # ID=746495_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.659
+megahit_684430_2-235     -          ORF10a.faa           -                3.7   14.2   0.6        24   11.7   0.3   1.9   1   1   1   2   2   2   0 # 2 # 235 # 1 # ID=684430_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.709
+megahit_830300_748-1185  -          ORF10a.faa           -                4.3   14.0   4.9        80    9.9   0.1   2.3   2   1   0   2   2   2   0 # 748 # 1185 # -1 # ID=830300_3;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.616
+megahit_950808_112-231   -          ORF10a.faa           -                4.8   13.9   0.2       4.8   13.9   0.2   1.1   1   0   0   1   1   1   0 # 112 # 231 # 1 # ID=950808_1;partial=01;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.583
+megahit_941906_3-311     -          ORF10a.faa           -                4.8   13.9   0.1       9.3   13.0   0.1   1.4   1   1   0   1   1   1   0 # 3 # 311 # -1 # ID=941906_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.712
+megahit_232571_2-307     -          ORF10a.faa           -                  5   13.8   1.2        77   10.0   0.1   2.1   1   1   1   2   2   2   0 # 2 # 307 # 1 # ID=232571_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.745
+megahit_1054_1-135       -          ORF10a.faa           -                5.2   13.8   0.0       5.2   13.8   0.0   1.1   1   0   0   1   1   1   0 # 1 # 135 # 1 # ID=1054_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.489
+megahit_1201793_2-487    -          ORF10a.faa           -                5.3   13.7   1.7        33   11.2   0.2   2.3   1   1   1   2   2   2   0 # 2 # 487 # 1 # ID=1201793_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.702
+megahit_1293303_247-516  -          ORF10a.faa           -                5.3   13.7   0.8       6.4   13.5   0.8   1.1   1   0   0   1   1   1   0 # 247 # 516 # -1 # ID=1293303_2;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.611
+megahit_173964_70-345    -          ORF10a.faa           -                5.4   13.7   0.1       6.6   13.4   0.1   1.2   1   0   0   1   1   1   0 # 70 # 345 # -1 # ID=173964_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.605
+megahit_805685_240-452   -          ORF10a.faa           -                5.5   13.7   0.1       5.9   13.6   0.1   1.1   1   0   0   1   1   1   0 # 240 # 452 # -1 # ID=805685_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.657
+megahit_239077_1-303     -          ORF10a.faa           -                5.5   13.7   0.8        25   11.6   0.4   2.0   1   1   1   2   2   2   0 # 1 # 303 # -1 # ID=239077_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.703
+megahit_413187_1-522     -          ORF10a.faa           -                  7   13.3   0.9        22   11.8   0.9   1.9   1   1   0   1   1   1   0 # 1 # 522 # -1 # ID=413187_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.736
+megahit_801829_240-452   -          ORF10a.faa           -                7.3   13.3   0.2         8   13.2   0.2   1.1   1   0   0   1   1   1   0 # 240 # 452 # -1 # ID=801829_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.653
+megahit_687672_3-488     -          ORF10a.faa           -                8.8   13.0   1.0        27   11.4   0.2   1.9   2   0   0   2   2   2   0 # 3 # 488 # -1 # ID=687672_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.601
+megahit_438899_1-210     -          ORF10a.faa           -                9.2   13.0   0.5        12   12.6   0.5   1.2   1   0   0   1   1   1   0 # 1 # 210 # -1 # ID=438899_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.743
+megahit_472476_2-475     -          ORF10a.faa           -                9.7   12.9   0.3   2.2e+02    8.6   0.1   2.2   2   0   0   2   2   2   0 # 2 # 475 # -1 # ID=472476_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.654
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF10a.faa.msa.hmm
+# Target file:     /home/dlueckin/bioinf/australian_salt_lakes/sqm/crosbie/results/03.crosbie.faa
+# Option settings: hmmsearch --tblout ../01_hmm_results/crosbie_ORF10a.txt --domtblout ../01_hmm_results/crosbie_ORF10a_domtblout.txt --cpu 16 ../input_profiles/ORF10a.faa.msa.hmm /home/dlueckin/bioinf/australian_salt_lakes/sqm/crosbie/results/03.crosbie.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/search_ASL/scripts
+# Date:            Tue May  9 13:13:57 2023
+# [ok]

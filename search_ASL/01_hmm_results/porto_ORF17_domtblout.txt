@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF17.faa.msa.hmm
+# Target file:     /home/dlueckin/bioinf/australian_salt_lakes/sqm/porto/results/03.porto.faa
+# Option settings: hmmsearch --tblout ../01_hmm_results/porto_ORF17.txt --domtblout ../01_hmm_results/porto_ORF17_domtblout.txt --cpu 16 ../input_profiles/ORF17.faa.msa.hmm /home/dlueckin/bioinf/australian_salt_lakes/sqm/porto/results/03.porto.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/search_ASL/scripts
+# Date:            Tue May  9 13:13:50 2023
+# [ok]

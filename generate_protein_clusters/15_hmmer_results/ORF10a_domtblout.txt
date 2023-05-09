@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_004048516.1       -             96 ORF10a.faa           -             96   5.1e-55  198.0   7.3   1   1   3.1e-63   5.6e-55  197.9   7.3     1    96     1    96     1    96 0.99 hypothetical protein [Halorubrum saccharovorum]
+WP_088901260.1       -             98 ORF10a.faa           -             96   7.1e-55  197.6   7.1   1   1   4.5e-63     8e-55  197.4   7.1     2    96     4    98     3    98 0.99 hypothetical protein [Halorubrum lacusprofundi]
+WP_157884856.1       -             96 ORF10a.faa           -             96   9.7e-55  197.1   7.6   1   1     6e-63   1.1e-54  197.0   7.6     1    96     1    96     1    96 0.99 hypothetical protein [Halorubrum aethiopicum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../14_curated_profiles/ORF10a.faa.msa.hmm
+# Target file:     /home/dlueckin/bioinf/dbs/diamond_nr/nr.gz
+# Option settings: hmmsearch --tblout ../15_hmmer_results/ORF10a.txt --domtblout ../15_hmmer_results//ORF10a_domtblout.txt -T 55 --cpu 16 ../14_curated_profiles/ORF10a.faa.msa.hmm /home/dlueckin/bioinf/dbs/diamond_nr/nr.gz 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/generate_protein_clusters/scripts
+# Date:            Tue May  9 10:52:52 2023
+# [ok]
