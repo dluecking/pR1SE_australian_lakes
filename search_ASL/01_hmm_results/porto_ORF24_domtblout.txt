@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+megahit_3780_209-403 -             65 ORF24.faa            -            525     0.087   12.6   0.1   1   1   7.7e-06       0.1   12.4   0.1    57    96    17    56    14    61 0.89 # 209 # 403 # -1 # ID=3780_2;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.579
+megahit_13146_1-411  -            137 ORF24.faa            -            525      0.38   10.5   8.2   1   1     3e-05       0.4   10.5   8.2   116   206     3    92     2   136 0.68 # 1 # 411 # -1 # ID=13146_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.684
+megahit_34724_1-378  -            126 ORF24.faa            -            525       1.4    8.6   1.1   1   1   0.00015       1.9    8.2   1.1    71   115    58   102    55   107 0.94 # 1 # 378 # -1 # ID=34724_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.675
+megahit_2492_2-382   -            127 ORF24.faa            -            525         8    6.1   4.8   1   1   0.00083        11    5.7   4.8   245   291    12    63     2    68 0.73 # 2 # 382 # -1 # ID=2492_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF24.faa.msa.hmm
+# Target file:     /home/dlueckin/bioinf/australian_salt_lakes/sqm/porto/results/03.porto.faa
+# Option settings: hmmsearch --tblout ../01_hmm_results/porto_ORF24.txt --domtblout ../01_hmm_results/porto_ORF24_domtblout.txt --cpu 16 ../input_profiles/ORF24.faa.msa.hmm /home/dlueckin/bioinf/australian_salt_lakes/sqm/porto/results/03.porto.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/search_ASL/scripts
+# Date:            Tue May  9 13:13:51 2023
+# [ok]

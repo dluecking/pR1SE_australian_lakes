@@ -1,0 +1,53 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_154018461.1       -            418 ORF23.faa            -            432  1.3e-170  582.5   1.3   1   1  1.1e-177  1.5e-170  582.3   1.3     6   432     4   418     1   418 0.96 hypothetical protein [Halolamina rubra]
+WP_079990213.1       -            424 ORF23.faa            -            432    2e-169  578.5   2.2   1   1  1.7e-176  2.3e-169  578.4   2.2     6   432     4   424     1   424 0.94 MULTISPECIES: hypothetical protein [Halolamina]
+SFQ07740.1           -            414 ORF23.faa            -            432    8e-167  570.0   2.5   1   1  6.6e-174  8.9e-167  569.8   2.5    13   432     1   414     1   414 0.94 hypothetical protein SAMN05216277_11840 [Halolamina pelagica]
+WP_135306354.1       -            466 ORF23.faa            -            432  4.7e-166  567.5   3.4   1   1    4e-173  5.3e-166  567.3   3.4     2   432    13   466    12   466 0.98 hypothetical protein [Halomicroarcula amylolytica]
+WP_253439220.1       -            444 ORF23.faa            -            432  6.7e-166  566.9   8.7   1   1    6e-173    8e-166  566.7   8.7     4   431    12   444     5   444 0.93 hypothetical protein [Halovivax sp. AGai3-5]
+WP_166975962.1       -            469 ORF23.faa            -            432  1.3e-165  566.0   6.3   1   1  1.1e-172  1.5e-165  565.8   6.3     3   432    14   469    12   469 0.98 hypothetical protein [Haloarcula sp. JP-L23]
+WP_245724315.1       -            438 ORF23.faa            -            432  5.9e-165  563.8   7.6   1   1  4.9e-172  6.6e-165  563.7   7.6     8   431     2   438     1   438 0.94 hypothetical protein [Natronorubrum texcoconense]
+WP_175607307.1       -            443 ORF23.faa            -            432  1.4e-164  562.6   5.7   1   1  1.3e-171  1.7e-164  562.3   5.7    14   431    15   443     7   443 0.94 hypothetical protein [Natrinema saccharevitans]
+WP_006430297.1       -            453 ORF23.faa            -            432  6.5e-164  560.4  14.0   1   1  5.8e-171  7.8e-164  560.1  14.0     7   431    14   453     9   453 0.96 hypothetical protein [Natrinema versiforme]
+WP_012946162.1       -            418 ORF23.faa            -            432  1.3e-163  559.4   8.1   1   1  1.1e-170  1.4e-163  559.3   8.1     2   422     1   416     1   418 0.98 hypothetical protein [Haloterrigena turkmenica]
+WP_076583927.1       -            474 ORF23.faa            -            432  2.4e-163  558.6  11.4   1   1    2e-170  2.7e-163  558.4  11.4     3   431    11   474     9   474 0.95 hypothetical protein [Natronorubrum daqingense]
+WP_226043403.1       -            419 ORF23.faa            -            432  6.3e-163  557.2   6.6   1   1  5.2e-170    7e-163  557.0   6.6     1   420     1   416     1   419 0.97 hypothetical protein [Natrinema sp. DC36]
+WP_276257219.1       -            459 ORF23.faa            -            432  1.1e-162  556.4   4.9   1   1  8.7e-170  1.2e-162  556.3   4.9     3   424     6   445     4   459 0.93 hypothetical protein [Halovivax sp. TS33]
+WP_049895738.1       -            418 ORF23.faa            -            432  1.2e-161  552.9   9.3   1   1    1e-168  1.4e-161  552.7   9.3     2   422     1   416     1   418 0.98 hypothetical protein [Halopiger xanaduensis]
+WP_178289021.1       -            415 ORF23.faa            -            432    3e-161  551.6   0.8   1   1  2.5e-168  3.3e-161  551.5   0.8     7   431     4   414     1   415 0.95 hypothetical protein [Natronomonas halophila]
+WP_006665487.1       -            412 ORF23.faa            -            432  3.8e-160  548.0   8.3   1   1  3.1e-167  4.2e-160  547.8   8.3     3   422     2   410     1   412 0.97 hypothetical protein [Natrialba aegyptia]
+WP_006111401.1       -            412 ORF23.faa            -            432  8.6e-160  546.8   7.4   1   1  7.1e-167  9.6e-160  546.7   7.4     3   422     2   410     1   412 0.97 hypothetical protein [Natrialba asiatica]
+WP_007139931.1       -            408 ORF23.faa            -            432  1.1e-159  546.5   5.1   1   1  8.8e-167  1.2e-159  546.4   5.1    42   431     6   408     1   408 0.97 hypothetical protein [Halobiforma lacisalsi]
+WP_135823088.1       -            494 ORF23.faa            -            432  2.8e-157  538.5   4.8   1   1  2.4e-164  3.3e-157  538.3   4.8     3   431    16   494    14   494 0.90 hypothetical protein [Halostella litorea]
+WP_162994404.1       -            410 ORF23.faa            -            432  1.7e-156  536.0   2.2   1   1  1.4e-163  1.9e-156  535.8   2.2    43   431     3   410     1   410 0.98 MULTISPECIES: hypothetical protein [Halostella]
+WP_049967315.1       -            413 ORF23.faa            -            432  1.7e-156  535.9   5.9   1   1  1.4e-163  1.9e-156  535.8   5.9     1   422     1   411     1   413 0.98 hypothetical protein [Natrinema thermotolerans]
+WP_247005043.1       -            401 ORF23.faa            -            432  9.2e-151  517.1   2.8   1   1  7.4e-158    1e-150  517.0   2.8    53   423     2   381     1   401 0.97 hypothetical protein [Halosolutus gelatinilyticus]
+WP_157884851.1       -            431 ORF23.faa            -            432  1.2e-150  516.7   8.4   1   1  9.7e-158  1.3e-150  516.6   8.4     6   412     3   429     1   431 0.96 hypothetical protein [Halorubrum aethiopicum]
+WP_255149788.1       -            438 ORF23.faa            -            432  2.6e-150  515.6   0.0   1   1  2.1e-157  2.9e-150  515.4   0.0     3   432     3   438     1   438 0.91 hypothetical protein [Halosegnis sp. ZY10]
+WP_176580080.1       -            430 ORF23.faa            -            432    3e-150  515.4  10.7   1   1  2.5e-157  3.3e-150  515.2  10.7     6   412     3   428     1   430 0.92 hypothetical protein [Halorubrum lacusprofundi]
+WP_088901272.1       -            430 ORF23.faa            -            432  5.1e-150  514.6  11.1   1   1  4.2e-157  5.7e-150  514.5  11.1     6   412     3   428     1   430 0.94 hypothetical protein [Halorubrum lacusprofundi]
+WP_227132345.1       -            440 ORF23.faa            -            432    7e-150  514.2   1.4   1   1  5.8e-157  7.8e-150  514.0   1.4     2   432     2   440     1   440 0.93 hypothetical protein [Halorubellus salinus]
+WP_227134594.1       -            459 ORF23.faa            -            432  2.3e-149  512.4   1.5   1   1    2e-156  2.7e-149  512.2   1.5     4   432     7   459     4   459 0.91 hypothetical protein [Halorubellus salinus]
+WP_253521882.1       -            367 ORF23.faa            -            432  2.6e-147  505.7   1.1   1   1  2.4e-154  3.2e-147  505.4   1.1    53   413     3   359     1   366 0.98 hypothetical protein [Halorussus sp. XZYJT10]
+WP_007273973.1       -            457 ORF23.faa            -            432  5.9e-147  504.5   6.0   1   1  4.9e-154  6.6e-147  504.4   6.0     3   432     2   457     1   457 0.92 hypothetical protein [Haloferax sulfurifontis]
+WP_254810614.1       -            437 ORF23.faa            -            432  3.8e-144  495.3   6.2   1   1  3.5e-151  4.7e-144  495.0   6.2     2   410     5   433     4   436 0.93 hypothetical protein [Saliphagus sp. WLHSJ1]
+WP_158205893.1       -            441 ORF23.faa            -            432  1.1e-143  493.7   0.1   1   1  9.5e-151  1.3e-143  493.5   0.1     3   431     8   440     6   441 0.92 hypothetical protein [Halomarina oriensis]
+WP_123619178.1       -            475 ORF23.faa            -            432  5.8e-139  478.2   4.9   1   1  5.5e-146  7.3e-139  477.9   4.9     3   432     7   475     5   475 0.92 hypothetical protein [Halorubrum sp. CSM-61]
+WP_004047795.1       -            443 ORF23.faa            -            432  1.3e-137  473.7   2.4   1   1  1.1e-144  1.4e-137  473.6   2.4     1   418     1   438     1   443 0.90 hypothetical protein [Halorubrum saccharovorum]
+ELZ14417.1           -            434 ORF23.faa            -            432  2.4e-132  456.4   0.0   1   1    2e-139  2.7e-132  456.2   0.0     3   432     3   434     1   434 0.93 hypothetical protein C478_07327 [Natrinema thermotolerans DSM 11552]
+WP_153952726.1       -            457 ORF23.faa            -            432  1.6e-119  414.1   0.0   1   1  1.6e-126  2.2e-119  413.7   0.0     4   432     3   457     1   457 0.92 hypothetical protein [Halosegnis longus]
+WP_004048500.1       -            248 ORF23.faa            -            432   3.9e-84  297.5   5.6   1   1   3.2e-91   4.3e-84  297.4   5.6   166   412     2   246     1   248 0.98 hypothetical protein [Halorubrum saccharovorum]
+WP_199522775.1       -            229 ORF23.faa            -            432   2.9e-78  278.2   9.2   1   1   2.3e-85   3.1e-78  278.1   9.2     4   232     3   228     1   229 0.91 hypothetical protein, partial [Haloferax sp. Atlit-4N]
+WP_158546613.1       -            231 ORF23.faa            -            432   6.6e-53  194.6   0.7   1   1   5.5e-60   7.4e-53  194.5   0.7   231   432     2   231     1   231 0.95 hypothetical protein, partial [Haloferax sp. Atlit-4N]
+WP_162991651.1       -            243 ORF23.faa            -            432   1.8e-24  100.9   0.1   1   1   1.6e-31   2.2e-24  100.7   0.1   326   431   116   243    93   243 0.83 hypothetical protein [Halostella salina]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../14_curated_profiles/ORF23.faa.msa.hmm
+# Target file:     /home/dlueckin/bioinf/dbs/diamond_nr/nr.gz
+# Option settings: hmmsearch --tblout ../15_hmmer_results/ORF23.txt --domtblout ../15_hmmer_results//ORF23_domtblout.txt -T 55 --cpu 16 ../14_curated_profiles/ORF23.faa.msa.hmm /home/dlueckin/bioinf/dbs/diamond_nr/nr.gz 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/generate_protein_clusters/scripts
+# Date:            Tue May  9 10:56:02 2023
+# [ok]
