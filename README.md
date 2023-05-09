@@ -19,7 +19,7 @@ If we identified like 30-50 (?) possible candidates, we do the follwing:
 2. then screen binned/not-binned contigs and select ones with hits >4000 bp and at least 4 (might be more for us, since for 4/4 for pleos, so we have to go higher?)
 3. further downstream quality control 
 
-(![image]("pictures/cluster_generation.png") )
+![image](./pictures/cluster_generation.png)
 
 ### Notes from Tomas
 - the concept is: lose addition of homologs then later on removal of short proteins and more distant proteins (see step 5, where we set the minimum score to be included equal to the maximum score of false positives + 10)
