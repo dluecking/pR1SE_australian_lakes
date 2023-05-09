@@ -1,0 +1,16 @@
+02/05/2023 16:08:08:240 Welcome to InterProScan-5.61-93.0
+02/05/2023 16:08:08:241 Running InterProScan v5 in STANDALONE mode... on Linux
+02/05/2023 16:08:22:386 RunID: hh-wp-10-01.ebi.ac.uk_20230502_160821454_f092
+02/05/2023 16:08:42:463 Loading file /nfs/public/rw/es/projects/wp-jdispatcher/logs/prod/sources/jobs/iprscan5/rest/20230502/1708/iprscan5-R20230502-170800-0821-23232098-p1m.sequence
+02/05/2023 16:08:42:467 Running the following analyses:
+[AntiFam-7.0,CDD-3.20,Coils-2.2.1,FunFam-4.3.0,Gene3D-4.3.0,Hamap-2021_04,MobiDBLite-2.0,PANTHER-17.0,Pfam-35.0,Phobius-1.01,PIRSF-3.10,PIRSR-2021_05,PRINTS-42.0,ProSitePatterns-2022_05,ProSiteProfiles-2022_05,SFLD-4,SignalP_EUK-4.1,SignalP_GRAM_NEGATIVE-4.1,SignalP_GRAM_POSITIVE-4.1,SMART-9.0,SUPERFAMILY-1.75,TIGRFAM-15.0,TMHMM-2.0c]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+02/05/2023 16:08:44:784 27% completed
+02/05/2023 16:08:58:775 54% completed
+02/05/2023 16:09:08:230 81% completed
+02/05/2023 16:09:08:756 90% completed
+02/05/2023 16:09:14:277 100% done:  InterProScan analyses completed 
+
+2023-05-02 16:09:14,783 [main] [uk.ac.ebi.interpro.scan.jms.master.AbstractMaster:259] WARN - Master process unable to delete temporary directory /nfs/public/rw/es/projects/wp-jdispatcher/logs/prod/sources/jobs/iprscan5/rest/20230502/1708/temp/hh-wp-10-01.ebi.ac.uk_20230502_160821454_f092

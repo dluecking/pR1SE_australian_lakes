@@ -1,0 +1,122 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 7
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+all                     1              1              1
+iterative_blastp        7              1              1
+total                   8              1              1
+
+Select jobs to execute...
+
+[Fri Apr 21 12:40:30 2023]
+rule iterative_blastp:
+    input: initial_proteins/ORF6_initial_proteins.faa
+    output: blastp_proteins/ORF6_blastp_proteins.faa
+    log: log/ORF6_test.log
+    jobid: 1
+    wildcards: ORF=ORF6
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10:00:00, partition=CLUSTER
+
+Submitted job 1 with external jobid 'Submitted batch job 61608'.
+
+[Fri Apr 21 12:40:30 2023]
+rule iterative_blastp:
+    input: initial_proteins/ORF17_initial_proteins.faa
+    output: blastp_proteins/ORF17_blastp_proteins.faa
+    log: log/ORF17_test.log
+    jobid: 4
+    wildcards: ORF=ORF17
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10:00:00, partition=CLUSTER
+
+Submitted job 4 with external jobid 'Submitted batch job 61609'.
+
+[Fri Apr 21 12:40:30 2023]
+rule iterative_blastp:
+    input: initial_proteins/ORF23_initial_proteins.faa
+    output: blastp_proteins/ORF23_blastp_proteins.faa
+    log: log/ORF23_test.log
+    jobid: 6
+    wildcards: ORF=ORF23
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10:00:00, partition=CLUSTER
+
+Submitted job 6 with external jobid 'Submitted batch job 61610'.
+
+[Fri Apr 21 12:40:30 2023]
+rule iterative_blastp:
+    input: initial_proteins/ORF10_initial_proteins.faa
+    output: blastp_proteins/ORF10_blastp_proteins.faa
+    log: log/ORF10_test.log
+    jobid: 3
+    wildcards: ORF=ORF10
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10:00:00, partition=CLUSTER
+
+Submitted job 3 with external jobid 'Submitted batch job 61611'.
+
+[Fri Apr 21 12:40:30 2023]
+rule iterative_blastp:
+    input: initial_proteins/ORF8_initial_proteins.faa
+    output: blastp_proteins/ORF8_blastp_proteins.faa
+    log: log/ORF8_test.log
+    jobid: 2
+    wildcards: ORF=ORF8
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10:00:00, partition=CLUSTER
+
+Submitted job 2 with external jobid 'Submitted batch job 61612'.
+
+[Fri Apr 21 12:40:30 2023]
+rule iterative_blastp:
+    input: initial_proteins/ORF21_initial_proteins.faa
+    output: blastp_proteins/ORF21_blastp_proteins.faa
+    log: log/ORF21_test.log
+    jobid: 5
+    wildcards: ORF=ORF21
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10:00:00, partition=CLUSTER
+
+Submitted job 5 with external jobid 'Submitted batch job 61613'.
+
+[Fri Apr 21 12:40:31 2023]
+rule iterative_blastp:
+    input: initial_proteins/ORF24_initial_proteins.faa
+    output: blastp_proteins/ORF24_blastp_proteins.faa
+    log: log/ORF24_test.log
+    jobid: 7
+    wildcards: ORF=ORF24
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10:00:00, partition=CLUSTER
+
+Submitted job 7 with external jobid 'Submitted batch job 61614'.
+Waiting at most 50 seconds for missing files.
+[Fri Apr 21 12:40:51 2023]
+Finished job 1.
+1 of 8 steps (12%) done
+[Fri Apr 21 12:40:54 2023]
+Finished job 4.
+2 of 8 steps (25%) done
+[Fri Apr 21 12:40:56 2023]
+Finished job 6.
+3 of 8 steps (38%) done
+[Fri Apr 21 12:40:59 2023]
+Finished job 3.
+4 of 8 steps (50%) done
+[Fri Apr 21 12:41:01 2023]
+Finished job 2.
+5 of 8 steps (62%) done
+[Fri Apr 21 12:41:03 2023]
+Finished job 5.
+6 of 8 steps (75%) done
+[Fri Apr 21 12:41:06 2023]
+Finished job 7.
+7 of 8 steps (88%) done
+Select jobs to execute...
+
+[Fri Apr 21 12:41:06 2023]
+localrule all:
+    input: blastp_proteins/ORF6_blastp_proteins.faa, blastp_proteins/ORF8_blastp_proteins.faa, blastp_proteins/ORF10_blastp_proteins.faa, blastp_proteins/ORF17_blastp_proteins.faa, blastp_proteins/ORF21_blastp_proteins.faa, blastp_proteins/ORF23_blastp_proteins.faa, blastp_proteins/ORF24_blastp_proteins.faa
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Fri Apr 21 12:41:06 2023]
+Finished job 0.
+8 of 8 steps (100%) done
+Complete log: /home/dlueckin/projects/pR1SE_australian_lakes/generate_protein_clusters/.snakemake/log/2023-04-21T124026.452705.snakemake.log

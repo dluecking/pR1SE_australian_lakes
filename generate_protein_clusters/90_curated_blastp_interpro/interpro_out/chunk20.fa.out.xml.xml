@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interproscan-version="5.61-93.0">
+  <protein>
+    <sequence md5="b170d50b7fb0f489e4d35f4db2f2d799">MRVLALCLLLVLTPIAAAAPATASTVATDEQPQCETTVTHDAFRTDNATVADATNGTATSTADNTEVSVDTNVAFVHLNAKNPNGYCVRYVVEIGPEVIDPADLGHIDANNGSEEATWRALHDFDADETYTQVEFVLEGGEEATFAPSKLRVTSLKWTGTAKNATSGLLPDIGLGSIFGGGDLEQRTYTLTAENSSDTVSVALSNESLDKEVAEYQAVYRTDDRGWTPVETDSDDAVFLREADGGDVVEFTFNDPDAEVEFTANPSALDKTRHQYRSYLSGADWIRDLIPGFAGVTAALHAVPLLLPVGVKHHS</sequence>
+    <xref id="WP_049904836.1" name="WP_049904836.1 hypothetical protein [Natrialba asiatica]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="3" end="13">
+            <location-fragments>
+              <phobius-location-fragment start="3" end="13" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="2">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="2" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="19" end="314">
+            <location-fragments>
+              <phobius-location-fragment start="19" end="314" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="14" end="18">
+            <location-fragments>
+              <phobius-location-fragment start="14" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="18">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.94" start="1" end="18">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.724" start="1" end="23">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="23" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.882" start="1" end="23">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="23" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="44307d61ae16bc246ff381564fbc2027">MHQHTFRVLLAAVLAVCLVGLAAGGTLAQDDTPSPEMEVVYDEFRTDDTVVENANTTGSAQVIKQNTRATVEDDDAFVRLGLENPNSYAVAFEVQLSEEIVRPATLGTVRATDTDGVTADWQAQHDFEAEETHTRVTVVVPAETDVLFTPSQLRVKSLSWTGEAEQSAETLRERVTTLWEDDRLEQRTYQVTGSEGEIVTVDLENPETGDRIEEWHATYTLAGDEAARPTPLAEGTGEPVFYRPIENDDGTVDAIQVTFNEAGTVSLTVEPTTTEKLGFEMTSYRSSVLDGFEWGPFASTARVTP</sequence>
+    <xref id="WP_088901266.1" name="WP_088901266.1 hypothetical protein [Halorubrum lacusprofundi]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="20" end="28">
+            <location-fragments>
+              <phobius-location-fragment start="20" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="8" end="19">
+            <location-fragments>
+              <phobius-location-fragment start="8" end="19" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="29" end="305">
+            <location-fragments>
+              <phobius-location-fragment start="29" end="305" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="7">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="7" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="28">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.664" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.871" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.851" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="5" end="27">
+            <location-fragments>
+              <tmhmm-location-fragment start="5" end="27" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="a6011727e2d6942702a7362cf543d72f">MTQNTFRAILTAVLVVCLVGLAAGGTLAQDDTLNPEMEVVFDEFRTDEAVVENANTTGSTQITKQNTRATVEDDDAFVRLGLENPNSYAVAFEVQLDKAIVKPATLGTVRAVDNDTVTANWEANHDFEAEETHTQVTVVVPAETDVLFTPSQLRVKSLSWTGEAERSAETIRERVTQLWEENRLEQREYDVTGSEGEIVTVDLQNPETGERVEEWHATYALSDKPDARPTPLAEGTGEPVFYRPIENDEGDVEAIQVTFNEAATVTLTVEPTATEKLGYEVTSYRSSVFDGFDWGPFGGGWNP</sequence>
+    <xref id="WP_066418790.1" name="WP_066418790.1 hypothetical protein [Halorubrum aethiopicum]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="20" end="28">
+            <location-fragments>
+              <phobius-location-fragment start="20" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="8" end="19">
+            <location-fragments>
+              <phobius-location-fragment start="8" end="19" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="7">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="7" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="28">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="29" end="303">
+            <location-fragments>
+              <phobius-location-fragment start="29" end="303" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.876" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.871" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.641" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="5" end="27">
+            <location-fragments>
+              <tmhmm-location-fragment start="5" end="27" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="1193bfbc3461f24c9f65fa882ac7d559">MNRSAVVLVVLVVLAPLTATVPAAATDEQPDCETTVRHDAFRTDDATISEAQNGTATSTAENTEVSTDTNVGFVHLSATNPNGYCVRYVVEISPDVIDPADLGHIDANNGSETATWRALHDLETDETYTEVEFVLQPGEEATFAPSKLRVKSLKWTGDAKDATSGLLPNIDLGLGAIFGGGDLEQRTYTLTADNNSEDRVSVALTNESADREISEYHAVYRTDDQGWTPVGTDTDDPVYKSESAEGDVVEFHFTDPGAEVEFTANPTVVDSARHQYRSYTSGIDFLDGLLPGGTDGTAAIHALTLPLAAEVTTDP</sequence>
+    <xref id="WP_049967309.1" name="WP_049967309.1 hypothetical protein [Natrinema thermotolerans]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="4" end="15">
+            <location-fragments>
+              <phobius-location-fragment start="4" end="15" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="16" end="23">
+            <location-fragments>
+              <phobius-location-fragment start="16" end="23" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="3">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="3" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="24" end="315">
+            <location-fragments>
+              <phobius-location-fragment start="24" end="315" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="23">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="23" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.85" start="1" end="25">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.841" start="1" end="20">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="20" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.798" start="1" end="25">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="7" end="26">
+            <location-fragments>
+              <tmhmm-location-fragment start="7" end="26" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="194d04707b19ab2f69a24b2ffb3e0a4b">MRRALLMCVLLVLVPLGAATPAAAQNDDTTCETTVTHDAFRSDETTVTEATNGTASSTVENTEVSVDTNVGFVHLSAENPNGYCVNYVVEISPDVIDPADLGEIEANNGTETASWQAIHDFDADETYTKVEFALEGGESATFAPSKLRVTSLKWTGDAKEATSGILPDIDLGLGAIFGDGDLEQRKYTLAPENSSGDSVSVALSNDSLDKEITEYQAVYRIGDGRWIPVQTDSSDPVYKDEGEGTVTFHFDESDAEVEFIANPTMVDKATHEYRAYMAGADWIQNLIPGFAGASATLHALTLPLTAAVTHNP</sequence>
+    <xref id="WP_226043409.1" name="WP_226043409.1 hypothetical protein [Natrinema sp. DC36]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="4" end="16">
+            <location-fragments>
+              <phobius-location-fragment start="4" end="16" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="24">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="24" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="25" end="312">
+            <location-fragments>
+              <phobius-location-fragment start="25" end="312" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="3">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="3" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="17" end="24">
+            <location-fragments>
+              <phobius-location-fragment start="17" end="24" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.864" start="1" end="24">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="24" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.812" start="1" end="24">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="24" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.936" start="1" end="19">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="19" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="23770d2e27d30b338f6c30cb0d6218ed">MHQHTFRALLAAVLAVCLVGLAAGGTLAQDDTPSPEMEVVYDEFRTDDTVVENANTTGSAQVIKQNTRATIEDDDAFVRVGLENPNSYAVAFEVQLSEKIVRPATLGTVRATDTDGVTADWQAQHDFEAEETHTRVTVVVPAETDVLFTPSQLRVKSLSWTGDAEQSAETLRERVTKLWEDDRLEQRTYEVTGSEGEIVTVDLENPETGDRIEEWHATYTLAGDEAARPTPLAEGTGEPVFYRPIENDDGTVDAIQVTFNEAGTVSLTVEPTTTEKLGFEMTSYRSSVLDGFEWGPFASTARVTP</sequence>
+    <xref id="WP_176580077.1" name="WP_176580077.1 hypothetical protein [Halorubrum lacusprofundi]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="20" end="28">
+            <location-fragments>
+              <phobius-location-fragment start="20" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="8" end="19">
+            <location-fragments>
+              <phobius-location-fragment start="8" end="19" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="29" end="305">
+            <location-fragments>
+              <phobius-location-fragment start="29" end="305" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="7">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="7" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="28">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.67" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.875" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.85" start="1" end="28">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="5" end="27">
+            <location-fragments>
+              <tmhmm-location-fragment start="5" end="27" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="6fc8d4914bf089744fc70c795eb1093c">MTKDTKTNTRARVLSVTLAALLVASLVTFGLGLSSTALADTDADAVCEPERSITYDEFRTDQATVDEANHTGSTDVSKDNTLATIEGGEAFHRVTLENPNSYCVEFELQISEELVTPSTIGTISGSELEGFEDYPTPKAYWESTHSFDQDETYTRITVTMPAESQALFAPSKARVEGLSWIGEGAAAAEGLQDRLVSSLGFGSDLETREYTLEGNDSETVTIDLVNPQTGEPLEDWHATYTVDGSHDIPLDSGSDEPVYYRELTDDDGDVTAIEITFNEAAELEFTADPRVRDTLSYDLTSFEADLRALMGSINLPFMVVGEPTTMPLPTLTDVTTGFEVSP</sequence>
+    <xref id="WP_254810608.1" name="WP_254810608.1 hypothetical protein [Saliphagus sp. WLHSJ1]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="32" end="39">
+            <location-fragments>
+              <phobius-location-fragment start="32" end="39" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="12">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="12" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="40" end="342">
+            <location-fragments>
+              <phobius-location-fragment start="40" end="342" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="13" end="31">
+            <location-fragments>
+              <phobius-location-fragment start="13" end="31" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="39">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="39" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.683" start="1" end="39">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="39" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.686" start="1" end="39">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="39" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="13" end="35">
+            <location-fragments>
+              <tmhmm-location-fragment start="13" end="35" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="9262affcb41014f471f70accab52f1b1">MLVLTPIAAAAPATASTVATDEQPQCETTVTHDAFRTDNATVADATNGTATSTADNTEVSVDTNVAFVHLNAKNPNGYCVRYVVEIGPEVIDPADLGHIDANNGSEEATWRALHDFDADETYTQVEFVLEGGEEATFAPSKLRVTSLKWTGTAKNATSGLLPDIGLGSIFGGGDLEQRTYTLTAENSSDTVSVALSNESLDKEVAEYQAVYRTDDRGWTPVETDSDDAVFLREADGGDVVEFTFNDPDAEVEFTANPSALDKTRHQYRSYLSGADWIRDLIPGFAGVTAALHAVPLLLPVGVKHHS</sequence>
+    <xref id="ELY97150.1" name="ELY97150.1 hypothetical protein C481_21216 [Natrialba asiatica DSM 12278]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="15">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="15" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="11" end="15">
+            <location-fragments>
+              <phobius-location-fragment start="11" end="15" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="16" end="306">
+            <location-fragments>
+              <phobius-location-fragment start="16" end="306" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="1">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="1" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="2" end="10">
+            <location-fragments>
+              <phobius-location-fragment start="2" end="10" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.475" start="1" end="20">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="20" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.601" start="1" end="15">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="15" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.494" start="1" end="15">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="15" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="8b3009376dcc971a218888cbaf93257d">MRILALCLLLVLTPIAAATPATASAVTDEQPQCETTVTHDAFRTDNATVSDATNGTATSSVDNTEVSVDTNVAFVHLNAKNPNGYCVRYVVEIGPEVIDPADLGHIDANNGSEEATWRALHDFDVDETYTQVEFVLEGGEEATFAPSKLRVTSLKWTGTAKNATSGLLPDIGLGSIFGGGDLEQRTYTLTAENSSESVSVALSNESLDKEVGEYQAVYRTDDRGWTPVETDSDDAVFLREADGGDVVEFTFNDPDAEVEFTANPSALDKARHQYRSYLSGADWIRDLIPGFAGVTAALHAAPLPFAVGVRHHS</sequence>
+    <xref id="WP_006665481.1" name="WP_006665481.1 hypothetical protein [Natrialba aegyptia]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="25">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="3" end="13">
+            <location-fragments>
+              <phobius-location-fragment start="3" end="13" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="2">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="2" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="14" end="25">
+            <location-fragments>
+              <phobius-location-fragment start="14" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="26" end="313">
+            <location-fragments>
+              <phobius-location-fragment start="26" end="313" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.94" start="1" end="18">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.825" start="1" end="25">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.884" start="1" end="23">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="23" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+    </matches>
+  </protein>
+  <protein>
+    <sequence md5="4d57196258b0ea8368efd8112d0be937">MGSLTTPRVLFLCLVLVLAPIGATMPATASTMTMTDDQPECETTVTHDAFRTDNETVTAAQNGTATSTVDNTDVSVDTDVGFVHLNAKNPNGYCVRYVVEMSPDVIDPADLGHIDANNGSETATWRAIHDFDADETYTEVEFVLQGGEEATFAPSKLRVTSLKWTGTAKNATNGWLPQVDLSLGSLFGDGDLEQRQYTLSAENNSEDSVSVSLANESLGKEVSEYQAVYRTDDGRWTPVGTDTGDPVYKSESGDGSVVNFHFNDADAEVEFTANPTAVDKAKHQYRSYLSGIDFLDGIMPGLAGGSSVLQTLSLPLVAEVKPNP</sequence>
+    <xref id="WP_012946156.1" name="WP_012946156.1 hypothetical protein [Haloterrigena turkmenica]"/>
+    <matches>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="9">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="9" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="30" end="324">
+            <location-fragments>
+              <phobius-location-fragment start="30" end="324" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="10" end="21">
+            <location-fragments>
+              <phobius-location-fragment start="10" end="21" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="22" end="29">
+            <location-fragments>
+              <phobius-location-fragment start="22" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="29">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.712" start="1" end="29">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.714" start="1" end="29">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.896" start="1" end="29">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="7" end="29">
+            <location-fragments>
+              <tmhmm-location-fragment start="7" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+</protein-matches>

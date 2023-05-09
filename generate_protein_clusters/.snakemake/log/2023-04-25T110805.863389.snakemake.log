@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 7
+Job stats:
+job                     count    min threads    max threads
+--------------------  -------  -------------  -------------
+all                         1              1              1
+iterative_blastp_ASL        1              1              1
+total                       2              1              1
+
+Select jobs to execute...
+
+[Tue Apr 25 11:08:10 2023]
+rule iterative_blastp_ASL:
+    input: blastp_proteins/ORF6_blastp_proteins.faa
+    output: blastp_proteins/ORF6_blastp_ASL_proteins.faa
+    log: log/ORF6_test.log
+    jobid: 1
+    wildcards: ORF=ORF6
+    resources: tmpdir=/tmp, mem=50GB, threads=16, time=10-10:00:00, partition=CLUSTER
+
+Submitted job 1 with external jobid 'Submitted batch job 61665'.
+[Tue Apr 25 11:16:51 2023]
+Error in rule iterative_blastp_ASL:
+    jobid: 1
+    output: blastp_proteins/ORF6_blastp_ASL_proteins.faa
+    log: log/ORF6_test.log (check log file(s) for error message)
+    conda-env: diamond
+    shell:
+        
+        python3 scripts/01_iterative_blast.py         blastp_proteins/ORF6_blastp_proteins.faa blastp_proteins/ORF6_blastp_ASL_proteins.faa --db /bioinf/home/dlueckin/australian_salt_lakes/combined_australian_lakes_proteins.dmnd         --evalue 1e-05         --bitscore 50 
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 61665
+
+Error executing rule iterative_blastp_ASL on cluster (jobid: 1, external: Submitted batch job 61665, jobscript: /home/dlueckin/projects/pR1SE_australian_lakes/generate_protein_clusters/.snakemake/tmp._df8bdei/snakejob.iterative_blastp_ASL.1.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/dlueckin/projects/pR1SE_australian_lakes/generate_protein_clusters/.snakemake/log/2023-04-25T110805.863389.snakemake.log

@@ -1,0 +1,1872 @@
+{
+ "interproscan-version": "5.61-93.0",
+"results": [ {
+  "sequence" : "MSTFGNLENSIGSNRAWALARLGMAVLYIILGWIPATIAFVIGAVYFLGDITLKLTVNRRMEFLKPWARSTLVWNYDLILWIFGVEDWPGWMGWTP",
+  "md5" : "06b1aa2844d92ffc1f2556e2250bacf9",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 25,
+      "end" : 47,
+      "location-fragments" : [ {
+        "start" : 25,
+        "end" : 47,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 48,
+      "end" : 66,
+      "location-fragments" : [ {
+        "start" : 48,
+        "end" : 66,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 85,
+      "end" : 96,
+      "location-fragments" : [ {
+        "start" : 85,
+        "end" : 96,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 24,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 24,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 27,
+      "end" : 49,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 27,
+        "end" : 49,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 67,
+      "end" : 84,
+      "location-fragments" : [ {
+        "start" : 67,
+        "end" : 84,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  } ],
+  "xref" : [ {
+    "name" : "WP_157884856.1 hypothetical protein [Halorubrum aethiopicum]",
+    "id" : "WP_157884856.1"
+  } ]
+},{
+  "sequence" : "MFNNTRLTSLALVALMLLSVVAMGAGTAAAETTTLNGDGTDEVTGFAANNSNDIANSIASDGTDFTTDGTTKLFMNVTYDGEQYALTEEDVSDGTSASQTVNISNDELSDLPGDATKTTNVTVTTWGEDSGGNVTTATSEFFVDFTFDNTYSATTADDNNAELEEDDGGLFSAFNLHTLTFGAFGEEAENFDLHTYDQTVGIDGSNTTVTVNDATSNGTDAFDDAMGEDKESGDLIYGAAAAADDAPVLAFYDSADEDIVDAENDTYAVYDSSSGVWTFNAGEDQAGQTQMDVFVSSQSYTSDDLDYDADDLGDLFKEQADMGARDLGSAFGWGSLTTFYLSSVPGLGMIASGGSLFAGLFVVGRPQTQTAA",
+  "md5" : "27ab58a8500e8b985656ebf47e97317d",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 30,
+      "score" : 0.846,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 30,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 30,
+      "score" : 0.882,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 30,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 29,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 29,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 24,
+      "score" : 0.91,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 24,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 341,
+      "end" : 363,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 341,
+        "end" : 363,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  } ],
+  "xref" : [ {
+    "name" : "WP_276257232.1 hypothetical protein [Halovivax sp. TS33]",
+    "id" : "WP_276257232.1"
+  } ]
+},{
+  "sequence" : "MSAFGSLEDSVGENRAWALARLTMGILYLALGWIPASIGGAIGLIYFIGDITLKLTVGRRMEWLRPWAKSTLVWNYDLVLWIFGVEDWPGWMGWSP",
+  "md5" : "c86fabf3243d5cac5734d46bc0715db9",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 25,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 25,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 50,
+      "end" : 96,
+      "location-fragments" : [ {
+        "start" : 50,
+        "end" : 96,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 26,
+      "end" : 48,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 26,
+        "end" : 48,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 26,
+      "end" : 49,
+      "location-fragments" : [ {
+        "start" : 26,
+        "end" : 49,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  } ],
+  "xref" : [ {
+    "name" : "WP_004048516.1 hypothetical protein [Halorubrum saccharovorum]",
+    "id" : "WP_004048516.1"
+  } ]
+},{
+  "sequence" : "MTNTTRAFAVFMTMLLAVSAVGVAFTGGVAAETTTLAGDGTDQVTGFEANASNDIATSIAADGTDFGTDGTTVLKMNVSYDGETYAVTSEDVATSTDASQTVNISNDELSDLPGDAGANTTVTVTTWGVDADGNTTTAEASFKTDITFANTYAVTTADDTSATIEEPESGFFSLNSWTLGLFGTSSDEKPDLHTYENTVGIDGSNTTVTLNDETSNGSDAFSDAMEDKEAGDLIYGASAAADGTPVLAFYQEADTDMVDETDTYAVYDANGNDEWTFELGDAQADATEVDLFVSSQSYTDVDSFESADLADLFKEQADMGVSDLGSAFGWGSLSTFYLSGIGLGMIGTGGASLAGFGLFFAGRRRLFA",
+  "md5" : "14602a75c7db8b23185576fa856ab4d1",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 30,
+      "score" : 0.741,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 30,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "score" : 0.823,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 336,
+      "end" : 361,
+      "location-fragments" : [ {
+        "start" : 336,
+        "end" : 361,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 14,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 14,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 27,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 27,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 338,
+      "end" : 360,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 338,
+        "end" : 360,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 362,
+      "end" : 368,
+      "location-fragments" : [ {
+        "start" : 362,
+        "end" : 368,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 15,
+      "end" : 26,
+      "location-fragments" : [ {
+        "start" : 15,
+        "end" : 26,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 29,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 29,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 32,
+      "end" : 335,
+      "location-fragments" : [ {
+        "start" : 32,
+        "end" : 335,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "score" : 0.664,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  } ],
+  "xref" : [ {
+    "name" : "WP_226043415.1 hypothetical protein [Natrinema sp. DC36]",
+    "id" : "WP_226043415.1"
+  } ]
+},{
+  "sequence" : "MNFNRSTVTTLFMVALVALAGIGAFAGSASAATTTLAGDGTDTVTGFTADSSNDLETSIASDGTDFDTDGTETLKMNVSYDGETYALTSEDVTDGTTASQTVNLSNDKLSDLPGDAGQITTVSVTTWGVDGSGTVTTAESSFQVDITFDNSYAVTNVDDSSATIEDVDASGWNTFSFGLLGDDDPADRHTYERTVGVDGSNTTVTLNDETTNGSSAFSDAMDDKDSGDLIHGASTGVNGTPVLAFYQSADSDIVDTSTDTYAVYDANGNGEWTFELGDDYSDATSVDLYVSSQSFTSVDSFEQADLNSLFIDKADMGLYSLGSNFGWTSLGSFSLLEAIGIGMTAPAGGLSLAFLIPAGRRRLGGA",
+  "md5" : "098819d1c376c0b59437a05edbc6bebc",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 8,
+      "end" : 19,
+      "location-fragments" : [ {
+        "start" : 8,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "score" : 0.801,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "score" : 0.847,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 32,
+      "end" : 366,
+      "location-fragments" : [ {
+        "start" : 32,
+        "end" : 366,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 20,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 20,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 7,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 7,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 29,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 29,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "score" : 0.892,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  } ],
+  "xref" : [ {
+    "name" : "WP_238705388.1 hypothetical protein [Natrinema pallidum]",
+    "id" : "WP_238705388.1"
+  } ]
+},{
+  "sequence" : "MQFNRSTVTTLLMVALVALAGVGAVAMSTSAATTTLAGDGTDQVTGFTANASNDIETSIASDGTDFSTDGTETLYMNVTYDGEEYALTSDAVSSGTSASQTVNITNDQLAELPGDAGQNTTVTVHTWGENSTGDVTTAETNFNADITFADSYAVAEMDDSSADLTEPDVGVLSSSWASVSSLWSSSSDDPVDTHSFEQTVGVNGSDTTVTVTDKTTNGSDAFDNAIGDKESGDLIYGASAGVNGSPVLAFYQSADSDIVDTDTDTYAVYDANGNGEWTFHLGDDYSDASSVDVYVSSQSMDSVSDFSAEDRTSVLSQAGMGMTSALTTFGFGSFGAFNLFSLASIPIIGGMAVAFVIPAGRRRLGA",
+  "md5" : "966496646d9928a9630be5e5622c12ec",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 335,
+      "end" : 357,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 335,
+        "end" : 357,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 20,
+      "end" : 37,
+      "location-fragments" : [ {
+        "start" : 20,
+        "end" : 37,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 8,
+      "end" : 19,
+      "location-fragments" : [ {
+        "start" : 8,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 24,
+      "score" : 0.763,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 24,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 37,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 37,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 358,
+      "end" : 366,
+      "location-fragments" : [ {
+        "start" : 358,
+        "end" : 366,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 38,
+      "end" : 333,
+      "location-fragments" : [ {
+        "start" : 38,
+        "end" : 333,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 20,
+      "score" : 0.88,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 20,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "score" : 0.703,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 7,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 7,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 334,
+      "end" : 357,
+      "location-fragments" : [ {
+        "start" : 334,
+        "end" : 357,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 29,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 29,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  } ],
+  "xref" : [ {
+    "name" : "WP_049967304.1 hypothetical protein [Natrinema thermotolerans]",
+    "id" : "WP_049967304.1"
+  } ]
+},{
+  "sequence" : "MTTNLKRVATLFMVAMLALSAVGMAFTGGVAAETTTLAGDGSDSATGFEANASDHLEYDLSSDGTDFSTDNTSTALLNITYDGEQYYETSADVDGTNSSYTFNVSHSELEKLPGDAGANTTITVNAWGEDADGNETTSMDTFNVDLEFASTYAVTNVDDDSATIEDVEASSWNTFSFGLLGDEEPNDLHTYEQTVGINGSDTTVTVYDDTENGSSVFEDAMGDDLESGDVITGAAVAADGTPILAFYEEADTDVVSDGDTYAVYNGDGSWTIHTGDAQDGNSEMDVFIESESYTAASQDFDKSDMGSIFLESADMGVMDAFSAFGTDAFTSFSFGDLLPF",
+  "md5" : "a9ceae0d54e8b5e54d2abc09e4d80523",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 32,
+      "score" : 0.716,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 32,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 8,
+      "end" : 19,
+      "location-fragments" : [ {
+        "start" : 8,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 32,
+      "score" : 0.798,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 32,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 20,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 20,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 25,
+      "score" : 0.739,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 25,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 7,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 7,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 32,
+      "end" : 340,
+      "location-fragments" : [ {
+        "start" : 32,
+        "end" : 340,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 29,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 29,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  } ],
+  "xref" : [ {
+    "name" : "WP_013876076.1 hypothetical protein [Halopiger xanaduensis]",
+    "id" : "WP_013876076.1"
+  } ]
+},{
+  "sequence" : "MGFPPFSWLESSIGENRSWALARVTIGILYLALGWIPATIGFAVGLVYFFGDITLKLTVNRRMEWLRPWAKSTLVWNYDLVLWIFGVEEFPGWMGWTP",
+  "md5" : "4c48f7c79bf4de27b3536be8a1e9595b",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 50,
+      "end" : 68,
+      "location-fragments" : [ {
+        "start" : 50,
+        "end" : 68,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 20,
+      "end" : 49,
+      "location-fragments" : [ {
+        "start" : 20,
+        "end" : 49,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 87,
+      "end" : 98,
+      "location-fragments" : [ {
+        "start" : 87,
+        "end" : 98,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 28,
+      "end" : 50,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 28,
+        "end" : 50,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 69,
+      "end" : 86,
+      "location-fragments" : [ {
+        "start" : 69,
+        "end" : 86,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  } ],
+  "xref" : [ {
+    "name" : "WP_088901260.1 hypothetical protein [Halorubrum lacusprofundi]",
+    "id" : "WP_088901260.1"
+  } ]
+},{
+  "sequence" : "MVALVALAGIGAFAGSASAATTTLAGDGTDTVTGFTADSSNDLETSIASDGTDFDTDGTETLKMNVSYDGETYALTSEDVTDGTTASQTVNLSNDKLSDLPGDAGQITTVSVTTWGVDGSGTVTTAESSFQVDITFDNSYAVTNVDDSSATIEDVDASGWNTFSFGLLGDDDPADRHTYERTVGVDGSNTTVTLNDETTNGSSAFSDAMDDKDSGDLIHGASTGVNGTPVLAFYQSADSDIVDTSTDTYAVYDANGNGEWTFELGDDYSDATSVDLYVSSQSFTSVDSFEQADLNSLFIDKADMGLYSLGSNFGWTSLGSFSLLEAIGIGMTAPAGGLSLAFLIPAGRRRLGGA",
+  "md5" : "d7814002ab27d8507d415fc902035829",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 15,
+      "end" : 19,
+      "location-fragments" : [ {
+        "start" : 15,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "score" : 0.796,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "score" : 0.773,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 2,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 2,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 3,
+      "end" : 14,
+      "location-fragments" : [ {
+        "start" : 3,
+        "end" : 14,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 20,
+      "end" : 354,
+      "location-fragments" : [ {
+        "start" : 20,
+        "end" : 354,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "score" : 0.878,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  } ],
+  "xref" : [ {
+    "name" : "QCW05316.1 hypothetical protein FGF80_18435 (plasmid) [Natrinema pallidum]",
+    "id" : "QCW05316.1"
+  } ]
+},{
+  "sequence" : "MVALVALAGVGAVAMSTSAATTTLAGDGTDQVTGFTANASNDIETSIASDGTDFSTDGTETLYMNVTYDGEEYALTSDAVSSGTSASQTVNITNDQLAELPGDAGQNTTVTVHTWGENSTGDVTTAETNFNADITFADSYAVAEMDDSSADLTEPDVGVLSSSWASVSSLWSSSSDDPVDTHSFEQTVGVNGSDTTVTVTDKTTNGSDAFDNAIGDKESGDLIYGASAGVNGSPVLAFYQSADSDIVDTDTDTYAVYDANGNGEWTFHLGDDYSDASSVDVYVSSQSMDSVSDFSAEDRTSVLSQAGMGMTSALTTFGFGSFGAFNLFSLASIPIIGGMAVAFVIPAGRRRLGA",
+  "md5" : "15e63174f50619857c963f0f39052e90",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 323,
+      "end" : 345,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 323,
+        "end" : 345,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "score" : 0.665,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 25,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 25,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 322,
+      "end" : 345,
+      "location-fragments" : [ {
+        "start" : 322,
+        "end" : 345,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 2,
+      "end" : 13,
+      "location-fragments" : [ {
+        "start" : 2,
+        "end" : 13,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 26,
+      "end" : 321,
+      "location-fragments" : [ {
+        "start" : 26,
+        "end" : 321,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 346,
+      "end" : 354,
+      "location-fragments" : [ {
+        "start" : 346,
+        "end" : 354,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "score" : 0.784,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 1,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 1,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 25,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 25,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "score" : 0.678,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  } ],
+  "xref" : [ {
+    "name" : "QCC57193.1 hypothetical protein DVR14_00525 (plasmid) [Natrinema thermotolerans]",
+    "id" : "QCC57193.1"
+  } ]
+} ]
+}
