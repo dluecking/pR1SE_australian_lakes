@@ -55,4 +55,5 @@ for(file in list.files("../01_hmm_results", full.names = TRUE, pattern = "domtbl
     }
 }
 
-big_df$contig <- paste0(big_df$lake, "_", str_extract(big_df$hit, "megahit\\_\\d*"))
+big_df$contig <- str_remove(big_df$hit, pattern = "\\_length.*")
+contig_df <- data.table(table(big_df$contig))

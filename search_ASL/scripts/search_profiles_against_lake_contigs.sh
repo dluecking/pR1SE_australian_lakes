@@ -14,7 +14,7 @@
 #SBATCH --mem=100G   # memory per NODE
 #SBATCH --ntasks=16
 #SBATCH --partition=CLUSTER
-#SBATCH --array=1-13
+#SBATCH --array=1-12
 
 
 source /home/dlueckin/bin/miniconda3/etc/profile.d/conda.sh
@@ -36,7 +36,7 @@ do
       --tblout ../01_hmm_results/${LAKE}_${ORF}.txt \
       --cpu 16 \
       ../input_profiles/${ORF}.faa.msa.hmm \
-      ~/bioinf/australian_salt_lakes/sqm/${LAKE}/results/03.${LAKE}.faa
+      ~/bioinf/australian_salt_lakes/tal/4_Dom/${LAKE}_metaspades.faa
 
   fi
 done   

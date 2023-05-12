@@ -1,0 +1,917 @@
+LOCUS       NZ_AOJE01000051        48216 bp    DNA     linear   CON 08-MAR-2023
+DEFINITION  Halorubrum saccharovorum DSM 1137 contig_51, whole genome shotgun
+            sequence.
+ACCESSION   NZ_AOJE01000051 NZ_AOJE01000000
+VERSION     NZ_AOJE01000051.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02471663
+            Assembly: GCF_000337915.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Halorubrum saccharovorum DSM 1137
+  ORGANISM  Halorubrum saccharovorum DSM 1137
+            Archaea; Euryarchaeota; Stenosarchaea group; Halobacteria;
+            Haloferacales; Halorubraceae; Halorubrum.
+REFERENCE   1  (bases 1 to 48216)
+  AUTHORS   Becker,E.A., Seitzer,P.M., Tritt,A., Larsen,D., Krusor,M.,
+            Yao,A.I., Wu,D., Madern,D., Eisen,J.A., Darling,A.E. and
+            Facciotti,M.T.
+  TITLE     Phylogenetically driven sequencing of extremely halophilic archaea
+            reveals strategies for static and dynamic osmo-response
+  JOURNAL   PLoS Genet 10 (11), e1004784 (2014)
+   PUBMED   25393412
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 48216)
+  AUTHORS   Becker,E.A., Seitzer,P., Tritt,A., Larsen,D., Yao,A., Wu,D.,
+            Darling,A., Eisen,J.A. and Facciotti,M.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-NOV-2012) Biomedical Engineering; Microbiology;
+            Genome Center; Medical Microbiology and Immunology; Evolution and
+            Ecology, University of California, Davis, 1 Shields Ave, Davis, CA
+            95616, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            AOJE01000051.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: A5 v. Nov-2011
+            Genome Coverage       :: 200x
+            Sequencing Technology :: Illumina GAIIX; HiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 03/07/2023 22:01:50
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.4
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3,401
+            CDSs (total)                      :: 3,342
+            Genes (coding)                    :: 3,263
+            CDSs (with protein)               :: 3,263
+            Genes (RNA)                       :: 59
+            rRNAs                             :: 1, 1, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1 (5S, 16S)
+            partial rRNAs                     :: 7 (23S)
+            tRNAs                             :: 48
+            ncRNAs                            :: 2
+            Pseudo Genes (total)              :: 79
+            CDSs (without protein)            :: 79
+            Pseudo Genes (ambiguous residues) :: 0 of 79
+            Pseudo Genes (frameshifted)       :: 20 of 79
+            Pseudo Genes (incomplete)         :: 63 of 79
+            Pseudo Genes (internal stop)      :: 7 of 79
+            Pseudo Genes (multiple problems)  :: 9 of 79
+            CRISPR Arrays                     :: 2
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..48216
+                     /organism="Halorubrum saccharovorum DSM 1137"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="contig_51"
+                     /strain="DSM 1137"
+                     /culture_collection="DSM:1137"
+                     /type_material="type strain of Halorubrum saccharovorum"
+                     /db_xref="taxon:1227484"
+     gene            complement(<1..892)
+                     /locus_tag="C471_RS09240"
+                     /old_locus_tag="C471_09255"
+                     /pseudo
+     CDS             complement(<1..892)
+                     /locus_tag="C471_RS09240"
+                     /old_locus_tag="C471_09255"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008846842.1"
+                     /note="incomplete; too short partial abutting assembly
+                     gap; missing C-terminus; Derived by automated
+                     computational analysis using gene prediction method:
+                     Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="site-specific recombinase"
+     gene            complement(1192..1812)
+                     /locus_tag="C471_RS09245"
+                     /old_locus_tag="C471_09260"
+     CDS             complement(1192..1812)
+                     /locus_tag="C471_RS09245"
+                     /old_locus_tag="C471_09260"
+                     /EC_number="3.1.-.-"
+                     /inference="COORDINATES: protein motif:HMM:NF013964.2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HNH endonuclease signature motif containing
+                     protein"
+                     /protein_id="WP_004048483.1"
+                     /translation="MRTDRDARNGIAWGSPFDNTCGECAHEWRSRGEPAACPECGSSM
+                     DAGESVDLFAGLRDVTDDDPIAGLRRELERRQADPSAKGLPEFTERVDPWDRDLPAGR
+                     SYRGGGHTGETRLWKRRRMQALERDNHRCQVCSIRNAHHVEFTGQSLEVHHIIPRDQF
+                     SNPDDRHALSNLITVCFQCHADVEGLSREELREVAEREAWLKPSRA"
+     gene            complement(1802..2383)
+                     /locus_tag="C471_RS09250"
+                     /old_locus_tag="C471_09265"
+     CDS             complement(1802..2383)
+                     /locus_tag="C471_RS09250"
+                     /old_locus_tag="C471_09265"
+                     /inference="COORDINATES: protein motif:HMM:NF039542.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DUF5806 family protein"
+                     /protein_id="WP_004048484.1"
+                     /translation="MSDAERTGGDADGVDDQLPDLDEPGKYERFTRIDSVEYDVANEF
+                     LREYTTITAREWAIACLCRDFETETGVRMTFIGENLPELVPFMTDTYSPQAVNQARYS
+                     YDEKAQTAANTFFYAVLSGRYSIEEIEAMVEEARETAETLIEVETGNPPADNPEADDA
+                     VADAMASVWEASRALTEEFDEPAEPENGGDRAD"
+     gene            complement(3249..3410)
+                     /locus_tag="C471_RS17425"
+                     /old_locus_tag="C471_09270"
+     CDS             complement(3249..3410)
+                     /locus_tag="C471_RS17425"
+                     /old_locus_tag="C471_09270"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_204365935.1"
+                     /translation="MSGNDDKIESADDADTDDESDGDDESPHTLDVLRTIKMTAEIVM
+                     LAARLIGVR"
+     gene            complement(3559..7398)
+                     /locus_tag="C471_RS09260"
+                     /old_locus_tag="C471_09275"
+     CDS             complement(3559..7398)
+                     /locus_tag="C471_RS09260"
+                     /old_locus_tag="C471_09275"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008322086.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048486.1"
+                     /translation="MSARDVQTEFDFDDFETEVTREDEDALIETIADSISRLREQIDD
+                     DILDGVFTSDPGSYILKSEYSQDRLDPEPITQDRVIEPLLNTLGYTDYGSEAGDFSTT
+                     RGEQADYAVSLRDIPNIDSSRLLIEAEPLNKPLENRGHGLDQVKSWLSQREFESDYGF
+                     ATDGIRWIFIRYDADSYTHNVISEVDLRPVFLTLYENATTGTASPTDAVTDDDRERIA
+                     TLIRTFAYDNFRSIVDDAQEVIKEKQEAITDEFYDDYIKYVFGVAEGEDERRARSLVG
+                     DGVQPPSDATGDETRLFSVDLMNRLIFIKFLEDKEIVRPGLLSTIVETYEDGIYPQSL
+                     YKSFFDPLFYDVLNVKPDERSDQVSDIDLYAEIPYLNGGLFRPELNSDSDVDERQFDV
+                     QDSVLLSIINLLERYQFSADGGPTDIDPSVLGSVFEKTINYLTTDPGDQNADLGAYYT
+                     PKEITRFSAEQTVRPALKERFEAVLMEERDWPEAELRQYETLYELIDALPGSTNLITE
+                     LLADVDDFYVVDPSMGSGHFLTSVVEEITNIRQELWAQTEEYPNRHRVKQATVQNNIY
+                     GVDIMEPAVEIGKLRLWLSLVAELQAEDVERLDTDELALPNITFNVRQGNSLIGYVGF
+                     PEETEDGVATFERWSEDSVRSRYEDVIEEIELHEEYHAFPERAEQHRQNANELLEEYR
+                     ADLDNEILEDFRDVVDDVTEDDLDNYTPFHWVLEFAEVYAEGGFDVIVGNPPWDMLTP
+                     DRDDYFTRYDESFSGLLPEAKQERQDSLLEDSEIRQGWENYKHEIQIVTQYFHESPDY
+                     QMQHPSIAGKTQGTENDLSALFLERIFQLAKDGGHVSQVLPGAIFNGVSTKDLRMHLL
+                     DETTINSLVTFENRGIFDEIDTRYNFGVIAFKNSGRTDELKATFQQIGTEVLENFEEQ
+                     ALILSRRVLREYSPEARIFPYINEQAEVGVLDTILSHSPIGESENSPWYCSPYRELDR
+                     TNDSDRFVETESSGDYPVYGGSNIFQFQYDPSFFEIESPEFWSVDEDTNPEKSAKRRI
+                     REKKVRGLKSRLYDAFDGSGSQVSFVNDLLEDRRGEPLNPSDVLLDCTDYRIVIRNIA
+                     RSSDERTMIASVLPPGIVCHHAINTFELFEINPQEDDLSESPLHSVYERIFSDEELFY
+                     ALGAINSIPFDFLMRTKVDSNLVMYKITESQVPRLTAGDEWFEHIWTRAAKLNCYGDA
+                     FAEMRDRLDIEAATDESERERLQAELDAGAFHAYGLDRDQVAFILDDFHTVQNPRRMT
+                     DEYLDMVLDKYDELAGR"
+     gene            complement(7492..8238)
+                     /locus_tag="C471_RS17005"
+     CDS             complement(7492..8238)
+                     /locus_tag="C471_RS17005"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_152421861.1"
+                     /translation="MHQNRHPIREIRNKYLDNTERFAEFHEQRIDPEHDVRSEENYPL
+                     AIIHIAPKLAFSKAATRFPVPELLDRDVRLNSGSSRPRHPELMTDRIASTTDPAPERG
+                     KGGSEVCLYENATLEFITSRASYEKGNSQFISGGSLTNAITGNLAVVLSLLADQREDQ
+                     KVLMTATYVGFDGAQFNVNRPTSPVTDDYIQAPVLSFPAHDPEDGDTYDLRTEYVKEL
+                     FRPLFHSVGREGVPIDIPETLDLPDLSLDE"
+     gene            complement(8330..8584)
+                     /locus_tag="C471_RS09270"
+                     /old_locus_tag="C471_09280"
+     CDS             complement(8330..8584)
+                     /locus_tag="C471_RS09270"
+                     /old_locus_tag="C471_09280"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048487.1"
+                     /translation="MPSEYEALLDLIAAHPGADRDELRELAGDDDRVDADAVGDLLDD
+                     ALARDDALEANGSHWVMRTGRFHPDEYDHPLTGEWRDDEL"
+     gene            complement(8574..9017)
+                     /locus_tag="C471_RS09275"
+                     /old_locus_tag="C471_09285"
+     CDS             complement(8574..9017)
+                     /locus_tag="C471_RS09275"
+                     /old_locus_tag="C471_09285"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048488.1"
+                     /translation="MPNQLTNTGDGLALQVTKPARSAGLVEEDADGDTRHRAAVVAYG
+                     FDDLILVLDRDTDRVPMADRAELVALAANETESIHRGIDTRIQHSGHGYRVQVPTTGT
+                     GFQAGDGLPCHAAPGLLVMAPLDAGVGTRHLLETRRTQALDTDAE"
+     gene            complement(9018..9389)
+                     /locus_tag="C471_RS09280"
+                     /old_locus_tag="C471_09290"
+     CDS             complement(9018..9389)
+                     /locus_tag="C471_RS09280"
+                     /old_locus_tag="C471_09290"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048489.1"
+                     /translation="MNDSTADVAETLFENRSEHSTYRVTLDDDRMFEVTCDDFEYDPA
+                     EGYGEGYLRFTIEFPDAPDLNLEPDRYATEMGEVSVVEMDDGWGTPILSAAVQYVEDG
+                     ELVQWEYPTLGTIATVEEVTE"
+     gene            9521..9748
+                     /locus_tag="C471_RS09285"
+                     /old_locus_tag="C471_09295"
+     CDS             9521..9748
+                     /locus_tag="C471_RS09285"
+                     /old_locus_tag="C471_09295"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048490.1"
+                     /translation="MSDHTPSTEKPLTEVIVGIVEHNRGYPKPNIGVVLSHADRDTEG
+                     LGDALDQLVEEGRIVEHNGGYWLPEHAPDNL"
+     gene            complement(9987..10799)
+                     /locus_tag="C471_RS09290"
+                     /old_locus_tag="C471_09300"
+     CDS             complement(9987..10799)
+                     /locus_tag="C471_RS09290"
+                     /old_locus_tag="C471_09300"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004057775.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_239638645.1"
+                     /translation="MSEQTLIKAGDTAERTIGTGSIAERGLRTAHHVAFGNPTEETHH
+                     GTITISTASETVFEESVELQANASIVASLTDLGTYTVRVAVPELDATEVVTLDPHQFT
+                     CNVTKTTVNVQEDGTLDSTSISTRMACPGVVSETAPSDEVVSHTLGDDPIPADTGQFT
+                     HTFMLRNPSDETWTARMLVEGDSTAQFDGLYTVEPESTVLITLTESGTYTLSVDVLET
+                     GMTASEQVTPENFDCNQSSTRAEIDSEGELTVNTLSTLMACGTETNSTNESS"
+     gene            complement(11024..11659)
+                     /locus_tag="C471_RS16360"
+                     /old_locus_tag="C471_09305"
+     CDS             complement(11024..11659)
+                     /locus_tag="C471_RS16360"
+                     /old_locus_tag="C471_09305"
+                     /inference="COORDINATES: protein motif:HMM:NF024248.2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="helix-turn-helix domain-containing protein"
+                     /protein_id="WP_004048492.1"
+                     /translation="MSSLLPLKPTPRSASDRGLEPRLIEFEDESAEQILSAVASTTAR
+                     RILNRIYEEPTTASDIAAEIDSSVQNISYHLDRLQDAELVEVIETWYSEQGREMDVYA
+                     PTNSALVLFAGAERTAPSLTTALRRVFGAVGIVGVVSVIVHARWSVSTPVPVSRGGEP
+                     PQPDPTLWETLVTFGTGPGGFILGVSIVLILSLFVTWYWRTYRPTQSHTPA"
+     gene            complement(11838..12518)
+                     /locus_tag="C471_RS09295"
+                     /old_locus_tag="C471_09310"
+     CDS             complement(11838..12518)
+                     /locus_tag="C471_RS09295"
+                     /old_locus_tag="C471_09310"
+                     /inference="COORDINATES: protein motif:HMM:NF012792.2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="GNAT family N-acetyltransferase"
+                     /protein_id="WP_004048493.1"
+                     /translation="MGADHPTGTTAVDDPLRHVTVREAAGERDAFYLAHLWSRWFGTE
+                     YEHGDRYSSGRLPYPLCRVAGWEVDAEPDHLDAYGVVVEHDPSDRDCVVQIGGGLVTI
+                     DTPAKTMESLPDGGFDAEALVGDRNAWLWFGVVDESWRGLGLGRRLFERRLRWARDQD
+                     ADMAFAFGWEHDGRTSRPLFEAFGFVPVERFQRLYEGDRDVCPECGALPSNDATCTCA
+                     GVVWAKSQ"
+     gene            complement(12619..13296)
+                     /locus_tag="C471_RS09300"
+                     /old_locus_tag="C471_09315"
+     CDS             complement(12619..13296)
+                     /locus_tag="C471_RS09300"
+                     /old_locus_tag="C471_09315"
+                     /inference="COORDINATES: protein motif:HMM:NF024873.2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribonuclease H-like domain-containing protein"
+                     /protein_id="WP_004048494.1"
+                     /translation="MKYDGDYGDHDKLVTFDIETTHYDPDEGETVAIGVGQHEVGSSG
+                     GEARYEIFARRQRGVDDEQKLVERAFEFIDNLDGDTLVSYNGVGFDMDFLYKRSAHFD
+                     PAPGSPELHRAGHHVDLFTDRKAACGPNDKWPSLEECLDSYDLPVPKTVWNGAPIDNT
+                     RFGEEFAPAFLDALGTGDDQEVSRFRGVLDHYLMTDLEANLALYYADQGLAFDPVHLG
+                     LHGEFQT"
+     gene            complement(13545..13826)
+                     /locus_tag="C471_RS17010"
+     CDS             complement(13545..13826)
+                     /locus_tag="C471_RS17010"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_152421862.1"
+                     /translation="MVVDSNMVPQMGYWVHSITDDGFSYASPKKAADEVSEKGVPTLS
+                     VQKLHDRPKPGMTETFQTYLDREQVVKVKEVSFHETIGEYRIHYGFDRP"
+     gene            complement(14354..15601)
+                     /locus_tag="C471_RS09305"
+                     /old_locus_tag="C471_09320"
+     CDS             complement(14354..15601)
+                     /locus_tag="C471_RS09305"
+                     /old_locus_tag="C471_09320"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_007992821.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="AAA family ATPase"
+                     /protein_id="WP_004048495.1"
+                     /translation="MDKLGHLTPEDGIFLDEDVLRDDYDPNRILERDEVLNRYLQMFS
+                     EVVRGKRPRNVFVYGPTGVGKTVGTHLVLDRVREDAEGVDGVDVTAVQMECRDLNTSY
+                     QVAVNLVNVLRESTPRSSISTTGYPEGDVYDMLFEELRNADTTHVLIALDEIDNIGTS
+                     DNVLYKLGRCNNRNSAKFVDPDDTKVGLIGITNDSTFRDSLDPRVKSTLCEHEIHFPP
+                     YNANELRTILEDRAADAFHDGVLTDDVVPITAAFAAKRSGYARTALDLLYTAGDLARS
+                     GDEDMVTEQHVRSAEEEIQQGAIVSEIASLSPQGKLVAYTLLALDNEGELPAKMDAFY
+                     AWYEHACRLAETDTVTARTVRDLLNDLVINGVAKMEEVNRGQRGGRHYRYSLSARPEV
+                     VIDGLAEDDAITKLDDERGSGLI"
+     gene            16589..18214
+                     /locus_tag="C471_RS09310"
+                     /old_locus_tag="C471_09325"
+     CDS             16589..18214
+                     /locus_tag="C471_RS09310"
+                     /old_locus_tag="C471_09325"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_152421863.1"
+                     /translation="MDNPRDTLDDVRFSDIVSDGADIPGVADRLKSIAAAEREQGRDT
+                     TVDELLAQSRRNDAAYLMPSDIEKAEWVADLYEREGRPDEHARDFHYRLVSGEYKRRN
+                     GEPYVNSDTCWKELNEALKWARILQKIEPGEMENTRNHTVTPTAFDDVERPLPESGPS
+                     LDDASADVEVDDGFRSPRIPQEVTLARGLFDDADEFIATAAKMIADQTFRRVYFSESA
+                     EQRYYIEVWCEKSGVVPEDLVGEYGATIRESGQGEFSLGMVEEAVTIASKRDQDLAVI
+                     VVSDYDAAGADIPISGARKIEVLAALKGIEAEVVQGAVTKQQVEEYGIPGNPSASKVP
+                     KGLEEGVRGAKGYETQKELFREYAGQFPVELQGFTSTEPEAFEDELEDALATFYDADL
+                     GDRIKAEVREARERAQRRLADAFAEHRAEIQDALDELHEGLDRYDDEMGPHVDAAIDG
+                     LEQLAAQEQRVREECEIRERRDRVESVVDQVDHRAVVAEVDVPVPEPETPGVADPILD
+                     TRRSFLEQLQAYKRHNMRSGSDDDRDGADDSAE"
+     gene            complement(18742..20781)
+                     /locus_tag="C471_RS09315"
+                     /old_locus_tag="C471_09330"
+     CDS             complement(18742..20781)
+                     /locus_tag="C471_RS09315"
+                     /old_locus_tag="C471_09330"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_160163137.1"
+                     /translation="MEKLDIPGMSSPIEGDPKPIGRKRVGKDETFDEMEEEITINHED
+                     CEHVLVVALPRKGKDSTITSLCGNLKDEHGYKWFSCLDDGRNETPMTAIPNDEKPIKD
+                     NLDDFGQEPKAYDAEVFVPATSGVPDTLPSNFTRFTINIADLTPMDVIRLAGLKSADS
+                     NTMRRIGQALSNTIEDNDGVEGLVERLKDYAEELEATITVTELRDDEFDENDQGDREL
+                     KDAERVEADPSVREVSYEMDADKALNDAAESLLMLAGEGLIAGPNAETNLDMDAVFRD
+                     QERVAVLNCNFLKPRNESLKYIVLNMWLRLIFRKRDENSRLPRALLEIRELKDIAPSV
+                     IGNAQYKQEVKALQATVYEIATRGGSRRIMMLGSTQKLNDVYKAVRTNMPLKILLQLG
+                     EEEVMTLDKAYNFSPRQKEQLTSFNVGWGMLVKDGGEHWPINWRGARCGLGLGDEHWR
+                     DRYAVAWGAHVFKGRGSGWISEHKDKEAYVNTRTGYVKPIDPDADDFPDDGEWHLFLD
+                     EIWSTVPVSMSREQFDQQTQLPTQFCEATVDYRREHDIPSNLSLTRNRDTASRELSLE
+                     NKDEKMDEEKRRVLDENNVPKPLESWIGKAKKGMRSNMLQVLDAVMRADPEEVRTLDG
+                     IAEVSGVPKGTIGRWRSERHDFATCLERRGESWEITKVGHRALDINWTKLDRLVG"
+     gene            complement(21356..22855)
+                     /locus_tag="C471_RS09325"
+                     /old_locus_tag="C471_09340"
+     CDS             complement(21356..22855)
+                     /locus_tag="C471_RS09325"
+                     /old_locus_tag="C471_09340"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048499.1"
+                     /translation="MHTLARDHALPWLGDQARNVRSLPSRAKKRLILFAVGPSNTIGT
+                     RVGAIVMLLATAVLAGAGFLAVSSGVDAGGDSSWFMEQLVGFGTSVWSYAIILLLLFA
+                     VIRVTQRSRSAQKAAARTGFSEQTCHRLASEAQTADGASTVVVSPADSVDSACDRILS
+                     AFETPYSALDINWGDTHVLDDDIVDAAQKSADAADETDLVVDDRANADPSEHARLSRL
+                     ELASTLNGRDLFWSFAVPAAITTLAGLVLVQFWAALWVYLLIGAAALVVGSAWYVGAH
+                     YWRRRRAKSVRSSRQQASYDDIAVLVKKAETDDVTAYYGWVGGTVYADYNELRLAWTL
+                     SEVAHAHIEGEPIPPTIQQKFARNLQQYLPNLEGYEEAVEKAEIRDRVIQEVAESPSR
+                     RLPKNRLADRVIRRDKDRIGGVGYDPRLVADAYESVVPYALVEEHVDVETPTEGQKSM
+                     SVVRLRTEHVTPEAIATDAQFSSLYQPDYAPDFDLPAVDLHAPEASLSD"
+     gene            complement(23199..23945)
+                     /locus_tag="C471_RS09330"
+                     /old_locus_tag="C471_09345"
+     CDS             complement(23199..23945)
+                     /locus_tag="C471_RS09330"
+                     /old_locus_tag="C471_09345"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048500.1"
+                     /translation="MAASDYAEYQSLIEEMKEPATERGFEATPEGLIEYHSWQQDRVE
+                     IIESFLVERAEQLFGVVVLAVQNPLAWVLALIALALAAFKREQQHGWMLDRIENDAGE
+                     TARKDKQLRSAFREHVQASNEEYIGQMDEVNDQQAQYWRDSFDVYSVRQLAELAKRGP
+                     HNAPDDAATDGGETAPAIAAIDADDIRDSWLAKAFSTNRLADPQEALTCIRAACVRME
+                     AKYGLGHEYDATRDAVETLLEEVREKEASY"
+     gene            complement(24469..25500)
+                     /locus_tag="C471_RS09335"
+                     /old_locus_tag="C471_09350"
+     CDS             complement(24469..25500)
+                     /locus_tag="C471_RS09335"
+                     /old_locus_tag="C471_09350"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048501.1"
+                     /translation="MIETIAAVTIAVVVILLALWYTRRKMREDFDDATEHIDNGDPDA
+                     EHVKGSSSIPIRARASGLSMTAKVLFGAIGGIFLIVGIFAFQTIRTGSPAEVMFADQL
+                     ITGGQVAVGAVVGIIGVNMAQQSVGTHHVVYETESGDVQTESVPINVSSMEADTEGNA
+                     VVTEYARTRVFGLFRRTKHVAEDATLDGTHRAPGKPIKHQIPQHAIEIGENEWITRTA
+                     EQTPTQSPDVEADYVYSSPIELSYDKFVDMQEANRRKDIRLTSLESTVAVLEKELEKL
+                     ERRLKSGQYKEEQAVLQKIEQVSDIISQASSDPDAQSNPRDTHVNIPDAKQNGASTQP
+                     SAATDGGSQ"
+     gene            complement(25500..26099)
+                     /locus_tag="C471_RS09340"
+                     /old_locus_tag="C471_09355"
+     CDS             complement(25500..26099)
+                     /locus_tag="C471_RS09340"
+                     /old_locus_tag="C471_09355"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048502.1"
+                     /translation="MSTQTPDDFDLDELNSSGLESNLEWLRDTLQRRVKHIQDDELKR
+                     RAVRWIQKSLQVPASTVSDYIDHQLSEMEAEYRMYDHDRVENAEDAFPDACEGCPHYG
+                     GGCPIITWRSPQEELDRISESATDGATFKREIRGLATLHDCHRIPAWITQWETRYEGL
+                     VDEGWDIYLSIEVDVGMMDSPGAEIQVDLSEDDDDRGAY"
+     gene            complement(26106..26339)
+                     /locus_tag="C471_RS09345"
+                     /old_locus_tag="C471_09360"
+     CDS             complement(26106..26339)
+                     /locus_tag="C471_RS09345"
+                     /old_locus_tag="C471_09360"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048504.1"
+                     /translation="MLQDAGRVTPVNRAIQFYISVATARDSAFPFDPHDPYVVRVVDD
+                     AVVITPPTCDRETLDLPAIDAEVRTSIPAPSDD"
+     gene            complement(26488..26769)
+                     /locus_tag="C471_RS09350"
+                     /old_locus_tag="C471_09365"
+     CDS             complement(26488..26769)
+                     /locus_tag="C471_RS09350"
+                     /old_locus_tag="C471_09365"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048505.1"
+                     /translation="MTTLNSLLMILVPIAVAVALGHLLFRRRGSGAVAATSAYGTVMG
+                     SFWTLVGVFMIIGGLQIIGGIIVAIAWYLARGNYSRYKQEGGLRAALNG"
+     gene            complement(26769..27005)
+                     /locus_tag="C471_RS09355"
+                     /old_locus_tag="C471_09370"
+     CDS             complement(26769..27005)
+                     /locus_tag="C471_RS09355"
+                     /old_locus_tag="C471_09370"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048506.1"
+                     /translation="MTSTADWLLWSIAALAVLVSFANPGGFVIGAAIAFLLIGGRYGL
+                     PFVGDYLKSRQSGVGQAKAQRKIRDSMRRDDERD"
+     gene            complement(27002..27916)
+                     /locus_tag="C471_RS09360"
+                     /old_locus_tag="C471_09375"
+     CDS             complement(27002..27916)
+                     /locus_tag="C471_RS09360"
+                     /old_locus_tag="C471_09375"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048507.1"
+                     /translation="MTSNTLRALLAAVLVVCLVGVAAGGTLAQDDAPEPEMEVVYDEF
+                     RTDDAVVESANMTGSAQAIKQNTRATIEDDDAFVRVGLENPNSYAVAFEVQISNELVK
+                     PATLGTVRAVENDDVTANWQAQHDFEAEETHTKVTVVVPAETDVLFTPSQLRVKSLSW
+                     TGEAEQSADTIRDRVTKLWEEDRLKQRTYEVTGSEGEIVTVDLENPETGDRIEEWHAT
+                     YTLAGAETPQPTPLAEGTGEPVFYRPIENDDGAVNAIQVTFNEPGTVSLTVEPTATER
+                     IGYEVTSYRSSVLDGFEWGPFTAVGVTP"
+     gene            complement(28049..29308)
+                     /locus_tag="C471_RS09365"
+                     /old_locus_tag="C471_09380"
+     CDS             complement(28049..29308)
+                     /locus_tag="C471_RS09365"
+                     /old_locus_tag="C471_09380"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008580604.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="IS200/IS605 family transposon protein TnpB"
+                     /protein_id="WP_004048508.1"
+                     /translation="MRRTNTFVVRPRSEQDAELLHELLDASASLWNELTYERRQNYFD
+                     GKSVWDTADYRQRYVGVLGSATAQQLIRKNKSAWRSFFSLKEKGEKCSPPGYWGNEED
+                     GRTLRTYVRNDQYTLEMGDRSRLEIPVGKELKEEYGLGHTERLRLEVAGVPKWDGKHG
+                     RLELYYDESSDQFRAFQPVTIDTSRLDTPLASEEAALDIGANNLAACTTTTGQQYLYH
+                     GRDLFDQFRDTTREIARLQSKLPEGRYSSNRIRQLYGGRTRRRDHAQNALVRDLLERL
+                     YNEGVSTVYVGDLTDVLETHWSVRANQKTHNFWAFRAFLDRLACTAEEYDITVEVRSE
+                     AWTSQTCPNCGSTTDTTRHQDTLTCSCGFEGHADLVASESFLRRHTDVPRPMARPVRF
+                     EWDSHEWLESPRSHRPKEVRTDQSIHG"
+     gene            29362..29499
+                     /locus_tag="C471_RS17690"
+                     /old_locus_tag="C471_09385"
+     CDS             29362..29499
+                     /locus_tag="C471_RS17690"
+                     /old_locus_tag="C471_09385"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008528727.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048509.1"
+                     /translation="MVAVRIEFDDDEQYERLKELKKHHGLTWKGLLLEGEKRVLEQKP
+                     E"
+     gene            complement(29576..29893)
+                     /locus_tag="C471_RS09370"
+                     /old_locus_tag="C471_09390"
+     CDS             complement(29576..29893)
+                     /locus_tag="C471_RS09370"
+                     /old_locus_tag="C471_09390"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048510.1"
+                     /translation="MTWRDSLPSIDLRDRLRSGGRLSAQLASIATFIVLLGVTVFAAF
+                     TAGSVVVAAIATFVLFFMLRAALPADRIDQFVSDLLTGEAGVRLYEWLRNRWAALRRW
+                     VSR"
+     gene            complement(29890..30270)
+                     /locus_tag="C471_RS09375"
+                     /old_locus_tag="C471_09395"
+     CDS             complement(29890..30270)
+                     /locus_tag="C471_RS09375"
+                     /old_locus_tag="C471_09395"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048511.1"
+                     /translation="MPSLATLWALITYPFRVVRETLANVWQVVGRATPEDLIPPWIWE
+                     RVTGTIAWVVEQLPRTAGYRATPYEQMTASVVVAVMLVIVSIGFLTWVAPIFIIPFLI
+                     GAARLIPPVDRAWPLTDSRGDRPV"
+     gene            complement(30270..31013)
+                     /locus_tag="C471_RS09380"
+                     /old_locus_tag="C471_09400"
+     CDS             complement(30270..31013)
+                     /locus_tag="C471_RS09380"
+                     /old_locus_tag="C471_09400"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048512.1"
+                     /translation="MTHRLTRVVAVGVAILMLSTVAVAPVAAAGSPFGDLWTDDDDSD
+                     ETENQSLTDRLADAAETAQSWGAGVGNGLLDRVSYEASRSAPWSDPPDLEAEAAQTRA
+                     TINGNSTQIVAYLNEQTDAENASVANMTVHEIRLVDERHELSEPLFLTFEYNQTAEEW
+                     TNVTATETTSATPDHEHRFTGFLATNTADEADRFVTEYVAEGQPIASDRAYNAGTLSR
+                     YAGPFGADAESTLLDDGFDGFEDKDGEGS"
+     gene            complement(31010..31243)
+                     /locus_tag="C471_RS09385"
+                     /old_locus_tag="C471_09405"
+     CDS             complement(31010..31243)
+                     /locus_tag="C471_RS09385"
+                     /old_locus_tag="C471_09405"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048513.1"
+                     /translation="MTDRPPTEHASERSPKQLVAIAIVAFVAFPGTLTALGSGLVVLY
+                     ASPPTLGTPTLVLFVTALTACTGATFLAHHSLR"
+     gene            complement(31254..31406)
+                     /locus_tag="C471_RS17435"
+     CDS             complement(31254..31406)
+                     /locus_tag="C471_RS17435"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_160163139.1"
+                     /translation="MPNRPDRDDRGRYKSRTRSDSGHQAHESRVGTVARRIYWRLYDC
+                     YHWLKP"
+     gene            complement(32354..32644)
+                     /locus_tag="C471_RS09395"
+                     /old_locus_tag="C471_09420"
+     CDS             complement(32354..32644)
+                     /locus_tag="C471_RS09395"
+                     /old_locus_tag="C471_09420"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048516.1"
+                     /translation="MSAFGSLEDSVGENRAWALARLTMGILYLALGWIPASIGGAIGL
+                     IYFIGDITLKLTVGRRMEWLRPWAKSTLVWNYDLVLWIFGVEDWPGWMGWSP"
+     gene            complement(34248..35015)
+                     /locus_tag="C471_RS09405"
+                     /old_locus_tag="C471_09430"
+     CDS             complement(34248..35015)
+                     /locus_tag="C471_RS09405"
+                     /old_locus_tag="C471_09430"
+                     /inference="COORDINATES: protein motif:HMM:NF012798.2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="site-specific integrase"
+                     /protein_id="WP_004048518.1"
+                     /translation="MPRYSREDALSERELELLLRAAREMEPPRDFETRLIINLTAKMG
+                     LRSGEAAHLRAEWVNTHDRMIEIPQYDPCDFGKGDHACGYCRNRARDYLDTHNTTIEA
+                     EARALRDEFGDDLPDDTFHEKASERVAETNISFEDALDRRWNPKTPNSERSIPFDHDV
+                     RVQLCIERFVDEYDKFPVSKATLNRRVNRAAEIAGISHNVYPHALRATAGSLFAARNV
+                     SPYALMGILGWQDMETARSYISASDESAARELRSKHR"
+     gene            complement(35062..35661)
+                     /locus_tag="C471_RS17015"
+     CDS             complement(35062..35661)
+                     /locus_tag="C471_RS17015"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_152421864.1"
+                     /translation="MTVQQTPLRAPGVVRWPVKEALRRKLLGALDASFLFKPTASSDG
+                     GGGSAIPDSVVSRPADNSQSGSSTADYGVVISSSEEWPEIGAEISSNTPSSVQNAKLR
+                     RISDGVILEEKDISSLAPGDTFRFTNLSENIQPNTDYHVSIQDPDSAQIGEYDSPSFP
+                     YTSSDGVLEITSSGYWDGASVVYQDAVDAISRVGDIGSA"
+     gene            complement(35661..36479)
+                     /locus_tag="C471_RS09410"
+                     /old_locus_tag="C471_09435"
+     CDS             complement(35661..36479)
+                     /locus_tag="C471_RS09410"
+                     /old_locus_tag="C471_09435"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048519.1"
+                     /translation="MATNNPNITATDENGEKLSDSEVRVNGRAPSGGSSVETGLVDSN
+                     DDGTAELVEDDADLGGGDLLNVGNFNTPGGFAGLSDTGTLLTSQVPDLAITEVYVVAS
+                     QSDRLALTDIQEGDVAIEEDTDDGYIFSGGDPSQSANWSQLSSYNVPVDSVFGRTGDV
+                     QAQETDYDSFYALLGGDPNFASLSIGGDMAIQGVVASGSVTLSSGSAIVDLGLSASGA
+                     TFDPAIGVDDPGADVKLACRLFWDSSAGTYKLEIVEDGTSVGNPTVNYDIKRVR"
+     gene            complement(36486..37475)
+                     /locus_tag="C471_RS09415"
+                     /old_locus_tag="C471_09440"
+     CDS             complement(36486..37475)
+                     /locus_tag="C471_RS09415"
+                     /old_locus_tag="C471_09440"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048520.1"
+                     /translation="MTAYLTFPKNASVDPPRGGIIRSASNDIAIPQQLSCTPTGAALG
+                     PVYLGVPNSGGVCSIDRLDYLPGDDDGSGLLAVSVAAGTGEGVRRRADGAPEWIEAPD
+                     VDPSTTRRGLLGMFAGVLALGLFGDNAAAQTDDESEEEVTLRMAEVDVSGVTDPLSVR
+                     VIDVIDAVLPPTAEILVDADDTRVGEVTEPGEGVVLPTGTEGTIRIYLRDARSRLAAL
+                     LAWVSGFLRTDEELVFKRELPKEATEYSDAEFVRLTEHPAITGPIADADPDEVILTVG
+                     NTQIPHADDRGSSEAGQWTTVDDALVYETGENPPASSSWEIRIGVGIFDQLTA"
+     gene            complement(37472..37612)
+                     /locus_tag="C471_RS16370"
+                     /old_locus_tag="C471_09445"
+     CDS             complement(37472..37612)
+                     /locus_tag="C471_RS16370"
+                     /old_locus_tag="C471_09445"
+                     /inference="COORDINATES: protein motif:HMM:NF014470.2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="twin-arginine translocase TatA/TatE family
+                     subunit"
+                     /protein_id="WP_004048521.1"
+                     /translation="MGPFELGIIVIIGLFLFGAGRIAAVGNGLGRATREFERGREEAE
+                     EQ"
+     gene            complement(37826..38638)
+                     /locus_tag="C471_RS09420"
+                     /old_locus_tag="C471_09450"
+     CDS             complement(37826..38638)
+                     /locus_tag="C471_RS09420"
+                     /old_locus_tag="C471_09450"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048522.1"
+                     /translation="MTRTRRQFLASGGAAGIAFLPGWFPFVGGDDSDTDGTDTDTTTD
+                     DRPPTLAEREDQYGMSIDFPEEWLQKYRPAFVADRDTMQQSMGLYGHRVRYDDSDYQY
+                     AYYWHKLTHQEGILFDADSHLGDHEPTIVRVDSDGAIDQVTYTFYHHLADTVEGARLT
+                     RALRAREVAEPTHIQLRIIVPWHNYAVVEGTPAQSVSFRDVQGDDNASHLRTWETQGI
+                     FDPTADEAVWSPRTVQDRGSWWDESTTDYQAAQLYLRLGQYIDVAGSGEIDQ"
+     gene            complement(38647..39438)
+                     /locus_tag="C471_RS09425"
+                     /old_locus_tag="C471_09455"
+     CDS             complement(38647..39438)
+                     /locus_tag="C471_RS09425"
+                     /old_locus_tag="C471_09455"
+                     /inference="COORDINATES: protein motif:HMM:NF012311.2"
+                     /GO_function="GO:0008236 - serine-type peptidase activity
+                     [Evidence IEA]"
+                     /GO_process="GO:0006508 - proteolysis [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="S8 family serine peptidase"
+                     /protein_id="WP_004048523.1"
+                     /translation="MTAAAASSAPEPYRGVAPNADLYIGRALDHEDGSGAVADIATAV
+                     RAATDAGADATCMSLGSPLYTAELADAIAYATEHGNTVVVASGNDRMVSRFVAYPAAD
+                     PNTLSVSATDTPGSGDPTDVRSAAFANVGPSPGTVNFSEGETSGVEVDIAAPGMAQEA
+                     DLAGGTTTLSGTSMAAPDVAGAAALLAAEGVDEPAERLRETARPVPNLAPAESRHGLL
+                     DIQAALQNDPADKEPSDVLTSDAETRDAIFRGEAAARGSWIATFL"
+     gene            complement(40298..44122)
+                     /locus_tag="C471_RS17020"
+     CDS             complement(40298..44122)
+                     /locus_tag="C471_RS17020"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_152421865.1"
+                     /translation="MSTEHSSSTSRIARLLSPRRVLPVALLFLIADLALTETLLGLAV
+                     EKNPIAAWLFESIGVGVTGVVAVGVVTLAYVGLDALDQYGREQRVVSGGLLGVMIAPV
+                     VWNFGIWVRLGTPDVAVGIVGETLAPVILAALGALAVVTVDMGRVPRPDRDVVVSIAL
+                     SVLMVTSMVGGVAFVGTQPIESNDQGSVSAQPDGLNFTNFETESIGDTQINVVSDSKI
+                     DYTIDKETPSHARTQWGGDSGNVDFGMEIDNQNGFGRVHTGFSYKTIENSDNLDTDYF
+                     DTRSSTIIWDNNGDVLLSNYNDTTSKLHTYETNTQYYYSLSIGGGTMSAEVYESSNKS
+                     NLINQTSVSASASEDLTYFYALAGSATFGGGNGETISGIISNPSISKASSSPFPGWED
+                     TAPLLRAVDQNGDPVPNAEIEAWSVQSENLGDEVENKEARAEEILDELDDVQPDQWTP
+                     PTQADLSYGDLTDLYGGEQPSGLYPTAHTKGDMGIAGWADTHDLIPRLEFESGETIYL
+                     YAWDGSAGANMGPTDDGVTSEHYGEIADEPTFNLKRLSATGETLDNHTVSATETYSGG
+                     IPPLSYDHNYATAEVPDGYYLVTVQGSDTPGYVIKVGEATDVLTTEMRTEANQLTKQA
+                     ESLQNYLEGDTMARDSVIANEKLTRQRHEEEAMPLDYDAFDYGDGYVNVGLSESGKDI
+                     NDLERDRVDEFPSVSGTEIYLQGYRGPGYGVGDYGTNDTSDIMELASNVDEPIYVSKK
+                     PKRVDLSKIEDPNNATIEVTLTKLDTGLNPNISEYANKTERLKNELLNQSTAELESLF
+                     RDNPELLNKTDLETRHEELQDLIESNNDLEERVEELRDAESVEDAGNATEEQLRNDLA
+                     AMEQAIAELEGQLEAEPPTSEIDNGEIFAEFPFAESLDPDSVTVIANYEDGSSEVVPE
+                     EYISVESASVLGGDQVVVEGLEIASDRAVADLEVKGVSTEGTLGSSRDTITNPAYQGA
+                     IPELDAIDVSTLRPGVGESVAIEPRSSAEGYDGAESVTVYDPTGQTLNVTQNGERFTW
+                     SPNKAGTHTVRLTYTNDIGGQFTETFRLAAEENPSSTPPTVRVTDGIGGNLLLAGNGL
+                     ESGSISVNGADAEIVAQAPSDQSPSSLDIRAQQLTVDSMDISVVIGGNQQSVDRHVSL
+                     RVWANFGVENALVLRGPSEPITANEETPFGAFETRTSESGAEHQVVETYTDADGTTTV
+                     QVKRNPSLLDRASYQIAIWGIDLPLTILPTTPQTALPLTMTAPPAVDEATAGQVVFGP
+                     SDMATAVTEVTA"
+     gene            complement(44457..45113)
+                     /locus_tag="C471_RS09445"
+                     /old_locus_tag="C471_09475"
+     CDS             complement(44457..45113)
+                     /locus_tag="C471_RS09445"
+                     /old_locus_tag="C471_09475"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048527.1"
+                     /translation="MSETQRGREASTPRSPSARESPYPRENYFASVDDEYDPEREPLD
+                     DTCNDHHLQTLDRGTSKDEWIVGTLQKGQATMLCPYALNESPDAEWALHEENGEVVLS
+                     DPSEYPPPASGFVTPETDTAARKPSTSQWRVNPEHGYLVFGGIPRDQPAEEFLAFVEE
+                     LIAAIEAEPLAGERDAALELAAELKARGDRSDSDICELIVRKLLSNDSVREFVAAGNY
+                     "
+     gene            complement(45433..46260)
+                     /locus_tag="C471_RS09450"
+                     /old_locus_tag="C471_09480"
+     CDS             complement(45433..46260)
+                     /locus_tag="C471_RS09450"
+                     /old_locus_tag="C471_09480"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_004048528.1"
+                     /translation="MDRDNHDQQSPPAERCDGCDRGIDQVYLDAATSFDVWLNDAVGS
+                     DRPAPSHGQYHFCGTCVFEVLGLVDEHFEEDYEMPVSCEFCGEPTDGIPAQFAYRPHG
+                     TDTTIAHSLCSSCLPIVQQFCEQIPEEEPEGDTYTPREPSDRLYTDAKDSVFRYAKPY
+                     NQLTAGDRFVLEARQRSTEDFPEQRLKIAASIADRGRNPADSFEAPLSDMQVFCGNWI
+                     GIQPTNGVLELDYGTGTRQLQIRFDDAAAPDNRYRSFEGYVTHVAPPSTEPGRRTSL"
+CONTIG      join(AOJE01000051.1:1..48216)
+//
+
