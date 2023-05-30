@@ -27,4 +27,14 @@ Note: after 2 iterations the profiles did not return any new results.
 - the concept is: lose addition of homologs then later on removal of short proteins and more distant proteins (see step 5, where we set the minimum score to be included equal to the maximum score of false positives + 10)
 - he has some pre-sorted assemblies where the contigs are sorted into plasmid / 
 
+### Three parts of the project
+#### generate_protein_clusters
+This part is basically steps 1 (substeps 1-4) mentioned in the methods description. I'm happy with the results we have here.
+
+#### search_ASL
+This part is basically step 2 in the methods. So far not much has been done, initial search showed some hits.
+
+#### known_hosts
+This is interesting. Key is: I need to figure out how to get from protein accession to genome accession. I will try once more, before moving on and asking Daan Speth.
+
 
