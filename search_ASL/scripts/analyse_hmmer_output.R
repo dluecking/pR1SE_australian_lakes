@@ -9,6 +9,8 @@ library(tidyr)
 library(ggplot2)
 library(dplyr)
 
+
+
 # working directory -------------------------------------------------------
 this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(this_dir)
@@ -55,5 +57,16 @@ for(file in list.files("../01_hmm_results", full.names = TRUE, pattern = "domtbl
     }
 }
 
-big_df$contig <- str_remove(big_df$hit, pattern = "\\_length.*")
-contig_df <- data.table(table(big_df$contig))
+rm(orf_df, lakes, domtbl, current_lake, current_ORF)
+
+
+
+# create contig_df --------------------------------------------------------
+
+contig_df <- data.table(table(big_df$hit))
+contig_df$contig <- str_remove(contig_df$V1, pattern = "\\_length.*")
+contig_df$contig_len <- as.numeric(str_remove(str_extract(contig_df$V1, "length\\_\\d*"), "length\\_"))
+
+contig_df <- contig_df %>% 
+    filter(N >= 4)
+
