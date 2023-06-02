@@ -63,7 +63,6 @@ gene_df$annot[gene_df$annot == ""] <- "unknown"
 
 gene_df$length <- gene_df$end - gene_df$start
 
-
 box <- ggplot(gene_df, aes(x = annot, y = length, fill = annot)) +
     geom_boxplot() +
     theme_minimal() +
@@ -77,7 +76,7 @@ box <- ggplot(gene_df, aes(x = annot, y = length, fill = annot)) +
                                  "unknown" = "#FBFEF9")) +
     xlab("Length (bp)") +
     ylab("")
-ggsave(plot = box, "../../plots/average_ORF_lengths_ridgeline.pdf", height = 4, width = 7)
+ggsave(plot = box, "../../plots/average_ORF_lengths_boxplot.pdf", height = 4, width = 7)
 
 
 
@@ -94,6 +93,4 @@ ridge <- ggplot(gene_df, aes(y = annot, x = length, fill = annot)) +
                                  "unknown" = "#FBFEF9")) +
     xlab("Length (bp)") +
     ylab("")
-
-
 ggsave(plot = ridge, "../../plots/average_ORF_lengths_ridgeline.pdf", height = 4, width = 7)
