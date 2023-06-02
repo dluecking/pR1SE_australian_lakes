@@ -36,6 +36,7 @@ wide_df <- wide_df %>%
     filter(hits >= 4)
 
 
+
 ggplot(melt(wide_df) %>% filter(variable != "hits"), aes(variable, organism, fill = variable, alpha = value)) + 
     geom_tile(colour = "gray50") +
     scale_alpha_identity(guide = "none") +
@@ -49,3 +50,14 @@ ggsave("presence_absence_plot.png", plot = last_plot(), height = 8, width = 16)
 
 
 fwrite(wide_df, "known_hosts_df.tsv")
+
+
+# I need this for 03_retrieve_genomes.pu ----------------------------------
+
+wide_df$single_protein_accession <- ""
+for(i in 1:nrow(wide_df)){
+    # for each entry, get the accession of the ORF21 homolog
+    wide_df$single_protein_accession[i] <- prot_df$acc[prot_df$organism == wide_df$organism[i] & prot_df$orf == "ORF21"][1]
+}
+
+write(wide_df$single_protein_accession, file = "ORF21_protein_accessions_for_genome_download.txt")

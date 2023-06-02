@@ -43,9 +43,6 @@ get_genome_accessions <- function(taxid) {
 
 
 
-
-
-
 #  old --------------------------------------------------------------------
 
 
@@ -62,6 +59,8 @@ tax_links <- entrez_link(dbfrom='taxonomy', id = tax_id, db='all')
 
 # get genome based on taxid
 genome_id <- tax_links$links$taxonomy_genome
+
+genome_id <- "448447358"
 genome_fasta <- entrez_fetch(db = "nuccore", id = genome_id, rettype = "fasta")
 
 
