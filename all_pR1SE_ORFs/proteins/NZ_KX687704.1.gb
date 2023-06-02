@@ -1,0 +1,892 @@
+LOCUS       NZ_KX687704            50329 bp    DNA     circular CON 06-FEB-2023
+DEFINITION  Halorubrum lacusprofundi strain R1S1 plasmid pR1SE, complete
+            sequence.
+ACCESSION   NZ_KX687704
+VERSION     NZ_KX687704.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN14227034
+KEYWORDS    RefSeq.
+SOURCE      Halorubrum lacusprofundi
+  ORGANISM  Halorubrum lacusprofundi
+            Archaea; Euryarchaeota; Stenosarchaea group; Halobacteria;
+            Haloferacales; Halorubraceae; Halorubrum.
+REFERENCE   1  (bases 1 to 50329)
+  AUTHORS   Erdmann,S., Tschitschko,B., Zhong,L., Raftery,M.J. and
+            Cavicchioli,R.
+  TITLE     A plasmid from an Antarctic haloarchaeon uses specialized membrane
+            vesicles to disseminate and infect plasmid-free cells
+  JOURNAL   Nat Microbiol (2017) In press
+REFERENCE   2  (bases 1 to 50329)
+  AUTHORS   Erdmann,S., Tschitschko,B. and Cavicchioli,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-AUG-2016) School of Biotechnology and Biomolecular
+            Sciences, The University of New South Wales, Room G27, Biological
+            Sciences Building, Sydney, NSW 2052, Australia
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            KX687704.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: metaSPAdes v. June 2016
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider          :: NCBI RefSeq
+            Annotation Date              :: 02/06/2023 11:56:44
+            Annotation Pipeline          :: NCBI Prokaryotic Genome Annotation
+                                            Pipeline (PGAP)
+            Annotation Method            :: Best-placed reference protein set;
+                                            GeneMarkS-2+
+            Annotation Software revision :: 6.4
+            Features Annotated           :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                :: 46
+            CDSs (total)                 :: 46
+            Genes (coding)               :: 46
+            CDSs (with protein)          :: 46
+            Genes (RNA)                  :: 0
+            tRNAs                        :: 0
+            ncRNAs                       :: 0
+            Pseudo Genes (total)         :: 0
+            CDSs (without protein)       :: 0
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..50329
+                     /organism="Halorubrum lacusprofundi"
+                     /mol_type="genomic DNA"
+                     /strain="R1S1"
+                     /db_xref="taxon:2247"
+                     /plasmid="pR1SE"
+                     /country="Antarctica"
+     gene            join(50316..50329,1..3433)
+                     /locus_tag="HXZ11_RS00005"
+     CDS             join(50316..50329,1..3433)
+                     /locus_tag="HXZ11_RS00005"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DUF5817 domain-containing protein"
+                     /protein_id="WP_088901252.1"
+                     /translation="MTFSVVGCGSHGDHRGCGQLWIVSDLRASSTVACPHCETEHNAS
+                     QLKKVAESDDWQAVCELRSRIMAERSDGYDGNYKQDVEHYAVLADRVDQQLTNFHGAG
+                     TATPDCLGNVVRVGDLLDAHTARPAVYTPKANAVVTKADVVNAIVEDPQYDTTSEHEQ
+                     FLEVLADDHLERNHSTVELPEAPDPDDRYPEQGSVRVTSGLQSDLTNTVPDVSPSRAE
+                     ALPKLLSPLTDACVEAVEAIADDERRPIASLLSTPEPDAKTGVHHLADEYGIDAGNGS
+                     FGAAVVDAARHDHVPEDIREELPQYGTGQSLEDTNLDALRRGHCALLRAGGVTPTLHV
+                     ELDADAWTTLEDRRKGERFFEAVDLLATAVDVTIVAGDDVREVLAERFGEWADRHDLT
+                     DDLTDSRDTSRQPARDESEENRLDAYRTLDALNSGGRYRIVGNLFADQSRSIRSLQDD
+                     AEIDLAADSINRYTGDLEAAGLVAIDRDTTGSNQITLTETGKLAKDCLTPDYSLVSPE
+                     QGTLDSESYHPMINSQKYSVSDGSEPEAAPPADSPAEWLAATGDADGDGAYVRWMDGR
+                     ASSVDAYALHKRCTAASRGDGITLTDAPVRPFEDGRVTQVSLMEDSLHAVTQWGGAAA
+                     TLGRIAATLSTGRIWGTALDREAVTDLCTDLGSAPKNVLEFLQRGMQIGWLDADSVID
+                     QDGLDYLAIRDHLYQVGRSVLARLSNLDDMADGERREYFRDAHGLLASMTALLDRVGV
+                     DTTIQLRFPDGEAARTNENVRDDVVSFLANTAPKQSRYGAHSGWRQVVESRPDKLKYR
+                     LPMDIDPTARTADLTASWVVIGDGMDGLRDDVVAALDDVEPRDAIQDGDEEGIAIDVP
+                     VHVGGTYAHAKAVVEDLISKKGWNTIRQDTDRVTRALMGVLSHAPGRVSPTIVADALL
+                     GMGTNGYGLDLRMGDVRAGLARVASEELFPTLAPSVGKLVRALVTADGRLEAGALVDA
+                     AGIHRRTYATHMDTLETLDLVNRTDDGWGLTLEPWWAPEADRERADPAARTLETGDTI
+                     LPDQPRSETEVLSELANALAWRGDTDTSAADLRLDLGRQPTVDELIEAIPALDKWAAP
+                     IAAHWPSETGDDTLPPHDPAAVPEFSNTTEETGTTLPPYDPGCSTATIGVESDHEQQP
+                     LA"
+     gene            3558..3725
+                     /locus_tag="HXZ11_RS00010"
+     CDS             3558..3725
+                     /locus_tag="HXZ11_RS00010"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_170933398.1"
+                     /translation="MAIDGETPNPPAEDEMLPDEREVLSERAEALDEADDDYLLTVDE
+                     VAADLGIDLDE"
+     gene            3727..4059
+                     /locus_tag="HXZ11_RS00015"
+     CDS             3727..4059
+                     /locus_tag="HXZ11_RS00015"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008319111.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="type II toxin-antitoxin system RelE/ParE family
+                     toxin"
+                     /protein_id="WP_088901253.1"
+                     /translation="MPRSPSKLRILPEAATDIEEIQQRDPEGATRILKKIDDWKDQIQ
+                     WGRVPQEHLTYLSGSTAYNFYRQRIGNSRYRVVYEISDDLMTAVAVFPKDDNAYDLDD
+                     YRSRLDRH"
+     gene            complement(4123..4812)
+                     /locus_tag="HXZ11_RS00020"
+     CDS             complement(4123..4812)
+                     /locus_tag="HXZ11_RS00020"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_141104803.1"
+                     /translation="MGEVWEGRSYTKEDVESAIEKVARIPKMTRGAAESEVYNLLEYS
+                     MPPEEAVCALYQSNNASHLLEEDYESFSNWDSELPPPKIDDWIEFTPSDGKIEIRDKA
+                     QNLISASTPHCVYCIQIEYKYPSLQSLEREANVLFDEIPHWLRTAWDTEIALYVGYSS
+                     NFPDRVVAHSVGKLSDTNSPAMVTALADIVGAGIVEKTSDKDHAMTVEEKYAENLRST
+                     TDDENITVYQY"
+     gene            5098..5754
+                     /locus_tag="HXZ11_RS00025"
+     CDS             5098..5754
+                     /locus_tag="HXZ11_RS00025"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901255.1"
+                     /translation="MSETQRTREASTRRSPGARESPYPRENYFASVDDEYDPEREPLD
+                     DTRNDHHLRTLDRGTSKDEWIVATLQKGQATMLCPYALNESPDAEWALHDENGEVVLS
+                     DPSEYPPPASGFVTPETDTAARKPSTSQWRFNPDHGYLVFGGIPRDQCREEFLAFVEE
+                     LLDAIEAEPLEGERDAALELAADLKSRGDRPDSDICELIVRKLLGSESLREFVATGNY
+                     "
+     gene            complement(6188..6520)
+                     /locus_tag="HXZ11_RS00220"
+     CDS             complement(6188..6520)
+                     /locus_tag="HXZ11_RS00220"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580221.1"
+                     /translation="MWNPIQIHFGRADGHTHRDDHGREHLDDSPERNAGRTEAYPHAK
+                     VPDDGRDHDAEQPAGDHSPFTLVPIECVETDVRERHDPNSNNPGRRDADRLEEPRCDR
+                     VFFDREPE"
+     gene            complement(6874..7104)
+                     /locus_tag="HXZ11_RS00225"
+     CDS             complement(6874..7104)
+                     /locus_tag="HXZ11_RS00225"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_236996084.1"
+                     /translation="MFIPSIFNLFTVPPAVPYKTELLLESGSTLINLPPFSYFQSCAP
+                     LPASIPLTVPSSETEYRMLPSPDRDTSLTVSL"
+     gene            7502..10228
+                     /locus_tag="HXZ11_RS00030"
+     CDS             7502..10228
+                     /locus_tag="HXZ11_RS00030"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_236996085.1"
+                     /translation="MGVNAIAAAPPSIQPDPPFPGWEDTAPLIRAVDQNGDPVRNATI
+                     EAWSVETESLADEVENKEARAQEIIDELDNVQPDQWTPPTQVDLSYGDLTDLYNDSQP
+                     SGVYPTAHTKGDMGIAGWADTHDLIPRLEFESGEKIYLYAWDGSAGANMGPLADGVTS
+                     EHYGEIADDPTFNLKRISPTGETLDNHTVESTESETYSGGIPPLSYEHDYATATVPDG
+                     YYLVSVQGSDTPGYVIKVGEATDVLTTEMRNEANQLTEQAETLGSYLGEDTLMRDRVT
+                     ATEELTRESHEYENRPLDLDAFDYGHGYVNPGLQIHGQDINDQKTDRVRDFPNVAGSE
+                     IYLQGYRGPDVGIDDFEDQNVTDIMELASNVDEPIYASKKPKRVDMSEIEDPDNATIE
+                     VTLQKFDSGLNPDVSEYANETERLKNQLLNQSTAELESLFRDNPELLNGTELEARHEE
+                     LQDLVESNNDLEERVAELRDSESIDDAANTSEEQLKKDLAAMEQAIAELEGQLEAEPP
+                     TSEIDGGEIFAEFPFAESLNPDAITVIANYEDGSSEVIDDEYISVESASVLGGDQVVV
+                     DGLEIPSDRAVADLEVKGVSTGGALGTSRDSVTNPAFQGTIPELDAIDMSTLRPGVGD
+                     SVGMTPRSSAEGYGGAESATVYGPDGQTLNVTRNDERFRWTPEQTGTHTIRLTYSNTI
+                     GGEFTETVRVGVEENPASTPPTVRVTDGIGGNLLLAGDGLESGSISVDGANAKVVAQA
+                     PGDNAPSSLDIHAEQLAVDSMDVSVVMGTDQRSVDRHVSLRVWANFGVEDALVLRQPG
+                     EPITADEQTPFGAFETRTSESGSEHQVVETYTEADGTTTVQVQRNPSLLDRASYQIAI
+                     WGIDLPFTTLSTTPPMSLPLTMTAPPAVDEATAGQIVFGPTDMTTAATGVTA"
+     gene            10225..11880
+                     /locus_tag="HXZ11_RS00035"
+     CDS             10225..11880
+                     /locus_tag="HXZ11_RS00035"
+                     /inference="COORDINATES: protein motif:HMM:NF012311.2"
+                     /GO_function="GO:0008236 - serine-type peptidase activity
+                     [Evidence IEA]"
+                     /GO_process="GO:0006508 - proteolysis [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="S8 family serine peptidase"
+                     /protein_id="WP_088901257.1"
+                     /translation="MSNQHSEDDREVTRREYLASSATVSATATLPLGFAAGAFASDSL
+                     SPLARQFVSAQSPGLATFEHSIRRYATDPSWTLRANTDDDYAALTEWARDDDDVTLVR
+                     EYQHTKGDGGTVTIGAPVATVAGGYLNDGVADEPWVTAADLNVVTSLVAPKNIPVDAR
+                     EFEQLAGIESFVLSTLQGQESFDATEFQASDDSSKSTLAFDAETTTLEQGRTITNDTS
+                     ADGAGALLAVVDTGLTYDSDIYGRTVTVDGSETTESRVHEESTNFVAAGDPTVAAEGV
+                     DILDDASGHGSWVTAAAASSAPKPYRGVAPDADLYIGRALDHEDGSGAVADIATAVRA
+                     ATDAGADATCMSLGSPLYTEELADAIAYATEHGNTIVVASGNDRMVSRFVAYPAADPN
+                     TLSVSATDVPASGDPTDVRSASFANVGPSPGTVNFSEGETSGVEVDIAAPGMAQEAQL
+                     DSGTTTLSGTSMAAPDVAGAAALLATEGVDDPAERLRETARPVPNLAPAESRHGLLDI
+                     QAALQNDQPEDEPADVLTDDAELRDDIFRGEAAARGSWLATFL"
+     gene            11889..12683
+                     /locus_tag="HXZ11_RS00040"
+     CDS             11889..12683
+                     /locus_tag="HXZ11_RS00040"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901258.1"
+                     /translation="MTRTRRQFLASGGAAGLSFLPGWLPFVGGDSDDTESTDDRSPTL
+                     AEREDQYGMTIDYPEEWLQKYRPAFIADRDTMQQSMGLYAHRVQYDDSEYQYAYYWHK
+                     LTHQQGILFDADSHLGDHEPTIVRVDSDGVIDRVTYTFYHHLADSISGARLTRALRAR
+                     ETAEPTHVQLRIVPPWHNYAVVEGTPSQPVSFRDVQGDADASHLRTWETQGIFDPTAD
+                     EAVWSPRTVQDRGSWWDESTTDYQAAQLYLRLGQYIDIAGSGEIDR"
+     gene            12795..14303
+                     /locus_tag="HXZ11_RS00045"
+     CDS             12795..14303
+                     /locus_tag="HXZ11_RS00045"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DUF2808 domain-containing protein"
+                     /protein_id="WP_088901932.1"
+                     /translation="MFDTNTNSTTIAVAVALATVMLLGAFAAPAAAVSGVTVTADDDG
+                     TGATTTHTVSFSDDTDAGDIDELTIDYEATDVSDVTADDTTVTWAGTDQTVSNVEVVD
+                     DTTLTVTIDSAYTLDDTTSETAEVNISGVENPHNTGDYSVNVTATDTTAGTDLGPTTG
+                     TFTVTQGETPSVTDNSTLTEDATVTYEADDSMADTVEVEAGTDNLELQVRHDGAVLES
+                     YDSTSDAFTEVTAAGTDTPGTYEFNVTQDAYSGVGVDYSDTANVTLAVENLDANAPVN
+                     TFDVTLDNQADRSQMHISAAEIESPDVLDVTTTTDEPWLAEYRDAENETTYEVTSTRS
+                     INGSDSTISIFASDDGVSEEIDAATEDAESGDIIHNLALSHDEGVTLISYDERADFVE
+                     DGDSYAVYDSSTDRIEFTAGDEYADASEVEMTFATTPATSLDSVDVASVASAYEGSEL
+                     GIRSLSADLGWFDAFRVADSPFSFEIPSLSWGPFGDDTSDDENALMVGQIGV"
+     gene            14306..14602
+                     /locus_tag="HXZ11_RS00050"
+     CDS             14306..14602
+                     /locus_tag="HXZ11_RS00050"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901260.1"
+                     /translation="MGFPPFSWLESSIGENRSWALARVTIGILYLALGWIPATIGFAV
+                     GLVYFFGDITLKLTVNRRMEWLRPWAKSTLVWNYDLVLWIFGVEEFPGWMGWTP"
+     gene            complement(14930..16207)
+                     /locus_tag="HXZ11_RS00055"
+     CDS             complement(14930..16207)
+                     /locus_tag="HXZ11_RS00055"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_007107504.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA-guided endonuclease TnpB family protein"
+                     /protein_id="WP_088901261.1"
+                     /translation="MTATATKTLEATLAPPTAHKEQRLQRTVATYRRALSDAFESGAN
+                     TQTAVNDVVTPYTLTSYAKDALKNYVPQLRDTYNASELEDDHPVRFTNRGWCLDHSDD
+                     REHEFCWRVPQAGRGNAFWIPLRINPAQRELWDDLLDGDVTVGEFRLTENRTNWVLHV
+                     TIEYAVAEPEEPDNPTPVGFDIGESKLLTGCACQDGTPTKPYIYDGGRARHLRKEMFT
+                     TLRRLQERDAEWRVDERFDHYQNALTDIVEKASRQAVEYARQFENPVIVLEDLSYIRE
+                     HLDYGKWMNRRLHNWAFARLTGRIEDKALDAGIPVRFVNPAYTSQTCHACGHLGSRSS
+                     QAAFRCTNTECWVTEYQADINAAANIAGRLNPWGERCALKPHTNDSPQDGSACDSTTG
+                     HREQSRQSRQTTLGDFSSETSDDEASLVGSPAL"
+     gene            16262..16399
+                     /locus_tag="HXZ11_RS00060"
+     CDS             16262..16399
+                     /locus_tag="HXZ11_RS00060"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008423198.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580075.1"
+                     /translation="MTKDVRLEVSEEQHEWLTELKNERGYTWKGLLLEGAECLDTDRA
+                     Q"
+     gene            16713..17450
+                     /locus_tag="HXZ11_RS00065"
+     CDS             16713..17450
+                     /locus_tag="HXZ11_RS00065"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_141104807.1"
+                     /translation="MTHLHTRVVAVGLAALMLSAGAAAPVAAADSPFGDLWSDDDDTD
+                     DAEDLTLTERLEETIDMARSWGVGVGGGLADRVSYEASQSTPWADPPNLSAEATDTRE
+                     TINGNSTQIVDYLNNQTDAANASVDNTTVHELRLVDEDHALSESIYLVFEYDQTTGQW
+                     TTLTAHESYNGSADYEHRFSGFLATNTADETDRFVTEYVADGEPIASDRAYNAGVLSR
+                     YAGPFGSDAESTLLDDGFDGFEDGADS"
+     gene            17450..17833
+                     /locus_tag="HXZ11_RS00070"
+     CDS             17450..17833
+                     /locus_tag="HXZ11_RS00070"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901263.1"
+                     /translation="MASLFATVWALVAYPFRVARETFSNLTDVLAQATPEDLIPPWIW
+                     EQLTSTWAWVKIQFPRALGYRATPYEQMTASVVLAVMLVIVSIGFLTWVAPIFIFPFL
+                     FGAARLIPPVDRAWPLTASRGDRPV"
+     gene            17830..18147
+                     /locus_tag="HXZ11_RS00075"
+     CDS             17830..18147
+                     /locus_tag="HXZ11_RS00075"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901264.1"
+                     /translation="MTWRDYVPSIDLRRWLRSGGRTGARLASITAFVVLLGLTVFAAF
+                     TAGSVVIAALATFVLFFMLRAALPAERIDTFVSDLLSGEAGVQWYEWLLDQWAALRRR
+                     LSR"
+     gene            complement(18256..18630)
+                     /locus_tag="HXZ11_RS00080"
+     CDS             complement(18256..18630)
+                     /locus_tag="HXZ11_RS00080"
+                     /inference="COORDINATES: protein motif:HMM:NF036897.2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580076.1"
+                     /translation="MNNQGELLVYCGCKPVADAKYDFESNRSATEAIIWALADAVGVD
+                     PTDLPPLFDYVDPDALNALFDSNDRVTDDDALLNFQVDTWNVFVRSDGLIRVCDATQP
+                     TDPEPVFESTLPNATSLRGRCP"
+     gene            18769..19686
+                     /locus_tag="HXZ11_RS00085"
+     CDS             18769..19686
+                     /locus_tag="HXZ11_RS00085"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580077.1"
+                     /translation="MHQHTFRALLAAVLAVCLVGLAAGGTLAQDDTPSPEMEVVYDEF
+                     RTDDTVVENANTTGSAQVIKQNTRATIEDDDAFVRVGLENPNSYAVAFEVQLSEKIVR
+                     PATLGTVRATDTDGVTADWQAQHDFEAEETHTRVTVVVPAETDVLFTPSQLRVKSLSW
+                     TGDAEQSAETLRERVTKLWEDDRLEQRTYEVTGSEGEIVTVDLENPETGDRIEEWHAT
+                     YTLAGDEAARPTPLAEGTGEPVFYRPIENDDGTVDAIQVTFNEAGTVSLTVEPTTTEK
+                     LGFEMTSYRSSVLDGFEWGPFASTARVTP"
+     gene            19683..19925
+                     /locus_tag="HXZ11_RS00090"
+     CDS             19683..19925
+                     /locus_tag="HXZ11_RS00090"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580078.1"
+                     /translation="MTGTADWLLWGIAALAILVSFANPGGFIIGALIAFVLLGGRYGL
+                     PFVGDYLKSRQSGVGQAKAQRKLRDTMRRNDDERNR"
+     gene            19922..20203
+                     /locus_tag="HXZ11_RS00095"
+     CDS             19922..20203
+                     /locus_tag="HXZ11_RS00095"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901268.1"
+                     /translation="MSTLNSLLMILVPIGVAFAAGHLLFQRRGSGAVAATSAYGTVMG
+                     TFWTLVGVFMIIGGLQIIGGLIIAVAWYLARGNYKRYKQEGGLRAALNG"
+     gene            20352..20588
+                     /locus_tag="HXZ11_RS00100"
+     CDS             20352..20588
+                     /locus_tag="HXZ11_RS00100"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901269.1"
+                     /translation="MLQDAGRVTPVNRAIQFYISVTTACDSAFPFDPHDPFVVRVVDD
+                     AVVITPPTCDRETLDLPAIDAEVRTSIPAPSDDD"
+     gene            20595..21194
+                     /locus_tag="HXZ11_RS00105"
+     CDS             20595..21194
+                     /locus_tag="HXZ11_RS00105"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580079.1"
+                     /translation="MSTSNTPESIDLDELSSSGLESNLEWLRKTLQRRVKHIQDDELK
+                     RRAVRWIQQSLQVPASTVSDYIDHQLSEMEAEYRMYDHDRVENGEDAFPDACEGCPHY
+                     GGGCPIITWRSPQEELYRIAESATDGTTFKREIRGLATLHDCHRIPTWITQWETRYEG
+                     LVEEGWDIYLSIEIDVGLMDSPGAEMKVDLSEDDDGGGY"
+     gene            21194..22216
+                     /locus_tag="HXZ11_RS00110"
+     CDS             21194..22216
+                     /locus_tag="HXZ11_RS00110"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901271.1"
+                     /translation="MLATIAAVTVAVIVILAALWYMRRKMREDFDEATEHIDSGDPDA
+                     AHVKGSSSIPIRARASGLSMTAKVMFGAIGGIILIVGLFAFETIRTGSPAEVMFADQL
+                     ITGAQVAAGVVVGIVGVNMAQKSVGWHHVVYETESGDVQTESVPINVSGMEADTEGNA
+                     VVSEYARTRVLGLFRRTKHVAEDATLDGTHRAPGKPIKHQIPQHAIAIGENEWITRTA
+                     KQTPTQSPDVEADYVYSSPIELSYDKFVGMKESNRRKDIRLTSLESTVAVLEKELEKL
+                     ERRLKSGQYKEEQQVLQKIEQVSDIISQASSEPDGQSNPRDTHVNISDAKQNGSGQAA
+                     TDGGTQ"
+     gene            22213..23505
+                     /locus_tag="HXZ11_RS00115"
+     CDS             22213..23505
+                     /locus_tag="HXZ11_RS00115"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580080.1"
+                     /translation="MNIRAILAALLVITAALPAGAAAAAAPDTDASTPTIQFQTDDGA
+                     NETDANNTTAGGGENPDFEDDQPPEYADDGTPGAAAGLRVTPIDFGEEWMGTETTDSD
+                     AEYATTGPFALFSLSAPAENARIAQSAADAQLLEGEQTLRVDYDDDAAPTDGESYYEV
+                     ELFFEDGSTKTIGLTASETGVSVAASDYAEYQALIEEMEEPATERGFEATPEGLIEYH
+                     SWQQDRVEIIESFLVERAEQLFGVVVLAVQNPLAWVLALMALALAAFKREQQHGWMLD
+                     RIENDAGETARKDKQLRSAFREHVQASNEEYIGQMDEVNDQQAQYWRDSFDVYSVRQL
+                     AELAKRGPHNTPDDAATDGGETAPAIAAIDADEIRDSWLAKAWSTNRLADPQEALTCI
+                     RAACVRMEAKYGLGHEYDATRDAVESLLEDVREQEASY"
+     gene            23505..25208
+                     /locus_tag="HXZ11_RS00120"
+     CDS             23505..25208
+                     /locus_tag="HXZ11_RS00120"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580081.1"
+                     /translation="MTDKRNDHGRRDDAPDETVDADDLDPSPDTEPDLPAGPIETEED
+                     TSVRESLSDFGATLSTLVRSYAATMHTLVRDHALPWLGDQARNARSLPKRAKRRVILF
+                     AVGPSNTIGTRVGAIVMLVATAALAGAGFLAVASGVDAGGDSSWFMEQLVGAATSVWS
+                     YALVLLLLFAVIRVTQRSRAATKAASRTGFSEQTCHRLASEAQTADGASTVVVSPADS
+                     VDTACDRILSAFETPYSALDINWGDTHVLDDDIVTAAEESAEAAEETDLVVDDRANVD
+                     ASEHAHLSRLELASTLNGRDLFWSFAVPAGVTALAALILVQFWAAIWVYGLIFAAALV
+                     AGSAWYVGAHYWRRRRAKSVRSTRQQASYDDIAVLVKKADTDDVTCYYGWVGGTVYAD
+                     YNELRLAWTLSEVAHAHIEGEPIPPTIQQKFARNLTQYLPNLEGYEEAVEKAEIRDRL
+                     IQEVAESPSARLPKNRLADRVIRRDKERIGGIGYDPRLVAEAYGAVVPYALVEEHVDV
+                     ETPTEGTKSMSVVRLRTEHVTPEAIATDAQFSSLYQPDYSPDFDLPAVDLHAPEASLS
+                     D"
+     gene            25251..27767
+                     /locus_tag="HXZ11_RS00125"
+     CDS             25251..27767
+                     /locus_tag="HXZ11_RS00125"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580082.1"
+                     /translation="MSSNTTDSEPNEYDPSSASSVQPEDNTTVAEAIDRRVTDSLVDR
+                     IERDNRSIEAVVRNLIAEAENALAGDSKYDAEAVLETIHYFLIHDDRTSELLAPTDDT
+                     LDTATKIRFEDHCDTREAGQTPPTREEFETQVQVAKGLKYIYAYTDKTRYIPVRMEKL
+                     NVKGATSSVEGDPTPIGRRRVGKDETIDELSEEITINHEDAEHVLVIALPRKGKDSTI
+                     TSICGNMMDEHNYKWFSCLDDGRNETPMTAIPNDEPPILENLEKFDQRPKAYKSRVYV
+                     PNTEGAPGVLPSNYKRFTISIEDLTPRLILRLANVNTGDSNTLRRVGQALKNTVEDGK
+                     GVTHLAELLQEYAGEVQATITVKELEQDEFVEMEDGTRRVADADEVEEAASENEHVRQ
+                     VTYEMEADKALEKAAESLIMLSGEGLIGDPGAETNLDIDAEFRAQDRVAVLNCNFLAD
+                     RNDALKFSILNLWLRLIFRKRDENPRLPRALLEIRELKDIAPSVIGNTQYKEEVKALQ
+                     STIYDIATRGGSRRVMMMGSTQKMNDIYKPIRTNMPIKILLQLGEEEIKTLDKSYGFS
+                     HAQEDQLKKFSPGQGMLIKDGEEHWPITWRGARCGLGAGDVPWRDRYGQAWGARVYNS
+                     FQHRSDDLYDDVDGYINTRSGYVHDYNRDANLEPDDGTWHILWRDIRQHVPVTLTRED
+                     FEDRQQLPKPIVDAAVEARREADLPSDLSLTRNQATTTRSLSFEDADEAEQEEIRRLL
+                     NEHNVPKPLETWIGESMRTTRENMLEVLKEIEYAEPGELSNMRDLEDVSGIPKGTIGT
+                     WRSQRKDFPTTMEKKDGYWQITRVGDRALNIDWVKLDRLI"
+     gene            complement(27791..28189)
+                     /locus_tag="HXZ11_RS00130"
+     CDS             complement(27791..28189)
+                     /locus_tag="HXZ11_RS00130"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580083.1"
+                     /translation="MSGTGSGIVFGIAFGIGIGTAAGISYGIASGIDSGIISGIGIGI
+                     SYEWAYEPLSIRFGYLLLAGWRRRRRPLGGRAGLFVPGHPTKTERTPWCRLVVPVVIP
+                     NASLLNTAYAVRAHNTQNDLYESHDCIGVV"
+     gene            complement(28254..29834)
+                     /locus_tag="HXZ11_RS00135"
+     CDS             complement(28254..29834)
+                     /locus_tag="HXZ11_RS00135"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580084.1"
+                     /translation="MVSEGSDIPAVADRLKSIAAAEREMGRETTVDELLAQSRRNDAA
+                     YLMPSDIEKAEWVADLYEREDRPDEHARDFHYRLVSGEYKRRNGEPYVNSDTCWKELN
+                     EALKWARILRHIEPGEMENTRNHTVTPTAFDDVDRPLPESGPSLDDASASVDVDDGFR
+                     RPKIPQEVTLARELFDGADEFIATAAKMIADQTFRRVYFSESAEQRYYIEIWCEKSGV
+                     VPEDLAGEYGATIRESGQGEFSLGMVEEAVTIASKRDQDLAVVVVSDYDAAGADIPIS
+                     GARKIEVLAALKGIEAEVVQGAVTKEQVEEYGIPGNPSASKVPKGLEEGVRGAKGYET
+                     QKELFREYAGQFPVELQGFTSVAPDAFENELEESLATFYDADLGDRIKSEVREARERA
+                     QQRLVDAFEEHRAEIQDALDELHQGLDRYDDEMGPHVDAAIDGLEQLAAEEKRVRDEC
+                     GIRERRDRVEGVVDRVDHRAVVAEVDVPVPTPDTPGVDDPILDTRRSFLEQLNAYKRH
+                     NMRSGSDDASDGIDDSEE"
+     gene            30942..32189
+                     /locus_tag="HXZ11_RS00140"
+     CDS             30942..32189
+                     /locus_tag="HXZ11_RS00140"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_007992821.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="AAA family ATPase"
+                     /protein_id="WP_088901276.1"
+                     /translation="MDELGHLTPEDDIFLDEDVLRDDYDPDRILERDDVLNRYLQMFS
+                     EVIRGKRPRNVFVYGPTGVGKTVGTHLVLDRVCEDAEGVDGVDVTAVQMECRDLNTSY
+                     QVAVSLVNVLRESTPRSSLPTTGYPEGDVFDMLFDELRDADTSHVLIALDEIDNIGTS
+                     DNVLYKLGRCNNRNSAKFVDPDNTKVGLVGITNDSTFRDSLDPRVKSTLCEHEIHFPP
+                     YDANELRTILENRAADAFHDGVLTDDVVPITAAFAAKRSGYARTALDLLYTAGDLARS
+                     GDDALVTEEHVRKAESEIQQGAIVSEIASLSPQGKLVAYTLLALSDQGELPAKMDAFY
+                     AWYEHAARLAESDTVTARTVRDLLNDLVINGVAKMEEVNRGQRGGRHYRYSLAAHPEM
+                     VADGLAEDDTITDLDDERGGVLF"
+     gene            32296..32985
+                     /locus_tag="HXZ11_RS00145"
+     CDS             32296..32985
+                     /locus_tag="HXZ11_RS00145"
+                     /inference="COORDINATES: protein motif:HMM:NF012792.2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="GNAT family N-acetyltransferase"
+                     /protein_id="WP_088901277.1"
+                     /translation="MGVDHSPSATVSPTADGNCAAHATVRPGSGERDAFYLVHLWSRW
+                     FGAEYERGHRYSSGRLPLPLCPVAGWEVDDAAGLDVYAVVAEHDPPDRDGPVHIGGGF
+                     ATIKSREQTVAELPDGRFDADALAGDRNAWFWFGVVDDAWRGLGLGRRLFEERVQWAR
+                     DQGADMAFAFGWEHPGRTSRPLFEAFGFVPVERFKRLYEDERDVCPVCDVWPSDDETC
+                     TCSGVVWAKDL"
+     gene            complement(32992..33219)
+                     /locus_tag="HXZ11_RS00150"
+     CDS             complement(32992..33219)
+                     /locus_tag="HXZ11_RS00150"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088901278.1"
+                     /translation="MSERTPSTEKPLPEVVVGVVTHNRGYPKTAIAMNLDHRNRETKS
+                     LGDVLDQLVSEGRLVERDGRYWLPEDAPDDA"
+     gene            33353..33730
+                     /locus_tag="HXZ11_RS00155"
+     CDS             33353..33730
+                     /locus_tag="HXZ11_RS00155"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_176580085.1"
+                     /translation="MSEPTDDVAETLFENRSDPRTYRLTLDDERAFEVTTADFEYDPA
+                     DEYGDGDFRQVIEFRDAPDLDLDDNRYATQQGEIDTVETDDGWGTPVLHAAVQHVEDD
+                     DLVGWEYPTLGTTATAEKVTDGE"
+     gene            complement(33781..35118)
+                     /locus_tag="HXZ11_RS00160"
+     CDS             complement(33781..35118)
+                     /locus_tag="HXZ11_RS00160"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015910948.1"
+                     /GO_function="GO:0004803 - transposase activity [Evidence
+                     IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ISH6-like element ISHla10 family transposase"
+                     /protein_id="WP_012659191.1"
+                     /translation="MHATIDVRFELSIDDDKTLPLATLAEAVTDQNLEAVLLESLVES
+                     LDAASVEALCGEKHAHGNGDQRFQRAGTDTRTAVTTAGEHEFSLHYVEDTAASPDESS
+                     YFRPVEDVLDFDGQNRYQQDIAAKSVDLATSLSYRDAANHGDSFVSMPSPTTINRRAK
+                     KYGHKLKQFLPDCVAGTDADAVIPDGTKCHSQDDDRSSHSVQATLGEDTAEESRSLLD
+                     LSVNADWDETAAELDDIGAVTDDATVVSDADSGIVTAFTDENRDHQLDLVHVGRTLGY
+                     TLWDDGVFSLDRRKEIVSEVIDEVFHLKNSVAKHRPAEEFAAIRSRIARTRERLEKTA
+                     WQLEQFGSAKAAGYLRRWLPSIVTFAEHAVEGFEVPWTSNPVERLMGEVSKRCKNQWM
+                     RWTAEGLEAILQLRLVKYADPEYYQAFLDELLQRSTKTAINCDLSIESTSGKV"
+     gene            complement(35351..35473)
+                     /locus_tag="HXZ11_RS00235"
+     CDS             complement(35351..35473)
+                     /locus_tag="HXZ11_RS00235"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_257792708.1"
+                     /translation="MGIGIFGGSVATTQSFPEAVLPSVFIFAIGTAVTQIGKYR"
+     gene            35893..37137
+                     /locus_tag="HXZ11_RS00165"
+     CDS             35893..37137
+                     /locus_tag="HXZ11_RS00165"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008572520.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="integrase"
+                     /protein_id="WP_012660226.1"
+                     /translation="MSGYRYSWNRKSLDELVAFYNDTIAPKMVADGLEPRKESPPYEW
+                     LLDNGFSGLADTLRKNHELTLTEFYTDVVGVGEDEGDAYDWGISSESMISVFEKYLEG
+                     RRSRGNLAERTIRSRRSRLAQFARIYESLHGHSDLERHLDDEYDRPEEIDRCLAVFDV
+                     FNQELANDETKLKYYSEIRQFYEYLANFRRARYNPINPVANQYDWERSKPDNPTVDRE
+                     GMRRIFHEADNPADQLLVLGLGAWGLRPDEVASLHVSQFVFDTENDDGSYSDDYIEFE
+                     ERKNGPGTVNLMFGVDAVQDRIADLEGPGWNGYLFPSSQSSSGHRTGETINNRFKRLA
+                     TAVDVTVDGETPTAKMGRRLWYTMYKNAVTELAEELEEVAADQGSSSAEIIVSNYISE
+                     SERRKYRREVFGEELEAVFGNV"
+     gene            complement(37652..38260)
+                     /locus_tag="HXZ11_RS00170"
+     CDS             complement(37652..38260)
+                     /locus_tag="HXZ11_RS00170"
+                     /inference="COORDINATES: protein motif:HMM:NF040013.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DUF6166 domain-containing protein"
+                     /protein_id="WP_012660225.1"
+                     /translation="MEELLDDLRLLQHRQPDLFEDAVLMLDGVEWADSETVYSNDETA
+                     DSIAPIADGEPLDPRTDIEEHGQSGGCSWSYTGAGSQQLALAILAHATDPGVARRRAQ
+                     GFAAVYIQSLDDGWKLTAEEVQKWVRIVENEDRDLNLEKLDMSPYERKLNQVHDIFES
+                     EIEASDLTEDERERLESAVSEFVESRFPEEPLGSQDTSDSTE"
+     gene            38362..39534
+                     /locus_tag="HXZ11_RS00175"
+     CDS             38362..39534
+                     /locus_tag="HXZ11_RS00175"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_012660224.1"
+                     /GO_function="GO:0004803 - transposase activity [Evidence
+                     IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ISH3-like element ISHla9 family transposase"
+                     /protein_id="WP_012660224.1"
+                     /translation="MFTIPQPDGHLSATDVKELAEDIVEQLPLPGIEGSPLDSGEIWA
+                     VVTLAAVNQTSVWETCKDNDNAPCDDTVMDWLHTLNREWLERIANDLLKEMAMTILDP
+                     DRSRIVSIDFVDNPYHGTYADESGELCRMAAKDGTTTCHRYCSAYLVSNGKPVTLAMT
+                     YVRSDESEADAVERVLDRVEAYPFDIDLLLADRGFYNERILRRSHDIAATVVPVQKKG
+                     KRMKKKLDTHCSYMTTYRMYKDCKRELKFPLAVAVSYQAGDRGKSGEVVRGYVACDLA
+                     DRTPKRVEQLYRKRSAIETSYRVFRQARVVTTTQDSIVRFGFVLVGFLLENLWLVLRW
+                     AVVARPRRGGRDLPEEFTFKTFSDWIRHALEEELERSWEIKMNGVGVPEAYAAAAG"
+     gene            40335..41222
+                     /locus_tag="HXZ11_RS00180"
+     CDS             40335..41222
+                     /locus_tag="HXZ11_RS00180"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015310230.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="AAA family ATPase"
+                     /protein_id="WP_012660223.1"
+                     /translation="MASETSAVETSPETIAVSFQKGGTGKTFNSLMISGGLNARNLEV
+                     LLIDLDPQGSLTANVGKREVFEDADRLSLDEVLMDVEKWSQIDDVVLTDHEEFDFIPA
+                     NTTFKGNKTPLDTASASEKRLGKALEQLSKDYHYIVCDCPPDLSAYTKNAITVSGNVV
+                     VPMKPESETIFSVRDQWQALQVLGMMHDFEVNYLAYPLTYISNKLTTENKEVISWCEE
+                     NTSPLVKIDDRASFDRAKWGQNSIYNYEESLRNDQLPVYDEVVQLVLDGTNPPSYGVD
+                     ISAARDMTPEDIRAEAGVN"
+     gene            41224..41754
+                     /locus_tag="HXZ11_RS00185"
+     CDS             41224..41754
+                     /locus_tag="HXZ11_RS00185"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_012660222.1"
+                     /translation="MGDGDGDGDGGGLRDEMDKTAELAEQFGISGDDGDPEDEEVLET
+                     SAEVESSEPPETLETQEASTTSEPPGGDDDGSSEPQEQDNVQEVGGVMEREYPNPDKE
+                     VGAITDLYDNINVFVPPEVKEEIHTLYKELEYKYRREHGEEIDKHWDFYTALFRTVLR
+                     DDDLLREELGLTSEEE"
+     gene            41910..43145
+                     /locus_tag="HXZ11_RS00190"
+     CDS             41910..43145
+                     /locus_tag="HXZ11_RS00190"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_012660221.1"
+                     /translation="MKPSENRYAVPVFDFGWGENYVVPQMADEDARTYIQVKCQEWSQ
+                     GDPEVSVKYVDGETINRYRFRVTDQDRQECSYKGEDPNELPVEVQHAVYSFGYSIRDL
+                     ESITQWMFRLVEAKEILERLRQLEDEYEDLPLIHFLLRDTISVFDTLTGFLAARAILP
+                     DREYESLWVDVMLSGSEQNGGRMIANFQANAKEQIREIDTEGIGFEGDTLVVEEGIEL
+                     TEKETEQGHTLLVDYTTPFGITRCRFLEAGEDRYVCQYPDGSYLPPEMIRMLEERGKK
+                     VTNRESIEHKETPLEVVEHASLFAEELQDYPMAPDTTILSQGESYVPINLATAVFERA
+                     NSTATSLVPFDLNENVSRTLHQKVCEQVGIDSADQLTESTHDKVLATVHDNLTRELAV
+                     EWREYMETNEAYSPPDQEE"
+     gene            complement(43146..44375)
+                     /locus_tag="HXZ11_RS00195"
+     CDS             complement(43146..44375)
+                     /locus_tag="HXZ11_RS00195"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008524254.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="AAA family ATPase"
+                     /protein_id="WP_049933968.1"
+                     /translation="MNQDGDGGSDNGGRDIFATNSDIFENRDLLKVGYVPGLDQIVGR
+                     EEQIQSVGQSIGSATVGDSPDTLLIYGKTGCGKSLVARAVTREAKQRAAENGYNFEYS
+                     YIDCSEYRTETKASRQIAREIKRSIGDPDLNIPRAGLSASDYRDMVWEMMFDYDIDSF
+                     VVILDEIDMLKDENLIRSLSRAEESGKTDGYVSLIGISNKLNYREQLDPRTDSSFRDQ
+                     EIVFDPYDANRLRDILYSREEAFVDGALSESVIPKIAALAGRDHGDARKAVDTLYEAG
+                     RSAEAKNADQVNERHVDEAIEEAEIKRMQKLVSGHPTHGRYLLRSLALLTKNHEQEKN
+                     QFKTSEIYDFYKQICKKEGSDPLSLNRARRHLKEQAFLELTEIEHASEGREGAFLLHR
+                     LMAEPEIMIEGLDRANH"
+     gene            complement(46121..46915)
+                     /locus_tag="HXZ11_RS00200"
+     CDS             complement(46121..46915)
+                     /locus_tag="HXZ11_RS00200"
+                     /inference="COORDINATES: protein motif:HMM:TIGR02928.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_049933966.1"
+                     /translation="MFDEINNVDGTLILILDEVDHIKDDSLLYKLSRAHEDGDIIDTF
+                     FGVVGISNDLRYRENLSSKVQSSLCEKVVSFSAYDADELVEVLSQRTQVAFHEDAVGQ
+                     DVISLCAAYGARNSGDARKALDLLLESGDIARSSDSDTVEIEHVEQAKDRLETDQLLE
+                     GVKNYSTHGKLTLLALITLAEDKKTPCRSRSIHKRYVKICEKEVCEPVSNRAVRDYLS
+                     ELEVLGITSSETFNDGKDGGKYKKHQLRRSVSEIQGALTESLTADL"
+     gene            46963..48129
+                     /locus_tag="HXZ11_RS00205"
+     CDS             46963..48129
+                     /locus_tag="HXZ11_RS00205"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_076612342.1"
+                     /GO_function="GO:0004803 - transposase activity [Evidence
+                     IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ISH3-like element ISHla1 family transposase"
+                     /protein_id="WP_009486633.1"
+                     /translation="MSKTKQADGEIHEDQLLNFLVNRLDEEVSLSLANNAEITAEDIY
+                     EVLVGACADGTSVSTLCASSQNSPAGNTVLYHLRTKFEPERLERVANTLLRKDLDELL
+                     PEQVEVCADLHLRPYYGDEDDTDGLYHSVAKRGTTAFHAYATLYARVKNKRYTLAVRR
+                     LKDGDTASSVLAEFFGVLDGLDAGVKAVYLDRGFYDSKCLTLLQAHNYAYVIPIIRWG
+                     EAIQQELSEGWSRVIQHDLTGKLDGHSWTVDFPVYIDCTYLNGKYDENGVARHGYAAD
+                     APFIDSPRDARYHYSKRFGIESSYRLFEQAIATTTTRDPTVRLLYVVVSLLLQNVWRY
+                     LHYEYVATPRRGGRRLWWWPYKEFVNMIRRAAWTALAVRRAVPANRPPDDRFHR"
+     gene            complement(48244..48546)
+                     /locus_tag="HXZ11_RS00230"
+     CDS             complement(48244..48546)
+                     /locus_tag="HXZ11_RS00230"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_009486645.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_236996083.1"
+                     /translation="MIYDFDPDSMDVDTSGVSFYNEPTEIEVEGYQPFVYLTHYSTQW
+                     RAIHASSPDTEEIEIIASSISDALHWAVELARESVPHKASSASCFCGLSSVSKRLY"
+     gene            48697..49047
+                     /gene="sepF"
+                     /locus_tag="HXZ11_RS00215"
+     CDS             48697..49047
+                     /gene="sepF"
+                     /locus_tag="HXZ11_RS00215"
+                     /inference="COORDINATES: protein motif:HMM:NF016363.2"
+                     /GO_process="GO:0090529 - cell septum assembly [Evidence
+                     IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell division protein SepF"
+                     /protein_id="WP_176580086.1"
+                     /translation="MGFSDLLKGGISSKSEDDYRDVTDADVSASNTGSGPQIKSAEVS
+                     SQNDVVPVKDAIYEGNIVIIDLAGLSPGSRRWERIEDELVQLTEEVGGDIALNNDTQC
+                     IIAPAGIGIDRDGI"
+CONTIG      join(KX687704.1:1..50329)
+//
+
