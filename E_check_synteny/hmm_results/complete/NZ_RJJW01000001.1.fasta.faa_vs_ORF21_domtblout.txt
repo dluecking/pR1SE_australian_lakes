@@ -1,0 +1,14 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_RJJW01000001.1_43 -            216 ORF21.faa            -            197   5.5e-62  204.3   1.0   1   1   1.1e-64   7.1e-62  203.9   1.0     8   189    14   195     5   210 0.95 # 39022 # 39669 # 1 # ID=1_43;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.608
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF21.faa.msa.hmm
+# Target file:     ../genes/complete/NZ_RJJW01000001.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/complete/NZ_RJJW01000001.1.fasta.faa_vs_ORF21_domtblout.txt --cpu 16 ../input_profiles/ORF21.faa.msa.hmm ../genes/complete/NZ_RJJW01000001.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/check_synenty/scripts
+# Date:            Wed May 31 14:27:57 2023
+# [ok]

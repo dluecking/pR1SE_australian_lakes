@@ -1,0 +1,14 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Eyre_NODE_236_length_33155_cov_19.932_27 -            633 ORF24.faa            -            525  4.8e-101  330.1   0.0   1   1  1.7e-102  7.7e-101  329.4   0.0    24   508    56   596    36   604 0.87 # 18816 # 20714 # -1 # ID=1_27;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.648
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF24.faa.msa.hmm
+# Target file:     ../genes/complete/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/complete/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../input_profiles/ORF24.faa.msa.hmm ../genes/complete/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/check_synenty/scripts
+# Date:            Wed May 31 14:28:00 2023
+# [ok]

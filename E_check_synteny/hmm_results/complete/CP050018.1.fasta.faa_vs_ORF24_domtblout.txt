@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>CP050018.1_67       -            662 ORF24.faa            -            525  1.2e-191  631.0   5.6   1   1  1.4e-193  2.6e-191  629.9   5.6    20   522    20   647     6   652 0.89 # 48804 # 50789 # 1 # ID=1_67;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.667
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF24.faa.msa.hmm
+# Target file:     ../genes/complete/CP050018.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/complete/CP050018.1.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../input_profiles/ORF24.faa.msa.hmm ../genes/complete/CP050018.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/check_synenty/scripts
+# Date:            Wed May 31 14:28:00 2023
+# [ok]

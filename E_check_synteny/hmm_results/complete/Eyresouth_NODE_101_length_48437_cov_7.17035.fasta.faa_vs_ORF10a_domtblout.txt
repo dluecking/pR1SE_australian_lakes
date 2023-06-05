@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF10a.faa.msa.hmm
+# Target file:     ../genes/complete/Eyresouth_NODE_101_length_48437_cov_7.17035.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/complete/Eyresouth_NODE_101_length_48437_cov_7.17035.fasta.faa_vs_ORF10a_domtblout.txt --cpu 16 ../input_profiles/ORF10a.faa.msa.hmm ../genes/complete/Eyresouth_NODE_101_length_48437_cov_7.17035.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/check_synenty/scripts
+# Date:            Wed May 31 14:27:48 2023
+# [ok]

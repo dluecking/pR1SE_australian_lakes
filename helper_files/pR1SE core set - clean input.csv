@@ -1,0 +1,8 @@
+ORF,predicted function,pR1SE,Halorubrum saccharovorum,Haloterrigena turkmenica,Halopiger xanaduensis,hits blastp,hits curated after blastp,comment first alignment,proposed min_score
+ORF6,coat protein,WP_176580221.1,WP_152421865.1,WP_012946144.1,WP_013876082.1,,,they are huge,
+ORF8,Kinase? - binds ORF7,WP_236996085.1,WP_004048522.1,WP_012946146.1,WP_013876080.1,,,looks clean,
+ORF10,unknown,WP_088901258.1,WP_004048516.1,,WP_013876076.1,,,,
+ORF17,Pilin-like,WP_088901264.1,WP_004048507.1,WP_012946156.1,WP_013876072.1,,,"there are two groups: short and long. Long is added later, I would remove but similar to ORF10",
+ORF21,unknown,WP_088901268.1,WP_004048502.1,WP_012946160.1,WP_013876068.1,,,"kinda looks clean, maybe there are two different types?",
+ORF23,TM-domain,WP_176580079.1,WP_004048500.1,WP_012946162.1,WP_049895738.1,,,"the original 0040 looks too short, maybe ORF is incomplete? some to remove",
+ORF24,TM-domain,WP_088901271.1,WP_004048499.1,WP_012946163.1,WP_013876066.1,,,"some to remove, could be stable afterwards",

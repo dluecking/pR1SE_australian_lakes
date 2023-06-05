@@ -1,0 +1,14 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NZ_KX687704.1_prot_WP_236996085.1_8 -            908 ORF6.faa             -           1296  6.4e-284  936.8  49.3   1   1  1.7e-285  7.7e-284  936.5  49.3   472  1277    31   893    11   908 0.96 [locus_tag=HXZ11_RS00030] [protein=hypothetical protein] [protein_id=WP_236996085.1] [location=7502..10228] [gbkey=CDS]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/complete/NZ_KX687704.1.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/complete/NZ_KX687704.1.faa_vs_ORF6_domtblout.txt --cpu 16 ../input_profiles/ORF6.faa.msa.hmm ../genes/complete/NZ_KX687704.1.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/check_synenty/scripts
+# Date:            Fri Jun  2 10:28:45 2023
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_CP101161.1_3088  -            439 ORF23.faa            -            432  1.9e-155  515.6   0.0   1   1  3.2e-158  2.1e-155  515.4   0.0     3   432     3   438     1   438 0.91 # 2928309 # 2929625 # 1 # ID=1_3088;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.634
+>NZ_CP101161.1_3079  -            337 ORF23.faa            -            432   6.1e-07   26.2   2.6   1   1   1.6e-09     1e-06   25.5   2.6     3    99     6   111     4   145 0.73 # 2922614 # 2923624 # 1 # ID=1_3079;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.647
+>NZ_CP101161.1_3232  -            368 ORF23.faa            -            432     0.012   12.1   0.1   1   2   1.9e-05     0.012   12.1   0.1     3    45     8    54     6    74 0.63 # 3063236 # 3064339 # 1 # ID=1_3232;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.712
+>NZ_CP101161.1_3232  -            368 ORF23.faa            -            432     0.012   12.1   0.1   2   2         6   3.9e+03   -7.6   6.9    22    58   250   287   237   291 0.47 # 3063236 # 3064339 # 1 # ID=1_3232;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.712
+>NZ_CP101161.1_910   -            163 ORF23.faa            -            432     0.029   10.8   1.2   1   1   5.9e-05     0.038   10.4   1.2     5    50     9    55     4    67 0.68 # 854750 # 855238 # 1 # ID=1_910;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.730
+>NZ_CP101161.1_2547  -            227 ORF23.faa            -            432     0.057    9.8   1.7   1   1   0.00011     0.074    9.5   1.7     3    79     4    79     1    92 0.54 # 2421648 # 2422328 # 1 # ID=1_2547;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.636
+>NZ_CP101161.1_3288  -           1066 ORF23.faa            -            432      0.88    5.9   8.3   1   1    0.0025       1.6    5.0   8.3     6    62    14    78     9    94 0.53 # 3119873 # 3123070 # 1 # ID=1_3288;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.682
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF23.faa.msa.hmm
+# Target file:     ../genes/complete/NZ_CP101161.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/complete/NZ_CP101161.1.fasta.faa_vs_ORF23_domtblout.txt --cpu 16 ../input_profiles/ORF23.faa.msa.hmm ../genes/complete/NZ_CP101161.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/check_synenty/scripts
+# Date:            Wed May 31 14:27:59 2023
+# [ok]

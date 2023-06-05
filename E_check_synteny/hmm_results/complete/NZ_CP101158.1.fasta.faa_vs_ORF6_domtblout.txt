@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_CP101158.1_74    -           1196 ORF6.faa             -           1296         0 1076.3  74.0   1   1         0         0 1076.0  74.0   136  1267     1  1160     1  1191 0.92 # 49185 # 52772 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.542
+>NZ_CP101158.1_30    -           1083 ORF6.faa             -           1296  1.9e-290  960.0  77.4   1   1  4.4e-292    3e-290  959.3  77.4   121  1286     5  1080     1  1082 0.92 # 19425 # 22673 # -1 # ID=1_30;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.601
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../input_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/complete/NZ_CP101158.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/complete/NZ_CP101158.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../input_profiles/ORF6.faa.msa.hmm ../genes/complete/NZ_CP101158.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/check_synenty/scripts
+# Date:            Wed May 31 14:28:07 2023
+# [ok]
