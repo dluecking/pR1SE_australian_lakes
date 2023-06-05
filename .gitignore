@@ -3,16 +3,16 @@ generate_protein_clusters/blastp_proteins
 generate_protein_clusters/log
 generate_protein_clusters/scripts/out
 generate_protein_clusters/15_hmmer_results
-search_ASL/scripts/out
-search_ASL/01_hmm_results
-search_ASL/tal
-known_hosts/scripts/known_hosts
+C_search_ASL/scripts/out
+C_search_ASL/01_hmm_results
+C_search_ASL/tal
+B_known_hosts/scripts/known_hosts
 torrens_coverage_test/
-search_ASL/scripts/novel_host_sequences.fasta
-check_synenty/sco
-check_synenty/genes
-check_synenty/contigs
-check_synenty/hmm_results
-check_synenty/input_profiles
-all_pR1SE_ORFs/diamond_db
+C_search_ASL/scripts/novel_host_sequences.fasta
+E_check_synenty/sco
+E_check_synenty/genes
+E_check_synenty/contigs
+E_check_synenty/hmm_results
+E_check_synenty/input_profiles
+F_all_pR1SE_ORFs/diamond_db
 

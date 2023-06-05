@@ -34,6 +34,12 @@ This part is basically steps 1 (substeps 1-4) mentioned in the methods descripti
 #### search_ASL
 This part is basically step 2 in the methods. So far not much has been done, initial search showed some hits.
 
+#### search IMG
+Same approach as in search_ASL. Needed to download IMGV7 and changed some "-" characters to "" using the following command:
+```
+sed -i.bak 's/^-//g' IMGVR_all_proteins.faa
+```
+
 #### known_hosts
 This is interesting. Key is: I need to figure out how to get from protein accession to genome accession. I will try once more, before moving on and asking Daan Speth.
 
