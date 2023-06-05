@@ -1,8 +1,9 @@
-pR1SE,predicted function,Halorubrum saccharovorum,Haloterrigena turkmenica,Halopiger xanaduensis
-ORF6,coat protein,WP_152421865.1,WP_012946144.1,WP_013876082.1
-ORF8,Kinase? - binds ORF7,WP_004048522.1,WP_012946146.1,WP_013876080.1
-ORF10,unknown,WP_004048516.1,,WP_013876076.1
-ORF17,Pilin-like,WP_004048507.1,WP_012946156.1,WP_013876072.1
-ORF21,unknown,WP_004048502.1,WP_012946160.1,WP_013876068.1
-ORF23,TM-domain,WP_004048500.1,WP_012946162.1,WP_049895738.1
-ORF24,TM-domain,WP_004048499.1,WP_012946163.1,WP_013876066.1
+ORF,predicted function,pR1SE,Halorubrum saccharovorum,Haloterrigena turkmenica,Halopiger xanaduensis,hits blastp,hits curated after blastp,comment first alignment,proposed min_score
+ORF6,coat protein,AQM75270.1,WP_152421865.1,WP_012946144.1,WP_013876082.1,49,44,they are huge,
+ORF8,Kinase? - binds ORF7,AQM75272.1,WP_004048522.1,WP_012946146.1,WP_013876080.1,10,10,looks clean,
+ORF10a,unknown,AQM75274.1,WP_004048516.1,,,19,3,"this was split, after seeing that we basically get two groups of proteins",
+ORF10b,unknown,,,,WP_013876076.1,19,16,"this was split, after seeing that we basically get two groups of proteins",
+ORF17,Pilin-like,AQM75281.1,WP_004048507.1,WP_012946156.1,WP_013876072.1,31,19,"there are two groups: short and long. Long is added later, I would remove but similar to ORF10",
+ORF21,unknown,AQM75285.1,WP_004048502.1,WP_012946160.1,WP_013876068.1,10,10,"kinda looks clean, maybe there are two different types?",
+ORF23,TM-domain,AQM75287.1,WP_004048500.1,WP_012946162.1,WP_049895738.1,32,29,"the original 0040 looks too short, maybe ORF is incomplete? some to remove",
+ORF24,TM-domain,AQM75288.1,WP_004048499.1,WP_012946163.1,WP_013876066.1,21,16,"some to remove, could be stable afterwards",
