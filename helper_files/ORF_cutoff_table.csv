@@ -1,9 +1,8 @@
-"orf","min_score"
-"ORF10a",55
-"ORF10b",150
-"ORF17",120
-"ORF21",80
-"ORF23",192
-"ORF24",245
-"ORF6",300
-"ORF8",206
+"orf","min_alignment_length","min_score"
+"ORF10",80,100
+"ORF17",80,120
+"ORF21",55,80
+"ORF23",50,192
+"ORF24",50,245
+"ORF6",50,300
+"ORF8",80,206

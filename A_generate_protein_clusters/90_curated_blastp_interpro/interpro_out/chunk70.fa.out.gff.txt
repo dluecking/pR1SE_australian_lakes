@@ -1,0 +1,565 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.61-93.0
+##sequence-region WP_007139931.1 1 408
+WP_007139931.1	.	polypeptide	1	408	.	+	.	ID=WP_007139931.1;md5=73986bdbd18940657a447715b59578d3
+WP_007139931.1	Phobius	protein_match	192	209	.	+	.	date=02-05-2023;Target=WP_007139931.1 192 209;ID=match$1_192_209;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_007139931.1	Phobius	protein_match	1	191	.	+	.	date=02-05-2023;Target=WP_007139931.1 1 191;ID=match$2_1_191;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_007139931.1	Phobius	protein_match	210	408	.	+	.	date=02-05-2023;Target=WP_007139931.1 210 408;ID=match$3_210_408;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_007139931.1	MobiDBLite	protein_match	1	15	.	+	.	date=02-05-2023;Target=WP_007139931.1 1 15;ID=match$4_1_15;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_007139931.1	TMHMM	protein_match	187	209	.	+	.	date=02-05-2023;Target=WP_007139931.1 187 209;ID=match$5_187_209;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_007139931.1	MobiDBLite	protein_match	373	408	.	+	.	date=02-05-2023;Target=WP_007139931.1 373 408;ID=match$6_373_408;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_007139931.1	MobiDBLite	protein_match	373	392	.	+	.	date=02-05-2023;Target=WP_007139931.1 373 392;ID=match$7_373_392;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_007139931.1	MobiDBLite	protein_match	1	33	.	+	.	date=02-05-2023;Target=WP_007139931.1 1 33;ID=match$8_1_33;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+##sequence-region WP_175607307.1 1 443
+WP_175607307.1	.	polypeptide	1	443	.	+	.	ID=WP_175607307.1;md5=960cf019a988a68e77c3b5371b3628bb
+WP_175607307.1	MobiDBLite	protein_match	411	427	.	+	.	date=02-05-2023;Target=WP_175607307.1 411 427;ID=match$9_411_427;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_175607307.1	Phobius	protein_match	13	23	.	+	.	date=02-05-2023;Target=WP_175607307.1 13 23;ID=match$10_13_23;signature_desc=Hydrophobic region of a signal peptide.;Name=SIGNAL_PEPTIDE_H_REGION;status=T
+WP_175607307.1	Phobius	protein_match	36	212	.	+	.	date=02-05-2023;Target=WP_175607307.1 36 212;ID=match$11_36_212;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_175607307.1	Phobius	protein_match	245	443	.	+	.	date=02-05-2023;Target=WP_175607307.1 245 443;ID=match$12_245_443;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_175607307.1	Phobius	protein_match	213	244	.	+	.	date=02-05-2023;Target=WP_175607307.1 213 244;ID=match$13_213_244;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_175607307.1	Phobius	protein_match	1	12	.	+	.	date=02-05-2023;Target=WP_175607307.1 1 12;ID=match$14_1_12;signature_desc=N-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_N_REGION;status=T
+WP_175607307.1	TMHMM	protein_match	222	244	.	+	.	date=02-05-2023;Target=WP_175607307.1 222 244;ID=match$15_222_244;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_175607307.1	MobiDBLite	protein_match	411	443	.	+	.	date=02-05-2023;Target=WP_175607307.1 411 443;ID=match$16_411_443;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_175607307.1	Phobius	protein_match	1	35	.	+	.	date=02-05-2023;Target=WP_175607307.1 1 35;ID=match$17_1_35;signature_desc=Signal peptide region;Name=SIGNAL_PEPTIDE;status=T
+WP_175607307.1	MobiDBLite	protein_match	428	443	.	+	.	date=02-05-2023;Target=WP_175607307.1 428 443;ID=match$18_428_443;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_175607307.1	Phobius	protein_match	24	35	.	+	.	date=02-05-2023;Target=WP_175607307.1 24 35;ID=match$19_24_35;signature_desc=C-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_C_REGION;status=T
+WP_175607307.1	SignalP_GRAM_POSITIVE	protein_match	1	35	.	+	.	date=02-05-2023;Target=WP_175607307.1 1 35;ID=match$20_1_35;Name=SignalP-TM;status=T
+WP_175607307.1	SignalP_GRAM_NEGATIVE	protein_match	1	28	.	+	.	date=02-05-2023;Target=WP_175607307.1 1 28;ID=match$21_1_28;Name=SignalP-noTM;status=T
+WP_175607307.1	TMHMM	protein_match	13	35	.	+	.	date=02-05-2023;Target=WP_175607307.1 13 35;ID=match$22_13_35;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_175607307.1	SignalP_GRAM_NEGATIVE	protein_match	1	35	.	+	.	date=02-05-2023;Target=WP_175607307.1 1 35;ID=match$23_1_35;Name=SignalP-noTM;status=T
+##sequence-region WP_135823088.1 1 494
+WP_135823088.1	.	polypeptide	1	494	.	+	.	ID=WP_135823088.1;md5=0b977fd42ac997ee6d4a79f73c2ea0cf
+WP_135823088.1	SignalP_GRAM_NEGATIVE	protein_match	1	38	.	+	.	date=02-05-2023;Target=WP_135823088.1 1 38;ID=match$24_1_38;Name=SignalP-TM;status=T
+WP_135823088.1	Phobius	protein_match	18	29	.	+	.	date=02-05-2023;Target=WP_135823088.1 18 29;ID=match$25_18_29;signature_desc=Hydrophobic region of a signal peptide.;Name=SIGNAL_PEPTIDE_H_REGION;status=T
+WP_135823088.1	SignalP_EUK	protein_match	1	38	.	+	.	date=02-05-2023;Target=WP_135823088.1 1 38;ID=match$26_1_38;Name=SignalP-noTM;status=T
+WP_135823088.1	Phobius	protein_match	1	17	.	+	.	date=02-05-2023;Target=WP_135823088.1 1 17;ID=match$27_1_17;signature_desc=N-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_N_REGION;status=T
+WP_135823088.1	Phobius	protein_match	1	38	.	+	.	date=02-05-2023;Target=WP_135823088.1 1 38;ID=match$28_1_38;signature_desc=Signal peptide region;Name=SIGNAL_PEPTIDE;status=T
+WP_135823088.1	Phobius	protein_match	273	291	.	+	.	date=02-05-2023;Target=WP_135823088.1 273 291;ID=match$29_273_291;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_135823088.1	Phobius	protein_match	292	494	.	+	.	date=02-05-2023;Target=WP_135823088.1 292 494;ID=match$30_292_494;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_135823088.1	SignalP_GRAM_NEGATIVE	protein_match	1	38	.	+	.	date=02-05-2023;Target=WP_135823088.1 1 38;ID=match$31_1_38;Name=SignalP-TM;status=T
+WP_135823088.1	Phobius	protein_match	39	272	.	+	.	date=02-05-2023;Target=WP_135823088.1 39 272;ID=match$32_39_272;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_135823088.1	Coils	protein_match	424	444	.	+	.	date=02-05-2023;Target=WP_135823088.1 424 444;ID=match$33_424_444;Name=Coil;status=T
+WP_135823088.1	Phobius	protein_match	30	38	.	+	.	date=02-05-2023;Target=WP_135823088.1 30 38;ID=match$34_30_38;signature_desc=C-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_C_REGION;status=T
+WP_135823088.1	TMHMM	protein_match	20	42	.	+	.	date=02-05-2023;Target=WP_135823088.1 20 42;ID=match$35_20_42;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_135823088.1	MobiDBLite	protein_match	37	104	.	+	.	date=02-05-2023;Target=WP_135823088.1 37 104;ID=match$36_37_104;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_135823088.1	MobiDBLite	protein_match	458	494	.	+	.	date=02-05-2023;Target=WP_135823088.1 458 494;ID=match$37_458_494;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_135823088.1	MobiDBLite	protein_match	41	102	.	+	.	date=02-05-2023;Target=WP_135823088.1 41 102;ID=match$38_41_102;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_135823088.1	MobiDBLite	protein_match	460	494	.	+	.	date=02-05-2023;Target=WP_135823088.1 460 494;ID=match$39_460_494;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+##sequence-region WP_253439220.1 1 444
+WP_253439220.1	.	polypeptide	1	444	.	+	.	ID=WP_253439220.1;md5=ef4fa003a78d27baff1f72cc745797ca
+WP_253439220.1	Phobius	protein_match	1	35	.	+	.	date=02-05-2023;Target=WP_253439220.1 1 35;ID=match$40_1_35;signature_desc=Signal peptide region;Name=SIGNAL_PEPTIDE;status=T
+WP_253439220.1	Phobius	protein_match	25	35	.	+	.	date=02-05-2023;Target=WP_253439220.1 25 35;ID=match$41_25_35;signature_desc=C-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_C_REGION;status=T
+WP_253439220.1	Phobius	protein_match	36	228	.	+	.	date=02-05-2023;Target=WP_253439220.1 36 228;ID=match$42_36_228;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_253439220.1	SignalP_EUK	protein_match	1	29	.	+	.	date=02-05-2023;Target=WP_253439220.1 1 29;ID=match$43_1_29;Name=SignalP-TM;status=T
+WP_253439220.1	Phobius	protein_match	247	444	.	+	.	date=02-05-2023;Target=WP_253439220.1 247 444;ID=match$44_247_444;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_253439220.1	SignalP_EUK	protein_match	1	35	.	+	.	date=02-05-2023;Target=WP_253439220.1 1 35;ID=match$45_1_35;Name=SignalP-TM;status=T
+WP_253439220.1	TMHMM	protein_match	10	32	.	+	.	date=02-05-2023;Target=WP_253439220.1 10 32;ID=match$46_10_32;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_253439220.1	Phobius	protein_match	229	246	.	+	.	date=02-05-2023;Target=WP_253439220.1 229 246;ID=match$47_229_246;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_253439220.1	Phobius	protein_match	1	12	.	+	.	date=02-05-2023;Target=WP_253439220.1 1 12;ID=match$48_1_12;signature_desc=N-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_N_REGION;status=T
+WP_253439220.1	TMHMM	protein_match	229	246	.	+	.	date=02-05-2023;Target=WP_253439220.1 229 246;ID=match$49_229_246;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_253439220.1	MobiDBLite	protein_match	416	444	.	+	.	date=02-05-2023;Target=WP_253439220.1 416 444;ID=match$50_416_444;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_253439220.1	Phobius	protein_match	13	24	.	+	.	date=02-05-2023;Target=WP_253439220.1 13 24;ID=match$51_13_24;signature_desc=Hydrophobic region of a signal peptide.;Name=SIGNAL_PEPTIDE_H_REGION;status=T
+##sequence-region WP_227134594.1 1 459
+WP_227134594.1	.	polypeptide	1	459	.	+	.	ID=WP_227134594.1;md5=22329c67daffb861b05c2f79789071e5
+WP_227134594.1	MobiDBLite	protein_match	32	80	.	+	.	date=02-05-2023;Target=WP_227134594.1 32 80;ID=match$52_32_80;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_227134594.1	TMHMM	protein_match	242	264	.	+	.	date=02-05-2023;Target=WP_227134594.1 242 264;ID=match$53_242_264;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_227134594.1	Phobius	protein_match	238	264	.	+	.	date=02-05-2023;Target=WP_227134594.1 238 264;ID=match$54_238_264;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_227134594.1	Phobius	protein_match	11	22	.	+	.	date=02-05-2023;Target=WP_227134594.1 11 22;ID=match$55_11_22;signature_desc=Hydrophobic region of a signal peptide.;Name=SIGNAL_PEPTIDE_H_REGION;status=T
+WP_227134594.1	Phobius	protein_match	23	30	.	+	.	date=02-05-2023;Target=WP_227134594.1 23 30;ID=match$56_23_30;signature_desc=C-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_C_REGION;status=T
+WP_227134594.1	SignalP_GRAM_NEGATIVE	protein_match	1	30	.	+	.	date=02-05-2023;Target=WP_227134594.1 1 30;ID=match$57_1_30;Name=SignalP-noTM;status=T
+WP_227134594.1	Phobius	protein_match	1	10	.	+	.	date=02-05-2023;Target=WP_227134594.1 1 10;ID=match$58_1_10;signature_desc=N-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_N_REGION;status=T
+WP_227134594.1	Phobius	protein_match	1	30	.	+	.	date=02-05-2023;Target=WP_227134594.1 1 30;ID=match$59_1_30;signature_desc=Signal peptide region;Name=SIGNAL_PEPTIDE;status=T
+WP_227134594.1	Phobius	protein_match	31	237	.	+	.	date=02-05-2023;Target=WP_227134594.1 31 237;ID=match$60_31_237;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_227134594.1	SignalP_GRAM_POSITIVE	protein_match	1	30	.	+	.	date=02-05-2023;Target=WP_227134594.1 1 30;ID=match$61_1_30;Name=SignalP-TM;status=T
+WP_227134594.1	MobiDBLite	protein_match	41	80	.	+	.	date=02-05-2023;Target=WP_227134594.1 41 80;ID=match$62_41_80;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_227134594.1	Coils	protein_match	391	411	.	+	.	date=02-05-2023;Target=WP_227134594.1 391 411;ID=match$63_391_411;Name=Coil;status=T
+WP_227134594.1	Phobius	protein_match	265	459	.	+	.	date=02-05-2023;Target=WP_227134594.1 265 459;ID=match$64_265_459;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_227134594.1	SignalP_GRAM_NEGATIVE	protein_match	1	23	.	+	.	date=02-05-2023;Target=WP_227134594.1 1 23;ID=match$65_1_23;Name=SignalP-noTM;status=T
+WP_227134594.1	TMHMM	protein_match	9	31	.	+	.	date=02-05-2023;Target=WP_227134594.1 9 31;ID=match$66_9_31;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+##sequence-region WP_006430297.1 1 453
+WP_006430297.1	.	polypeptide	1	453	.	+	.	ID=WP_006430297.1;md5=77e3fb980909624907c8c650890c3190
+WP_006430297.1	Phobius	protein_match	1	14	.	+	.	date=02-05-2023;Target=WP_006430297.1 1 14;ID=match$67_1_14;signature_desc=N-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_N_REGION;status=T
+WP_006430297.1	MobiDBLite	protein_match	43	72	.	+	.	date=02-05-2023;Target=WP_006430297.1 43 72;ID=match$68_43_72;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_006430297.1	MobiDBLite	protein_match	34	76	.	+	.	date=02-05-2023;Target=WP_006430297.1 34 76;ID=match$69_34_76;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_006430297.1	Phobius	protein_match	35	222	.	+	.	date=02-05-2023;Target=WP_006430297.1 35 222;ID=match$70_35_222;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_006430297.1	Phobius	protein_match	15	26	.	+	.	date=02-05-2023;Target=WP_006430297.1 15 26;ID=match$71_15_26;signature_desc=Hydrophobic region of a signal peptide.;Name=SIGNAL_PEPTIDE_H_REGION;status=T
+WP_006430297.1	Phobius	protein_match	27	34	.	+	.	date=02-05-2023;Target=WP_006430297.1 27 34;ID=match$72_27_34;signature_desc=C-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_C_REGION;status=T
+WP_006430297.1	SignalP_GRAM_NEGATIVE	protein_match	1	27	.	+	.	date=02-05-2023;Target=WP_006430297.1 1 27;ID=match$73_1_27;Name=SignalP-noTM;status=T
+WP_006430297.1	Phobius	protein_match	255	453	.	+	.	date=02-05-2023;Target=WP_006430297.1 255 453;ID=match$74_255_453;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_006430297.1	MobiDBLite	protein_match	419	453	.	+	.	date=02-05-2023;Target=WP_006430297.1 419 453;ID=match$75_419_453;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_006430297.1	Phobius	protein_match	223	254	.	+	.	date=02-05-2023;Target=WP_006430297.1 223 254;ID=match$76_223_254;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_006430297.1	SignalP_GRAM_NEGATIVE	protein_match	1	34	.	+	.	date=02-05-2023;Target=WP_006430297.1 1 34;ID=match$77_1_34;Name=SignalP-noTM;status=T
+WP_006430297.1	TMHMM	protein_match	232	254	.	+	.	date=02-05-2023;Target=WP_006430297.1 232 254;ID=match$78_232_254;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_006430297.1	SignalP_GRAM_POSITIVE	protein_match	1	34	.	+	.	date=02-05-2023;Target=WP_006430297.1 1 34;ID=match$79_1_34;Name=SignalP-TM;status=T
+WP_006430297.1	TMHMM	protein_match	13	35	.	+	.	date=02-05-2023;Target=WP_006430297.1 13 35;ID=match$80_13_35;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_006430297.1	Phobius	protein_match	1	34	.	+	.	date=02-05-2023;Target=WP_006430297.1 1 34;ID=match$81_1_34;signature_desc=Signal peptide region;Name=SIGNAL_PEPTIDE;status=T
+##sequence-region WP_176580081.1 1 567
+WP_176580081.1	.	polypeptide	1	567	.	+	.	ID=WP_176580081.1;md5=35f4d430e565c1090d28aae95ba09995
+WP_176580081.1	TMHMM	protein_match	114	136	.	+	.	date=02-05-2023;Target=WP_176580081.1 114 136;ID=match$82_114_136;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_176580081.1	Phobius	protein_match	158	175	.	+	.	date=02-05-2023;Target=WP_176580081.1 158 175;ID=match$83_158_175;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_176580081.1	Phobius	protein_match	343	567	.	+	.	date=02-05-2023;Target=WP_176580081.1 343 567;ID=match$84_343_567;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_176580081.1	Phobius	protein_match	297	316	.	+	.	date=02-05-2023;Target=WP_176580081.1 297 316;ID=match$85_297_316;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_176580081.1	TMHMM	protein_match	297	316	.	+	.	date=02-05-2023;Target=WP_176580081.1 297 316;ID=match$86_297_316;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_176580081.1	TMHMM	protein_match	151	173	.	+	.	date=02-05-2023;Target=WP_176580081.1 151 173;ID=match$87_151_173;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_176580081.1	Phobius	protein_match	317	321	.	+	.	date=02-05-2023;Target=WP_176580081.1 317 321;ID=match$88_317_321;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_176580081.1	Phobius	protein_match	116	138	.	+	.	date=02-05-2023;Target=WP_176580081.1 116 138;ID=match$89_116_138;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_176580081.1	MobiDBLite	protein_match	1	50	.	+	.	date=02-05-2023;Target=WP_176580081.1 1 50;ID=match$90_1_50;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_176580081.1	Phobius	protein_match	176	296	.	+	.	date=02-05-2023;Target=WP_176580081.1 176 296;ID=match$91_176_296;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_176580081.1	TMHMM	protein_match	321	343	.	+	.	date=02-05-2023;Target=WP_176580081.1 321 343;ID=match$92_321_343;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_176580081.1	Phobius	protein_match	139	157	.	+	.	date=02-05-2023;Target=WP_176580081.1 139 157;ID=match$93_139_157;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_176580081.1	Phobius	protein_match	322	342	.	+	.	date=02-05-2023;Target=WP_176580081.1 322 342;ID=match$94_322_342;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_176580081.1	CDD	protein_match	300	346	0.00345692	+	.	date=02-05-2023;Target=WP_176580081.1 300 346;ID=match$95_300_346;signature_desc=PAP2_like;Name=cd01610;status=T
+WP_176580081.1	MobiDBLite	protein_match	1	17	.	+	.	date=02-05-2023;Target=WP_176580081.1 1 17;ID=match$96_1_17;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_176580081.1	Phobius	protein_match	1	115	.	+	.	date=02-05-2023;Target=WP_176580081.1 1 115;ID=match$97_1_115;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+##sequence-region WP_004048499.1 1 499
+WP_004048499.1	.	polypeptide	1	499	.	+	.	ID=WP_004048499.1;md5=876b605c98bddf2f4709dcc2cf652a77
+WP_004048499.1	Phobius	protein_match	275	499	.	+	.	date=02-05-2023;Target=WP_004048499.1 275 499;ID=match$98_275_499;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_004048499.1	Phobius	protein_match	229	248	.	+	.	date=02-05-2023;Target=WP_004048499.1 229 248;ID=match$99_229_248;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_004048499.1	TMHMM	protein_match	255	277	.	+	.	date=02-05-2023;Target=WP_004048499.1 255 277;ID=match$100_255_277;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_004048499.1	TMHMM	protein_match	46	68	.	+	.	date=02-05-2023;Target=WP_004048499.1 46 68;ID=match$101_46_68;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_004048499.1	Phobius	protein_match	48	70	.	+	.	date=02-05-2023;Target=WP_004048499.1 48 70;ID=match$102_48_70;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_004048499.1	Phobius	protein_match	108	228	.	+	.	date=02-05-2023;Target=WP_004048499.1 108 228;ID=match$103_108_228;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_004048499.1	Phobius	protein_match	1	47	.	+	.	date=02-05-2023;Target=WP_004048499.1 1 47;ID=match$104_1_47;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_004048499.1	TMHMM	protein_match	83	105	.	+	.	date=02-05-2023;Target=WP_004048499.1 83 105;ID=match$105_83_105;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_004048499.1	Phobius	protein_match	249	253	.	+	.	date=02-05-2023;Target=WP_004048499.1 249 253;ID=match$106_249_253;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_004048499.1	TMHMM	protein_match	229	251	.	+	.	date=02-05-2023;Target=WP_004048499.1 229 251;ID=match$107_229_251;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_004048499.1	Phobius	protein_match	254	274	.	+	.	date=02-05-2023;Target=WP_004048499.1 254 274;ID=match$108_254_274;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_004048499.1	Phobius	protein_match	71	89	.	+	.	date=02-05-2023;Target=WP_004048499.1 71 89;ID=match$109_71_89;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_004048499.1	Phobius	protein_match	90	107	.	+	.	date=02-05-2023;Target=WP_004048499.1 90 107;ID=match$110_90_107;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+##sequence-region WP_162994404.1 1 410
+WP_162994404.1	.	polypeptide	1	410	.	+	.	ID=WP_162994404.1;md5=5544bdb9686b3af82acd028e60119b4d
+WP_162994404.1	MobiDBLite	protein_match	1	22	.	+	.	date=02-05-2023;Target=WP_162994404.1 1 22;ID=match$111_1_22;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_162994404.1	MobiDBLite	protein_match	1	32	.	+	.	date=02-05-2023;Target=WP_162994404.1 1 32;ID=match$112_1_32;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_162994404.1	Coils	protein_match	342	362	.	+	.	date=02-05-2023;Target=WP_162994404.1 342 362;ID=match$113_342_362;Name=Coil;status=T
+WP_162994404.1	MobiDBLite	protein_match	375	410	.	+	.	date=02-05-2023;Target=WP_162994404.1 375 410;ID=match$114_375_410;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_162994404.1	MobiDBLite	protein_match	383	410	.	+	.	date=02-05-2023;Target=WP_162994404.1 383 410;ID=match$115_383_410;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+##sequence-region WP_088901273.1 1 567
+WP_088901273.1	.	polypeptide	1	567	.	+	.	ID=WP_088901273.1;md5=883b8577dbaecfbd189f624d025bf4f6
+WP_088901273.1	TMHMM	protein_match	114	136	.	+	.	date=02-05-2023;Target=WP_088901273.1 114 136;ID=match$116_114_136;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_088901273.1	Phobius	protein_match	158	175	.	+	.	date=02-05-2023;Target=WP_088901273.1 158 175;ID=match$117_158_175;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_088901273.1	Phobius	protein_match	343	567	.	+	.	date=02-05-2023;Target=WP_088901273.1 343 567;ID=match$118_343_567;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_088901273.1	Phobius	protein_match	297	316	.	+	.	date=02-05-2023;Target=WP_088901273.1 297 316;ID=match$119_297_316;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_088901273.1	TMHMM	protein_match	297	316	.	+	.	date=02-05-2023;Target=WP_088901273.1 297 316;ID=match$120_297_316;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_088901273.1	TMHMM	protein_match	151	173	.	+	.	date=02-05-2023;Target=WP_088901273.1 151 173;ID=match$121_151_173;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_088901273.1	Phobius	protein_match	317	321	.	+	.	date=02-05-2023;Target=WP_088901273.1 317 321;ID=match$122_317_321;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_088901273.1	Phobius	protein_match	116	138	.	+	.	date=02-05-2023;Target=WP_088901273.1 116 138;ID=match$123_116_138;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_088901273.1	MobiDBLite	protein_match	1	50	.	+	.	date=02-05-2023;Target=WP_088901273.1 1 50;ID=match$124_1_50;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_088901273.1	Phobius	protein_match	176	296	.	+	.	date=02-05-2023;Target=WP_088901273.1 176 296;ID=match$125_176_296;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+WP_088901273.1	TMHMM	protein_match	321	343	.	+	.	date=02-05-2023;Target=WP_088901273.1 321 343;ID=match$126_321_343;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+WP_088901273.1	Phobius	protein_match	139	157	.	+	.	date=02-05-2023;Target=WP_088901273.1 139 157;ID=match$127_139_157;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+WP_088901273.1	MobiDBLite	protein_match	1	24	.	+	.	date=02-05-2023;Target=WP_088901273.1 1 24;ID=match$128_1_24;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+WP_088901273.1	Phobius	protein_match	322	342	.	+	.	date=02-05-2023;Target=WP_088901273.1 322 342;ID=match$129_322_342;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+WP_088901273.1	CDD	protein_match	300	346	0.00517605	+	.	date=02-05-2023;Target=WP_088901273.1 300 346;ID=match$130_300_346;signature_desc=PAP2_like;Name=cd01610;status=T
+WP_088901273.1	Phobius	protein_match	1	115	.	+	.	date=02-05-2023;Target=WP_088901273.1 1 115;ID=match$131_1_115;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+##FASTA
+>WP_004048499.1
+MHTLARDHALPWLGDQARNVRSLPSRAKKRLILFAVGPSNTIGTRVGAIVMLLATAVLAG
+AGFLAVSSGVDAGGDSSWFMEQLVGFGTSVWSYAIILLLLFAVIRVTQRSRSAQKAAART
+GFSEQTCHRLASEAQTADGASTVVVSPADSVDSACDRILSAFETPYSALDINWGDTHVLD
+DDIVDAAQKSADAADETDLVVDDRANADPSEHARLSRLELASTLNGRDLFWSFAVPAAIT
+TLAGLVLVQFWAALWVYLLIGAAALVVGSAWYVGAHYWRRRRAKSVRSSRQQASYDDIAV
+LVKKAETDDVTAYYGWVGGTVYADYNELRLAWTLSEVAHAHIEGEPIPPTIQQKFARNLQ
+QYLPNLEGYEEAVEKAEIRDRVIQEVAESPSRRLPKNRLADRVIRRDKDRIGGVGYDPRL
+VADAYESVVPYALVEEHVDVETPTEGQKSMSVVRLRTEHVTPEAIATDAQFSSLYQPDYA
+PDFDLPAVDLHAPEASLSD
+>WP_006430297.1
+MYQTQSRPLATALRLALVLALVATVLGASAPAVAADGPTVDSEPSVASVQAENATTNSTD
+DSTPSQADRLRVTPVTNDEEYLSIETRASDESYNTTGPTATFELSEPVDAARVSQSQADV
+NVLGGGTVIQIEYADDAAGSNASLYTTELFFADGSTHAVDLYATETDVSVEAAKYTQYSD
+YIDYTLDQAEAAGYERTAAGARDYLENQEERAKLFDSLFTEQVMMFISVAFAAAQNFVTW
+ILGIAVIAGLAIFLERKHGWILRLQQMAESRAELMREAVRQDYEERRNSAAKHPLEDISE
+IGINASRYWAESDVETVDDMIEIACKGIVKVDERGNIVYDEDGNAVFSHHGVDDLKDVDP
+LTTDQLRSQTWLSPLILEGRLAATTALSNIEAALLVAEKDYNRGNEVREARRTVSELNAR
+LSGDRDYQHAETSSNAARPDRHTDIGGHAAGGD
+>WP_007139931.1
+MPNVDESNTTAVDPTADGPTIADSVRVTPETTDEDYLEIDTESSDEVYNTSGPFATFSLS
+DPVESARIEQSNADVRVMGDGTVIRVEYDDEAAGESPTLFTAELFFADDSSHSIDLYATD
+TDVSVEAAEYAAYADFIDYTKNQAEAEGFERTPSGAMEYLQHTEERAELFDQLFTEHVLM
+FISLLIAASQNFVSWVVAIGIIAGLAIFLERKHGWILRLQQMAESRAELMREAVRQDYED
+RRNAAAKHPLEDVTEIGPNAARYWKELGIETVDDMVEVACKGVVKTTENGRIEYDDDGNP
+VFAHHGVDDLRDVDPLTQDQLREQTWLAPLVLEGRLAPTTALSNIEAALLVAEKEYNRGN
+EVRDARRTVEELNARLAGRRDHEERETSSNAARTDHRPTGGPSPAGGD
+>WP_088901273.1
+MTDKRDDHGRRDDAPDKTVDADDLDPSPDTEPDLPAGPIETEEDTSVRESLSDFGTTLST
+LVWSYAATMHTLVRDHALPWLGDQARNARSLPKRAKRRVILFAVGPSNTIGTRVGAIVML
+VATAVLAGAGFLAVASGVDAGGDSSWFMEQLVGAATSVWSYALVLLLLFAVIRVTQRSRA
+ATKAASRTGFSEQTCHRLASEAQTADGASTVVVSPADSVDTACDRILSAFETPYSALDIN
+WGDTHVLDDDIVTAAEESAEAAEETDLVVDDRANVDPSEHAHLSRLELASTLNGRDLFWS
+FAVPAGVTALAALILVQFWAAIWVYGLILAASLVAGSAWYVGAHYWRRRRAKSVRSTRQQ
+ASYDDIAVLVKKADTDDVTCYYGWVGGTVYADYNELRLAWTLSEVAHAHIEGEPIPPTIQ
+QKFARNLQQYLPNLEGYEEAVEKAEIRDRLIQEVAESPSNRLPKNRLADRVIRRDKDRIG
+GVGYDPRLVAEAYDAVVPYALVEEHVDVETPTEGTKSMSVVRLRTEHVTPEAIATDAQFS
+SLYQPDYSPDFGLPAVDLHAPEASLSD
+>WP_135823088.1
+MTRHTRHPDSDGSTARRIGLLALVVAVLASSLAVPAAAAGPTPDSTQTDFADQPVQQPFD
+PNETTTAPPQEGNETDGNSTTTNGTDPNGTDGNGTAGPVTDASQVRITPDVPDEDYVSVT
+VAENDAVFNTSGGFATFTLSRPVEAARITQQQADANVLAGGRVVRVAYTDDAARRNSTSL
+YQLDLYFADGSNKTVDLYATNTALSASTAIDPDWKPFIDWASSQADSADYNTSVSGVLSW
+AKDTKNRAELFSGLWTDQIENYVSLKLAQLLNAFQWVELVAILTIVTMYWSRKHGWILKF
+QQLSMPIAKLQREAARQDYERSRKAAAQHKLAEVEEIGTNAARYWRSEMGVETVDDMVEL
+ACKGIVAKDENGDVLYDEEGDIVYAHHGVEDLLQVDPVTQRTLREQTWLKPILVDPRLNA
+ATALSNIERALRVAEKEYKRGNEVRQTRMQVEELIEELTSSRGYDSQPSSVPTGDSLGNG
+TGTGTGVGSPSGGD
+>WP_162994404.1
+MQENETESGGESNQTGPTDASQVRITPDMPDEDYVDVQIDQPDESFNTSGGFATFSLSHP
+VEAARIPQEKASADVVGDGSVVRVSYADDAAPRNTTSFYELELFFPDDSQKTVDLYATDT
+AVSASTDINPAWKPIIDYTSSAASAAGYGDTPEDTKEWIQDTEEKAQLFENFWSNRISQY
+VGLKIAQVMNPLQWVEVIGIIAIISIYWSRKYGWILTLQQLSMPISKLQREAARQDYERS
+RKAAAQHKISDIAEIGTNAARYWRSEMGIETVDDMVEIACKGIVAKDEDGDILYDEDGNI
+VYAHHGVEQLMQVDPVTHRTLRDETWLRPLLVDPRLNAATALSNIERALRVAEKEYKRGN
+EVRKTRMRVEELIEELNRTRTGEEAAIPTTSRSERPSPSGTGRGTPTGGD
+>WP_175607307.1
+MFDNPSNRGATRLATLCIALVLAGAVFGAITPAAAATGTQADNATNTSSPSTTPSQADLV
+RITPDNPDEDYLSVQTETTDEVYNTTGPYATFTLSEPVESARVQQSKADARVLGGGRVVR
+IAYEDDAAGKNASLYTAELFFPDGSQRSIDLYATQTGVSVAAGDLEQYEGFIDYTLEQAG
+SEGYDQTPEGARSYLETKEERANLFDSLFTEHVMMFISLLFAAARNFVTWVVAVAIIAGV
+AFYFERKHGWILRLQQKAESRGELIREAVRQTYEERRNTAAKHPLEDVTEIGPNAARYWR
+ETGVETVNDMVEMTCKGVVALTEDGNVKYDENGDVVYAHHGVDDLMDVDPLTLEQLRSET
+WLAPVIYEGRLTPTTALSNIESALMVAEKDYNRGNEVRDARRKVSELNKRLAGRRDFENR
+ETSSNAPRHDQQTDFTGTAAGGD
+>WP_176580081.1
+MTDKRNDHGRRDDAPDETVDADDLDPSPDTEPDLPAGPIETEEDTSVRESLSDFGATLST
+LVRSYAATMHTLVRDHALPWLGDQARNARSLPKRAKRRVILFAVGPSNTIGTRVGAIVML
+VATAALAGAGFLAVASGVDAGGDSSWFMEQLVGAATSVWSYALVLLLLFAVIRVTQRSRA
+ATKAASRTGFSEQTCHRLASEAQTADGASTVVVSPADSVDTACDRILSAFETPYSALDIN
+WGDTHVLDDDIVTAAEESAEAAEETDLVVDDRANVDASEHAHLSRLELASTLNGRDLFWS
+FAVPAGVTALAALILVQFWAAIWVYGLIFAAALVAGSAWYVGAHYWRRRRAKSVRSTRQQ
+ASYDDIAVLVKKADTDDVTCYYGWVGGTVYADYNELRLAWTLSEVAHAHIEGEPIPPTIQ
+QKFARNLTQYLPNLEGYEEAVEKAEIRDRLIQEVAESPSARLPKNRLADRVIRRDKERIG
+GIGYDPRLVAEAYGAVVPYALVEEHVDVETPTEGTKSMSVVRLRTEHVTPEAIATDAQFS
+SLYQPDYSPDFDLPAVDLHAPEASLSD
+>WP_227134594.1
+MMDADTRAHSLALVLLAVALAASVPIGAAAGPHDTGPLDGPQHSLTPNNTTTTTTTAPAG
+PNNSTTGTPSGPPSMASQARITPSIPNEDYVGVSVVESDAVYNTTGGFVTFTVSEPVAAA
+RVQQRGASVDVLAEGHMLRVQYADDASQPGSATLFTTELFFEDNSTKAVKLYARNTGVSA
+STAINPEWQALIKHVRENADDSGYNATPGGGLEYVEQVEDRADLFSGLLTEDFKRYPVLW
+LANFTNIPMVLTFLALLMATAYLWKRKFGWILSRQQVSASISAIMRARGCQEYEESRQAA
+AQHPLAEVEGIGTNAARYWNSEMGVETIDDMVEIACKGIVATDDTGRVETDEHGNDVLLT
+HGVDDLTKVDPVTERKLREETWLKPILVQNRMRAETALANIETALQVAEKQYRRGNQVRE
+TRMQVQDLLGQLRDIETGEQTAAIAAGSQSRRVPMGGDD
+>WP_253439220.1
+MTDTHRQSPWFRLLIIALVALLTVGAAGAIGLAAADTGPSAQTITLNESANDSETPSQAE
+RVRITPEDYDEDYLEISTEQSDKAFNTSGPFATFSLSQPVESARVGQPNADARVMGDGSV
+VRVEYADDAAGSEGSLYDLELFFADGSSYTVDLYATNTDVSVEAAEYTEYSGVIDYLKDQ
+AGDNGYEETPDGAQDYIEDTEDRADLFDHLFSEQVQMFITMRIMDAQNFVSWVVAIGLIA
+GLAIYFQRKHGWILELQQLAESRAELMREAIRQDYEEFRNAAAKHPLEDVTEIGTNAARY
+WREQDVETVDDMIEVACKGIVKTDQYGNIVYDDDGQVVFAHHGVDDLAAVDPLTTEQLRE
+QTWLGPLIYEGRLAATTALSNIEAALLVAEKDYNRGNEVRDARRTVSELVARLSGERDYE
+HAETSSNAARGTTHHYGGSAAGGD
+>match$1_192_209
+FVSWVVAIGIIAGLAIFL
+>match$2_1_191
+MPNVDESNTTAVDPTADGPTIADSVRVTPETTDEDYLEIDTESSDEVYNTSGPFATFSLS
+DPVESARIEQSNADVRVMGDGTVIRVEYDDEAAGESPTLFTAELFFADDSSHSIDLYATD
+TDVSVEAAEYAAYADFIDYTKNQAEAEGFERTPSGAMEYLQHTEERAELFDQLFTEHVLM
+FISLLIAASQN
+>match$3_210_408
+ERKHGWILRLQQMAESRAELMREAVRQDYEDRRNAAAKHPLEDVTEIGPNAARYWKELGI
+ETVDDMVEVACKGVVKTTENGRIEYDDDGNPVFAHHGVDDLRDVDPLTQDQLREQTWLAP
+LVLEGRLAPTTALSNIEAALLVAEKEYNRGNEVRDARRTVEELNARLAGRRDHEERETSS
+NAARTDHRPTGGPSPAGGD
+>match$4_1_15
+MPNVDESNTTAVDPT
+>match$5_187_209
+AASQNFVSWVVAIGIIAGLAIFL
+>match$6_373_408
+NARLAGRRDHEERETSSNAARTDHRPTGGPSPAGGD
+>match$7_373_392
+NARLAGRRDHEERETSSNAA
+>match$8_1_33
+MPNVDESNTTAVDPTADGPTIADSVRVTPETTD
+>match$9_411_427
+LAGRRDFENRETSSNAP
+>match$10_13_23
+LATLCIALVLA
+>match$11_36_212
+ATGTQADNATNTSSPSTTPSQADLVRITPDNPDEDYLSVQTETTDEVYNTTGPYATFTLS
+EPVESARVQQSKADARVLGGGRVVRIAYEDDAAGKNASLYTAELFFPDGSQRSIDLYATQ
+TGVSVAAGDLEQYEGFIDYTLEQAGSEGYDQTPEGARSYLETKEERANLFDSLFTEH
+>match$12_245_443
+ERKHGWILRLQQKAESRGELIREAVRQTYEERRNTAAKHPLEDVTEIGPNAARYWRETGV
+ETVNDMVEMTCKGVVALTEDGNVKYDENGDVVYAHHGVDDLMDVDPLTLEQLRSETWLAP
+VIYEGRLTPTTALSNIESALMVAEKDYNRGNEVRDARRKVSELNKRLAGRRDFENRETSS
+NAPRHDQQTDFTGTAAGGD
+>match$13_213_244
+VMMFISLLFAAARNFVTWVVAVAIIAGVAFYF
+>match$14_1_12
+MFDNPSNRGATR
+>match$15_222_244
+AAARNFVTWVVAVAIIAGVAFYF
+>match$16_411_443
+LAGRRDFENRETSSNAPRHDQQTDFTGTAAGGD
+>match$17_1_35
+MFDNPSNRGATRLATLCIALVLAGAVFGAITPAAA
+>match$18_428_443
+RHDQQTDFTGTAAGGD
+>match$19_24_35
+GAVFGAITPAAA
+>match$20_1_35
+MFDNPSNRGATRLATLCIALVLAGAVFGAITPAAA
+>match$21_1_28
+MFDNPSNRGATRLATLCIALVLAGAVFG
+>match$22_13_35
+LATLCIALVLAGAVFGAITPAAA
+>match$23_1_35
+MFDNPSNRGATRLATLCIALVLAGAVFGAITPAAA
+>match$24_1_38
+MTRHTRHPDSDGSTARRIGLLALVVAVLASSLAVPAAA
+>match$25_18_29
+IGLLALVVAVLA
+>match$26_1_38
+MTRHTRHPDSDGSTARRIGLLALVVAVLASSLAVPAAA
+>match$27_1_17
+MTRHTRHPDSDGSTARR
+>match$28_1_38
+MTRHTRHPDSDGSTARRIGLLALVVAVLASSLAVPAAA
+>match$29_273_291
+AFQWVELVAILTIVTMYWS
+>match$30_292_494
+RKHGWILKFQQLSMPIAKLQREAARQDYERSRKAAAQHKLAEVEEIGTNAARYWRSEMGV
+ETVDDMVELACKGIVAKDENGDVLYDEEGDIVYAHHGVEDLLQVDPVTQRTLREQTWLKP
+ILVDPRLNAATALSNIERALRVAEKEYKRGNEVRQTRMQVEELIEELTSSRGYDSQPSSV
+PTGDSLGNGTGTGTGVGSPSGGD
+>match$31_1_38
+MTRHTRHPDSDGSTARRIGLLALVVAVLASSLAVPAAA
+>match$32_39_272
+AGPTPDSTQTDFADQPVQQPFDPNETTTAPPQEGNETDGNSTTTNGTDPNGTDGNGTAGP
+VTDASQVRITPDVPDEDYVSVTVAENDAVFNTSGGFATFTLSRPVEAARITQQQADANVL
+AGGRVVRVAYTDDAARRNSTSLYQLDLYFADGSNKTVDLYATNTALSASTAIDPDWKPFI
+DWASSQADSADYNTSVSGVLSWAKDTKNRAELFSGLWTDQIENYVSLKLAQLLN
+>match$33_424_444
+LSNIERALRVAEKEYKRGNEV
+>match$34_30_38
+SSLAVPAAA
+>match$35_20_42
+LLALVVAVLASSLAVPAAAAGPT
+>match$36_37_104
+AAAGPTPDSTQTDFADQPVQQPFDPNETTTAPPQEGNETDGNSTTTNGTDPNGTDGNGTA
+GPVTDASQ
+>match$37_458_494
+LTSSRGYDSQPSSVPTGDSLGNGTGTGTGVGSPSGGD
+>match$38_41_102
+PTPDSTQTDFADQPVQQPFDPNETTTAPPQEGNETDGNSTTTNGTDPNGTDGNGTAGPVT
+DA
+>match$39_460_494
+SSRGYDSQPSSVPTGDSLGNGTGTGTGVGSPSGGD
+>match$40_1_35
+MTDTHRQSPWFRLLIIALVALLTVGAAGAIGLAAA
+>match$41_25_35
+GAAGAIGLAAA
+>match$42_36_228
+DTGPSAQTITLNESANDSETPSQAERVRITPEDYDEDYLEISTEQSDKAFNTSGPFATFS
+LSQPVESARVGQPNADARVMGDGSVVRVEYADDAAGSEGSLYDLELFFADGSSYTVDLYA
+TNTDVSVEAAEYTEYSGVIDYLKDQAGDNGYEETPDGAQDYIEDTEDRADLFDHLFSEQV
+QMFITMRIMDAQN
+>match$43_1_29
+MTDTHRQSPWFRLLIIALVALLTVGAAGA
+>match$44_247_444
+QRKHGWILELQQLAESRAELMREAIRQDYEEFRNAAAKHPLEDVTEIGTNAARYWREQDV
+ETVDDMIEVACKGIVKTDQYGNIVYDDDGQVVFAHHGVDDLAAVDPLTTEQLREQTWLGP
+LIYEGRLAATTALSNIEAALLVAEKDYNRGNEVRDARRTVSELVARLSGERDYEHAETSS
+NAARGTTHHYGGSAAGGD
+>match$45_1_35
+MTDTHRQSPWFRLLIIALVALLTVGAAGAIGLAAA
+>match$46_10_32
+WFRLLIIALVALLTVGAAGAIGL
+>match$47_229_246
+FVSWVVAIGLIAGLAIYF
+>match$48_1_12
+MTDTHRQSPWFR
+>match$49_229_246
+FVSWVVAIGLIAGLAIYF
+>match$50_416_444
+ERDYEHAETSSNAARGTTHHYGGSAAGGD
+>match$51_13_24
+LLIIALVALLTV
+>match$52_32_80
+PHDTGPLDGPQHSLTPNNTTTTTTTAPAGPNNSTTGTPSGPPSMASQAR
+>match$53_242_264
+ANFTNIPMVLTFLALLMATAYLW
+>match$54_238_264
+VLWLANFTNIPMVLTFLALLMATAYLW
+>match$55_11_22
+LALVLLAVALAA
+>match$56_23_30
+SVPIGAAA
+>match$57_1_30
+MMDADTRAHSLALVLLAVALAASVPIGAAA
+>match$58_1_10
+MMDADTRAHS
+>match$59_1_30
+MMDADTRAHSLALVLLAVALAASVPIGAAA
+>match$60_31_237
+GPHDTGPLDGPQHSLTPNNTTTTTTTAPAGPNNSTTGTPSGPPSMASQARITPSIPNEDY
+VGVSVVESDAVYNTTGGFVTFTVSEPVAAARVQQRGASVDVLAEGHMLRVQYADDASQPG
+SATLFTTELFFEDNSTKAVKLYARNTGVSASTAINPEWQALIKHVRENADDSGYNATPGG
+GLEYVEQVEDRADLFSGLLTEDFKRYP
+>match$61_1_30
+MMDADTRAHSLALVLLAVALAASVPIGAAA
+>match$62_41_80
+PQHSLTPNNTTTTTTTAPAGPNNSTTGTPSGPPSMASQAR
+>match$63_391_411
+RMRAETALANIETALQVAEKQ
+>match$64_265_459
+KRKFGWILSRQQVSASISAIMRARGCQEYEESRQAAAQHPLAEVEGIGTNAARYWNSEMG
+VETIDDMVEIACKGIVATDDTGRVETDEHGNDVLLTHGVDDLTKVDPVTERKLREETWLK
+PILVQNRMRAETALANIETALQVAEKQYRRGNQVRETRMQVQDLLGQLRDIETGEQTAAI
+AAGSQSRRVPMGGDD
+>match$65_1_23
+MMDADTRAHSLALVLLAVALAAS
+>match$66_9_31
+HSLALVLLAVALAASVPIGAAAG
+>match$67_1_14
+MYQTQSRPLATALR
+>match$68_43_72
+EPSVASVQAENATTNSTDDSTPSQADRLRV
+>match$69_34_76
+AADGPTVDSEPSVASVQAENATTNSTDDSTPSQADRLRVTPVT
+>match$70_35_222
+ADGPTVDSEPSVASVQAENATTNSTDDSTPSQADRLRVTPVTNDEEYLSIETRASDESYN
+TTGPTATFELSEPVDAARVSQSQADVNVLGGGTVIQIEYADDAAGSNASLYTTELFFADG
+STHAVDLYATETDVSVEAAKYTQYSDYIDYTLDQAEAAGYERTAAGARDYLENQEERAKL
+FDSLFTEQ
+>match$71_15_26
+LALVLALVATVL
+>match$72_27_34
+GASAPAVA
+>match$73_1_27
+MYQTQSRPLATALRLALVLALVATVLG
+>match$74_255_453
+ERKHGWILRLQQMAESRAELMREAVRQDYEERRNSAAKHPLEDISEIGINASRYWAESDV
+ETVDDMIEIACKGIVKVDERGNIVYDEDGNAVFSHHGVDDLKDVDPLTTDQLRSQTWLSP
+LILEGRLAATTALSNIEAALLVAEKDYNRGNEVREARRTVSELNARLSGDRDYQHAETSS
+NAARPDRHTDIGGHAAGGD
+>match$75_419_453
+ARLSGDRDYQHAETSSNAARPDRHTDIGGHAAGGD
+>match$76_223_254
+VMMFISVAFAAAQNFVTWILGIAVIAGLAIFL
+>match$77_1_34
+MYQTQSRPLATALRLALVLALVATVLGASAPAVA
+>match$78_232_254
+AAAQNFVTWILGIAVIAGLAIFL
+>match$79_1_34
+MYQTQSRPLATALRLALVLALVATVLGASAPAVA
+>match$80_13_35
+LRLALVLALVATVLGASAPAVAA
+>match$81_1_34
+MYQTQSRPLATALRLALVLALVATVLGASAPAVA
+>match$82_114_136
+VGAIVMLVATAALAGAGFLAVAS
+>match$83_158_175
+VWSYALVLLLLFAVIRVT
+>match$84_343_567
+AHYWRRRRAKSVRSTRQQASYDDIAVLVKKADTDDVTCYYGWVGGTVYADYNELRLAWTL
+SEVAHAHIEGEPIPPTIQQKFARNLTQYLPNLEGYEEAVEKAEIRDRLIQEVAESPSARL
+PKNRLADRVIRRDKERIGGIGYDPRLVAEAYGAVVPYALVEEHVDVETPTEGTKSMSVVR
+LRTEHVTPEAIATDAQFSSLYQPDYSPDFDLPAVDLHAPEASLSD
+>match$85_297_316
+LFWSFAVPAGVTALAALILV
+>match$86_297_316
+LFWSFAVPAGVTALAALILV
+>match$87_151_173
+LVGAATSVWSYALVLLLLFAVIR
+>match$88_317_321
+QFWAA
+>match$89_116_138
+AIVMLVATAALAGAGFLAVASGV
+>match$90_1_50
+MTDKRNDHGRRDDAPDETVDADDLDPSPDTEPDLPAGPIETEEDTSVRES
+>match$91_176_296
+QRSRAATKAASRTGFSEQTCHRLASEAQTADGASTVVVSPADSVDTACDRILSAFETPYS
+ALDINWGDTHVLDDDIVTAAEESAEAAEETDLVVDDRANVDASEHAHLSRLELASTLNGR
+D
+>match$92_321_343
+AIWVYGLIFAAALVAGSAWYVGA
+>match$93_139_157
+DAGGDSSWFMEQLVGAATS
+>match$94_322_342
+IWVYGLIFAAALVAGSAWYVG
+>match$95_300_346
+SFAVPAGVTALAALILVQFWAAIWVYGLIFAAALVAGSAWYVGAHYW
+>match$96_1_17
+MTDKRNDHGRRDDAPDE
+>match$97_1_115
+MTDKRNDHGRRDDAPDETVDADDLDPSPDTEPDLPAGPIETEEDTSVRESLSDFGATLST
+LVRSYAATMHTLVRDHALPWLGDQARNARSLPKRAKRRVILFAVGPSNTIGTRVG
+>match$98_275_499
+AHYWRRRRAKSVRSSRQQASYDDIAVLVKKAETDDVTAYYGWVGGTVYADYNELRLAWTL
+SEVAHAHIEGEPIPPTIQQKFARNLQQYLPNLEGYEEAVEKAEIRDRVIQEVAESPSRRL
+PKNRLADRVIRRDKDRIGGVGYDPRLVADAYESVVPYALVEEHVDVETPTEGQKSMSVVR
+LRTEHVTPEAIATDAQFSSLYQPDYAPDFDLPAVDLHAPEASLSD
+>match$99_229_248
+LFWSFAVPAAITTLAGLVLV
+>match$100_255_277
+WVYLLIGAAALVVGSAWYVGAHY
+>match$101_46_68
+VGAIVMLLATAVLAGAGFLAVSS
+>match$102_48_70
+AIVMLLATAVLAGAGFLAVSSGV
+>match$103_108_228
+QRSRSAQKAAARTGFSEQTCHRLASEAQTADGASTVVVSPADSVDSACDRILSAFETPYS
+ALDINWGDTHVLDDDIVDAAQKSADAADETDLVVDDRANADPSEHARLSRLELASTLNGR
+D
+>match$104_1_47
+MHTLARDHALPWLGDQARNVRSLPSRAKKRLILFAVGPSNTIGTRVG
+>match$105_83_105
+LVGFGTSVWSYAIILLLLFAVIR
+>match$106_249_253
+QFWAA
+>match$107_229_251
+LFWSFAVPAAITTLAGLVLVQFW
+>match$108_254_274
+LWVYLLIGAAALVVGSAWYVG
+>match$109_71_89
+DAGGDSSWFMEQLVGFGTS
+>match$110_90_107
+VWSYAIILLLLFAVIRVT
+>match$111_1_22
+MQENETESGGESNQTGPTDASQ
+>match$112_1_32
+MQENETESGGESNQTGPTDASQVRITPDMPDE
+>match$113_342_362
+LSNIERALRVAEKEYKRGNEV
+>match$114_375_410
+ELNRTRTGEEAAIPTTSRSERPSPSGTGRGTPTGGD
+>match$115_383_410
+EEAAIPTTSRSERPSPSGTGRGTPTGGD
+>match$116_114_136
+VGAIVMLVATAVLAGAGFLAVAS
+>match$117_158_175
+VWSYALVLLLLFAVIRVT
+>match$118_343_567
+AHYWRRRRAKSVRSTRQQASYDDIAVLVKKADTDDVTCYYGWVGGTVYADYNELRLAWTL
+SEVAHAHIEGEPIPPTIQQKFARNLQQYLPNLEGYEEAVEKAEIRDRLIQEVAESPSNRL
+PKNRLADRVIRRDKDRIGGVGYDPRLVAEAYDAVVPYALVEEHVDVETPTEGTKSMSVVR
+LRTEHVTPEAIATDAQFSSLYQPDYSPDFGLPAVDLHAPEASLSD
+>match$119_297_316
+LFWSFAVPAGVTALAALILV
+>match$120_297_316
+LFWSFAVPAGVTALAALILV
+>match$121_151_173
+LVGAATSVWSYALVLLLLFAVIR
+>match$122_317_321
+QFWAA
+>match$123_116_138
+AIVMLVATAVLAGAGFLAVASGV
+>match$124_1_50
+MTDKRDDHGRRDDAPDKTVDADDLDPSPDTEPDLPAGPIETEEDTSVRES
+>match$125_176_296
+QRSRAATKAASRTGFSEQTCHRLASEAQTADGASTVVVSPADSVDTACDRILSAFETPYS
+ALDINWGDTHVLDDDIVTAAEESAEAAEETDLVVDDRANVDPSEHAHLSRLELASTLNGR
+D
+>match$126_321_343
+AIWVYGLILAASLVAGSAWYVGA
+>match$127_139_157
+DAGGDSSWFMEQLVGAATS
+>match$128_1_24
+MTDKRDDHGRRDDAPDKTVDADDL
+>match$129_322_342
+IWVYGLILAASLVAGSAWYVG
+>match$130_300_346
+SFAVPAGVTALAALILVQFWAAIWVYGLILAASLVAGSAWYVGAHYW
+>match$131_1_115
+MTDKRDDHGRRDDAPDKTVDADDLDPSPDTEPDLPAGPIETEEDTSVRESLSDFGTTLST
+LVWSYAATMHTLVRDHALPWLGDQARNARSLPKRAKRRVILFAVGPSNTIGTRVG
