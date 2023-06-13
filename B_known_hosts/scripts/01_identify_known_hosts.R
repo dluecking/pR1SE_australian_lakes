@@ -49,7 +49,7 @@ getOrganism <- function(acc){
 
 prot_df <- data.table()
 
-for(file in list.files("../../generate_protein_clusters/12_curated_proteins", full.names = TRUE)){
+for(file in list.files("../../A_generate_protein_clusters/FINAL_proteins/", full.names = TRUE)){
     accs <- unlist(getName(read.fasta(file = file)))
     accs <- accs[!accs == "Consensus"]
     

@@ -10,7 +10,7 @@ library(dplyr)
 library(rentrez)
 
 # local
-# setwd("/run/user/1000/gvfs/sftp:host=linux-desktop-1.mpi-bremen.de,user=dlueckin/home/dlueckin/projects/pR1SE_australian_lakes/A_generate_protein_clusters/test_iterative_hmm")
+# setwd("/run/user/1000/gvfs/sftp:host=linux-desktop-1.mpi-bremen.de,user=dlueckin/home/dlueckin/projects/pR1SE_australian_lakes/A_generate_protein_clusters/scripts")
 
 # CONSTANTS AND PATHS -----------------------------------------------------
 
@@ -26,10 +26,10 @@ DOMTBLE_FILE <- options[2]
 ORIGINAL_FASTA_FILE <- options[3]
 OUTPUT_FILE <- options[4]
 
-ORF <- "ORF10"
-DOMTBLE_FILE <- "tmp_ORF10/ORF10_hmmsearch_result.domtableout.txt"
-ORIGINAL_FASTA_FILE <- "../05_curated_blastp_proteins/ORF10_blastp_proteins.faa"
-OUTPUT_FILE <- "tmp_ORF10/ORF10_output2.faa"
+# ORF <- "ORF10"
+# DOMTBLE_FILE <- "tmp_ORF10/ORF10_hmmsearch_result.domtableout.txt"
+# ORIGINAL_FASTA_FILE <- "../03_blastp_proteins/ORF10_blastp_proteins.faa"
+# OUTPUT_FILE <- "test.faa"
 
 # import ORF info ---------------------------------------------------------
 
@@ -37,6 +37,7 @@ orf_df <- fread(ORF_TABLE_PATH)
 ORF_SCORE_CUTOFF <- orf_df$min_score[orf_df$orf == ORF]
 ORF_ALN_LEN_CUTOFF <- orf_df$min_alignment_length[orf_df$orf == ORF]
 rm(orf_df)
+
 
 # import blacklist --------------------------------------------------------
 
@@ -79,7 +80,7 @@ print(paste0("no of novel proteins: ", length(novel_acc)))
 print(novel_acc)
 
 # write old proteins
-write.fasta(file.out = OUTPUT_FILE, names = getName(fasta_in), sequences = getSequence(ORIGINAL_FASTA_FILE))
+write.fasta(file.out = OUTPUT_FILE, names = getName(fasta_in), sequences = getSequence(fasta_in))
 
 # append new records
 if(length(novel_acc) > 0){

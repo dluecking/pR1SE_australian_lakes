@@ -1,59 +1,102 @@
 acc,organism,orf
-WP_004048516.1,Halorubrum saccharovorum,ORF10a
-WP_088901260.1,Halorubrum lacusprofundi,ORF10a
-WP_157884856.1,Halorubrum aethiopicum,ORF10a
-WP_013876076.1,Halopiger xanaduensis,ORF10b
-WP_276257232.1,Halovivax sp. TS33,ORF10b
-WP_226043415.1,Natrinema sp. DC36,ORF10b
-WP_238705388.1,Natrinema pallidum,ORF10b
-QCW05316.1,Natrinema pallidum,ORF10b
-QCC57193.1,Natrinema thermotolerans,ORF10b
-WP_049967304.1,Natrinema thermotolerans,ORF10b
-WP_193364773.1,Natrinema versiforme,ORF10b
-ELY68834.1,Natrinema versiforme JCM 10478,ORF10b
-WP_006111378.1,Natrialba asiatica,ORF10b
-WP_006671472.1,Halobiforma nitratireducens,ORF10b
-APX98690.1,Natronorubrum daqingense,ORF10b
-WP_139327085.1,Natronorubrum daqingense,ORF10b
-WP_006665477.1,Natrialba aegyptia,ORF10b
-WP_247005178.1,Halosolutus gelatinilyticus,ORF10b
-WP_253439246.1,Halovivax sp. AGai3-5,ORF10b
-WP_076148799.1,Natrinema saccharevitans,ORF10b
-WP_090312398.1,Natronorubrum texcoconense,ORF10b
-WP_139327060.1,Natronorubrum daqingense,ORF10b
-APX98545.1,Natronorubrum daqingense,ORF10b
-WP_092699153.1,Halovenus aranensis,ORF10b
-WP_250586007.1,Natronocalculus amylovorans,ORF10b
-WP_004048507.1,Halorubrum saccharovorum,ORF17
-WP_088901266.1,Halorubrum lacusprofundi,ORF17
+AQM75274.1,Halorubrum lacusprofundi,ORF10
+WP_088901260.1,Halorubrum lacusprofundi,ORF10
+WP_004048516.1,Halorubrum saccharovorum,ORF10
+WP_157884856.1,Halorubrum aethiopicum,ORF10
+WP_013876076.1,Halopiger xanaduensis,ORF10
+WP_276257232.1,Halovivax sp. TS33,ORF10
+WP_226043415.1,Natrinema sp. DC36,ORF10
+WP_049967304.1,Natrinema thermotolerans,ORF10
+QCC57193.1,Natrinema thermotolerans,ORF10
+QCW05316.1,Natrinema pallidum,ORF10
+WP_238705388.1,Natrinema pallidum,ORF10
+WP_193364773.1,Natrinema versiforme,ORF10
+ELY68834.1,Natrinema versiforme JCM 10478,ORF10
+WP_006111378.1,Natrialba asiatica,ORF10
+WP_006671472.1,Halobiforma nitratireducens,ORF10
+APX98690.1,Natronorubrum daqingense,ORF10
+WP_139327085.1,Natronorubrum daqingense,ORF10
+WP_006665477.1,Natrialba aegyptia,ORF10
+WP_247005178.1,Halosolutus gelatinilyticus,ORF10
+WP_253439246.1,Halovivax sp. AGai3-5,ORF10
+WP_076148799.1,Natrinema saccharevitans,ORF10
+WP_090312398.1,Natronorubrum texcoconense,ORF10
+WP_139327060.1,Natronorubrum daqingense,ORF10
+APX98545.1,Natronorubrum daqingense,ORF10
+WP_092699153.1,Halovenus aranensis,ORF10
+WP_250586007.1,Natronocalculus amylovorans,ORF10
+WP_119817606.1,Halalkaliarchaeum desulfuricum,ORF10
+WP_012946150.1,Haloterrigena turkmenica,ORF10
+WP_254810601.1,Saliphagus sp. WLHSJ1,ORF10
+WP_156709146.1,Natronomonas sp. CBA1123,ORF10
+WP_174682897.1,Haloterrigena gelatinilytica,ORF10
+WP_049991467.1,Natrinema salifodinae,ORF10
+WP_254156789.1,Saliphagus sp. WLHS1,ORF10
+WP_179918452.1,Halosimplex pelagicum,ORF10
+WP_135823077.1,Halostella litorea,ORF10
+WP_227134582.1,Halorubellus salinus,ORF10
+WP_007273986.1,Haloferax sulfurifontis,ORF10
+WP_253521918.1,Halorussus sp. XZYJT10,ORF10
+WP_253521854.1,Halorussus sp. XZYJT10,ORF10
+WP_162994408.1,Halostella,ORF10
+WP_103428371.1,Salinigranum rubrum,ORF10
+WP_049980256.1,Halolamina rubra,ORF10
+WP_143077006.1,Halolamina,ORF10
+WP_074880345.1,Halolamina,ORF10
+WP_222606886.1,Halobaculum magnesiiphilum,ORF10
+WP_135306369.1,Halomicroarcula amylolytica,ORF10
+WP_121538590.1,Haloarcula sp. Atlit-120R,ORF10
+WP_170097793.1,Haloarcula argentinensis,ORF10
+WP_123619166.1,Halorubrum sp. CSM-61,ORF10
+WP_166975914.1,Haloarcula sp. JP-L23,ORF10
+WP_255149778.1,Halosegnis sp. ZY10,ORF10
+WP_227132330.1,Halorubellus salinus,ORF10
+AQM75281.1,Halorubrum lacusprofundi,ORF17
 WP_176580077.1,Halorubrum lacusprofundi,ORF17
+WP_088901266.1,Halorubrum lacusprofundi,ORF17
+WP_004048507.1,Halorubrum saccharovorum,ORF17
 WP_066418790.1,Halorubrum aethiopicum,ORF17
+WP_254810608.1,Saliphagus sp. WLHSJ1,ORF17
 WP_012946156.1,Haloterrigena turkmenica,ORF17
 WP_049967309.1,Natrinema thermotolerans,ORF17
-ELY97150.1,Natrialba asiatica DSM 12278,ORF17
 WP_049904836.1,Natrialba asiatica,ORF17
+ELY97150.1,Natrialba asiatica DSM 12278,ORF17
 WP_006665481.1,Natrialba aegyptia,ORF17
 WP_226043409.1,Natrinema sp. DC36,ORF17
 WP_013876072.1,Halopiger xanaduensis,ORF17
 WP_253521865.1,Halorussus sp. XZYJT10,ORF17
-WP_074880331.1,Halolamina,ORF17
 WP_049980259.1,Halolamina rubra,ORF17
+WP_074880331.1,Halolamina,ORF17
 WP_158205899.1,Halomarina oriensis,ORF17
 WP_255149782.1,Halosegnis sp. ZY10,ORF17
 WP_227132335.1,Halorubellus salinus,ORF17
 WP_123619172.1,Halorubrum sp. CSM-61,ORF17
 WP_007273979.1,Haloferax sulfurifontis,ORF17
 WP_115806018.1,Haloferax sp. Atlit-4N,ORF17
-WP_153952732.1,Halosegnis longus,ORF17
-ELZ14411.1,Natrinema thermotolerans DSM 11552,ORF17
-WP_076148803.1,Natrinema saccharevitans,ORF17
+WP_166975944.1,Haloarcula sp. JP-L23,ORF17
 WP_135306361.1,Halomicroarcula amylolytica,ORF17
+WP_247005036.1,Halosolutus gelatinilyticus,ORF17
 WP_276257225.1,Halovivax sp. TS33,ORF17
-WP_049909105.1,Halorubrum saccharovorum,ORF17
+WP_121819976.1,Halostella,ORF17
+WP_135823082.1,Halostella litorea,ORF17
+WP_227134588.1,Halorubellus salinus,ORF17
+ELZ14411.1,Natrinema thermotolerans DSM 11552,ORF17
+WP_253439235.1,Halovivax sp. AGai3-5,ORF17
+ELY68829.1,Natrinema versiforme JCM 10478,ORF17
+WP_152423108.1,Natrinema versiforme,ORF17
+WP_076148803.1,Natrinema saccharevitans,ORF17
+WP_211137181.1,Natronorubrum daqingense,ORF17
+APX98541.1,Natronorubrum daqingense,ORF17
+WP_245724314.1,Natronorubrum texcoconense,ORF17
+SDL08969.1,Natronorubrum texcoconense,ORF17
+WP_007139925.1,Halobiforma lacisalsi,ORF17
+WP_010546856.1,Halobiforma lacisalsi,ORF17
 ELZ40643.1,Halorubrum saccharovorum DSM 1137,ORF17
-WP_004048502.1,Halorubrum saccharovorum,ORF21
+WP_049909105.1,Halorubrum saccharovorum,ORF17
+AQM75285.1,Halorubrum lacusprofundi,ORF21
 WP_176580079.1,Halorubrum lacusprofundi,ORF21
 WP_088901270.1,Halorubrum lacusprofundi,ORF21
+WP_004048502.1,Halorubrum saccharovorum,ORF21
 WP_066418780.1,Halorubrum aethiopicum,ORF21
 WP_254810612.1,Saliphagus sp. WLHSJ1,ORF21
 WP_004047791.1,Halorubrum saccharovorum,ORF21
@@ -67,10 +110,14 @@ WP_226043405.1,Natrinema sp. DC36,ORF21
 WP_049967313.1,Natrinema thermotolerans,ORF21
 WP_013876068.1,Halopiger xanaduensis,ORF21
 WP_253521878.1,Halorussus sp. XZYJT10,ORF21
-WP_074880318.1,Halolamina,ORF21
 WP_049980263.1,Halolamina rubra,ORF21
+WP_074880318.1,Halolamina,ORF21
 WP_178289023.1,Natronomonas halophila,ORF21
 WP_158205895.1,Halomarina oriensis,ORF21
+WP_123619176.1,Halorubrum sp. CSM-61,ORF21
+WP_115806015.1,Haloferax sp. Atlit-4N,ORF21
+WP_007273975.1,Haloferax sulfurifontis,ORF21
+WP_153952728.1,Halosegnis longus,ORF21
 WP_247005041.1,Halosolutus gelatinilyticus,ORF21
 WP_276257221.1,Halovivax sp. TS33,ORF21
 WP_166975957.1,Haloarcula sp. JP-L23,ORF21
@@ -83,13 +130,11 @@ WP_006430300.1,Natrinema versiforme,ORF21
 WP_076583933.1,Natronorubrum daqingense,ORF21
 WP_135823086.1,Halostella litorea,ORF21
 WP_121819972.1,Halostella,ORF21
-WP_123619176.1,Halorubrum sp. CSM-61,ORF21
-WP_115806015.1,Haloferax sp. Atlit-4N,ORF21
-WP_007273975.1,Haloferax sulfurifontis,ORF21
-WP_153952728.1,Halosegnis longus,ORF21
-WP_004048500.1,Halorubrum saccharovorum,ORF23
+WP_227134592.1,Halorubellus salinus,ORF21
+AQM75287.1,Halorubrum lacusprofundi,ORF23
 WP_176580080.1,Halorubrum lacusprofundi,ORF23
 WP_088901272.1,Halorubrum lacusprofundi,ORF23
+WP_004048500.1,Halorubrum saccharovorum,ORF23
 WP_157884851.1,Halorubrum aethiopicum,ORF23
 WP_254810614.1,Saliphagus sp. WLHSJ1,ORF23
 WP_012946162.1,Haloterrigena turkmenica,ORF23
@@ -99,8 +144,8 @@ WP_049895738.1,Halopiger xanaduensis,ORF23
 WP_049967315.1,Natrinema thermotolerans,ORF23
 WP_226043403.1,Natrinema sp. DC36,ORF23
 WP_154018461.1,Halolamina rubra,ORF23
-WP_079990213.1,Halolamina,ORF23
 SFQ07740.1,Halolamina pelagica,ORF23
+WP_079990213.1,Halolamina,ORF23
 WP_178289021.1,Natronomonas halophila,ORF23
 WP_253521882.1,Halorussus sp. XZYJT10,ORF23
 WP_158205893.1,Halomarina oriensis,ORF23
@@ -108,45 +153,48 @@ WP_255149788.1,Halosegnis sp. ZY10,ORF23
 WP_227132345.1,Halorubellus salinus,ORF23
 ELZ14417.1,Natrinema thermotolerans DSM 11552,ORF23
 WP_004047795.1,Halorubrum saccharovorum,ORF23
-WP_007273973.1,Haloferax sulfurifontis,ORF23
-WP_123619178.1,Halorubrum sp. CSM-61,ORF23
-WP_153952726.1,Halosegnis longus,ORF23
 WP_166975962.1,Haloarcula sp. JP-L23,ORF23
 WP_135306354.1,Halomicroarcula amylolytica,ORF23
 WP_276257219.1,Halovivax sp. TS33,ORF23
 WP_247005043.1,Halosolutus gelatinilyticus,ORF23
-WP_076583927.1,Natronorubrum daqingense,ORF23
-WP_245724315.1,Natronorubrum texcoconense,ORF23
 WP_007139931.1,Halobiforma lacisalsi,ORF23
+WP_245724315.1,Natronorubrum texcoconense,ORF23
+WP_076583927.1,Natronorubrum daqingense,ORF23
 WP_175607307.1,Natrinema saccharevitans,ORF23
 WP_006430297.1,Natrinema versiforme,ORF23
 WP_253439220.1,Halovivax sp. AGai3-5,ORF23
 WP_135823088.1,Halostella litorea,ORF23
 WP_162994404.1,Halostella,ORF23
 WP_227134594.1,Halorubellus salinus,ORF23
-WP_004048499.1,Halorubrum saccharovorum,ORF24
+WP_123619178.1,Halorubrum sp. CSM-61,ORF23
+WP_153952726.1,Halosegnis longus,ORF23
+AQM75288.1,Halorubrum lacusprofundi,ORF24
 WP_176580081.1,Halorubrum lacusprofundi,ORF24
 WP_088901273.1,Halorubrum lacusprofundi,ORF24
+WP_004048499.1,Halorubrum saccharovorum,ORF24
 WP_066418771.1,Halorubrum aethiopicum,ORF24
 WP_254810615.1,Saliphagus sp. WLHSJ1,ORF24
 WP_012946163.1,Haloterrigena turkmenica,ORF24
-QCC57297.1,Natrinema thermotolerans,ORF24
-WP_233274409.1,Natrinema thermotolerans,ORF24
 WP_006665488.1,Natrialba aegyptia,ORF24
 WP_006111403.1,Natrialba asiatica,ORF24
 WP_226043402.1,Natrinema sp. DC36,ORF24
+QCC57297.1,Natrinema thermotolerans,ORF24
+WP_233274409.1,Natrinema thermotolerans,ORF24
 WP_013876066.1,Halopiger xanaduensis,ORF24
 WP_253521886.1,Halorussus sp. XZYJT10,ORF24
 WP_074880307.1,Halolamina,ORF24
+WP_049980266.1,Halolamina rubra,ORF24
 WP_178289020.1,Natronomonas halophila,ORF24
 WP_158205892.1,Halomarina oriensis,ORF24
 WP_255149789.1,Halosegnis sp. ZY10,ORF24
 WP_227132347.1,Halorubellus salinus,ORF24
 ELZ40649.1,Halorubrum saccharovorum DSM 1137,ORF24
 WP_049909109.1,Halorubrum saccharovorum,ORF24
+ELZ14418.1,Natrinema thermotolerans DSM 11552,ORF24
 WP_115806038.1,Haloferax sp. Atlit-4N,ORF24
 WP_007273972.1,Haloferax sulfurifontis,ORF24
 WP_123619179.1,Halorubrum sp. CSM-61,ORF24
+WP_153952725.1,Halosegnis longus,ORF24
 WP_076148809.1,Natrinema saccharevitans,ORF24
 WP_245724316.1,Natronorubrum texcoconense,ORF24
 APX98670.1,Natronorubrum daqingense,ORF24
@@ -161,54 +209,56 @@ WP_247005045.1,Halosolutus gelatinilyticus,ORF24
 WP_166975965.1,Haloarcula sp. JP-L23,ORF24
 WP_135306353.1,Halomicroarcula amylolytica,ORF24
 WP_121819968.1,Halostella,ORF24
-WP_152421865.1,Halorubrum saccharovorum,ORF6
-ELZ38788.1,Halorubrum saccharovorum DSM 1137,ORF6
-WP_237583085.1,Halorubrum lacusprofundi,ORF6
+WP_135823089.1,Halostella litorea,ORF24
+WP_227134595.1,Halorubellus salinus,ORF24
 AQM75270.1,Halorubrum lacusprofundi,ORF6
 WP_236996085.1,Halorubrum lacusprofundi,ORF6
+WP_237583085.1,Halorubrum lacusprofundi,ORF6
+WP_152421865.1,Halorubrum saccharovorum,ORF6
+ELZ38788.1,Halorubrum saccharovorum DSM 1137,ORF6
 WP_157884858.1,Halorubrum aethiopicum,ORF6
 WP_012946144.1,Haloterrigena turkmenica,ORF6
 WP_013876082.1,Halopiger xanaduensis,ORF6
 WP_245724312.1,Natronorubrum texcoconense,ORF6
-APX98552.1,Natronorubrum daqingense,ORF6
 WP_083687816.1,Natronorubrum daqingense,ORF6
+APX98552.1,Natronorubrum daqingense,ORF6
+QCC57287.1,Natrinema thermotolerans,ORF6
+WP_233274410.1,Natrinema thermotolerans,ORF6
+WP_006665474.1,Natrialba aegyptia,ORF6
 WP_175417072.1,Natrinema pallidum,ORF6
 QCW05226.1,Natrinema pallidum,ORF6
 WP_276257149.1,Halovivax sp. TS33,ORF6
 WP_226043421.1,Natrinema sp. DC36,ORF6
-WP_006430204.1,Natrinema versiforme,ORF6
 WP_049967299.1,Natrinema thermotolerans,ORF6
-QCC57287.1,Natrinema thermotolerans,ORF6
-WP_233274410.1,Natrinema thermotolerans,ORF6
+WP_006430204.1,Natrinema versiforme,ORF6
 WP_247005175.1,Halosolutus gelatinilyticus,ORF6
 WP_247005174.1,Halosolutus gelatinilyticus,ORF6
 WP_174682795.1,Haloterrigena gelatinilytica,ORF6
 WP_206537188.1,Natrialba asiatica,ORF6
 ELY97141.1,Natrialba asiatica DSM 12278,ORF6
-APX98747.1,Natronorubrum daqingense,ORF6
 WP_083687828.1,Natronorubrum daqingense,ORF6
+APX98747.1,Natronorubrum daqingense,ORF6
 WP_006671475.1,Halobiforma nitratireducens,ORF6
 WP_007139918.1,Halobiforma lacisalsi,ORF6
 WP_275039258.1,Halobiforma lacisalsi,ORF6
 APX00321.1,Halobiforma lacisalsi AJ5,ORF6
-WP_136396809.1,Natrinema thermotolerans,ORF6
+WP_233752292.1,Halostella,ORF6
+NHN49977.1,,ORF6
+WP_253439053.1,Halovivax sp. AGai3-5,ORF6
+WP_254810718.1,Saliphagus sp. WLHSJ1,ORF6
 QCC57255.1,Natrinema thermotolerans,ORF6
-WP_174682820.1,Haloterrigena gelatinilytica,ORF6
+WP_136396809.1,Natrinema thermotolerans,ORF6
 WP_254810679.1,Saliphagus sp. WLHSJ1,ORF6
 APX98605.1,Natronorubrum daqingense,ORF6
 WP_139327066.1,Natronorubrum daqingense,ORF6
-NHN49977.1,,ORF6
-WP_233752292.1,Halostella,ORF6
-WP_253439053.1,Halovivax sp. AGai3-5,ORF6
-WP_254810718.1,Saliphagus sp. WLHSJ1,ORF6
 WP_254156780.1,Saliphagus sp. WLHS1,ORF6
 WP_066418905.1,Halorubrum aethiopicum,ORF6
-WP_123619590.1,Halorubrum sp. CSM-61,ORF6
 ELZ39327.1,Halorubrum saccharovorum DSM 1137,ORF6
+WP_123619590.1,Halorubrum sp. CSM-61,ORF6
 WP_250586001.1,Natronocalculus amylovorans,ORF6
 WP_245800694.1,Natrinema saccharevitans,ORF6
-WP_143067755.1,Natrinema salifodinae,ORF6
 SEW32848.1,Natrinema salifodinae,ORF6
+WP_143067755.1,Natrinema salifodinae,ORF6
 WP_253521916.1,Halorussus sp. XZYJT10,ORF6
 WP_253521851.1,Halorussus sp. XZYJT10,ORF6
 WP_147302057.1,Haloferax sp. Atlit-4N,ORF6
@@ -235,23 +285,38 @@ WP_259370039.1,Halostella litorea,ORF6
 ELZ14405.1,Natrinema thermotolerans DSM 11552,ORF6
 WP_255149775.1,Halosegnis sp. ZY10,ORF6
 WP_049909098.1,Halorubrum saccharovorum,ORF6
+ELZ40637.1,Halorubrum saccharovorum DSM 1137,ORF6
 PCR88684.1,Natrinema ejinorense,ORF6
+WP_245853167.1,Natrinema ejinorense,ORF6
 MUV87014.1,,ORF6
 WP_231753953.1,Natronomonas sp. CBA1123,ORF6
 WP_123619552.1,Halorubrum sp. CSM-61,ORF6
 SDJ32971.1,Halovenus aranensis,ORF6
 WP_143414111.1,Halovenus aranensis,ORF6
-WP_004048522.1,Halorubrum saccharovorum,ORF8
+AQM75272.1,Halorubrum lacusprofundi,ORF8
 WP_088901258.1,Halorubrum lacusprofundi,ORF8
+WP_004048522.1,Halorubrum saccharovorum,ORF8
 WP_066418812.1,Halorubrum aethiopicum,ORF8
+WP_119817599.1,Halalkaliarchaeum desulfuricum,ORF8
 WP_012946146.1,Haloterrigena turkmenica,ORF8
 WP_174682793.1,Haloterrigena gelatinilytica,ORF8
 WP_013876080.1,Halopiger xanaduensis,ORF8
 WP_247005177.1,Halosolutus gelatinilyticus,ORF8
-APX98748.1,Natronorubrum daqingense,ORF8
 WP_236996034.1,Natronorubrum daqingense,ORF8
+APX98748.1,Natronorubrum daqingense,ORF8
 WP_006671473.1,Halobiforma nitratireducens,ORF8
 WP_007139920.1,Halobiforma lacisalsi,ORF8
 WP_076583956.1,Natronorubrum daqingense,ORF8
 WP_090312391.1,Natronorubrum texcoconense,ORF8
 WP_226043303.1,Natrinema sp. DC36,ORF8
+WP_006665476.1,Natrialba aegyptia,ORF8
+WP_006430202.1,Natrinema versiforme,ORF8
+WP_276257233.1,Halovivax sp. TS33,ORF8
+WP_138655685.1,Natrinema pallidum,ORF8
+WP_049967301.1,Natrinema thermotolerans,ORF8
+WP_006111374.1,Natrialba asiatica,ORF8
+WP_253439249.1,Halovivax sp. AGai3-5,ORF8
+WP_121819924.1,Halostella,ORF8
+WP_250586005.1,Natronocalculus amylovorans,ORF8
+WP_254810600.1,Saliphagus sp. WLHSJ1,ORF8
+WP_254156782.1,Saliphagus sp. WLHS1,ORF8

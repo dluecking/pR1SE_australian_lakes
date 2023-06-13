@@ -28,9 +28,9 @@ prot_df$presence <- 1
 
 # Cast the data to a wide format
 wide_df <- dcast(prot_df, organism ~ orf, value.var = "presence", fill = 0)
-wide_df[,2:9] <- lapply(wide_df[,2:9], function(x) ifelse(x > 1, 1, x))
+wide_df[,2:8] <- lapply(wide_df[,2:8], function(x) ifelse(x > 1, 1, x))
 
-wide_df$hits <- rowSums(wide_df[,2:9])
+wide_df$hits <- rowSums(wide_df[,2:8])
 wide_df <- wide_df %>% 
     arrange(desc(hits)) %>% 
     filter(hits >= 4)
@@ -46,7 +46,7 @@ ggplot(melt(wide_df) %>% filter(variable != "hits"), aes(variable, organism, fil
     theme(panel.grid.major = element_blank(),
           axis.text.x = element_text(angle = 45, hjust = 1))
 
-ggsave("presence_absence_plot.png", plot = last_plot(), height = 8, width = 16)
+ggsave("../../plots/presence_absence_plot.png", plot = last_plot(), height = 8, width = 16)
 
 
 fwrite(wide_df, "known_hosts_df.tsv")

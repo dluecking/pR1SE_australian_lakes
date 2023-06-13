@@ -30,6 +30,15 @@ Note: after 2 iterations the profiles did not return any new results.
 ### The parts of the project
 #### A - generate_protein_clusters
 This part is basically steps 1 (substeps 1-4) mentioned in the methods description. I'm happy with the results we have here.
+Final commands to generate the files for all ORFs:
+1. Generate MSAs
+```commandline
+for i in *; do mafft --localpair --reorder $i > ../FINAL_msa/${i}.msa; done
+```
+2. Generate profiles:
+```commandline
+for i  in *; do hmmbuild --amino ../FINAL_profiles/${i}.hmm $i; done
+```
 
 #### B - known_hosts
 This is interesting. Key is: I need to figure out how to get from protein accession to genome accession. I will try once more, before moving on and asking Daan Speth.

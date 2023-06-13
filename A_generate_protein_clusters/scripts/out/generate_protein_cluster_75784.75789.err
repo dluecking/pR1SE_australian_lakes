@@ -1,41 +1,0 @@
-outputhat23=0
-treein = 0
-compacttree = 0
-stacksize: 8192 kb
-rescale = 1
-All-to-all alignment.
-    0 / 17    1 / 17    2 / 17    3 / 17    4 / 17    5 / 17    6 / 17    7 / 17    8 / 17    9 / 17   10 / 17   11 / 17   12 / 17   13 / 17   14 / 17   15 / 17tbfast-pair (aa) Version 7.520
-alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
-0 thread(s)
-
-outputhat23=0
-Loading 'hat3.seed' ... 
-done.
-rescale = 1
-Gap Penalty = -1.53, +0.00, +0.00
-tbutree = 1, compacttree = 0
-Constructing a UPGMA tree ... 
-    0 / 17   10 / 17
-done.
-
-Progressive alignment ... 
-STEP     1 /16 STEP     2 /16 STEP     3 /16 STEP     4 /16 STEP     5 /16 STEP     6 /16 STEP     7 /16 STEP     8 /16 STEP     9 /16 STEP    10 /16 STEP    11 /16 STEP    12 /16 STEP    13 /16 STEP    14 /16 STEP    15 /16 
-Reallocating..done. *alloclen = 2410
-STEP    16 /16 
-done.
-tbfast (aa) Version 7.520
-alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
-1 thread(s)
-
-
-Strategy:
- L-INS-1 (Not tested.)
- Progressive method incorporating LOCAL pairwise alignment information
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --leavegappyregion option.
-

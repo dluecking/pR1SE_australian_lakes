@@ -1,41 +1,0 @@
-outputhat23=0
-treein = 0
-compacttree = 0
-stacksize: 8192 kb
-rescale = 1
-All-to-all alignment.
-    0 / 43    1 / 43    2 / 43    3 / 43    4 / 43    5 / 43    6 / 43    7 / 43    8 / 43    9 / 43   10 / 43   11 / 43   12 / 43   13 / 43   14 / 43   15 / 43   16 / 43   17 / 43   18 / 43   19 / 43   20 / 43   21 / 43   22 / 43   23 / 43   24 / 43   25 / 43   26 / 43   27 / 43   28 / 43   29 / 43   30 / 43   31 / 43   32 / 43   33 / 43   34 / 43   35 / 43   36 / 43   37 / 43   38 / 43   39 / 43   40 / 43   41 / 43tbfast-pair (aa) Version 7.520
-alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
-0 thread(s)
-
-outputhat23=0
-Loading 'hat3.seed' ... 
-done.
-rescale = 1
-Gap Penalty = -1.53, +0.00, +0.00
-tbutree = 1, compacttree = 0
-Constructing a UPGMA tree ... 
-    0 / 43   10 / 43   20 / 43   30 / 43   40 / 43
-done.
-
-Progressive alignment ... 
-STEP     1 /42 STEP     2 /42 STEP     3 /42 STEP     4 /42 STEP     5 /42 STEP     6 /42 STEP     7 /42 STEP     8 /42 STEP     9 /42 STEP    10 /42 STEP    11 /42 STEP    12 /42 STEP    13 /42 STEP    14 /42 STEP    15 /42 STEP    16 /42 STEP    17 /42 STEP    18 /42 STEP    19 /42 STEP    20 /42 STEP    21 /42 STEP    22 /42 STEP    23 /42 STEP    24 /42 STEP    25 /42 STEP    26 /42 STEP    27 /42 STEP    28 /42 STEP    29 /42 STEP    30 /42 STEP    31 /42 STEP    32 /42 STEP    33 /42 STEP    34 /42 
-Reallocating..done. *alloclen = 3916
-STEP    35 /42 STEP    36 /42 STEP    37 /42 STEP    38 /42 STEP    39 /42 STEP    40 /42 STEP    41 /42 STEP    42 /42 
-done.
-tbfast (aa) Version 7.520
-alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
-1 thread(s)
-
-
-Strategy:
- L-INS-1 (Not tested.)
- Progressive method incorporating LOCAL pairwise alignment information
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --leavegappyregion option.
-
