@@ -10,8 +10,8 @@ do
     hmmsearch \
       --domtblout  ../01_hmm_results/${ORF}_vs_IMG_domtblout.txt \
       --tblout ../01_hmm_results/${ORF}_vs_IMG.txt \
-      --cpu 16 \
-      ../input_profiles/${ORF}.faa.msa.hmm \
+      --cpu 40 \
+      ../../A_generate_protein_clusters/FINAL_profiles/${ORF}.faa.msa.hmm \
       ~/bioinf/dbs/IMG_VR/IMG_VR_2022-12-19_7/IMGVR_all_proteins.faa.gz
   fi
 done   

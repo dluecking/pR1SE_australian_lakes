@@ -1,8 +1,5 @@
 import Bio.Entrez as Entrez
-from Bio import SeqIO
-import csv
 def get_ipg_nuccore(prot_acc):
-		
     # download the record from IPG
     ipg_record = Entrez.efetch(id=prot_acc, db='ipg').read().decode()
     
@@ -29,7 +26,7 @@ for accession in unique_accessions:
     genome_acc = genome_acc.replace(">", "")
     print(genome_acc)
     # Step 3: Write key-value pairs to a file
-    output_filename = f"known_hosts/{genome_acc}.fasta"
+    output_filename = f"../known_hosts/{genome_acc}.fasta"
     with open(output_filename, 'w') as fasta_file:
         for key, value in dictionary.items():
             fasta_file.write(f">{key}\n{value}\n")

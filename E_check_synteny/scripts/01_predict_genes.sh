@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # needs vs2 env active for prodigal 
-for file in ../contigs/complete/*;
+for file in ../contigs/*;
 do
   contig=`basename $file`
-  prodigal -i $file -f sco -o ../sco/complete/${contig}.sco \
-    -a ../genes/complete/${contig}.faa
+  prodigal -p meta -i $file -f sco -o ../sco/${contig}.sco \
+    -a ../genes/${contig}.faa
 done
-
 

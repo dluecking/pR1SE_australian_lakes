@@ -22,9 +22,9 @@ conda activate hmmer
 
 echo ${SLURM_ARRAY_TASK_ID}
 
-LAKE=`cat list_of_lakes.txt | sed -n ${SLURM_ARRAY_TASK_ID}p`
+LAKE=`cat ../../helper_files/list_of_lakes.txt | sed -n ${SLURM_ARRAY_TASK_ID}p`
 
-for ORF in `cat list_of_ORFs.txt`;
+for ORF in `cat ../../helper_files/list_of_ORFs.txt`;
 do
   if [ -f "../01_hmm_results/${LAKE}_${ORF}_domtblout.txt" ]; then
     ### Take action if $DIR exists ###
@@ -35,8 +35,7 @@ do
       --domtblout  ../01_hmm_results/${LAKE}_${ORF}_domtblout.txt \
       --tblout ../01_hmm_results/${LAKE}_${ORF}.txt \
       --cpu 16 \
-      ../input_profiles/${ORF}.faa.msa.hmm \
+      ../../A_generate_protein_clusters/FINAL_profiles/${ORF}.faa.msa.hmm \
       ~/bioinf/australian_salt_lakes/tal/4_Dom/${LAKE}_metaspades.faa
-
   fi
 done   

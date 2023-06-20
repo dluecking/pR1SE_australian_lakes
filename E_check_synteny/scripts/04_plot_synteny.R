@@ -16,15 +16,27 @@ setwd(this_dir)
 print(paste0("Setting wd to: \n ", this_dir))
 
 
+# create automated region borders df --------------------------------------
+
+gene_df <- fread("gene_df.tsv")
+
+auto_df <- gene_df %>% 
+    group_by(contig) %>% 
+    summarise(min_orf = min(`orf#`), max_orf = max(`orf#`))
+
+fwrite(auto_df, "automated_region_borders.tsv")
+
+# I ASSUME YOU HAVE SETUP THE MANUAL_REGION_DF BASED ON THE AUTOMATED ONE BUT WITH MANUAL CURATION
+rm(auto_df)
+
+
 
 # import df and filter  --------------------------------------------------
 
 manual_region_df <- fread("manual_region_df.tsv") %>% 
-    filter(comment == "")
+    filter(comment != "both ends of a fragment")
 
-gene_df <- fread("gene_df.tsv")
 gene_df2 <- data.table()
-
 
 for(i in 1:nrow(manual_region_df)){
     current_contig <- manual_region_df$contig[i]
@@ -36,7 +48,7 @@ for(i in 1:nrow(manual_region_df)){
         filter(`orf#` >= current_min, `orf#` <= current_max)
     
     # reverse order based on direction of ORF17
-    if(tmp_df$strand[tmp_df$annot == "ORF17.faa"] != TRUE){
+    if(tmp_df$strand[tmp_df$annot == "ORF21.faa"] != TRUE){
         tmp_df$end <- tmp_df$end * -1
         tmp_df$start <- tmp_df$start * -1
         
@@ -47,9 +59,6 @@ for(i in 1:nrow(manual_region_df)){
     }
     
     gene_df2 <- rbind(gene_df2, tmp_df)
-    
-    
-    
 }
 gene_df <- gene_df2
 rm(gene_df2, i, current_contig, current_max, current_min, tmp_df)
@@ -57,14 +66,15 @@ rm(gene_df2, i, current_contig, current_max, current_min, tmp_df)
 
 # plot --------------------------------------------------------------------
 
-# change ORF10 annot
 gene_df$annot <- str_remove(gene_df$annot, "\\.faa")
-gene_df$annot[gene_df$annot == "ORF10a"] <- "ORF10"
-gene_df$annot[gene_df$annot == "ORF10b"] <- "ORF10"
 gene_df$annot[gene_df$annot == ""] <- "unknown"
 
 # remove long ass names
 gene_df$contig <- str_remove(gene_df$contig, "\\_length.*")
+gene_df$length <- gene_df$end - gene_df$start
+
+# save that for later
+fwrite(gene_df, "cleaned_gene_df.tsv")
 
 
 # create dummies
@@ -92,25 +102,9 @@ for(i in 1:4){
                                      "ORF24" = "#577590",
                                      "unknown" = "#FBFEF9"))
     
-    ggsave(current_plot, filename = paste0("plot", i, ".pdf"), height = 7.7, width = 11)
+    ggsave(current_plot, filename = paste0("../../plots/gene_map_plot", i, ".pdf"), height = 7.7, width = 11)
 }
 
-
-
-
-
-
-# old --------------------------------------------------------------------
-
-h_df <- data.table("contig" = unique(gene_df$contig))
-h_df$min_orf <- 0
-h_df$max_orf <- 0
-
-for(i in 1:nrow(h_df)){
-    h_df$min_orf[i] <- min(gene_df$`orf#`[gene_df$contig == h_df$contig[i]])
-    h_df$max_orf[i] <- max(gene_df$`orf#`[gene_df$contig == h_df$contig[i]])
-}
-fwrite(h_df, "automated_region_borders.tsv")
 
 
 

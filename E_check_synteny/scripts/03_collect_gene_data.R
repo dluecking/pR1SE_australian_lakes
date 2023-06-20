@@ -22,8 +22,8 @@ print(paste0("Setting wd to: \n ", this_dir))
 
 gene_df <- data.table()
 
-for(file in list.files("../sco/complete/")){
-    tmp_df <- fread(paste0("../sco/complete/", file), skip = 2, sep = "_")
+for(file in list.files("../sco/")){
+    tmp_df <- fread(paste0("../sco/", file), skip = 2, sep = "_")
     tmp_df$contig <- str_remove(file, "\\.fasta\\.sco")
     names(tmp_df) <- c("orf#", "start", "end", "strand", "contig")
     
@@ -40,7 +40,7 @@ gene_df$`orf#` <- as.numeric(str_remove(gene_df$`orf#`, ">"))
 
 hmm_df <- data.table()
 
-for(file in list.files("../hmm_results/complete", full.names = TRUE, pattern = "domtblout.txt")){
+for(file in list.files("../hmm_results", full.names = TRUE, pattern = "domtblout.txt")){
     is_not_empty <- as.numeric(str_split(system(command = paste0("wc -l ", file), intern = TRUE), " ")[[1]][1]) > 13
     
     if(is_not_empty){
@@ -57,13 +57,16 @@ for(file in list.files("../hmm_results/complete", full.names = TRUE, pattern = "
         domtbl$query_length <- as.numeric(domtbl$query_length)
         domtbl$score <- as.numeric(domtbl$score)
         
+        domtbl <- domtbl %>% 
+            filter(score >= 50)
+        
         hmm_df <- rbind(hmm_df, domtbl)
     }
 }
 rm(domtbl, is_not_empty, file)
 
 
-# combining the plots -----------------------------------------------------
+# combining the dfs --------------------------------------------------------
 
 gene_df$id <- paste0(gene_df$contig, "_", str_remove(gene_df$`orf#`, ">"))
 hmm_df$id <- str_remove(hmm_df$hit, ">")
