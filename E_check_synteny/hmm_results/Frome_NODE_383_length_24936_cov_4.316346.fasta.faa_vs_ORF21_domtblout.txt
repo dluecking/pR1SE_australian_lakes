@@ -1,0 +1,14 @@
+#                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Frome_NODE_383_length_24936_cov_4.316346_16 -            251 ORF21.faa            -            201   1.1e-57  185.5   6.6   1   1   5.9e-59   1.3e-57  185.2   6.6     8   181    12   200     5   233 0.88 # 12384 # 13136 # 1 # ID=1_16;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.633
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF21.faa.msa.hmm
+# Target file:     ../genes/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa_vs_ORF21_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF21.faa.msa.hmm ../genes/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:52:10 2023
+# [ok]

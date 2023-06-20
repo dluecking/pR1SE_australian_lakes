@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>KX687704.1_25       -            568 ORF24.faa            -            530  6.4e-182  597.0   9.2   1   1    2e-183  9.4e-182  596.5   9.2    10   510    83   563    17   566 0.96 # 23505 # 25208 # 1 # ID=1_25;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.677
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm
+# Target file:     ../genes/KX687704.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/KX687704.1.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm ../genes/KX687704.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:52:16 2023
+# [ok]

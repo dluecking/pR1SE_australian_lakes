@@ -1,0 +1,35 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_012946146.1       -            268 ORF8_blastp_proteins.faa -            274  1.9e-136  447.9  11.6   1   1  1.4e-137  2.2e-136  447.7  11.6     3   273     1   266     1   267 0.99 hypothetical protein [Haloterrigena turkmenica]
+WP_012946146.1       -            268 ORF8_blastp_proteins.faa -            274  1.9e-136  447.9  11.6   1   1  1.4e-137  2.2e-136  447.7  11.6     3   273     1   266     1   267 0.99 hypothetical protein [Haloterrigena turkmenica]
+WP_174682793.1       -            270 ORF8_blastp_proteins.faa -            274  2.4e-136  447.6  11.1   1   1  1.7e-137  2.7e-136  447.4  11.1     3   273     1   268     1   269 0.98 hypothetical protein [Haloterrigena gelatinilytica]
+WP_174682793.1       -            270 ORF8_blastp_proteins.faa -            274  2.4e-136  447.6  11.1   1   1  1.7e-137  2.7e-136  447.4  11.1     3   273     1   268     1   269 0.98 hypothetical protein [Haloterrigena gelatinilytica]
+WP_247005177.1       -            274 ORF8_blastp_proteins.faa -            274  1.9e-134  441.3  14.4   1   1  1.3e-135  2.1e-134  441.2  14.4     2   274     3   274     1   274 0.99 hypothetical protein [Halosolutus gelatinilyticus]
+WP_247005177.1       -            274 ORF8_blastp_proteins.faa -            274  1.9e-134  441.3  14.4   1   1  1.3e-135  2.1e-134  441.2  14.4     2   274     3   274     1   274 0.99 hypothetical protein [Halosolutus gelatinilyticus]
+WP_013876080.1       -            272 ORF8_blastp_proteins.faa -            274  2.2e-131  431.3   9.8   1   1  1.7e-132  2.7e-131  431.0   9.8     3   274     6   271     2   271 0.99 hypothetical protein [Halopiger xanaduensis]
+WP_013876080.1       -            272 ORF8_blastp_proteins.faa -            274  2.2e-131  431.3   9.8   1   1  1.7e-132  2.7e-131  431.0   9.8     3   274     6   271     2   271 0.99 hypothetical protein [Halopiger xanaduensis]
+WP_236996034.1       -            288 ORF8_blastp_proteins.faa -            274  4.3e-128  420.5  14.7   1   1    3e-129  4.8e-128  420.3  14.7     3   274     5   285     1   285 0.99 hypothetical protein [Natronorubrum daqingense]
+WP_236996034.1       -            288 ORF8_blastp_proteins.faa -            274  4.3e-128  420.5  14.7   1   1    3e-129  4.8e-128  420.3  14.7     3   274     5   285     1   285 0.99 hypothetical protein [Natronorubrum daqingense]
+APX98748.1           -            284 ORF8_blastp_proteins.faa -            274  4.9e-128  420.3  15.5   1   1  3.4e-129  5.5e-128  420.2  15.5     3   274     1   281     1   281 0.99 hypothetical protein BB347_18420 (plasmid) [Natronorubrum daqingense]
+APX98748.1           -            284 ORF8_blastp_proteins.faa -            274  4.9e-128  420.3  15.5   1   1  3.4e-129  5.5e-128  420.2  15.5     3   274     1   281     1   281 0.99 hypothetical protein BB347_18420 (plasmid) [Natronorubrum daqingense]
+WP_004048522.1       -            270 ORF8_blastp_proteins.faa -            274  6.5e-116  380.6  10.4   1   1  4.5e-117  7.2e-116  380.4  10.4     1   274     1   270     1   270 0.98 hypothetical protein [Halorubrum saccharovorum]
+WP_004048522.1       -            270 ORF8_blastp_proteins.faa -            274  6.5e-116  380.6  10.4   1   1  4.5e-117  7.2e-116  380.4  10.4     1   274     1   270     1   270 0.98 hypothetical protein [Halorubrum saccharovorum]
+AQM75272.1           -            264 ORF8_blastp_proteins.faa -            274  2.5e-115  378.7   8.5   1   1  1.7e-116  2.8e-115  378.5   8.5     1   274     1   264     1   264 0.99 hypothetical protein (plasmid) [Halorubrum lacusprofundi]
+AQM75272.1           -            264 ORF8_blastp_proteins.faa -            274  2.5e-115  378.7   8.5   1   1  1.7e-116  2.8e-115  378.5   8.5     1   274     1   264     1   264 0.99 hypothetical protein (plasmid) [Halorubrum lacusprofundi]
+WP_088901258.1       -            264 ORF8_blastp_proteins.faa -            274  2.5e-115  378.7   8.5   1   1  1.7e-116  2.8e-115  378.5   8.5     1   274     1   264     1   264 0.99 hypothetical protein [Halorubrum lacusprofundi]
+WP_088901258.1       -            264 ORF8_blastp_proteins.faa -            274  2.5e-115  378.7   8.5   1   1  1.7e-116  2.8e-115  378.5   8.5     1   274     1   264     1   264 0.99 hypothetical protein [Halorubrum lacusprofundi]
+WP_006671473.1       -            269 ORF8_blastp_proteins.faa -            274  1.3e-114  376.3  13.5   1   1    9e-116  1.5e-114  376.1  13.5     3   273     1   268     1   269 0.96 hypothetical protein [Halobiforma nitratireducens]
+WP_006671473.1       -            269 ORF8_blastp_proteins.faa -            274  1.3e-114  376.3  13.5   1   1    9e-116  1.5e-114  376.1  13.5     3   273     1   268     1   269 0.96 hypothetical protein [Halobiforma nitratireducens]
+WP_066418812.1       -            266 ORF8_blastp_proteins.faa -            274    8e-114  373.7   7.9   1   1  5.5e-115  8.9e-114  373.6   7.9     1   273     1   265     1   266 0.98 hypothetical protein [Halorubrum aethiopicum]
+WP_066418812.1       -            266 ORF8_blastp_proteins.faa -            274    8e-114  373.7   7.9   1   1  5.5e-115  8.9e-114  373.6   7.9     1   273     1   265     1   266 0.98 hypothetical protein [Halorubrum aethiopicum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ORF8_blastp_proteins.faa.msa.hmm
+# Target file:     ../all_blastp_proteins.faa
+# Option settings: hmmsearch --domtblout ../hmm_out/ORF8_blastp_proteins.faa.msa.hmm.domtblout --cpu 40 ORF8_blastp_proteins.faa.msa.hmm ../all_blastp_proteins.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/A_generate_protein_clusters/00_determine_minscore/curated_blastp_hmm
+# Date:            Wed Jun 14 11:15:18 2023
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_CP119801.1_42    -            373 ORF10.faa            -            339   1.5e-99  325.9  50.1   1   1    4e-101   1.8e-99  325.7  50.1     4   335     3   353     1   357 0.93 # 26274 # 27392 # -1 # ID=1_42;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.632
+>NZ_CP119801.1_29    -            460 ORF10.faa            -            339   1.3e-07   23.7   1.5   1   2   2.9e-09   1.3e-07   23.7   1.5     1   104     1    96     1   110 0.63 # 18725 # 20104 # -1 # ID=1_29;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.631
+>NZ_CP119801.1_29    -            460 ORF10.faa            -            339   1.3e-07   23.7   1.5   2   2     0.046       2.1    0.0   0.6   200   218   158   176   121   203 0.55 # 18725 # 20104 # -1 # ID=1_29;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.631
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm
+# Target file:     ../genes/NZ_CP119801.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/NZ_CP119801.1.fasta.faa_vs_ORF10_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm ../genes/NZ_CP119801.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:51:59 2023
+# [ok]

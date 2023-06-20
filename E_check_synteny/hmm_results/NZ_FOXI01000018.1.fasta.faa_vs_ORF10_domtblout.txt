@@ -1,0 +1,16 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_FOXI01000018.1_52 -            341 ORF10.faa            -            339   1.5e-76  249.6  53.7   1   1   6.5e-78   1.8e-76  249.4  53.7     4   330     4   322     1   331 0.90 # 42984 # 44006 # -1 # ID=1_52;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.646
+>NZ_FOXI01000018.1_40 -            425 ORF10.faa            -            339     0.012    6.6  10.2   1   2   0.00055     0.015    6.3   9.0     7    82     5    70     1    96 0.60 # 35824 # 37098 # -1 # ID=1_40;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.670
+>NZ_FOXI01000018.1_40 -            425 ORF10.faa            -            339     0.012    6.6  10.2   2   2      0.45        12   -3.3   5.3   130   221    49   135    41   139 0.44 # 35824 # 37098 # -1 # ID=1_40;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.670
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm
+# Target file:     ../genes/NZ_FOXI01000018.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/NZ_FOXI01000018.1.fasta.faa_vs_ORF10_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm ../genes/NZ_FOXI01000018.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:51:59 2023
+# [ok]

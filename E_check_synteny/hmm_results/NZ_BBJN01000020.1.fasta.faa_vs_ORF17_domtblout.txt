@@ -1,0 +1,14 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_BBJN01000020.1_39 -            296 ORF17.faa            -            307  4.2e-123  403.1  11.3   1   1    4e-125  4.7e-123  402.9  11.3     4   294     4   294     1   295 0.96 # 32907 # 33794 # 1 # ID=1_39;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.655
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF17.faa.msa.hmm
+# Target file:     ../genes/NZ_BBJN01000020.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/NZ_BBJN01000020.1.fasta.faa_vs_ORF17_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF17.faa.msa.hmm ../genes/NZ_BBJN01000020.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:52:08 2023
+# [ok]

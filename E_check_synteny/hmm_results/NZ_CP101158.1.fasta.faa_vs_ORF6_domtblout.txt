@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_CP101158.1_74    -           1236 ORF6.faa             -           1255         0 1055.7  70.0   1   1         0         0 1055.3  70.0    59  1230    19  1215     4  1233 0.90 # 49065 # 52772 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.538
+>NZ_CP101158.1_30    -           1083 ORF6.faa             -           1255  1.6e-279  923.8  73.7   1   2   2.4e-13   1.7e-11   35.9   1.4    67   217     6   149     2   179 0.64 # 19425 # 22673 # -1 # ID=1_30;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.601
+>NZ_CP101158.1_30    -           1083 ORF6.faa             -           1255  1.6e-279  923.8  73.7   2   2  7.4e-272  5.1e-270  892.3  66.5   316  1237   170  1080   157  1082 0.94 # 19425 # 22673 # -1 # ID=1_30;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.601
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/NZ_CP101158.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/NZ_CP101158.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/NZ_CP101158.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:52:04 2023
+# [ok]

@@ -1,0 +1,53 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----      -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_238705388.1       -            366 ORF10_blastp_proteins.faa -            361  1.1e-159  526.0  36.8   1   1  1.4e-160  1.3e-159  525.8  36.8     1   360     1   364     1   365 0.99 hypothetical protein [Natrinema pallidum]
+WP_238705388.1       -            366 ORF10_blastp_proteins.faa -            361  1.1e-159  526.0  36.8   1   1  1.4e-160  1.3e-159  525.8  36.8     1   360     1   364     1   365 0.99 hypothetical protein [Natrinema pallidum]
+WP_049967304.1       -            366 ORF10_blastp_proteins.faa -            361  7.5e-157  516.7  40.0   1   1  9.4e-158  8.4e-157  516.5  40.0     1   361     1   366     1   366 0.99 hypothetical protein [Natrinema thermotolerans]
+WP_049967304.1       -            366 ORF10_blastp_proteins.faa -            361  7.5e-157  516.7  40.0   1   1  9.4e-158  8.4e-157  516.5  40.0     1   361     1   366     1   366 0.99 hypothetical protein [Natrinema thermotolerans]
+QCW05316.1           -            354 ORF10_blastp_proteins.faa -            361    4e-155  511.0  36.8   1   1  5.1e-156  4.6e-155  510.8  36.8    13   360     1   352     1   353 0.99 hypothetical protein FGF80_18435 (plasmid) [Natrinema pallidum]
+QCW05316.1           -            354 ORF10_blastp_proteins.faa -            361    4e-155  511.0  36.8   1   1  5.1e-156  4.6e-155  510.8  36.8    13   360     1   352     1   353 0.99 hypothetical protein FGF80_18435 (plasmid) [Natrinema pallidum]
+WP_226043415.1       -            368 ORF10_blastp_proteins.faa -            361    2e-152  502.1  40.5   1   1  2.4e-153  2.2e-152  502.0  40.5     3   360     2   367     1   368 0.98 hypothetical protein [Natrinema sp. DC36]
+WP_226043415.1       -            368 ORF10_blastp_proteins.faa -            361    2e-152  502.1  40.5   1   1  2.4e-153  2.2e-152  502.0  40.5     3   360     2   367     1   368 0.98 hypothetical protein [Natrinema sp. DC36]
+QCC57193.1           -            354 ORF10_blastp_proteins.faa -            361  2.1e-152  502.1  40.4   1   1  2.6e-153  2.3e-152  501.9  40.4    13   361     1   354     1   354 0.99 hypothetical protein DVR14_00525 (plasmid) [Natrinema thermotolerans]
+QCC57193.1           -            354 ORF10_blastp_proteins.faa -            361  2.1e-152  502.1  40.4   1   1  2.6e-153  2.3e-152  501.9  40.4    13   361     1   354     1   354 0.99 hypothetical protein DVR14_00525 (plasmid) [Natrinema thermotolerans]
+WP_193364773.1       -            371 ORF10_blastp_proteins.faa -            361  5.6e-151  497.4  41.2   1   1    7e-152  6.2e-151  497.2  41.2     1   361     1   371     1   371 0.99 hypothetical protein [Natrinema versiforme]
+WP_193364773.1       -            371 ORF10_blastp_proteins.faa -            361  5.6e-151  497.4  41.2   1   1    7e-152  6.2e-151  497.2  41.2     1   361     1   371     1   371 0.99 hypothetical protein [Natrinema versiforme]
+WP_006111378.1       -            342 ORF10_blastp_proteins.faa -            361  3.3e-149  491.5  36.0   1   1  4.1e-150  3.6e-149  491.4  36.0     1   338     1   340     1   342 0.99 hypothetical protein [Natrialba asiatica]
+WP_006111378.1       -            342 ORF10_blastp_proteins.faa -            361  3.3e-149  491.5  36.0   1   1  4.1e-150  3.6e-149  491.4  36.0     1   338     1   340     1   342 0.99 hypothetical protein [Natrialba asiatica]
+WP_276257232.1       -            372 ORF10_blastp_proteins.faa -            361  4.4e-148  487.8  42.1   1   1  5.6e-149    5e-148  487.6  42.1     3   360     2   369     1   370 0.98 hypothetical protein [Halovivax sp. TS33]
+WP_276257232.1       -            372 ORF10_blastp_proteins.faa -            361  4.4e-148  487.8  42.1   1   1  5.6e-149    5e-148  487.6  42.1     3   360     2   369     1   370 0.98 hypothetical protein [Halovivax sp. TS33]
+ELY68834.1           -            359 ORF10_blastp_proteins.faa -            361  1.8e-146  482.5  41.8   1   1  2.2e-147    2e-146  482.4  41.8    13   361     1   359     1   359 0.99 hypothetical protein C489_05693 [Natrinema versiforme JCM 10478]
+ELY68834.1           -            359 ORF10_blastp_proteins.faa -            361  1.8e-146  482.5  41.8   1   1  2.2e-147    2e-146  482.4  41.8    13   361     1   359     1   359 0.99 hypothetical protein C489_05693 [Natrinema versiforme JCM 10478]
+WP_013876076.1       -            340 ORF10_blastp_proteins.faa -            361  5.2e-137  451.4  42.3   1   1  6.6e-138  5.8e-137  451.2  42.3     1   339     1   338     1   340 0.98 hypothetical protein [Halopiger xanaduensis]
+WP_013876076.1       -            340 ORF10_blastp_proteins.faa -            361  5.2e-137  451.4  42.3   1   1  6.6e-138  5.8e-137  451.2  42.3     1   339     1   338     1   340 0.98 hypothetical protein [Halopiger xanaduensis]
+WP_253439246.1       -            354 ORF10_blastp_proteins.faa -            361  5.5e-135  444.7  26.9   1   1  6.9e-136  6.1e-135  444.6  26.9     1   361     1   354     1   354 0.96 hypothetical protein [Halovivax sp. AGai3-5]
+WP_253439246.1       -            354 ORF10_blastp_proteins.faa -            361  5.5e-135  444.7  26.9   1   1  6.9e-136  6.1e-135  444.6  26.9     1   361     1   354     1   354 0.96 hypothetical protein [Halovivax sp. AGai3-5]
+WP_247005178.1       -            341 ORF10_blastp_proteins.faa -            361  1.4e-131  433.6  34.1   1   1  1.7e-132  1.5e-131  433.4  34.1     1   338     1   338     1   341 0.97 hypothetical protein [Halosolutus gelatinilyticus]
+WP_247005178.1       -            341 ORF10_blastp_proteins.faa -            361  1.4e-131  433.6  34.1   1   1  1.7e-132  1.5e-131  433.4  34.1     1   338     1   338     1   341 0.97 hypothetical protein [Halosolutus gelatinilyticus]
+WP_092699153.1       -            367 ORF10_blastp_proteins.faa -            361  6.2e-126  414.9  29.2   1   1  7.9e-127    7e-126  414.8  29.2     6   360     8   362     1   363 0.96 hypothetical protein [Halovenus aranensis]
+WP_092699153.1       -            367 ORF10_blastp_proteins.faa -            361  6.2e-126  414.9  29.2   1   1  7.9e-127    7e-126  414.8  29.2     6   360     8   362     1   363 0.96 hypothetical protein [Halovenus aranensis]
+WP_006665477.1       -            344 ORF10_blastp_proteins.faa -            361  8.8e-126  414.5  34.7   1   1  1.1e-126  9.8e-126  414.3  34.7     1   337     1   338     1   344 0.97 hypothetical protein [Natrialba aegyptia]
+WP_006665477.1       -            344 ORF10_blastp_proteins.faa -            361  8.8e-126  414.5  34.7   1   1  1.1e-126  9.8e-126  414.3  34.7     1   337     1   338     1   344 0.97 hypothetical protein [Natrialba aegyptia]
+WP_076148799.1       -            379 ORF10_blastp_proteins.faa -            361  8.1e-111  365.2  30.4   1   1    1e-111  9.1e-111  365.1  30.4     1   361     1   379     1   379 0.96 hypothetical protein [Natrinema saccharevitans]
+WP_076148799.1       -            379 ORF10_blastp_proteins.faa -            361  8.1e-111  365.2  30.4   1   1    1e-111  9.1e-111  365.1  30.4     1   361     1   379     1   379 0.96 hypothetical protein [Natrinema saccharevitans]
+WP_090312398.1       -            335 ORF10_blastp_proteins.faa -            361   3.2e-96  317.2  42.0   1   1     4e-97   3.5e-96  317.1  42.0    12   343     1   334     1   335 0.94 hypothetical protein [Natronorubrum texcoconense]
+WP_090312398.1       -            335 ORF10_blastp_proteins.faa -            361   3.2e-96  317.2  42.0   1   1     4e-97   3.5e-96  317.1  42.0    12   343     1   334     1   335 0.94 hypothetical protein [Natronorubrum texcoconense]
+AQM75274.1           -             98 ORF10_blastp_proteins.faa -            361   5.3e-13   43.4   0.0   1   1     7e-14   6.3e-13   43.2   0.0     5    87    23    85    14    91 0.94 hypothetical protein (plasmid) [Halorubrum lacusprofundi]
+AQM75274.1           -             98 ORF10_blastp_proteins.faa -            361   5.3e-13   43.4   0.0   1   1     7e-14   6.3e-13   43.2   0.0     5    87    23    85    14    91 0.94 hypothetical protein (plasmid) [Halorubrum lacusprofundi]
+WP_088901260.1       -             98 ORF10_blastp_proteins.faa -            361   5.3e-13   43.4   0.0   1   1     7e-14   6.3e-13   43.2   0.0     5    87    23    85    14    91 0.94 hypothetical protein [Halorubrum lacusprofundi]
+WP_088901260.1       -             98 ORF10_blastp_proteins.faa -            361   5.3e-13   43.4   0.0   1   1     7e-14   6.3e-13   43.2   0.0     5    87    23    85    14    91 0.94 hypothetical protein [Halorubrum lacusprofundi]
+WP_157884856.1       -             96 ORF10_blastp_proteins.faa -            361   3.5e-12   40.7   0.0   1   1   4.5e-13     4e-12   40.5   0.0     6    88    22    84    10    90 0.93 hypothetical protein [Halorubrum aethiopicum]
+WP_157884856.1       -             96 ORF10_blastp_proteins.faa -            361   3.5e-12   40.7   0.0   1   1   4.5e-13     4e-12   40.5   0.0     6    88    22    84    10    90 0.93 hypothetical protein [Halorubrum aethiopicum]
+WP_004048516.1       -             96 ORF10_blastp_proteins.faa -            361     1e-11   39.2   0.0   1   1   1.4e-12   1.2e-11   39.0   0.0     6    88    22    84    12    90 0.93 hypothetical protein [Halorubrum saccharovorum]
+WP_004048516.1       -             96 ORF10_blastp_proteins.faa -            361     1e-11   39.2   0.0   1   1   1.4e-12   1.2e-11   39.0   0.0     6    88    22    84    12    90 0.93 hypothetical protein [Halorubrum saccharovorum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ORF10_blastp_proteins.faa.msa.hmm
+# Target file:     ../all_blastp_proteins.faa
+# Option settings: hmmsearch --domtblout ../hmm_out/ORF10_blastp_proteins.faa.msa.hmm.domtblout --cpu 40 ORF10_blastp_proteins.faa.msa.hmm ../all_blastp_proteins.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/A_generate_protein_clusters/00_determine_minscore/curated_blastp_hmm
+# Date:            Wed Jun 14 11:15:14 2023
+# [ok]

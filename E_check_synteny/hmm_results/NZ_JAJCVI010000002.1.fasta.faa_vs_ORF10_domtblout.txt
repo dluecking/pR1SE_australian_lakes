@@ -1,0 +1,16 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_JAJCVI010000002.1_560 -            333 ORF10.faa            -            339   5.6e-70  231.8  32.2   1   1   1.6e-72   6.3e-70  231.6  32.2     6   326     3   331     1   332 0.90 # 560391 # 561389 # 1 # ID=1_560;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.664
+>NZ_JAJCVI010000002.1_569 -            441 ORF10.faa            -            339       0.1    7.4  10.4   1   2   0.00049      0.19    6.5   9.1     5    60     2    51     1   102 0.71 # 565824 # 567146 # 1 # ID=1_569;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.679
+>NZ_JAJCVI010000002.1_569 -            441 ORF10.faa            -            339       0.1    7.4  10.4   2   2      0.12        45   -1.3   1.4   172   221    90   144    47   147 0.61 # 565824 # 567146 # 1 # ID=1_569;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.679
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm
+# Target file:     ../genes/NZ_JAJCVI010000002.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/NZ_JAJCVI010000002.1.fasta.faa_vs_ORF10_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm ../genes/NZ_JAJCVI010000002.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:51:59 2023
+# [ok]

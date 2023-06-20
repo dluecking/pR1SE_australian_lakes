@@ -1,0 +1,18 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_AOLZ01000012.1_19  -           1230 ORF6.faa             -           1255         0 1247.8  72.2   1   1         0         0 1247.5  72.2    64  1241    15  1228     4  1229 0.95 # 15743 # 19432 # 1 # ID=1_19;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.608
+>NZ_AOLZ01000012.1_198 -            362 ORF6.faa             -           1255   9.5e-13   40.7   0.1   1   2   6.7e-05    0.0048    8.5   0.0   137   298    40   204    20   207 0.69 # 184318 # 185403 # -1 # ID=1_198;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.590
+>NZ_AOLZ01000012.1_198 -            362 ORF6.faa             -           1255   9.5e-13   40.7   0.1   2   2     4e-12   2.9e-10   32.4   0.4   131   288   199   352   180   361 0.60 # 184318 # 185403 # -1 # ID=1_198;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.590
+>NZ_AOLZ01000012.1_132 -            421 ORF6.faa             -           1255   2.9e-12   39.0   0.0   1   2   9.3e-07   6.6e-05   14.7   0.0   122   262    90   257    52   264 0.62 # 119681 # 120943 # 1 # ID=1_132;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+>NZ_AOLZ01000012.1_132 -            421 ORF6.faa             -           1255   2.9e-12   39.0   0.0   2   2   1.9e-11   1.4e-09   30.2   0.0   114   295   228   409   208   413 0.74 # 119681 # 120943 # 1 # ID=1_132;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/NZ_AOLZ01000012.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/NZ_AOLZ01000012.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/NZ_AOLZ01000012.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:52:03 2023
+# [ok]

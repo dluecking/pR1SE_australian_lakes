@@ -1,0 +1,14 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_AOID01000019.1_115 -            454 ORF23.faa            -            433  7.6e-167  548.2  13.3   1   1  7.2e-169  8.6e-167  548.0  13.3     7   432    11   453     5   453 0.93 # 69363 # 70724 # -1 # ID=1_115;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.623
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF23.faa.msa.hmm
+# Target file:     ../genes/NZ_AOID01000019.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/NZ_AOID01000019.1.fasta.faa_vs_ORF23_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF23.faa.msa.hmm ../genes/NZ_AOID01000019.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:52:13 2023
+# [ok]

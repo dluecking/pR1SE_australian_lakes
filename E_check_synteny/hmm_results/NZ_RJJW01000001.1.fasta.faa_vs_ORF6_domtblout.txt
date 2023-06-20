@@ -1,0 +1,17 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+>NZ_RJJW01000001.1_525 -           1022 ORF6.faa             -           1255  2.7e-290  961.7  86.6   1   2   6.3e-10   1.4e-07   25.2   1.4    67   185     3   105     1   131 0.71 # 485165 # 488230 # 1 # ID=1_525;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.703
+>NZ_RJJW01000001.1_525 -           1022 ORF6.faa             -           1255  2.7e-290  961.7  86.6   2   2  1.8e-286  4.1e-284  941.2  78.8   319  1211   129  1019   114  1021 0.94 # 485165 # 488230 # 1 # ID=1_525;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.703
+>NZ_RJJW01000001.1_482 -            877 ORF6.faa             -           1255  1.2e-149  495.7  45.6   1   1  6.8e-152  1.5e-149  495.4  45.6    67   845     3   852     1   862 0.83 # 453736 # 456366 # -1 # ID=1_482;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.530
+>NZ_RJJW01000001.1_28  -            363 ORF6.faa             -           1255  5.6e-109  361.1  25.5   1   1  2.8e-111  6.2e-109  360.9  25.5   869  1219     2   355     1   362 0.95 # 28915 # 30003 # 1 # ID=1_28;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.581
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/NZ_RJJW01000001.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/NZ_RJJW01000001.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/NZ_RJJW01000001.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Wed Jun 14 15:52:07 2023
+# [ok]
