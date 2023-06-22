@@ -31,7 +31,7 @@ getOrganism <- function(acc){
         summary_result <- entrez_summary(db="protein", id=acc)
         # Sys.sleep(0.2)
         # Extract the organism name from the summary_result
-        org_name <- summary_result["organism"]$organism
+        org_name <- paste0(summary_result["organism"]$organism, "_", summary_result["strain"]$strain)
         
         # return the organism name
         return(org_name)

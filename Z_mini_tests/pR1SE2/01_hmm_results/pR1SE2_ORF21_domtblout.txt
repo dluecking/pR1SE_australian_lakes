@@ -1,0 +1,14 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                      accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#              ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|KX906370.1_prot_ASK38255.1_101 -            199 ORF21.faa            -            201   2.7e-71  233.0   0.0   1   1   1.5e-73   2.8e-71  232.9   0.0     7   194     8   196     1   199 0.95 [protein=hypothetical protein] [protein_id=ASK38255.1] [location=75985..76584] [gbkey=CDS]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF21.faa.msa.hmm
+# Target file:     pR1SE2_proteins.faa
+# Option settings: hmmsearch --tblout 01_hmm_results/pR1SE2_ORF21.txt --domtblout 01_hmm_results/pR1SE2_ORF21_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF21.faa.msa.hmm pR1SE2_proteins.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/pR1SE2
+# Date:            Wed Jun 21 18:06:21 2023
+# [ok]

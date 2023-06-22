@@ -1,0 +1,63 @@
+gene_id,gene_length,DB,annotation,hit_start,hit_end,evalue,contig,orf
+Gairdner_NODE_167_length_41210_cov_9.888325_32,1425,Pfam,Carboxypeptidase regulatory-like domain,492,570,3.8e-15,Gairdner_NODE_167_length_41210_cov_9.888325,32
+Gairdner_NODE_167_length_41210_cov_9.888325_32,1425,SUPERFAMILY,YVTN repeat-like/Quinoprotein amine dehydrogenase,221,443,4e-24,Gairdner_NODE_167_length_41210_cov_9.888325,32
+Gairdner_NODE_167_length_41210_cov_9.888325_32,1425,SUPERFAMILY,Carboxypeptidase regulatory domain-like,492,577,1.02e-15,Gairdner_NODE_167_length_41210_cov_9.888325,32
+Gairdner_NODE_167_length_41210_cov_9.888325_15,114,Pfam,HNH endonuclease,46,95,4.7e-09,Gairdner_NODE_167_length_41210_cov_9.888325,15
+Gairdner_NODE_167_length_41210_cov_9.888325_15,114,SMART,HNH_5,33,93,1.4e-08,Gairdner_NODE_167_length_41210_cov_9.888325,15
+Gairdner_NODE_167_length_41210_cov_9.888325_15,114,PANTHER,HNH NUCLEASE YAJD-RELATED,26,103,1.3e-12,Gairdner_NODE_167_length_41210_cov_9.888325,15
+Gairdner_NODE_167_length_41210_cov_9.888325_15,114,CDD,HNHc,33,92,1.97873e-08,Gairdner_NODE_167_length_41210_cov_9.888325,15
+Gairdner_NODE_167_length_41210_cov_9.888325_50,182,Pfam,GIY-YIG catalytic domain,6,75,3.7e-08,Gairdner_NODE_167_length_41210_cov_9.888325,50
+Gairdner_NODE_167_length_41210_cov_9.888325_50,182,SUPERFAMILY,GIY-YIG endonuclease,17,77,7.98e-06,Gairdner_NODE_167_length_41210_cov_9.888325,50
+Gairdner_NODE_167_length_41210_cov_9.888325_9,70,SUPERFAMILY,RelE-like,13,53,2.22e-06,Gairdner_NODE_167_length_41210_cov_9.888325,9
+Gairdner_NODE_167_length_41210_cov_9.888325_4,261,SUPERFAMILY,Cyclin-like,173,253,4.63e-16,Gairdner_NODE_167_length_41210_cov_9.888325,4
+Gairdner_NODE_167_length_41210_cov_9.888325_4,261,PANTHER,TRANSCRIPTION INITIATION FACTOR IIB-RELATED,14,250,2e-23,Gairdner_NODE_167_length_41210_cov_9.888325,4
+Gairdner_NODE_167_length_41210_cov_9.888325_4,261,SUPERFAMILY,Cyclin-like,81,168,5.27e-07,Gairdner_NODE_167_length_41210_cov_9.888325,4
+Gairdner_NODE_167_length_41210_cov_9.888325_4,261,PRINTS,Transcription initiation factor IIB signature,212,228,2.4e-07,Gairdner_NODE_167_length_41210_cov_9.888325,4
+Gairdner_NODE_167_length_41210_cov_9.888325_4,261,PRINTS,Transcription initiation factor IIB signature,27,47,2.4e-07,Gairdner_NODE_167_length_41210_cov_9.888325,4
+Gairdner_NODE_167_length_41210_cov_9.888325_4,261,PRINTS,Transcription initiation factor IIB signature,178,196,2.4e-07,Gairdner_NODE_167_length_41210_cov_9.888325,4
+Gairdner_NODE_167_length_41210_cov_9.888325_4,261,Pfam,Transcription factor TFIIB repeat,174,251,6.4e-12,Gairdner_NODE_167_length_41210_cov_9.888325,4
+Gairdner_NODE_167_length_41210_cov_9.888325_47,130,Pfam,Helix-hairpin-helix motif,77,119,6.8e-08,Gairdner_NODE_167_length_41210_cov_9.888325,47
+Gairdner_NODE_167_length_41210_cov_9.888325_47,130,SUPERFAMILY,RuvA domain 2-like,70,123,4.45e-09,Gairdner_NODE_167_length_41210_cov_9.888325,47
+Gairdner_NODE_167_length_41210_cov_9.888325_31,556,Gene3D,Peptidase S8/S53 domain,194,501,4.4e-50,Gairdner_NODE_167_length_41210_cov_9.888325,31
+Gairdner_NODE_167_length_41210_cov_9.888325_31,556,Pfam,Subtilase family,214,498,3.5e-42,Gairdner_NODE_167_length_41210_cov_9.888325,31
+Gairdner_NODE_167_length_41210_cov_9.888325_31,556,PANTHER,PEPTIDASE S8,77,477,7.8e-35,Gairdner_NODE_167_length_41210_cov_9.888325,31
+Gairdner_NODE_167_length_41210_cov_9.888325_31,556,SUPERFAMILY,Subtilisin-like,198,505,7.33e-48,Gairdner_NODE_167_length_41210_cov_9.888325,31
+Gairdner_NODE_167_length_41210_cov_9.888325_31,556,PRINTS,Subtilisin serine protease family (S8) signature,210,229,9.9e-10,Gairdner_NODE_167_length_41210_cov_9.888325,31
+Gairdner_NODE_167_length_41210_cov_9.888325_31,556,PRINTS,Subtilisin serine protease family (S8) signature,260,273,9.9e-10,Gairdner_NODE_167_length_41210_cov_9.888325,31
+Gairdner_NODE_167_length_41210_cov_9.888325_31,556,PRINTS,Subtilisin serine protease family (S8) signature,442,458,9.9e-10,Gairdner_NODE_167_length_41210_cov_9.888325,31
+Gairdner_NODE_167_length_41210_cov_9.888325_13,336,SUPERFAMILY,P-loop containing nucleoside triphosphate hydrolases,11,253,1.18e-33,Gairdner_NODE_167_length_41210_cov_9.888325,13
+Gairdner_NODE_167_length_41210_cov_9.888325_13,336,SMART,AAA_5,44,185,5.8e-06,Gairdner_NODE_167_length_41210_cov_9.888325,13
+Gairdner_NODE_167_length_41210_cov_9.888325_13,336,PANTHER,CELL DIVISION CONTROL PROTEIN 6-RELATED,11,258,1.9e-29,Gairdner_NODE_167_length_41210_cov_9.888325,13
+Gairdner_NODE_167_length_41210_cov_9.888325_13,336,Pfam,AAA domain,45,145,9.8e-08,Gairdner_NODE_167_length_41210_cov_9.888325,13
+Gairdner_NODE_167_length_41210_cov_9.888325_13,336,CDD,AAA,28,170,1.12127e-07,Gairdner_NODE_167_length_41210_cov_9.888325,13
+Gairdner_NODE_167_length_41210_cov_9.888325_48,308,PANTHER,GENERAL SECRETION PATHWAY PROTEIN A-RELATED,29,290,2.4e-09,Gairdner_NODE_167_length_41210_cov_9.888325,48
+Gairdner_NODE_167_length_41210_cov_9.888325_5,306,Gene3D,"Putative Large Serine Recombinase; Chain B, Domain 2",147,271,6.2e-21,Gairdner_NODE_167_length_41210_cov_9.888325,5
+Gairdner_NODE_167_length_41210_cov_9.888325_5,306,Pfam,"Resolvase, N terminal domain",16,158,3.5e-33,Gairdner_NODE_167_length_41210_cov_9.888325,5
+Gairdner_NODE_167_length_41210_cov_9.888325_5,306,SUPERFAMILY,Resolvase-like,15,160,4.58e-34,Gairdner_NODE_167_length_41210_cov_9.888325,5
+Gairdner_NODE_167_length_41210_cov_9.888325_5,306,CDD,Ser_Recombinase,18,151,1.05218e-36,Gairdner_NODE_167_length_41210_cov_9.888325,5
+Gairdner_NODE_167_length_41210_cov_9.888325_5,306,SMART,resolvase_6,16,163,2e-46,Gairdner_NODE_167_length_41210_cov_9.888325,5
+Gairdner_NODE_167_length_41210_cov_9.888325_5,306,PANTHER,DNA-INVERTASE FROM LAMBDOID PROPHAGE,14,241,7.5e-32,Gairdner_NODE_167_length_41210_cov_9.888325,5
+Gairdner_NODE_167_length_41210_cov_9.888325_5,306,Pfam,Recombinase,184,253,3.7e-16,Gairdner_NODE_167_length_41210_cov_9.888325,5
+Gairdner_NODE_167_length_41210_cov_9.888325_2,85,SUPERFAMILY,"""""Winged helix"""" DNA-binding domain",13,65,5.31e-07,Gairdner_NODE_167_length_41210_cov_9.888325,2
+Gairdner_NODE_167_length_41210_cov_9.888325_1,989,Pfam,N-6 DNA Methylase,280,398,7.3e-07,Gairdner_NODE_167_length_41210_cov_9.888325,1
+Gairdner_NODE_167_length_41210_cov_9.888325_1,989,SUPERFAMILY,S-adenosyl-L-methionine-dependent methyltransferases,205,585,1.03e-39,Gairdner_NODE_167_length_41210_cov_9.888325,1
+Gairdner_NODE_167_length_41210_cov_9.888325_1,989,PRINTS,N12 class N6 adenine-specific DNA methyltransferase signature,324,338,4.8e-13,Gairdner_NODE_167_length_41210_cov_9.888325,1
+Gairdner_NODE_167_length_41210_cov_9.888325_1,989,PRINTS,N12 class N6 adenine-specific DNA methyltransferase signature,459,471,4.8e-13,Gairdner_NODE_167_length_41210_cov_9.888325,1
+Gairdner_NODE_167_length_41210_cov_9.888325_1,989,PRINTS,N12 class N6 adenine-specific DNA methyltransferase signature,503,527,4.8e-13,Gairdner_NODE_167_length_41210_cov_9.888325,1
+Gairdner_NODE_167_length_41210_cov_9.888325_1,989,PRINTS,N12 class N6 adenine-specific DNA methyltransferase signature,300,316,4.8e-13,Gairdner_NODE_167_length_41210_cov_9.888325,1
+Gairdner_NODE_167_length_41210_cov_9.888325_1,989,PANTHER,DNA METHYLTRANSFERASE YEEA-RELATED,274,583,3.5e-25,Gairdner_NODE_167_length_41210_cov_9.888325,1
+Gairdner_NODE_167_length_41210_cov_9.888325_1,989,Gene3D,Vaccinia Virus protein VP39,280,648,8.7e-42,Gairdner_NODE_167_length_41210_cov_9.888325,1
+Gairdner_NODE_167_length_41210_cov_9.888325_8,474,CDD,Ser_Recombinase,124,263,1.48299e-20,Gairdner_NODE_167_length_41210_cov_9.888325,8
+Gairdner_NODE_167_length_41210_cov_9.888325_8,474,PANTHER,DNA-INVERTASE FROM LAMBDOID PROPHAGE,123,362,5.5e-15,Gairdner_NODE_167_length_41210_cov_9.888325,8
+Gairdner_NODE_167_length_41210_cov_9.888325_8,474,Pfam,"Resolvase, N terminal domain",123,270,1.2e-19,Gairdner_NODE_167_length_41210_cov_9.888325,8
+Gairdner_NODE_167_length_41210_cov_9.888325_8,474,Pfam,Recombinase,296,388,2.4e-06,Gairdner_NODE_167_length_41210_cov_9.888325,8
+Gairdner_NODE_167_length_41210_cov_9.888325_8,474,SUPERFAMILY,Resolvase-like,123,269,3.01e-19,Gairdner_NODE_167_length_41210_cov_9.888325,8
+Gairdner_NODE_167_length_41210_cov_9.888325_8,474,SMART,resolvase_6,122,273,4.3e-26,Gairdner_NODE_167_length_41210_cov_9.888325,8
+Gairdner_NODE_167_length_41210_cov_9.888325_8,474,Gene3D,"Putative Large Serine Recombinase; Chain B, Domain 2",257,389,2.1e-16,Gairdner_NODE_167_length_41210_cov_9.888325,8
+Gairdner_NODE_167_length_41210_cov_9.888325_7,457,Pfam,HD domain,70,227,4.7e-15,Gairdner_NODE_167_length_41210_cov_9.888325,7
+Gairdner_NODE_167_length_41210_cov_9.888325_7,457,SUPERFAMILY,HD-domain/PDEase-like,22,251,5.03e-47,Gairdner_NODE_167_length_41210_cov_9.888325,7
+Gairdner_NODE_167_length_41210_cov_9.888325_7,457,NCBIfam,dNTP triphosphohydrolase,31,443,2.2e-70,Gairdner_NODE_167_length_41210_cov_9.888325,7
+Gairdner_NODE_167_length_41210_cov_9.888325_7,457,Gene3D,Hypothetical protein af1432,3,444,3.3e-81,Gairdner_NODE_167_length_41210_cov_9.888325,7
+Gairdner_NODE_167_length_41210_cov_9.888325_7,457,SMART,hd_13,64,238,5.1e-10,Gairdner_NODE_167_length_41210_cov_9.888325,7
+Gairdner_NODE_167_length_41210_cov_9.888325_7,457,PANTHER,DEOXYNUCLEOSIDE TRIPHOSPHATE TRIPHOSPHOHYDROLASE,21,248,1e-16,Gairdner_NODE_167_length_41210_cov_9.888325,7
+Gairdner_NODE_167_length_41210_cov_9.888325_7,457,Pfam,Phosphohydrolase-associated domain,342,441,1.8e-11,Gairdner_NODE_167_length_41210_cov_9.888325,7

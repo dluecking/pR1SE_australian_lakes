@@ -1,0 +1,17 @@
+21/06/2023 13:28:57:725 Welcome to InterProScan-5.62-94.0
+21/06/2023 13:28:57:726 Running InterProScan v5 in STANDALONE mode... on Linux
+21/06/2023 13:29:04:590 RunID: hpc-node3_20230621_132904174_oyx
+21/06/2023 13:29:18:226 Loading file /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../genes/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa
+21/06/2023 13:29:18:234 Running the following analyses:
+[AntiFam-7.0,CDD-3.20,Coils-2.2.1,FunFam-4.3.0,Gene3D-4.3.0,Hamap-2023_01,MobiDBLite-2.0,NCBIfam-11.0,PANTHER-17.0,Pfam-35.0,PIRSF-3.10,PIRSR-2021_05,PRINTS-42.0,ProSitePatterns-2022_05,ProSiteProfiles-2022_05,SFLD-4,SMART-9.0,SUPERFAMILY-1.75]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+21/06/2023 13:29:36:838 25% completed
+2023-06-21 13:30:38,926 [responseMonitorJmsContainer-1] [uk.ac.ebi.interpro.scan.jms.stats.StatsUtil:334] WARN - Trying to update a step that is not the list - step:stepMobiDBDeleteJobFiles[[1-50]] -- Done
+21/06/2023 13:30:41:951 50% completed
+21/06/2023 13:31:21:101 75% completed
+21/06/2023 13:31:51:351 90% completed
+21/06/2023 13:32:46:745 100% done:  InterProScan analyses completed 
+
+2023-06-21 13:32:47,250 [main] [uk.ac.ebi.interpro.scan.jms.master.AbstractMaster:259] WARN - Master process unable to delete temporary directory /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230621_132904174_oyx

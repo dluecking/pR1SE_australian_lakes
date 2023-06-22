@@ -55,7 +55,8 @@ sed -i.bak 's/^-//g' IMGVR_all_proteins.faa
 #### E - check the synteny of the discovered relatives
 
 #### F - check the presence/absence of other pR1SE ORFs
-
+had to copy the genes from ./E_check_synteny/genes/ since I had to replace the '*' with '' in the protein files with the following command:
+`for i in *; do sed -i "s/\*//g" $i; done`
 
 
 

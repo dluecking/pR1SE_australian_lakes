@@ -1,0 +1,14 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|KX906370.1_prot_ASK38241.1_87 -           1384 ORF6.faa             -           1255         0 1080.3  51.2   1   1         0         0 1080.0  51.2     2  1229     2  1369     1  1383 0.89 [protein=Outer membrane protein assembly factor BamB] [protein_id=ASK38241.1] [location=61622..65776] [gbkey=CDS]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     pR1SE2_proteins.faa
+# Option settings: hmmsearch --tblout 01_hmm_results/pR1SE2_ORF6.txt --domtblout 01_hmm_results/pR1SE2_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm pR1SE2_proteins.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/pR1SE2
+# Date:            Wed Jun 21 18:06:21 2023
+# [ok]

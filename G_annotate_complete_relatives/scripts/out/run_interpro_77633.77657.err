@@ -1,0 +1,12 @@
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:752)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:633)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy103.populateProteinMatches(Unknown Source)
+	at uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup.getPrecalculated(BerkeleyPrecalculatedProteinLookup.java:488)
+	at uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup.run(BerkeleyPrecalculatedProteinLookup.java:158)
+	at java.base/java.lang.Thread.run(Thread.java:829)

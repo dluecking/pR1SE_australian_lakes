@@ -1,0 +1,14 @@
+#                                                                            --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                     accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#             ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|KX906370.1_prot_ASK38244.1_90 -          ORF10.faa            -            8.2e-39  127.3  94.1   1.3e-38  126.7  50.0   2.1   1   1   1   2   2   2   2 [protein=hypothetical protein] [protein_id=ASK38244.1] [location=68343..69851] [gbkey=CDS]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm
+# Target file:     pR1SE2_proteins.faa
+# Option settings: hmmsearch --tblout 01_hmm_results/pR1SE2_ORF10.txt --domtblout 01_hmm_results/pR1SE2_ORF10_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm pR1SE2_proteins.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/pR1SE2
+# Date:            Wed Jun 21 18:06:21 2023
+# [ok]
