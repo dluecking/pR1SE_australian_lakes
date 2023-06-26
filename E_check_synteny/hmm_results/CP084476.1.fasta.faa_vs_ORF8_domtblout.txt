@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP084476.1_74        -            263 ORF8.faa             -            263   7.5e-98  319.8   0.4   1   1  6.5e-100   8.4e-98  319.6   0.4     3   262     1   259     1   260 0.95 # 42087 # 42875 # -1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.615
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF8.faa.msa.hmm
+# Target file:     ../genes/CP084476.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/CP084476.1.fasta.faa_vs_ORF8_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF8.faa.msa.hmm ../genes/CP084476.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:02:52 2023
+# [ok]

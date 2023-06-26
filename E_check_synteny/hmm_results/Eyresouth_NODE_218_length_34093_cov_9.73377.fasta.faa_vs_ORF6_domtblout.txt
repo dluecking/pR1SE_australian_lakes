@@ -1,0 +1,14 @@
+#                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Eyresouth_NODE_218_length_34093_cov_9.73377_23 -           1384 ORF6.faa             -           1255  1.4e-137  451.7  89.0   1   1  1.5e-137  5.8e-136  446.4  89.0    66  1220     4  1348     1  1381 0.69 # 17963 # 22114 # -1 # ID=1_23;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.617
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/Eyresouth_NODE_218_length_34093_cov_9.73377.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/Eyresouth_NODE_218_length_34093_cov_9.73377.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/Eyresouth_NODE_218_length_34093_cov_9.73377.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:21 2023
+# [ok]

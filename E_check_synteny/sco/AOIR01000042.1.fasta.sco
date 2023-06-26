@@ -1,4 +1,4 @@
-# Sequence Data: seqnum=1;seqlen=96401;seqhdr=">AOIR01000042.1 Natrinema thermotolerans DSM 11552 contig_42, whole genome shotgun sequence"
+# Sequence Data: seqnum=1;seqlen=96401;seqhdr="AOIR01000042.1 Natrinema thermotolerans DSM 11552 contig_42, whole genome shotgun sequence"
 # Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="31|Natrialba_magadii_ATCC_43099|A|61.4|11|0";gc_cont=61.40;transl_table=11;uses_sd=0
 >1_3_1613_-
 >2_1781_2281_-

@@ -1,0 +1,14 @@
+#                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Gairdner_NODE_2803_length_13236_cov_7.077763_14 -           1432 ORF6.faa             -           1255  2.4e-264  870.4  45.4   1   1    2e-265  3.1e-264  870.0  45.4    20  1220    20  1396     4  1428 0.83 # 7814 # 12109 # -1 # ID=1_14;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.565
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/Gairdner_NODE_2803_length_13236_cov_7.077763.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/Gairdner_NODE_2803_length_13236_cov_7.077763.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/Gairdner_NODE_2803_length_13236_cov_7.077763.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:25 2023
+# [ok]

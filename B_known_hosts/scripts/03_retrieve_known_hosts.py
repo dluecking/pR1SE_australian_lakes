@@ -1,4 +1,5 @@
 import Bio.Entrez as Entrez
+
 def get_ipg_nuccore(prot_acc):
     # download the record from IPG
     ipg_record = Entrez.efetch(id=prot_acc, db='ipg').read().decode()
@@ -13,11 +14,11 @@ def get_ipg_nuccore(prot_acc):
     fasta = {nuc_record.split("\n")[0]: "".join(nuc_record.split("\n")[1:])}
     return (fasta)
 
-# Step 1: Read ORF21 homologs and retrieve the corresponding genome
-file = open("ORF21_protein_accessions_for_genome_download.txt", "r")
+# Step 1: Read accs
+file = open("accs_to_download.txt", "r")
 unique_accessions = file.readlines()
 
-# Step 2: Apply the function to unique accessions
+# Step 2: download genome
 for accession in unique_accessions:
     dictionary = get_ipg_nuccore(accession)
     
@@ -26,7 +27,7 @@ for accession in unique_accessions:
     genome_acc = genome_acc.replace(">", "")
     print(genome_acc)
     # Step 3: Write key-value pairs to a file
-    output_filename = f"../known_hosts/{genome_acc}.fasta"
+    output_filename = f'../known_hosts/{genome_acc}.fasta'
     with open(output_filename, 'w') as fasta_file:
         for key, value in dictionary.items():
             fasta_file.write(f">{key}\n{value}\n")

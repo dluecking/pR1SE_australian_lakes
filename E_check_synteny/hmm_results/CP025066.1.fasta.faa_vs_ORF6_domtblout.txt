@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP025066.1_2274      -            401 ORF6.faa             -           1255   3.6e-41  138.8  14.5   1   2   1.2e-22   4.5e-20   68.9   3.7   130   298    24   196    11   197 0.83 # 2277294 # 2278496 # 1 # ID=1_2274;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.528
+CP025066.1_2274      -            401 ORF6.faa             -           1255   3.6e-41  138.8  14.5   2   2   5.1e-27   1.9e-24   83.4   3.1   104   295   163   362   159   391 0.86 # 2277294 # 2278496 # 1 # ID=1_2274;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.528
+CP025066.1_1294      -            610 ORF6.faa             -           1255   1.1e-12   44.4   8.2   1   2     3e-15   1.1e-12   44.4   8.2   132   374    21   260     4   280 0.61 # 1314152 # 1315981 # -1 # ID=1_1294;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.557
+CP025066.1_1294      -            610 ORF6.faa             -           1255   1.1e-12   44.4   8.2   2   2         9   3.3e+03   -7.9  16.6   275   429   350   539   294   608 0.42 # 1314152 # 1315981 # -1 # ID=1_1294;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.557
+CP025066.1_2929      -            106 ORF6.faa             -           1255   1.1e-08   31.1   0.0   1   1   3.1e-11   1.1e-08   31.1   0.0   216   293    29   103     9   105 0.85 # 2955165 # 2955482 # 1 # ID=1_2929;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.664
+CP025066.1_1296      -            376 ORF6.faa             -           1255   1.1e-07   27.9  14.7   1   2   6.5e-09   2.4e-06   23.4   3.7   195   368    34   223     6   238 0.62 # 1316457 # 1317584 # -1 # ID=1_1296;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.462
+CP025066.1_1296      -            376 ORF6.faa             -           1255   1.1e-07   27.9  14.7   2   2   7.8e-05     0.029    9.9   3.4   227   324   245   346   216   371 0.60 # 1316457 # 1317584 # -1 # ID=1_1296;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.462
+CP025066.1_1548      -            182 ORF6.faa             -           1255    0.0015   14.1   2.7   1   1   4.9e-06    0.0018   13.9   2.7   792   852    43   121    24   143 0.60 # 1580031 # 1580576 # -1 # ID=1_1548;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.608
+CP025066.1_2300      -            323 ORF6.faa             -           1255     0.025   10.1  15.6   1   1   8.9e-05     0.033    9.7  15.6   774   898    33   164    27   201 0.84 # 2301778 # 2302746 # 1 # ID=1_2300;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.604
+CP025066.1_653       -            386 ORF6.faa             -           1255     0.088    8.3   9.9   1   1   0.00036      0.13    7.7   9.9   748   873   224   340   174   360 0.50 # 667443 # 668600 # -1 # ID=1_653;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.528
+CP025066.1_887       -            299 ORF6.faa             -           1255      0.75    5.2   6.8   1   1    0.0028         1    4.7   6.8   792   849    12    66     5   118 0.66 # 897052 # 897948 # -1 # ID=1_887;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.677
+CP025066.1_285       -            295 ORF6.faa             -           1255      0.79    5.1  16.5   1   1   0.00081       0.3    6.5  13.9   762   864    57   152    42   159 0.72 # 271091 # 271975 # 1 # ID=1_285;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.644
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/CP025066.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/CP025066.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/CP025066.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:15 2023
+# [ok]

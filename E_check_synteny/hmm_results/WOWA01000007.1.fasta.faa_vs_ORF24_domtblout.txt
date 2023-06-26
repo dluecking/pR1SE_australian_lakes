@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WOWA01000007.1_34    -            614 ORF24.faa            -            530   2.6e-13   41.3   0.7   1   3    0.0014      0.11    3.0   0.0   131   164    67   100    62   160 0.83 # 19262 # 21103 # -1 # ID=1_34;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.679
+WOWA01000007.1_34    -            614 ORF24.faa            -            530   2.6e-13   41.3   0.7   2   3      0.76        58   -6.1   5.7    45    98   250   304   221   313 0.61 # 19262 # 21103 # -1 # ID=1_34;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.679
+WOWA01000007.1_34    -            614 ORF24.faa            -            530   2.6e-13   41.3   0.7   3   3   3.5e-15   2.6e-13   41.3   0.7   224   372   394   539   389   543 0.85 # 19262 # 21103 # -1 # ID=1_34;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.679
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm
+# Target file:     ../genes/WOWA01000007.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/WOWA01000007.1.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm ../genes/WOWA01000007.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:04:14 2023
+# [ok]

@@ -53,6 +53,9 @@ sed -i.bak 's/^-//g' IMGVR_all_proteins.faa
 ```
 
 #### E - check the synteny of the discovered relatives
+I made a mistake in B - known_hosts, that downloads NZ_contig_ID and contig_ID as two different contigs.
+This now has impacts on this part, and the protein length analysis etc. I should go back and check how to solve it. 
+
 
 #### F - check the presence/absence of other pR1SE ORFs
 had to copy the genes from ./E_check_synteny/genes/ since I had to replace the '*' with '' in the protein files with the following command:

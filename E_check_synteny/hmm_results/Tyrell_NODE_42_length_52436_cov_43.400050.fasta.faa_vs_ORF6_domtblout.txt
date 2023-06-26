@@ -1,0 +1,15 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Tyrell_NODE_42_length_52436_cov_43.400050_1  -            969 ORF6.faa             -           1255  7.7e-200  659.0  58.5   1   1  2.3e-201  8.9e-200  658.8  58.5   280  1225     2   960     1   968 0.91 # 3 # 2909 # 1 # ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.639
+Tyrell_NODE_42_length_52436_cov_43.400050_78 -            323 ORF6.faa             -           1255   2.4e-45  147.2   9.1   1   1   7.2e-47   2.8e-45  147.0   9.1    64   373     2   322     1   323 0.88 # 51467 # 52435 # 1 # ID=1_78;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.605
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/Tyrell_NODE_42_length_52436_cov_43.400050.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/Tyrell_NODE_42_length_52436_cov_43.400050.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/Tyrell_NODE_42_length_52436_cov_43.400050.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:32 2023
+# [ok]

@@ -20,8 +20,7 @@ print(paste0("Setting wd to: \n ", this_dir))
 
 # import df and filter  --------------------------------------------------
 
-gene_df <- fread("cleaned_gene_df.tsv")
-
+gene_df <- fread("cleaned_gene_df_complete.tsv")
 
 
 
@@ -40,12 +39,13 @@ box <- ggplot(gene_df, aes(x = annot, y = length, fill = annot)) +
                                  "unknown" = "#FBFEF9")) +
     xlab("") +
     ylab("Length (bp)") +
-    theme(legend.position = "None")
+    theme(legend.position = "None") +
+    ggtitle("Avg ORF size (bp)")
 ggsave(plot = box, "../../plots/average_ORF_lengths_boxplot.pdf", height = 4, width = 7)
 
 
 
-ggplot(gene_df, aes(x = annot, y = score, fill = annot)) +
+box2 <- ggplot(gene_df, aes(x = annot, y = score, fill = annot)) +
     geom_boxplot() +
     theme_minimal() +
     scale_fill_manual(values = c("ORF6" = "#f94144",
@@ -58,5 +58,6 @@ ggplot(gene_df, aes(x = annot, y = score, fill = annot)) +
                                  "unknown" = "#FBFEF9")) +
     xlab("") +
     ylab("Score") +
-    theme(legend.position = "None")
-
+    theme(legend.position = "None") +
+    ggtitle("Avg ORF hmm bitscore")
+ggsave(plot = box, "../../plots/average_ORF_score_boxplot.pdf", height = 4, width = 7)

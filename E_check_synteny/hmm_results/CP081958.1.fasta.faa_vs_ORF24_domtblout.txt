@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP081958.1_2419      -            693 ORF24.faa            -            530    0.0013   14.5   0.2   1   3      0.17   2.6e+02   -3.0   5.6   250   289   200   241   197   269 0.68 # 2431411 # 2433489 # 1 # ID=1_2419;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.693
+CP081958.1_2419      -            693 ORF24.faa            -            530    0.0013   14.5   0.2   2   3      0.29   4.4e+02   -3.7   2.4    44   108   392   456   353   463 0.56 # 2431411 # 2433489 # 1 # ID=1_2419;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.693
+CP081958.1_2419      -            693 ORF24.faa            -            530    0.0013   14.5   0.2   3   3   8.9e-07    0.0013   14.5   0.2   309   369   531   591   458   613 0.84 # 2431411 # 2433489 # 1 # ID=1_2419;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.693
+CP081958.1_1009      -            322 ORF24.faa            -            530         3    3.4   9.4   1   1    0.0042       6.3    2.4   9.3   197   288   111   292    49   300 0.53 # 1039294 # 1040259 # 1 # ID=1_1009;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.504
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm
+# Target file:     ../genes/CP081958.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/CP081958.1.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm ../genes/CP081958.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:04:06 2023
+# [ok]

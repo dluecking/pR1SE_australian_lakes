@@ -1,34 +1,57 @@
-organism,ORF10,ORF17,ORF21,ORF23,ORF24,ORF6,ORF8,hits
-Halopiger xanaduensis,1,1,1,1,1,1,1,7
-Halorubrum aethiopicum,1,1,1,1,1,1,1,7
-Halorubrum lacusprofundi,1,1,1,1,1,1,1,7
-Halorubrum saccharovorum,1,1,1,1,1,1,1,7
-Halosolutus gelatinilyticus,1,1,1,1,1,1,1,7
-Halostella,1,1,1,1,1,1,1,7
-Haloterrigena turkmenica,1,1,1,1,1,1,1,7
-Halovivax sp. AGai3-5,1,1,1,1,1,1,1,7
-Halovivax sp. TS33,1,1,1,1,1,1,1,7
-Natrialba aegyptia,1,1,1,1,1,1,1,7
-Natrialba asiatica,1,1,1,1,1,1,1,7
-Natrinema sp. DC36,1,1,1,1,1,1,1,7
-Natrinema thermotolerans,1,1,1,1,1,1,1,7
-Natrinema versiforme,1,1,1,1,1,1,1,7
-Natronorubrum daqingense,1,1,1,1,1,1,1,7
-Natronorubrum texcoconense,1,1,1,1,1,1,1,7
-Saliphagus sp. WLHSJ1,1,1,1,1,1,1,1,7
-Haloarcula sp. JP-L23,1,1,1,1,1,1,0,6
-Halobiforma lacisalsi,0,1,1,1,1,1,1,6
-Halolamina rubra,1,1,1,1,1,1,0,6
-Halomicroarcula amylolytica,1,1,1,1,1,1,0,6
-Halorubellus salinus,1,1,1,1,1,1,0,6
-Halorubrum sp. CSM-61,1,1,1,1,1,1,0,6
-Halorussus sp. XZYJT10,1,1,1,1,1,1,0,6
-Halosegnis sp. ZY10,1,1,1,1,1,1,0,6
-Halostella litorea,1,1,1,1,1,1,0,6
-Natrinema saccharevitans,1,1,1,1,1,1,0,6
-Haloferax sulfurifontis,1,1,1,0,1,1,0,5
-Halolamina,1,1,1,1,1,0,0,5
-Halomarina oriensis,0,1,1,1,1,1,0,5
-Natrinema thermotolerans DSM 11552,0,1,1,1,1,1,0,5
-Haloferax sp. Atlit-4N,0,1,1,0,1,1,0,4
-Halosegnis longus,0,0,1,1,1,1,0,4
+organism_acc,ORF10,ORF17,ORF21,ORF23,ORF24,ORF6,ORF8,hits
+AOID01000019,1,1,1,1,1,1,1,7
+AOIO01000049,1,1,1,1,1,1,1,7
+AOIP01000022,1,1,1,1,1,1,1,7
+AOJE01000051,1,1,1,1,1,1,1,7
+CP019329,1,1,1,1,1,1,1,7
+CP084476,1,1,1,1,1,1,1,7
+CP095494,1,1,1,1,1,1,1,7
+CP099999,1,1,1,1,1,1,1,7
+CP101158,1,1,1,1,1,1,1,7
+CP119801,1,1,1,1,1,1,1,7
+FNFE01000011,1,1,1,1,1,1,1,7
+JDTG01000019,1,1,1,1,1,1,1,7
+KX687704,1,1,1,1,1,1,1,7
+LOAJ01000002,1,1,1,1,1,1,1,7
+NC_013748,1,1,1,1,1,1,1,7
+NC_015659,1,1,1,1,1,1,1,7
+BBJN01000020,1,1,1,1,1,1,0,6
+CP019286,0,1,1,1,1,1,1,6
+CP100004,1,1,1,1,1,1,0,6
+CP101161,1,1,1,1,1,1,0,6
+JAAOHU010000009,1,1,1,1,1,0,1,6
+JAJCVI010000002,1,1,1,1,1,1,0,6
+LWLN01000003,1,1,1,1,1,1,0,6
+RJJW01000001,1,1,1,1,1,1,0,6
+SJER01000008,1,1,1,1,1,1,0,6
+SRIF01000015,1,1,1,1,1,1,0,6
+AOIR01000042,0,1,1,1,1,1,0,5
+AOJE01000025,0,1,1,1,1,1,0,5
+JAJCVI010000007,1,1,1,1,1,0,0,5
+WSZK01000033,0,1,1,1,1,1,0,5
+JAANTI010000009,1,1,1,1,0,0,0,4
+QKNW01000002,0,0,1,1,1,1,0,4
+AOMA01000019,1,0,0,0,0,1,1,3
+BMCI01000011,0,1,1,0,1,0,0,3
+CP019330,1,0,0,0,0,1,1,3
+CP031299,1,0,0,0,1,1,0,3
+CP040639,1,0,0,0,0,1,1,3
+CP058334,0,0,1,1,1,0,0,3
+CP100355,1,0,0,0,0,1,1,3
+JABUQZ010000003,1,0,0,0,0,1,1,3
+JAJNEG010000028,0,1,0,1,1,0,0,3
+JAKRVX010000010,1,0,0,0,0,1,1,3
+AOLZ01000012,0,1,0,0,0,1,0,2
+BMCI01000010,1,0,0,0,0,1,0,2
+CP025066,1,0,0,0,0,0,1,2
+CP026314,1,0,0,0,0,1,0,2
+CP058909,1,0,0,0,0,1,0,2
+FNFC01000002,1,0,0,0,0,1,0,2
+FOIS01000007,1,0,0,0,0,1,0,2
+FOXI01000018,0,0,0,1,1,0,0,2
+JAJNEG010000027,1,0,0,0,0,0,1,2
+KX906370,0,0,1,0,0,1,0,2
+PSYY01000019,0,1,1,0,0,0,0,2
+QPLN01000011,1,0,0,0,0,1,0,2
+WOWA01000007,1,0,0,0,0,1,0,2
+WPCC01000021,1,0,0,0,0,1,0,2

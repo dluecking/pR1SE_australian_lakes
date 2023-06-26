@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+LOAJ01000002.1_61    -           1435 ORF6.faa             -           1255         0 1042.3  57.4   1   2  5.3e-157    5e-155  511.8  18.0     2   842     2   971     1   974 0.82 # 59154 # 63458 # -1 # ID=1_61;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.577
+LOAJ01000002.1_61    -           1435 ORF6.faa             -           1255         0 1042.3  57.4   2   2  2.8e-167  2.7e-165  545.8  31.9   780  1220   962  1398   962  1426 0.95 # 59154 # 63458 # -1 # ID=1_61;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.577
+LOAJ01000002.1_107   -           1058 ORF6.faa             -           1255  5.9e-293  968.7  78.3   1   2   2.7e-10   2.6e-08   25.8   0.6    62   180    34   132     9   158 0.69 # 96791 # 99964 # 1 # ID=1_107;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.682
+LOAJ01000002.1_107   -           1058 ORF6.faa             -           1255  5.9e-293  968.7  78.3   2   2  2.8e-288  2.6e-286  946.7  71.8   319  1209   166  1056   145  1057 0.93 # 96791 # 99964 # 1 # ID=1_107;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.682
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/LOAJ01000002.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/LOAJ01000002.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/LOAJ01000002.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:29 2023
+# [ok]

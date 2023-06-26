@@ -1,9 +1,9 @@
 #                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
 # target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
 #------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
->NC_015659.1_100     -            273 ORF8.faa             -            263   8.1e-97  316.1   8.7   1   1   1.8e-98   9.1e-97  315.9   8.7     2   262     5   269     4   270 0.96 # 62238 # 63056 # -1 # ID=1_100;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.643
->NC_015659.1_99      -            355 ORF8.faa             -            263   1.3e-44  145.0   6.6   1   2     0.016      0.82    1.4   0.0     2    29     5    36     4    76 0.63 # 61160 # 62224 # -1 # ID=1_99;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.599
->NC_015659.1_99      -            355 ORF8.faa             -            263   1.3e-44  145.0   6.6   2   2   5.8e-46     3e-44  143.8   4.4    31   261   133   353   112   354 0.88 # 61160 # 62224 # -1 # ID=1_99;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.599
+NC_015659.1_100      -            273 ORF8.faa             -            263   8.1e-97  316.1   8.7   1   1   1.8e-98   9.1e-97  315.9   8.7     2   262     5   269     4   270 0.96 # 62238 # 63056 # -1 # ID=1_100;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.643
+NC_015659.1_99       -            355 ORF8.faa             -            263   1.3e-44  145.0   6.6   1   2     0.016      0.82    1.4   0.0     2    29     5    36     4    76 0.63 # 61160 # 62224 # -1 # ID=1_99;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.599
+NC_015659.1_99       -            355 ORF8.faa             -            263   1.3e-44  145.0   6.6   2   2   5.8e-46     3e-44  143.8   4.4    31   261   133   353   112   354 0.88 # 61160 # 62224 # -1 # ID=1_99;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.599
 #
 # Program:         hmmsearch
 # Version:         3.3.2 (Nov 2020)
@@ -12,5 +12,5 @@
 # Target file:     ../genes/NC_015659.1.fasta.faa
 # Option settings: hmmsearch --domtblout ../hmm_results/NC_015659.1.fasta.faa_vs_ORF8_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF8.faa.msa.hmm ../genes/NC_015659.1.fasta.faa 
 # Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
-# Date:            Wed Jun 14 15:51:55 2023
+# Date:            Fri Jun 23 12:02:58 2023
 # [ok]

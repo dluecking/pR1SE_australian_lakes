@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AOJE01000025.1_37    -            210 ORF21.faa            -            201   5.1e-58  188.3   1.5   1   1   8.5e-60   6.4e-58  187.9   1.5    18   197     4   188     2   195 0.93 # 34770 # 35399 # 1 # ID=1_37;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.617
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF21.faa.msa.hmm
+# Target file:     ../genes/AOJE01000025.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/AOJE01000025.1.fasta.faa_vs_ORF21_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF21.faa.msa.hmm ../genes/AOJE01000025.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:43 2023
+# [ok]

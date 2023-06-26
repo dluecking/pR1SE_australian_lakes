@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JAAOHU010000009.1_67 -            352 ORF10.faa            -            339   2.5e-64  209.8  40.8   1   1   8.3e-66   2.8e-64  209.6  40.8     6   332     5   345     1   351 0.84 # 41806 # 42861 # -1 # ID=1_67;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.637
+JAAOHU010000009.1_56 -            472 ORF10.faa            -            339   2.6e-05   15.7   0.5   1   2   7.8e-07   2.6e-05   15.7   0.5     8   112    20   120    14   136 0.62 # 34419 # 35834 # -1 # ID=1_56;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.640
+JAAOHU010000009.1_56 -            472 ORF10.faa            -            339   2.6e-05   15.7   0.5   2   2     0.026      0.89    0.8   0.1   175   222   108   152    94   161 0.67 # 34419 # 35834 # -1 # ID=1_56;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.640
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm
+# Target file:     ../genes/JAAOHU010000009.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/JAAOHU010000009.1.fasta.faa_vs_ORF10_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm ../genes/JAAOHU010000009.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:07 2023
+# [ok]

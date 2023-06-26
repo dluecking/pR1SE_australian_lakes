@@ -10,5 +10,5 @@ Eyresouth_NODE_101_length_48437_cov_7.17035_15 -            345 ORF10.faa       
 # Target file:     ../genes/Eyresouth_NODE_101_length_48437_cov_7.17035.fasta.faa
 # Option settings: hmmsearch --domtblout ../hmm_results/Eyresouth_NODE_101_length_48437_cov_7.17035.fasta.faa_vs_ORF10_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm ../genes/Eyresouth_NODE_101_length_48437_cov_7.17035.fasta.faa 
 # Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
-# Date:            Wed Jun 14 15:51:57 2023
+# Date:            Fri Jun 23 12:03:04 2023
 # [ok]

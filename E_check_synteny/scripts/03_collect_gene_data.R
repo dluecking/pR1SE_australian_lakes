@@ -111,5 +111,3 @@ rm(t_df, acc, tmp_df, maximum_orf_number_overall)
 # this is correct, but there is plenty of space between the orfs in most cases...especially "NZ_CP101161.1"
 fwrite(gene_df_filtered, "gene_df.tsv")
 
-
-

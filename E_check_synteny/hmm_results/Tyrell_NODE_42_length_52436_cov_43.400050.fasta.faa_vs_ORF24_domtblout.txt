@@ -1,0 +1,17 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Tyrell_NODE_42_length_52436_cov_43.400050_19 -            631 ORF24.faa            -            530   1.3e-05   16.0   2.8   1   4      0.12       9.4   -3.4   0.4    82   105    16    39     9    48 0.62 # 16206 # 18098 # 1 # ID=1_19;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.647
+Tyrell_NODE_42_length_52436_cov_43.400050_19 -            631 ORF24.faa            -            530   1.3e-05   16.0   2.8   2   4     0.061       4.7   -2.4   2.2    32    81   121   172    90   192 0.57 # 16206 # 18098 # 1 # ID=1_19;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.647
+Tyrell_NODE_42_length_52436_cov_43.400050_19 -            631 ORF24.faa            -            530   1.3e-05   16.0   2.8   3   4     0.059       4.6   -2.4   0.4   268   289   292   313   289   333 0.76 # 16206 # 18098 # 1 # ID=1_19;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.647
+Tyrell_NODE_42_length_52436_cov_43.400050_19 -            631 ORF24.faa            -            530   1.3e-05   16.0   2.8   4   4   1.6e-07   1.3e-05   16.0   2.8   238   409   416   585   408   605 0.80 # 16206 # 18098 # 1 # ID=1_19;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.647
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm
+# Target file:     ../genes/Tyrell_NODE_42_length_52436_cov_43.400050.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/Tyrell_NODE_42_length_52436_cov_43.400050.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm ../genes/Tyrell_NODE_42_length_52436_cov_43.400050.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:04:14 2023
+# [ok]

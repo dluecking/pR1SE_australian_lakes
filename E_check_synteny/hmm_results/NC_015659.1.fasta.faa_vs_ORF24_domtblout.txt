@@ -1,7 +1,7 @@
 #                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
 # target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
 #------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
->NC_015659.1_85      -            539 ORF24.faa            -            530  7.2e-193  634.3   0.0   1   1  8.3e-195  8.5e-193  634.0   0.0    13   519    36   537    11   538 0.97 # 49714 # 51330 # -1 # ID=1_85;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.660
+NC_015659.1_85       -            539 ORF24.faa            -            530  7.2e-193  634.3   0.0   1   1  8.3e-195  8.5e-193  634.0   0.0    13   519    36   537    11   538 0.97 # 49714 # 51330 # -1 # ID=1_85;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.660
 #
 # Program:         hmmsearch
 # Version:         3.3.2 (Nov 2020)
@@ -10,5 +10,5 @@
 # Target file:     ../genes/NC_015659.1.fasta.faa
 # Option settings: hmmsearch --domtblout ../hmm_results/NC_015659.1.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm ../genes/NC_015659.1.fasta.faa 
 # Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
-# Date:            Wed Jun 14 15:52:17 2023
+# Date:            Fri Jun 23 12:04:12 2023
 # [ok]

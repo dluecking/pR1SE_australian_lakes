@@ -1,0 +1,14 @@
+#                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Torrens_NODE_2029_length_12012_cov_23.663126_6 -            359 ORF10.faa            -            339   5.2e-47  150.3  25.2   1   1   5.3e-48   6.4e-47  150.0  25.2     3   327     3   326     1   343 0.73 # 7539 # 8615 # 1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.644
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm
+# Target file:     ../genes/Torrens_NODE_2029_length_12012_cov_23.663126.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/Torrens_NODE_2029_length_12012_cov_23.663126.fasta.faa_vs_ORF10_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF10.faa.msa.hmm ../genes/Torrens_NODE_2029_length_12012_cov_23.663126.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:10 2023
+# [ok]

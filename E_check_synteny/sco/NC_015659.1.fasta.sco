@@ -1,4 +1,4 @@
-# Sequence Data: seqnum=1;seqlen=68763;seqhdr=">NC_015659.1 Halopiger xanaduensis SH-6 plasmid pHALXA03, complete sequence"
+# Sequence Data: seqnum=1;seqlen=68763;seqhdr="NC_015659.1 Halopiger xanaduensis SH-6 plasmid pHALXA03, complete sequence"
 # Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="31|Natrialba_magadii_ATCC_43099|A|61.4|11|0";gc_cont=61.40;transl_table=11;uses_sd=0
 >1_2_154_+
 >2_186_380_+

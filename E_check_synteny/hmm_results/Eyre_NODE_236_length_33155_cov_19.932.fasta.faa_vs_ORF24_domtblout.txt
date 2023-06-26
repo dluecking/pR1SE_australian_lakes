@@ -11,5 +11,5 @@ Eyre_NODE_236_length_33155_cov_19.932_27 -            633 ORF24.faa            -
 # Target file:     ../genes/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa
 # Option settings: hmmsearch --domtblout ../hmm_results/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm ../genes/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa 
 # Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
-# Date:            Wed Jun 14 15:52:16 2023
+# Date:            Fri Jun 23 12:04:07 2023
 # [ok]

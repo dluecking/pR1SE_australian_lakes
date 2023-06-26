@@ -1,0 +1,19 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JAJCVI010000007.1_13  -            858 ORF6.faa             -           1255  2.3e-146  483.5  34.6   1   2   1.3e-47   8.2e-46  150.4   0.9   608   920    11   350    10   354 0.89 # 20610 # 23183 # 1 # ID=1_13;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.664
+JAJCVI010000007.1_13  -            858 ORF6.faa             -           1255  2.3e-146  483.5  34.6   2   2  5.5e-103  3.3e-101  333.9  26.9   860  1241   453   851   356   856 0.88 # 20610 # 23183 # 1 # ID=1_13;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.664
+JAJCVI010000007.1_12  -            673 ORF6.faa             -           1255   2.1e-52  172.2  15.1   1   1   4.5e-54   2.7e-52  171.8  15.1    16   609     8   672     1   672 0.59 # 18629 # 20647 # 1 # ID=1_12;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.536
+JAJCVI010000007.1_233 -            390 ORF6.faa             -           1255   1.1e-11   37.3   0.0   1   2   5.9e-06   0.00036   12.4   0.0    70   191     5   130     1   141 0.70 # 250221 # 251390 # 1 # ID=1_233;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.706
+JAJCVI010000007.1_233 -            390 ORF6.faa             -           1255   1.1e-11   37.3   0.0   2   2   4.6e-09   2.8e-07   22.7   0.0   122   263   155   295   144   309 0.82 # 250221 # 251390 # 1 # ID=1_233;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.706
+JAJCVI010000007.1_67  -            309 ORF6.faa             -           1255     0.019    6.8   7.7   1   1   0.00036     0.022    6.5   7.7   770   845     5    88     2   152 0.73 # 77497 # 78423 # -1 # ID=1_67;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.629
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/JAJCVI010000007.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/JAJCVI010000007.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/JAJCVI010000007.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:27 2023
+# [ok]

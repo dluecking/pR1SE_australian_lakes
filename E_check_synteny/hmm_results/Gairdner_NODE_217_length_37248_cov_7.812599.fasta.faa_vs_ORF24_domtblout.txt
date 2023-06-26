@@ -1,0 +1,17 @@
+#                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Gairdner_NODE_217_length_37248_cov_7.812599_40 -            602 ORF24.faa            -            530     1e-09   28.7   0.6   1   2         2        46   -7.6   4.6   255   280   324   349   305   351 0.72 # 33158 # 34963 # 1 # ID=1_40;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.684
+Gairdner_NODE_217_length_37248_cov_7.812599_40 -            602 ORF24.faa            -            530     1e-09   28.7   0.6   2   2   4.4e-11     1e-09   28.7   0.6   239   373   398   528   375   555 0.84 # 33158 # 34963 # 1 # ID=1_40;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.684
+Gairdner_NODE_217_length_37248_cov_7.812599_38 -            336 ORF24.faa            -            530     0.069    2.9   8.0   1   2   0.00013    0.0031    7.3   2.6    29    86    45   102    34   120 0.76 # 30655 # 31662 # 1 # ID=1_38;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.617
+Gairdner_NODE_217_length_37248_cov_7.812599_38 -            336 ORF24.faa            -            530     0.069    2.9   8.0   2   2      0.32       7.4   -3.8   0.3   144   180   261   299   243   313 0.52 # 30655 # 31662 # 1 # ID=1_38;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.617
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm
+# Target file:     ../genes/Gairdner_NODE_217_length_37248_cov_7.812599.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/Gairdner_NODE_217_length_37248_cov_7.812599.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm ../genes/Gairdner_NODE_217_length_37248_cov_7.812599.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:04:10 2023
+# [ok]

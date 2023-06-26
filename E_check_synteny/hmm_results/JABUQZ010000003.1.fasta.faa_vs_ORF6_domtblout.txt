@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JABUQZ010000003.1_4  -           1202 ORF6.faa             -           1255         0 1345.5  51.0   1   1         0         0 1345.2  51.0    63  1241    14  1198     2  1201 0.95 # 3730 # 7335 # -1 # ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.602
+JABUQZ010000003.1_33 -           1052 ORF6.faa             -           1255  8.5e-287  947.7  64.7   1   2   6.1e-11   3.8e-09   27.9   2.2    68   243     2   160     1   165 0.66 # 24823 # 27978 # -1 # ID=1_33;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.657
+JABUQZ010000003.1_33 -           1052 ORF6.faa             -           1255  8.5e-287  947.7  64.7   2   2  5.3e-282  3.3e-280  925.9  55.6   318  1211   155  1039   147  1050 0.95 # 24823 # 27978 # -1 # ID=1_33;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.657
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/JABUQZ010000003.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/JABUQZ010000003.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/JABUQZ010000003.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:26 2023
+# [ok]

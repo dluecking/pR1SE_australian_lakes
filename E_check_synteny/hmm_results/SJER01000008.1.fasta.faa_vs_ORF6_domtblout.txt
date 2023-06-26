@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SJER01000008.1_127   -           1578 ORF6.faa             -           1255  5.3e-263  869.3  94.0   1   5     2e-16   3.2e-14   45.2   0.0    20   239    15   296     1   330 0.57 # 69886 # 74619 # 1 # ID=1_127;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.614
+SJER01000008.1_127   -           1578 ORF6.faa             -           1255  5.3e-263  869.3  94.0   2   5   2.8e-08   4.6e-06   18.1   0.2   366   435   320   395   302   397 0.68 # 69886 # 74619 # 1 # ID=1_127;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.614
+SJER01000008.1_127   -           1578 ORF6.faa             -           1255  5.3e-263  869.3  94.0   3   5  1.6e-120  2.6e-118  390.0  43.5   264   939   397  1089   394  1091 0.80 # 69886 # 74619 # 1 # ID=1_127;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.614
+SJER01000008.1_127   -           1578 ORF6.faa             -           1255  5.3e-263  869.3  94.0   4   5   3.4e-11   5.7e-09   27.8   6.3   851   936  1087  1171  1079  1176 0.91 # 69886 # 74619 # 1 # ID=1_127;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.614
+SJER01000008.1_127   -           1578 ORF6.faa             -           1255  5.3e-263  869.3  94.0   5   5  8.6e-125  1.4e-122  404.1  26.5   838  1253  1165  1575  1164  1577 0.91 # 69886 # 74619 # 1 # ID=1_127;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.614
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/SJER01000008.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/SJER01000008.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/SJER01000008.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:32 2023
+# [ok]

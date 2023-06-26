@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP058334.1_892       -            297 ORF17.faa            -            307    0.0016   15.2   0.1   1   1   1.5e-06    0.0025   14.5   0.1   225   278     9    59     3    68 0.84 # 802170 # 803060 # -1 # ID=1_892;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.636
+CP058334.1_1937      -             57 ORF17.faa            -            307    0.0061   13.3   1.2   1   1   4.4e-06    0.0075   13.0   1.2   219   258     6    44     4    48 0.87 # 1796308 # 1796478 # 1 # ID=1_1937;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.561
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF17.faa.msa.hmm
+# Target file:     ../genes/CP058334.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/CP058334.1.fasta.faa_vs_ORF17_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF17.faa.msa.hmm ../genes/CP058334.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:35 2023
+# [ok]

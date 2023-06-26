@@ -10,5 +10,5 @@ Gairdner_NODE_167_length_41210_cov_9.888325_30 -            292 ORF8.faa        
 # Target file:     ../genes/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa
 # Option settings: hmmsearch --domtblout ../hmm_results/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa_vs_ORF8_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF8.faa.msa.hmm ../genes/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa 
 # Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
-# Date:            Wed Jun 14 15:51:55 2023
+# Date:            Fri Jun 23 12:02:55 2023
 # [ok]

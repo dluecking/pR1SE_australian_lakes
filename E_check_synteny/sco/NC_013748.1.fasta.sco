@@ -1,4 +1,4 @@
-# Sequence Data: seqnum=1;seqlen=71062;seqhdr=">NC_013748.1 Haloterrigena turkmenica DSM 5511 plasmid pHTUR05, complete sequence"
+# Sequence Data: seqnum=1;seqlen=71062;seqhdr="NC_013748.1 Haloterrigena turkmenica DSM 5511 plasmid pHTUR05, complete sequence"
 # Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="31|Natrialba_magadii_ATCC_43099|A|61.4|11|0";gc_cont=61.40;transl_table=11;uses_sd=0
 >1_192_539_-
 >2_587_1105_-

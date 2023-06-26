@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP058334.1_682       -            558 ORF24.faa            -            530  3.8e-181  600.6   1.5   1   1  5.2e-184  4.4e-181  600.4   1.5    11   512    60   553    13   557 0.94 # 617522 # 619195 # -1 # ID=1_682;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.657
+CP058334.1_365       -            283 ORF24.faa            -            530   0.00069   15.6   0.8   1   2    0.0005      0.42    6.4   0.1   241   296     7    62     1    89 0.87 # 352944 # 353792 # -1 # ID=1_365;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.628
+CP058334.1_365       -            283 ORF24.faa            -            530   0.00069   15.6   0.8   2   2   0.00015      0.13    8.1   0.0    42   113   149   219   123   244 0.75 # 352944 # 353792 # -1 # ID=1_365;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.628
+CP058334.1_1323      -             75 ORF24.faa            -            530     0.082    8.8   2.7   1   1   0.00011     0.091    8.6   2.7    41   100    14    73    12    74 0.94 # 1201709 # 1201933 # 1 # ID=1_1323;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.636
+CP058334.1_746       -            325 ORF24.faa            -            530       0.1    8.5   3.4   1   1   0.00023       0.2    7.5   3.4    27   106   101   179    81   182 0.72 # 675196 # 676170 # -1 # ID=1_746;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.675
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm
+# Target file:     ../genes/CP058334.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/CP058334.1.fasta.faa_vs_ORF24_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm ../genes/CP058334.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:04:05 2023
+# [ok]

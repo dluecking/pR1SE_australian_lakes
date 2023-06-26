@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AP017558.1_2848      -           1307 ORF6.faa             -           1255  9.8e-303 1005.0  72.1   1   1  2.6e-305  1.5e-302 1004.4  72.1    20  1240    16  1304     1  1306 0.90 # 2908425 # 2912345 # -1 # ID=1_2848;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.638
+AP017558.1_623       -            450 ORF6.faa             -           1255   8.1e-19   64.5   0.0   1   2   6.6e-08   3.8e-05   19.2   0.0   144   289   104   262    21   268 0.76 # 622367 # 623716 # -1 # ID=1_623;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.695
+AP017558.1_623       -            450 ORF6.faa             -           1255   8.1e-19   64.5   0.0   2   2   4.7e-15   2.7e-12   42.9   0.0   140   293   275   428   269   441 0.78 # 622367 # 623716 # -1 # ID=1_623;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.695
+AP017558.1_646       -            172 ORF6.faa             -           1255    0.0059   12.0   1.9   1   1   1.2e-05    0.0069   11.8   1.4   807   871    60   124    34   140 0.74 # 648726 # 649241 # 1 # ID=1_646;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.504
+AP017558.1_1199      -            296 ORF6.faa             -           1255    0.0062   11.9   7.6   1   1   1.5e-05    0.0087   11.4   7.6   751   850    42   157    36   200 0.76 # 1233241 # 1234128 # -1 # ID=1_1199;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.709
+AP017558.1_782       -            327 ORF6.faa             -           1255     0.029    9.7   4.4   1   1   6.7e-05     0.039    9.3   4.4   790   851    10    68     4   120 0.71 # 780029 # 781009 # -1 # ID=1_782;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.716
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/AP017558.1.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/AP017558.1.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/AP017558.1.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:13 2023
+# [ok]

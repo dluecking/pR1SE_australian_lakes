@@ -1,4 +1,4 @@
-# Sequence Data: seqnum=1;seqlen=50329;seqhdr=">KX687704.1 Halorubrum lacusprofundi strain R1S1 plasmid pR1SE, complete sequence"
+# Sequence Data: seqnum=1;seqlen=50329;seqhdr="KX687704.1 Halorubrum lacusprofundi strain R1S1 plasmid pR1SE, complete sequence"
 # Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="22|Halorubrum_lacusprofundi_ATCC_49239|A|57.1|11|0";gc_cont=57.10;transl_table=11;uses_sd=0
 >1_2_3433_+
 >2_3558_3725_+

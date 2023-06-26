@@ -1,0 +1,14 @@
+#                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Kenyon_NODE_596_length_16493_cov_7.34451_23 -            218 ORF6.faa             -           1255   3.1e-43  138.5   4.1   1   1   1.5e-44   3.4e-43  138.3   4.1  1017  1242     1   216     1   217 0.86 # 15838 # 16491 # -1 # ID=1_23;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.615
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm
+# Target file:     ../genes/Kenyon_NODE_596_length_16493_cov_7.34451.fasta.faa
+# Option settings: hmmsearch --domtblout ../hmm_results/Kenyon_NODE_596_length_16493_cov_7.34451.fasta.faa_vs_ORF6_domtblout.txt --cpu 16 ../../A_generate_protein_clusters/FINAL_profiles/ORF6.faa.msa.hmm ../genes/Kenyon_NODE_596_length_16493_cov_7.34451.fasta.faa 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/E_check_synteny/scripts
+# Date:            Fri Jun 23 12:03:28 2023
+# [ok]
