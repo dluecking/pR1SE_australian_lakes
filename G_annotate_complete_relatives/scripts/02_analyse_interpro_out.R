@@ -54,15 +54,10 @@ interpro_out <- interpro_out %>%
     filter(evalue <= 0.00001) %>% 
     filter(annotation != "-")
 
-# read contig_border_df and remove unnceessary annotations ----------------
-
-manual_region_df <- fread("../../E_check_synteny/scripts/manual_region_df.tsv") %>% 
-    filter(comment != "both ends of a fragment")
-
 fwrite(interpro_out, "interpro_out_full.tsv", sep = "\t")
 
 
-# get only one hit per ORF ------------------------------------------------
+# read contig_border_df and remove unnceessary annotations ----------------
 
 interpro_out <- interpro_out %>% group_by(gene_id) %>% slice_min(n = 2, evalue)
 
@@ -75,3 +70,4 @@ gene_df$interpro_evalue <- interpro_out$evalue[match(gene_df$id, interpro_out$ge
 
 
 fwrite(gene_df, "improved_gene_df.tsv", sep = "\t")
+

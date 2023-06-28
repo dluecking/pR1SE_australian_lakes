@@ -1,0 +1,37 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession      qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- --------------------    ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+10                   -            229 PIRSR000452-1        PIRSR000452-1   151   0.00019   12.8   0.0   1   1   6.9e-06   0.00033   12.1   0.0    88   142   138   193   132   199 0.86 -
+44                   -           1384 PIRSR037646-50       PIRSR037646-50  1252   1.9e-08   23.7   0.8   1   2   5.9e-10   2.8e-08   23.2   0.3   933  1127   196   308   180   400 0.54 -
+44                   -           1384 PIRSR037646-50       PIRSR037646-50  1252   1.9e-08   23.7   0.8   2   2     0.016      0.77   -1.4   0.0   978  1133   324   479   296   485 0.76 -
+12                   -            551 PIRSR037875-50       PIRSR037875-50   471   7.3e-11   32.8   4.0   1   2   1.2e-10   5.5e-09   26.6   1.8   191   303   276   378   216   382 0.78 -
+12                   -            551 PIRSR037875-50       PIRSR037875-50   471   7.3e-11   32.8   4.0   2   2   0.00044     0.021    4.9   0.0   408   424   458   474   451   489 0.89 -
+12                   -            551 PIRSR037907-1        PIRSR037907-1   660   2.6e-13   40.4  20.6   1   1   7.3e-14   3.5e-12   36.7  20.6   200   397   281   475   152   490 0.79 -
+12                   -            551 PIRSR037907-2        PIRSR037907-2   664   2.6e-11   33.7  17.9   1   1   1.9e-12     9e-11   32.0  17.7   198   397   280   475   202   490 0.79 -
+12                   -            551 PIRSR037907-3        PIRSR037907-3   660   2.6e-13   40.4  20.6   1   1   7.3e-14   3.5e-12   36.7  20.6   200   397   281   475   152   490 0.79 -
+44                   -           1384 PIRSR617512-1        PIRSR617512-1   726   6.8e-06   16.0   4.7   1   4   2.1e-06   9.9e-05   12.2   0.1   115   196   208   280   196   286 0.77 -
+44                   -           1384 PIRSR617512-1        PIRSR617512-1   726   6.8e-06   16.0   4.7   2   4    0.0042       0.2    1.3   0.0   106   131   283   308   277   312 0.84 -
+44                   -           1384 PIRSR617512-1        PIRSR617512-1   726   6.8e-06   16.0   4.7   3   4     0.002     0.092    2.4   0.2    75   132   335   394   332   449 0.78 -
+44                   -           1384 PIRSR617512-1        PIRSR617512-1   726   6.8e-06   16.0   4.7   4   4     0.031       1.5   -1.6   0.1    85   130   426   472   415   481 0.70 -
+44                   -           1384 PIRSR617512-2        PIRSR617512-2   726   6.8e-06   16.0   4.7   1   4   2.1e-06   9.9e-05   12.2   0.1   115   196   208   280   196   286 0.77 -
+44                   -           1384 PIRSR617512-2        PIRSR617512-2   726   6.8e-06   16.0   4.7   2   4    0.0042       0.2    1.3   0.0   106   131   283   308   277   312 0.84 -
+44                   -           1384 PIRSR617512-2        PIRSR617512-2   726   6.8e-06   16.0   4.7   3   4     0.002     0.092    2.4   0.2    75   132   335   394   332   449 0.78 -
+44                   -           1384 PIRSR617512-2        PIRSR617512-2   726   6.8e-06   16.0   4.7   4   4     0.031       1.5   -1.6   0.1    85   130   426   472   415   481 0.70 -
+44                   -           1384 PIRSR617512-3        PIRSR617512-3   726   6.8e-06   16.0   4.7   1   4   2.1e-06   9.9e-05   12.2   0.1   115   196   208   280   196   286 0.77 -
+44                   -           1384 PIRSR617512-3        PIRSR617512-3   726   6.8e-06   16.0   4.7   2   4    0.0042       0.2    1.3   0.0   106   131   283   308   277   312 0.84 -
+44                   -           1384 PIRSR617512-3        PIRSR617512-3   726   6.8e-06   16.0   4.7   3   4     0.002     0.092    2.4   0.2    75   132   335   394   332   449 0.78 -
+44                   -           1384 PIRSR617512-3        PIRSR617512-3   726   6.8e-06   16.0   4.7   4   4     0.031       1.5   -1.6   0.1    85   130   426   472   415   481 0.70 -
+44                   -           1384 PIRSR617512-4        PIRSR617512-4   726   6.8e-06   16.0   4.7   1   4   2.1e-06   9.9e-05   12.2   0.1   115   196   208   280   196   286 0.77 -
+44                   -           1384 PIRSR617512-4        PIRSR617512-4   726   6.8e-06   16.0   4.7   2   4    0.0042       0.2    1.3   0.0   106   131   283   308   277   312 0.84 -
+44                   -           1384 PIRSR617512-4        PIRSR617512-4   726   6.8e-06   16.0   4.7   3   4     0.002     0.092    2.4   0.2    75   132   335   394   332   449 0.78 -
+44                   -           1384 PIRSR617512-4        PIRSR617512-4   726   6.8e-06   16.0   4.7   4   4     0.031       1.5   -1.6   0.1    85   130   426   472   415   481 0.70 -
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      data/pirsr/2021_05/sr_hmm_all
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobPIRSR/000000000001_000000000047.fasta
+# Option settings: bin/hmmer/hmmer3/3.1b1/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobPIRSR/000000000001_000000000047.raw.out -A /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobPIRSR/000000000001_000000000047.raw.align.out --domtblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobPIRSR/000000000001_000000000047.raw.domtblout.out --acc -E 0.01 --cpu 1 data/pirsr/2021_05/sr_hmm_all /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobPIRSR/000000000001_000000000047.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:43 2023
+# [ok]

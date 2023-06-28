@@ -26,7 +26,8 @@ int_df <- fread("interpro_out_full.tsv")
 
 search_terms <- paste(c("cdc6", "orc1", "replication", "RepA", "primase",
                         "polymerase", "helicase", "jelly roll", "jelly-roll",
-                        "endonuclease", " DNA-binding domain", "DNA binding domain"),
+                        "endonuclease", " DNA-binding domain", "DNA binding domain",
+                        "Origin-binding", "origin binding", "integrase"),
                       collapse = "|")
 rep_df <- data.table()
 

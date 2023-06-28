@@ -1,0 +1,16 @@
+26/06/2023 11:16:01:346 Welcome to InterProScan-5.62-94.0
+26/06/2023 11:16:01:347 Running InterProScan v5 in STANDALONE mode... on Linux
+26/06/2023 11:16:10:046 RunID: smallmem-3_20230626_111609720_662w
+26/06/2023 11:16:25:656 Loading file /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../genes/JAJNEG010000027.1.fasta.faa
+26/06/2023 11:16:25:659 Running the following analyses:
+[AntiFam-7.0,CDD-3.20,Coils-2.2.1,FunFam-4.3.0,Gene3D-4.3.0,Hamap-2023_01,MobiDBLite-2.0,NCBIfam-11.0,PANTHER-17.0,Pfam-35.0,PIRSF-3.10,PIRSR-2021_05,PRINTS-42.0,ProSitePatterns-2022_05,ProSiteProfiles-2022_05,SFLD-4,SMART-9.0,SUPERFAMILY-1.75]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+26/06/2023 11:16:49:660 25% completed
+26/06/2023 11:17:08:052 50% completed
+26/06/2023 11:17:40:446 75% completed
+26/06/2023 11:18:09:554 90% completed
+26/06/2023 11:18:33:188 100% done:  InterProScan analyses completed 
+
+2023-06-26 11:18:33,700 [main] [uk.ac.ebi.interpro.scan.jms.master.AbstractMaster:259] WARN - Master process unable to delete temporary directory /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/JAJNEG010000027.1.fasta.faa/smallmem-3_20230626_111609720_662w

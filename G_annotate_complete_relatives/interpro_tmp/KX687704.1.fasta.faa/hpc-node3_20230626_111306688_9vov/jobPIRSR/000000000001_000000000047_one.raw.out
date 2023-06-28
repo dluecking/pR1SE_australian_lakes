@@ -1,0 +1,68 @@
+{
+    "12": {
+        "domainMatches": {
+            "PIRSR037907-3": [
+                {
+                    "domScore": "36.7",
+                    "domEvalue": "3.5e-12",
+                    "hmmFrom": 200,
+                    "hmmTo": 397,
+                    "hmmAlign": "ddnGhGthvasiaaGtGaasngkykGvapgakl.vGikvldadGsGsisdiiaGvdwavqnkdkyGikvinlslGssqssdGtdslsqavnnawdaGlvvvvaaGnsGpdkytvGspaaaskvitvgavdkv.......dvitdfssrGptadgrlkpevvapGnwiiaarasgtsltvtindyyvaasGtsmatphvaGiaalll",
+                    "seqFrom": 281,
+                    "seqTo": 475,
+                    "seqAlign": "DASGHGSWVTAAAASSA---PKPYRGVAPDADLyIGRALDHEDGSGAVADIATAVRAATD----AGADATCMSLGSPL---YTEELADAIAYATEHGNTIVVASGNDRMVSRFVAYPAADPNTLSVSATDVPasgdptdVRSASFANVGPSPGTVNFSEGETSGVEVDIA-APGMAQEAQLDSGTTTLSGTSMAAPDVAGAAALLA",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 304,
+                            "hmmStart": 304,
+                            "end": "303",
+                            "group": "1",
+                            "desc": "Important for catalytic activity.",
+                            "label": "SITE",
+                            "start": "303",
+                            "condition": "N"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ]
+        }
+    },
+    "44": {
+        "domainMatches": {
+            "PIRSR617512-2": [
+                {
+                    "domScore": "2.4",
+                    "domEvalue": "0.092",
+                    "hmmFrom": 75,
+                    "hmmTo": 132,
+                    "hmmAlign": "nasnvkelklawsydldtnrGve..atPlvvdGvmyatanwsvvkaldaatGkllWkydP",
+                    "seqFrom": 335,
+                    "seqTo": 394,
+                    "seqAlign": "KRLNIDGMNISWSEGLHSSSSDEvdAIEQSIGGSVYSGAGDGTVKKIDPFSGNITWVYDN",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 97,
+                            "hmmStart": 97,
+                            "end": "101",
+                            "group": "1",
+                            "desc": "Pyrroloquinoline quinone.",
+                            "label": "BINDING",
+                            "start": "101",
+                            "condition": "E"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria; Proteobacteria"
+                    ]
+                }
+            ]
+        }
+    },
+    "10": {
+        "domainMatches": {}
+    }
+}

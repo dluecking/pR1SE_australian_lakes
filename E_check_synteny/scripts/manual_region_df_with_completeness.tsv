@@ -1,0 +1,82 @@
+contig,min_orf,max_orf,region_length,manual_min_orf,manual_max_orf,manual_region_length,comment,visualize,number_of_unique_hits,replication_protein,replication_orf,rep_comment,contig_category
+AOID01000019.1,1,119,118,,,,both ends,FALSE,7,,,,complete
+AOIO01000049.1,84,114,30,84,114,30,,TRUE,7,CDC6,38,,complete
+AOIP01000022.1,16,40,24,16,40,24,,TRUE,7,,,,complete
+AOIR01000042.1,32,61,29,32,61,29,,TRUE,7,,,,complete
+AOJE01000025.1,22,45,23,22,45,23,,TRUE,7,,,,complete
+AOJE01000038.1,17,24,7,17,24,7,,TRUE,1,,,,fragment
+AOJE01000051.1,16,53,37,16,53,37,,TRUE,7,,,,complete
+AOLZ01000012.1,14,39,25,14,39,25,,TRUE,7,,,,complete
+AOMA01000019.1,10,20,10,10,20,10,,TRUE,3,,,,fragment
+AP017558.1,618,2853,2235,,,,only 6-8,FALSE,3,,,,fragment
+BBJN01000020.1,27,51,24,27,51,24,,TRUE,7,,,,complete
+BMCI01000010.1,58,68,10,58,68,10,,TRUE,3,,,,fragment
+BMCI01000011.1,1,17,16,1,17,16,,TRUE,4,,,,fragment
+CP019286.1,30,55,25,30,55,25,,TRUE,7,,,,complete
+CP019329.1,55,158,103,55,85,30,,TRUE,7,,,,complete
+CP019330.1,1,78,77,,,,only 6-8,FALSE,3,,,,fragment
+CP025066.1,1654,2279,625,,,,integrated,FALSE,3,,,,fragment
+CP026314.1,13,26,13,13,26,13,,TRUE,3,,,,fragment
+CP031299.1,1,121,120,1,33,32,,TRUE,7,,,,complete
+CP040639.1,5,18,13,5,18,13,,TRUE,3,,,,fragment
+CP058334.1,677,1824,1147,,,,"only 21-24 + 6, but distant",FALSE,4,,,,fragment
+CP058909.1,9,3652,3643,,,,"many 6, but 8, 10 distant also",FALSE,3,,,,fragment
+CP081958.1,739,2409,1670,,,,only 6-8,FALSE,3,,,,fragment
+CP084476.1,48,82,34,48,82,34,,TRUE,7,,,,complete
+CP095494.1,28,56,28,28,56,28,,TRUE,7,,,,complete
+CP099999.1,22,46,24,22,46,24,,TRUE,7,,,,complete
+CP100004.1,1,164,163,1,24,23,copy at end,TRUE,7,,,,complete
+CP100355.1,129,3445,3316,,,,only 6-8,FALSE,3,,,,fragment
+CP101158.1,25,96,71,66,96,30,,TRUE,7,,,,complete
+CP101161.1,244,3073,2829,3050,3073,23,,TRUE,7,,,,complete
+CP104003.1,1987,3924,1937,,,,only 6-8,FALSE,3,,,,fragment
+CP119801.1,23,50,27,23,50,27,,TRUE,7,,,,complete
+Eyre_NODE_236_length_33155_cov_19.932,22,44,22,22,44,22,,TRUE,6,,,,complete
+Eyresouth_NODE_101_length_48437_cov_7.17035,4,32,28,4,32,28,,TRUE,7,,,,complete
+Eyresouth_NODE_218_length_34093_cov_9.73377,14,28,14,14,28,14,,TRUE,3,,,,fragment
+FNFC01000002.1,151,164,13,151,164,13,,TRUE,3,,,,fragment
+FNFE01000011.1,14,42,28,14,42,28,,TRUE,7,,,,complete
+FOIS01000007.1,13,34,21,13,34,21,,TRUE,3,,,,fragment
+FOXI01000018.1,34,55,21,34,55,21,,TRUE,7,,,,complete
+FOXI01000019.1,40,47,7,40,47,7,,TRUE,2,,,,fragment
+Frome_NODE_208_length_31991_cov_42.105993,19,32,13,19,32,13,,TRUE,3,,,,fragment
+Frome_NODE_383_length_24936_cov_4.316346,1,23,22,1,23,22,,TRUE,7,,,,complete
+Gairdner_NODE_107_length_49922_cov_74.384603,7,34,27,7,34,27,,TRUE,7,,,,complete
+Gairdner_NODE_118_length_47723_cov_5.388856,49,62,13,49,62,13,,TRUE,3,,,,fragment
+Gairdner_NODE_144_length_43966_cov_7.457380,5,19,14,5,19,14,,TRUE,3,,,,fragment
+Gairdner_NODE_1649_length_16492_cov_7.650423,6,17,11,6,17,11,,TRUE,3,,,,fragment
+Gairdner_NODE_167_length_41210_cov_9.888325,14,37,23,14,37,23,,TRUE,7,,,,complete
+Gairdner_NODE_200_length_38460_cov_9.422054,35,45,10,35,45,10,,TRUE,3,,,,fragment
+Gairdner_NODE_217_length_37248_cov_7.812599,15,32,17,15,32,17,,TRUE,3,,,,fragment
+Gairdner_NODE_2803_length_13236_cov_7.077763,6,16,10,6,16,10,,TRUE,3,,,,fragment
+Gairdner_NODE_4298_length_11003_cov_3.762240,1,12,11,1,12,11,,TRUE,4,,,,fragment
+Gairdner_NODE_74_length_59309_cov_8.317565,1,70,69,,,,only 6-8,FALSE,3,,,,fragment
+JAANTI010000009.1,1,21,20,1,21,20,,TRUE,6,,,,complete
+JAAOHU010000009.1,1,68,67,1,68,67,circular,FALSE,7,,,,complete
+JABUQZ010000003.1,1,122,121,,,,only 6-8,FALSE,3,,,,fragment
+JAJCVI010000002.1,552,575,23,552,575,23,,TRUE,7,,,,complete
+JAJCVI010000007.1,7,34,27,7,34,27,,TRUE,7,,,,complete
+JAJNEG010000027.1,1,11,10,1,11,10,,TRUE,3,,,,fragment
+JAJNEG010000028.1,9,25,16,9,25,16,,TRUE,4,,,,fragment
+JAKRVX010000010.1,2,15,13,2,15,13,,TRUE,3,,,,fragment
+JAQLTW010000001.1,628,882,254,,,,only 6-8,FALSE,3,,,,fragment
+JDTG01000019.1,28,105,77,77,105,28,,TRUE,7,,,,complete
+Kenyon_NODE_596_length_16493_cov_7.34451,12,23,11,12,23,11,,TRUE,3,,,,fragment
+KX687704.1,2,30,28,2,30,28,,TRUE,7,,,,complete
+KX906370.1,83,111,28,83,111,28,,TRUE,7,,,,complete
+LOAJ01000002.1,40,112,72,40,66,26,,TRUE,7,,,,complete
+LWLN01000003.1,8,115,107,8,33,25,,TRUE,7,,,,complete
+NC_013748.1,4,33,29,4,33,29,,TRUE,7,,,,complete
+NC_015659.1,80,103,23,80,103,23,,TRUE,7,,,,complete
+NXNI01000003.1,79,92,13,79,92,13,,TRUE,3,,,,fragment
+PSYY01000010.1,1,7,6,1,7,6,,TRUE,1,,,,fragment
+QKNW01000002.1,13,73,60,13,45,32,,TRUE,7,,,,complete
+QPLN01000011.1,1,10,9,1,10,9,,TRUE,3,,,,fragment
+RJJW01000001.1,23,530,507,23,50,27,,TRUE,7,,,,complete
+SJER01000008.1,122,148,26,122,148,26,,TRUE,7,,,,complete
+SRIF01000015.1,53,84,31,53,84,31,,TRUE,7,,,,complete
+Torrens_NODE_2029_length_12012_cov_23.663126,1,11,10,1,11,10,,TRUE,3,,,,fragment
+Tyrell_NODE_42_length_52436_cov_43.400050,1,78,77,,,,only 6-8,FALSE,3,,,,fragment
+WOWA01000007.1,47,62,15,47,62,15,,TRUE,3,,,,fragment
+WPCC01000021.1,15,29,14,15,29,14,,TRUE,3,,,,fragment
+WSZK01000033.1,17,41,24,17,41,24,,TRUE,7,,,,complete

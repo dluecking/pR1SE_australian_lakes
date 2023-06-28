@@ -1,0 +1,73 @@
+Sn; 50
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN FPNCR           2  of  8  51.12    25.56    320        0.000101    3.1e+02     .i.i....        
+2TBN SRSVCYSPTASE    2  of  9  58.85    29.43    355        0.000254    5.2e+02     ..i..I...       
+2TBN MTP2STAPHYLO    2  of  7  49.12    24.56    391        0.00182     3.2e+03     .I..i..         
+2TBN BETATUBULIN     2  of  13 58.23    29.11    329        0.00206     7e+03       .....I...i...   
+2TBN CYTB5RDTASE     2  of  6  64.20    32.10    275        0.00468     1.2e+04     I..i..          
+2TBN RNADNAPOLMS     2  of  9  69.05    34.52    267        0.00506     2e+04       .....i..I       
+2TBN BRADYKININR     2  of  6  46.37    23.19    231        0.00524     1.6e+04     ..i..i          
+2TBN FLAVODOXIN      2  of  4  44.70    22.35    228        0.00703     2.4e+04     i.i.            
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN FPNCR           2  of  8  23.13   138     5.67e-02  QNYTVTTT                                                8    0    8     0    
+3TBN FPNCR           4  of  8  27.99   182     1.79e-03  VYIIEGTGIAELTGVVGRDE                                    20   0    117   0    
+3TBB
+3TBN SRSVCYSPTASE    3  of  9  27.27   155     6.20e-02  TTVVLRTMSGLPTGFGVPTRPI                                  22   0    14    0    
+3TBN SRSVCYSPTASE    6  of  9  31.58   200     4.09e-03  ALGVAVPETATVDVQFRSV                                     19   0    84    0    
+3TBB
+3TBN MTP2STAPHYLO    2  of  7  32.68   222     1.96e-02  QFADVDTESVEISLAALGVAVPET                                24   0    69    0    
+3TBN MTP2STAPHYLO    5  of  7  16.45   169     9.27e-02  GIDEVQLGR###############                                24   0    153   0    
+3TBB
+3TBN BETATUBULIN     6  of  13 40.51   142     5.04e-02  LRTMSGLPTG                                              10   0    18    0    
+3TBN BETATUBULIN     10 of  13 17.71   187     4.09e-02  LVLEIARRDDVYIIE                                         15   0    107   0    
+3TBB
+3TBN CYTB5RDTASE     1  of  6  37.85   145     6.33e-02  SGLPTGFGVPTR                                            12   0    22    0    
+3TBN CYTB5RDTASE     4  of  6  26.35   130     7.39e-02  VYIIEGTGIAELTGVVGRDE                                    20   0    117   0    
+3TBB
+3TBN RNADNAPOLMS     6  of  9  28.57   138     5.10e-02  PTGFGVPTRPISSD                                          14   0    25    0    
+3TBN RNADNAPOLMS     9  of  9  40.48   129     9.93e-02  LTGVVGR                                                 7    0    128   0    
+3TBB
+3TBN BRADYKININR     3  of  6  27.14   123     6.05e-02  NYTVTTTVVLRTMS                                          14   0    9     0    
+3TBN BRADYKININR     6  of  6  19.23   108     8.66e-02  VQLGR########                                           13   0    157   0    
+3TBB
+3TBN FLAVODOXIN      1  of  4  20.98   112     8.81e-02  TVVLRTMSGLPTGF                                          14   0    15    0    
+3TBN FLAVODOXIN      3  of  4  23.72   116     7.98e-02  DVQFRSVGAGH                                             11   0    96    0    
+3TBB
+3TBF
+Sn; 51
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBF
+Sn; 59
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN CYTOCHROMEC1    2  of  8  45.10    22.55    270        0.0036      7.4e+03     ..i...i.        
+2TBN GLYHDRLASE47    2  of  8  30.78    15.39    257        0.00737     1.4e+04     ......ii        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN CYTOCHROMEC1    3  of  8  19.39   126     3.68e-02  EDEDYSHPIPNRVADRAASYY                                   21   0    3     0    
+3TBN CYTOCHROMEC1    7  of  8  25.71   144     9.77e-02  ATYYRVASDWVRVICPSSGP                                    20   0    66    0    
+3TBB
+3TBN GLYHDRLASE47    7  of  8  20.57   130     7.81e-02  AQRSDRFEVLKRSWNATYYRVASDW                               25   0    51    0    
+3TBN GLYHDRLASE47    8  of  8  10.20   127     9.44e-02  GFVLSD###############                                   21   0    115   0    
+3TBB
+3TBF

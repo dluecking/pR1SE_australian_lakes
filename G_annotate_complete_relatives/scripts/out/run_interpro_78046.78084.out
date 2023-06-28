@@ -1,0 +1,16 @@
+26/06/2023 11:15:57:904 Welcome to InterProScan-5.62-94.0
+26/06/2023 11:15:57:905 Running InterProScan v5 in STANDALONE mode... on Linux
+26/06/2023 11:16:04:855 RunID: hpc-node11_20230626_111604258_18ot
+26/06/2023 11:16:17:798 Loading file /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../genes/FOIS01000007.1.fasta.faa
+26/06/2023 11:16:17:800 Running the following analyses:
+[AntiFam-7.0,CDD-3.20,Coils-2.2.1,FunFam-4.3.0,Gene3D-4.3.0,Hamap-2023_01,MobiDBLite-2.0,NCBIfam-11.0,PANTHER-17.0,Pfam-35.0,PIRSF-3.10,PIRSR-2021_05,PRINTS-42.0,ProSitePatterns-2022_05,ProSiteProfiles-2022_05,SFLD-4,SMART-9.0,SUPERFAMILY-1.75]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+26/06/2023 11:17:16:311 25% completed
+26/06/2023 11:17:58:199 50% completed
+26/06/2023 11:18:27:219 75% completed
+26/06/2023 11:18:35:359 90% completed
+26/06/2023 11:18:49:222 100% done:  InterProScan analyses completed 
+
+2023-06-26 11:18:49,729 [main] [uk.ac.ebi.interpro.scan.jms.master.AbstractMaster:259] WARN - Master process unable to delete temporary directory /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/FOIS01000007.1.fasta.faa/hpc-node11_20230626_111604258_18ot

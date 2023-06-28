@@ -1,0 +1,20 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession      qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- --------------------    ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+19                   -            420 PIRSR004576-50       PIRSR004576-50   246   3.8e-06   16.8   0.0   1   1   2.6e-07     6e-06   16.1   0.0    41   105   220   284   215   301 0.92 -
+17                   -            537 PIRSR015477-1        PIRSR015477-1  1442   3.5e-09   25.2  20.1   1   1   2.2e-10     5e-09   24.8  20.1   217   481   220   471   205   483 0.74 -
+17                   -            537 PIRSR037875-50       PIRSR037875-50   471   2.9e-14   43.0  11.2   1   2   7.5e-12   1.7e-10   30.6  11.2   134   337   211   393   204   417 0.77 -
+17                   -            537 PIRSR037875-50       PIRSR037875-50   471   2.9e-14   43.0  11.2   2   2   7.5e-05    0.0017    7.5   0.0   408   469   439   498   430   500 0.77 -
+17                   -            537 PIRSR037907-1        PIRSR037907-1   660   5.8e-26   81.2  25.2   1   1   3.8e-27   8.7e-26   80.6  25.2   140   436   199   493   188   508 0.79 -
+17                   -            537 PIRSR037907-2        PIRSR037907-2   664   4.2e-20   61.8  23.4   1   1   2.7e-21   6.2e-20   61.2  23.4   151   428   211   487   190   500 0.77 -
+17                   -            537 PIRSR037907-3        PIRSR037907-3   660   5.8e-26   81.2  25.2   1   1   3.8e-27   8.7e-26   80.6  25.2   140   436   199   493   188   508 0.79 -
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      data/pirsr/2021_05/sr_hmm_all
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobPIRSR/000000000001_000000000023.fasta
+# Option settings: bin/hmmer/hmmer3/3.1b1/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobPIRSR/000000000001_000000000023.raw.out -A /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobPIRSR/000000000001_000000000023.raw.align.out --domtblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobPIRSR/000000000001_000000000023.raw.domtblout.out --acc -E 0.01 --cpu 1 data/pirsr/2021_05/sr_hmm_all /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobPIRSR/000000000001_000000000023.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:43 2023
+# [ok]

@@ -1,0 +1,24 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession      qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- --------------------    ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+55                   -            517 PIRSR015477-1        PIRSR015477-1  1442   1.4e-05   15.5  12.7   1   1   2.2e-07   2.1e-05   14.8  12.7   205   490   198   469   183   481 0.78 -
+16                   -            196 PIRSR037293-1        PIRSR037293-1   794   4.1e-05   14.4   0.0   1   1   6.5e-07   6.4e-05   13.7   0.0    36    89   143   192   133   195 0.82 -
+87                   -            618 PIRSR037404-1        PIRSR037404-1  1614   8.8e-21   65.6   0.0   1   2   2.9e-15   2.9e-13   40.6   0.0  1136  1338     3   237     1   239 0.80 -
+87                   -            618 PIRSR037404-1        PIRSR037404-1  1614   8.8e-21   65.6   0.0   2   2   4.2e-09   4.2e-07   20.2   0.0  1551  1591   543   584   535   587 0.84 -
+87                   -            618 PIRSR037404-3        PIRSR037404-3  1614   8.8e-21   65.6   0.0   1   2   2.9e-15   2.9e-13   40.6   0.0  1136  1338     3   237     1   239 0.80 -
+87                   -            618 PIRSR037404-3        PIRSR037404-3  1614   8.8e-21   65.6   0.0   2   2   4.2e-09   4.2e-07   20.2   0.0  1551  1591   543   584   535   587 0.84 -
+55                   -            517 PIRSR037875-50       PIRSR037875-50   471   6.4e-09   27.5   3.8   1   2   9.5e-11   9.4e-09   26.9   0.9   145   260   212   321   207   349 0.80 -
+55                   -            517 PIRSR037875-50       PIRSR037875-50   471   6.4e-09   27.5   3.8   2   2    0.0074      0.73    0.9   0.1   408   422   430   444   425   474 0.89 -
+55                   -            517 PIRSR037907-1        PIRSR037907-1   660   3.5e-27   87.3  13.6   1   1   5.1e-29   5.1e-27   86.8  13.6   141   395   190   445   184   464 0.82 -
+55                   -            517 PIRSR037907-2        PIRSR037907-2   664   4.7e-25   80.3  12.1   1   1   6.9e-27   6.8e-25   79.7  12.1   141   395   191   445   183   463 0.82 -
+55                   -            517 PIRSR037907-3        PIRSR037907-3   660   3.5e-27   87.3  13.6   1   1   5.1e-29   5.1e-27   86.8  13.6   141   395   190   445   184   464 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      data/pirsr/2021_05/sr_hmm_all
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/NC_013748.1.fasta.faa/hpc-node4_20230626_111306891_b4km//jobPIRSR/000000000001_000000000099.fasta
+# Option settings: bin/hmmer/hmmer3/3.1b1/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/NC_013748.1.fasta.faa/hpc-node4_20230626_111306891_b4km//jobPIRSR/000000000001_000000000099.raw.out -A /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/NC_013748.1.fasta.faa/hpc-node4_20230626_111306891_b4km//jobPIRSR/000000000001_000000000099.raw.align.out --domtblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/NC_013748.1.fasta.faa/hpc-node4_20230626_111306891_b4km//jobPIRSR/000000000001_000000000099.raw.domtblout.out --acc -E 0.01 --cpu 1 data/pirsr/2021_05/sr_hmm_all /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/NC_013748.1.fasta.faa/hpc-node4_20230626_111306891_b4km//jobPIRSR/000000000001_000000000099.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:51 2023
+# [ok]

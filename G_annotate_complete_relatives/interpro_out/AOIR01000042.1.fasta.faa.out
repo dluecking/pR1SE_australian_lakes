@@ -1,429 +1,429 @@
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	29	269	1.17E-86	T	21-06-2023	IPR036291	NAD(P)-binding domain superfamily
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	Pfam	PF13561	Enoyl-(Acyl carrier protein) reductase	36	269	4.3E-66	T	21-06-2023	-	-
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	FunFam	G3DSA:3.40.50.720:FF:000173	3-oxoacyl-[acyl-carrier protein] reductase	25	271	1.4E-82	T	21-06-2023	-	-
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	SMART	SM00822	This enzymatic domain is part of bacterial polyketide synthases and catalyses the first step in the reductive modification of the beta-carbonyl centres in the growing polyketide chain. It uses NADPH to reduce the keto group to a hydroxy group.	30	214	2.1E-6	T	21-06-2023	-	-
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PANTHER	PTHR42879	3-OXOACYL-(ACYL-CARRIER-PROTEIN) REDUCTASE	27	270	2.4E-84	T	21-06-2023	-	-
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	233	253	1.6E-41	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	153	169	1.6E-41	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	106	117	1.6E-41	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	179	198	1.6E-41	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	200	217	1.6E-41	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	31	48	1.6E-41	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	Gene3D	G3DSA:3.40.50.720	-	11	271	3.1E-90	T	21-06-2023	-	-
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	21-06-2023	-	-
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	106	117	1.0E-14	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	179	198	1.0E-14	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	159	167	1.0E-14	T	21-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	CDD	cd05333	BKR_SDR_c	30	269	2.63029E-121	T	21-06-2023	-	-
->AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	ProSitePatterns	PS00061	Short-chain dehydrogenases/reductases family signature.	166	194	-	T	21-06-2023	IPR020904	Short-chain dehydrogenase/reductase, conserved site
->AOIR01000042.1_73	50e1bdaace178c3c9bb5c1b6c1ee8319	97	MobiDBLite	mobidb-lite	consensus disorder prediction	24	43	-	T	21-06-2023	-	-
->AOIR01000042.1_73	50e1bdaace178c3c9bb5c1b6c1ee8319	97	MobiDBLite	mobidb-lite	consensus disorder prediction	29	43	-	T	21-06-2023	-	-
->AOIR01000042.1_73	50e1bdaace178c3c9bb5c1b6c1ee8319	97	Coils	Coil	Coil	18	45	-	T	21-06-2023	-	-
->AOIR01000042.1_60	98353a7df2000504906410e2df39b61b	126	MobiDBLite	mobidb-lite	consensus disorder prediction	1	41	-	T	21-06-2023	-	-
->AOIR01000042.1_60	98353a7df2000504906410e2df39b61b	126	MobiDBLite	mobidb-lite	consensus disorder prediction	1	74	-	T	21-06-2023	-	-
->AOIR01000042.1_60	98353a7df2000504906410e2df39b61b	126	MobiDBLite	mobidb-lite	consensus disorder prediction	50	74	-	T	21-06-2023	-	-
->AOIR01000042.1_45	768a1a7267b950149f2f29bf75e007c0	272	ProSiteProfiles	PS51318	Twin arginine translocation (Tat) signal profile.	1	45	9.226624	T	21-06-2023	IPR006311	Twin-arginine translocation pathway, signal sequence
->AOIR01000042.1_45	768a1a7267b950149f2f29bf75e007c0	272	MobiDBLite	mobidb-lite	consensus disorder prediction	1	20	-	T	21-06-2023	-	-
->AOIR01000042.1_45	768a1a7267b950149f2f29bf75e007c0	272	NCBIfam	TIGR01409	twin-arginine translocation signal domain	20	45	0.0024	T	21-06-2023	IPR019546	Twin-arginine translocation pathway, signal sequence, bacterial/archaeal
->AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	PANTHER	PTHR11070	UVRD / RECB / PCRA DNA HELICASE FAMILY MEMBER	41	350	1.0E-14	T	21-06-2023	IPR000212	DNA helicase, UvrD/REP type
->AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	MobiDBLite	mobidb-lite	consensus disorder prediction	671	695	-	T	21-06-2023	-	-
->AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	Gene3D	G3DSA:3.40.50.300	-	563	659	2.4E-8	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	MobiDBLite	mobidb-lite	consensus disorder prediction	671	688	-	T	21-06-2023	-	-
->AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	Pfam	PF13245	AAA domain	38	298	1.3E-10	T	21-06-2023	-	-
->AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	Gene3D	G3DSA:3.40.50.300	-	34	317	2.9E-16	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	40	657	1.71E-34	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	ProSiteProfiles	PS51198	UvrD-like DNA helicase ATP-binding domain profile.	26	329	15.431655	T	21-06-2023	IPR014016	UvrD-like helicase, ATP-binding domain
->AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	ProSiteProfiles	PS50928	ABC transporter integral membrane type-1 domain profile.	16	217	19.750038	T	21-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
->AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	PANTHER	PTHR43632	PERMEASE COMPONENT OF TUNGSTATE ABC TRANSPORTER	12	223	5.0E-59	T	21-06-2023	-	-
->AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	Pfam	PF00528	Binding-protein-dependent transport system inner membrane component	35	217	3.2E-13	T	21-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
->AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	NCBIfam	NF038017	ABC transporter permease	19	207	1.5E-64	T	21-06-2023	-	-
->AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	CDD	cd06261	TM_PBP2	16	177	6.74317E-13	T	21-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
->AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	SUPERFAMILY	SSF161098	MetI-like	6	220	3.27E-35	T	21-06-2023	IPR035906	MetI-like superfamily
->AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	Gene3D	G3DSA:1.10.3720.10	-	3	223	8.7E-36	T	21-06-2023	IPR035906	MetI-like superfamily
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Gene3D	G3DSA:1.10.8.80	-	257	344	7.4E-24	T	21-06-2023	-	-
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	538	554	-	T	21-06-2023	-	-
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Pfam	PF17863	AAA lid domain	270	339	2.8E-21	T	21-06-2023	IPR041628	ChlI/MoxR, AAA lid domain
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	398	418	-	T	21-06-2023	-	-
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Pfam	PF01078	Magnesium chelatase, subunit ChlI	125	193	1.0E-8	T	21-06-2023	IPR000523	Magnesium chelatase ChlI-like, catalytic domain
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	SUPERFAMILY	SSF53300	vWA-like	597	758	2.08E-23	T	21-06-2023	IPR036465	von Willebrand factor A-like domain superfamily
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Coils	Coil	Coil	238	258	-	T	21-06-2023	-	-
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Pfam	PF13519	von Willebrand factor type A domain	601	701	4.3E-12	T	21-06-2023	IPR002035	von Willebrand factor, type A
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	13	337	5.2E-54	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	SMART	SM00327	VWA_4	598	765	1.0E-17	T	21-06-2023	IPR002035	von Willebrand factor, type A
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	505	522	-	T	21-06-2023	-	-
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	419	435	-	T	21-06-2023	-	-
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	PANTHER	PTHR32039	MAGNESIUM-CHELATASE SUBUNIT CHLI	10	419	1.9E-113	T	21-06-2023	IPR045006	Magnesium-chelatase subunit ChlI-like
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	322	586	-	T	21-06-2023	-	-
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	332	383	-	T	21-06-2023	-	-
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Gene3D	G3DSA:3.40.50.300	-	11	212	4.0E-59	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Gene3D	G3DSA:3.40.50.410	von Willebrand factor, type A domain	593	771	6.0E-21	T	21-06-2023	IPR036465	von Willebrand factor A-like domain superfamily
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	ProSiteProfiles	PS50234	VWFA domain profile.	600	775	12.683114	T	21-06-2023	IPR002035	von Willebrand factor, type A
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	SMART	SM00382	AAA_5	36	629	0.0054	T	21-06-2023	IPR003593	AAA+ ATPase domain
->AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	449	467	-	T	21-06-2023	-	-
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	Gene3D	G3DSA:2.130.10.10	-	14	141	2.0E-9	T	21-06-2023	IPR015943	WD40/YVTN repeat-like-containing domain superfamily
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SMART	SM00564	ire1_9	193	230	530.0	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SMART	SM00564	ire1_9	41	72	22.0	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SMART	SM00564	ire1_9	141	183	11.0	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SMART	SM00564	ire1_9	81	115	0.12	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SUPERFAMILY	SSF50998	Quinoprotein alcohol dehydrogenase-like	45	368	8.63E-19	T	21-06-2023	IPR011047	Quinoprotein alcohol dehydrogenase-like superfamily
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	Gene3D	G3DSA:2.130.10.10	-	142	406	1.6E-16	T	21-06-2023	IPR015943	WD40/YVTN repeat-like-containing domain superfamily
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	Pfam	PF13360	PQQ-like domain	167	315	1.2E-5	T	21-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
->AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	Pfam	PF13360	PQQ-like domain	34	118	6.4E-5	T	21-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
->AOIR01000042.1_4	780201719ebdbb9f3d24429275b742d2	434	MobiDBLite	mobidb-lite	consensus disorder prediction	155	178	-	T	21-06-2023	-	-
->AOIR01000042.1_4	780201719ebdbb9f3d24429275b742d2	434	MobiDBLite	mobidb-lite	consensus disorder prediction	1	28	-	T	21-06-2023	-	-
->AOIR01000042.1_4	780201719ebdbb9f3d24429275b742d2	434	MobiDBLite	mobidb-lite	consensus disorder prediction	1	20	-	T	21-06-2023	-	-
->AOIR01000042.1_39	bfe405afe6fb7fb253ea667aaa15704a	30	Coils	Coil	Coil	2	22	-	T	21-06-2023	-	-
->AOIR01000042.1_39	bfe405afe6fb7fb253ea667aaa15704a	30	MobiDBLite	mobidb-lite	consensus disorder prediction	1	30	-	T	21-06-2023	-	-
->AOIR01000042.1_58	c845b54c59120ff2355b91bcac04f88a	84	Gene3D	G3DSA:1.10.10.10	-	4	84	5.4E-12	T	21-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
->AOIR01000042.1_93	f89d6d2ce2eb60ce3145f5c93732f2fa	454	Coils	Coil	Coil	73	100	-	T	21-06-2023	-	-
->AOIR01000042.1_93	f89d6d2ce2eb60ce3145f5c93732f2fa	454	MobiDBLite	mobidb-lite	consensus disorder prediction	37	66	-	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Gene3D	G3DSA:3.40.50.1400	-	15	134	2.3E-28	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Gene3D	G3DSA:3.40.50.1400	-	142	265	7.2E-19	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	318	409	4.7E-25	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	PANTHER	PTHR33542	SIROHYDROCHLORIN FERROCHELATASE, CHLOROPLASTIC	17	266	3.7E-41	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Pfam	PF01903	CbiX	152	255	3.5E-18	T	21-06-2023	IPR002762	Sirohydrochlorin cobaltochelatase CbiX-like
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Pfam	PF01903	CbiX	25	126	9.6E-21	T	21-06-2023	IPR002762	Sirohydrochlorin cobaltochelatase CbiX-like
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	CDD	cd03416	CbiX_SirB_N	19	116	1.32665E-24	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Pfam	PF01257	Thioredoxin-like [2Fe-2S] ferredoxin	318	393	2.5E-7	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	CDD	cd02980	TRX_Fd_family	320	395	2.41166E-23	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	CDD	cd03414	CbiX_SirB_C	145	262	1.21526E-42	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	SUPERFAMILY	SSF53800	Chelatase	19	261	1.64E-39	T	21-06-2023	-	-
->AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	SUPERFAMILY	SSF52833	Thioredoxin-like	319	406	1.05E-23	T	21-06-2023	IPR036249	Thioredoxin-like superfamily
->AOIR01000042.1_29	fe0eccaabe7578bb24fecaba8c5000d0	73	Gene3D	G3DSA:2.20.28.10	-	34	68	2.8E-6	T	21-06-2023	-	-
->AOIR01000042.1_29	fe0eccaabe7578bb24fecaba8c5000d0	73	MobiDBLite	mobidb-lite	consensus disorder prediction	1	30	-	T	21-06-2023	-	-
->AOIR01000042.1_29	fe0eccaabe7578bb24fecaba8c5000d0	73	SUPERFAMILY	SSF57802	Rubredoxin-like	33	70	7.85E-6	T	21-06-2023	-	-
->AOIR01000042.1_63	d9f7f1c3980c074fe641e6c91502a552	93	MobiDBLite	mobidb-lite	consensus disorder prediction	49	93	-	T	21-06-2023	-	-
->AOIR01000042.1_63	d9f7f1c3980c074fe641e6c91502a552	93	MobiDBLite	mobidb-lite	consensus disorder prediction	1	23	-	T	21-06-2023	-	-
->AOIR01000042.1_28	5841f6aa017a3b0b76116b61aac9a49f	55	MobiDBLite	mobidb-lite	consensus disorder prediction	1	28	-	T	21-06-2023	-	-
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	ProSiteProfiles	PS51273	Glutamine amidotransferase type 1 domain profile.	249	453	9.321951	T	21-06-2023	-	-
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	NCBIfam	TIGR00379	hydrogenobyrinic acid a,c-diamide synthase (glutamine-hydrolyzing)	5	438	4.6E-98	T	21-06-2023	IPR004484	Cobyrinic acid a,c-diamide synthase CbiA
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Gene3D	G3DSA:3.40.50.300	-	3	196	6.1E-16	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	PANTHER	PTHR43873	COBYRINATE A,C-DIAMIDE SYNTHASE	1	447	2.0E-115	T	21-06-2023	IPR004484	Cobyrinic acid a,c-diamide synthase CbiA
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Pfam	PF01656	CobQ/CobB/MinD/ParA nucleotide binding domain	9	200	3.6E-11	T	21-06-2023	IPR002586	CobQ/CobB/MinD/ParA nucleotide binding domain
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Pfam	PF07685	CobB/CobQ-like glutamine amidotransferase domain	250	439	1.0E-31	T	21-06-2023	IPR011698	CobB/CobQ-like glutamine amidotransferase
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	SUPERFAMILY	SSF52317	Class I glutamine amidotransferase-like	250	439	7.4E-28	T	21-06-2023	IPR029062	Class I glutamine amidotransferase-like
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Gene3D	G3DSA:3.40.50.880	-	260	450	7.1E-10	T	21-06-2023	IPR029062	Class I glutamine amidotransferase-like
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	1	204	6.76E-29	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	CDD	cd03130	GATase1_CobB	251	445	3.79097E-75	T	21-06-2023	-	-
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Hamap	MF_00027	Hydrogenobyrinate a,c-diamide synthase [cobB].	1	440	37.673218	T	21-06-2023	IPR004484	Cobyrinic acid a,c-diamide synthase CbiA
->AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	ProSiteProfiles	PS51274	CobBQ-type GATase domain profile.	250	441	48.811302	T	21-06-2023	-	-
->AOIR01000042.1_50	cccee013a9ee64cd27420da367c0c088	85	MobiDBLite	mobidb-lite	consensus disorder prediction	61	85	-	T	21-06-2023	-	-
->AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	NCBIfam	TIGR01466	precorrin-3B C(17)-methyltransferase	94	341	6.0E-92	T	21-06-2023	IPR006363	Precorrin-3B C17-methyltransferase domain
->AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	CDD	cd11646	Precorrin_3B_C17_MT	94	340	1.62013E-119	T	21-06-2023	IPR006363	Precorrin-3B C17-methyltransferase domain
->AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	MobiDBLite	mobidb-lite	consensus disorder prediction	1	80	-	T	21-06-2023	-	-
->AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	89	344	1.31E-53	T	21-06-2023	IPR035996	Tetrapyrrole methylase superfamily
->AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	PANTHER	PTHR47036	COBALT-FACTOR III C(17)-METHYLTRANSFERASE-RELATED	85	345	1.2E-92	T	21-06-2023	-	-
->AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	94	305	3.6E-38	T	21-06-2023	IPR000878	Tetrapyrrole methylase
->AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	Gene3D	G3DSA:3.30.950.10	-	208	342	2.1E-48	T	21-06-2023	IPR014776	Tetrapyrrole methylase, subdomain 2
->AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	Gene3D	G3DSA:3.40.1010.10	-	86	206	4.7E-25	T	21-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
->AOIR01000042.1_80	6d6fbab7f95c471073c955f4b93a7239	75	MobiDBLite	mobidb-lite	consensus disorder prediction	1	24	-	T	21-06-2023	-	-
->AOIR01000042.1_92	907ad46d1c27e249c59c9d555f39d8e4	325	MobiDBLite	mobidb-lite	consensus disorder prediction	53	84	-	T	21-06-2023	-	-
->AOIR01000042.1_92	907ad46d1c27e249c59c9d555f39d8e4	325	MobiDBLite	mobidb-lite	consensus disorder prediction	35	84	-	T	21-06-2023	-	-
->AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	PANTHER	PTHR33303	CYTOPLASMIC PROTEIN-RELATED	5	136	2.0E-30	T	21-06-2023	-	-
->AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	Gene3D	G3DSA:3.40.50.720	-	3	136	7.8E-40	T	21-06-2023	-	-
->AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	Pfam	PF13380	CoA binding domain	17	131	3.9E-38	T	21-06-2023	IPR003781	CoA-binding
->AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	9	134	4.22E-37	T	21-06-2023	IPR036291	NAD(P)-binding domain superfamily
->AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	SMART	SM00881	CoA_binding_2	12	105	2.8E-18	T	21-06-2023	IPR003781	CoA-binding
->AOIR01000042.1_35	634d17bbcf87f104d46bea6fab037533	274	Pfam	PF12697	Alpha/beta hydrolase family	24	264	3.7E-20	T	21-06-2023	IPR000073	Alpha/beta hydrolase fold-1
->AOIR01000042.1_35	634d17bbcf87f104d46bea6fab037533	274	Gene3D	G3DSA:3.40.50.1820	alpha/beta hydrolase	4	273	2.4E-52	T	21-06-2023	IPR029058	Alpha/Beta hydrolase fold
->AOIR01000042.1_35	634d17bbcf87f104d46bea6fab037533	274	PANTHER	PTHR43798	MONOACYLGLYCEROL LIPASE	16	271	1.5E-29	T	21-06-2023	-	-
->AOIR01000042.1_35	634d17bbcf87f104d46bea6fab037533	274	SUPERFAMILY	SSF53474	alpha/beta-Hydrolases	5	271	1.49E-50	T	21-06-2023	IPR029058	Alpha/Beta hydrolase fold
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	MobiDBLite	mobidb-lite	consensus disorder prediction	287	306	-	T	21-06-2023	-	-
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	CDD	cd11641	Precorrin-4_C11-MT	43	268	2.18161E-106	T	21-06-2023	IPR006362	Cobalamin (vitamin B12) biosynthesis CobM/CbiF, precorrin-4 C11-methyltransferase
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	MobiDBLite	mobidb-lite	consensus disorder prediction	283	306	-	T	21-06-2023	-	-
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	MobiDBLite	mobidb-lite	consensus disorder prediction	13	34	-	T	21-06-2023	-	-
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	MobiDBLite	mobidb-lite	consensus disorder prediction	1	39	-	T	21-06-2023	-	-
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	Gene3D	G3DSA:3.40.1010.10	-	29	147	1.2E-26	T	21-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	PANTHER	PTHR45790	SIROHEME SYNTHASE-RELATED	30	286	6.0E-57	T	21-06-2023	-	-
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	Gene3D	G3DSA:3.30.950.10	-	148	268	2.6E-28	T	21-06-2023	IPR014776	Tetrapyrrole methylase, subdomain 2
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	42	246	1.6E-38	T	21-06-2023	IPR000878	Tetrapyrrole methylase
->AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	40	269	7.2E-56	T	21-06-2023	IPR035996	Tetrapyrrole methylase superfamily
->AOIR01000042.1_55	ce9c67ede4c3a1b67906a7aad33ad776	443	MobiDBLite	mobidb-lite	consensus disorder prediction	37	79	-	T	21-06-2023	-	-
->AOIR01000042.1_55	ce9c67ede4c3a1b67906a7aad33ad776	443	MobiDBLite	mobidb-lite	consensus disorder prediction	36	79	-	T	21-06-2023	-	-
->AOIR01000042.1_55	ce9c67ede4c3a1b67906a7aad33ad776	443	MobiDBLite	mobidb-lite	consensus disorder prediction	424	443	-	T	21-06-2023	-	-
->AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	Gene3D	G3DSA:1.20.120.1780	UbiA prenyltransferase	161	278	1.9E-10	T	21-06-2023	-	-
->AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	CDD	cd13961	PT_UbiA_DGGGPS	9	272	5.84674E-68	T	21-06-2023	-	-
->AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	Pfam	PF01040	UbiA prenyltransferase family	25	267	2.2E-45	T	21-06-2023	IPR000537	UbiA prenyltransferase family
->AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	PANTHER	PTHR42723	CHLOROPHYLL SYNTHASE	11	251	7.1E-38	T	21-06-2023	-	-
->AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	Hamap	MF_01286	Digeranylgeranylglyceryl phosphate synthase.	7	276	21.194298	T	21-06-2023	IPR023547	Digeranylgeranylglyceryl phosphate synthase
->AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	Gene3D	G3DSA:1.10.357.140	UbiA prenyltransferase	14	160	3.1E-26	T	21-06-2023	IPR044878	UbiA prenyltransferase superfamily
->AOIR01000042.1_11	670a8a86fbffc4111ede0ae8cb0a3420	261	MobiDBLite	mobidb-lite	consensus disorder prediction	115	198	-	T	21-06-2023	-	-
->AOIR01000042.1_11	670a8a86fbffc4111ede0ae8cb0a3420	261	MobiDBLite	mobidb-lite	consensus disorder prediction	129	198	-	T	21-06-2023	-	-
->AOIR01000042.1_27	6c3e6046bde975873c9e6f07086a6a41	188	Pfam	PF08819	Domain of unknown function (DUF1802)	15	181	1.7E-42	T	21-06-2023	IPR014923	Protein of unknown function DUF1802
->AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	SUPERFAMILY	SSF56349	DNA breaking-rejoining enzymes	15	332	5.3E-16	T	21-06-2023	IPR011010	DNA breaking-rejoining enzyme, catalytic core
->AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	ProSiteProfiles	PS51900	Core-binding (CB) domain profile.	11	114	9.380177	T	21-06-2023	IPR044068	Core-binding (CB) domain
->AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	Gene3D	G3DSA:1.10.443.10	Intergrase catalytic core	154	357	4.4E-17	T	21-06-2023	IPR013762	Integrase-like, catalytic domain superfamily
->AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	MobiDBLite	mobidb-lite	consensus disorder prediction	232	251	-	T	21-06-2023	-	-
->AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	CDD	cd00397	DNA_BRE_C	165	343	5.15296E-9	T	21-06-2023	-	-
->AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	Gene3D	G3DSA:1.10.150.130	-	6	139	1.2E-26	T	21-06-2023	IPR010998	Integrase/recombinase, N-terminal
->AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	MobiDBLite	mobidb-lite	consensus disorder prediction	230	254	-	T	21-06-2023	-	-
->AOIR01000042.1_106	8f77e9ef5e0f3a9ed1990bfc9c656526	148	SUPERFAMILY	SSF53686	Tryptophan synthase beta subunit-like PLP-dependent enzymes	8	140	8.38E-21	T	21-06-2023	IPR036052	Tryptophan synthase beta chain-like, PALP domain superfamily
->AOIR01000042.1_106	8f77e9ef5e0f3a9ed1990bfc9c656526	148	Gene3D	G3DSA:3.40.50.1100	-	7	148	2.6E-28	T	21-06-2023	IPR036052	Tryptophan synthase beta chain-like, PALP domain superfamily
->AOIR01000042.1_106	8f77e9ef5e0f3a9ed1990bfc9c656526	148	PANTHER	PTHR10314	CYSTATHIONINE BETA-SYNTHASE	8	142	3.8E-19	T	21-06-2023	-	-
->AOIR01000042.1_106	8f77e9ef5e0f3a9ed1990bfc9c656526	148	Pfam	PF00291	Pyridoxal-phosphate dependent enzyme	8	114	3.9E-12	T	21-06-2023	IPR001926	Tryptophan synthase beta chain-like, PALP domain
->AOIR01000042.1_43	8087965d9dca9e7ed4123602c001efb2	1212	SUPERFAMILY	SSF50998	Quinoprotein alcohol dehydrogenase-like	108	386	3.14E-15	T	21-06-2023	IPR011047	Quinoprotein alcohol dehydrogenase-like superfamily
->AOIR01000042.1_43	8087965d9dca9e7ed4123602c001efb2	1212	Gene3D	G3DSA:2.130.10.10	-	148	414	3.7E-14	T	21-06-2023	IPR015943	WD40/YVTN repeat-like-containing domain superfamily
->AOIR01000042.1_43	8087965d9dca9e7ed4123602c001efb2	1212	Pfam	PF13360	PQQ-like domain	103	218	8.2E-5	T	21-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
->AOIR01000042.1_43	8087965d9dca9e7ed4123602c001efb2	1212	Coils	Coil	Coil	593	613	-	T	21-06-2023	-	-
->AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	MobiDBLite	mobidb-lite	consensus disorder prediction	659	680	-	T	21-06-2023	-	-
->AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	Pfam	PF02514	CobN/Magnesium Chelatase	109	1266	0.0	T	21-06-2023	IPR003672	CobN/magnesium chelatase
->AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	NCBIfam	TIGR02257	cobaltochelatase subunit CobN	6	1278	0.0	T	21-06-2023	IPR011953	Cobaltochelatase, CobN subunit
->AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	Coils	Coil	Coil	602	622	-	T	21-06-2023	-	-
->AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	CDD	cd10150	CobN_like	39	1156	0.0	T	21-06-2023	IPR003672	CobN/magnesium chelatase
->AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	PANTHER	PTHR44119	MAGNESIUM-CHELATASE SUBUNIT CHLH, CHLOROPLASTIC	82	1289	0.0	T	21-06-2023	IPR003672	CobN/magnesium chelatase
->AOIR01000042.1_86	7e04a621551eadace08be407ee7f7bf5	66	MobiDBLite	mobidb-lite	consensus disorder prediction	1	30	-	T	21-06-2023	-	-
->AOIR01000042.1_86	7e04a621551eadace08be407ee7f7bf5	66	MobiDBLite	mobidb-lite	consensus disorder prediction	1	24	-	T	21-06-2023	-	-
->AOIR01000042.1_15	ac943afbb5da7060947a124b3a9354c1	123	Pfam	PF11483	Protein of unknown function (DUF3209)	1	122	7.5E-50	T	21-06-2023	IPR021577	Protein of unknown function DUF3209
->AOIR01000042.1_15	ac943afbb5da7060947a124b3a9354c1	123	Coils	Coil	Coil	46	73	-	T	21-06-2023	-	-
->AOIR01000042.1_15	ac943afbb5da7060947a124b3a9354c1	123	Gene3D	G3DSA:6.10.140.1220	-	1	122	2.4E-35	T	21-06-2023	-	-
->AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	CDD	cd00293	USP_Like	3	116	5.125E-7	T	21-06-2023	-	-
->AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	MobiDBLite	mobidb-lite	consensus disorder prediction	71	92	-	T	21-06-2023	-	-
->AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	Gene3D	G3DSA:3.40.50.620	HUPs	2	146	7.1E-11	T	21-06-2023	IPR014729	Rossmann-like alpha/beta/alpha sandwich fold
->AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	MobiDBLite	mobidb-lite	consensus disorder prediction	72	86	-	T	21-06-2023	-	-
->AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	SUPERFAMILY	SSF52402	Adenine nucleotide alpha hydrolases-like	3	147	1.17E-10	T	21-06-2023	-	-
->AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	Pfam	PF00582	Universal stress protein family	3	121	9.2E-10	T	21-06-2023	IPR006016	UspA
->AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	MobiDBLite	mobidb-lite	consensus disorder prediction	145	166	-	T	21-06-2023	-	-
->AOIR01000042.1_42	826e71066aa4cad3ae0e81d328b63344	119	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	21-06-2023	-	-
->AOIR01000042.1_61	12687b3f787a19fac83d56e88e48d40c	115	MobiDBLite	mobidb-lite	consensus disorder prediction	1	23	-	T	21-06-2023	-	-
->AOIR01000042.1_78	2624ee644ca2c1d1ae05fb52f136eddd	241	Gene3D	G3DSA:3.40.50.1390	-	1	160	4.5E-8	T	21-06-2023	IPR036162	Resolvase-like, N-terminal catalytic domain superfamily
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	MobiDBLite	mobidb-lite	consensus disorder prediction	415	441	-	T	21-06-2023	-	-
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Gene3D	G3DSA:2.40.10.480	-	280	354	2.5E-18	T	21-06-2023	-	-
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SUPERFAMILY	SSF50998	Quinoprotein alcohol dehydrogenase-like	329	416	3.34E-24	T	21-06-2023	IPR011047	Quinoprotein alcohol dehydrogenase-like superfamily
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Gene3D	G3DSA:2.40.128.630	-	355	428	6.5E-11	T	21-06-2023	-	-
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Pfam	PF13360	PQQ-like domain	296	406	2.6E-15	T	21-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Pfam	PF13360	PQQ-like domain	117	255	5.0E-19	T	21-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SUPERFAMILY	SSF50998	Quinoprotein alcohol dehydrogenase-like	57	323	1.06E-41	T	21-06-2023	IPR011047	Quinoprotein alcohol dehydrogenase-like superfamily
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	322	355	9.1E-5	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	104	134	2.6	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	364	395	3.0E-6	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	281	313	0.009	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	148	179	1.3E-8	T	21-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	PANTHER	PTHR34512	CELL SURFACE PROTEIN	263	413	8.0E-45	T	21-06-2023	-	-
->AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Gene3D	G3DSA:2.130.10.10	-	75	274	1.3E-34	T	21-06-2023	IPR015943	WD40/YVTN repeat-like-containing domain superfamily
->AOIR01000042.1_31	2aeed955df0ee7846524ca5ea2fd7ac7	248	PANTHER	PTHR43588	COBALT-PRECORRIN-8 METHYLMUTASE	15	225	1.1E-52	T	21-06-2023	-	-
->AOIR01000042.1_31	2aeed955df0ee7846524ca5ea2fd7ac7	248	Pfam	PF02570	Precorrin-8X methylmutase	22	222	1.5E-50	T	21-06-2023	IPR003722	Cobalamin biosynthesis precorrin-8X methylmutase CobH/CbiC
->AOIR01000042.1_31	2aeed955df0ee7846524ca5ea2fd7ac7	248	Gene3D	G3DSA:3.40.50.10230	-	16	236	9.3E-47	T	21-06-2023	IPR036588	Precorrin-8X methylmutase CobH/CbiC superfamily
->AOIR01000042.1_31	2aeed955df0ee7846524ca5ea2fd7ac7	248	SUPERFAMILY	SSF63965	Precorrin-8X methylmutase CbiC/CobH	22	225	2.09E-43	T	21-06-2023	IPR036588	Precorrin-8X methylmutase CobH/CbiC superfamily
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	CDD	cd00293	USP_Like	5	139	2.70946E-30	T	21-06-2023	-	-
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	Pfam	PF00582	Universal stress protein family	1	139	1.8E-32	T	21-06-2023	IPR006016	UspA
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	Gene3D	G3DSA:3.40.50.620	HUPs	1	141	3.3E-38	T	21-06-2023	IPR014729	Rossmann-like alpha/beta/alpha sandwich fold
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	MobiDBLite	mobidb-lite	consensus disorder prediction	144	161	-	T	21-06-2023	-	-
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	SUPERFAMILY	SSF52402	Adenine nucleotide alpha hydrolases-like	1	140	1.93E-37	T	21-06-2023	-	-
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	PRINTS	PR01438	Universal stress protein signature	2	20	8.5E-16	T	21-06-2023	IPR006015	Universal stress protein A family
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	PRINTS	PR01438	Universal stress protein signature	100	112	8.5E-16	T	21-06-2023	IPR006015	Universal stress protein A family
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	PRINTS	PR01438	Universal stress protein signature	118	140	8.5E-16	T	21-06-2023	IPR006015	Universal stress protein A family
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	MobiDBLite	mobidb-lite	consensus disorder prediction	140	161	-	T	21-06-2023	-	-
->AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	PANTHER	PTHR46268	STRESS RESPONSE PROTEIN NHAX	49	140	2.1E-22	T	21-06-2023	-	-
->AOIR01000042.1_100	520c7807ff1bebead6a1751860560df0	60	MobiDBLite	mobidb-lite	consensus disorder prediction	1	36	-	T	21-06-2023	-	-
->AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	273	302	-	T	21-06-2023	-	-
->AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	347	370	-	T	21-06-2023	-	-
->AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	1	149	-	T	21-06-2023	-	-
->AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	270	311	-	T	21-06-2023	-	-
->AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	46	105	-	T	21-06-2023	-	-
->AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	1	36	-	T	21-06-2023	-	-
->AOIR01000042.1_103	a96f06560b700db5c1650d2fa950f0fa	210	Gene3D	G3DSA:3.40.50.300	-	3	206	1.4E-14	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_103	a96f06560b700db5c1650d2fa950f0fa	210	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	12	196	1.02E-5	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_72	b2aeec1e448205065e51aa9ea44fb43a	207	SUPERFAMILY	SSF46894	C-terminal effector domain of the bipartite response regulators	116	172	2.89E-5	T	21-06-2023	IPR016032	Signal transduction response regulator, C-terminal effector
->AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	ProSiteProfiles	PS50893	ATP-binding cassette, ABC transporter-type domain profile.	3	254	25.703707	T	21-06-2023	IPR003439	ABC transporter-like, ATP-binding domain
->AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	Gene3D	G3DSA:3.40.50.300	-	1	258	8.5E-70	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	3	246	3.63E-63	T	21-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
->AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	PANTHER	PTHR43423	ABC TRANSPORTER I FAMILY MEMBER 17	5	256	2.4E-58	T	21-06-2023	IPR005670	Phosphate import ATP-binding protein PstB-like
->AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	CDD	cd03260	ABC_PstB_phosphate_transporter	3	237	3.11141E-79	T	21-06-2023	IPR005670	Phosphate import ATP-binding protein PstB-like
->AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	ProSitePatterns	PS00211	ABC transporters family signature.	155	169	-	T	21-06-2023	IPR017871	ABC transporter-like, conserved site
->AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	Pfam	PF00005	ABC transporter	18	183	1.2E-31	T	21-06-2023	IPR003439	ABC transporter-like, ATP-binding domain
->AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	SMART	SM00382	AAA_5	27	230	2.0E-15	T	21-06-2023	IPR003593	AAA+ ATPase domain
->AOIR01000042.1_94	a09ccbd3664621c2edd1906cacff4ceb	143	Gene3D	G3DSA:1.10.472.10	-	23	110	2.0E-5	T	21-06-2023	-	-
->AOIR01000042.1_94	a09ccbd3664621c2edd1906cacff4ceb	143	SUPERFAMILY	SSF47954	Cyclin-like	13	100	1.53E-6	T	21-06-2023	IPR036915	Cyclin-like superfamily
->AOIR01000042.1_54	35a92c6f7b746b59ca37638d885ce641	341	Coils	Coil	Coil	241	289	-	T	21-06-2023	-	-
->AOIR01000042.1_54	35a92c6f7b746b59ca37638d885ce641	341	MobiDBLite	mobidb-lite	consensus disorder prediction	305	341	-	T	21-06-2023	-	-
->AOIR01000042.1_87	42f7bf520fbfa5dd643ca1113ca7f542	109	Pfam	PF18902	Domain of unknown function (DUF5658)	21	100	5.0E-8	T	21-06-2023	IPR043717	Domain of unknown function DUF5658
->AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	Pfam	PF01575	MaoC like domain	96	188	3.7E-20	T	21-06-2023	IPR002539	MaoC-like dehydratase domain
->AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	PANTHER	PTHR43437	HYDROXYACYL-THIOESTER DEHYDRATASE TYPE 2, MITOCHONDRIAL-RELATED	83	212	6.0E-25	T	21-06-2023	-	-
->AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	21-06-2023	-	-
->AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	CDD	cd03449	R_hydratase	87	211	4.31938E-46	T	21-06-2023	-	-
->AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	SUPERFAMILY	SSF54637	Thioesterase/thiol ester dehydrase-isomerase	85	211	2.14E-30	T	21-06-2023	IPR029069	HotDog domain superfamily
->AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	Gene3D	G3DSA:3.10.129.10	Hotdog Thioesterase	61	212	1.0E-35	T	21-06-2023	-	-
->AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	Gene3D	G3DSA:3.40.50.11220	-	26	141	7.6E-24	T	21-06-2023	-	-
->AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	Pfam	PF11760	Cobalamin synthesis G N-terminal	68	146	4.4E-27	T	21-06-2023	IPR021744	Cobalamin synthesis G, N-terminal
->AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	SUPERFAMILY	SSF159672	CbiG N-terminal domain-like	33	182	4.84E-37	T	21-06-2023	IPR038029	GbiG N-terminal domain superfamily
->AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	Gene3D	G3DSA:3.30.420.180	-	207	329	9.2E-25	T	21-06-2023	IPR036518	CobE/GbiG C-terminal domain superfamily
->AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	PANTHER	PTHR37477	COBALT-PRECORRIN-5A HYDROLASE	30	329	4.1E-78	T	21-06-2023	-	-
->AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	Pfam	PF01890	Cobalamin synthesis G C-terminus	211	327	8.6E-22	T	21-06-2023	IPR002750	CobE/GbiG C-terminal domain
->AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	21-06-2023	-	-
->AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	SUPERFAMILY	SSF159664	CobE/GbiG C-terminal domain-like	211	329	6.02E-25	T	21-06-2023	IPR036518	CobE/GbiG C-terminal domain superfamily
->AOIR01000042.1_95	9af16f7c70c941ecd3c5c5899da16fb8	238	Gene3D	G3DSA:1.10.10.10	-	10	94	2.3E-10	T	21-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
->AOIR01000042.1_95	9af16f7c70c941ecd3c5c5899da16fb8	238	MobiDBLite	mobidb-lite	consensus disorder prediction	116	130	-	T	21-06-2023	-	-
->AOIR01000042.1_95	9af16f7c70c941ecd3c5c5899da16fb8	238	MobiDBLite	mobidb-lite	consensus disorder prediction	106	132	-	T	21-06-2023	-	-
->AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	Gene3D	G3DSA:3.40.190.10	-	130	240	9.8E-91	T	21-06-2023	-	-
->AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	SUPERFAMILY	SSF53850	Periplasmic binding protein-like II	52	282	2.17E-25	T	21-06-2023	-	-
->AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	Gene3D	G3DSA:3.40.190.10	-	52	292	9.8E-91	T	21-06-2023	-	-
->AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	PANTHER	PTHR37945	EXTRACELLULAR TUNGSTATE BINDING PROTEIN	44	294	5.7E-88	T	21-06-2023	-	-
->AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	Pfam	PF12849	PBP superfamily domain	49	274	9.0E-25	T	21-06-2023	IPR024370	PBP domain
->AOIR01000042.1_68	c558ac0ad287e166529dad721eaca62b	223	Pfam	PF03104	DNA polymerase family B, exonuclease domain	74	115	9.2E-7	T	21-06-2023	IPR006133	DNA-directed DNA polymerase, family B, exonuclease domain
->AOIR01000042.1_68	c558ac0ad287e166529dad721eaca62b	223	Gene3D	G3DSA:3.30.420.10	-	22	167	1.6E-10	T	21-06-2023	IPR036397	Ribonuclease H superfamily
->AOIR01000042.1_68	c558ac0ad287e166529dad721eaca62b	223	SUPERFAMILY	SSF53098	Ribonuclease H-like	23	219	1.45E-15	T	21-06-2023	IPR012337	Ribonuclease H-like superfamily
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	Gene3D	G3DSA:3.30.310.10	-	12	99	6.5E-43	T	21-06-2023	IPR012295	TBP domain superfamily
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PANTHER	PTHR10126	TATA-BOX BINDING PROTEIN	7	177	1.6E-20	T	21-06-2023	IPR000814	TATA-box binding protein
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PRINTS	PR00686	Transcription initiation factor TFIID signature	7	22	2.1E-17	T	21-06-2023	IPR000814	TATA-box binding protein
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PRINTS	PR00686	Transcription initiation factor TFIID signature	99	115	2.1E-17	T	21-06-2023	IPR000814	TATA-box binding protein
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PRINTS	PR00686	Transcription initiation factor TFIID signature	124	139	2.1E-17	T	21-06-2023	IPR000814	TATA-box binding protein
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PRINTS	PR00686	Transcription initiation factor TFIID signature	143	159	2.1E-17	T	21-06-2023	IPR000814	TATA-box binding protein
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	SUPERFAMILY	SSF55945	TATA-box binding protein-like	93	178	1.4E-20	T	21-06-2023	-	-
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	SUPERFAMILY	SSF55945	TATA-box binding protein-like	5	89	2.2E-12	T	21-06-2023	-	-
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	Gene3D	G3DSA:3.30.310.10	-	7	171	6.5E-43	T	21-06-2023	IPR012295	TBP domain superfamily
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	Pfam	PF00352	Transcription factor TFIID (or TATA-binding protein, TBP)	97	177	5.1E-21	T	21-06-2023	IPR000814	TATA-box binding protein
->AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	Pfam	PF00352	Transcription factor TFIID (or TATA-binding protein, TBP)	5	84	7.1E-11	T	21-06-2023	IPR000814	TATA-box binding protein
->AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	Pfam	PF00145	C-5 cytosine-specific DNA methylase	31	146	1.7E-9	T	21-06-2023	IPR001525	C-5 cytosine methyltransferase
->AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	MobiDBLite	mobidb-lite	consensus disorder prediction	239	258	-	T	21-06-2023	-	-
->AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	MobiDBLite	mobidb-lite	consensus disorder prediction	1	27	-	T	21-06-2023	-	-
->AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	PRINTS	PR00105	Cytosine-specific DNA methyltransferase signature	30	46	2.6E-5	T	21-06-2023	IPR001525	C-5 cytosine methyltransferase
->AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	PRINTS	PR00105	Cytosine-specific DNA methyltransferase signature	135	149	2.6E-5	T	21-06-2023	IPR001525	C-5 cytosine methyltransferase
->AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	30	239	4.9E-18	T	21-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
->AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	29	169	7.21E-20	T	21-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Pfam	PF02384	N-6 DNA Methylase	434	726	2.0E-16	T	21-06-2023	IPR003356	DNA methylase, adenine-specific
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	1196	1200	-	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Pfam	PF20465	MmeI, helicase spacer domain	390	465	3.6E-7	T	21-06-2023	IPR046819	MmeI-like, helicase spacer domain
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	1034	1061	-	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	MobiDBLite	mobidb-lite	consensus disorder prediction	1	29	-	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	ProSitePatterns	PS00092	N-6 Adenine-specific DNA methylases signature.	619	625	-	T	21-06-2023	IPR002052	DNA methylase, N-6 adenine-specific, conserved site
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	435	762	2.2E-46	T	21-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	199	236	-	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	455	471	3.0E-18	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	487	501	3.0E-18	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	616	628	3.0E-18	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	652	676	3.0E-18	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	MobiDBLite	mobidb-lite	consensus disorder prediction	865	881	-	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	MobiDBLite	mobidb-lite	consensus disorder prediction	10	29	-	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PANTHER	PTHR33841	DNA METHYLTRANSFERASE YEEA-RELATED	213	759	2.2E-42	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Pfam	PF12950	TaqI-like C-terminal specificity domain	881	1022	3.0E-9	T	21-06-2023	IPR025931	TaqI-like C-terminal specificity domain
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	339	730	2.21E-52	T	21-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	MobiDBLite	mobidb-lite	consensus disorder prediction	851	881	-	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	279	299	-	T	21-06-2023	-	-
->AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	1143	1163	-	T	21-06-2023	-	-
->AOIR01000042.1_89	0c05b86700e2f06beaf4e0cae3c3d482	446	MobiDBLite	mobidb-lite	consensus disorder prediction	243	267	-	T	21-06-2023	-	-
->AOIR01000042.1_89	0c05b86700e2f06beaf4e0cae3c3d482	446	MobiDBLite	mobidb-lite	consensus disorder prediction	418	437	-	T	21-06-2023	-	-
->AOIR01000042.1_89	0c05b86700e2f06beaf4e0cae3c3d482	446	MobiDBLite	mobidb-lite	consensus disorder prediction	39	63	-	T	21-06-2023	-	-
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	13	98	3.85E-16	T	21-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Gene3D	G3DSA:2.40.50.100	-	142	223	4.6E-18	T	21-06-2023	-	-
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	SUPERFAMILY	SSF50331	MOP-like	104	226	5.1E-17	T	21-06-2023	IPR008995	Molybdate/tungstate binding, C-terminal
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	PANTHER	PTHR30432	TRANSCRIPTIONAL REGULATOR MODE	13	215	1.6E-12	T	21-06-2023	-	-
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Pfam	PF00126	Bacterial regulatory helix-turn-helix protein, lysR family	22	80	4.7E-8	T	21-06-2023	IPR000847	Transcription regulator HTH, LysR
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Pfam	PF03459	TOBE domain	160	225	5.2E-14	T	21-06-2023	IPR005116	Transport-associated OB, type 1
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Gene3D	G3DSA:1.10.10.10	-	6	122	4.2E-21	T	21-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	ProSiteProfiles	PS51866	Mop domain profile.	159	229	20.059258	T	21-06-2023	IPR004606	Molybdenum-pterin binding domain
->AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Coils	Coil	Coil	37	57	-	T	21-06-2023	-	-
->AOIR01000042.1_56	a83b3dd68313ca3a454b86c7a826c39d	510	MobiDBLite	mobidb-lite	consensus disorder prediction	180	201	-	T	21-06-2023	-	-
->AOIR01000042.1_56	a83b3dd68313ca3a454b86c7a826c39d	510	MobiDBLite	mobidb-lite	consensus disorder prediction	481	510	-	T	21-06-2023	-	-
->AOIR01000042.1_12	fe2d4f4fb4129c2e47447ed0934a9c52	165	MobiDBLite	mobidb-lite	consensus disorder prediction	76	165	-	T	21-06-2023	-	-
->AOIR01000042.1_12	fe2d4f4fb4129c2e47447ed0934a9c52	165	MobiDBLite	mobidb-lite	consensus disorder prediction	71	165	-	T	21-06-2023	-	-
->AOIR01000042.1_38	ab2d505b42ffa74bd8682ee53f6424ef	103	MobiDBLite	mobidb-lite	consensus disorder prediction	1	15	-	T	21-06-2023	-	-
->AOIR01000042.1_38	ab2d505b42ffa74bd8682ee53f6424ef	103	MobiDBLite	mobidb-lite	consensus disorder prediction	1	20	-	T	21-06-2023	-	-
->AOIR01000042.1_53	8a29e66b9edb4cc00ccfec24cd1b54a4	193	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	21-06-2023	-	-
->AOIR01000042.1_53	8a29e66b9edb4cc00ccfec24cd1b54a4	193	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	21-06-2023	-	-
->AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	Gene3D	G3DSA:3.40.1010.10	-	13	148	8.2E-28	T	21-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
->AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	19	230	9.4E-46	T	21-06-2023	IPR000878	Tetrapyrrole methylase
->AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	MobiDBLite	mobidb-lite	consensus disorder prediction	60	78	-	T	21-06-2023	-	-
->AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	17	272	2.22E-48	T	21-06-2023	IPR035996	Tetrapyrrole methylase superfamily
->AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	PANTHER	PTHR47036	COBALT-FACTOR III C(17)-METHYLTRANSFERASE-RELATED	16	286	1.9E-71	T	21-06-2023	-	-
->AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	MobiDBLite	mobidb-lite	consensus disorder prediction	59	78	-	T	21-06-2023	-	-
->AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	CDD	cd11646	Precorrin_3B_C17_MT	20	283	2.17073E-98	T	21-06-2023	IPR006363	Precorrin-3B C17-methyltransferase domain
->AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	Gene3D	G3DSA:3.30.950.10	-	149	283	1.3E-37	T	21-06-2023	IPR014776	Tetrapyrrole methylase, subdomain 2
->AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	205	228	-	T	21-06-2023	-	-
->AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	1	26	-	T	21-06-2023	-	-
->AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	192	273	-	T	21-06-2023	-	-
->AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	145	171	-	T	21-06-2023	-	-
->AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	1	81	-	T	21-06-2023	-	-
->AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	121	178	-	T	21-06-2023	-	-
->AOIR01000042.1_18	2c410241783e27814100cc46b48cb9f9	88	Gene3D	G3DSA:3.30.70.20	-	3	86	5.2E-8	T	21-06-2023	-	-
->AOIR01000042.1_18	2c410241783e27814100cc46b48cb9f9	88	Pfam	PF13459	4Fe-4S single cluster domain	6	83	2.4E-18	T	21-06-2023	-	-
->AOIR01000042.1_18	2c410241783e27814100cc46b48cb9f9	88	SUPERFAMILY	SSF54862	4Fe-4S ferredoxins	4	85	3.29E-5	T	21-06-2023	-	-
->AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	MobiDBLite	mobidb-lite	consensus disorder prediction	1	26	-	T	21-06-2023	-	-
->AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	Gene3D	G3DSA:3.40.50.12780	-	34	529	2.6E-172	T	21-06-2023	IPR042099	ANL, N-terminal domain
->AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	Pfam	PF16177	Acetyl-coenzyme A synthetase N-terminus	37	87	6.6E-14	T	21-06-2023	IPR032387	Acetyl-coenzyme A synthetase, N-terminal domain
->AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	SUPERFAMILY	SSF56801	Acetyl-CoA synthetase-like	37	537	2.35E-128	T	21-06-2023	-	-
->AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	PANTHER	PTHR24095	ACETYL-COENZYME A SYNTHETASE	37	537	2.9E-181	T	21-06-2023	-	-
->AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	FunFam	G3DSA:3.40.50.12780:FF:000001	Acetyl-coenzyme A synthetase	19	529	4.2E-181	T	21-06-2023	-	-
->AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	ProSitePatterns	PS00455	Putative AMP-binding domain signature.	267	278	-	T	21-06-2023	IPR020845	AMP-binding, conserved site
->AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	Pfam	PF00501	AMP-binding enzyme	96	534	1.2E-95	T	21-06-2023	IPR000873	AMP-dependent synthetase/ligase domain
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	MobiDBLite	mobidb-lite	consensus disorder prediction	221	267	-	T	21-06-2023	-	-
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	2	195	5.9E-37	T	21-06-2023	IPR000878	Tetrapyrrole methylase
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	PANTHER	PTHR43467	COBALT-PRECORRIN-2 C(20)-METHYLTRANSFERASE	1	217	3.3E-56	T	21-06-2023	-	-
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	PIRSF	PIRSF036427	Precrrn-2_mtase	1	220	1.0E-54	T	21-06-2023	IPR012382	Precorrin-2 C(20)-methyltransferase
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	1	205	1.96E-35	T	21-06-2023	IPR035996	Tetrapyrrole methylase superfamily
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	CDD	cd11645	Precorrin_2_C20_MT	6	209	1.17284E-51	T	21-06-2023	IPR012382	Precorrin-2 C(20)-methyltransferase
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	ProSitePatterns	PS00839	Uroporphyrin-III C-methyltransferase signature 1.	6	20	-	T	21-06-2023	IPR003043	Uroporphiryn-III C-methyltransferase, conserved site
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	MobiDBLite	mobidb-lite	consensus disorder prediction	251	267	-	T	21-06-2023	-	-
->AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	Gene3D	G3DSA:3.40.1010.10	-	1	120	1.2E-26	T	21-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Gene3D	G3DSA:1.10.472.170	-	34	222	1.7E-47	T	21-06-2023	-	-
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SUPERFAMILY	SSF57783	Zinc beta-ribbon	33	75	1.6E-10	T	21-06-2023	-	-
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	45	65	1.3E-29	T	21-06-2023	IPR000812	Transcription factor TFIIB
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	67	80	1.3E-29	T	21-06-2023	IPR000812	Transcription factor TFIIB
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	80	101	1.3E-29	T	21-06-2023	IPR000812	Transcription factor TFIIB
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	188	207	1.3E-29	T	21-06-2023	IPR000812	Transcription factor TFIIB
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	278	294	1.3E-29	T	21-06-2023	IPR000812	Transcription factor TFIIB
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	310	324	1.3E-29	T	21-06-2023	IPR000812	Transcription factor TFIIB
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Pfam	PF08271	TFIIB zinc-binding	35	72	1.5E-9	T	21-06-2023	IPR013137	Zinc finger, TFIIB-type
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	MobiDBLite	mobidb-lite	consensus disorder prediction	1	34	-	T	21-06-2023	-	-
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Gene3D	G3DSA:1.10.472.10	-	238	328	6.5E-12	T	21-06-2023	-	-
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	MobiDBLite	mobidb-lite	consensus disorder prediction	69	144	-	T	21-06-2023	-	-
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	MobiDBLite	mobidb-lite	consensus disorder prediction	102	131	-	T	21-06-2023	-	-
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PANTHER	PTHR11618	TRANSCRIPTION INITIATION FACTOR IIB-RELATED	35	320	5.0E-43	T	21-06-2023	IPR000812	Transcription factor TFIIB
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SMART	SM00385	cyclin_7	146	228	6.5E-4	T	21-06-2023	IPR013763	Cyclin-like domain
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SMART	SM00385	cyclin_7	241	324	4.9	T	21-06-2023	IPR013763	Cyclin-like domain
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Pfam	PF00382	Transcription factor TFIIB repeat	235	323	5.5E-10	T	21-06-2023	IPR013150	Transcription factor TFIIB, cyclin-like domain
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Pfam	PF00382	Transcription factor TFIIB repeat	140	214	5.4E-15	T	21-06-2023	IPR013150	Transcription factor TFIIB, cyclin-like domain
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	MobiDBLite	mobidb-lite	consensus disorder prediction	71	101	-	T	21-06-2023	-	-
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	ProSitePatterns	PS00782	Transcription factor TFIIB repeat signature.	277	292	-	T	21-06-2023	IPR023486	Transcription factor TFIIB, conserved site
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	ProSiteProfiles	PS51134	Zinc finger TFIIB-type profile.	32	60	7.9866	T	21-06-2023	IPR013137	Zinc finger, TFIIB-type
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SUPERFAMILY	SSF47954	Cyclin-like	238	327	1.02E-13	T	21-06-2023	IPR036915	Cyclin-like superfamily
->AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SUPERFAMILY	SSF47954	Cyclin-like	144	213	1.82E-16	T	21-06-2023	IPR036915	Cyclin-like superfamily
->AOIR01000042.1_40	2bd76cbc733bbf54b95d6810ba909476	186	MobiDBLite	mobidb-lite	consensus disorder prediction	37	95	-	T	21-06-2023	-	-
->AOIR01000042.1_40	2bd76cbc733bbf54b95d6810ba909476	186	MobiDBLite	mobidb-lite	consensus disorder prediction	1	35	-	T	21-06-2023	-	-
->AOIR01000042.1_40	2bd76cbc733bbf54b95d6810ba909476	186	MobiDBLite	mobidb-lite	consensus disorder prediction	1	132	-	T	21-06-2023	-	-
->AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	PANTHER	PTHR43182	COBALT-PRECORRIN-6B C(15)-METHYLTRANSFERASE (DECARBOXYLATING)	15	179	9.7E-23	T	21-06-2023	-	-
->AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	12	118	8.28E-15	T	21-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
->AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	NCBIfam	TIGR02469	precorrin-6Y C5,15-methyltransferase (decarboxylating) subunit CbiT	14	130	2.2E-25	T	21-06-2023	IPR014008	Cobalamin biosynthesis, precorrin-6Y methyltransferase, CbiT subunit
->AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	MobiDBLite	mobidb-lite	consensus disorder prediction	180	201	-	T	21-06-2023	-	-
->AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	7	190	2.3E-36	T	21-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	ProSitePatterns	PS00136	Serine proteases, subtilase family, aspartic acid active site.	250	260	-	T	21-06-2023	IPR023827	Peptidase S8, subtilisin, Asp-active site
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	21-06-2023	-	-
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	Pfam	PF00082	Subtilase family	245	501	5.4E-37	T	21-06-2023	IPR000209	Peptidase S8/S53 domain
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	MobiDBLite	mobidb-lite	consensus disorder prediction	1	37	-	T	21-06-2023	-	-
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	NCBIfam	TIGR01409	twin-arginine translocation signal domain	38	61	0.005	T	21-06-2023	IPR019546	Twin-arginine translocation pathway, signal sequence, bacterial/archaeal
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	ProSiteProfiles	PS51318	Twin arginine translocation (Tat) signal profile.	1	63	9.156099	T	21-06-2023	IPR006311	Twin-arginine translocation pathway, signal sequence
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	245	264	2.9E-13	T	21-06-2023	IPR015500	Peptidase S8, subtilisin-related
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	292	305	2.9E-13	T	21-06-2023	IPR015500	Peptidase S8, subtilisin-related
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	463	479	2.9E-13	T	21-06-2023	IPR015500	Peptidase S8, subtilisin-related
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	SUPERFAMILY	SSF52743	Subtilisin-like	236	525	1.17E-52	T	21-06-2023	IPR036852	Peptidase S8/S53 domain superfamily
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	ProSiteProfiles	PS51892	Serine proteases, subtilase domain profile.	226	523	29.997477	T	21-06-2023	-	-
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	PANTHER	PTHR43806	PEPTIDASE S8	157	484	2.9E-37	T	21-06-2023	-	-
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	ProSitePatterns	PS00138	Serine proteases, subtilase family, serine active site.	464	474	-	T	21-06-2023	IPR023828	Peptidase S8, subtilisin, Ser-active site
->AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	Gene3D	G3DSA:3.40.50.200	Peptidase S8/S53 domain	217	527	1.2E-55	T	21-06-2023	IPR036852	Peptidase S8/S53 domain superfamily
->AOIR01000042.1_90	5f769f8ba0d0e3c2e5a9068c6b9e6e67	67	Pfam	PF12802	MarR family	8	53	2.6E-6	T	21-06-2023	IPR000835	MarR-type HTH domain
->AOIR01000042.1_90	5f769f8ba0d0e3c2e5a9068c6b9e6e67	67	Gene3D	G3DSA:1.10.10.10	-	2	58	1.3E-6	T	21-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
->AOIR01000042.1_90	5f769f8ba0d0e3c2e5a9068c6b9e6e67	67	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	10	55	7.67E-6	T	21-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
->AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	555	578	-	T	21-06-2023	-	-
->AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	21-06-2023	-	-
->AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	476	578	-	T	21-06-2023	-	-
->AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	1	18	-	T	21-06-2023	-	-
->AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	235	262	-	T	21-06-2023	-	-
->AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	477	500	-	T	21-06-2023	-	-
->AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	511	538	-	T	21-06-2023	-	-
->AOIR01000042.1_88	9a75b47574364c4093cfc8f3e5452cf2	208	Pfam	PF05869	DNA N-6-adenine-methyltransferase (Dam)	25	147	2.0E-18	T	21-06-2023	IPR008593	DNA N-6-adenine-methyltransferase
->AOIR01000042.1_57	dd0379a54551ffeb9a6dcb803f61a739	798	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	21-06-2023	-	-
->AOIR01000042.1_57	dd0379a54551ffeb9a6dcb803f61a739	798	Coils	Coil	Coil	19	39	-	T	21-06-2023	-	-
->AOIR01000042.1_99	4c56f8a3e2c2dab62027b47431c0731f	271	MobiDBLite	mobidb-lite	consensus disorder prediction	62	86	-	T	21-06-2023	-	-
->AOIR01000042.1_99	4c56f8a3e2c2dab62027b47431c0731f	271	MobiDBLite	mobidb-lite	consensus disorder prediction	45	86	-	T	21-06-2023	-	-
->AOIR01000042.1_34	b85c9b87d0feb30045aac5612002c24d	517	NCBIfam	NF037981	purine/pyrimidine permease	30	417	3.3E-22	T	21-06-2023	-	-
->AOIR01000042.1_34	b85c9b87d0feb30045aac5612002c24d	517	PANTHER	PTHR11119	XANTHINE-URACIL / VITAMIN C PERMEASE FAMILY MEMBER	15	502	2.6E-125	T	21-06-2023	-	-
->AOIR01000042.1_34	b85c9b87d0feb30045aac5612002c24d	517	Pfam	PF00860	Permease family	28	420	4.0E-73	T	21-06-2023	IPR006043	Nucleobase cation symporter 2 family
->AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	Gene3D	G3DSA:3.30.950.10	-	143	263	5.4E-5	T	21-06-2023	IPR014776	Tetrapyrrole methylase, subdomain 2
->AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	NCBIfam	TIGR02467	precorrin-6y C5,15-methyltransferase (decarboxylating) subunit CbiE	36	239	4.4E-33	T	21-06-2023	IPR012818	Precorrin-6Y methyltransferase
->AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	31	251	3.53E-39	T	21-06-2023	IPR035996	Tetrapyrrole methylase superfamily
->AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	33	238	3.0E-30	T	21-06-2023	IPR000878	Tetrapyrrole methylase
->AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	MobiDBLite	mobidb-lite	consensus disorder prediction	1	28	-	T	21-06-2023	-	-
->AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	PANTHER	PTHR43182	COBALT-PRECORRIN-6B C(15)-METHYLTRANSFERASE (DECARBOXYLATING)	32	244	2.2E-47	T	21-06-2023	-	-
->AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	CDD	cd11644	Precorrin-6Y-MT	36	260	5.25753E-44	T	21-06-2023	IPR012818	Precorrin-6Y methyltransferase
->AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	Gene3D	G3DSA:3.40.1010.10	-	25	142	2.5E-20	T	21-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
->AOIR01000042.1_65	ded9944c2706b234c6ac21f5f86c39e4	178	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	21-06-2023	-	-
->AOIR01000042.1_65	ded9944c2706b234c6ac21f5f86c39e4	178	MobiDBLite	mobidb-lite	consensus disorder prediction	1	27	-	T	21-06-2023	-	-
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	29	269	1.17E-86	T	26-06-2023	IPR036291	NAD(P)-binding domain superfamily
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	Pfam	PF13561	Enoyl-(Acyl carrier protein) reductase	36	269	4.3E-66	T	26-06-2023	-	-
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	FunFam	G3DSA:3.40.50.720:FF:000173	3-oxoacyl-[acyl-carrier protein] reductase	25	271	1.4E-82	T	26-06-2023	-	-
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	SMART	SM00822	This enzymatic domain is part of bacterial polyketide synthases and catalyses the first step in the reductive modification of the beta-carbonyl centres in the growing polyketide chain. It uses NADPH to reduce the keto group to a hydroxy group.	30	214	2.1E-6	T	26-06-2023	-	-
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PANTHER	PTHR42879	3-OXOACYL-(ACYL-CARRIER-PROTEIN) REDUCTASE	27	270	2.4E-84	T	26-06-2023	-	-
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	233	253	1.6E-41	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	153	169	1.6E-41	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	106	117	1.6E-41	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	179	198	1.6E-41	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	200	217	1.6E-41	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	31	48	1.6E-41	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	Gene3D	G3DSA:3.40.50.720	-	11	271	3.1E-90	T	26-06-2023	-	-
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	26-06-2023	-	-
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	106	117	1.0E-14	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	179	198	1.0E-14	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	159	167	1.0E-14	T	26-06-2023	IPR002347	Short-chain dehydrogenase/reductase SDR
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	ProSitePatterns	PS00061	Short-chain dehydrogenases/reductases family signature.	166	194	-	T	26-06-2023	IPR020904	Short-chain dehydrogenase/reductase, conserved site
+AOIR01000042.1_25	5db69fa4ac96d448bc962a423a95b119	271	CDD	cd05333	BKR_SDR_c	30	269	2.63029E-121	T	26-06-2023	-	-
+AOIR01000042.1_73	50e1bdaace178c3c9bb5c1b6c1ee8319	97	MobiDBLite	mobidb-lite	consensus disorder prediction	24	43	-	T	26-06-2023	-	-
+AOIR01000042.1_73	50e1bdaace178c3c9bb5c1b6c1ee8319	97	MobiDBLite	mobidb-lite	consensus disorder prediction	29	43	-	T	26-06-2023	-	-
+AOIR01000042.1_73	50e1bdaace178c3c9bb5c1b6c1ee8319	97	Coils	Coil	Coil	18	45	-	T	26-06-2023	-	-
+AOIR01000042.1_60	98353a7df2000504906410e2df39b61b	126	MobiDBLite	mobidb-lite	consensus disorder prediction	1	41	-	T	26-06-2023	-	-
+AOIR01000042.1_60	98353a7df2000504906410e2df39b61b	126	MobiDBLite	mobidb-lite	consensus disorder prediction	1	74	-	T	26-06-2023	-	-
+AOIR01000042.1_60	98353a7df2000504906410e2df39b61b	126	MobiDBLite	mobidb-lite	consensus disorder prediction	50	74	-	T	26-06-2023	-	-
+AOIR01000042.1_45	768a1a7267b950149f2f29bf75e007c0	272	ProSiteProfiles	PS51318	Twin arginine translocation (Tat) signal profile.	1	45	9.226624	T	26-06-2023	IPR006311	Twin-arginine translocation pathway, signal sequence
+AOIR01000042.1_45	768a1a7267b950149f2f29bf75e007c0	272	MobiDBLite	mobidb-lite	consensus disorder prediction	1	20	-	T	26-06-2023	-	-
+AOIR01000042.1_45	768a1a7267b950149f2f29bf75e007c0	272	NCBIfam	TIGR01409	twin-arginine translocation signal domain	20	45	0.0024	T	26-06-2023	IPR019546	Twin-arginine translocation pathway, signal sequence, bacterial/archaeal
+AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	PANTHER	PTHR11070	UVRD / RECB / PCRA DNA HELICASE FAMILY MEMBER	41	350	1.0E-14	T	26-06-2023	IPR000212	DNA helicase, UvrD/REP type
+AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	MobiDBLite	mobidb-lite	consensus disorder prediction	671	695	-	T	26-06-2023	-	-
+AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	Gene3D	G3DSA:3.40.50.300	-	563	659	2.4E-8	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	MobiDBLite	mobidb-lite	consensus disorder prediction	671	688	-	T	26-06-2023	-	-
+AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	Pfam	PF13245	AAA domain	38	298	1.3E-10	T	26-06-2023	-	-
+AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	Gene3D	G3DSA:3.40.50.300	-	34	317	2.9E-16	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	40	657	1.71E-34	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_97	f4a55814c3889cef2b82334272045276	695	ProSiteProfiles	PS51198	UvrD-like DNA helicase ATP-binding domain profile.	26	329	15.431655	T	26-06-2023	IPR014016	UvrD-like helicase, ATP-binding domain
+AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	ProSiteProfiles	PS50928	ABC transporter integral membrane type-1 domain profile.	16	217	19.750038	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	PANTHER	PTHR43632	PERMEASE COMPONENT OF TUNGSTATE ABC TRANSPORTER	12	223	5.0E-59	T	26-06-2023	-	-
+AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	Pfam	PF00528	Binding-protein-dependent transport system inner membrane component	35	217	3.2E-13	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	NCBIfam	NF038017	ABC transporter permease	19	207	1.5E-64	T	26-06-2023	-	-
+AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	CDD	cd06261	TM_PBP2	16	177	6.74317E-13	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	SUPERFAMILY	SSF161098	MetI-like	6	220	3.27E-35	T	26-06-2023	IPR035906	MetI-like superfamily
+AOIR01000042.1_8	22576dd0a34dfd3cdde6857f2f5e863c	223	Gene3D	G3DSA:1.10.3720.10	-	3	223	8.7E-36	T	26-06-2023	IPR035906	MetI-like superfamily
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Gene3D	G3DSA:1.10.8.80	-	257	344	7.4E-24	T	26-06-2023	-	-
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	538	554	-	T	26-06-2023	-	-
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Pfam	PF17863	AAA lid domain	270	339	2.8E-21	T	26-06-2023	IPR041628	ChlI/MoxR, AAA lid domain
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	398	418	-	T	26-06-2023	-	-
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Pfam	PF01078	Magnesium chelatase, subunit ChlI	125	193	1.0E-8	T	26-06-2023	IPR000523	Magnesium chelatase ChlI-like, catalytic domain
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	SUPERFAMILY	SSF53300	vWA-like	597	758	2.08E-23	T	26-06-2023	IPR036465	von Willebrand factor A-like domain superfamily
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Coils	Coil	Coil	238	258	-	T	26-06-2023	-	-
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Pfam	PF13519	von Willebrand factor type A domain	601	701	4.3E-12	T	26-06-2023	IPR002035	von Willebrand factor, type A
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	13	337	5.2E-54	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	SMART	SM00327	VWA_4	598	765	1.0E-17	T	26-06-2023	IPR002035	von Willebrand factor, type A
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	505	522	-	T	26-06-2023	-	-
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	419	435	-	T	26-06-2023	-	-
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	PANTHER	PTHR32039	MAGNESIUM-CHELATASE SUBUNIT CHLI	10	419	1.9E-113	T	26-06-2023	IPR045006	Magnesium-chelatase subunit ChlI-like
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	322	586	-	T	26-06-2023	-	-
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	332	383	-	T	26-06-2023	-	-
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Gene3D	G3DSA:3.40.50.300	-	11	212	4.0E-59	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	Gene3D	G3DSA:3.40.50.410	von Willebrand factor, type A domain	593	771	6.0E-21	T	26-06-2023	IPR036465	von Willebrand factor A-like domain superfamily
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	ProSiteProfiles	PS50234	VWFA domain profile.	600	775	12.683114	T	26-06-2023	IPR002035	von Willebrand factor, type A
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	SMART	SM00382	AAA_5	36	629	0.0054	T	26-06-2023	IPR003593	AAA+ ATPase domain
+AOIR01000042.1_33	6d4d1cefbbcd4f3778ed1403b97c9cfb	777	MobiDBLite	mobidb-lite	consensus disorder prediction	449	467	-	T	26-06-2023	-	-
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	Gene3D	G3DSA:2.130.10.10	-	14	141	2.0E-9	T	26-06-2023	IPR015943	WD40/YVTN repeat-like-containing domain superfamily
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SMART	SM00564	ire1_9	193	230	530.0	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SMART	SM00564	ire1_9	41	72	22.0	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SMART	SM00564	ire1_9	141	183	11.0	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SMART	SM00564	ire1_9	81	115	0.12	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	SUPERFAMILY	SSF50998	Quinoprotein alcohol dehydrogenase-like	45	368	8.63E-19	T	26-06-2023	IPR011047	Quinoprotein alcohol dehydrogenase-like superfamily
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	Gene3D	G3DSA:2.130.10.10	-	142	406	1.6E-16	T	26-06-2023	IPR015943	WD40/YVTN repeat-like-containing domain superfamily
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	Pfam	PF13360	PQQ-like domain	167	315	1.2E-5	T	26-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
+AOIR01000042.1_14	2a7f801532fae9936eeb24da72e07943	427	Pfam	PF13360	PQQ-like domain	34	118	6.4E-5	T	26-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
+AOIR01000042.1_4	780201719ebdbb9f3d24429275b742d2	434	MobiDBLite	mobidb-lite	consensus disorder prediction	155	178	-	T	26-06-2023	-	-
+AOIR01000042.1_4	780201719ebdbb9f3d24429275b742d2	434	MobiDBLite	mobidb-lite	consensus disorder prediction	1	28	-	T	26-06-2023	-	-
+AOIR01000042.1_4	780201719ebdbb9f3d24429275b742d2	434	MobiDBLite	mobidb-lite	consensus disorder prediction	1	20	-	T	26-06-2023	-	-
+AOIR01000042.1_39	bfe405afe6fb7fb253ea667aaa15704a	30	Coils	Coil	Coil	2	22	-	T	26-06-2023	-	-
+AOIR01000042.1_39	bfe405afe6fb7fb253ea667aaa15704a	30	MobiDBLite	mobidb-lite	consensus disorder prediction	1	30	-	T	26-06-2023	-	-
+AOIR01000042.1_58	c845b54c59120ff2355b91bcac04f88a	84	Gene3D	G3DSA:1.10.10.10	-	4	84	5.4E-12	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+AOIR01000042.1_93	f89d6d2ce2eb60ce3145f5c93732f2fa	454	Coils	Coil	Coil	73	100	-	T	26-06-2023	-	-
+AOIR01000042.1_93	f89d6d2ce2eb60ce3145f5c93732f2fa	454	MobiDBLite	mobidb-lite	consensus disorder prediction	37	66	-	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Gene3D	G3DSA:3.40.50.1400	-	15	134	2.3E-28	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Gene3D	G3DSA:3.40.50.1400	-	142	265	7.2E-19	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	318	409	4.7E-25	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	PANTHER	PTHR33542	SIROHYDROCHLORIN FERROCHELATASE, CHLOROPLASTIC	17	266	3.7E-41	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Pfam	PF01903	CbiX	152	255	3.5E-18	T	26-06-2023	IPR002762	Sirohydrochlorin cobaltochelatase CbiX-like
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Pfam	PF01903	CbiX	25	126	9.6E-21	T	26-06-2023	IPR002762	Sirohydrochlorin cobaltochelatase CbiX-like
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	CDD	cd03416	CbiX_SirB_N	19	116	1.32665E-24	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	Pfam	PF01257	Thioredoxin-like [2Fe-2S] ferredoxin	318	393	2.5E-7	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	CDD	cd02980	TRX_Fd_family	320	395	2.41166E-23	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	CDD	cd03414	CbiX_SirB_C	145	262	1.21526E-42	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	SUPERFAMILY	SSF53800	Chelatase	19	261	1.64E-39	T	26-06-2023	-	-
+AOIR01000042.1_16	b4732adb60268c060b5a97275bcd60e7	410	SUPERFAMILY	SSF52833	Thioredoxin-like	319	406	1.05E-23	T	26-06-2023	IPR036249	Thioredoxin-like superfamily
+AOIR01000042.1_29	fe0eccaabe7578bb24fecaba8c5000d0	73	Gene3D	G3DSA:2.20.28.10	-	34	68	2.8E-6	T	26-06-2023	-	-
+AOIR01000042.1_29	fe0eccaabe7578bb24fecaba8c5000d0	73	MobiDBLite	mobidb-lite	consensus disorder prediction	1	30	-	T	26-06-2023	-	-
+AOIR01000042.1_29	fe0eccaabe7578bb24fecaba8c5000d0	73	SUPERFAMILY	SSF57802	Rubredoxin-like	33	70	7.85E-6	T	26-06-2023	-	-
+AOIR01000042.1_63	d9f7f1c3980c074fe641e6c91502a552	93	MobiDBLite	mobidb-lite	consensus disorder prediction	49	93	-	T	26-06-2023	-	-
+AOIR01000042.1_63	d9f7f1c3980c074fe641e6c91502a552	93	MobiDBLite	mobidb-lite	consensus disorder prediction	1	23	-	T	26-06-2023	-	-
+AOIR01000042.1_28	5841f6aa017a3b0b76116b61aac9a49f	55	MobiDBLite	mobidb-lite	consensus disorder prediction	1	28	-	T	26-06-2023	-	-
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	ProSiteProfiles	PS51273	Glutamine amidotransferase type 1 domain profile.	249	453	9.321951	T	26-06-2023	-	-
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	NCBIfam	TIGR00379	hydrogenobyrinic acid a,c-diamide synthase (glutamine-hydrolyzing)	5	438	4.6E-98	T	26-06-2023	IPR004484	Cobyrinic acid a,c-diamide synthase CbiA
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Gene3D	G3DSA:3.40.50.300	-	3	196	6.1E-16	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	PANTHER	PTHR43873	COBYRINATE A,C-DIAMIDE SYNTHASE	1	447	2.0E-115	T	26-06-2023	IPR004484	Cobyrinic acid a,c-diamide synthase CbiA
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Pfam	PF01656	CobQ/CobB/MinD/ParA nucleotide binding domain	9	200	3.6E-11	T	26-06-2023	IPR002586	CobQ/CobB/MinD/ParA nucleotide binding domain
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Pfam	PF07685	CobB/CobQ-like glutamine amidotransferase domain	250	439	1.0E-31	T	26-06-2023	IPR011698	CobB/CobQ-like glutamine amidotransferase
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	SUPERFAMILY	SSF52317	Class I glutamine amidotransferase-like	250	439	7.4E-28	T	26-06-2023	IPR029062	Class I glutamine amidotransferase-like
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Gene3D	G3DSA:3.40.50.880	-	260	450	7.1E-10	T	26-06-2023	IPR029062	Class I glutamine amidotransferase-like
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	1	204	6.76E-29	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	CDD	cd03130	GATase1_CobB	251	445	3.79097E-75	T	26-06-2023	-	-
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	Hamap	MF_00027	Hydrogenobyrinate a,c-diamide synthase [cobB].	1	440	37.673218	T	26-06-2023	IPR004484	Cobyrinic acid a,c-diamide synthase CbiA
+AOIR01000042.1_26	142d05ccc66c832ed212caff55fd08fe	453	ProSiteProfiles	PS51274	CobBQ-type GATase domain profile.	250	441	48.811302	T	26-06-2023	-	-
+AOIR01000042.1_50	cccee013a9ee64cd27420da367c0c088	85	MobiDBLite	mobidb-lite	consensus disorder prediction	61	85	-	T	26-06-2023	-	-
+AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	NCBIfam	TIGR01466	precorrin-3B C(17)-methyltransferase	94	341	6.0E-92	T	26-06-2023	IPR006363	Precorrin-3B C17-methyltransferase domain
+AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	CDD	cd11646	Precorrin_3B_C17_MT	94	340	1.62013E-119	T	26-06-2023	IPR006363	Precorrin-3B C17-methyltransferase domain
+AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	MobiDBLite	mobidb-lite	consensus disorder prediction	1	80	-	T	26-06-2023	-	-
+AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	89	344	1.31E-53	T	26-06-2023	IPR035996	Tetrapyrrole methylase superfamily
+AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	PANTHER	PTHR47036	COBALT-FACTOR III C(17)-METHYLTRANSFERASE-RELATED	85	345	1.2E-92	T	26-06-2023	-	-
+AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	94	305	3.6E-38	T	26-06-2023	IPR000878	Tetrapyrrole methylase
+AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	Gene3D	G3DSA:3.30.950.10	-	208	342	2.1E-48	T	26-06-2023	IPR014776	Tetrapyrrole methylase, subdomain 2
+AOIR01000042.1_19	906caff7bc0fac53b72ff8f8f9a1c425	346	Gene3D	G3DSA:3.40.1010.10	-	86	206	4.7E-25	T	26-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
+AOIR01000042.1_80	6d6fbab7f95c471073c955f4b93a7239	75	MobiDBLite	mobidb-lite	consensus disorder prediction	1	24	-	T	26-06-2023	-	-
+AOIR01000042.1_92	907ad46d1c27e249c59c9d555f39d8e4	325	MobiDBLite	mobidb-lite	consensus disorder prediction	53	84	-	T	26-06-2023	-	-
+AOIR01000042.1_92	907ad46d1c27e249c59c9d555f39d8e4	325	MobiDBLite	mobidb-lite	consensus disorder prediction	35	84	-	T	26-06-2023	-	-
+AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	PANTHER	PTHR33303	CYTOPLASMIC PROTEIN-RELATED	5	136	2.0E-30	T	26-06-2023	-	-
+AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	Gene3D	G3DSA:3.40.50.720	-	3	136	7.8E-40	T	26-06-2023	-	-
+AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	Pfam	PF13380	CoA binding domain	17	131	3.9E-38	T	26-06-2023	IPR003781	CoA-binding
+AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	9	134	4.22E-37	T	26-06-2023	IPR036291	NAD(P)-binding domain superfamily
+AOIR01000042.1_104	66d1aad806db29bcbfb27d72febb3dea	136	SMART	SM00881	CoA_binding_2	12	105	2.8E-18	T	26-06-2023	IPR003781	CoA-binding
+AOIR01000042.1_35	634d17bbcf87f104d46bea6fab037533	274	Pfam	PF12697	Alpha/beta hydrolase family	24	264	3.7E-20	T	26-06-2023	IPR000073	Alpha/beta hydrolase fold-1
+AOIR01000042.1_35	634d17bbcf87f104d46bea6fab037533	274	Gene3D	G3DSA:3.40.50.1820	alpha/beta hydrolase	4	273	2.4E-52	T	26-06-2023	IPR029058	Alpha/Beta hydrolase fold
+AOIR01000042.1_35	634d17bbcf87f104d46bea6fab037533	274	PANTHER	PTHR43798	MONOACYLGLYCEROL LIPASE	16	271	1.5E-29	T	26-06-2023	-	-
+AOIR01000042.1_35	634d17bbcf87f104d46bea6fab037533	274	SUPERFAMILY	SSF53474	alpha/beta-Hydrolases	5	271	1.49E-50	T	26-06-2023	IPR029058	Alpha/Beta hydrolase fold
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	MobiDBLite	mobidb-lite	consensus disorder prediction	287	306	-	T	26-06-2023	-	-
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	CDD	cd11641	Precorrin-4_C11-MT	43	268	2.18161E-106	T	26-06-2023	IPR006362	Cobalamin (vitamin B12) biosynthesis CobM/CbiF, precorrin-4 C11-methyltransferase
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	MobiDBLite	mobidb-lite	consensus disorder prediction	283	306	-	T	26-06-2023	-	-
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	MobiDBLite	mobidb-lite	consensus disorder prediction	13	34	-	T	26-06-2023	-	-
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	MobiDBLite	mobidb-lite	consensus disorder prediction	1	39	-	T	26-06-2023	-	-
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	Gene3D	G3DSA:3.40.1010.10	-	29	147	1.2E-26	T	26-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	PANTHER	PTHR45790	SIROHEME SYNTHASE-RELATED	30	286	6.0E-57	T	26-06-2023	-	-
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	Gene3D	G3DSA:3.30.950.10	-	148	268	2.6E-28	T	26-06-2023	IPR014776	Tetrapyrrole methylase, subdomain 2
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	42	246	1.6E-38	T	26-06-2023	IPR000878	Tetrapyrrole methylase
+AOIR01000042.1_22	4e92d2ea421887f99a2fb30b680a6af5	306	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	40	269	7.2E-56	T	26-06-2023	IPR035996	Tetrapyrrole methylase superfamily
+AOIR01000042.1_55	ce9c67ede4c3a1b67906a7aad33ad776	443	MobiDBLite	mobidb-lite	consensus disorder prediction	37	79	-	T	26-06-2023	-	-
+AOIR01000042.1_55	ce9c67ede4c3a1b67906a7aad33ad776	443	MobiDBLite	mobidb-lite	consensus disorder prediction	36	79	-	T	26-06-2023	-	-
+AOIR01000042.1_55	ce9c67ede4c3a1b67906a7aad33ad776	443	MobiDBLite	mobidb-lite	consensus disorder prediction	424	443	-	T	26-06-2023	-	-
+AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	Gene3D	G3DSA:1.20.120.1780	UbiA prenyltransferase	161	278	1.9E-10	T	26-06-2023	-	-
+AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	CDD	cd13961	PT_UbiA_DGGGPS	9	272	5.84674E-68	T	26-06-2023	-	-
+AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	Pfam	PF01040	UbiA prenyltransferase family	25	267	2.2E-45	T	26-06-2023	IPR000537	UbiA prenyltransferase family
+AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	PANTHER	PTHR42723	CHLOROPHYLL SYNTHASE	11	251	7.1E-38	T	26-06-2023	-	-
+AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	Hamap	MF_01286	Digeranylgeranylglyceryl phosphate synthase.	7	276	21.194298	T	26-06-2023	IPR023547	Digeranylgeranylglyceryl phosphate synthase
+AOIR01000042.1_101	b02d46fd1d937553f05e49a7768427f1	284	Gene3D	G3DSA:1.10.357.140	UbiA prenyltransferase	14	160	3.1E-26	T	26-06-2023	IPR044878	UbiA prenyltransferase superfamily
+AOIR01000042.1_11	670a8a86fbffc4111ede0ae8cb0a3420	261	MobiDBLite	mobidb-lite	consensus disorder prediction	115	198	-	T	26-06-2023	-	-
+AOIR01000042.1_11	670a8a86fbffc4111ede0ae8cb0a3420	261	MobiDBLite	mobidb-lite	consensus disorder prediction	129	198	-	T	26-06-2023	-	-
+AOIR01000042.1_27	6c3e6046bde975873c9e6f07086a6a41	188	Pfam	PF08819	Domain of unknown function (DUF1802)	15	181	1.7E-42	T	26-06-2023	IPR014923	Protein of unknown function DUF1802
+AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	SUPERFAMILY	SSF56349	DNA breaking-rejoining enzymes	15	332	5.3E-16	T	26-06-2023	IPR011010	DNA breaking-rejoining enzyme, catalytic core
+AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	ProSiteProfiles	PS51900	Core-binding (CB) domain profile.	11	114	9.380177	T	26-06-2023	IPR044068	Core-binding (CB) domain
+AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	Gene3D	G3DSA:1.10.443.10	Intergrase catalytic core	154	357	4.4E-17	T	26-06-2023	IPR013762	Integrase-like, catalytic domain superfamily
+AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	MobiDBLite	mobidb-lite	consensus disorder prediction	232	251	-	T	26-06-2023	-	-
+AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	CDD	cd00397	DNA_BRE_C	165	343	5.15296E-9	T	26-06-2023	-	-
+AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	Gene3D	G3DSA:1.10.150.130	-	6	139	1.2E-26	T	26-06-2023	IPR010998	Integrase/recombinase, N-terminal
+AOIR01000042.1_41	1f1fee339906311e76786e4e8f83a135	363	MobiDBLite	mobidb-lite	consensus disorder prediction	230	254	-	T	26-06-2023	-	-
+AOIR01000042.1_106	8f77e9ef5e0f3a9ed1990bfc9c656526	148	SUPERFAMILY	SSF53686	Tryptophan synthase beta subunit-like PLP-dependent enzymes	8	140	8.38E-21	T	26-06-2023	IPR036052	Tryptophan synthase beta chain-like, PALP domain superfamily
+AOIR01000042.1_106	8f77e9ef5e0f3a9ed1990bfc9c656526	148	Gene3D	G3DSA:3.40.50.1100	-	7	148	2.6E-28	T	26-06-2023	IPR036052	Tryptophan synthase beta chain-like, PALP domain superfamily
+AOIR01000042.1_106	8f77e9ef5e0f3a9ed1990bfc9c656526	148	PANTHER	PTHR10314	CYSTATHIONINE BETA-SYNTHASE	8	142	3.8E-19	T	26-06-2023	-	-
+AOIR01000042.1_106	8f77e9ef5e0f3a9ed1990bfc9c656526	148	Pfam	PF00291	Pyridoxal-phosphate dependent enzyme	8	114	3.9E-12	T	26-06-2023	IPR001926	Tryptophan synthase beta chain-like, PALP domain
+AOIR01000042.1_43	8087965d9dca9e7ed4123602c001efb2	1212	SUPERFAMILY	SSF50998	Quinoprotein alcohol dehydrogenase-like	108	386	3.14E-15	T	26-06-2023	IPR011047	Quinoprotein alcohol dehydrogenase-like superfamily
+AOIR01000042.1_43	8087965d9dca9e7ed4123602c001efb2	1212	Gene3D	G3DSA:2.130.10.10	-	148	414	3.7E-14	T	26-06-2023	IPR015943	WD40/YVTN repeat-like-containing domain superfamily
+AOIR01000042.1_43	8087965d9dca9e7ed4123602c001efb2	1212	Pfam	PF13360	PQQ-like domain	103	218	8.2E-5	T	26-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
+AOIR01000042.1_43	8087965d9dca9e7ed4123602c001efb2	1212	Coils	Coil	Coil	593	613	-	T	26-06-2023	-	-
+AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	MobiDBLite	mobidb-lite	consensus disorder prediction	659	680	-	T	26-06-2023	-	-
+AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	Pfam	PF02514	CobN/Magnesium Chelatase	109	1266	0.0	T	26-06-2023	IPR003672	CobN/magnesium chelatase
+AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	NCBIfam	TIGR02257	cobaltochelatase subunit CobN	6	1278	0.0	T	26-06-2023	IPR011953	Cobaltochelatase, CobN subunit
+AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	Coils	Coil	Coil	602	622	-	T	26-06-2023	-	-
+AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	CDD	cd10150	CobN_like	39	1156	0.0	T	26-06-2023	IPR003672	CobN/magnesium chelatase
+AOIR01000042.1_32	f62e6e094576478a765bada8615377d4	1296	PANTHER	PTHR44119	MAGNESIUM-CHELATASE SUBUNIT CHLH, CHLOROPLASTIC	82	1289	0.0	T	26-06-2023	IPR003672	CobN/magnesium chelatase
+AOIR01000042.1_86	7e04a621551eadace08be407ee7f7bf5	66	MobiDBLite	mobidb-lite	consensus disorder prediction	1	30	-	T	26-06-2023	-	-
+AOIR01000042.1_86	7e04a621551eadace08be407ee7f7bf5	66	MobiDBLite	mobidb-lite	consensus disorder prediction	1	24	-	T	26-06-2023	-	-
+AOIR01000042.1_15	ac943afbb5da7060947a124b3a9354c1	123	Pfam	PF11483	Protein of unknown function (DUF3209)	1	122	7.5E-50	T	26-06-2023	IPR021577	Protein of unknown function DUF3209
+AOIR01000042.1_15	ac943afbb5da7060947a124b3a9354c1	123	Coils	Coil	Coil	46	73	-	T	26-06-2023	-	-
+AOIR01000042.1_15	ac943afbb5da7060947a124b3a9354c1	123	Gene3D	G3DSA:6.10.140.1220	-	1	122	2.4E-35	T	26-06-2023	-	-
+AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	CDD	cd00293	USP_Like	3	116	5.125E-7	T	26-06-2023	-	-
+AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	MobiDBLite	mobidb-lite	consensus disorder prediction	71	92	-	T	26-06-2023	-	-
+AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	Gene3D	G3DSA:3.40.50.620	HUPs	2	146	7.1E-11	T	26-06-2023	IPR014729	Rossmann-like alpha/beta/alpha sandwich fold
+AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	MobiDBLite	mobidb-lite	consensus disorder prediction	72	86	-	T	26-06-2023	-	-
+AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	SUPERFAMILY	SSF52402	Adenine nucleotide alpha hydrolases-like	3	147	1.17E-10	T	26-06-2023	-	-
+AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	Pfam	PF00582	Universal stress protein family	3	121	9.2E-10	T	26-06-2023	IPR006016	UspA
+AOIR01000042.1_2	b15df7e39148c82aa8c7135295d1d086	166	MobiDBLite	mobidb-lite	consensus disorder prediction	145	166	-	T	26-06-2023	-	-
+AOIR01000042.1_42	826e71066aa4cad3ae0e81d328b63344	119	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	26-06-2023	-	-
+AOIR01000042.1_61	12687b3f787a19fac83d56e88e48d40c	115	MobiDBLite	mobidb-lite	consensus disorder prediction	1	23	-	T	26-06-2023	-	-
+AOIR01000042.1_78	2624ee644ca2c1d1ae05fb52f136eddd	241	Gene3D	G3DSA:3.40.50.1390	-	1	160	4.5E-8	T	26-06-2023	IPR036162	Resolvase-like, N-terminal catalytic domain superfamily
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	MobiDBLite	mobidb-lite	consensus disorder prediction	415	441	-	T	26-06-2023	-	-
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Gene3D	G3DSA:2.40.10.480	-	280	354	2.5E-18	T	26-06-2023	-	-
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SUPERFAMILY	SSF50998	Quinoprotein alcohol dehydrogenase-like	329	416	3.34E-24	T	26-06-2023	IPR011047	Quinoprotein alcohol dehydrogenase-like superfamily
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Gene3D	G3DSA:2.40.128.630	-	355	428	6.5E-11	T	26-06-2023	-	-
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Pfam	PF13360	PQQ-like domain	296	406	2.6E-15	T	26-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Pfam	PF13360	PQQ-like domain	117	255	5.0E-19	T	26-06-2023	IPR002372	Pyrrolo-quinoline quinone repeat
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SUPERFAMILY	SSF50998	Quinoprotein alcohol dehydrogenase-like	57	323	1.06E-41	T	26-06-2023	IPR011047	Quinoprotein alcohol dehydrogenase-like superfamily
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	322	355	9.1E-5	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	104	134	2.6	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	364	395	3.0E-6	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	281	313	0.009	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	SMART	SM00564	ire1_9	148	179	1.3E-8	T	26-06-2023	IPR018391	Pyrrolo-quinoline quinone beta-propeller repeat
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	PANTHER	PTHR34512	CELL SURFACE PROTEIN	263	413	8.0E-45	T	26-06-2023	-	-
+AOIR01000042.1_37	098c913444dc8047ba51f68bfa117c00	441	Gene3D	G3DSA:2.130.10.10	-	75	274	1.3E-34	T	26-06-2023	IPR015943	WD40/YVTN repeat-like-containing domain superfamily
+AOIR01000042.1_31	2aeed955df0ee7846524ca5ea2fd7ac7	248	PANTHER	PTHR43588	COBALT-PRECORRIN-8 METHYLMUTASE	15	225	1.1E-52	T	26-06-2023	-	-
+AOIR01000042.1_31	2aeed955df0ee7846524ca5ea2fd7ac7	248	Pfam	PF02570	Precorrin-8X methylmutase	22	222	1.5E-50	T	26-06-2023	IPR003722	Cobalamin biosynthesis precorrin-8X methylmutase CobH/CbiC
+AOIR01000042.1_31	2aeed955df0ee7846524ca5ea2fd7ac7	248	Gene3D	G3DSA:3.40.50.10230	-	16	236	9.3E-47	T	26-06-2023	IPR036588	Precorrin-8X methylmutase CobH/CbiC superfamily
+AOIR01000042.1_31	2aeed955df0ee7846524ca5ea2fd7ac7	248	SUPERFAMILY	SSF63965	Precorrin-8X methylmutase CbiC/CobH	22	225	2.09E-43	T	26-06-2023	IPR036588	Precorrin-8X methylmutase CobH/CbiC superfamily
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	CDD	cd00293	USP_Like	5	139	2.70946E-30	T	26-06-2023	-	-
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	Pfam	PF00582	Universal stress protein family	1	139	1.8E-32	T	26-06-2023	IPR006016	UspA
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	Gene3D	G3DSA:3.40.50.620	HUPs	1	141	3.3E-38	T	26-06-2023	IPR014729	Rossmann-like alpha/beta/alpha sandwich fold
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	MobiDBLite	mobidb-lite	consensus disorder prediction	144	161	-	T	26-06-2023	-	-
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	SUPERFAMILY	SSF52402	Adenine nucleotide alpha hydrolases-like	1	140	1.93E-37	T	26-06-2023	-	-
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	PRINTS	PR01438	Universal stress protein signature	2	20	8.5E-16	T	26-06-2023	IPR006015	Universal stress protein A family
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	PRINTS	PR01438	Universal stress protein signature	100	112	8.5E-16	T	26-06-2023	IPR006015	Universal stress protein A family
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	PRINTS	PR01438	Universal stress protein signature	118	140	8.5E-16	T	26-06-2023	IPR006015	Universal stress protein A family
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	MobiDBLite	mobidb-lite	consensus disorder prediction	140	161	-	T	26-06-2023	-	-
+AOIR01000042.1_3	2c72499776823a2f4774c1a9d14227ed	161	PANTHER	PTHR46268	STRESS RESPONSE PROTEIN NHAX	49	140	2.1E-22	T	26-06-2023	-	-
+AOIR01000042.1_100	520c7807ff1bebead6a1751860560df0	60	MobiDBLite	mobidb-lite	consensus disorder prediction	1	36	-	T	26-06-2023	-	-
+AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	273	302	-	T	26-06-2023	-	-
+AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	347	370	-	T	26-06-2023	-	-
+AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	1	149	-	T	26-06-2023	-	-
+AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	270	311	-	T	26-06-2023	-	-
+AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	46	105	-	T	26-06-2023	-	-
+AOIR01000042.1_13	dc0db9941c18c6158c664b8c88388ad9	370	MobiDBLite	mobidb-lite	consensus disorder prediction	1	36	-	T	26-06-2023	-	-
+AOIR01000042.1_103	a96f06560b700db5c1650d2fa950f0fa	210	Gene3D	G3DSA:3.40.50.300	-	3	206	1.4E-14	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_103	a96f06560b700db5c1650d2fa950f0fa	210	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	12	196	1.02E-5	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_72	b2aeec1e448205065e51aa9ea44fb43a	207	SUPERFAMILY	SSF46894	C-terminal effector domain of the bipartite response regulators	116	172	2.89E-5	T	26-06-2023	IPR016032	Signal transduction response regulator, C-terminal effector
+AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	ProSiteProfiles	PS50893	ATP-binding cassette, ABC transporter-type domain profile.	3	254	25.703707	T	26-06-2023	IPR003439	ABC transporter-like, ATP-binding domain
+AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	Gene3D	G3DSA:3.40.50.300	-	1	258	8.5E-70	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	3	246	3.63E-63	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	PANTHER	PTHR43423	ABC TRANSPORTER I FAMILY MEMBER 17	5	256	2.4E-58	T	26-06-2023	IPR005670	Phosphate import ATP-binding protein PstB-like
+AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	ProSitePatterns	PS00211	ABC transporters family signature.	155	169	-	T	26-06-2023	IPR017871	ABC transporter-like, conserved site
+AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	CDD	cd03260	ABC_PstB_phosphate_transporter	3	237	3.11141E-79	T	26-06-2023	IPR005670	Phosphate import ATP-binding protein PstB-like
+AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	Pfam	PF00005	ABC transporter	18	183	1.2E-31	T	26-06-2023	IPR003439	ABC transporter-like, ATP-binding domain
+AOIR01000042.1_7	b1b680b36affb015872ff99623a1e9c9	267	SMART	SM00382	AAA_5	27	230	2.0E-15	T	26-06-2023	IPR003593	AAA+ ATPase domain
+AOIR01000042.1_94	a09ccbd3664621c2edd1906cacff4ceb	143	Gene3D	G3DSA:1.10.472.10	-	23	110	2.0E-5	T	26-06-2023	-	-
+AOIR01000042.1_94	a09ccbd3664621c2edd1906cacff4ceb	143	SUPERFAMILY	SSF47954	Cyclin-like	13	100	1.53E-6	T	26-06-2023	IPR036915	Cyclin-like superfamily
+AOIR01000042.1_54	35a92c6f7b746b59ca37638d885ce641	341	Coils	Coil	Coil	241	289	-	T	26-06-2023	-	-
+AOIR01000042.1_54	35a92c6f7b746b59ca37638d885ce641	341	MobiDBLite	mobidb-lite	consensus disorder prediction	305	341	-	T	26-06-2023	-	-
+AOIR01000042.1_87	42f7bf520fbfa5dd643ca1113ca7f542	109	Pfam	PF18902	Domain of unknown function (DUF5658)	21	100	5.0E-8	T	26-06-2023	IPR043717	Domain of unknown function DUF5658
+AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	Pfam	PF01575	MaoC like domain	96	188	3.7E-20	T	26-06-2023	IPR002539	MaoC-like dehydratase domain
+AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	PANTHER	PTHR43437	HYDROXYACYL-THIOESTER DEHYDRATASE TYPE 2, MITOCHONDRIAL-RELATED	83	212	6.0E-25	T	26-06-2023	-	-
+AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	26-06-2023	-	-
+AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	CDD	cd03449	R_hydratase	87	211	4.31938E-46	T	26-06-2023	-	-
+AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	SUPERFAMILY	SSF54637	Thioesterase/thiol ester dehydrase-isomerase	85	211	2.14E-30	T	26-06-2023	IPR029069	HotDog domain superfamily
+AOIR01000042.1_36	f01dd4d4568a59c09190360908924e7a	217	Gene3D	G3DSA:3.10.129.10	Hotdog Thioesterase	61	212	1.0E-35	T	26-06-2023	-	-
+AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	Gene3D	G3DSA:3.40.50.11220	-	26	141	7.6E-24	T	26-06-2023	-	-
+AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	Pfam	PF11760	Cobalamin synthesis G N-terminal	68	146	4.4E-27	T	26-06-2023	IPR021744	Cobalamin synthesis G, N-terminal
+AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	SUPERFAMILY	SSF159672	CbiG N-terminal domain-like	33	182	4.84E-37	T	26-06-2023	IPR038029	GbiG N-terminal domain superfamily
+AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	Gene3D	G3DSA:3.30.420.180	-	207	329	9.2E-25	T	26-06-2023	IPR036518	CobE/GbiG C-terminal domain superfamily
+AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	PANTHER	PTHR37477	COBALT-PRECORRIN-5A HYDROLASE	30	329	4.1E-78	T	26-06-2023	-	-
+AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	Pfam	PF01890	Cobalamin synthesis G C-terminus	211	327	8.6E-22	T	26-06-2023	IPR002750	CobE/GbiG C-terminal domain
+AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	26-06-2023	-	-
+AOIR01000042.1_21	f45030cab1f14000269d330e5eb2cf5c	329	SUPERFAMILY	SSF159664	CobE/GbiG C-terminal domain-like	211	329	6.02E-25	T	26-06-2023	IPR036518	CobE/GbiG C-terminal domain superfamily
+AOIR01000042.1_95	9af16f7c70c941ecd3c5c5899da16fb8	238	Gene3D	G3DSA:1.10.10.10	-	10	94	2.3E-10	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+AOIR01000042.1_95	9af16f7c70c941ecd3c5c5899da16fb8	238	MobiDBLite	mobidb-lite	consensus disorder prediction	116	130	-	T	26-06-2023	-	-
+AOIR01000042.1_95	9af16f7c70c941ecd3c5c5899da16fb8	238	MobiDBLite	mobidb-lite	consensus disorder prediction	106	132	-	T	26-06-2023	-	-
+AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	Gene3D	G3DSA:3.40.190.10	-	130	240	9.8E-91	T	26-06-2023	-	-
+AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	SUPERFAMILY	SSF53850	Periplasmic binding protein-like II	52	282	2.17E-25	T	26-06-2023	-	-
+AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	Gene3D	G3DSA:3.40.190.10	-	52	292	9.8E-91	T	26-06-2023	-	-
+AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	PANTHER	PTHR37945	EXTRACELLULAR TUNGSTATE BINDING PROTEIN	44	294	5.7E-88	T	26-06-2023	-	-
+AOIR01000042.1_9	d05604af4c5f3ab916bbb58a2e4c6678	316	Pfam	PF12849	PBP superfamily domain	49	274	9.0E-25	T	26-06-2023	IPR024370	PBP domain
+AOIR01000042.1_68	c558ac0ad287e166529dad721eaca62b	223	Pfam	PF03104	DNA polymerase family B, exonuclease domain	74	115	9.2E-7	T	26-06-2023	IPR006133	DNA-directed DNA polymerase, family B, exonuclease domain
+AOIR01000042.1_68	c558ac0ad287e166529dad721eaca62b	223	Gene3D	G3DSA:3.30.420.10	-	22	167	1.6E-10	T	26-06-2023	IPR036397	Ribonuclease H superfamily
+AOIR01000042.1_68	c558ac0ad287e166529dad721eaca62b	223	SUPERFAMILY	SSF53098	Ribonuclease H-like	23	219	1.45E-15	T	26-06-2023	IPR012337	Ribonuclease H-like superfamily
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	Gene3D	G3DSA:3.30.310.10	-	12	99	6.5E-43	T	26-06-2023	IPR012295	TBP domain superfamily
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PANTHER	PTHR10126	TATA-BOX BINDING PROTEIN	7	177	1.6E-20	T	26-06-2023	IPR000814	TATA-box binding protein
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PRINTS	PR00686	Transcription initiation factor TFIID signature	7	22	2.1E-17	T	26-06-2023	IPR000814	TATA-box binding protein
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PRINTS	PR00686	Transcription initiation factor TFIID signature	99	115	2.1E-17	T	26-06-2023	IPR000814	TATA-box binding protein
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PRINTS	PR00686	Transcription initiation factor TFIID signature	124	139	2.1E-17	T	26-06-2023	IPR000814	TATA-box binding protein
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	PRINTS	PR00686	Transcription initiation factor TFIID signature	143	159	2.1E-17	T	26-06-2023	IPR000814	TATA-box binding protein
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	SUPERFAMILY	SSF55945	TATA-box binding protein-like	93	178	1.4E-20	T	26-06-2023	-	-
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	SUPERFAMILY	SSF55945	TATA-box binding protein-like	5	89	2.2E-12	T	26-06-2023	-	-
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	Gene3D	G3DSA:3.30.310.10	-	7	171	6.5E-43	T	26-06-2023	IPR012295	TBP domain superfamily
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	Pfam	PF00352	Transcription factor TFIID (or TATA-binding protein, TBP)	97	177	5.1E-21	T	26-06-2023	IPR000814	TATA-box binding protein
+AOIR01000042.1_81	b0e8b0a7968a8bf6f5dd292e8c702bf4	184	Pfam	PF00352	Transcription factor TFIID (or TATA-binding protein, TBP)	5	84	7.1E-11	T	26-06-2023	IPR000814	TATA-box binding protein
+AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	Pfam	PF00145	C-5 cytosine-specific DNA methylase	31	146	1.7E-9	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	MobiDBLite	mobidb-lite	consensus disorder prediction	239	258	-	T	26-06-2023	-	-
+AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	MobiDBLite	mobidb-lite	consensus disorder prediction	1	27	-	T	26-06-2023	-	-
+AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	PRINTS	PR00105	Cytosine-specific DNA methyltransferase signature	30	46	2.6E-5	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	PRINTS	PR00105	Cytosine-specific DNA methyltransferase signature	135	149	2.6E-5	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	30	239	4.9E-18	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+AOIR01000042.1_66	7b7135c875fd4227d257f36981971b91	258	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	29	169	7.21E-20	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Pfam	PF02384	N-6 DNA Methylase	434	726	2.0E-16	T	26-06-2023	IPR003356	DNA methylase, adenine-specific
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	1196	1200	-	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Pfam	PF20465	MmeI, helicase spacer domain	390	465	3.6E-7	T	26-06-2023	IPR046819	MmeI-like, helicase spacer domain
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	1034	1061	-	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	ProSitePatterns	PS00092	N-6 Adenine-specific DNA methylases signature.	619	625	-	T	26-06-2023	IPR002052	DNA methylase, N-6 adenine-specific, conserved site
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	MobiDBLite	mobidb-lite	consensus disorder prediction	1	29	-	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	435	762	2.2E-46	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	199	236	-	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	455	471	3.0E-18	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	487	501	3.0E-18	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	616	628	3.0E-18	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	652	676	3.0E-18	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	MobiDBLite	mobidb-lite	consensus disorder prediction	865	881	-	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	MobiDBLite	mobidb-lite	consensus disorder prediction	10	29	-	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	PANTHER	PTHR33841	DNA METHYLTRANSFERASE YEEA-RELATED	213	759	2.2E-42	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Pfam	PF12950	TaqI-like C-terminal specificity domain	881	1022	3.0E-9	T	26-06-2023	IPR025931	TaqI-like C-terminal specificity domain
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	339	730	2.21E-52	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	MobiDBLite	mobidb-lite	consensus disorder prediction	851	881	-	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	279	299	-	T	26-06-2023	-	-
+AOIR01000042.1_82	66fdb48920e9c6eab420cb4dde48a05a	1200	Coils	Coil	Coil	1143	1163	-	T	26-06-2023	-	-
+AOIR01000042.1_89	0c05b86700e2f06beaf4e0cae3c3d482	446	MobiDBLite	mobidb-lite	consensus disorder prediction	243	267	-	T	26-06-2023	-	-
+AOIR01000042.1_89	0c05b86700e2f06beaf4e0cae3c3d482	446	MobiDBLite	mobidb-lite	consensus disorder prediction	418	437	-	T	26-06-2023	-	-
+AOIR01000042.1_89	0c05b86700e2f06beaf4e0cae3c3d482	446	MobiDBLite	mobidb-lite	consensus disorder prediction	39	63	-	T	26-06-2023	-	-
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	13	98	3.85E-16	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Gene3D	G3DSA:2.40.50.100	-	142	223	4.6E-18	T	26-06-2023	-	-
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	SUPERFAMILY	SSF50331	MOP-like	104	226	5.1E-17	T	26-06-2023	IPR008995	Molybdate/tungstate binding, C-terminal
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	PANTHER	PTHR30432	TRANSCRIPTIONAL REGULATOR MODE	13	215	1.6E-12	T	26-06-2023	-	-
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Pfam	PF00126	Bacterial regulatory helix-turn-helix protein, lysR family	22	80	4.7E-8	T	26-06-2023	IPR000847	Transcription regulator HTH, LysR
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Pfam	PF03459	TOBE domain	160	225	5.2E-14	T	26-06-2023	IPR005116	Transport-associated OB, type 1
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Gene3D	G3DSA:1.10.10.10	-	6	122	4.2E-21	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	ProSiteProfiles	PS51866	Mop domain profile.	159	229	20.059258	T	26-06-2023	IPR004606	Molybdenum-pterin binding domain
+AOIR01000042.1_6	8ec2bc03b522ea02f04142425a211df1	236	Coils	Coil	Coil	37	57	-	T	26-06-2023	-	-
+AOIR01000042.1_56	a83b3dd68313ca3a454b86c7a826c39d	510	MobiDBLite	mobidb-lite	consensus disorder prediction	180	201	-	T	26-06-2023	-	-
+AOIR01000042.1_56	a83b3dd68313ca3a454b86c7a826c39d	510	MobiDBLite	mobidb-lite	consensus disorder prediction	481	510	-	T	26-06-2023	-	-
+AOIR01000042.1_12	fe2d4f4fb4129c2e47447ed0934a9c52	165	MobiDBLite	mobidb-lite	consensus disorder prediction	76	165	-	T	26-06-2023	-	-
+AOIR01000042.1_12	fe2d4f4fb4129c2e47447ed0934a9c52	165	MobiDBLite	mobidb-lite	consensus disorder prediction	71	165	-	T	26-06-2023	-	-
+AOIR01000042.1_38	ab2d505b42ffa74bd8682ee53f6424ef	103	MobiDBLite	mobidb-lite	consensus disorder prediction	1	15	-	T	26-06-2023	-	-
+AOIR01000042.1_38	ab2d505b42ffa74bd8682ee53f6424ef	103	MobiDBLite	mobidb-lite	consensus disorder prediction	1	20	-	T	26-06-2023	-	-
+AOIR01000042.1_53	8a29e66b9edb4cc00ccfec24cd1b54a4	193	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	26-06-2023	-	-
+AOIR01000042.1_53	8a29e66b9edb4cc00ccfec24cd1b54a4	193	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	26-06-2023	-	-
+AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	Gene3D	G3DSA:3.40.1010.10	-	13	148	8.2E-28	T	26-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
+AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	19	230	9.4E-46	T	26-06-2023	IPR000878	Tetrapyrrole methylase
+AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	MobiDBLite	mobidb-lite	consensus disorder prediction	60	78	-	T	26-06-2023	-	-
+AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	17	272	2.22E-48	T	26-06-2023	IPR035996	Tetrapyrrole methylase superfamily
+AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	PANTHER	PTHR47036	COBALT-FACTOR III C(17)-METHYLTRANSFERASE-RELATED	16	286	1.9E-71	T	26-06-2023	-	-
+AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	MobiDBLite	mobidb-lite	consensus disorder prediction	59	78	-	T	26-06-2023	-	-
+AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	CDD	cd11646	Precorrin_3B_C17_MT	20	283	2.17073E-98	T	26-06-2023	IPR006363	Precorrin-3B C17-methyltransferase domain
+AOIR01000042.1_20	cd88f7cc061493e94eee199eea3095fd	290	Gene3D	G3DSA:3.30.950.10	-	149	283	1.3E-37	T	26-06-2023	IPR014776	Tetrapyrrole methylase, subdomain 2
+AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	205	228	-	T	26-06-2023	-	-
+AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	1	26	-	T	26-06-2023	-	-
+AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	192	273	-	T	26-06-2023	-	-
+AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	145	171	-	T	26-06-2023	-	-
+AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	1	81	-	T	26-06-2023	-	-
+AOIR01000042.1_10	ffab6c8bc1ff1f58d2040d2d52460266	273	MobiDBLite	mobidb-lite	consensus disorder prediction	121	178	-	T	26-06-2023	-	-
+AOIR01000042.1_18	2c410241783e27814100cc46b48cb9f9	88	Gene3D	G3DSA:3.30.70.20	-	3	86	5.2E-8	T	26-06-2023	-	-
+AOIR01000042.1_18	2c410241783e27814100cc46b48cb9f9	88	Pfam	PF13459	4Fe-4S single cluster domain	6	83	2.4E-18	T	26-06-2023	-	-
+AOIR01000042.1_18	2c410241783e27814100cc46b48cb9f9	88	SUPERFAMILY	SSF54862	4Fe-4S ferredoxins	4	85	3.29E-5	T	26-06-2023	-	-
+AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	MobiDBLite	mobidb-lite	consensus disorder prediction	1	26	-	T	26-06-2023	-	-
+AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	ProSitePatterns	PS00455	Putative AMP-binding domain signature.	267	278	-	T	26-06-2023	IPR020845	AMP-binding, conserved site
+AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	Gene3D	G3DSA:3.40.50.12780	-	34	529	2.6E-172	T	26-06-2023	IPR042099	ANL, N-terminal domain
+AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	Pfam	PF16177	Acetyl-coenzyme A synthetase N-terminus	37	87	6.6E-14	T	26-06-2023	IPR032387	Acetyl-coenzyme A synthetase, N-terminal domain
+AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	SUPERFAMILY	SSF56801	Acetyl-CoA synthetase-like	37	537	2.35E-128	T	26-06-2023	-	-
+AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	PANTHER	PTHR24095	ACETYL-COENZYME A SYNTHETASE	37	537	2.9E-181	T	26-06-2023	-	-
+AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	FunFam	G3DSA:3.40.50.12780:FF:000001	Acetyl-coenzyme A synthetase	19	529	4.2E-181	T	26-06-2023	-	-
+AOIR01000042.1_1	5bed6bb788d9190817698ab3b0d5eeaf	537	Pfam	PF00501	AMP-binding enzyme	96	534	1.2E-95	T	26-06-2023	IPR000873	AMP-dependent synthetase/ligase domain
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	MobiDBLite	mobidb-lite	consensus disorder prediction	221	267	-	T	26-06-2023	-	-
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	2	195	5.9E-37	T	26-06-2023	IPR000878	Tetrapyrrole methylase
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	PANTHER	PTHR43467	COBALT-PRECORRIN-2 C(20)-METHYLTRANSFERASE	1	217	3.3E-56	T	26-06-2023	-	-
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	PIRSF	PIRSF036427	Precrrn-2_mtase	1	220	1.0E-54	T	26-06-2023	IPR012382	Precorrin-2 C(20)-methyltransferase
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	1	205	1.96E-35	T	26-06-2023	IPR035996	Tetrapyrrole methylase superfamily
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	CDD	cd11645	Precorrin_2_C20_MT	6	209	1.17284E-51	T	26-06-2023	IPR012382	Precorrin-2 C(20)-methyltransferase
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	ProSitePatterns	PS00839	Uroporphyrin-III C-methyltransferase signature 1.	6	20	-	T	26-06-2023	IPR003043	Uroporphiryn-III C-methyltransferase, conserved site
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	MobiDBLite	mobidb-lite	consensus disorder prediction	251	267	-	T	26-06-2023	-	-
+AOIR01000042.1_23	445826947d30fdab360beb4c20243127	267	Gene3D	G3DSA:3.40.1010.10	-	1	120	1.2E-26	T	26-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Gene3D	G3DSA:1.10.472.170	-	34	222	1.7E-47	T	26-06-2023	-	-
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SUPERFAMILY	SSF57783	Zinc beta-ribbon	33	75	1.6E-10	T	26-06-2023	-	-
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	45	65	1.3E-29	T	26-06-2023	IPR000812	Transcription factor TFIIB
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	67	80	1.3E-29	T	26-06-2023	IPR000812	Transcription factor TFIIB
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	80	101	1.3E-29	T	26-06-2023	IPR000812	Transcription factor TFIIB
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	188	207	1.3E-29	T	26-06-2023	IPR000812	Transcription factor TFIIB
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	278	294	1.3E-29	T	26-06-2023	IPR000812	Transcription factor TFIIB
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PRINTS	PR00685	Transcription initiation factor IIB signature	310	324	1.3E-29	T	26-06-2023	IPR000812	Transcription factor TFIIB
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Pfam	PF08271	TFIIB zinc-binding	35	72	1.5E-9	T	26-06-2023	IPR013137	Zinc finger, TFIIB-type
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	MobiDBLite	mobidb-lite	consensus disorder prediction	1	34	-	T	26-06-2023	-	-
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Gene3D	G3DSA:1.10.472.10	-	238	328	6.5E-12	T	26-06-2023	-	-
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	MobiDBLite	mobidb-lite	consensus disorder prediction	69	144	-	T	26-06-2023	-	-
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	MobiDBLite	mobidb-lite	consensus disorder prediction	102	131	-	T	26-06-2023	-	-
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	PANTHER	PTHR11618	TRANSCRIPTION INITIATION FACTOR IIB-RELATED	35	320	5.0E-43	T	26-06-2023	IPR000812	Transcription factor TFIIB
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SMART	SM00385	cyclin_7	146	228	6.5E-4	T	26-06-2023	IPR013763	Cyclin-like domain
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SMART	SM00385	cyclin_7	241	324	4.9	T	26-06-2023	IPR013763	Cyclin-like domain
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Pfam	PF00382	Transcription factor TFIIB repeat	235	323	5.5E-10	T	26-06-2023	IPR013150	Transcription factor TFIIB, cyclin-like domain
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	Pfam	PF00382	Transcription factor TFIIB repeat	140	214	5.4E-15	T	26-06-2023	IPR013150	Transcription factor TFIIB, cyclin-like domain
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	MobiDBLite	mobidb-lite	consensus disorder prediction	71	101	-	T	26-06-2023	-	-
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	ProSitePatterns	PS00782	Transcription factor TFIIB repeat signature.	277	292	-	T	26-06-2023	IPR023486	Transcription factor TFIIB, conserved site
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	ProSiteProfiles	PS51134	Zinc finger TFIIB-type profile.	32	60	7.9866	T	26-06-2023	IPR013137	Zinc finger, TFIIB-type
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SUPERFAMILY	SSF47954	Cyclin-like	238	327	1.02E-13	T	26-06-2023	IPR036915	Cyclin-like superfamily
+AOIR01000042.1_91	3354793389280d4a4857dc28d1af6f56	332	SUPERFAMILY	SSF47954	Cyclin-like	144	213	1.82E-16	T	26-06-2023	IPR036915	Cyclin-like superfamily
+AOIR01000042.1_40	2bd76cbc733bbf54b95d6810ba909476	186	MobiDBLite	mobidb-lite	consensus disorder prediction	37	95	-	T	26-06-2023	-	-
+AOIR01000042.1_40	2bd76cbc733bbf54b95d6810ba909476	186	MobiDBLite	mobidb-lite	consensus disorder prediction	1	35	-	T	26-06-2023	-	-
+AOIR01000042.1_40	2bd76cbc733bbf54b95d6810ba909476	186	MobiDBLite	mobidb-lite	consensus disorder prediction	1	132	-	T	26-06-2023	-	-
+AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	PANTHER	PTHR43182	COBALT-PRECORRIN-6B C(15)-METHYLTRANSFERASE (DECARBOXYLATING)	15	179	9.7E-23	T	26-06-2023	-	-
+AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	12	118	8.28E-15	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	NCBIfam	TIGR02469	precorrin-6Y C5,15-methyltransferase (decarboxylating) subunit CbiT	14	130	2.2E-25	T	26-06-2023	IPR014008	Cobalamin biosynthesis, precorrin-6Y methyltransferase, CbiT subunit
+AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	MobiDBLite	mobidb-lite	consensus disorder prediction	180	201	-	T	26-06-2023	-	-
+AOIR01000042.1_24	e7d5a919ec99b81d598f3203973cedeb	201	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	7	190	2.3E-36	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	26-06-2023	-	-
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	ProSitePatterns	PS00136	Serine proteases, subtilase family, aspartic acid active site.	250	260	-	T	26-06-2023	IPR023827	Peptidase S8, subtilisin, Asp-active site
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	Pfam	PF00082	Subtilase family	245	501	5.4E-37	T	26-06-2023	IPR000209	Peptidase S8/S53 domain
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	MobiDBLite	mobidb-lite	consensus disorder prediction	1	37	-	T	26-06-2023	-	-
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	NCBIfam	TIGR01409	twin-arginine translocation signal domain	38	61	0.005	T	26-06-2023	IPR019546	Twin-arginine translocation pathway, signal sequence, bacterial/archaeal
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	ProSiteProfiles	PS51318	Twin arginine translocation (Tat) signal profile.	1	63	9.156099	T	26-06-2023	IPR006311	Twin-arginine translocation pathway, signal sequence
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	245	264	2.9E-13	T	26-06-2023	IPR015500	Peptidase S8, subtilisin-related
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	292	305	2.9E-13	T	26-06-2023	IPR015500	Peptidase S8, subtilisin-related
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	463	479	2.9E-13	T	26-06-2023	IPR015500	Peptidase S8, subtilisin-related
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	SUPERFAMILY	SSF52743	Subtilisin-like	236	525	1.17E-52	T	26-06-2023	IPR036852	Peptidase S8/S53 domain superfamily
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	ProSitePatterns	PS00138	Serine proteases, subtilase family, serine active site.	464	474	-	T	26-06-2023	IPR023828	Peptidase S8, subtilisin, Ser-active site
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	ProSiteProfiles	PS51892	Serine proteases, subtilase domain profile.	226	523	29.997477	T	26-06-2023	-	-
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	PANTHER	PTHR43806	PEPTIDASE S8	157	484	2.9E-37	T	26-06-2023	-	-
+AOIR01000042.1_44	a4d14fb4413929e810fede17937b433d	560	Gene3D	G3DSA:3.40.50.200	Peptidase S8/S53 domain	217	527	1.2E-55	T	26-06-2023	IPR036852	Peptidase S8/S53 domain superfamily
+AOIR01000042.1_90	5f769f8ba0d0e3c2e5a9068c6b9e6e67	67	Pfam	PF12802	MarR family	8	53	2.6E-6	T	26-06-2023	IPR000835	MarR-type HTH domain
+AOIR01000042.1_90	5f769f8ba0d0e3c2e5a9068c6b9e6e67	67	Gene3D	G3DSA:1.10.10.10	-	2	58	1.3E-6	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+AOIR01000042.1_90	5f769f8ba0d0e3c2e5a9068c6b9e6e67	67	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	10	55	7.67E-6	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	555	578	-	T	26-06-2023	-	-
+AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	26-06-2023	-	-
+AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	476	578	-	T	26-06-2023	-	-
+AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	1	18	-	T	26-06-2023	-	-
+AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	235	262	-	T	26-06-2023	-	-
+AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	477	500	-	T	26-06-2023	-	-
+AOIR01000042.1_98	84f5d462eec5f94c370cecdcc21b8adc	578	MobiDBLite	mobidb-lite	consensus disorder prediction	511	538	-	T	26-06-2023	-	-
+AOIR01000042.1_88	9a75b47574364c4093cfc8f3e5452cf2	208	Pfam	PF05869	DNA N-6-adenine-methyltransferase (Dam)	25	147	2.0E-18	T	26-06-2023	IPR008593	DNA N-6-adenine-methyltransferase
+AOIR01000042.1_57	dd0379a54551ffeb9a6dcb803f61a739	798	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	26-06-2023	-	-
+AOIR01000042.1_57	dd0379a54551ffeb9a6dcb803f61a739	798	Coils	Coil	Coil	19	39	-	T	26-06-2023	-	-
+AOIR01000042.1_99	4c56f8a3e2c2dab62027b47431c0731f	271	MobiDBLite	mobidb-lite	consensus disorder prediction	62	86	-	T	26-06-2023	-	-
+AOIR01000042.1_99	4c56f8a3e2c2dab62027b47431c0731f	271	MobiDBLite	mobidb-lite	consensus disorder prediction	45	86	-	T	26-06-2023	-	-
+AOIR01000042.1_34	b85c9b87d0feb30045aac5612002c24d	517	NCBIfam	NF037981	purine/pyrimidine permease	30	417	3.3E-22	T	26-06-2023	-	-
+AOIR01000042.1_34	b85c9b87d0feb30045aac5612002c24d	517	PANTHER	PTHR11119	XANTHINE-URACIL / VITAMIN C PERMEASE FAMILY MEMBER	15	502	2.6E-125	T	26-06-2023	-	-
+AOIR01000042.1_34	b85c9b87d0feb30045aac5612002c24d	517	Pfam	PF00860	Permease family	28	420	4.0E-73	T	26-06-2023	IPR006043	Nucleobase cation symporter 2 family
+AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	Gene3D	G3DSA:3.30.950.10	-	143	263	5.4E-5	T	26-06-2023	IPR014776	Tetrapyrrole methylase, subdomain 2
+AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	NCBIfam	TIGR02467	precorrin-6y C5,15-methyltransferase (decarboxylating) subunit CbiE	36	239	4.4E-33	T	26-06-2023	IPR012818	Precorrin-6Y methyltransferase
+AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	SUPERFAMILY	SSF53790	Tetrapyrrole methylase	31	251	3.53E-39	T	26-06-2023	IPR035996	Tetrapyrrole methylase superfamily
+AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	Pfam	PF00590	Tetrapyrrole (Corrin/Porphyrin) Methylases	33	238	3.0E-30	T	26-06-2023	IPR000878	Tetrapyrrole methylase
+AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	MobiDBLite	mobidb-lite	consensus disorder prediction	1	28	-	T	26-06-2023	-	-
+AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	PANTHER	PTHR43182	COBALT-PRECORRIN-6B C(15)-METHYLTRANSFERASE (DECARBOXYLATING)	32	244	2.2E-47	T	26-06-2023	-	-
+AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	CDD	cd11644	Precorrin-6Y-MT	36	260	5.25753E-44	T	26-06-2023	IPR012818	Precorrin-6Y methyltransferase
+AOIR01000042.1_30	834a3562e539bc391662d81e62ef4fb4	263	Gene3D	G3DSA:3.40.1010.10	-	25	142	2.5E-20	T	26-06-2023	IPR014777	Tetrapyrrole methylase, subdomain 1
+AOIR01000042.1_65	ded9944c2706b234c6ac21f5f86c39e4	178	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	26-06-2023	-	-
+AOIR01000042.1_65	ded9944c2706b234c6ac21f5f86c39e4	178	MobiDBLite	mobidb-lite	consensus disorder prediction	1	27	-	T	26-06-2023	-	-

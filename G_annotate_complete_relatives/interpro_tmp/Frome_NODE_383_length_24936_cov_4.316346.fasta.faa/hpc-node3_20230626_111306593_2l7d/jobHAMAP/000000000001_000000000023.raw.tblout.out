@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+16                   -          MF_01095             -            3.4e-05   14.0   0.1   6.6e-05   13.0   0.1   1.5   1   0   0   1   1   1   1 -
+2                    -          MF_01493             -            5.6e-06   15.8   1.8   7.5e-06   15.4   1.8   1.2   1   0   0   1   1   1   1 -
+22                   -          MF_01570             -            0.00048    9.5   3.4   0.00034   10.0   0.6   1.8   2   0   0   2   2   2   2 -
+19                   -          MF_01807             -            2.6e-07   20.6   0.0   1.1e-06   18.5   0.0   2.1   1   1   0   1   1   1   1 -
+19                   -          MF_01808             -            4.1e-11   33.4   0.0   7.8e-11   32.4   0.0   1.4   1   0   0   1   1   1   1 -
+19                   -          MF_01817             -            0.00019   11.7   0.0   0.00044   10.5   0.0   1.6   2   0   0   2   2   2   2 -
+19                   -          MF_02055             -            8.3e-11   32.2   0.0   1.7e-10   31.2   0.0   1.4   2   0   0   2   2   2   2 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/hamap/2023_01/hamap.hmm.lib
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobHAMAP/000000000001_000000000023.fasta
+# Option settings: bin/hmmer/hmmer3/3.3/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobHAMAP/000000000001_000000000023.raw.out --tblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobHAMAP/000000000001_000000000023.raw.tblout.out -E 100 --domE 100 --incE 100 --incdomE 100 --cpu 1 data/hamap/2023_01/hamap.hmm.lib /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobHAMAP/000000000001_000000000023.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:41 2023
+# [ok]

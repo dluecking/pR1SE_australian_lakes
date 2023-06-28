@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/hamap/2023_01/hamap.hmm.lib
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobHAMAP/000000000001_000000000047.fasta
+# Option settings: bin/hmmer/hmmer3/3.3/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobHAMAP/000000000001_000000000047.raw.out --tblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobHAMAP/000000000001_000000000047.raw.tblout.out -E 100 --domE 100 --incE 100 --incdomE 100 --cpu 1 data/hamap/2023_01/hamap.hmm.lib /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobHAMAP/000000000001_000000000047.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:46 2023
+# [ok]

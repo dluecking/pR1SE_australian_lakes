@@ -1,0 +1,1848 @@
+Sn; 1
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN GLUCAGONR       2  of  10 62.29    31.15    493        5.17e-05    1.5e+02     ..i......I      
+2TBN PTRHORMONER     2  of  6  64.21    32.11    463        6.64e-05    1.8e+02     ..I..i          
+2TBN HDA1SUBUNIT3    2  of  5  57.78    28.89    445        0.000316    7.4e+02     .I..i           
+2TBN ANDROGENR       2  of  9  47.86    23.93    427        0.000831    1.7e+03     ..ii.....       
+2TBN RCMT9           2  of  3  56.02    28.01    346        0.0011      2.5e+03     ii.             
+2TBN FAM175PLANT     2  of  9  44.11    22.05    420        0.00121     2.1e+03     i.......i       
+2TBN INTRLEUKN1R2    2  of  10 55.30    27.65    371        0.00329     7.3e+03     .I....i...      
+2TBN MASONCOGENE     2  of  7  47.60    23.80    440        0.00331     8e+03       i...i..         
+2TBN CABNDNGRPT      2  of  4  83.58    41.79    304        0.00384     1.7e+04     .I.I            
+2TBN MCEVIRFACTOR    2  of  8  46.22    23.11    360        0.00411     8.7e+03     i..i....        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN GLUCAGONR       3  of  10 23.08   247     3.54e-02  WLHRIDGRVTIST                                           13   0    37    0    
+3TBN GLUCAGONR       10 of  10 39.22   246     1.46e-03  STRRELAALLEELDDRP                                       17   0    388   0    
+3TBB
+3TBN PTRHORMONER     3  of  6  40.00   217     3.32e-02  DFAGRLHDERVRL                                           13   0    8     0    
+3TBN PTRHORMONER     6  of  6  24.21   246     2.00e-03  SRIADRAGVSKPTNPHAFR                                     19   0    258   0    
+3TBB
+3TBN HDA1SUBUNIT3    2  of  5  33.64   287     3.47e-03  HEHELSDSTVQSYENAILLY                                    20   0    85    0    
+3TBN HDA1SUBUNIT3    5  of  5  24.15   158     9.09e-02  VRKQCGNCTTSLAPHH                                        16   0    337   0    
+3TBB
+3TBN ANDROGENR       3  of  9  30.00   238     1.29e-02  PSTPGASETVDEGRDSVLEE                                    20   0    361   0    
+3TBN ANDROGENR       4  of  9  17.86   189     6.45e-02  PASSSSS##############                                   21   0    414   0    
+3TBB
+3TBN RCMT9           1  of  3  27.44   152     5.67e-02  RDVAFIEFLADTGCRLSMA                                     19   0    149   0    
+3TBN RCMT9           2  of  3  28.57   194     1.95e-02  GPDRVRKQCGNCTTSLAP                                      18   0    333   0    
+3TBB
+3TBN FAM175PLANT     1  of  9  18.18   220     1.89e-02  PDDADRTSVDTEGPCADDILAE                                  22   0    114   0    
+3TBN FAM175PLANT     9  of  9  25.93   200     6.42e-02  ETVDEGRDSVLEELVSATDSSTRRELA                             27   0    368   0    
+3TBB
+3TBN INTRLEUKN1R2    2  of  10 33.33   156     8.70e-02  NAILLYLQEMTDAEWP                                        16   0    99    0    
+3TBN INTRLEUKN1R2    7  of  10 21.97   215     3.78e-02  AFRHSAITRMVREGYSRSQIEH                                  22   0    274   0    
+3TBB
+3TBN MASONCOGENE     1  of  7  23.53   217     4.77e-02  RRCRLGSERCEVPLLDL                                       17   0    55    0    
+3TBN MASONCOGENE     5  of  7  24.07   223     6.94e-02  RVHWTLDTDMWETYEHIT                                      18   0    296   0    
+3TBB
+3TBN CABNDNGRPT      2  of  4  40.65   145     9.68e-02  GPCADDILA                                               9    0    126   0    
+3TBN CABNDNGRPT      4  of  4  42.93   159     3.96e-02  GLKGADIAEY                                              10   0    191   0    
+3TBB
+3TBN MCEVIRFACTOR    1  of  8  20.95   198     4.74e-02  QSYENAILLYLQEMTDAEWPD                                   21   0    95    0    
+3TBN MCEVIRFACTOR    4  of  8  25.26   162     8.67e-02  EGDGRWSDDGGVAPNAMRQ                                     19   0    237   0    
+3TBB
+3TBF
+Sn; 2
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN GGTRANSPTASE    2  of  9  32.92    16.46    239        0.00131     2.5e+03     ii.......       
+2TBN GABABRECEPTR    2  of  14 49.47    24.74    326        0.00263     4.8e+03     ii............  
+2TBN C3ANPHYLTXNR    2  of  10 56.33    28.17    307        0.00289     9e+03       .Ii.......      
+2TBN ANTIFREEZEI     2  of  3  56.67    28.33    228        0.00324     1.1e+04     i.i             
+2TBN WORMGLOBIN      2  of  5  46.25    23.12    276        0.00589     1.6e+04     ...ii           
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN GGTRANSPTASE    1  of  9  21.68   131     1.87e-02  GTPQEQMSASFALGVAAWISSAISLG                              26   0    58    0    
+3TBN GGTRANSPTASE    2  of  9  11.24   108     7.03e-02  AAGTPR#############                                     19   0    115   0    
+3TBB
+3TBN GABABRECEPTR    1  of  14 29.41   168     3.83e-02  GGKLKAAVSWPVEQVAG                                       17   0    2     0    
+3TBN GABABRECEPTR    2  of  14 20.06   158     6.85e-02  QEQMSASFALGVAAWISSAISLGLTIPIA                           29   0    61    0    
+3TBB
+3TBN C3ANPHYLTXNR    2  of  10 34.67   128     4.43e-02  AAWISSAISLGLTIP                                         15   0    73    0    
+3TBN C3ANPHYLTXNR    3  of  10 21.67   179     6.54e-02  AFRLWPVVDDVW                                            12   0    100   0    
+3TBB
+3TBN ANTIFREEZEI     1  of  3  26.67   121     3.55e-02  SWEDAIPPAVLSSAA                                         15   0    31    0    
+3TBN ANTIFREEZEI     3  of  3  30.00   107     9.12e-02  SASFALGVAA                                              10   0    65    0    
+3TBB
+3TBN WORMGLOBIN      4  of  5  20.00   118     8.78e-02  ######MGGKLKAAV                                         15   0    -5    0    
+3TBN WORMGLOBIN      5  of  5  26.25   158     6.71e-02  QVAGWWENTKAIVSSL                                        16   0    15    0    
+3TBB
+3TBF
+Sn; 3
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN TROPOMYOSIN     3  of  5  82.25    27.42    734        2.06e-07    0.26        iIi..           
+2TBN VACATPASE       2  of  4  47.26    23.63    439        2.94e-05    48          i.i.            
+2TBN INPROXISOME2    2  of  5  56.79    28.39    395        4.29e-05    79          ..Ii.           
+2TBN GLFROXRDTASE    2  of  6  59.45    29.73    416        8.76e-05    2.4e+02     i..I..          
+2TBN CHAPERONIN60    2  of  5  55.92    27.96    405        9.2e-05     1.4e+02     .i.I.           
+2TBN ENDOLAPTASE     2  of  5  51.41    25.71    381        0.000162    3.4e+02     I..i.           
+2TBN DEATHASSOCP3    2  of  9  70.63    35.32    439        0.000165    3.9e+02     ..I.....I       
+2TBN BETATUBULIN     2  of  13 68.11    34.06    502        0.00023     6.3e+02     .I..........i   
+2TBN LCRVANTIGEN     2  of  9  47.88    23.94    463        0.000252    5.2e+02     ..I....i.       
+2TBN GAMMATUBULIN    2  of  8  69.10    34.55    397        0.000273    6.1e+02     ..I....i        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN TROPOMYOSIN     1  of  5  29.45   293     6.93e-04  DLEPYEERVETLEEKLDM                                      18   0    411   0    
+3TBN TROPOMYOSIN     2  of  5  31.35   203     3.44e-02  ADDEKLREKVSEQRERVAELE                                   21   0    447   0    
+3TBN TROPOMYOSIN     3  of  5  21.46   238     8.63e-03  QAAMQTAKDASSYADEHFDRVVSILASSD                           29   0    501   0    
+3TBB
+3TBN VACATPASE       1  of  4  28.84   285     3.14e-04  LQQDTAEGGDGASESGGESPQQVIK                               25   0    354   0    
+3TBN VACATPASE       3  of  4  18.42   154     9.37e-02  LADALGLPLADDEKLREKVSEQRERVA                             27   0    438   0    
+3TBB
+3TBN INPROXISOME2    3  of  5  31.44   172     7.75e-03  ELLESVATALFTKAKAHKQPTL                                  22   0    140   0    
+3TBN INPROXISOME2    4  of  5  25.35   223     5.53e-03  LPLADDEKLREKVSEQRERVAELE                                24   0    444   0    
+3TBB
+3TBN GLFROXRDTASE    1  of  6  28.57   206     8.90e-03  RKHGLGIMGMSQRP                                          14   0    192   0    
+3TBN GLFROXRDTASE    4  of  6  30.88   210     9.84e-03  VSEKDARIEELEERVAD                                       17   0    395   0    
+3TBB
+3TBN CHAPERONIN60    2  of  5  25.13   179     1.58e-02  DVSGYADEGGTDVDSDIGRELLESVATA                            28   0    121   0    
+3TBN CHAPERONIN60    4  of  5  30.80   226     5.82e-03  ALEQEVSEKDARIEELEERVADLEPY                              26   0    390   0    
+3TBB
+3TBN ENDOLAPTASE     1  of  5  31.41   199     7.77e-03  GKSGSGKSNSASVIFEELLS                                    20   0    41    0    
+3TBN ENDOLAPTASE     4  of  5  20.00   182     2.09e-02  SDGGAKTAGEIAPLTDISES                                    20   0    528   0    
+3TBB
+3TBN DEATHASSOCP3    3  of  9  38.10   239     4.63e-03  LSGRGFLTGKSGSGKSNS                                      18   0    33    0    
+3TBN DEATHASSOCP3    9  of  9  32.54   200     3.57e-02  VQNVLGSEYADAVETFDD                                      18   0    233   0    
+3TBB
+3TBN BETATUBULIN     2  of  13 39.00   254     8.30e-03  RGFLTGKSGSGK                                            12   0    36    0    
+3TBN BETATUBULIN     13 of  13 29.11   248     2.78e-02  DGRIEDLEDELAQARDMSA                                     19   0    326   0    
+3TBB
+3TBN LCRVANTIGEN     3  of  9  32.38   258     6.70e-03  DIDDDLLAGLDDVAEEAAQRR                                   21   0    292   0    
+3TBN LCRVANTIGEN     8  of  9  15.50   205     3.76e-02  KLREKVSEQRERVAELEAKL                                    20   0    451   0    
+3TBB
+3TBN GAMMATUBULIN    3  of  8  45.54   216     6.03e-03  HRLTWNNDTRVVQN                                          14   0    222   0    
+3TBN GAMMATUBULIN    8  of  8  23.57   181     4.53e-02  DMDEAAEAVERLADALGLPLADDE                                24   0    427   0    
+3TBB
+3TBF
+Sn; 4
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN LIMPII          2  of  9  76.47    38.24    585        1.45e-05    30          .....I..I       
+2TBN MCMPROTEIN3     2  of  5  72.50    36.25    434        0.00015     4.7e+02     ...II           
+2TBN TROPOMYOSIN     2  of  5  45.19    22.59    429        0.000192    3.7e+02     i...i           
+2TBN NISCPROTEIN     2  of  12 65.17    32.58    505        0.000646    1.1e+03     .....I....i.    
+2TBN LATPROTEIN      2  of  6  58.37    29.19    460        0.000941    2.6e+03     i...I.          
+2TBN FLIPR           2  of  5  33.39    16.69    453        0.000999    2.5e+03     .i..i           
+2TBN ZETATUBULIN     2  of  15 49.96    24.98    348        0.00113     2.5e+03     ........i....i. 
+2TBN RNADNAPOLMS     2  of  9  66.92    33.46    350        0.00134     4.9e+03     ....I..I.       
+2TBN PAIREDBOX       2  of  4  44.06    22.03    396        0.00134     3.1e+03     .ii.            
+2TBN GAMMATUBULIN    2  of  8  47.98    23.99    355        0.00144     3.3e+03     i...I...        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN LIMPII          6  of  9  43.14   339     6.21e-04  IPLTPKNDVGYIRPSEL                                       17   0    57    0    
+3TBN LIMPII          9  of  9  33.33   246     2.33e-02  IEIWSEKAGVIPEGIADEYGATIR                                24   0    243   0    
+3TBB
+3TBN MCMPROTEIN3     4  of  5  40.00   239     2.44e-02  FNDHVDRSHIH                                             11   0    180   0    
+3TBN MCMPROTEIN3     5  of  5  32.50   195     6.14e-03  DADLDVEVVQGALTKD                                        16   0    322   0    
+3TBB
+3TBN TROPOMYOSIN     1  of  5  23.68   218     1.33e-02  DLPDLRSHIKTLRDELNE                                      18   0    26    0    
+3TBN TROPOMYOSIN     5  of  5  21.51   211     1.45e-02  RSKKGELSLSMCEEAINVAEQRGQDL                              26   0    266   0    
+3TBB
+3TBN NISCPROTEIN     6  of  12 36.00   270     1.04e-02  LNEHRDDDEALGVNDLIPLTPKNDV                               25   0    41    0    
+3TBN NISCPROTEIN     11 of  12 29.17   235     6.20e-02  YIEIWSEKAGVIPEGIADEYGATI                                24   0    242   0    
+3TBB
+3TBN LATPROTEIN      1  of  6  23.08   200     7.96e-02  LYEQEDRPEIHPR                                           13   0    82    0    
+3TBN LATPROTEIN      5  of  6  35.29   260     1.18e-02  KKGELSLSMCEEAINVA                                       17   0    268   0    
+3TBB
+3TBN FLIPR           2  of  5  20.72   252     1.07e-02  ###MTDAHRSDNDQIESL                                      18   0    -2    0    
+3TBN FLIPR           5  of  5  12.67   201     9.36e-02  DVGYIRPSELEAAEWI                                        16   0    64    0    
+3TBB
+3TBN ZETATUBULIN     9  of  15 26.53   157     7.20e-02  IESLHLTDLVDTPQ                                          14   0    12    0    
+3TBN ZETATUBULIN     14 of  15 23.43   191     1.57e-02  AMSDADLDVEVVQGALTKDQVREYE                               25   0    319   0    
+3TBB
+3TBN RNADNAPOLMS     5  of  9  36.36   128     4.19e-02  ARVLGLIDSDR                                             11   0    130   0    
+3TBN RNADNAPOLMS     8  of  9  30.56   222     3.19e-02  TYTEFVDNAVDA                                            12   0    211   0    
+3TBB
+3TBN PAIREDBOX       2  of  4  28.33   211     1.96e-02  THKDIFRAHAGQHPVEIRA                                     19   0    367   0    
+3TBN PAIREDBOX       3  of  4  15.73   185     6.84e-02  PAAFESAVERLVTKFYDT                                      18   0    391   0    
+3TBB
+3TBN GAMMATUBULIN    1  of  8  17.71   176     3.46e-02  VIPEGIADEYGATIRSKKGEL                                   21   0    252   0    
+3TBN GAMMATUBULIN    5  of  8  30.27   179     4.17e-02  VEDAILDTRRGLLEQL                                        16   0    519   0    
+3TBB
+3TBF
+Sn; 5
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN HTHARSR         3  of  4  82.50    27.50    414        5.3e-07     0.93        i.ii            
+2TBN AQUAPORIN11     2  of  13 77.85    38.92    358        9.22e-05    3.4e+02     ..I...I......   
+2TBN NAHEXCHNGR2     2  of  9  61.90    30.95    380        0.000832    2.1e+03     ..Ii.....       
+2TBN POUDOMAIN       2  of  5  59.50    29.75    296        0.00113     2.7e+03     .I.i.           
+2TBN LYMPHSPCIFIC    2  of  10 51.32    25.66    335        0.00142     3.1e+03     ...i.i....      
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN HTHARSR         1  of  4  26.88   135     5.39e-03  AKEVNTPKRREIIEAL                                        16   0    40    0    
+3TBN HTHARSR         3  of  4  28.54   158     2.91e-03  DKGQVSRDLALLAEHG                                        16   0    73    0    
+3TBN HTHARSR         4  of  4  27.08   121     3.38e-02  GIVTFDTDGRAKSPRL                                        16   0    88    0    
+3TBB
+3TBN AQUAPORIN11     3  of  13 33.85   176     1.74e-02  AERIEARSELARA                                           13   0    11    0    
+3TBN AQUAPORIN11     7  of  13 44.00   182     5.29e-03  SPRLAQQRLL                                              10   0    100   0    
+3TBB
+3TBN NAHEXCHNGR2     3  of  9  33.33   200     2.56e-02  TTTTTRSEAERI                                            12   0    3     0    
+3TBN NAHEXCHNGR2     4  of  9  28.57   180     3.25e-02  NTPKRREIIEALSKGEYESVR                                   21   0    44    0    
+3TBB
+3TBN POUDOMAIN       2  of  5  31.32   168     2.84e-02  TTTTTTRSEAERIE                                          14   0    2     0    
+3TBN POUDOMAIN       4  of  5  28.17   128     3.98e-02  NTPKRREIIEALSKGEYESVR                                   21   0    44    0    
+3TBB
+3TBN LYMPHSPCIFIC    4  of  10 26.32   145     8.07e-02  EDVQILSLEEAKEVNTPKR                                     19   0    30    0    
+3TBN LYMPHSPCIFIC    6  of  10 25.00   190     1.76e-02  IVTFDTDGRAKSPRLAQQRL                                    20   0    89    0    
+3TBB
+3TBF
+Sn; 6
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN RECOVERIN       2  of  7  42.19    21.10    312        0.000231    5.3e+02     .....ii         
+2TBN BRISCABRO1      2  of  9  50.56    25.28    344        0.0016      4e+03       .....ii..       
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN RECOVERIN       6  of  7  14.90   134     9.06e-02  ########MGDTEKNP                                        16   0    -7    0    
+3TBN RECOVERIN       7  of  7  27.29   178     2.55e-03  IWLDEQYPAAMTDPEKVRMAV                                   21   0    18    0    
+3TBB
+3TBN BRISCABRO1      6  of  9  25.00   196     1.78e-02  KNPRVTFNERTSIWLD                                        16   0    6     0    
+3TBN BRISCABRO1      7  of  9  25.56   148     8.97e-02  KVRMAVNDAMSLHKLNQR                                      18   0    33    0    
+3TBB
+3TBF
+Sn; 7
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN NEUROTENSN2R    2  of  6  56.53    28.26    383        0.000283    6.8e+02     .I..i.          
+2TBN ATCASE          2  of  6  49.40    24.70    299        0.000456    1.5e+03     .I...i          
+2TBN SIBAPROTEIN     2  of  4  43.75    21.88    354        0.00134     2.2e+03     i..i            
+2TBN GKINASEAP1      2  of  9  40.00    20.00    374        0.00344     6.5e+03     i......i.       
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN NEUROTENSN2R    2  of  6  30.77   163     4.94e-02  SAGVVAEEEADTD                                           13   0    33    0    
+3TBN NEUROTENSN2R    5  of  6  25.76   220     5.72e-03  NPDARVKFIANPTRKDEITEEW                                  22   0    274   0    
+3TBB
+3TBN ATCASE          2  of  6  30.77   127     8.32e-02  QNTQVVLGES                                              10   0    82    0    
+3TBN ATCASE          6  of  6  18.63   172     5.49e-03  FYTEAQDGSSIRVTF                                         15   0    258   0    
+3TBB
+3TBN SIBAPROTEIN     1  of  4  21.88   165     1.96e-02  AVGVLSAGVVAEEEADTDTDTETACETV                            28   0    28    0    
+3TBN SIBAPROTEIN     4  of  4  21.88   189     6.82e-02  QVTIPLENPETGESIDNWRARYTL                                24   0    217   0    
+3TBB
+3TBN GKINASEAP1      1  of  9  20.00   161     6.77e-02  VLTTSLAVGVLSAGVVAEEEAD                                  22   0    22    0    
+3TBN GKINASEAP1      8  of  9  20.00   213     5.09e-02  MWESGLKEIGSRMPWN#######                                 23   0    297   0    
+3TBB
+3TBF
+Sn; 8
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBF
+Sn; 9
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN PHOSDUCIN       2  of  8  40.18    20.09    438        0.000254    5e+02       ....i..i        
+2TBN SUPERTUBBY      2  of  7  40.91    20.45    289        0.00187     4.6e+03     i...i..         
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN PHOSDUCIN       5  of  8  21.01   216     1.70e-02  ########MSQSDFTYRLAAGER                                 23   0    -7    0    
+3TBN PHOSDUCIN       8  of  8  19.17   222     1.49e-02  EEYLRENWERLVDTYFQNHG                                    20   0    93    0    
+3TBB
+3TBN SUPERTUBBY      1  of  7  20.05   117     8.83e-02  YLIGVRHDPSINNVDSF                                       17   0    20    0    
+3TBN SUPERTUBBY      5  of  7  20.86   172     2.12e-02  NHGAIPRMDAKNI####                                       17   0    110   0    
+3TBB
+3TBF
+Sn; 10
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN PROTHROMBIN     2  of  4  58.20    29.10    502        0.000154    3.1e+02     ..Ii            
+2TBN LIPOLPP20       2  of  8  47.78    23.89    470        0.000163    3.6e+02     ...i.i..        
+2TBN HTHASNC         2  of  3  37.49    18.75    269        0.000557    1.3e+03     i.i             
+2TBN GFLUORESCENT    2  of  11 54.23    27.12    432        0.000834    1.7e+03     ....i....I.     
+2TBN TOPISMRASE4B    2  of  15 52.65    26.32    365        0.00193     5.8e+03     ...........i..i 
+2TBN TYPE3IMAPROT    2  of  6  49.59    24.79    298        0.00678     1.7e+04     ....ii          
+2TBN NEISSPPORIN     2  of  7  32.91    16.46    346        0.00728     1.4e+04     ...i.i.         
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN PROTHROMBIN     3  of  4  37.57   284     5.35e-03  VRLKGDVAGLASLAESFT                                      18   0    5     0    
+3TBN PROTHROMBIN     4  of  4  20.63   218     2.88e-02  SEEGSGDVYLPADRTYEWTQLAME                                24   0    112   0    
+3TBB
+3TBN LIPOLPP20       4  of  8  20.00   190     5.89e-02  DGAYFLRSSEFEETDDVEQI                                    20   0    31    0    
+3TBN LIPOLPP20       6  of  8  27.78   280     2.76e-03  NDLDSETIYAIEQDGSRR                                      18   0    73    0    
+3TBB
+3TBN HTHASNC         1  of  3  15.69   168     7.49e-03  VNDLDSETIYAIEQDGS                                       17   0    72    0    
+3TBN HTHASNC         3  of  3  21.81   101     7.45e-02  GLFDGPAQAEVDSEEGSGDV                                    20   0    100   0    
+3TBB
+3TBN GFLUORESCENT    5  of  11 17.39   212     3.43e-02  ASLAESFTDDPEIFEEDGAYFLR                                 23   0    15    0    
+3TBN GFLUORESCENT    10 of  11 36.84   220     2.43e-02  YLPADRTYEWTQLAMEDDQ                                     19   0    120   0    
+3TBB
+3TBN TOPISMRASE4B    12 of  15 28.21   193     4.50e-02  SEFEETDDVEQIR                                           13   0    39    0    
+3TBN TOPISMRASE4B    15 of  15 24.44   172     4.30e-02  NLNRILEFIEDNIHD                                         15   0    154   0    
+3TBB
+3TBN TYPE3IMAPROT    5  of  6  26.35   150     9.88e-02  ETIYAIEQDGSRRFWKYS                                      18   0    78    0    
+3TBN TYPE3IMAPROT    6  of  6  23.24   148     6.87e-02  WTQLAMEDDQVGELV                                         15   0    129   0    
+3TBB
+3TBN NEISSPPORIN     4  of  7  22.12   182     7.41e-02  DNIHDGDNIIEHGWWSEQ                                      18   0    164   0    
+3TBN NEISSPPORIN     6  of  7  10.79   164     9.82e-02  NAQT#######################                             27   0    236   0    
+3TBB
+3TBF
+Sn; 11
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN ANTIFREEZEI     2  of  3  70.83    35.42    286        0.000219    8.4e+02     .Ii             
+2TBN GPR6ORPHANR     2  of  7  70.18    35.09    400        0.000259    6.4e+02     I...I..         
+2TBN POAALLERGEN     2  of  8  48.89    24.44    399        0.000287    6e+02       .i...i..        
+2TBN PERTACTIN       2  of  11 42.70    21.35    389        0.000308    5.6e+02     .....i...i.     
+2TBN KV16CHANNEL     2  of  10 75.56    37.78    426        0.00086     2.7e+03     .......II.      
+2TBN PROTEASES2C     2  of  6  49.38    24.69    311        0.00104     2.3e+03     i.i...          
+2TBN PNDRDTASEI      2  of  9  55.93    27.97    280        0.00244     1.1e+04     ..i..i...       
+2TBN ANTHRAXTOXNA    2  of  10 39.58    19.79    275        0.00349     7.7e+03     i...i.....      
+2TBN P2X1RECEPTOR    2  of  10 54.36    27.18    352        0.00353     1.1e+04     .....i...i      
+2TBN POUDOMAIN       2  of  5  33.86    16.93    272        0.00424     9.2e+03     i..i.           
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN ANTIFREEZEI     2  of  3  45.83   165     2.43e-03  RALLAAATTVAA                                            12   0    108   0    
+3TBN ANTIFREEZEI     3  of  3  25.00   121     9.00e-02  NSRAATPSAS                                              10   0    126   0    
+3TBB
+3TBN GPR6ORPHANR     1  of  7  36.84   200     1.64e-02  QSGIAALLGSVLVADLAES                                     19   0    64    0    
+3TBN GPR6ORPHANR     5  of  7  33.33   200     1.57e-02  GERIVLDDHLIADAA                                         15   0    241   0    
+3TBB
+3TBN POAALLERGEN     2  of  8  26.11   205     1.38e-02  AVVIGTLELRPWKTSDVGIS                                    20   0    37    0    
+3TBN POAALLERGEN     6  of  8  22.78   194     2.08e-02  NSRAATPSASDVAEFRIEEN                                    20   0    126   0    
+3TBB
+3TBN PERTACTIN       6  of  11 26.03   182     2.97e-02  DQSGIAALLGSVLVADLAESPT                                  22   0    63    0    
+3TBN PERTACTIN       10 of  11 16.67   207     1.04e-02  SITIDGDSGFGVF###########                                24   0    307   0    
+3TBB
+3TBN KV16CHANNEL     8  of  10 33.33   153     9.17e-02  SGIAALLGSVLV                                            12   0    65    0    
+3TBN KV16CHANNEL     9  of  10 42.22   273     9.38e-03  QGGDLMYTIGEAAPD                                         15   0    288   0    
+3TBB
+3TBN PROTEASES2C     1  of  6  26.45   168     3.08e-02  DYVLTRRALLAAA                                           13   0    102   0    
+3TBN PROTEASES2C     3  of  6  22.93   143     3.38e-02  TGDVEVSSENAAGTFGTIMAQYFSK                               25   0    193   0    
+3TBB
+3TBN PNDRDTASEI      3  of  9  26.27   109     8.87e-02  TVAAVGATTR                                              10   0    116   0    
+3TBN PNDRDTASEI      6  of  9  29.66   171     2.75e-02  MYTIGEAA                                                8    0    293   0    
+3TBB
+3TBN ANTHRAXTOXNA    1  of  10 25.00   130     5.70e-02  VLTRRALLAAATTV                                          14   0    104   0    
+3TBN ANTHRAXTOXNA    5  of  10 14.58   145     6.12e-02  GERIVLDDHLIADAASDRPGDAVT                                24   0    241   0    
+3TBB
+3TBN P2X1RECEPTOR    6  of  10 27.27   169     9.16e-02  NYGHSTRNGGD                                             11   0    9     0    
+3TBN P2X1RECEPTOR    10 of  10 27.08   183     3.85e-02  VQIGVTDGLEDHLPTD                                        16   0    149   0    
+3TBB
+3TBN POUDOMAIN       1  of  5  15.16   133     8.82e-02  NLRFRRDQSGIAALLGSV                                      18   0    57    0    
+3TBN POUDOMAIN       4  of  5  18.70   139     4.81e-02  RIEENPQGVQIGVTDGLEDHL                                   21   0    141   0    
+3TBB
+3TBF
+Sn; 12
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN EXPORTERBACE    2  of  10 51.32    25.66    490        8.66e-06    17          .i......i.      
+2TBN PRTACTNFAMLY    2  of  8  51.57    25.78    466        1.76e-05    32          ....Ii..        
+2TBN EP450ICYP2B     2  of  4  54.36    27.18    420        2.43e-05    73          i..i            
+2TBN TROPOMYOSIN     2  of  5  63.21    31.61    466        5.81e-05    1.1e+02     .I.i.           
+2TBN BASIGIN         2  of  6  48.18    24.09    309        6.85e-05    1.6e+02     i....i          
+2TBN CD44            2  of  8  64.78    32.39    474        8.74e-05    1.7e+02     ...i.I..        
+2TBN MRGPCRD         2  of  7  60.00    30.00    352        0.000133    4.7e+02     i...i..         
+2TBN POLR2GRINL1     2  of  7  52.38    26.19    420        0.000218    4.6e+02     i...i..         
+2TBN WNT1PROTEIN     2  of  5  98.33    49.17    377        0.000794    3.4e+03     ..I.I           
+2TBN LEADERPTASE     2  of  3  44.01    22.00    286        0.000819    2.3e+03     ii.             
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN EXPORTERBACE    2  of  10 26.32   260     1.72e-03  VAILLAMTLLASPFAGVAL                                     19   0    13    0    
+3TBN EXPORTERBACE    9  of  10 25.00   230     5.04e-03  WAIATVSSALAIILICALLIFFLR                                24   0    244   0    
+3TBB
+3TBN PRTACTNFAMLY    5  of  8  32.78   293     2.90e-04  VRFEDGEIVRDEDDAPVMEHTGLD                                24   0    344   0    
+3TBN PRTACTNFAMLY    6  of  8  18.79   173     6.07e-02  DRLRDTWIEPVVRDGMLSEQDA                                  22   0    373   0    
+3TBB
+3TBN EP450ICYP2B     1  of  4  25.61   188     1.21e-03  AVVVVAILLAMTLLA                                         15   0    9     0    
+3TBN EP450ICYP2B     4  of  4  28.74   232     2.01e-02  LMASKYNEPAYRE                                           13   0    404   0    
+3TBB
+3TBN TROPOMYOSIN     2  of  5  35.78   246     5.34e-03  AEESESGYNVEERGIAAAEDY                                   21   0    199   0    
+3TBN TROPOMYOSIN     4  of  5  27.43   220     1.09e-02  TYARLEDRQQAAEHPLHEVSEIGR                                24   0    295   0    
+3TBB
+3TBN BASIGIN         1  of  6  30.00   155     2.20e-03  AVVVVAILLAMTLL                                          14   0    9     0    
+3TBN BASIGIN         6  of  6  18.18   154     3.11e-02  YVVEVFVQNTDLMVSTVDMRDA                                  22   0    167   0    
+3TBB
+3TBN CD44            4  of  8  30.00   252     1.42e-02  IESDTRYNVTGKYAVFASNI                                    20   0    97    0    
+3TBN CD44            6  of  8  34.78   222     6.17e-03  ATVSSALAIILICALLIFFLRRV                                 23   0    247   0    
+3TBB
+3TBN MRGPCRD         1  of  7  30.00   197     3.04e-03  QNETASTTPTPT                                            12   0    33    0    
+3TBN MRGPCRD         5  of  7  30.00   155     4.38e-02  MADLLSNIFGPT                                            12   0    226   0    
+3TBB
+3TBN POLR2GRINL1     1  of  7  23.81   160     7.14e-02  TVDMRDAHEFVERIKRDA                                      18   0    182   0    
+3TBN POLR2GRINL1     5  of  7  28.57   260     3.05e-03  PAYRESRLKVRELLDDLSEGRS                                  22   0    412   0    
+3TBB
+3TBN WNT1PROTEIN     3  of  5  53.33   194     4.91e-02  VSEIGRDHVY                                              10   0    313   0    
+3TBN WNT1PROTEIN     5  of  5  45.00   183     1.62e-02  GTGTTGMGGI                                              10   0    437   0    
+3TBB
+3TBN LEADERPTASE     1  of  3  21.85   126     3.97e-02  YVVEVFVQNTDLMVSTV                                       17   0    167   0    
+3TBN LEADERPTASE     2  of  3  22.16   160     2.06e-02  FLRRVKSAHGQKL                                           13   0    265   0    
+3TBB
+3TBF
+Sn; 13
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN CATATPASE       2  of  6  64.52    32.26    434        5.77e-05    1.4e+02     I...I.          
+2TBN TRNSINTIMINR    2  of  9  54.44    27.22    446        0.00013     3e+02       .....i..I       
+2TBN WOLFRAMIN       2  of  9  63.70    31.85    435        0.000262    4.3e+02     i...I....       
+2TBN TGFBETA1        2  of  6  98.04    49.02    472        0.000336    1.2e+03     .I..I.          
+2TBN PHPHLIPASED     2  of  9  39.88    19.94    446        0.000493    9.2e+02     ....i...i       
+2TBN PROTEASEAR4     2  of  11 68.26    34.13    360        0.00119     2.6e+03     ....I.....i     
+2TBN VP6CAPSID       2  of  11 47.34    23.67    417        0.00131     2.6e+03     .i......i..     
+2TBN 5HT2BRECEPTR    2  of  8  56.95    28.47    364        0.00156     3.3e+03     .....i.i        
+2TBN KUPTAKETRKA     2  of  5  64.44    32.22    336        0.0016      5.2e+03     .I.I.           
+2TBN TCRTETA         2  of  12 56.85    28.43    362        0.00175     3.7e+03     I...i.......    
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN CATATPASE       1  of  6  31.00   154     5.48e-02  DAGLLLGEMRDVIER                                         15   0    81    0    
+3TBN CATATPASE       5  of  6  33.53   280     1.05e-03  TGDGEALDPCIEKTEDGYYA                                    20   0    785   0    
+3TBB
+3TBN TRNSINTIMINR    6  of  9  22.22   211     5.46e-02  YQAEYAMREDEALRKAAAQLA                                   21   0    388   0    
+3TBN TRNSINTIMINR    9  of  9  32.22   235     2.38e-03  AGFDIGMGMIYAEGD                                         15   0    571   0    
+3TBB
+3TBN WOLFRAMIN       1  of  9  28.70   211     1.81e-02  YANETDAVIEWTEVEERPSGGDV                                 23   0    363   0    
+3TBN WOLFRAMIN       5  of  9  35.00   224     1.45e-02  DEPLVREALAERRDYPLKSDLMLLPSDV                            28   0    677   0    
+3TBB
+3TBN TGFBETA1        2  of  6  58.18   235     1.61e-02  TNIDMEAVIR                                              10   0    423   0    
+3TBN TGFBETA1        5  of  6  39.86   237     2.09e-02  WLDRYGEAMGARV                                           13   0    606   0    
+3TBB
+3TBN PHPHLIPASED     5  of  9  20.83   260     1.02e-02  ###############MSSADEDED                                24   0    -14   0    
+3TBN PHPHLIPASED     9  of  9  19.05   186     4.83e-02  LIASPSASTNIDMEAVIREQE                                   21   0    415   0    
+3TBB
+3TBN PROTEASEAR4     5  of  11 40.00   185     4.16e-02  VLAIALPRRGKDSTL                                         15   0    221   0    
+3TBN PROTEASEAR4     11 of  11 28.26   175     2.85e-02  PLRQTLFFLSSQGGSRRIMMLAS                                 23   0    503   0    
+3TBB
+3TBN VP6CAPSID       2  of  11 25.60   217     3.16e-02  DMDAEARVKRALEETLANDG                                    20   0    332   0    
+3TBN VP6CAPSID       9  of  11 21.74   200     4.13e-02  SSQGGSRRIMMLASTQKINDVYK                                 23   0    512   0    
+3TBB
+3TBN 5HT2BRECEPTR    6  of  8  29.41   180     3.17e-02  AMREDEALRKAAAQLAR                                       17   0    393   0    
+3TBN 5HT2BRECEPTR    8  of  8  27.54   184     4.91e-02  ETAAVLCCNFLQSSREALKYTII                                 23   0    435   0    
+3TBB
+3TBN KUPTAKETRKA     2  of  5  31.11   177     2.40e-02  LLGEMRDVIERDSDL                                         15   0    85    0    
+3TBN KUPTAKETRKA     4  of  5  33.33   159     6.67e-02  EPDAMDIEVFV                                             11   0    283   0    
+3TBB
+3TBN TCRTETA         1  of  12 32.94   197     2.62e-02  PDAMDIEVFVPRMTGLP                                       17   0    284   0    
+3TBN TCRTETA         5  of  12 23.91   165     6.65e-02  AAQLARLAGEGLIASPSASTNID                                 23   0    404   0    
+3TBB
+3TBF
+Sn; 14
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN P2X5RECEPTOR    2  of  4  76.67    38.33    350        0.00116     4.7e+03     .II.            
+2TBN FIMBRILLIN      2  of  6  52.16    26.08    316        0.00222     5.7e+03     ..i.i.          
+2TBN FILAGGRIN       2  of  9  45.00    22.50    350        0.00519     1.2e+04     ......i.i       
+2TBN SSPANPROTEIN    2  of  14 65.21    32.61    300        0.00716     2.4e+04     ........I.i...  
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN P2X5RECEPTOR    2  of  4  33.33   166     3.60e-02  IDHSTDSQLVE                                             11   0    31    0    
+3TBN P2X5RECEPTOR    3  of  4  43.33   184     3.22e-02  AYREAKPDNG                                              10   0    84    0    
+3TBB
+3TBN FIMBRILLIN      3  of  6  27.94   159     4.04e-02  KATIGCSCGERFRKEET                                       17   0    45    0    
+3TBN FIMBRILLIN      5  of  6  24.22   157     5.49e-02  AAVNGGDVEIEATKPG                                        16   0    116   0    
+3TBB
+3TBN FILAGGRIN       7  of  9  25.00   160     7.16e-02  SREVVESRMYQLRRSG                                        16   0    10    0    
+3TBN FILAGGRIN       9  of  9  20.00   190     7.25e-02  AHLDDVEAEQRDYDREALLE                                    20   0    64    0    
+3TBB
+3TBN SSPANPROTEIN    9  of  14 41.11   151     7.50e-02  IGCSCGERFRKE                                            12   0    48    0    
+3TBN SSPANPROTEIN    11 of  14 24.10   149     9.55e-02  NGGDVEIEATKPG                                           13   0    119   0    
+3TBB
+3TBF
+Sn; 15
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN LTB1RECEPTOR    2  of  6  59.40    29.70    410        1.15e-05    28          i.I...          
+2TBN CPSASE          2  of  7  57.75    28.87    354        0.000509    1.4e+03     .I.i...         
+2TBN LCRVANTIGEN     2  of  9  38.04    19.02    376        0.00131     2.6e+03     ...i...i.       
+2TBN ELONGATNFCT     2  of  5  71.76    35.88    262        0.00288     1.2e+04     .I.i.           
+2TBN RNADNAPOLMS     2  of  9  48.81    24.40    312        0.00423     1.4e+04     ......iI.       
+2TBN P2X4RECEPTOR    2  of  10 85.00    42.50    304        0.00622     2.9e+04     ....I..I..      
+2TBN HISTAMINEH4R    2  of  6  62.20    31.10    359        0.00968     2.6e+04     .I..i.          
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN LTB1RECEPTOR    1  of  6  15.28   115     7.47e-02  #########MTTNQTPTP                                      18   0    -8    0    
+3TBN LTB1RECEPTOR    3  of  6  44.12   295     1.53e-04  EREIVAGRGRRKRTLGR                                       17   0    187   0    
+3TBB
+3TBN CPSASE          2  of  7  33.48   163     2.38e-02  NGSNVTVATSD                                             11   0    103   0    
+3TBN CPSASE          4  of  7  24.27   191     2.14e-02  VIAEKAFRHSDDVEVSVEID                                    20   0    237   0    
+3TBB
+3TBN LCRVANTIGEN     4  of  9  13.04   170     7.16e-02  FADEYNETLTEIPLQAITGTKLT                                 23   0    19    0    
+3TBN LCRVANTIGEN     8  of  9  25.00   206     1.84e-02  PRSDTMQSVTVDVGRLESRR                                    20   0    146   0    
+3TBB
+3TBN ELONGATNFCT     2  of  5  47.54   141     4.74e-02  QRLITINRN                                               9    0    95    0    
+3TBN ELONGATNFCT     4  of  5  24.21   121     6.09e-02  AGAVTSDVEVTI                                            12   0    130   0    
+3TBB
+3TBN RNADNAPOLMS     7  of  9  15.48   122     8.20e-02  KIEDRLESIEQVIA                                          14   0    226   0    
+3TBN RNADNAPOLMS     8  of  9  33.33   190     5.16e-02  KAFRHSDDVEVS                                            12   0    241   0    
+3TBB
+3TBN P2X4RECEPTOR    5  of  10 45.00   170     6.51e-02  THSCNIDI                                                8    0    41    0    
+3TBN P2X4RECEPTOR    8  of  10 40.00   134     9.55e-02  GRGRRKRTLG                                              10   0    193   0    
+3TBB
+3TBN HISTAMINEH4R    2  of  6  36.36   209     9.94e-02  ETPEGFYSWYY                                             11   0    73    0    
+3TBN HISTAMINEH4R    5  of  6  25.83   150     9.74e-02  RRKRTLGRVARVEFPRGKRL                                    20   0    196   0    
+3TBB
+3TBF
+Sn; 16
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN FIMBRIALPAPE    2  of  5  34.07    17.03    329        0.000673    1.7e+03     .i.i.           
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN FIMBRIALPAPE    2  of  5  21.57   188     2.58e-02  DDFMLELLIQYDSSTLH                                       17   0    28    0    
+3TBN FIMBRIALPAPE    4  of  5  12.50   141     2.60e-02  ATPLSP##########                                        16   0    85    0    
+3TBB
+3TBF
+Sn; 17
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBF
+Sn; 18
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBF
+Sn; 19
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN BINDIN          2  of  6  55.26    27.63    370        0.00127     2.9e+03     ..Ii..          
+2TBN HUDSXLRNA       2  of  6  37.08    18.54    334        0.00133     3.5e+03     i..i..          
+2TBN INTRLEUKIN22    2  of  7  43.57    21.78    339        0.00169     3.8e+03     ..i.i..         
+2TBN FILOVP35        2  of  8  34.44    17.22    310        0.00195     3.3e+03     ...i.i..        
+2TBN PYRUVTKNASE     2  of  7  47.99    23.99    246        0.003       6e+03       .ii....         
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN BINDIN          3  of  6  30.26   197     2.09e-02  DVSSDVFDEFDARLEDLHW                                     19   0    26    0    
+3TBN BINDIN          4  of  6  25.00   173     6.06e-02  RENSDGILLVADTARRPE                                      18   0    45    0    
+3TBB
+3TBN HUDSXLRNA       1  of  6  18.54   192     2.74e-02  TTALIDAVAQSQTNAD                                        16   0    3     0    
+3TBN HUDSXLRNA       4  of  6  18.54   142     4.86e-02  LSAPDTQTNPQFD###                                        16   0    92    0    
+3TBB
+3TBN INTRLEUKIN22    3  of  7  27.78   179     2.15e-02  VADTARRPETVVSIRLNG                                      18   0    54    0    
+3TBN INTRLEUKIN22    5  of  7  15.79   160     7.85e-02  PQFD###############                                     19   0    101   0    
+3TBB
+3TBN FILOVP35        4  of  8  20.00   168     3.72e-02  TRFDVSSDVFDEFDARLEDL                                    20   0    23    0    
+3TBN FILOVP35        6  of  8  14.44   142     5.24e-02  RAETLSAPDTQTNPQFD#############                          30   0    88    0    
+3TBB
+3TBN PYRUVTKNASE     2  of  7  26.05   129     3.51e-02  IDAVAQSQTNADDDA                                         15   0    7     0    
+3TBN PYRUVTKNASE     3  of  7  21.94   117     8.55e-02  FDARLEDLHWRENSDGILLVADTARRP                             27   0    35    0    
+3TBB
+3TBF
+Sn; 20
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN ALPHAAMYLASE    2  of  5  68.26    34.13    386        0.0008      2.7e+03     ..I.i           
+2TBN CTRFAMILY       2  of  9  55.24    27.62    476        0.00295     6.9e+03     ...I..i..       
+2TBN DISHEVELLED3    2  of  4  73.33    36.67    410        0.00659     2.5e+04     .II.            
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN ALPHAAMYLASE    3  of  5  43.30   207     1.05e-02  VAGVEEDAVRAM                                            12   0    366   0    
+3TBN ALPHAAMYLASE    5  of  5  24.96   179     7.62e-02  AEGLVIHDEHEDK                                           13   0    474   0    
+3TBB
+3TBN CTRFAMILY       4  of  9  30.83   246     7.76e-02  YDAHPSSNAFGASYD                                         15   0    29    0    
+3TBN CTRFAMILY       7  of  9  24.40   230     3.80e-02  WTPATVKDAMGFDYNLHEVDT                                   21   0    260   0    
+3TBB
+3TBN DISHEVELLED3    2  of  4  40.00   210     7.46e-02  PNRPDAGTYY                                              10   0    45    0    
+3TBN DISHEVELLED3    3  of  4  33.33   200     8.83e-02  FRDPDDPRSEDT                                            12   0    77    0    
+3TBB
+3TBF
+Sn; 21
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN NAHEXCHNGR3     2  of  16 100.00   50.00    390        0.000535    2.5e+03     .....I..I.......
+2TBN FLGFLGJ         2  of  13 55.83    27.92    350        0.000962    1.8e+03     .....I....i..   
+2TBN ARGSUCLYASE     2  of  6  47.68    23.84    320        0.00167     3.8e+03     ..i..i          
+2TBN VITAMNDBNDNG    2  of  9  48.89    24.44    363        0.00388     9.9e+03     ...i.i...       
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN NAHEXCHNGR3     6  of  16 50.00   170     3.40e-02  FAFDIETV                                                8    0    4     0    
+3TBN NAHEXCHNGR3     9  of  16 50.00   220     1.57e-02  RAAFDHYARA                                              10   0    211   0    
+3TBB
+3TBN FLGFLGJ         6  of  13 33.33   200     1.45e-02  NGERFDLHHLQGRASIASTQIGVD                                24   0    86    0    
+3TBN FLGFLGJ         11 of  13 22.50   150     6.62e-02  DYLDAIADGETGTEAFENIR                                    20   0    192   0    
+3TBB
+3TBN ARGSUCLYASE     3  of  6  25.41   147     3.33e-02  LQGRASIASTQIGVDGV                                       17   0    95    0    
+3TBN ARGSUCLYASE     6  of  6  22.28   173     5.02e-02  ENIRAAFDHYARADIEPLFQ                                    20   0    208   0    
+3TBB
+3TBN VITAMNDBNDNG    4  of  9  26.67   204     5.52e-02  HDEKPNFTDPRDFEF                                         15   0    17    0    
+3TBN VITAMNDBNDNG    6  of  9  22.22   159     7.02e-02  GERFDLHHLQGRASIAST                                      18   0    87    0    
+3TBB
+3TBF
+Sn; 22
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBF
+Sn; 23
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN MCMPROTEIN5     2  of  5  64.26    32.13    354        0.000256    7e+02       ..I.i           
+2TBN OESTROGENR      2  of  8  65.66    32.83    407        0.000322    7.1e+02     .I.....I        
+2TBN CBXXCFQX        2  of  7  74.63    37.31    345        0.000725    2.3e+03     .I...I.         
+2TBN GLCORTICOIDR    2  of  6  60.61    30.30    419        0.000815    1.7e+03     .I...i          
+2TBN AQUAPORIN6      2  of  10 65.91    32.95    410        0.000976    3.7e+03     .I..i.....      
+2TBN C5METTRFRASE    2  of  3  49.68    24.84    277        0.000979    2.7e+03     i.i             
+2TBN PIHAEM          2  of  4  76.36    38.18    390        0.00124     5e+03       .II.            
+2TBN GABAB2RECPTR    2  of  13 50.00    25.00    430        0.00136     2.9e+03     ....i.i......   
+2TBN PROTEASES2C     2  of  6  47.90    23.95    270        0.00208     5.2e+03     .i...i          
+2TBN POAALLERGEN     2  of  8  54.44    27.22    303        0.00298     7.6e+03     ..i....i        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN MCMPROTEIN5     3  of  5  34.97   183     2.30e-02  VAPDMRVAGMDPD                                           13   0    32    0    
+3TBN MCMPROTEIN5     5  of  5  29.29   171     1.12e-02  RQFMRARLDDAFDGAD##                                      18   0    405   0    
+3TBB
+3TBN OESTROGENR      2  of  8  33.82   213     1.14e-02  LHRDQLHLDAEQPYIEFE                                      18   0    262   0    
+3TBN OESTROGENR      8  of  8  31.85   194     2.83e-02  ERELRRQFMRARLDDAFDGA                                    20   0    400   0    
+3TBB
+3TBN CBXXCFQX        2  of  7  34.81   177     1.49e-02  LVRRVIALNPADGLR                                         15   0    193   0    
+3TBN CBXXCFQX        6  of  7  39.81   168     4.87e-02  YLDDERERELRR                                            12   0    394   0    
+3TBB
+3TBN GLCORTICOIDR    2  of  6  33.33   190     5.57e-02  RDLLYALKEYHGLSFGDFWTE                                   21   0    59    0    
+3TBN GLCORTICOIDR    6  of  6  27.27   229     1.46e-02  EFVGKSAEDQGSSDPRVVME                                    20   0    373   0    
+3TBB
+3TBN AQUAPORIN6      2  of  10 36.36   208     3.45e-02  AVDACWAAFSR                                             11   0    156   0    
+3TBN AQUAPORIN6      5  of  10 29.55   202     2.83e-02  WGLRPGEVAAL                                             11   0    252   0    
+3TBB
+3TBN C5METTRFRASE    1  of  3  23.82   127     6.05e-02  ETLGLASGETGYNWSIE                                       17   0    79    0    
+3TBN C5METTRFRASE    3  of  3  25.86   150     1.62e-02  AAHSNRGRVLVVAL                                          14   0    236   0    
+3TBB
+3TBN PIHAEM          2  of  4  40.00   170     6.31e-02  TSQSGHRTRG                                              10   0    319   0    
+3TBN PIHAEM          3  of  4  36.36   220     1.96e-02  GIEDVEGESPK                                             11   0    342   0    
+3TBB
+3TBN GABAB2RECPTR    5  of  13 25.00   210     3.62e-02  YHGLSFGDFWTETLGLASGE                                    20   0    68    0    
+3TBN GABAB2RECPTR    7  of  13 25.00   220     3.77e-02  QRLNRYLEAYYAENGEQDVL                                    20   0    123   0    
+3TBB
+3TBN PROTEASES2C     2  of  6  22.76   136     4.79e-02  DDVAPDMRVAGMDPDSDRPTY                                   21   0    30    0    
+3TBN PROTEASES2C     6  of  6  25.14   134     4.35e-02  GLRPGEVAALHRD                                           13   0    253   0    
+3TBB
+3TBN POAALLERGEN     3  of  8  27.78   188     3.08e-02  VRPEADVPPRDAVDACWA                                      18   0    145   0    
+3TBN POAALLERGEN     8  of  8  26.67   115     9.69e-02  GPGTVTVVYGQHDGR                                         15   0    284   0    
+3TBB
+3TBF
+Sn; 24
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN TRANSFERRIN     3  of  10 113.20   37.73    694        5.27e-08    0.089       .II..i....      
+2TBN ALYTICPTASE     2  of  5  51.69    25.84    369        3.59e-05    67          .i.i.           
+2TBN SSPANPROTEIN    3  of  14 119.65   39.88    598        4.45e-05    1e+02       I...I.......I.  
+2TBN GGTRANSPTASE    2  of  9  60.08    30.04    354        5.99e-05    1.1e+02     i....I...       
+2TBN CABNDNGRPT      2  of  4  76.69    38.35    386        9.05e-05    4.2e+02     .II.            
+2TBN NEUROMEDINBR    2  of  6  66.79    33.39    485        0.000119    3.1e+02     .II...          
+2TBN MITOCARRIER     2  of  6  56.76    28.38    333        0.000196    4.5e+02     i....i          
+2TBN OXYTOCINR       2  of  7  57.14    28.57    338        0.000231    7e+02       I...i..         
+2TBN GDHRDH          2  of  6  37.97    18.99    299        0.000291    8.2e+02     ii....          
+2TBN AQUAPORIN4      2  of  6  64.20    32.10    413        0.00048     1.7e+03     .Ii...          
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN TRANSFERRIN     2  of  10 37.89   266     5.62e-04  GDAVELPDGTVIPSG                                         15   0    48    0    
+3TBN TRANSFERRIN     3  of  10 48.99   248     1.42e-03  TEYEARAVVESGS                                           13   0    176   0    
+3TBN TRANSFERRIN     6  of  10 26.32   180     6.58e-02  YYEYAGSNNWYRFTFGDDKIEI                                  22   0    281   0    
+3TBB
+3TBN ALYTICPTASE     2  of  5  24.60   151     1.34e-02  LTGDAVELPDGTVIPSGATAA                                   21   0    46    0    
+3TBN ALYTICPTASE     4  of  5  27.08   218     2.67e-03  VNGTLYGNASSGGGSGGGSVSLSV                                24   0    86    0    
+3TBB
+3TBN SSPANPROTEIN    1  of  14 36.36   179     4.94e-02  GNASSGGGSGG                                             11   0    92    0    
+3TBN SSPANPROTEIN    5  of  14 44.24   220     2.06e-02  GLTHDTEYEAR                                             11   0    171   0    
+3TBN SSPANPROTEIN    13 of  14 39.05   199     4.38e-02  NQVSQFSGTAPNTI                                          14   0    349   0    
+3TBB
+3TBN GGTRANSPTASE    1  of  9  23.95   121     7.90e-02  TLSDQGVTVNGTLYGNASSGGGSGGG                              26   0    78    0    
+3TBN GGTRANSPTASE    6  of  9  36.12   233     7.57e-04  THTVTVYDTDGNQVSQFSG                                     19   0    338   0    
+3TBB
+3TBN CABNDNGRPT      2  of  4  34.15   163     4.25e-02  GGSGGGSVS                                               9    0    98    0    
+3TBN CABNDNGRPT      3  of  4  42.55   223     2.13e-03  GGSGN####                                               9    0    399   0    
+3TBB
+3TBN NEUROMEDINBR    2  of  6  31.37   241     2.78e-02  DDWERSTLDHYTGDTGN                                       17   0    205   0    
+3TBN NEUROMEDINBR    3  of  6  35.42   244     4.30e-03  SSAIRLGTNDTGSGTK                                        16   0    364   0    
+3TBB
+3TBN MITOCARRIER     1  of  6  29.74   165     1.41e-02  TVIPSGATAAVDLT                                          14   0    57    0    
+3TBN MITOCARRIER     6  of  6  27.01   168     1.40e-02  KSIITSDSGLPHYPDDTDPFYLP                                 23   0    246   0    
+3TBB
+3TBN OXYTOCINR       1  of  7  31.63   201     6.78e-03  VELPDGTVIPSGAT                                          14   0    51    0    
+3TBN OXYTOCINR       5  of  7  25.51   137     3.41e-02  DHYTGDTGNAAIVE                                          14   0    213   0    
+3TBB
+3TBN GDHRDH          1  of  6  17.96   147     1.05e-02  AVVESGSTTATGAEVTQT                                      18   0    182   0    
+3TBN GDHRDH          2  of  6  20.01   152     2.76e-02  GNKSIITSDSGL                                            12   0    244   0    
+3TBB
+3TBN AQUAPORIN4      2  of  6  36.92   245     6.71e-03  GTLYGNASSGGGS                                           13   0    88    0    
+3TBN AQUAPORIN4      3  of  6  27.27   168     7.15e-02  TEEFQVTGDLT                                             11   0    119   0    
+3TBB
+3TBF
+Sn; 25
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN 1433ZETA        2  of  6  38.86    19.43    300        0.00377     5.6e+03     ...i.i          
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN 1433ZETA        4  of  6  26.65   146     3.94e-02  AYTAARNGYNGFLGWAHYRQTNLGLHV                             27   0    10    0    
+3TBN 1433ZETA        6  of  6  12.21   154     9.55e-02  DLDAALEEAA####################                          30   0    69    0    
+3TBB
+3TBF
+Sn; 26
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN PHGLYCKINASE    2  of  9  60.90    30.45    347        3.35e-05    94          .......Ii       
+2TBN ADXRDTASE       2  of  5  50.54    25.27    256        0.000428    1.2e+03     ...ii           
+2TBN FMRFAMIDEPEP    2  of  6  74.90    37.45    314        0.000769    2e+03       I..I..          
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN PHGLYCKINASE    8  of  9  31.96   203     9.77e-04  VLVGGGFVIAIL                                            12   0    20    0    
+3TBN PHGLYCKINASE    9  of  9  28.94   144     3.43e-02  VGFGGPKLWQLHNNKSLG                                      18   0    39    0    
+3TBB
+3TBN ADXRDTASE       4  of  5  28.10   136     3.39e-02  AVLVGGGFVIAILFA                                         15   0    19    0    
+3TBN ADXRDTASE       5  of  5  22.45   120     1.26e-02  QRPGNNREDR####                                          14   0    81    0    
+3TBB
+3TBN FMRFAMIDEPEP    1  of  6  36.67   137     3.19e-02  #MIGYKSALLGVALL                                         15   0    0     0    
+3TBN FMRFAMIDEPEP    4  of  6  38.24   177     2.41e-02  PSRSSNENPRVQRPGNN                                       17   0    70    0    
+3TBB
+3TBF
+Sn; 27
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN BRISCABRO1      2  of  9  62.83    31.41    446        0.000257    6.2e+02     ...I...I.       
+2TBN INTEGRINB       2  of  14 47.13    23.56    383        0.000622    1.2e+03     ...i.....i....  
+2TBN MITOCARRIER     2  of  6  59.43    29.71    310        0.000886    2e+03       .I...i          
+2TBN PROTEASEAR4     2  of  11 61.88    30.94    410        0.00269     6.3e+03     ...i.....I.     
+2TBN LVDCCALPHA1     2  of  6  58.73    29.37    358        0.00269     8.1e+03     ..I..i          
+2TBN MCMPROTEIN2     2  of  5  47.95    23.98    315        0.00343     9.3e+03     ii...           
+2TBN VASOPRSNV1BR    2  of  9  63.46    31.73    350        0.00349     1e+04       ..I.....i       
+2TBN ALPHAGIARDIN    2  of  9  35.88    17.94    327        0.0036      8.9e+03     ....i...i       
+2TBN CYTCHROMECID    2  of  5  60.98    30.49    321        0.00363     1.2e+04     i..I.           
+2TBN MCMPROTEIN7     2  of  5  66.67    33.33    377        0.00384     1.4e+04     .II..           
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN BRISCABRO1      4  of  9  31.25   182     5.18e-02  NVRVRGLPDDRQRLVG                                        16   0    90    0    
+3TBN BRISCABRO1      8  of  9  31.58   264     4.96e-03  DIVSVVGVYDTLPSQNETV                                     19   0    216   0    
+3TBB
+3TBN INTEGRINB       4  of  14 28.46   233     1.60e-02  LRIDWQQLRDVDPALADDF                                     19   0    36    0    
+3TBN INTEGRINB       10 of  14 18.67   150     3.88e-02  VSVVGVYDTLPSQNETVLNTYLDAY                               25   0    218   0    
+3TBB
+3TBN MITOCARRIER     2  of  6  31.91   141     8.02e-02  GEVADTDRVSPLAEV                                         15   0    120   0    
+3TBN MITOCARRIER     6  of  6  27.51   169     1.10e-02  SWGVPYEAVVEHFEADGVRRREI                                 23   0    276   0    
+3TBB
+3TBN PROTEASEAR4     4  of  11 27.50   200     4.24e-02  MADEYTTSNRSLRIDWQQLR                                    20   0    25    0    
+3TBN PROTEASEAR4     10 of  11 34.38   210     6.33e-02  DDGSSWGVPYEAVVEH                                        16   0    272   0    
+3TBB
+3TBN LVDCCALPHA1     3  of  6  32.54   177     5.03e-02  NRSLRIDWQQLRDV                                          14   0    33    0    
+3TBN LVDCCALPHA1     6  of  6  26.19   181     5.35e-02  HFEADGVRRREIEN                                          14   0    287   0    
+3TBB
+3TBN MCMPROTEIN2     1  of  5  28.17   148     3.78e-02  GKLLCVEGEVADTDRVSP                                      18   0    113   0    
+3TBN MCMPROTEIN2     2  of  5  19.78   167     9.09e-02  VWECQRCHSVTRQ                                           13   0    136   0    
+3TBB
+3TBN VASOPRSNV1BR    3  of  9  38.46   170     8.21e-02  GLRREIQNAGPHG                                           13   0    75    0    
+3TBN VASOPRSNV1BR    9  of  9  25.00   180     4.26e-02  RDLAEANGKLVVPDA#                                        16   0    309   0    
+3TBB
+3TBN ALPHAGIARDIN    5  of  9  12.96   163     4.35e-02  YADRFESFIQDHMAEEIG                                      18   0    6     0    
+3TBN ALPHAGIARDIN    9  of  9  22.92   164     8.29e-02  RCHSVTRQQQFYGRMV                                        16   0    141   0    
+3TBB
+3TBN CYTCHROMECID    1  of  5  27.92   165     8.94e-02  EVAVWECQRCHSVT                                          14   0    133   0    
+3TBN CYTCHROMECID    4  of  5  33.06   156     4.07e-02  ALMPPDPQRDD                                             11   0    186   0    
+3TBB
+3TBN MCMPROTEIN7     2  of  5  33.33   149     9.23e-02  EGEVADTDRVSP                                            12   0    119   0    
+3TBN MCMPROTEIN7     3  of  5  33.33   228     4.17e-02  WECQRCHSVTRQ                                            12   0    137   0    
+3TBB
+3TBF
+Sn; 28
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN TYPE1KERATIN    2  of  5  50.54    25.27    392        3.89e-05    64          .i..i           
+2TBN CASENSINGR      2  of  13 43.60    21.80    450        0.00012     2.7e+02     ...i.i.......   
+2TBN SFASSEMBLIN     2  of  9  54.81    27.40    420        0.000166    3e+02       ...i....i       
+2TBN ADENYLTKNASE    2  of  5  48.87    24.44    284        0.000931    2.5e+03     .i.i.           
+2TBN KV14CHANNEL     2  of  7  63.22    31.61    415        0.00122     3.7e+03     .....iI         
+2TBN POLYCYSTIN2     2  of  10 44.47    22.24    322        0.0018      3.9e+03     ........ii      
+2TBN PROTEINF153     2  of  5  45.31    22.65    374        0.00307     5.6e+03     i...i           
+2TBN JDOMAIN         2  of  4  45.93    22.96    267        0.00378     8.8e+03     .i.i            
+2TBN FMOXYGENASE4    2  of  10 47.01    23.50    330        0.00691     1.9e+04     ......i..i      
+2TBN ACOABINDINGP    2  of  4  40.15    20.07    236        0.00724     1.8e+04     i..i            
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN TYPE1KERATIN    2  of  5  24.69   198     9.11e-03  TETEIESLSRSRQNLSYVRQELIE                                24   0    10    0    
+3TBN TYPE1KERATIN    5  of  5  25.86   194     4.27e-03  HEPLLAEGQLLLMLVEEELLHNETDEE                             27   0    158   0    
+3TBB
+3TBN CASENSINGR      4  of  13 19.64   178     8.31e-02  SAQEHLSQTLHSIR                                          14   0    61    0    
+3TBN CASENSINGR      6  of  13 23.96   272     1.45e-03  ELLHNETDEELIRKLTNKVEHVRG                                24   0    175   0    
+3TBB
+3TBN SFASSEMBLIN     4  of  9  29.81   253     2.02e-03  ETEIESLSRSRQNLSYVRQELIEYRP                              26   0    11    0    
+3TBN SFASSEMBLIN     9  of  9  25.00   167     8.20e-02  AIDELAEDHEPLLAEGQLLLM                                   21   0    150   0    
+3TBB
+3TBN ADENYLTKNASE    2  of  5  27.68   133     2.48e-02  DDTLRERITEWLAAG                                         15   0    40    0    
+3TBN ADENYLTKNASE    4  of  5  21.19   151     3.76e-02  QETDDPAERRRKLREY                                        16   0    123   0    
+3TBB
+3TBN KV14CHANNEL     6  of  7  24.76   181     8.92e-02  GTTETEIESLSRSRQ                                         15   0    8     0    
+3TBN KV14CHANNEL     7  of  7  38.46   234     1.37e-02  LQADGSGHTEVSD                                           13   0    235   0    
+3TBB
+3TBN POLYCYSTIN2     9  of  10 15.00   145     7.68e-02  #####MNNLDRHGTTETEIE                                    20   0    -4    0    
+3TBN POLYCYSTIN2     10 of  10 29.47   177     2.35e-02  REYAIEHNCHVIKEAIDEL                                     19   0    136   0    
+3TBB
+3TBN PROTEINF153     1  of  5  23.81   210     3.50e-02  RIFQETDDPAERRRKLREYAI                                   21   0    120   0    
+3TBN PROTEINF153     5  of  5  21.50   164     8.77e-02  TPSVDKDDAEATAGDVPLQADGSGH                               25   0    218   0    
+3TBB
+3TBN JDOMAIN         2  of  4  24.70   154     6.90e-02  VRQELIEYRPDIVDDT                                        16   0    27    0    
+3TBN JDOMAIN         4  of  4  21.23   113     5.47e-02  RGKRVDDRGHAGRDETAAAG                                    20   0    197   0    
+3TBB
+3TBN FMOXYGENASE4    7  of  10 19.23   165     9.33e-02  DIVDDTLRERITE                                           13   0    37    0    
+3TBN FMOXYGENASE4    10 of  10 27.78   165     7.41e-02  VIKEAIDELAEDHEPLLA                                      18   0    146   0    
+3TBB
+3TBN ACOABINDINGP    1  of  4  23.21   110     8.66e-02  FQETDDPAERRRKLRE                                        16   0    122   0    
+3TBN ACOABINDINGP    4  of  4  16.93   126     8.36e-02  NETDEELIRKLTNKVEHV                                      18   0    179   0    
+3TBB
+3TBF
+Sn; 29
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN NTKRECEPTOR1    2  of  3  50.83    25.42    335        0.00277     6.5e+03     ii.             
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN NTKRECEPTOR1    1  of  3  25.83   182     2.87e-02  DHLIGSPPEDAVSFVIRPQD                                    20   0    16    0    
+3TBN NTKRECEPTOR1    2  of  3  25.00   153     9.68e-02  DDRAARFSGFGVTSVA                                        16   0    72    0    
+3TBB
+3TBF
+Sn; 30
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN BASIGIN         2  of  6  45.45    22.73    314        3.86e-05    90          i....i          
+2TBN POAALLERGEN     2  of  8  58.71    29.36    353        4.91e-05    1.2e+02     ......ii        
+2TBN ANTHRAXTOXNA    2  of  10 44.17    22.09    360        0.000103    2.6e+02     i..i......      
+2TBN TAUPROTEIN      2  of  6  67.59    33.80    369        0.000648    2.7e+03     I.I...          
+2TBN CLCHANNEL       2  of  7  48.84    24.42    287        0.000853    1.9e+03     .i..I..         
+2TBN GDHRDH          2  of  6  45.05    22.52    224        0.00126     3e+03       i.i...          
+2TBN VACCYTOTOXIN    2  of  15 52.53    26.26    377        0.00127     2.3e+03     .........I..i.. 
+2TBN BCTRLSENSOR     2  of  4  45.98    22.99    247        0.00253     6.3e+03     i.i.            
+2TBN CATATPASE       2  of  6  64.77    32.38    279        0.00259     9.1e+03     ...I.i          
+2TBN LEUILEVALBP     2  of  7  58.39    29.20    340        0.0027      6.9e+03     I.....i         
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN BASIGIN         1  of  6  30.00   147     3.01e-03  VAAVAILIAAVAMT                                          14   0    10    0    
+3TBN BASIGIN         6  of  6  15.45   167     1.28e-02  FYVENTDDRAVIYAGDAAANGD                                  22   0    152   0    
+3TBB
+3TBN POAALLERGEN     7  of  8  29.82   174     2.20e-02  VAILIAAVAMTGMALAGPP                                     19   0    13    0    
+3TBN POAALLERGEN     8  of  8  28.89   179     2.23e-03  TTSTSDITAGANITS                                         15   0    41    0    
+3TBB
+3TBN ANTHRAXTOXNA    1  of  10 17.86   200     1.34e-03  VAAVAILIAAVAMT                                          14   0    10    0    
+3TBN ANTHRAXTOXNA    4  of  10 26.32   160     7.65e-02  HDELETLDIDASENKSMTL                                     19   0    116   0    
+3TBB
+3TBN TAUPROTEIN      1  of  6  35.65   192     1.63e-02  KLINDTNAASPN                                            12   0    135   0    
+3TBN TAUPROTEIN      3  of  6  31.94   177     3.98e-02  GDAAANGD                                                8    0    166   0    
+3TBB
+3TBN CLCHANNEL       2  of  7  16.60   124     7.59e-02  AAVAILIAAVAMTGMALAGP                                    20   0    11    0    
+3TBN CLCHANNEL       5  of  7  32.24   163     1.12e-02  GLYDAYGIEADALGTNR                                       17   0    310   0    
+3TBB
+3TBN GDHRDH          1  of  6  24.56   121     4.31e-02  VAILIAAVAMTGMALAGP                                      18   0    13    0    
+3TBN GDHRDH          3  of  6  20.48   103     2.93e-02  IINPDNGRVVASNSSDA                                       17   0    79    0    
+3TBB
+3TBN VACCYTOTOXIN    10 of  15 30.43   198     1.91e-02  DGFLGLMSADNSTTVNDDGTTIG                                 23   0    186   0    
+3TBN VACCYTOTOXIN    13 of  15 22.09   179     6.63e-02  MVGGNGLFTAAS###########                                 23   0    333   0    
+3TBB
+3TBN BCTRLSENSOR     1  of  4  26.47   116     8.62e-02  NSTTVNDDGTTIGNN                                         15   0    196   0    
+3TBN BCTRLSENSOR     3  of  4  19.50   131     2.93e-02  GGNGLFTAAS#########                                     19   0    335   0    
+3TBB
+3TBN CATATPASE       4  of  6  35.74   152     4.37e-02  TGLEVTNEGGD                                             11   0    175   0    
+3TBN CATATPASE       6  of  6  29.03   127     5.94e-02  DDAPSDAADDVTY                                           13   0    261   0    
+3TBB
+3TBN LEUILEVALBP     1  of  7  32.35   163     5.95e-02  SGVAAVAILIAAVAMTG                                       17   0    8     0    
+3TBN LEUILEVALBP     7  of  7  26.04   177     4.54e-02  LGTNRFSTILGMVGGN                                        16   0    322   0    
+3TBB
+3TBF
+Sn; 31
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN RCCNDNSATION    3  of  8  83.20    27.73    540        0.000112    1.7e+02     ..Ii...i        
+2TBN KV14CHANNEL     2  of  7  78.68    39.34    400        0.000227    8.3e+02     I...I..         
+2TBN GGTRANSPTASE    2  of  9  44.64    22.32    289        0.000332    7.6e+02     .....i..i       
+2TBN P2X2RECEPTOR    2  of  10 64.58    32.29    460        0.000415    1.3e+03     .I.....I..      
+2TBN NITROPHORIN     2  of  6  57.14    28.57    371        0.0011      3.3e+03     ..I.i.          
+2TBN RDC1ORPHANR     2  of  9  55.56    27.78    374        0.00136     3.2e+03     ....iI...       
+2TBN NIHGNASESMLL    2  of  11 35.27    17.64    328        0.00179     3e+03       .i..i......     
+2TBN TYPE3OMBPROT    2  of  10 57.69    28.85    360        0.00195     5.1e+03     ....iI....      
+2TBN BRSTCANCERI     2  of  8  42.86    21.43    326        0.00213     4.6e+03     .ii.....        
+2TBN SUPERTUBBY      2  of  7  41.44    20.72    316        0.00236     5.9e+03     i...i..         
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN RCCNDNSATION    3  of  8  35.29   202     2.24e-02  ICDQGGNDLAIASADTS                                       17   0    81    0    
+3TBN RCCNDNSATION    4  of  8  27.45   170     6.36e-02  GNPDVVYSYEGNDGTTG                                       17   0    127   0    
+3TBN RCCNDNSATION    8  of  8  20.45   168     7.87e-02  TVEANGSSVYWGKIEQA#####                                  22   0    349   0    
+3TBB
+3TBN KV14CHANNEL     1  of  7  32.97   181     8.37e-02  NDLAIASADTSDP                                           13   0    87    0    
+3TBN KV14CHANNEL     5  of  7  45.71   219     2.71e-03  YEGNDGTTGG                                              10   0    135   0    
+3TBB
+3TBN GGTRANSPTASE    6  of  9  23.68   131     9.11e-02  TGSWSTLTLDSSAKNCTTA                                     19   0    100   0    
+3TBN GGTRANSPTASE    9  of  9  20.96   158     3.64e-03  GAEGGLHVVKEPSDVTST                                      18   0    204   0    
+3TBB
+3TBN P2X2RECEPTOR    2  of  10 33.33   210     3.71e-02  DAQTWTRHSVAT                                            12   0    47    0    
+3TBN P2X2RECEPTOR    8  of  10 31.25   250     1.12e-02  VDTYNSGETFTHVSHG                                        16   0    224   0    
+3TBB
+3TBN NITROPHORIN     3  of  6  31.43   184     2.15e-02  TFTHVSHGDLTGDG                                          14   0    232   0    
+3TBN NITROPHORIN     5  of  6  25.71   187     5.12e-02  VSSSDIYDMVTANK                                          14   0    289   0    
+3TBB
+3TBN RDC1ORPHANR     5  of  9  23.61   157     7.46e-02  EFLWDSGTSSFSKNTLLS                                      18   0    260   0    
+3TBN RDC1ORPHANR     6  of  9  31.94   217     1.82e-02  DVSSSDIYDMVTANKSDN                                      18   0    288   0    
+3TBB
+3TBN NIHGNASESMLL    2  of  11 22.36   150     6.05e-02  LLSSKTYHNAVALDVSSSDIYDMVT                               25   0    275   0    
+3TBN NIHGNASESMLL    5  of  11 12.91   178     2.96e-02  SSVYWGKIEQA##############                               25   0    355   0    
+3TBB
+3TBN TYPE3OMBPROT    5  of  10 24.36   166     9.88e-02  TFTHVSHGDLTGD                                           13   0    232   0    
+3TBN TYPE3OMBPROT    6  of  10 33.33   194     1.98e-02  FSKNTLLSSKTYHNAVALD                                     19   0    270   0    
+3TBB
+3TBN BRSTCANCERI     2  of  8  22.86   178     4.29e-02  ###MTKQVVDSGVSDADGVDY                                   21   0    -2    0    
+3TBN BRSTCANCERI     3  of  8  20.00   148     4.97e-02  TYHNAVALDVSSSDIYDM                                      18   0    280   0    
+3TBB
+3TBN SUPERTUBBY      1  of  7  27.01   155     3.21e-02  YIFSPTRQDYSGDGNAT                                       17   0    173   0    
+3TBN SUPERTUBBY      5  of  7  14.44   161     7.37e-02  YWGKIEQA#########                                       17   0    358   0    
+3TBB
+3TBF
+Sn; 32
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN TAUPROTEIN      2  of  6  83.33    41.67    376        0.000255    1.1e+03     I.I...          
+2TBN FLGFLGJ         2  of  13 50.68    25.34    365        0.00115     2.3e+03     ........i.I..   
+2TBN ALCDHDRGNASE    2  of  6  54.68    27.34    379        0.00118     3.6e+03     I.i...          
+2TBN HGSCAVENGER     2  of  6  61.32    30.66    328        0.0016      4e+03       I...i.          
+2TBN LEUZIPPRCREB    2  of  6  47.22    23.61    341        0.00318     9.6e+03     .ii...          
+2TBN DYNAMIN         2  of  6  40.06    20.03    303        0.00328     7.3e+03     i..i..          
+2TBN SOPEPROTEIN     2  of  9  48.08    24.04    354        0.0035      9.5e+03     ...i....i       
+2TBN AQUAPORIN7      2  of  9  71.43    35.71    305        0.00843     3.6e+04     ...I...I.       
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN TAUPROTEIN      1  of  6  33.33   171     2.81e-02  AVAAPAAAAEQD                                            12   0    28    0    
+3TBN TAUPROTEIN      3  of  6  50.00   205     9.06e-03  GNPGKSAN                                                8    0    75    0    
+3TBB
+3TBN FLGFLGJ         9  of  13 18.18   180     8.06e-02  ###############MTRNTTT                                  22   0    -14   0    
+3TBN FLGFLGJ         11 of  13 32.50   185     1.42e-02  AVAAPAAAAEQDEGSWTDGI                                    20   0    28    0    
+3TBB
+3TBN ALCDHDRGNASE    1  of  6  38.98   211     1.21e-02  DRFENETMV                                               9    0    142   0    
+3TBN ALCDHDRGNASE    3  of  6  15.71   168     9.75e-02  NTTAS##############                                     19   0    220   0    
+3TBB
+3TBN HGSCAVENGER     1  of  6  34.65   179     1.62e-02  AVLLTVAFTGAVAAPAAAA                                     19   0    18    0    
+3TBN HGSCAVENGER     5  of  6  26.67   149     9.89e-02  ANETIDDFAETFNRM                                         15   0    81    0    
+3TBB
+3TBN LEUZIPPRCREB    2  of  6  18.33   171     6.07e-02  AVAAPAAAAEQDEGSW                                        16   0    28    0    
+3TBN LEUZIPPRCREB    3  of  6  28.89   170     5.24e-02  NATDNRLTYEVT                                            12   0    111   0    
+3TBB
+3TBN DYNAMIN         1  of  6  23.31   163     3.61e-02  APAAAAEQDEGSWTDGIYE                                     19   0    31    0    
+3TBN DYNAMIN         4  of  6  16.76   140     9.09e-02  VGDEDVSRSEKLRVQAQYM                                     19   0    189   0    
+3TBB
+3TBN SOPEPROTEIN     4  of  9  18.75   166     7.37e-02  ####MTRNTTTAGRRI                                        16   0    -3    0    
+3TBN SOPEPROTEIN     9  of  9  29.33   188     4.74e-02  DRFENETMVTTSEFE                                         15   0    142   0    
+3TBB
+3TBN AQUAPORIN7      4  of  9  31.43   149     8.81e-02  TDGIYETGAS                                              10   0    44    0    
+3TBN AQUAPORIN7      8  of  9  40.00   156     9.57e-02  FENETMVTTS                                              10   0    144   0    
+3TBB
+3TBF
+Sn; 33
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN 5HT1FRECEPTR    2  of  7  57.57    28.79    434        0.000623    1.4e+03     ..Ii...         
+2TBN ANTIFREEZEII    2  of  7  52.78    26.39    338        0.00551     1.5e+04     .i...I.         
+2TBN ECDYSTEROIDR    2  of  8  54.40    27.20    344        0.00594     2.3e+04     ii......        
+2TBN DISHEVELLED1    2  of  9  54.41    27.21    338        0.0074      2.2e+04     ....i.i..       
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN 5HT1FRECEPTR    3  of  7  33.82   272     9.66e-03  LFALRSADPECLYEHDD                                       17   0    77    0    
+3TBN 5HT1FRECEPTR    4  of  7  23.75   162     6.45e-02  REVTELLDGELVALDVEEDG                                    20   0    128   0    
+3TBB
+3TBN ANTIFREEZEII    2  of  7  22.22   183     5.58e-02  CEYRYRLTRRWNTSKPAC                                      18   0    21    0    
+3TBN ANTIFREEZEII    6  of  7  30.56   155     9.86e-02  IAECVDQVVAAW                                            12   0    106   0    
+3TBB
+3TBN ECDYSTEROIDR    1  of  8  24.40   170     6.99e-02  EESPFPRDNRKS                                            12   0    3     0    
+3TBN ECDYSTEROIDR    2  of  8  30.00   174     8.49e-02  DPECLYEHDD                                              10   0    84    0    
+3TBB
+3TBN DISHEVELLED1    5  of  9  25.00   164     8.79e-02  ######MTEESP                                            12   0    -5    0    
+3TBN DISHEVELLED1    7  of  9  29.41   174     8.42e-02  PLYLPKDVEPEPYQGPG                                       17   0    152   0    
+3TBB
+3TBF
+Sn; 34
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN SSPAMPROTEIN    2  of  8  65.97    32.99    313        0.00339     1.4e+04     ...II...        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN SSPAMPROTEIN    4  of  8  33.33   152     5.02e-02  RHDDLLRLQ                                               9    0    14    0    
+3TBN SSPAMPROTEIN    5  of  8  32.64   161     6.75e-02  EGARELARERNR                                            12   0    32    0    
+3TBB
+3TBF
+Sn; 35
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN KVCHANNEL       2  of  4  48.68    24.34    418        4.41e-07    1.4         ..ii            
+2TBN DENSEGRNULE7    2  of  5  46.67    23.33    330        0.000112    2e+02       ..ii.           
+2TBN PROSTANOIDR     2  of  5  39.80    19.90    265        0.000594    1.6e+03     .ii..           
+2TBN EXPORTERBACE    2  of  10 51.39    25.69    318        0.00148     3e+03       .......Ii.      
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN KVCHANNEL       3  of  4  20.56   175     1.49e-03  NLGIAIVLFIAAILV                                         15   0    4     0    
+3TBN KVCHANNEL       4  of  4  28.12   243     2.95e-04  GFRIVAFPLAIV                                            12   0    57    0    
+3TBB
+3TBN DENSEGRNULE7    3  of  5  16.67   145     4.51e-02  ####MLFNLGIAIVLFIAAILVGELLA                             27   0    -3    0    
+3TBN DENSEGRNULE7    4  of  5  30.00   185     2.48e-03  MGAAFYFAIFALALLFEGFR                                    20   0    40    0    
+3TBB
+3TBN PROSTANOIDR     2  of  5  15.57   144     7.92e-03  AIVLFIAAILVGELLAR                                       17   0    8     0    
+3TBN PROSTANOIDR     3  of  5  24.23   121     7.50e-02  YFAIFALALLFEGF                                          14   0    45    0    
+3TBB
+3TBN EXPORTERBACE    8  of  10 34.72   168     3.17e-02  MLFNLGIAIVLFIAAILV                                      18   0    1     0    
+3TBN EXPORTERBACE    9  of  10 16.67   150     4.69e-02  MGAAFYFAIFALALLFEGFRIVAF                                24   0    40    0    
+3TBB
+3TBF
+Sn; 36
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN SOMATOSTTN2R    2  of  6  55.58    27.79    514        0.000351    7.6e+02     .i...I          
+2TBN GLUTENIN        2  of  5  53.51    26.75    380        0.00104     2.4e+03     i..i.           
+2TBN NAHEXCHNGR1     2  of  12 64.71    32.35    435        0.0015      3.7e+03     i.........I.    
+2TBN MASPIN          2  of  9  76.32    38.16    477        0.00159     4.6e+03     ..I.....i       
+2TBN GLUCAGONR       2  of  10 51.63    25.82    434        0.00171     3.8e+03     .....i...i      
+2TBN PROGESTRONER    2  of  8  62.67    31.33    398        0.00218     4.8e+03     .i....I.        
+2TBN TYPE4SSCAGA     2  of  11 58.61    29.31    431        0.00547     1.4e+04     ...i...I...     
+2TBN OSTEOPONTIN     2  of  8  53.33    26.67    393        0.00594     1.1e+04     .i..I...        
+2TBN PHYTOCHROME     2  of  10 59.07    29.54    331        0.00603     1.3e+04     i.....I...      
+2TBN NONHISHMG17     2  of  4  61.86    30.93    363        0.00649     2.1e+04     I..I            
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN SOMATOSTTN2R    2  of  6  24.00   224     4.96e-02  ASAAATNDSARFYDGFENGT                                    20   0    41    0    
+3TBN SOMATOSTTN2R    6  of  6  31.58   290     7.07e-03  LNPDTSTSLLTVEGSIEAS                                     19   0    383   0    
+3TBB
+3TBN GLUTENIN        1  of  5  25.05   194     1.51e-02  KPVRYFAIIFTALIVFSVFA                                    20   0    5     0    
+3TBN GLUTENIN        4  of  5  28.46   186     6.88e-02  LEVDLENQIGNVQDAKS                                       17   0    487   0    
+3TBB
+3TBN NAHEXCHNGR1     1  of  12 29.41   205     2.16e-02  IIFTALIVFSVFAPFIP                                       17   0    12    0    
+3TBN NAHEXCHNGR1     11 of  12 35.29   230     6.94e-02  ANPEIREQVDANVDNLP                                       17   0    690   0    
+3TBB
+3TBN MASPIN          3  of  9  50.00   240     3.47e-02  DLENQIGNVQ                                              10   0    490   0    
+3TBN MASPIN          9  of  9  26.32   237     4.59e-02  GGGGGVDCPINAVCGGPDE                                     19   0    745   0    
+3TBB
+3TBN GLUCAGONR       6  of  10 22.22   256     2.49e-02  SENITEPFRISVYIPTASESG                                   21   0    112   0    
+3TBN GLUCAGONR       10 of  10 29.41   178     6.89e-02  TVEGSIEASLPNAHYSE                                       17   0    393   0    
+3TBB
+3TBN PROGESTRONER    2  of  8  26.67   173     9.30e-02  PQINGTDFDALLDNPLPA                                      18   0    292   0    
+3TBN PROGESTRONER    7  of  8  36.00   225     2.35e-02  RGTAVDVLKEGLGAIDSPTS                                    20   0    715   0    
+3TBB
+3TBN TYPE4SSCAGA     4  of  11 26.67   209     6.43e-02  QVDANVDNLPSEPSD                                         15   0    697   0    
+3TBN TYPE4SSCAGA     8  of  11 31.94   222     8.51e-02  STTVRIQKGDTEQSIRDR                                      18   0    1036  0    
+3TBB
+3TBN OSTEOPONTIN     2  of  8  21.67   208     9.74e-02  DRVSVLLHVDPVNEDSLLYRNSRAIRNPGE                          30   0    1052  0    
+3TBN OSTEOPONTIN     5  of  8  31.67   185     6.10e-02  RPPRPSVDAPTGAME                                         15   0    1159  0    
+3TBB
+3TBN PHYTOCHROME     1  of  10 24.08   144     8.72e-02  LNPDTSTSLLTVEGSIEASLPNA                                 23   0    383   0    
+3TBN PHYTOCHROME     7  of  10 34.99   187     6.92e-02  ASVRISNTAPGPSDSVT                                       17   0    881   0    
+3TBB
+3TBN NONHISHMG17     1  of  4  31.79   189     6.55e-02  RLLPPRKKEYRAAKP                                         15   0    440   0    
+3TBN NONHISHMG17     4  of  4  30.07   174     9.90e-02  LENGDVQIKNV                                             11   0    513   0    
+3TBB
+3TBF
+Sn; 37
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN COUPTNFACTOR    2  of  9  54.12    27.06    324        0.00254     7.6e+03     i...i....       
+2TBN AVIDIN          2  of  6  66.67    33.33    298        0.00289     1.2e+04     .I.I..          
+2TBN FAM175PLANT     2  of  9  55.06    27.53    370        0.00327     7.5e+03     ..I....i.       
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN COUPTNFACTOR    1  of  9  29.23   157     4.12e-02  REAERGRPSPDDA                                           13   0    97    0    
+3TBN COUPTNFACTOR    5  of  9  24.89   167     6.16e-02  ADRYV##########                                         15   0    193   0    
+3TBB
+3TBN AVIDIN          2  of  6  33.33   126     8.38e-02  GEVGGRYHV                                               9    0    116   0    
+3TBN AVIDIN          4  of  6  33.33   172     3.44e-02  SWDVWTGDVMG                                             11   0    164   0    
+3TBB
+3TBN FAM175PLANT     3  of  9  31.25   200     4.25e-02  EQSVPADKRADVPDHA                                        16   0    16    0    
+3TBN FAM175PLANT     8  of  9  23.81   170     7.70e-02  TVAWAGRVEERYGGEADRYV#                                   21   0    178   0    
+3TBB
+3TBF
+Sn; 38
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN ADENYLTKNASE    2  of  5  56.02    28.01    278        0.000383    1e+03       .I.i.           
+2TBN SH3DOMAIN       2  of  4  49.37    24.68    311        0.000528    1.7e+03     .ii.            
+2TBN CAMPKINASE      2  of  5  74.22    37.11    303        0.00213     7.2e+03     .II..           
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN ADENYLTKNASE    2  of  5  33.67   147     6.79e-03  GDYLRVIEGGETALH                                         15   0    20    0    
+3TBN ADENYLTKNASE    4  of  5  22.35   131     5.65e-02  PIDDAPEFVQAEFE##                                        16   0    109   0    
+3TBB
+3TBN SH3DOMAIN       2  of  4  20.57   117     2.52e-02  DPADADPGDYLRVIEG                                        16   0    13    0    
+3TBN SH3DOMAIN       3  of  4  28.79   194     2.10e-02  DKEWWLAHNP                                              10   0    40    0    
+3TBB
+3TBN CAMPKINASE      2  of  5  30.89   162     3.07e-02  YLRVIEGGETALHVY                                         15   0    22    0    
+3TBN CAMPKINASE      3  of  5  43.33   141     6.92e-02  DYAGEEAHSV                                              10   0    93    0    
+3TBB
+3TBF
+Sn; 39
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBF
+Sn; 40
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN GLIADIN         2  of  9  77.92    38.96    478        3.5e-06     12          I.......I       
+2TBN 5HT2CRECEPTR    2  of  8  73.33    36.67    538        3.09e-05    81          I..I....        
+2TBN OREXINR         2  of  10 71.08    35.54    450        6.95e-05    2e+02       ...I...i..      
+2TBN ENDOLAPTASE     2  of  5  44.74    22.37    361        0.000204    4.3e+02     i.i..           
+2TBN OCULARALBNSM    2  of  9  66.75    33.37    461        0.000472    9.7e+02     I.......I       
+2TBN LEUILEVALBP     2  of  7  75.52    37.76    400        0.000572    1.6e+03     ...II..         
+2TBN RHESUSRHD       2  of  12 45.70    22.85    323        0.000609    1.2e+03     ...i.......i    
+2TBN GPR153GPR162    2  of  7  56.25    28.12    411        0.000833    1.5e+03     ..i.I..         
+2TBN GPCRSECRETIN    2  of  7  40.99    20.50    283        0.000838    1.4e+03     i...i..         
+2TBN ZETATUBULIN     2  of  15 62.69    31.34    372        0.000906    2.2e+03     .....I........I 
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN GLIADIN         1  of  9  30.42   229     1.23e-03  AIALVLLLAVVSVVA                                         15   0    23    0    
+3TBN GLIADIN         9  of  9  47.50   249     2.86e-03  MLAGFTVFGT                                              10   0    339   0    
+3TBB
+3TBN 5HT2CRECEPTR    1  of  8  31.67   272     5.85e-03  ALITLSIVLLGVFGWAFSES                                    20   0    73    0    
+3TBN 5HT2CRECEPTR    4  of  8  41.67   266     5.28e-03  RRRKNVEKARST                                            12   0    377   0    
+3TBB
+3TBN OREXINR         4  of  10 41.67   265     2.01e-03  PSLAEKTARKTR                                            12   0    134   0    
+3TBN OREXINR         8  of  10 29.41   185     3.45e-02  ASHLDYSPVRGRRNTPA                                       17   0    261   0    
+3TBB
+3TBN ENDOLAPTASE     1  of  5  22.56   179     2.08e-02  GDASLGEGQLRAKLLRALDD                                    20   0    169   0    
+3TBN ENDOLAPTASE     3  of  5  22.18   182     9.76e-03  TEIDAPSAD###########                                    20   0    619   0    
+3TBB
+3TBN OCULARALBNSM    1  of  9  35.00   246     1.36e-02  SEVVSGFLSFPPRIQVAIAL                                    20   0    7     0    
+3TBN OCULARALBNSM    9  of  9  31.75   215     3.48e-02  PAVLSMLAGFTVFGTVWVHPL                                   21   0    334   0    
+3TBB
+3TBN LEUILEVALBP     4  of  7  43.94   206     3.81e-02  KTTDGTNRVIG                                             11   0    159   0    
+3TBN LEUILEVALBP     5  of  7  31.58   194     1.50e-02  AVLSMLAGFTVFGTVWVHP                                     19   0    335   0    
+3TBB
+3TBN RHESUSRHD       4  of  12 26.47   158     7.71e-03  QYSYTVFSALITLSIVL                                       17   0    65    0    
+3TBN RHESUSRHD       12 of  12 19.23   165     7.91e-02  ASRFVAPAVLSMLAGFTVFGTVWVHP                              26   0    328   0    
+3TBB
+3TBN GPR153GPR162    3  of  7  25.00   203     4.40e-02  VAIALVLLLAVVSVVAVAYLVY                                  22   0    22    0    
+3TBN GPR153GPR162    5  of  7  31.25   208     1.89e-02  IVLGFGTNFMLWAALTVLGVVIAFRR                              26   0    106   0    
+3TBB
+3TBN GPCRSECRETIN    1  of  7  20.07   144     1.01e-02  IVLGFGTNFMLWAALTVLGVVIAFR                               25   0    106   0    
+3TBN GPCRSECRETIN    5  of  7  20.93   139     8.28e-02  TVWVHPLLMAANFSFGLFVGSVVYLG                              26   0    348   0    
+3TBB
+3TBN ZETATUBULIN     6  of  15 30.36   193     4.41e-02  VEHIAAEAKTTDGTNR                                        16   0    151   0    
+3TBN ZETATUBULIN     15 of  15 32.33   179     2.05e-02  TLVTLRTAGVPLDMEALRS                                     19   0    550   0    
+3TBB
+3TBF
+Sn; 41
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN MCMPROTEIN2     3  of  5  99.88    33.29    743        3.47e-09    0.0064      IiI..           
+2TBN MCMPROTEIN7     2  of  5  94.44    47.22    489        2.02e-05    71          .II..           
+2TBN ALPHATUBULIN    2  of  13 48.28    24.14    383        0.00135     3.2e+03     ..I.....i....   
+2TBN MCMPROTEIN4     2  of  5  45.24    22.62    361        0.00221     6.9e+03     ii...           
+2TBN CYTCHRMECIAB    2  of  6  67.52    33.76    356        0.00354     1.6e+04     I...I.          
+2TBN ARGDCRBXLASE    2  of  9  35.80    17.90    300        0.0037      8.2e+03     i..i.....       
+2TBN DENSEGRNULE6    2  of  8  54.90    27.45    350        0.00637     1.6e+04     ...i...i        
+2TBN NAHEXCHNGR3     2  of  16 48.10    24.05    327        0.00802     2.3e+04     ...........i..i.
+2TBN MAN6PISMRASE    2  of  8  44.76    22.38    281        0.00819     1.8e+04     i....i..        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN MCMPROTEIN2     1  of  5  41.27   285     3.53e-05  GDYIGISGQVARRTGVKP                                      18   0    111   0    
+3TBN MCMPROTEIN2     2  of  5  25.27   192     3.01e-02  AYECLRCGTLTRV                                           13   0    134   0    
+3TBN MCMPROTEIN2     3  of  5  33.33   266     3.26e-03  FQLNDEKTEFVDFQI                                         15   0    167   0    
+3TBB
+3TBN MCMPROTEIN7     2  of  5  54.86   268     4.82e-04  SGQVARRTGVKP                                            12   0    117   0    
+3TBN MCMPROTEIN7     3  of  5  39.58   221     4.18e-02  YECLRCGTLTRV                                            12   0    135   0    
+3TBB
+3TBN ALPHATUBULIN    3  of  13 35.17   221     2.42e-02  HPEQVQDYLHEALT                                          14   0    62    0    
+3TBN ALPHATUBULIN    9  of  13 13.10   162     5.60e-02  GALEPKE###############                                  22   0    243   0    
+3TBB
+3TBN MCMPROTEIN4     1  of  5  20.24   176     4.89e-02  TGVKPKATVCAYEC                                          14   0    124   0    
+3TBN MCMPROTEIN4     2  of  5  25.00   185     4.51e-02  DEKTEFVDFQILR                                           13   0    171   0    
+3TBB
+3TBN CYTCHRMECIAB    1  of  6  36.68   212     4.94e-02  ECLRCGTL                                                8    0    136   0    
+3TBN CYTCHRMECIAB    5  of  6  30.84   144     7.18e-02  EPGDRLDTAGT                                             11   0    212   0    
+3TBB
+3TBN ARGDCRBXLASE    1  of  9  23.56   154     5.65e-02  QDDTITDRLEQFYRDY                                        16   0    7     0    
+3TBN ARGDCRBXLASE    4  of  9  12.24   146     6.55e-02  TDQRGDYIGISGQVARRTGVKP                                  22   0    107   0    
+3TBB
+3TBN DENSEGRNULE6    4  of  8  27.45   186     6.50e-02  STTTHQDDTITDRLEQF                                       17   0    2     0    
+3TBN DENSEGRNULE6    8  of  8  27.45   164     9.81e-02  GDQRTDQRGDYIGISGQ                                       17   0    103   0    
+3TBB
+3TBN NAHEXCHNGR3     12 of  16 21.43   175     8.44e-02  ERYPKDQRSLEIDY                                          14   0    32    0    
+3TBN NAHEXCHNGR3     15 of  16 26.67   152     9.50e-02  TAGTLELRATEDSDD                                         15   0    219   0    
+3TBB
+3TBN MAN6PISMRASE    1  of  8  25.26   149     8.54e-02  LEQFYRDYYWDGIGRLLER                                     19   0    15    0    
+3TBN MAN6PISMRASE    6  of  8  19.50   132     9.60e-02  LDAGALEPKE##########                                    20   0    240   0    
+3TBB
+3TBF
+Sn; 42
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN NEUROKININ2R    2  of  9  50.64    25.32    395        0.000768    1.7e+03     ....i.i..       
+2TBN KV41CHANNEL     2  of  8  81.67    40.83    380        0.00357     1.4e+04     II......        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN NEUROKININ2R    5  of  9  27.07   155     9.28e-02  VESLPNRPLEFEELRALDA                                     19   0    12    0    
+3TBN NEUROKININ2R    7  of  9  23.57   240     8.28e-03  EYVAPTEEPPV#########                                    20   0    114   0    
+3TBB
+3TBN KV41CHANNEL     1  of  8  40.00   196     5.27e-02  ALDAQEGEEY                                              10   0    27    0    
+3TBN KV41CHANNEL     2  of  8  41.67   184     6.78e-02  ADFDAEQEYVAP                                            12   0    107   0    
+3TBB
+3TBF
+Sn; 43
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN HGSCAVENGER     2  of  6  53.72    26.86    281        0.00479     1.4e+04     .ii...          
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN HGSCAVENGER     2  of  6  24.31   135     6.40e-02  ########MTQT                                            12   0    -7    0    
+3TBN HGSCAVENGER     3  of  6  29.41   146     7.48e-02  TIAGARRMIVKKAIREY                                       17   0    4     0    
+3TBB
+3TBF
+Sn; 44
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN ALPHATUBULIN    2  of  13 52.66    26.33    351        0.00105     3.1e+03     ......ii.....   
+2TBN FIBRILLARIN     2  of  7  27.02    13.51    247        0.0045      7.6e+03     i....i.         
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN ALPHATUBULIN    7  of  13 28.18   191     2.08e-02  RNALNQNTPTHSS                                           13   0    9     0    
+3TBN ALPHATUBULIN    8  of  13 24.47   160     5.07e-02  HIISGEKTIEDWVKFT                                        16   0    74    0    
+3TBB
+3TBN FIBRILLARIN     1  of  7  19.64   117     9.63e-02  IRDEDIAETHIISGEKTIED                                    20   0    65    0    
+3TBN FIBRILLARIN     6  of  7  7.38    130     4.67e-02  PNQE##########################                          30   0    113   0    
+3TBB
+3TBF
+Sn; 45
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN TROPOMYOSIN     2  of  5  53.48    26.74    436        4.81e-05    81          .ii..           
+2TBN HEPLIPASE       2  of  9  62.44    31.22    380        9.67e-05    2.7e+02     .i.I.....       
+2TBN EP450IICYP52    2  of  4  41.32    20.66    328        0.000161    3.6e+02     ..ii            
+2TBN PROTEINF153     2  of  5  50.79    25.40    460        0.000204    4.4e+02     i.i..           
+2TBN TUBBYPROTEIN    2  of  9  42.81    21.41    410        0.000565    9.2e+02     .i.....i.       
+2TBN FLGPRINGFLGI    2  of  9  37.36    18.68    265        0.000845    2.5e+03     ..i.....i       
+2TBN LEUZIPPRCREB    2  of  6  46.73    23.37    331        0.00287     6.1e+03     i..i..          
+2TBN LSHMANOLYSIN    2  of  7  38.10    19.05    298        0.00574     8.1e+03     i.i....         
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN TROPOMYOSIN     2  of  5  28.57   173     3.98e-02  TPELERRLDALSKRIGVLEEQ                                   21   0    14    0    
+3TBN TROPOMYOSIN     3  of  5  24.91   263     1.21e-03  EEQLKERDEEIETLRERIDELEDRSQLLD                           29   0    39    0    
+3TBB
+3TBN HEPLIPASE       2  of  9  27.06   180     1.05e-02  GDGMETPELERRLDALS                                       17   0    9     0    
+3TBN HEPLIPASE       4  of  9  35.38   200     9.21e-03  SNGKAAMDVNAGL                                           13   0    95    0    
+3TBB
+3TBN EP450IICYP52    3  of  4  19.21   129     4.29e-02  VLEEQNEWLEEQLKERDEEIE                                   21   0    30    0    
+3TBN EP450IICYP52    4  of  4  22.11   199     3.75e-03  VPLKGGAD#########                                       17   0    167   0    
+3TBB
+3TBN PROTEINF153     1  of  5  28.57   230     1.36e-02  LEEQLKERDEEIETLRERIDE                                   21   0    38    0    
+3TBN PROTEINF153     3  of  5  22.22   230     1.49e-02  GVPLKGGAD#########                                      18   0    166   0    
+3TBB
+3TBN TUBBYPROTEIN    2  of  9  28.00   250     8.02e-03  SKRIGVLEEQNEWLEEQLKERDEEI                               25   0    25    0    
+3TBN TUBBYPROTEIN    8  of  9  14.81   160     7.04e-02  GGVPLKGGAD#################                             27   0    165   0    
+3TBB
+3TBN FLGPRINGFLGI    3  of  9  18.12   128     2.80e-02  PELERRLDALSKRIGV                                        16   0    15    0    
+3TBN FLGPRINGFLGI    9  of  9  19.23   137     3.02e-02  TRLVLEPDEGTVP                                           13   0    149   0    
+3TBB
+3TBN LEUZIPPRCREB    1  of  6  22.03   163     5.16e-02  TPELERRLDALSKRIGVLEEQNE                                 23   0    14    0    
+3TBN LEUZIPPRCREB    4  of  6  24.71   168     5.56e-02  ESRASKKNTRLVLEPDE                                       17   0    141   0    
+3TBB
+3TBN LSHMANOLYSIN    1  of  7  19.21   153     8.00e-02  DGMETPELERRLDALSKRIGVLEEQNEWLE                          30   0    10    0    
+3TBN LSHMANOLYSIN    3  of  7  18.89   145     7.18e-02  NAGLENLNRQVDRTTVYGIFDEAVDAVGDE                          30   0    104   0    
+3TBB
+3TBF
+Sn; 46
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN BCTRLSENSOR     2  of  4  44.22    22.11    256        0.00101     2.9e+03     i..i            
+2TBN MRGPCRFAMILY    2  of  6  45.93    22.96    280        0.00183     5.3e+03     .i..i.          
+2TBN HEMAGGLUTN12    2  of  6  51.36    25.68    322        0.00223     4.8e+03     ..Ii..          
+2TBN DNAGYRASEB      2  of  11 49.76    24.88    311        0.00298     1e+04       i.i........     
+2TBN LSHRECEPTOR     2  of  10 52.26    26.13    435        0.00326     8.3e+03     i.....i...      
+2TBN HEMAGGLUTN1     2  of  8  58.98    29.49    325        0.00409     9.6e+03     .....i.I        
+2TBN AQUAPORIN8      2  of  10 59.08    29.54    328        0.00732     2.7e+04     ..I...i...      
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN BCTRLSENSOR     1  of  4  22.69   149     1.70e-02  IVLVVADDAQPLEPE                                         15   0    171   0    
+3TBN BCTRLSENSOR     4  of  4  21.53   107     5.96e-02  AWVGAGASENLEVP                                          14   0    231   0    
+3TBB
+3TBN MRGPCRFAMILY    2  of  6  17.22   131     9.63e-02  YSRGSAFIALLN                                            12   0    321   0    
+3TBN MRGPCRFAMILY    5  of  6  28.71   149     1.90e-02  DLLVRAVLVVVAALVSG                                       17   0    403   0    
+3TBB
+3TBN HEMAGGLUTN12    3  of  6  32.14   155     4.91e-02  QMLLATGEINTFDYN                                         15   0    281   0    
+3TBN HEMAGGLUTN12    4  of  6  19.22   167     4.55e-02  ILDASNGSHRIRDVVRRLNQLPES                                24   0    335   0    
+3TBB
+3TBN DNAGYRASEB      1  of  11 26.67   159     6.11e-02  YNASDTSVIQF                                             11   0    64    0    
+3TBN DNAGYRASEB      3  of  11 23.10   152     4.88e-02  WINEGITQFLTHQM                                          14   0    269   0    
+3TBB
+3TBN LSHRECEPTOR     1  of  10 23.68   201     9.17e-02  TTPTTECPPDTGVQRVAPT                                     19   0    27    0    
+3TBN LSHRECEPTOR     7  of  10 28.57   234     3.55e-02  MLLATGEINTFDYN                                          14   0    282   0    
+3TBB
+3TBN HEMAGGLUTN1     6  of  8  26.98   170     7.96e-02  DTDHRPATTTVFVTNGQVAGP                                   21   0    201   0    
+3TBN HEMAGGLUTN1     8  of  8  32.00   155     5.13e-02  QMLLATGEINTFDYN                                         15   0    281   0    
+3TBB
+3TBN AQUAPORIN8      3  of  10 36.00   168     8.50e-02  VTYNASDTSV                                              10   0    62    0    
+3TBN AQUAPORIN8      7  of  10 23.08   160     8.62e-02  AGQSFVYLGDYER                                           13   0    149   0    
+3TBB
+3TBF
+Sn; 47
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN GLUTENIN        2  of  5  75.92    37.96    395        0.000147    4.1e+02     I.I..           
+2TBN EDG6RECEPTOR    2  of  8  74.11    37.05    410        0.000214    6e+02       ..II....        
+2TBN TYPE3OMOPROT    2  of  4  66.89    33.44    342        0.000228    8e+02       .II.            
+2TBN VACCYTOTOXIN    2  of  15 49.20    24.60    390        0.000996    1.9e+03     .i....i........ 
+2TBN GLUTPROXDASE    2  of  3  58.62    29.31    323        0.00181     4.4e+03     ii.             
+2TBN PRION           2  of  8  51.78    25.89    367        0.00192     3.9e+03     .i..i...        
+2TBN NRPEPTIDEWR     2  of  8  72.50    36.25    326        0.00204     7.5e+03     .i..I...        
+2TBN P2X1RECEPTOR    2  of  10 52.27    26.14    400        0.00444     1.6e+04     ....i..i..      
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN GLUTENIN        1  of  5  35.08   204     2.54e-03  RRRVLQAIAVGSVVGSTALT                                    20   0    11    0    
+3TBN GLUTENIN        3  of  5  40.84   191     5.79e-02  AYYRGQTGWT                                              10   0    95    0    
+3TBB
+3TBN EDG6RECEPTOR    3  of  8  42.86   225     7.19e-03  PESAEFKTPTWYGW                                          14   0    66    0    
+3TBN EDG6RECEPTOR    4  of  8  31.25   185     2.98e-02  SGDGGHHPTARVFAKH                                        16   0    149   0    
+3TBB
+3TBN TYPE3OMOPROT    2  of  4  32.27   142     4.77e-02  LQAIAVGSVVG                                             11   0    15    0    
+3TBN TYPE3OMOPROT    3  of  4  34.62   200     4.77e-03  HELDVYVYFAYYR                                           13   0    86    0    
+3TBB
+3TBN VACCYTOTOXIN    2  of  15 25.83   164     3.76e-02  QRQRTVSRRRVLQAIAVGSVVGSTALT                             27   0    4     0    
+3TBN VACCYTOTOXIN    7  of  15 23.37   226     2.65e-02  IWNLQIQLAGVPFAGGF                                       17   0    242   0    
+3TBB
+3TBN GLUTPROXDASE    1  of  3  28.92   147     4.71e-02  SRRRVLQAIAVGSVVGST                                      18   0    10    0    
+3TBN GLUTPROXDASE    2  of  3  29.69   176     3.83e-02  HVTLSFPRNEMERYRPL                                       17   0    46    0    
+3TBB
+3TBN PRION           2  of  8  26.78   203     4.77e-02  WMRAASWGPNIYSGDGGHHPTA                                  22   0    137   0    
+3TBN PRION           5  of  8  25.00   164     4.03e-02  FAGGFAGDATTSDLAD####                                    20   0    254   0    
+3TBB
+3TBN NRPEPTIDEWR     2  of  8  25.00   131     6.04e-02  #MTRQRQRTVSRR                                           13   0    0     0    
+3TBN NRPEPTIDEWR     5  of  8  47.50   195     3.37e-02  HVTLSFPRNE                                              10   0    46    0    
+3TBB
+3TBN P2X1RECEPTOR    5  of  10 27.27   200     4.72e-02  TVSRRRVLQAI                                             11   0    8     0    
+3TBN P2X1RECEPTOR    8  of  10 25.00   200     9.40e-02  ARVFAKHHHYAL                                            12   0    158   0    
+3TBB
+3TBF
+Sn; 48
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN CNATPEPTIDE     2  of  3  42.98    21.49    273        0.00519     1.3e+04     .Ii             
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN CNATPEPTIDE     2  of  3  30.48   125     9.19e-02  NWLQTKWRHFKERCFGC                                       17   0    26    0    
+3TBN CNATPEPTIDE     3  of  3  12.50   148     5.66e-02  CIGRR###########                                        16   0    42    0    
+3TBB
+3TBF
+Sn; 49
+Si; Fasta sequence
+1TBS
+1TBH SUBTILISIN      4.2e-11        Subtilisin serine protease family (S8) signature                         PR00723         
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBH SUBTILISIN      3  of  3  134.70   44.90    972        2.55e-17    4.2e-11     III             
+2TBN INTIMIN         3  of  8  90.71    30.24    688        5.83e-05    91          ...ii.I.        
+2TBN ANTIFREEZEI     2  of  3  80.83    40.42    343        8.26e-05    2.8e+02     I.I             
+2TBN TAPASIN         2  of  8  62.13    31.07    428        0.000112    2.6e+02     .I.....i        
+2TBN LVIRUSORF6      2  of  14 64.84    32.42    501        0.000129    3.5e+02     I....i........  
+2TBN SRSVCYSPTASE    2  of  9  58.25    29.12    457        0.000253    5.5e+02     .i...I...       
+2TBN ALARACEMASE     2  of  9  61.91    30.95    369        0.000278    7.1e+02     I....i...       
+2TBN SIBAPROTEIN     2  of  4  48.91    24.46    421        0.000446    7.1e+02     i.I.            
+2TBN TOXICSSTOXIN    2  of  9  49.85    24.92    370        0.000504    1.2e+03     i......i.       
+2TBN PHDIOXRDTASE    2  of  8  51.88    25.94    322        0.000969    2.3e+03     ...i.i..        
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBH SUBTILISIN      1  of  3  30.15   223     2.62e-04  GTTSTVAVIDTGVNDTSAMD                                    20   0    221   0    
+3TBH SUBTILISIN      2  of  3  51.58   328     1.37e-05  DGNGHGTWVAEAIA                                          14   0    268   0    
+3TBH SUBTILISIN      3  of  3  52.97   421     7.13e-09  SGTSMAAPQVAGAAVWI                                       17   0    439   0    
+3TBB
+3TBN INTIMIN         4  of  8  25.00   220     6.55e-02  HTVVAANPYDVGINGFRTRS                                    20   0    116   0    
+3TBN INTIMIN         5  of  8  30.00   262     1.98e-02  IWQHDTGIDDGLAYSEDITE                                    20   0    181   0    
+3TBN INTIMIN         7  of  8  35.71   206     4.50e-02  EDTDASTPDEVADR                                          14   0    457   0    
+3TBB
+3TBN ANTIFREEZEI     1  of  3  30.83   138     4.48e-02  AISYAAGAGTVPVAA                                         15   0    346   0    
+3TBN ANTIFREEZEI     3  of  3  50.00   205     1.84e-03  DAIGVAATTA                                              10   0    379   0    
+3TBB
+3TBN TAPASIN         2  of  8  33.33   187     6.05e-02  QYTSLIEPVPTI                                            12   0    151   0    
+3TBN TAPASIN         8  of  8  28.80   241     1.86e-03  GVAATTADAPADLKVASFSNPGPQP                               25   0    382   0    
+3TBB
+3TBN LVIRUSORF6      1  of  14 37.06   234     1.42e-02  PGPQPGTTDLSAG                                           13   0    402   0    
+3TBN LVIRUSORF6      6  of  14 27.78   267     9.09e-03  DETEPSSSQKDARTGKAS                                      18   0    498   0    
+3TBB
+3TBN SRSVCYSPTASE    2  of  9  26.67   235     6.33e-02  GVDAVEDGNGHGTWVAEAIA                                    20   0    262   0    
+3TBN SRSVCYSPTASE    6  of  9  31.58   222     3.99e-03  AGTVPVAATGNARLQGRYV                                     19   0    353   0    
+3TBB
+3TBN ALARACEMASE     1  of  9  37.25   209     8.21e-03  DASQHTVVAANPYDVGI                                       17   0    112   0    
+3TBN ALARACEMASE     6  of  9  24.65   160     3.38e-02  SADVAAGVRYAADQDA                                        16   0    313   0    
+3TBB
+3TBN SIBAPROTEIN     1  of  4  17.41   147     7.14e-02  DASVLAVKVLSDDGRGTSADVAAGVRYA                            28   0    296   0    
+3TBN SIBAPROTEIN     3  of  4  31.50   274     6.25e-03  QPGTTDLSAGQTEGADPSIGAPGTE                               25   0    405   0    
+3TBB
+3TBN TOXICSSTOXIN    1  of  9  26.32   144     4.50e-02  ALAATVAVGSTPGMAARTA                                     19   0    29    0    
+3TBN TOXICSSTOXIN    8  of  9  23.53   226     1.12e-02  DTGIDDGLAYSEDITES                                       17   0    185   0    
+3TBB
+3TBN PHDIOXRDTASE    4  of  8  30.00   139     7.83e-02  GRGTSADVAAGVRYA                                         15   0    309   0    
+3TBN PHDIOXRDTASE    6  of  8  21.88   183     1.24e-02  ISYAAGAGTVPVAATGNARL                                    20   0    347   0    
+3TBB
+3TBF
+Sn; 50
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN BLCTOGLOBULN    2  of  6  45.88    22.94    275        0.00319     9e+03       ..ii..          
+2TBN MYELINMBP       2  of  3  43.95    21.98    280        0.00718     1.4e+04     .ii             
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN BLCTOGLOBULN    3  of  6  27.06   137     8.61e-02  DPSRGTIRNRLEYLV                                         15   0    50    0    
+3TBN BLCTOGLOBULN    4  of  6  18.82   138     3.71e-02  VTYRKTE########                                         15   0    79    0    
+3TBB
+3TBN MYELINMBP       2  of  3  26.72   138     7.74e-02  PRPRDPPLPDEVLDHMVKN                                     19   0    15    0    
+3TBN MYELINMBP       3  of  3  17.23   142     9.28e-02  RRKHENGAVTYRKTE##########                               25   0    71    0    
+3TBB
+3TBF
+Sn; 51
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN GKINASEAP1      2  of  9  59.54    29.77    593        2.6e-05     52          .i.....I.       
+2TBN CDATPASE        2  of  9  75.29    37.65    472        0.000183    5.7e+02     I......I.       
+2TBN TREKCHANNEL     2  of  12 43.33    21.67    390        0.000783    1.9e+03     .....i.....i    
+2TBN LCRVANTIGEN     2  of  9  44.74    22.37    385        0.000786    1.6e+03     .....i.i.       
+2TBN CUATPASE        2  of  11 48.00    24.00    408        0.000882    2.5e+03     ......i..i.     
+2TBN INTERLEUKIN6    2  of  4  41.55    20.77    360        0.00109     2.2e+03     .I.i            
+2TBN CLAUDIN9        2  of  4  85.00    42.50    345        0.00189     8e+03       .II.            
+2TBN FLGMOTORFLIG    2  of  7  42.90    21.45    225        0.00284     6.3e+03     i....i.         
+2TBN NONHISHMG17     2  of  4  63.87    31.93    332        0.00285     9.2e+03     I..i            
+2TBN ABRAXAS         2  of  7  37.42    18.71    303        0.00333     8.5e+03     i.....i         
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN GKINASEAP1      2  of  9  27.37   296     6.05e-03  NEETGEQRQRAYEEHRQRS                                     19   0    38    0    
+3TBN GKINASEAP1      8  of  9  32.17   297     4.29e-03  NLQTKVKELQARNAHLEASERER                                 23   0    263   0    
+3TBB
+3TBN CDATPASE        1  of  9  40.00   198     5.97e-02  YRLAGLVIAG                                              10   0    7     0    
+3TBN CDATPASE        8  of  9  35.29   274     3.07e-03  MQEMFNGTMNQVRITEE                                       17   0    307   0    
+3TBB
+3TBN TREKCHANNEL     6  of  12 20.00   210     1.35e-02  GYEFYSFMKTGSPSQVAAAW                                    20   0    85    0    
+3TBN TREKCHANNEL     12 of  12 23.33   180     5.81e-02  NKSLEQEMQRSTDID                                         15   0    248   0    
+3TBB
+3TBN LCRVANTIGEN     6  of  9  25.24   193     2.00e-02  AYNKSLEQEMQRSTDIDNLQT                                   21   0    246   0    
+3TBN LCRVANTIGEN     8  of  9  19.50   192     3.94e-02  EQNNEIDEVLNQMSVVANRM                                    20   0    288   0    
+3TBB
+3TBN CUATPASE        7  of  11 20.00   204     3.06e-02  LVIAGLIVLAIGIWF                                         15   0    12    0    
+3TBN CUATPASE        10 of  11 28.00   204     2.88e-02  EQNNEIDEVLNQMSV                                         15   0    288   0    
+3TBB
+3TBN INTERLEUKIN6    2  of  4  30.43   197     3.75e-02  VEDPRPADDKIGLELPSHARKVG                                 23   0    196   0    
+3TBN INTERLEUKIN6    4  of  4  11.11   163     2.90e-02  VVANRMQEMFNGTMNQVR                                      18   0    302   0    
+3TBB
+3TBN CLAUDIN9        2  of  4  40.00   150     5.78e-02  ILMFLVVGIV                                              10   0    72    0    
+3TBN CLAUDIN9        3  of  4  45.00   195     3.27e-02  FERREDRKLG                                              10   0    170   0    
+3TBB
+3TBN FLGMOTORFLIG    1  of  7  25.21   129     2.97e-02  LAGLVIAGLIVLAIGIW                                       17   0    9     0    
+3TBN FLGMOTORFLIG    6  of  7  17.69   96      9.55e-02  EQEMQRSTDIDNLQTKVKELQ                                   21   0    252   0    
+3TBB
+3TBN NONHISHMG17     1  of  4  35.90   181     3.17e-02  VKELQARNAHLEASE                                         15   0    268   0    
+3TBN NONHISHMG17     4  of  4  27.97   151     8.98e-02  GQNGHADADAL                                             11   0    333   0    
+3TBB
+3TBN ABRAXAS         1  of  7  25.00   145     6.76e-02  VAAAWETKFLAGFVVA                                        16   0    100   0    
+3TBN ABRAXAS         7  of  7  12.42   158     4.92e-02  ANRMQEMFNGTMNQVRI                                       17   0    304   0    
+3TBB
+3TBF
+Sn; 52
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN HTHMARR         2  of  4  47.76    23.88    233        0.000138    3.5e+02     ii..            
+2TBN GLUCTRNSPORT    2  of  2  63.48    31.74    285        0.000463    2.3e+03     iI              
+2TBN PAIREDBOX       2  of  4  54.85    27.42    332        0.000648    1.5e+03     .i.i            
+2TBN GLHYDRLASE1     2  of  5  63.93    31.96    272        0.00306     1.2e+04     .II..           
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN HTHMARR         1  of  4  19.12   118     3.87e-03  INPSEIVRRANVGKTTW                                       17   0    50    0    
+3TBN HTHMARR         2  of  4  28.65   115     3.57e-02  YNHEDALLATGLIEQT                                        16   0    67    0    
+3TBB
+3TBN GLUCTRNSPORT    1  of  2  25.52   139     5.54e-02  PLYAVVNA                                                8    0    89    0    
+3TBN GLUCTRNSPORT    2  of  2  37.96   146     8.36e-03  EWLEKLRAW                                               9    0    103   0    
+3TBB
+3TBN PAIREDBOX       2  of  4  28.44   191     1.34e-02  FFRVLLDAHNPINPSEIVR                                     19   0    39    0    
+3TBN PAIREDBOX       4  of  4  26.40   141     4.82e-02  GLIEQTGNAGNSPLYAVV                                      18   0    77    0    
+3TBB
+3TBN GLHYDRLASE1     2  of  5  32.59   143     4.48e-02  VEIIDNGED                                               9    0    12    0    
+3TBN GLHYDRLASE1     3  of  5  31.33   129     6.82e-02  DTPRIRFFRVLL                                            12   0    33    0    
+3TBB
+3TBF
+Sn; 53
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN AQUAPORIN1      2  of  6  74.17    37.08    513        1.27e-06    4.5         I..I..          
+2TBN SECGEXPORT      2  of  4  46.95    23.48    281        0.000244    5.4e+02     i.I.            
+2TBN ZETAHAEM        2  of  4  80.95    40.48    271        0.00438     2.2e+04     .II.            
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN AQUAPORIN1      1  of  6  35.42   236     1.13e-02  MAESKRTEALWR                                            12   0    1     0    
+3TBN AQUAPORIN1      4  of  6  38.75   277     1.12e-04  SEGLPAGDGIGS                                            12   0    49    0    
+3TBB
+3TBN SECGEXPORT      1  of  4  16.07   98      6.51e-02  RIVAFLWSLVAAFIVQFLGIL                                   21   0    12    0    
+3TBN SECGEXPORT      3  of  4  30.88   183     3.75e-03  GSEGLPAGDGIGSFLSD                                       17   0    48    0    
+3TBB
+3TBN ZETAHAEM        2  of  4  50.00   137     6.06e-02  LVTGSEGLPA                                              10   0    45    0    
+3TBN ZETAHAEM        3  of  4  30.95   134     7.23e-02  PVDNLAY                                                 7    0    69    0    
+3TBB
+3TBF
+Sn; 54
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN TUBBYPROTEIN    2  of  9  53.09    26.54    487        5.06e-05    84          ...I....i       
+2TBN PYRUVTKNASE     2  of  7  56.32    28.16    353        5.6e-05     1.5e+02     ii.....         
+2TBN ASNGLNASE       2  of  3  60.59    30.29    324        0.00042     1.1e+03     Ii.             
+2TBN PROTEINF153     2  of  5  59.10    29.55    438        0.000645    1.4e+03     i..I.           
+2TBN PHYTOCHROME     2  of  10 54.46    27.23    357        0.00152     3.4e+03     ...i..I...      
+2TBN SOMATOSTTN5R    2  of  5  64.44    32.22    348        0.00182     5.1e+03     ..I.I           
+2TBN KCNAB2CHANEL    2  of  5  82.52    41.26    378        0.00184     6.5e+03     ...II           
+2TBN P2X1RECEPTOR    2  of  10 75.45    37.73    360        0.00269     1.1e+04     .i..I.....      
+2TBN INTEIN          2  of  6  52.37    26.19    221        0.0031      9e+03       ..ii..          
+2TBN ASPEROXIDASE    2  of  11 47.65    23.82    295        0.00563     1.6e+04     ..i...i....     
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN TUBBYPROTEIN    4  of  9  33.33   254     6.96e-03  NIELNSSPADVYDVALSDSDGEVE                                24   0    143   0    
+3TBN TUBBYPROTEIN    9  of  9  19.75   233     7.27e-03  HDYRSEDKPNRAFFLKAVRDT######                             27   0    283   0    
+3TBB
+3TBN PYRUVTKNASE     1  of  7  29.14   165     1.51e-02  TRRVMMLDKEGPILRDI                                       17   0    77    0    
+3TBN PYRUVTKNASE     2  of  7  27.18   188     3.71e-03  VDMMTLDELRERDDL                                         15   0    202   0    
+3TBB
+3TBN ASNGLNASE       1  of  3  34.52   137     3.76e-02  VDSIATGVTTVR                                            12   0    51    0    
+3TBN ASNGLNASE       2  of  3  26.07   187     1.12e-02  EGPILRDITDELEPSDVFY                                     19   0    86    0    
+3TBB
+3TBN PROTEINF153     1  of  5  23.81   250     1.06e-02  ####MSDKVTDQENSLTEKFR                                   21   0    -3    0    
+3TBN PROTEINF153     4  of  5  35.29   188     6.11e-02  EVGGATTYVDMMTLDEL                                       17   0    194   0    
+3TBB
+3TBN PHYTOCHROME     4  of  10 21.12   186     3.71e-02  VTDQENSLTEKFRDEGVALLD                                   21   0    5     0    
+3TBN PHYTOCHROME     7  of  10 33.33   171     4.10e-02  ELRERDDLAAPSILKVD                                       17   0    209   0    
+3TBB
+3TBN SOMATOSTTN5R    3  of  5  31.11   157     4.41e-02  KFRDEGVALLDNTRR                                         15   0    15    0    
+3TBN SOMATOSTTN5R    5  of  5  33.33   191     4.12e-02  HEGDVVAFEPHPKNA                                         15   0    123   0    
+3TBB
+3TBN KCNAB2CHANEL    4  of  5  46.15   198     2.43e-02  RQIEPYLPARLKT                                           13   0    29    0    
+3TBN KCNAB2CHANEL    5  of  5  36.36   180     7.57e-02  LGNEMTHEGDV                                             11   0    117   0    
+3TBB
+3TBN P2X1RECEPTOR    2  of  10 30.00   170     3.70e-02  TVRFEGLTAD                                              10   0    60    0    
+3TBN P2X1RECEPTOR    5  of  10 45.45   190     7.26e-02  EADRDAKVEEV                                             11   0    185   0    
+3TBB
+3TBN INTEIN          3  of  6  29.33   117     8.86e-02  VYDVALSDSDGEV                                           13   0    153   0    
+3TBN INTEIN          4  of  6  23.05   104     3.50e-02  TVDDIKSLLKDAGFTI                                        16   0    264   0    
+3TBB
+3TBN ASPEROXIDASE    3  of  11 26.92   148     6.00e-02  ERTGATHNTLI                                             11   0    172   0    
+3TBN ASPEROXIDASE    7  of  11 20.73   147     9.38e-02  HLPDFGATVDDIKSLLKD                                      18   0    257   0    
+3TBB
+3TBF
+Sn; 55
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN RETNOICACIDR    2  of  10 58.77    29.38    434        0.000183    4.1e+02     .....iI...      
+2TBN LPARECEPTOR     2  of  6  55.13    27.56    316        0.000578    1.9e+03     ..iI..          
+2TBN UREASE          2  of  4  42.84    21.42    319        0.00245     6.3e+03     .ii.            
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN RETNOICACIDR    6  of  10 28.00   239     9.50e-03  RLTYDAVRDGFTDGDGVTLRYESPY                               25   0    19    0    
+3TBN RETNOICACIDR    7  of  10 30.77   195     1.92e-02  EVSASMFLLELDD                                           13   0    56    0    
+3TBB
+3TBN LPARECEPTOR     3  of  6  19.87   168     1.79e-02  ######MAQQIHA                                           13   0    -5    0    
+3TBN LPARECEPTOR     4  of  6  35.26   148     3.24e-02  SIRTTENSRRASG                                           13   0    78    0    
+3TBB
+3TBN UREASE          2  of  4  24.40   166     4.02e-02  ESPYSGTTVEVEGVAQE                                       17   0    40    0    
+3TBN UREASE          3  of  4  18.44   153     6.09e-02  VGYVDEFTVHAGDA##                                        16   0    100   0    
+3TBB
+3TBF
+Sn; 56
+Si; Fasta sequence
+1TBS
+1TBN NO SIGNIFICANT RESULTS ABOVE 0.0001    
+1TBF
+2TBS
+2TBT FingerPrint     No.Motifs SumId    AveId    ProfScore  Ppvalue     Evalue      GraphScan               
+2TBN EDG8RECEPTOR    2  of  10 77.08    38.54    378        0.000376    1.2e+03     .I...I....      
+2TBN CALFLAGIN       2  of  8  65.91    32.95    418        0.000504    1.2e+03     i....I..        
+2TBN ACRYSTALLIN     2  of  7  52.55    26.27    403        0.000547    1.6e+03     I.....i         
+2TBN FAM175PLANT     2  of  9  50.79    25.40    460        0.000553    9.7e+02     ....i...i       
+2TBN TUBBYPROTEIN    2  of  9  39.81    19.91    367        0.00213     3.5e+03     ...i....i       
+2TBN ANGIOMOTIN      2  of  7  52.78    26.39    347        0.00243     6e+03       .i...i.         
+2TBN ALPHAAMYLASE    2  of  5  59.74    29.87    314        0.00412     1.4e+04     ..I.i           
+2TBN THYROLIBRINR    2  of  11 50.94    25.47    405        0.00414     9.4e+03     ........i.i     
+2TBN FLGHOOKFLIK     2  of  10 47.92    23.96    285        0.00666     1.3e+04     .i.i......      
+2TBF
+3TBS
+3TBT MotifName       No.Mots   IdScore PfScore Pvalue    Sequence                                                Len  low  pos   high 
+3TBN EDG8RECEPTOR    2  of  10 43.75   240     4.17e-03  ERGLRDEMYAGQRKDG                                        16   0    9     0    
+3TBN EDG8RECEPTOR    6  of  10 33.33   138     9.02e-02  QTVPLRTEATP                                             11   0    199   0    
+3TBB
+3TBN CALFLAGIN       1  of  8  29.80   219     1.43e-02  RDEMYAGQRKDGKERIATDLQE                                  22   0    13    0    
+3TBN CALFLAGIN       6  of  8  36.11   199     3.52e-02  IGQRLEEAGYEIED                                          14   0    145   0    
+3TBB
+3TBN ACRYSTALLIN     1  of  7  31.46   237     1.21e-02  ATDLQEDWFKQVL                                           13   0    29    0    
+3TBN ACRYSTALLIN     7  of  7  21.09   166     4.51e-02  FQTVPLRTEATPAPVT                                        16   0    198   0    
+3TBB
+3TBN FAM175PLANT     5  of  9  28.57   270     1.02e-02  NIEICNNCFSKREDTARHFRS                                   21   0    44    0    
+3TBN FAM175PLANT     9  of  9  22.22   190     5.41e-02  IEDWDAVRHRAESLKDDHPNRDRAIFA                             27   0    156   0    
+3TBB
+3TBN TUBBYPROTEIN    4  of  9  25.00   200     3.36e-02  RHFRSCGGSTTGGGEHEDATADLF                                24   0    60    0    
+3TBN TUBBYPROTEIN    9  of  9  14.81   167     6.35e-02  LRTEATPAPVTQTGRKDAE########                             27   0    203   0    
+3TBB
+3TBN ANGIOMOTIN      2  of  7  25.00   178     7.33e-02  HQERGLRDEMYAGQRK                                        16   0    7     0    
+3TBN ANGIOMOTIN      6  of  7  27.78   169     3.31e-02  RTEATPAPVTQTGRKDAE                                      18   0    204   0    
+3TBB
+3TBN ALPHAAMYLASE    3  of  5  31.54   148     6.55e-02  CFSKREDTARHF                                            12   0    51    0    
+3TBN ALPHAAMYLASE    5  of  5  28.21   166     6.29e-02  HRAESLKDDHPNR                                           13   0    164   0    
+3TBB
+3TBN THYROLIBRINR    9  of  11 27.78   220     5.68e-02  ATDLQEDWFKQVLEFNIE                                      18   0    29    0    
+3TBN THYROLIBRINR    11 of  11 23.16   185     7.29e-02  REYDHIATEIPPGLKSECA                                     19   0    98    0    
+3TBB
+3TBN FLGHOOKFLIK     2  of  10 25.00   135     9.15e-02  GEHEDATADLFCTTCEAG                                      18   0    73    0    
+3TBN FLGHOOKFLIK     4  of  10 22.92   150     7.28e-02  RHRAESLKDDHPNRDRAIFARVFS                                24   0    163   0    
+3TBB
+3TBF

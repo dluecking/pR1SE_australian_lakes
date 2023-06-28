@@ -1,0 +1,219 @@
+{
+    "49": {
+        "domainMatches": {
+            "PIRSR037907-1": [
+                {
+                    "domScore": "77.7",
+                    "domEvalue": "1.6e-24",
+                    "hmmFrom": 140,
+                    "hmmTo": 415,
+                    "hmmAlign": "tegldesaaqvmatnlwnlGydGsgitiaiidtGi.dashp.dlqG..kvi.gwkdfvngkttpy....ddnGhGthvasiaaGtGaasngkykGvapgaklvGikvldadGsGsisdiiaGvdwavqnkdkyGikvinlslGssqssdGtdslsqavnnawdaGlvvvvaaGnsGpdkytvGspaaaskvitvgavdkv....dvitdfssrGptadgrlkpevvapGnwiiaarasgtsltvtindyyvaasGtsmatphvaGiaalllqahpsltpdkvkkaliet",
+                    "seqFrom": 199,
+                    "seqTo": 474,
+                    "seqAlign": "TESTLQDARQAANTDSVTLQPTGTTSTVAVIDTGVnDTSAMdDTTGstRILdASKDYAGSGDTGVdaveDGNGHGTWVAEAIAGDSDD-DTKHDGWAPDASVLAVKVLSDDGRGTSADVAAGVRYAADQD----ADVANLSLGGLYS----DAIDRAISYAAGAGTVPVAATGNARLQGRYVGHPASSPDAIGVAATTADapadLKVASFSNPGPQPGTTDLSAGQTEGADP-SIGAPGTEIRTATRP---HLSGTSMAAPQVAGAAVWILEDTDASTPDEVADRLTTY",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 171,
+                            "hmmStart": 171,
+                            "end": "170",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "170",
+                            "condition": "D"
+                        },
+                        {
+                            "hmmEnd": 204,
+                            "hmmStart": 204,
+                            "end": "203",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "203",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 383,
+                            "hmmStart": 383,
+                            "end": "382",
+                            "group": "1",
+                            "desc": "Nucleophile.",
+                            "label": "ACT_SITE",
+                            "start": "382",
+                            "condition": "S"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ],
+            "PIRSR037907-3": [
+                {
+                    "domScore": "77.7",
+                    "domEvalue": "1.6e-24",
+                    "hmmFrom": 140,
+                    "hmmTo": 415,
+                    "hmmAlign": "tegldesaaqvmatnlwnlGydGsgitiaiidtGi.dashp.dlqG..kvi.gwkdfvngkttpy....ddnGhGthvasiaaGtGaasngkykGvapgaklvGikvldadGsGsisdiiaGvdwavqnkdkyGikvinlslGssqssdGtdslsqavnnawdaGlvvvvaaGnsGpdkytvGspaaaskvitvgavdkv....dvitdfssrGptadgrlkpevvapGnwiiaarasgtsltvtindyyvaasGtsmatphvaGiaalllqahpsltpdkvkkaliet",
+                    "seqFrom": 199,
+                    "seqTo": 474,
+                    "seqAlign": "TESTLQDARQAANTDSVTLQPTGTTSTVAVIDTGVnDTSAMdDTTGstRILdASKDYAGSGDTGVdaveDGNGHGTWVAEAIAGDSDD-DTKHDGWAPDASVLAVKVLSDDGRGTSADVAAGVRYAADQD----ADVANLSLGGLYS----DAIDRAISYAAGAGTVPVAATGNARLQGRYVGHPASSPDAIGVAATTADapadLKVASFSNPGPQPGTTDLSAGQTEGADP-SIGAPGTEIRTATRP---HLSGTSMAAPQVAGAAVWILEDTDASTPDEVADRLTTY",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 304,
+                            "hmmStart": 304,
+                            "end": "303",
+                            "group": "1",
+                            "desc": "Important for catalytic activity.",
+                            "label": "SITE",
+                            "start": "303",
+                            "condition": "N"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ],
+            "PIRSR015477-1": [
+                {
+                    "domScore": "24.4",
+                    "domEvalue": "1.6e-08",
+                    "hmmFrom": 217,
+                    "hmmTo": 484,
+                    "hmmAlign": "dGtGtvvasidtGvqwdhPalkekyrGydpatpdevdhelnwfdatageeepyddlghGthvtGtmvGsePdGsnqiGvaPGakwiavkafsadG.gtdadlleaaewilaPkdaegnaraelaPdvvnnswGGGpGldewyrdvviawraaeifPefsaGnttlfnpGGpgsiavPanypesfatgatdind....klasfslqGPsP.........ydeikPdisaPGvnirssvPGsgyegGwngtsmaGPavsavva.llkqadaslsvdeleeilist",
+                    "seqFrom": 220,
+                    "seqTo": 474,
+                    "seqAlign": "TGTTSTVAVIDTGVN-DTSAMDDTT-GST--RILDASKDYAGS-GDTGVDAVEDGNGHGTWVAEAIAGDSDDDTKHDGWAPDASVLAVKVLSDDGrGTSADVAAGVR-YA----------ADQDADVANLSLGGL-YSDAIDRAISYAA-GAGTVPVAATGNARLQ----GRYVGHPASSPDAIGVAATTADApadlKVASFSNPGPQPgttdlsagqTEGADPSIGAPGTEIRTATRP-----HLSGTSMAAPQVAGAAVwILEDTDAS-TPDEVADRLTTY",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 227,
+                            "hmmStart": 227,
+                            "end": "227",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "227",
+                            "condition": "D"
+                        },
+                        {
+                            "hmmEnd": 274,
+                            "hmmStart": 274,
+                            "end": "274",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "274",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 452,
+                            "hmmStart": 452,
+                            "end": "452",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "452",
+                            "condition": "S"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria"
+                    ]
+                }
+            ]
+        }
+    },
+    "1": {
+        "domainMatches": {
+            "PIRSR037125-1": [
+                {
+                    "domScore": "9.8",
+                    "domEvalue": "0.002",
+                    "hmmFrom": 98,
+                    "hmmTo": 124,
+                    "hmmAlign": "klksyvlrChaCfkvtkkFCpkCGnnk",
+                    "seqFrom": 336,
+                    "seqTo": 362,
+                    "seqAlign": "RVRKQCGNCTTSLAPHHEFCPTCGQPS",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 120,
+                            "hmmStart": 120,
+                            "end": "279",
+                            "group": "4",
+                            "desc": "Zinc.",
+                            "label": "METAL",
+                            "start": "279",
+                            "condition": "C"
+                        },
+                        {
+                            "hmmEnd": 106,
+                            "hmmStart": 106,
+                            "end": "261",
+                            "group": "1",
+                            "desc": "Zinc.",
+                            "label": "METAL",
+                            "start": "261",
+                            "condition": "C"
+                        },
+                        {
+                            "hmmEnd": 117,
+                            "hmmStart": 117,
+                            "end": "276",
+                            "group": "3",
+                            "desc": "Zinc.",
+                            "label": "METAL",
+                            "start": "276",
+                            "condition": "C"
+                        }
+                    ],
+                    "scope": [
+                        "Eukaryota"
+                    ]
+                }
+            ]
+        }
+    },
+    "54": {
+        "domainMatches": {
+            "PIRSR017269-1": [
+                {
+                    "domScore": "14.2",
+                    "domEvalue": "6.8e-05",
+                    "hmmFrom": 21,
+                    "hmmTo": 111,
+                    "hmmAlign": "lGvkfyvlkpslvdllek.lkrrtqiiyPkDaayIva.rlgispgkrvleaGtGSGaltavLaravgpeGkvityekreefaklArkNlelkd",
+                    "seqFrom": 56,
+                    "seqTo": 148,
+                    "seqAlign": "TGVTTVRFEGLTADFKSTnAKTRRVMMLDKEGPILRDiTDELEPSDVFYDVGANIGVYTCLLGNEMTHEGDVVAFEPHPKNADTLRENIELNS",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 94,
+                            "hmmStart": 94,
+                            "end": "131",
+                            "group": "2",
+                            "desc": "S-adenosyl-L-methionine.",
+                            "label": "BINDING",
+                            "start": "131",
+                            "condition": "[ED]"
+                        }
+                    ],
+                    "scope": [
+                        "Eukaryota",
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ]
+        }
+    },
+    "23": {
+        "domainMatches": {}
+    },
+    "43": {
+        "domainMatches": {}
+    }
+}

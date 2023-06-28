@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/sfld/4/sfld.hmm
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobSFLD/000000000001_000000000050.fasta
+# Option settings: bin/hmmer/hmmer3/3.3/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobSFLD/000000000001_000000000050.raw.out -A /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobSFLD/000000000001_000000000050.raw.align.out --domtblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobSFLD/000000000001_000000000050.raw.domtblout.out --acc --cut_ga -Z 378 --cpu 1 data/sfld/4/sfld.hmm /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobSFLD/000000000001_000000000050.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:33 2023
+# [ok]

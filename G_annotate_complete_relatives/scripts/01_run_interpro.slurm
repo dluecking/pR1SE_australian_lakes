@@ -14,7 +14,7 @@
 #SBATCH --mem=10G   #memory per NODE
 #SBATCH --cpus-per-task=4
 #SBATCH --partition=CLUSTER
-#SBATCH --array=1-38 # 38
+#SBATCH --array=1-81 # 81
 
 FILE=$(cat "list_of_gene_files.txt" | sed -n "${SLURM_ARRAY_TASK_ID}p")
 
@@ -22,9 +22,9 @@ if [ -f "../interpro_out/${FILE}.out" ]; then
 	echo "${FILE} already exists, doing nothing"
 else
 	~/bioinf/dbs/interproscan-5.62-94.0/interproscan.sh \
-	-o ../interpro_out/${FILE}.out \
-	-cpu 24 \
-	-f tsv \
-	-i ../genes/${FILE} \
-	--tempdir ../interpro_tmp/${FILE}
+		-o ../interpro_out/${FILE}.out \
+		-cpu 24 \
+		-f tsv \
+		-i ../genes/${FILE} \
+		--tempdir ../interpro_tmp/${FILE}
 fi

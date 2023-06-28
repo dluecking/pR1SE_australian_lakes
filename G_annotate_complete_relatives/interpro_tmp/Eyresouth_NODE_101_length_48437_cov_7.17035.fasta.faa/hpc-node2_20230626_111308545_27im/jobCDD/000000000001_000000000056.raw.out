@@ -1,0 +1,120 @@
+#Post-RPSBLAST Processing Utility
+
+#Input data file:	/home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Eyresouth_NODE_101_length_48437_cov_7.17035.fasta.faa/hpc-node2_20230626_111308545_27im//jobCDD/000000000001_000000000056.blast.raw.out
+#Output data file:	(stdout)
+#Annotation data at:	data/cdd/3.20/data
+#E-Value cutoff:	0.01
+#Redundancy:	Standard
+#Data requested:	Domain hits and site annotations
+#Output format -- tab-delimited table
+#Show superfamilies: NO
+#DATA
+#SESSION	<session-ordinal>	<program>	<database>	<score-matrix>	<evalue-threshold>
+#QUERY	<query-id>	<seq-type>	<seq-length>	<definition-line>
+#DOMAINS
+#<session-ordinal>	<query-id[readingframe]>	<hit-type>	<PSSM-ID>	<from>	<to>	<E-Value>	<bitscore>	<accession>	<short-name>	<incomplete>	<superfamily PSSM-ID>
+#more such lines......
+#ENDDOMAINS
+#SITES
+#<session-ordinal>	<query-id[readingframe]>	<annot-type>	<title>	<residue(coordinates)>	<complete-size>	<mapped-size>	<source-domain>
+#more such lines......
+#ENDSITES
+#MOTIFS
+#<session-ordinal>	<query-id[readingframe]>	<title>	<from>	<to>	<source-domain>
+#more such lines......
+#ENDMOTIFS
+#ENDQUERY	<query-id>
+#more query sections..
+#ENDSESSION	<session-ordinal>
+#more session sections..
+#ENDDATA
+#=====================================================================
+DATA
+SESSION	1	blastp	2.13.0+	data/cdd/3.20/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_1	Peptide	420	1
+DOMAINS
+1	Query_1	Specific	271175	149	309	2.07748e-13	65.9643	cd00397	DNA_BRE_C	-	444754
+ENDDOMAINS
+SITES
+1	Query_1	Specific	active site	R163,H273,R276,W299,Y309	5	5	271175
+1	Query_1	Specific	DNA binding site	R149,R163,L164,Q256,S258,H273,Y309	7	7	271175
+ENDSITES
+ENDQUERY
+QUERY	Query_3	Peptide	594	3
+DOMAINS
+1	Query_3	Non-specific	269872	309	342	0.00178114	34.9292	cd14810	bZIP_u1	N	451253
+ENDDOMAINS
+SITES
+1	Query_3	Generic	DNA binding site	Q310,R311,R312	14	3	269834
+1	Query_3	Generic	dimer interface	R311,R314,I315,L318,E319,Q321,L322,R325,D326,R328,I329,L332,E333,E335,L336,A339,R340,M342	19	18	269834
+ENDSITES
+MOTIFS
+1	Query_3	coiled coil	A309	342M	269834
+ENDMOTIFS
+ENDQUERY
+QUERY	Query_4	Peptide	553	4
+DOMAINS
+1	Query_4	Non-specific	438629	400	506	0.00196617	36.8469	cd19411	MCP2201-like_sensor	-	444710
+ENDDOMAINS
+SITES
+1	Query_4	Generic	ligand binding site	L401,S480,D481,R483	5	4	438624
+1	Query_4	Generic	homodimer interface	R400,L401,S480,D481,R483,R489,S492	15	7	438624
+ENDSITES
+ENDQUERY
+QUERY	Query_5	Peptide	114	5
+DOMAINS
+1	Query_5	Specific	238042	40	113	4.39789e-06	39.9746	cd00090	HTH_ARSR	-	451250
+ENDDOMAINS
+SITES
+1	Query_5	Specific	dimerization interface	A40,K41,V43,P46,R49,E50,E53,A54,K57,G88,L108,L109,E111,P112,I113	18	15	238042
+1	Query_5	Specific	putative DNA binding site	K41,E42,P46,K47,R48,S62,V63,R64,D73,K74,G75,Q76,S78,R79,A82,L83,A85,E86,F92,D93,T94,K99,S100,P101	24	24	238042
+1	Query_5	Specific	putative Zn2+ binding site	S62,A65,L108	3	3	238042
+ENDSITES
+ENDQUERY
+QUERY	Query_21	Peptide	241	21
+DOMAINS
+1	Query_21	Non-specific	99823	5	101	0.00139219	36.5643	cd05780	DNA_polB_Kod1_like_exo	C	447876
+ENDDOMAINS
+SITES
+ENDSITES
+ENDQUERY
+QUERY	Query_23	Peptide	420	23
+DOMAINS
+1	Query_23	Non-specific	271175	229	360	1.53481e-05	43.2375	cd00397	DNA_BRE_C	-	444754
+ENDDOMAINS
+SITES
+1	Query_23	Generic	active site	R255,K354,R357	5	3	271175
+1	Query_23	Generic	DNA binding site	R241,R255,P256,W333,K335,K354	7	6	271175
+ENDSITES
+ENDQUERY
+ENDSESSION	1
+SESSION	2	blastp	2.13.0+	data/cdd/3.20/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_45	Peptide	174	45
+DOMAINS
+2	Query_45	Non-specific	439196	13	82	0.000173515	37.1598	cd22887	Atg16_CCD	-	45
+ENDDOMAINS
+SITES
+2	Query_45	Generic	dimer interface	T14,L17,E18,R20,L21,L24,R27,I28,L31,E32,Q34,N35,L38,E39,L42,R45,D46,I49,L52,R53,R55,I56,L59,D61,R62,L65,L66,R68,V69,R77	39	30	439196
+ENDSITES
+ENDQUERY
+QUERY	Query_49	Peptide	537	49
+DOMAINS
+2	Query_49	Non-specific	173803	225	472	1.62531e-40	144.597	cd07477	Peptidases_S8_Subtilisin_subset	-	415849
+ENDDOMAINS
+SITES
+2	Query_49	Generic	active site	H272,L335,S442	3	3	173787
+2	Query_49	Generic	catalytic residues	H272,S442	2	2	173787
+ENDSITES
+ENDQUERY
+QUERY	Query_52	Peptide	124	52
+DOMAINS
+2	Query_52	Non-specific	238042	36	98	0.00317998	32.6558	cd00090	HTH_ARSR	-	451250
+ENDDOMAINS
+SITES
+2	Query_52	Generic	dimerization interface	I37,R38,R41,V42,D45,G77,D98	18	7	238042
+2	Query_52	Generic	putative DNA binding site	R36,N51,P52,S53,G62,K63,T64,T65,Y67,N68,D71,A72,L74,A75,Q81,T82,G83,P89,L90,Y91	24	20	238042
+2	Query_52	Generic	putative Zn2+ binding site	N51,E54,D98	3	3	238042
+ENDSITES
+ENDQUERY
+ENDSESSION	2
+ENDDATA

@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+42                   -          MF_00449             -            1.3e-05   14.7  26.2   3.6e-05   13.3  26.2   1.6   1   1   0   1   1   1   1 -
+10                   -          MF_00621             -            0.00021   11.9   0.1   0.00023   11.8   0.1   1.1   1   0   0   1   1   1   1 -
+42                   -          MF_00715             -              0.089    4.9  23.4     0.003    9.6   3.0   3.9   2   1   1   3   3   3   3 -
+42                   -          MF_00843             -             0.0089    8.1  14.7     0.023    6.8   0.6   3.6   3   0   0   3   3   3   3 -
+42                   -          MF_00902             -                4.4   -3.3  27.0      0.32    0.4   5.2   1.5   1   1   1   2   2   2   2 -
+10                   -          MF_00978             -            0.00033   11.3   0.0   0.00035   11.3   0.0   1.1   1   0   0   1   1   1   1 -
+27                   -          MF_01095             -            4.3e-05   14.6   0.1   8.9e-05   13.5   0.1   1.5   1   0   0   1   1   1   1 -
+42                   -          MF_01159             -                2.8   -0.1  15.0     0.038    5.9   0.8   3.7   3   1   1   4   4   4   4 -
+38                   -          MF_01364_A           -             0.0028    9.1   4.2      0.05    5.2   4.4   2.5   2   1   0   2   2   2   2 -
+23                   -          MF_01386             -             0.0011   10.7   3.8    0.0025    9.5   3.8   1.6   1   0   0   1   1   1   1 -
+31                   -          MF_01493             -              2e-05   15.0   2.4   2.7e-05   14.5   2.4   1.2   1   0   0   1   1   1   1 -
+42                   -          MF_01584             -              0.027    5.6  23.5     0.014    6.6   0.0   4.1   2   1   2   4   4   4   4 -
+8                    -          MF_01807             -            5.9e-08   23.6   0.0   2.5e-07   21.6   0.0   2.1   1   1   0   1   1   1   1 -
+8                    -          MF_01808             -            4.4e-12   37.4   0.0   8.6e-12   36.5   0.0   1.4   1   0   0   1   1   1   1 -
+42                   -          MF_01894             -            0.00029   10.1  45.4   1.3e-05   14.6  37.7   1.8   1   1   1   2   2   2   2 -
+8                    -          MF_02055             -            2.5e-11   34.9   0.0   4.9e-11   33.9   0.0   1.4   2   0   0   2   2   2   2 -
+42                   -          MF_02066             -             0.0027    8.9  25.1     0.013    6.7   9.8   2.6   1   1   1   2   2   2   2 -
+42                   -          MF_02216             -                1.3    1.1  17.6      0.12    4.3   2.4   4.0   3   1   0   3   3   3   3 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/hamap/2023_01/hamap.hmm.lib
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa/hpc-node2_20230626_111308529_jk6g//jobHAMAP/000000000001_000000000044.fasta
+# Option settings: bin/hmmer/hmmer3/3.3/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa/hpc-node2_20230626_111308529_jk6g//jobHAMAP/000000000001_000000000044.raw.out --tblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa/hpc-node2_20230626_111308529_jk6g//jobHAMAP/000000000001_000000000044.raw.tblout.out -E 100 --domE 100 --incE 100 --incdomE 100 --cpu 1 data/hamap/2023_01/hamap.hmm.lib /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Eyre_NODE_236_length_33155_cov_19.932.fasta.faa/hpc-node2_20230626_111308529_jk6g//jobHAMAP/000000000001_000000000044.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:56 2023
+# [ok]

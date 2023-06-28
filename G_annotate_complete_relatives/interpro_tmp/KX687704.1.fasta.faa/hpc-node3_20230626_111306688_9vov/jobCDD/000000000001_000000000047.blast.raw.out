@@ -1,0 +1,330 @@
+Blast4-archive ::= {
+  request {
+    ident "2.13.0+",
+    body queue-search {
+      program "blastp",
+      service "rpsblast",
+      queries bioseq-set {
+        seq-set {
+          seq {
+            id {
+              local str "Query_1"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">1"
+                  }
+                }
+              },
+              title "1"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 248,
+              seq-data ncbieaa "MTGRLCSRTNSHGTHQRDAGGLDAAAQPPYMSETQRTREASTRRSP
+GARESPYPRENYFASVDDEYDPEREPLDDTRNDHHLRTLDRGTSKDEWIVATLQKGQATMLCPYALNESPDAEWALHD
+ENGEVVLSDPSEYPPPASGFVTPETDTAARKPSTSQWRFNPDHGYLVFGGIPRDQCREEFLAFVEELLDAIEAEPLEG
+ERDAALELAADLKSRGDRPDSDICELIVRKLLGSESLREFVATGNY"
+            }
+          },
+          seq {
+            id {
+              local str "Query_2"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">9"
+                  }
+                }
+              },
+              title "9"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 70,
+              seq-data ncbieaa "MAVGFPDLDSTIIVRLQSKREYITVLCYTTRRTVRQTHPTSSAVSS
+EPCKQLSTIHLTHPTSSAVRLANN"
+            }
+          },
+          seq {
+            id {
+              local str "Query_3"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">17"
+                  }
+                }
+              },
+              title "17"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 541,
+              seq-data ncbieaa "MSSPRDTLDDVRFSELVSEGSDIPAVADRLKSIAAAEREMGRETTV
+DELLAQSRRNDAAYLMPSDIEKAEWVADLYEREDRPDEHARDFHYRLVSGEYKRRNGEPYVNSDTCWKELNEALKWAR
+ILRHIEPGEMENTRNHTVTPTAFDDVDRPLPESGPSLDDASASVDVDDGFRRPKIPQEVTLARELFDGADEFIATAAK
+MIADQTFRRVYFSESAEQRYYIEIWCEKSGVVPEDLAGEYGATIRESGQGEFSLGMVEEAVTIASKRDQDLAVVVVSD
+YDAAGADIPISGARKIEVLAALKGIEAEVVQGAVTKEQVEEYGIPGNPSASKVPKGLEEGVRGAKGYETQKELFREYA
+GQFPVELQGFTSVAPDAFENELEESLATFYDADLGDRIKSEVREARERAQQRLVDAFEEHRAEIQDALDELHQGLDRY
+DDEMGPHVDAAIDGLEQLAAEEKRVRDECGIRERRDRVEGVVDRVDHRAVVAEVDVPVPTPDTPGVDDPILDTRRSFL
+EQLNAYKRHNMRSGSDDASDGIDDSEE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_4"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">31"
+                  }
+                }
+              },
+              title "31"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 60,
+              seq-data ncbieaa "MNDDPATGRQPVSHRHNPLTSCRSMRHGIERPLPGHAYIGNRFLKV
+FAFDAENSTPEANQ"
+            }
+          },
+          seq {
+            id {
+              local str "Query_5"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">35"
+                  }
+                }
+              },
+              title "35"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 1143,
+              seq-data ncbieaa "VGCGSHGDHRGCGQLWIVSDLRASSTVACPHCETEHNASQLKKVAE
+SDDWQAVCELRSRIMAERSDGYDGNYKQDVEHYAVLADRVDQQLTNFHGAGTATPDCLGNVVRVGDLLDAHTARPAVY
+TPKANAVVTKADVVNAIVEDPQYDTTSEHEQFLEVLADDHLERNHSTVELPEAPDPDDRYPEQGSVRVTSGLQSDLTN
+TVPDVSPSRAEALPKLLSPLTDACVEAVEAIADDERRPIASLLSTPEPDAKTGVHHLADEYGIDAGNGSFGAAVVDAA
+RHDHVPEDIREELPQYGTGQSLEDTNLDALRRGHCALLRAGGVTPTLHVELDADAWTTLEDRRKGERFFEAVDLLATA
+VDVTIVAGDDVREVLAERFGEWADRHDLTDDLTDSRDTSRQPARDESEENRLDAYRTLDALNSGGRYRIVGNLFADQS
+RSIRSLQDDAEIDLAADSINRYTGDLEAAGLVAIDRDTTGSNQITLTETGKLAKDCLTPDYSLVSPEQGTLDSESYHP
+MINSQKYSVSDGSEPEAAPPADSPAEWLAATGDADGDGAYVRWMDGRASSVDAYALHKRCTAASRGDGITLTDAPVRP
+FEDGRVTQVSLMEDSLHAVTQWGGAAATLGRIAATLSTGRIWGTALDREAVTDLCTDLGSAPKNVLEFLQRGMQIGWL
+DADSVIDQDGLDYLAIRDHLYQVGRSVLARLSNLDDMADGERREYFRDAHGLLASMTALLDRVGVDTTIQLRFPDGEA
+ARTNENVRDDVVSFLANTAPKQSRYGAHSGWRQVVESRPDKLKYRLPMDIDPTARTADLTASWVVIGDGMDGLRDDVV
+AALDDVEPRDAIQDGDEEGIAIDVPVHVGGTYAHAKAVVEDLISKKGWNTIRQDTDRVTRALMGVLSHAPGRVSPTIV
+ADALLGMGTNGYGLDLRMGDVRAGLARVASEELFPTLAPSVGKLVRALVTADGRLEAGALVDAAGIHRRTYATHMDTL
+ETLDLVNRTDDGWGLTLEPWWAPEADRERADPAARTLETGDTILPDQPRSETEVLSELANALAWRGDTDTSAADLRLD
+LGRQPTVDELIEAIPALDKWAAPIAAHWPSETGDDTLPPHDPAAVPEFSNTTEETGTTLPPYDPGCSTATIGVESDHE
+QQPLA"
+            }
+          },
+          seq {
+            id {
+              local str "Query_6"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">38"
+                  }
+                }
+              },
+              title "38"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 42,
+              seq-data ncbieaa "MLTYLLSIATCHRNLEVDLPSRLQTDTPLPQGGESIKCVWVS"
+            }
+          }
+        }
+      },
+      subject database "data/cdd/3.20/db/Cdd_NCBI",
+      algorithm-options {
+        {
+          name "EvalueThreshold",
+          value cutoff e-value { 1, 10, -2 }
+        },
+        {
+          name "MaskAtHash",
+          value boolean FALSE
+        },
+        {
+          name "SegFiltering",
+          value boolean FALSE
+        },
+        {
+          name "HitlistSize",
+          value integer 500
+        },
+        {
+          name "CompositionBasedStats",
+          value integer 1
+        },
+        {
+          name "SmithWatermanMode",
+          value boolean FALSE
+        },
+        {
+          name "DbLength",
+          value big-integer 3442496
+        },
+        {
+          name "MatrixName",
+          value string "BLOSUM62"
+        },
+        {
+          name "GapOpeningCost",
+          value integer 11
+        },
+        {
+          name "GapExtensionCost",
+          value integer 1
+        },
+        {
+          name "EffectiveSearchSpace",
+          value big-integer 294620328
+        }
+      }
+    }
+  },
+  results {
+    alignments {
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 86
+          },
+          {
+            id str "blast_score",
+            value int 86
+          },
+          {
+            id str "e_value",
+            value real { 240974686909261, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 371143694993551, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 21
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 29
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 11960258780037, 10, -12 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 5,
+          ids {
+            local str "Query_3",
+            general {
+              db "CDD",
+              tag id 410288
+            }
+          },
+          starts {
+            398,
+            16,
+            -1,
+            38,
+            420,
+            41,
+            425,
+            -1,
+            431,
+            46
+          },
+          lens {
+            22,
+            3,
+            5,
+            6,
+            29
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      }
+    },
+    masks {
+    },
+    ka-blocks {
+      {
+        lambda { 313079464382538, 10, -15 },
+        k { 131894284358903, 10, -15 },
+        h { 396175724773167, 10, -15 },
+        gapped FALSE
+      },
+      {
+        lambda { 267, 10, -3 },
+        k { 41, 10, -3 },
+        h { 14, 10, -2 },
+        gapped TRUE
+      }
+    },
+    search-stats {
+      "Effective search space: 294620328",
+      "Effective search space used: 294620328",
+      "Length adjustment: 86"
+    }
+  }
+}

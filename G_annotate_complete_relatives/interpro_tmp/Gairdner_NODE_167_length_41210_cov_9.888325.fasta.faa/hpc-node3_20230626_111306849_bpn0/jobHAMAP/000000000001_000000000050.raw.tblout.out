@@ -1,0 +1,47 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+28                   -          MF_00016             -            5.1e-12   36.9   0.2     6e-08   23.5   0.4   2.2   2   0   0   2   2   2   2 -
+44                   -          MF_00030             -            2.7e-23   74.0   0.1   9.8e-14   42.5   0.0   2.8   2   1   1   3   3   3   3 -
+24                   -          MF_00031             -            0.00032   11.8   0.0   0.00066   10.8   0.0   1.5   1   1   0   1   1   1   1 -
+28                   -          MF_00109             -              6e-06   17.8   0.0   5.1e-05   14.8   0.0   2.3   2   0   0   2   2   2   2 -
+24                   -          MF_00203             -            0.00019   11.5   0.0   0.00024   11.2   0.0   1.1   1   0   0   1   1   1   1 -
+27                   -          MF_00213             -              0.094    4.3   9.7    0.0065    8.0   3.9   1.8   1   1   1   2   2   2   2 -
+31                   -          MF_00303             -            0.00024   11.4   0.1   0.00046   10.5   0.1   1.4   1   0   0   1   1   1   1 -
+31                   -          MF_00342             -            0.00059   11.6   0.8     0.039    5.7   0.0   3.1   3   0   0   3   3   3   3 -
+28                   -          MF_00377             -            1.7e-08   25.6   0.1   1.1e-07   23.0   0.1   1.9   2   0   0   2   2   2   2 -
+20                   -          MF_00383             -            9.1e-45  144.5   6.6   4.3e-42  135.7   0.4   2.0   1   1   1   2   2   2   2 -
+38                   -          MF_00621             -            4.2e-05   14.3   0.0   4.7e-05   14.2   0.0   1.0   1   0   0   1   1   1   1 -
+8                    -          MF_00714             -            0.00043   11.3   0.0   0.00045   11.3   0.0   1.1   1   0   0   1   1   1   1 -
+31                   -          MF_00846             -            2.2e-05   14.4   0.0     3e-05   14.0   0.0   1.1   1   0   0   1   1   1   1 -
+24                   -          MF_00971             -            1.6e-06   18.6   0.0   2.4e-06   18.0   0.0   1.2   1   0   0   1   1   1   1 -
+32                   -          MF_00983             -            9.9e-05   12.3   0.2   0.00012   12.0   0.2   1.1   1   0   0   1   1   1   1 -
+4                    -          MF_01008             -             0.0001   13.7   0.0     0.022    6.2   0.0   2.1   2   0   0   2   2   2   2 -
+15                   -          MF_01029             -            1.4e-09   29.3   0.1   3.2e-09   28.2   0.1   1.7   1   1   0   1   1   1   1 -
+44                   -          MF_01212             -            4.8e-83  271.3   0.1   6.2e-83  270.9   0.1   1.0   1   0   0   1   1   1   1 -
+44                   -          MF_01213             -              5e-46  149.0   0.5   4.6e-40  129.3   0.2   3.0   2   1   0   2   2   2   2 -
+31                   -          MF_01227             -            5.1e-05   13.6   0.1   7.1e-05   13.1   0.1   1.1   1   0   0   1   1   1   1 -
+28                   -          MF_01407             -            5.3e-52  168.5   4.1   7.1e-52  168.1   4.1   1.1   1   0   0   1   1   1   1 -
+31                   -          MF_01407             -              2e-05   15.1   0.0   2.6e-05   14.7   0.0   1.1   1   0   0   1   1   1   1 -
+24                   -          MF_01438             -            2.1e-06   18.6   0.0   2.6e-06   18.3   0.0   1.0   1   0   0   1   1   1   1 -
+38                   -          MF_01489             -            2.4e-07   21.1   0.0   2.7e-07   20.9   0.0   1.0   1   0   0   1   1   1   1 -
+28                   -          MF_01508             -            1.6e-13   41.8   0.2   3.1e-13   40.9   0.2   1.5   1   1   0   1   1   1   1 -
+28                   -          MF_01509             -            6.1e-11   33.5   0.4   9.6e-10   29.6   0.4   2.4   1   1   0   1   1   1   1 -
+24                   -          MF_01588             -            1.7e-06   18.1   0.0   2.4e-06   17.7   0.0   1.2   1   1   0   1   1   1   1 -
+42                   -          MF_01858             -            8.1e-05   12.7   0.0   0.00015   11.8   0.0   1.3   1   0   0   1   1   1   1 -
+32                   -          MF_01892             -            2.9e-05   14.4   0.0   3.5e-05   14.1   0.0   1.1   1   0   0   1   1   1   1 -
+1                    -          MF_02066             -             0.0009   10.7   4.0    0.0016    9.8   3.6   1.7   1   1   0   1   1   1   1 -
+15                   -          MF_03100             -            4.1e-07   21.4   0.0   7.5e-07   20.6   0.0   1.3   1   0   0   1   1   1   1 -
+2                    -          MF_03182             -            3.4e-06   16.8   1.3   0.00011   11.7   0.8   2.1   2   0   0   2   2   2   2 -
+1                    -          MF_04108             -            0.00057   11.5   1.1    0.0016   10.0   1.1   1.7   1   0   0   1   1   1   1 -
+28                   -          MF_04162             -            9.2e-07   20.0   0.0   3.2e-06   18.2   0.0   1.9   1   1   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/hamap/2023_01/hamap.hmm.lib
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobHAMAP/000000000001_000000000050.fasta
+# Option settings: bin/hmmer/hmmer3/3.3/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobHAMAP/000000000001_000000000050.raw.out --tblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobHAMAP/000000000001_000000000050.raw.tblout.out -E 100 --domE 100 --incE 100 --incdomE 100 --cpu 1 data/hamap/2023_01/hamap.hmm.lib /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_167_length_41210_cov_9.888325.fasta.faa/hpc-node3_20230626_111306849_bpn0//jobHAMAP/000000000001_000000000050.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:45 2023
+# [ok]

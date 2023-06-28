@@ -1,0 +1,319 @@
+{
+    "70": {
+        "domainMatches": {
+            "PIRSR005091-3": [
+                {
+                    "domScore": "32.8",
+                    "domEvalue": "1.6e-10",
+                    "hmmFrom": 444,
+                    "hmmTo": 549,
+                    "hmmAlign": "selkstllgdYletvhYaDeaigeFldklkkeglldntvivlyGDHtgiskehneeleklegeetkledaelqkvPlliynPgkkkegkiietygGqiDimPTiln",
+                    "seqFrom": 235,
+                    "seqTo": 334,
+                    "seqAlign": "ADERKLLVDLYDSDLRYCSQHLDRLVDGLEELGIWDTTNLVFTSDHG---EEFGEHGYYFHR---NLPYDELLHVPLLVRSPATADQPETIAEQRELIDIAPTILD",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 489,
+                            "hmmStart": 489,
+                            "end": "476",
+                            "group": "4",
+                            "desc": "Manganese.",
+                            "label": "METAL",
+                            "start": "476",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 488,
+                            "hmmStart": 488,
+                            "end": "475",
+                            "group": "3",
+                            "desc": "Manganese.",
+                            "label": "METAL",
+                            "start": "475",
+                            "condition": "D"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria"
+                    ]
+                }
+            ],
+            "PIRSR629890-3": [
+                {
+                    "domScore": "8.4",
+                    "domEvalue": "0.0023",
+                    "hmmFrom": 384,
+                    "hmmTo": 445,
+                    "hmmAlign": "gllmdglkelnldkclnlilisdhgmeqgsckkyvylnkylgdvkni.kvvygpaarlrpsdv",
+                    "seqFrom": 257,
+                    "seqTo": 319,
+                    "seqAlign": "DRLVDGLEELGIWDTTNLVFTSDHGEEFGEHGYYFHRNLPYDELLHVpLLVRSPATADQPETI",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 407,
+                            "hmmStart": 407,
+                            "end": "406",
+                            "group": "6",
+                            "desc": "Zinc 1; via tele nitrogen; catalytic.",
+                            "label": "METAL",
+                            "start": "406",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 406,
+                            "hmmStart": 406,
+                            "end": "405",
+                            "group": "5",
+                            "desc": "Zinc 1; catalytic.",
+                            "label": "METAL",
+                            "start": "405",
+                            "condition": "D"
+                        }
+                    ],
+                    "scope": [
+                        "Eukaryota"
+                    ]
+                },
+                {
+                    "domScore": "0.1",
+                    "domEvalue": "0.73",
+                    "hmmFrom": 195,
+                    "hmmTo": 230,
+                    "hmmAlign": "tllfsldgfraeylhtwg...gllpvisklkkcgtytkn",
+                    "seqFrom": 3,
+                    "seqTo": 41,
+                    "seqAlign": "TILITVDALRADHLGQYGydrDTMPVLDRLSDGGTRFEN",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 201,
+                            "hmmStart": 201,
+                            "end": "200",
+                            "group": "1",
+                            "desc": "Zinc 1; catalytic.",
+                            "label": "METAL",
+                            "start": "200",
+                            "condition": "D"
+                        }
+                    ],
+                    "scope": [
+                        "Eukaryota"
+                    ]
+                }
+            ],
+            "PIRSR001492-3": [
+                {
+                    "domScore": "15.3",
+                    "domEvalue": "3.2e-05",
+                    "hmmFrom": 436,
+                    "hmmTo": 512,
+                    "hmmAlign": "gallitaDHGNaekmvdeeegepltaHttnpVplilvekel...eakkl.eegkLadvAptlLellglekpeemtgkslle",
+                    "seqFrom": 272,
+                    "seqTo": 351,
+                    "seqAlign": "TNLVFTSDHGEEFGEHGYYFHRNLPYDELLHVPLLVRSPATadqPET-IaEQRELIDIAPTILDFHDATVPDVFEGQNLFT",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 444,
+                            "hmmStart": 444,
+                            "end": "445",
+                            "group": "6",
+                            "desc": "Manganese 2.",
+                            "label": "METAL",
+                            "start": "445",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 443,
+                            "hmmStart": 443,
+                            "end": "444",
+                            "group": "5",
+                            "desc": "Manganese 2.",
+                            "label": "METAL",
+                            "start": "444",
+                            "condition": "D"
+                        }
+                    ],
+                    "scope": [
+                        "Eukaryota",
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ],
+            "PIRSR005091-2": [
+                {
+                    "domScore": "-2.6",
+                    "domEvalue": "8.2",
+                    "hmmFrom": 410,
+                    "hmmTo": 445,
+                    "hmmAlign": "eklkelkqPFyafllTltsHyPFelpkekqel.lkse",
+                    "seqFrom": 179,
+                    "seqTo": 215,
+                    "seqAlign": "EWLSEQDGDFFLWLHYMEGHRPYGVHDTDPEYtDPVD",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 429,
+                            "hmmStart": 429,
+                            "end": "416",
+                            "group": "1",
+                            "desc": "Substrate.",
+                            "label": "BINDING",
+                            "start": "416",
+                            "condition": "H"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria"
+                    ]
+                }
+            ]
+        }
+    },
+    "26": {
+        "domainMatches": {}
+    },
+    "63": {
+        "domainMatches": {
+            "PIRSR015477-1": [
+                {
+                    "domScore": "20.7",
+                    "domEvalue": "3.7e-07",
+                    "hmmFrom": 204,
+                    "hmmTo": 488,
+                    "hmmAlign": "erveaPeawdlGydGtGtvvasidtGvqwdhP..alkekyrGydpatpdevdhelnwfdatageeepyddlghGthvtGtmvGsePdGsnqiGvaPGakwiavkafsadGgtdadlleaaewilaPkdaegnaraelaPdvvnnswGGGpGldewyrdvviawraaeifPefsaGnttlfnpGGpgsiavPanypesfatgatdi.......ndklasfslqGPsP..yd.......eikPdisaPGvnirssvPGsgyegGwngtsmaGPavsavvallkqadaslsvdeleeilistaepl",
+                    "seqFrom": 192,
+                    "seqTo": 463,
+                    "seqAlign": "DLVRASDTFLSGIDTSGTIAESIDTGANDESVfeDSSGTLRFLDPSTGYAKDGDP--TVGADGPSAVADGDGHGSWVTGCIAGSNGFG-------QSADILVAKSLGDGGSGEVKDIAAGI-ELAV---------AESADVVCLSLGSPQWSQSLADALEEAWN-AGVFPVVAVGNDRYA----TTFVASPASDDNAFGVNATNVpesgdrdDAKIAYFGNVGPHPgnFDlsdgesrDATPKLAAPGMNVRVEPFGV-----KSGTSMAAPMVAGGALVLA--AEGYDNEEIWDRLTACAYPI",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 227,
+                            "hmmStart": 227,
+                            "end": "227",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "227",
+                            "condition": "D"
+                        },
+                        {
+                            "hmmEnd": 274,
+                            "hmmStart": 274,
+                            "end": "274",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "274",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 452,
+                            "hmmStart": 452,
+                            "end": "452",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "452",
+                            "condition": "S"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria"
+                    ]
+                }
+            ],
+            "PIRSR037907-3": [
+                {
+                    "domScore": "53.0",
+                    "domEvalue": "8.9e-17",
+                    "hmmFrom": 197,
+                    "hmmTo": 435,
+                    "hmmAlign": "tpyddnGhGthvasiaaGtGaasngkykGvapgaklvGikvldadGsGsisdiiaGvdwavqnkdkyGikvinlslGssqssdGtdslsqavnnawdaGlvvvvaaGnsGpdkytvGspaaaskvitvgavdkv.......dvitdfssrGptadgrlkpevvapGnwiiaarasgtsltvtindyyvaasGtsmatphvaGiaalllqahpsltpdkvkkalietadivkpdeiadiayGaGrvn",
+                    "seqFrom": 255,
+                    "seqTo": 479,
+                    "seqAlign": "AVADGDGHGSWVTGCIAG----SNG----FGQSADILVAKSLGDGGSGEVKDIAAGIELAVAES----ADVVCLSLGSPQWS---QSLADALEEAWNAGVFPVVAVGNDRYATTFVASPASDDNAFGVNATNVPesgdrddAKIAYFGNVGPHPGNF---DLSDGESRDATPKLAAPGMNVRVEP-FGVKSGTSMAAPMVAG-GALVLAAE-GYDNEEIWDRLTACAYPIPNAGVTETEYGLLDVE",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 304,
+                            "hmmStart": 304,
+                            "end": "303",
+                            "group": "1",
+                            "desc": "Important for catalytic activity.",
+                            "label": "SITE",
+                            "start": "303",
+                            "condition": "N"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ]
+        }
+    },
+    "6": {
+        "domainMatches": {}
+    },
+    "72": {
+        "domainMatches": {
+            "PIRSR037404-1": [
+                {
+                    "domScore": "25.1",
+                    "domEvalue": "1.5e-08",
+                    "hmmFrom": 1166,
+                    "hmmTo": 1337,
+                    "hmmAlign": "AiemeePAaqAfrlnnPestvFvddCnvlLrlvlageltesqkqkLPlkGdvellcGGPPCqGFsgmnRFnsrsyskfknslivsfLsyaDYyRPryFLLenvrnF......v...sfkksmvlkLtlrsLvrmGYqvtF.......G.vLeAGqYGvaqtRrRaiilAAaPgekLPlfPePlHvFapr",
+                    "seqFrom": 64,
+                    "seqTo": 236,
+                    "seqAlign": "AVNHWEPAIETHEQNHPWAE------------HYHAKIEELHPPDVVEPGEVDIFVGGPSCTHHSKARGGKP--INEQKRASGWHVLHWIEHLQPETILLENVPEFrdwapvVdgqSTRDGSIFERWIGMLEALGYSVLYddededyGaVLNAADYGEAQSRKRLFIMAS--RDHRPTAPEPTHVDDAP",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 1226,
+                            "hmmStart": 1226,
+                            "end": "1226",
+                            "group": "1",
+                            "desc": null,
+                            "label": "ACT_SITE",
+                            "start": "1226",
+                            "condition": "C"
+                        }
+                    ],
+                    "scope": [
+                        "Eukaryota"
+                    ]
+                }
+            ]
+        }
+    },
+    "56": {
+        "domainMatches": {
+            "PIRSR018250-3": [
+                {
+                    "domScore": "10.8",
+                    "domEvalue": "0.00075",
+                    "hmmFrom": 117,
+                    "hmmTo": 225,
+                    "hmmAlign": "vlydlefleddeGrrvaafGfyaGfaGaalgvkdwafkqthsdsedlpavkpyanekalvke..vkkalkealkkgekk.PkvlviGalGrcGsGa.vdllkkvGipeeniik",
+                    "seqFrom": 401,
+                    "seqTo": 513,
+                    "seqAlign": "TVDDLETAREATERLADAFGLETGDDGDKWRRKYEAAQDRIAELEDQTAVDMPDDYEAFVDDdyVQEAIEEAKDEGSPKyTCAVVAGILRRGGPTTrQEIARDIDIQSDSNIE",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 130,
+                            "hmmStart": 130,
+                            "end": "130",
+                            "group": "1",
+                            "desc": "NAD.",
+                            "label": "BINDING",
+                            "start": "130",
+                            "condition": "R"
+                        }
+                    ],
+                    "scope": [
+                        "Eukaryota",
+                        "Bacteria"
+                    ]
+                }
+            ]
+        }
+    }
+}

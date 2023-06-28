@@ -1,0 +1,132 @@
+{
+    "19": {
+        "domainMatches": {}
+    },
+    "17": {
+        "domainMatches": {
+            "PIRSR015477-1": [
+                {
+                    "domScore": "24.8",
+                    "domEvalue": "5e-09",
+                    "hmmFrom": 217,
+                    "hmmTo": 481,
+                    "hmmAlign": "dGtGtvvasidtGvqwdhPalkekyrGydpatpdevdhelnwfdatageeepyddlghGthvtGtmvGsePdGsnqiGvaPGakwiavkafsadG.gtdadlleaaewilaPkdaegnaraelaPdvvnnswGGGpGldewyrdvviawraaeifPefsaGnttlfnpGGpgsiavPanypesfatgatdind....klasfslqGPsP.........ydeikPdisaPGvnirssvPGsgyegGwngtsmaGPavsavva.llkqadaslsvdeleeil",
+                    "seqFrom": 220,
+                    "seqTo": 471,
+                    "seqAlign": "TGTTSTVAVIDTGVN-DTSAMDDTT-GST--RILDASKDYAGS-GDTGVDAVEDGNGHGTWVAEAIAGDSDDDTKHDGWAPDASVLAVKVLSDDGrGTSADVAAGVRY-----------AADQDVDVANLSLGGL-YSDAIDRAISYA-AGAGVVPIAATGNARLQ----GRYVGHPASSPDAIGVAATTADApadlKVASFSNPGPQPgttdlsagqTEGADPSIGAPGTEIRTATQ-----PHLSGTSMAAPQVAGAAIwILEDTDAS-TPDEVANRL",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 227,
+                            "hmmStart": 227,
+                            "end": "227",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "227",
+                            "condition": "D"
+                        },
+                        {
+                            "hmmEnd": 274,
+                            "hmmStart": 274,
+                            "end": "274",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "274",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 452,
+                            "hmmStart": 452,
+                            "end": "452",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "452",
+                            "condition": "S"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria"
+                    ]
+                }
+            ],
+            "PIRSR037907-3": [
+                {
+                    "domScore": "80.6",
+                    "domEvalue": "8.7e-26",
+                    "hmmFrom": 140,
+                    "hmmTo": 436,
+                    "hmmAlign": "tegldesaaqvmatnlwnlGydGsgitiaiidtGi.dashp.dlqG..kvi.gwkdfvngkttpy....ddnGhGthvasiaaGtGaasngkykGvapgaklvGikvldadGsGsisdiiaGvdwavqnkdkyGikvinlslGssqssdGtdslsqavnnawdaGlvvvvaaGnsGpdkytvGspaaaskvitvgavdkv....dvitdfssrGptadgrlkpevvapGnwiiaarasgtsltvtindyyvaasGtsmatphvaGiaalllqahpsltpdkvkkalietadivkpdeiadiayGaGrvna",
+                    "seqFrom": 199,
+                    "seqTo": 493,
+                    "seqAlign": "TESTLQDAREAANTDSVTLQPTGTTSTVAVIDTGVnDTSAMdDTTGstRILdASKDYAGSGDTGVdaveDGNGHGTWVAEAIAGDSDD-DTKHDGWAPDASVLAVKVLSDDGRGTSADVAAGVRYAADQ----DVDVANLSLGGLYS----DAIDRAISYAAGAGVVPIAATGNARLQGRYVGHPASSPDAIGVAATTADapadLKVASFSNPGPQPGTTDLSAGQTEGADP-SIGAPGTEIRTATQP---HLSGTSMAAPQVAGAAIWILEDTDASTPDEVANRLTTYPAVAENAGTSDV--GAGVLDI",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 304,
+                            "hmmStart": 304,
+                            "end": "303",
+                            "group": "1",
+                            "desc": "Important for catalytic activity.",
+                            "label": "SITE",
+                            "start": "303",
+                            "condition": "N"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ],
+            "PIRSR037907-1": [
+                {
+                    "domScore": "80.6",
+                    "domEvalue": "8.7e-26",
+                    "hmmFrom": 140,
+                    "hmmTo": 436,
+                    "hmmAlign": "tegldesaaqvmatnlwnlGydGsgitiaiidtGi.dashp.dlqG..kvi.gwkdfvngkttpy....ddnGhGthvasiaaGtGaasngkykGvapgaklvGikvldadGsGsisdiiaGvdwavqnkdkyGikvinlslGssqssdGtdslsqavnnawdaGlvvvvaaGnsGpdkytvGspaaaskvitvgavdkv....dvitdfssrGptadgrlkpevvapGnwiiaarasgtsltvtindyyvaasGtsmatphvaGiaalllqahpsltpdkvkkalietadivkpdeiadiayGaGrvna",
+                    "seqFrom": 199,
+                    "seqTo": 493,
+                    "seqAlign": "TESTLQDAREAANTDSVTLQPTGTTSTVAVIDTGVnDTSAMdDTTGstRILdASKDYAGSGDTGVdaveDGNGHGTWVAEAIAGDSDD-DTKHDGWAPDASVLAVKVLSDDGRGTSADVAAGVRYAADQ----DVDVANLSLGGLYS----DAIDRAISYAAGAGVVPIAATGNARLQGRYVGHPASSPDAIGVAATTADapadLKVASFSNPGPQPGTTDLSAGQTEGADP-SIGAPGTEIRTATQP---HLSGTSMAAPQVAGAAIWILEDTDASTPDEVANRLTTYPAVAENAGTSDV--GAGVLDI",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 171,
+                            "hmmStart": 171,
+                            "end": "170",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "170",
+                            "condition": "D"
+                        },
+                        {
+                            "hmmEnd": 204,
+                            "hmmStart": 204,
+                            "end": "203",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "203",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 383,
+                            "hmmStart": 383,
+                            "end": "382",
+                            "group": "1",
+                            "desc": "Nucleophile.",
+                            "label": "ACT_SITE",
+                            "start": "382",
+                            "condition": "S"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ]
+        }
+    }
+}

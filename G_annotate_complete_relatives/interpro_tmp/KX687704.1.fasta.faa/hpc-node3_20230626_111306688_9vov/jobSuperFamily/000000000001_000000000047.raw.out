@@ -1,0 +1,1310 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobSuperFamily/000000000001_000000000047.fasta
+# target HMM database:             data/superfamily/1.75/hmmlib_1.75
+# output directed to file:         /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/KX687704.1.fasta.faa/hpc-node3_20230626_111306688_9vov//jobSuperFamily/000000000001_000000000047.raw.out
+# profile reporting threshold:     E-value <= 10
+# sequence search space set to:    15438
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       1  [L=248]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (248 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       385  (0.0249385); expected 308.8 (0.02)
+Passed bias filter:                      385  (0.0249385); expected 308.8 (0.02)
+Passed Vit filter:                        85  (0.00550589); expected 15.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.25u 0.16s 00:00:00.41 Elapsed: 00:00:25.55
+# Mc/sec: 26.16
+//
+Query:       9  [L=70]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (70 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       211  (0.0136676); expected 308.8 (0.02)
+Passed bias filter:                      211  (0.0136676); expected 308.8 (0.02)
+Passed Vit filter:                        26  (0.00168416); expected 15.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.19u 0.14s 00:00:00.33 Elapsed: 00:00:07.00
+# Mc/sec: 26.92
+//
+Query:       17  [L=541]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+     0.0056   16.4   0.4      0.011   15.5   0.4    1.5  1  0053393   Apolipoprotein A-I
+  ------ inclusion threshold ------
+      0.018   14.9   0.5       0.09   12.7   0.5    2.1  2  0052977   Ferritin-like
+      0.029   14.5   0.6      0.063   13.4   0.6    1.6  1  0046046   Apolipoprotein
+       0.17   11.6   0.0        1.8    8.3   0.0    2.2  2  0036747   DNA repair protein MutS, domain III
+       0.23   11.5   0.2        0.6   10.2   0.2    1.8  1  0052941   Ferritin-like
+       0.36    9.9   0.3       0.94    8.5   0.0    1.7  2  0050394   Thiamin diphosphate-binding fold (THDP-binding)
+
+
+Domain annotation for each model (and alignments):
+>> 0053393  Apolipoprotein A-I
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.4   4.1e-06     0.011      85     148 ..     397     457 ..     374     520 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 4.1e-06
+  0053393  85 rkrlkkdleelqekLapvaeelreklegnveelrerlaPyveelrekldqrleelrellapyle 148
+              + +++++ e+ q++L   +ee r+ +++ ++el + l  y +e+  ++d  ++ l +l    +e
+       17 397 KSEVREARERAQQRLVDAFEEHRAEIQDALDELHQGLDRYDDEMGPHVDAAIDGLEQL---AAE 457
+              2333333344444444444444444444444444444444444444444444444443...222 PP
+
+>> 0052977  Ferritin-like
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.7   0.0      0.46   1.2e+03      55     103 ..     346     394 ..     330     408 .. 0.77
+   2 ?   12.7   0.5   3.5e-05      0.09      37      91 ..     403     457 ..     381     471 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 0.46
+  0052977  55 etegqierLeqvlellgaspsglkckameglvaeaqelvgefaddevld 103
+              + e q e++++   ++ ++ +g++++a + + +e +e + +f d ++ d
+       17 346 GYETQKELFREYAGQFPVELQGFTSVAPDAFENELEESLATFYDADLGD 394
+              4567888888888888888899999998888888888888887777665 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 3.5e-05
+  0052977  37 araasdpeLkaaleehleetegqierLeqvlellgaspsglkckameglvaeaqe 91 
+              ar    + L +a+eeh+ e+++  + L q l++++ +  ++ + a++gl + a e
+       17 403 ARERAQQRLVDAFEEHRAEIQDALDELHQGLDRYDDEMGPHVDAAIDGLEQLAAE 457
+              4666678899***************************************988765 PP
+
+>> 0046046  Apolipoprotein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.6   2.5e-05     0.063      78     132 ..     395     449 ..     344     459 .. 0.49
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 2.5e-05
+  0046046  78 aLrekltkdleelraklepyldelkeklgqnleelrqklaPyaeelkkrlaqdle 132
+               ++ ++++  e ++++l +  +e +++++++l+el+q+l  y +e+   +   ++
+       17 395 RIKSEVREARERAQQRLVDAFEEHRAEIQDALDELHQGLDRYDDEMGPHVDAAID 449
+              2233333333333444444455555555555555555555555555444444433 PP
+
+>> 0036747  DNA repair protein MutS, domain III
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.3   0.0    0.0007       1.8     132     219 ..     151     237 ..     107     256 .. 0.84
+   2 ?    0.7   0.1      0.14   3.6e+02     133     190 ..     417     466 ..     378     479 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 8.3 bits;  conditional E-value: 0.0007
+  0036747 132 eelleliesaidldaalllndgglikpgfdeeLdelrelldeleellaelleelrerlgisslklvyngvlgYlievpksdakkvpsd 219
+              +  l     ++d+  a ++ d g+ +p + +e   +rel+d++ e++a+  + +++++  + + +  ++  +Y+ie+ ++  ++vp+d
+       17 151 DRPLPESGPSLDDASASVDVDDGFRRPKIPQEVTLARELFDGADEFIATAAKMIADQTFRR-VYFSESAEQRYYIEIWCEKSGVVPED 237
+              55555555667777777788899**********************************9995.99999999***************977 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 0.14
+  0036747 133 elleliesaidldaalllndgglikpgfdeeLdelrelldeleellaelleelrerlg 190
+              e    i++a+d+             + +d+e+  + ++  +  e+la +++++r++ g
+       17 417 EHRAEIQDALDE--------LHQGLDRYDDEMGPHVDAAIDGLEQLAAEEKRVRDECG 466
+              222222222222........23334455555555555555555555555555555555 PP
+
+>> 0052941  Ferritin-like
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.2   0.2   0.00023       0.6      30      85 ..     403     457 ..     373     474 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00023
+  0052941  30 araasdpeLkaaleehleetegqierLeqvlellgllepssvlcdameglvaeaqe 85 
+              ar    + L +a+eeh +e+++  + L q l++++  e  ++++ a++gl + a e
+       17 403 ARERAQQRLVDAFEEHRAEIQDALDELHQGLDRYDD-EMGPHVDAAIDGLEQLAAE 457
+              4666778899*************************9.9999999999999877665 PP
+
+>> 0050394  Thiamin diphosphate-binding fold (THDP-binding)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.5   0.0   0.00036      0.94     158     220 ..     239     312 ..     233     330 .. 0.75
+   2 ?   -2.3   0.2       0.7   1.8e+03     316     349 ..     390     423 ..     371     438 .. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.00036
+  0050394 158 lgkdvvvvaliGDGalseGvvhEAlnlAgllklpvlfvved..Ngigistpvgrsrssedladr.........a 220
+              +g+   ++   G G++s G+v EA  +A+ ++ ++ +vv+   +  g + p++ +r +e la++         +
+       17 239 AGEYGATIRESGQGEFSLGMVEEAVTIASKRDQDLAVVVVSdyDAAGADIPISGARKIEVLAALkgieaevvqG 312
+              566677788889*********************98887776588888888999888877777764444444440 PP
+
+  == domain 2  score: -2.3 bits;  conditional E-value: 0.7
+  0050394 316 eevaeeveeavaeaeampeptllelfddvypefd 349
+              +++ ++++ +v+ea ++  + l + f++  +e+ 
+       17 390 ADLGDRIKSEVREARERAQQRLVDAFEEHRAEIQ 423
+              4444444455555555555555555555444433 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (541 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       471  (0.0305091); expected 308.8 (0.02)
+Passed bias filter:                      471  (0.0305091); expected 308.8 (0.02)
+Passed Vit filter:                       127  (0.00822645); expected 15.4 (0.001)
+Passed Fwd filter:                         6  (0.000388651); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.33u 0.15s 00:00:00.48 Elapsed: 00:00:12.45
+# Mc/sec: 117.03
+//
+Query:       31  [L=60]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (60 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       147  (0.00952196); expected 308.8 (0.02)
+Passed bias filter:                      147  (0.00952196); expected 308.8 (0.02)
+Passed Vit filter:                        12  (0.000777303); expected 15.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.17u 0.09s 00:00:00.26 Elapsed: 00:00:01.83
+# Mc/sec: 88.07
+//
+Query:       35  [L=1143]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    7.4e-09   34.8   0.0     0.0063   16.0   0.0    3.8  3  0043669   "Winged helix" DNA-binding domain
+    9.1e-09   34.5   0.0      0.019   14.3   0.0    3.6  3  0049777   "Winged helix" DNA-binding domain
+    1.1e-06   27.9   0.0      0.053   13.0   0.0    3.6  3  0043095   "Winged helix" DNA-binding domain
+    2.2e-06   26.9   0.0      0.048   13.1   0.0    2.9  2  0044258   "Winged helix" DNA-binding domain
+    6.5e-06   25.2   0.0       0.03   13.5   0.0    2.7  2  0052579   "Winged helix" DNA-binding domain
+    1.1e-05   24.9   1.8       0.27   11.1   0.0    3.5  3  0054356   "Winged helix" DNA-binding domain
+    1.6e-05   24.2   0.0      0.085   12.3   0.0    3.5  3  0051170   "Winged helix" DNA-binding domain
+    1.8e-05   23.9   0.0        0.2   11.0   0.0    2.6  2  0051521   "Winged helix" DNA-binding domain
+    2.9e-05   23.4   0.0       0.31   10.5   0.0    2.8  2  0049384   "Winged helix" DNA-binding domain
+    3.8e-05   23.0   0.0       0.47   10.2   0.0    2.7  2  0054478   "Winged helix" DNA-binding domain
+    4.9e-05   22.5   0.0        0.5    9.7   0.0    2.8  2  0051444   "Winged helix" DNA-binding domain
+    5.1e-05   22.8   0.4      0.031   14.0   0.1    3.2  2  0044139   "Winged helix" DNA-binding domain
+    7.5e-05   22.7   0.0       0.42   10.5   0.0    3.0  2  0053261   "Winged helix" DNA-binding domain
+    9.3e-05   21.7   0.0       0.28   10.6   0.0    2.6  2  0052364   "Winged helix" DNA-binding domain
+    9.7e-05   21.8   0.0       0.23   11.1   0.0    2.5  2  0043164   "Winged helix" DNA-binding domain
+    0.00012   21.6   1.1     0.0073   15.9   0.1    3.5  3  0043062   "Winged helix" DNA-binding domain
+    0.00014   21.1   0.0          1    9.0   0.0    2.9  2  0054905   "Winged helix" DNA-binding domain
+    0.00021   21.0   0.0      0.055   13.2   0.0    2.8  2  0040266   "Winged helix" DNA-binding domain
+     0.0003   20.2   0.0      0.038   13.6   0.0    3.1  2  0048177   "Winged helix" DNA-binding domain
+     0.0003   20.4   0.1       0.38   10.4   0.0    3.1  2  0053037   "Winged helix" DNA-binding domain
+    0.00053   19.2   0.0        1.6    8.2   0.0    2.6  2  0052755   "Winged helix" DNA-binding domain
+    0.00053   19.4   0.1       0.89    9.0   0.0    2.9  2  0052640   "Winged helix" DNA-binding domain
+    0.00061   19.3   0.3          2    7.9   0.0    3.0  2  0052644   "Winged helix" DNA-binding domain
+      0.001   18.4   0.0      0.061   12.9   0.0    2.9  2  0054062   "Winged helix" DNA-binding domain
+     0.0022   17.5   0.1        3.2    7.3   0.0    2.9  2  0047585   "Winged helix" DNA-binding domain
+     0.0031   16.9   0.1          4    6.9   0.0    2.8  2  0052641   "Winged helix" DNA-binding domain
+     0.0034   16.9   0.2        1.9    8.1   0.0    2.7  2  0048695   "Winged helix" DNA-binding domain
+     0.0038   16.6   0.2        2.8    7.4   0.0    2.9  2  0054933   "Winged helix" DNA-binding domain
+     0.0056   16.4   0.0        4.7    7.0   0.0    3.1  3  0049944   "Winged helix" DNA-binding domain
+     0.0081   15.6   0.0        6.6    6.2   0.0    2.8  2  0049308   "Winged helix" DNA-binding domain
+     0.0094   15.6   0.0        5.9    6.7   0.0    2.6  2  0043935   "Winged helix" DNA-binding domain
+  ------ inclusion threshold ------
+      0.011   15.1   0.0        6.2    6.3   0.0    2.7  2  0052514   "Winged helix" DNA-binding domain
+      0.011   15.1   0.0        5.5    6.4   0.0    2.8  2  0051708   "Winged helix" DNA-binding domain
+      0.012   14.9   0.0        5.7    6.4   0.0    2.7  2  0051528   "Winged helix" DNA-binding domain
+      0.021   14.4   0.0        5.8    6.8   0.0    2.8  2  0051507   "Winged helix" DNA-binding domain
+      0.025   14.0   0.0        4.8    6.7   0.0    2.7  2  0040517   "Winged helix" DNA-binding domain
+      0.026   14.1   0.0         10    5.7   0.0    2.7  2  0040586   "Winged helix" DNA-binding domain
+      0.027   13.9   0.1        7.2    6.0   0.0    2.9  2  0052801   "Winged helix" DNA-binding domain
+      0.031   13.7   0.0        3.7    7.1   0.0    2.6  2  0054074   "Winged helix" DNA-binding domain
+      0.032   13.8   0.0          9    5.9   0.0    2.6  2  0042156   "Winged helix" DNA-binding domain
+      0.053   12.9   0.0         11    5.5   0.0    2.8  2  0053759   "Winged helix" DNA-binding domain
+       0.06   13.0   0.0        2.7    7.9   0.0    2.9  2  0045862   "Winged helix" DNA-binding domain
+      0.064   13.1   0.0        6.8    6.6   0.0    2.5  2  0041905   "Winged helix" DNA-binding domain
+      0.073   12.9   0.0       0.63    9.9   0.0    2.5  2  0048703   "Winged helix" DNA-binding domain
+      0.085   12.8   0.0        1.7    8.6   0.0    2.8  2  0053941   "Winged helix" DNA-binding domain
+       0.09   12.5   0.0       0.57   10.0   0.0    2.4  1  0045968   "Winged helix" DNA-binding domain
+      0.094   12.5   0.0        6.4    6.8   0.0    3.2  2  0048605   "Winged helix" DNA-binding domain
+       0.13   11.9   0.0         28    4.4   0.0    2.6  2  0038701   "Winged helix" DNA-binding domain
+       0.19   11.3   0.0       0.88    9.2   0.0    2.2  1  0039384   "Winged helix" DNA-binding domain
+        0.2   11.3   0.0        1.7    8.4   0.0    2.5  1  0053027   "Winged helix" DNA-binding domain
+        0.9    9.6   1.5        2.3    8.3   0.0    2.5  1  0054939   NTF2-like
+
+
+Domain annotation for each model (and alignments):
+>> 0043669  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0       0.2        61       9      51 ..     222     268 ..     215     272 .. 0.81
+   2 !   10.6   0.0   0.00099       0.3      11      71 ..     410     473 ..     403     489 .. 0.88
+   3 !   16.0   0.0   2.1e-05    0.0063      27      72 ..     947     994 ..     932    1004 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 3.3 bits;  conditional E-value: 0.2
+  0043669   9 lleelaellkaladptrlrilrlLa..ege...lsvgeLaealglsqs 51 
+              l++  +e+ +a+ad+ r+ i +lL+  e +     v  La++ g++ +
+       35 222 LTDACVEAVEAIADDERRPIASLLStpE-PdakTGVHHLADEYGIDAG 268
+              5667788999***************862.246699*******999876 PP
+
+  == domain 2  score: 10.6 bits;  conditional E-value: 0.00099
+  0043669  11 eelaellkaladptrlrilrlLa.egelsvgeLaeal..glsqstvsrhLkvLeeaglverrrd 71 
+               +++++l+al++  r+ri+  L+ ++ +s+  L++    +l   ++ r+   Le+aglv   rd
+       35 410 LDAYRTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRD 473
+              678899****************************98866889999**************99884 PP
+
+  == domain 3  score: 16.0 bits;  conditional E-value: 2.1e-05
+  0043669  27 rilrlLa..egelsvgeLaealglsqstvsrhLkvLeeaglverrrdg 72 
+              +++r+L+  +g+l +g L++a g+++ t   h+++Le ++lv r+ dg
+       35 947 KLVRALVtaDGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDG 994
+              456666669***********************************9988 PP
+
+>> 0049777  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0     0.084        26      19      62 ..     224     270 ..     216     273 .. 0.83
+   2 !   11.0   0.0    0.0007      0.21      14      80 ..     405     473 ..     396     484 .. 0.87
+   3 !   14.3   0.0   6.2e-05     0.019      36      81 ..     948     994 ..     932    1003 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.084
+  0049777  19 eelaellkaLadptRlrIlrlLaeege...ltvgeLaellglsqstv 62 
+              +  +e+  a+ad+ R+ I  lL++ ++     v  La++ g++ ++ 
+       35 224 DACVEAVEAIADDERRPIASLLSTPEPdakTGVHHLADEYGIDAGNG 270
+              56778899***************844456699********9998875 PP
+
+  == domain 2  score: 11.0 bits;  conditional E-value: 0.0007
+  0049777  14 deedleelaellkaLadptRlrIlrlLaeegeltvgeLaell..glsqstvshhLkvLeeaGlverrre 80 
+              +ee+  ++ + l+aL++  R rI+  L  +++++++ L++    +l+  ++ ++   Le aGlv   r+
+       35 405 SEENRLDAYRTLDALNSGGRYRIVGNLFADQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRD 473
+              5667788999*****************************9873366888999************98886 PP
+
+  == domain 3  score: 14.3 bits;  conditional E-value: 6.2e-05
+  0049777  36 IlrlLae.egeltvgeLaellglsqstvshhLkvLeeaGlverrreg 81 
+              ++r+L++ +g+l +g L+++ g+ + t   h+++Le  +lv r+ +g
+       35 948 LVRALVTaDGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDG 994
+              45555555999********************************9988 PP
+
+>> 0043095  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.0      0.25        76       6      47 ..     224     269 ..     220     273 .. 0.83
+   2 ?    7.2   0.0     0.011       3.5       6      66 ..     410     473 ..     405     488 .. 0.86
+   3 !   13.0   0.0   0.00017     0.053      13      68 ..     939     995 ..     931    1003 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.25
+  0043095   6 eelaellkaladptrlrilrlLae.ge...lsvgelaealglsqst 47 
+              ++ +e   a+ad+ r+ i  lL+  ++   + v +la++ g++ ++
+       35 224 DACVEAVEAIADDERRPIASLLSTpEPdakTGVHHLADEYGIDAGN 269
+              56778899****************6336779999999999998776 PP
+
+  == domain 2  score: 7.2 bits;  conditional E-value: 0.011
+  0043095   6 eelaellkaladptrlrilrlLae.gelsvgelaeal..glsqstvsrhLkvLeeaglvkrrre 66 
+               ++ ++l+al++  r+ri+  L+  +++s+  l++    +l   ++ r+   Le aglv   r+
+       35 410 LDAYRTLDALNSGGRYRIVGNLFAdQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRD 473
+              678899******************9*********9872257788999************98885 PP
+
+  == domain 3  score: 13.0 bits;  conditional E-value: 0.00017
+  0043095  13 kaladptrlrilrlLae.gelsvgelaealglsqstvsrhLkvLeeaglvkrrregr 68 
+               +la  + + +  l    g+l +g l++a g+ + t   h+++Le ++lv r+ +g 
+       35 939 PTLAPSVGKLVRALVTAdGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGW 995
+              5555555555555555599*********************************99885 PP
+
+>> 0044258  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   0.0   0.00016     0.048       5      81 ..     411     487 ..     408     498 .. 0.86
+   2 !   10.3   0.0    0.0012      0.37      21      65 ..     948     993 ..     933    1007 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.00016
+  0044258   5 llalllkalldptrlliLllLaedgeltvseLaell..glspstlsrhLkrLeeaGlverrrdpedgrrvyysltekgr 81 
+                 ++l+al +  r++i+  L+ d+++++  L++    +l   ++ r+   Le+aGlv   rd+++  ++  +lte g+
+       35 411 DAYRTLDALNSGGRYRIVGNLFADQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGSNQI--TLTETGK 487
+              5678999***************************9988999**********************8877654..4555554 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.0012
+  0044258  21 iLllLae.dgeltvseLaellglspstlsrhLkrLeeaGlverrrd 65 
+              ++++L   dg+l ++ L ++ g+++ t   h++ Le  +lv r+ d
+       35 948 LVRALVTaDGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              456666669**********************************987 PP
+
+>> 0052579  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.5   0.0   9.8e-05      0.03       9      85 ..     411     489 ..     405     502 .. 0.87
+   2 !    8.6   0.0    0.0032      0.96      26      68 ..     949     994 ..     943    1016 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 9.8e-05
+  0052579   9 pvaraldllgdkwrlliLrlll.egplrfgeLarrl..giskstLsrrLkrLeeaGlver.vypedprrveYrLTekGral 85 
+                 r+ld+l++  r++i+  l+ ++ ++++ L++    +++   ++r    Le+aGlv   ++     +  ++LTe G+  
+       35 411 DAYRTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIdRDT--TGSNQITLTETGKLA 489
+              5689******************************99889********************64444..55778999**99865 PP
+
+  == domain 2  score: 8.6 bits;  conditional E-value: 0.0032
+  0052579  26 Lrlll..egplrfgeLarrlgiskstLsrrLkrLeeaGlver.vyp 68 
+              +r+l   +g l  g L ++ gi ++t + + ++Le  +lv r  ++
+       35 949 VRALVtaDGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRtDDG 994
+              677777899********************************94443 PP
+
+>> 0054356  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.1   0.0   0.00089      0.27      35      79 ..     449     493 ..     414     495 .. 0.88
+   2 ?   -1.0   0.0       6.6     2e+03      26      79 ..     642     701 ..     632     703 .. 0.72
+   3 !   11.0   0.1   0.00099       0.3       4      62 ..     943     996 ..     940    1007 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00089
+  0054356  35 glprstvsrlLdrLeaaglverladeddrrllrLteeGralleel 79 
+              +l  +++ r+   Leaaglv   +d ++   ++Lte+G+   + l
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTGSNQITLTETGKLAKDCL 493
+              56678899999***************************9887766 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 6.6
+  0054356  26 slseLAkrlglprstvsrlLdrLeaaglve..rladeddrrl....lrLteeGralleel 79 
+               +++L+  lg  +  v + L+r  + g+++   + d+d+  +     +L++ Gr +l++l
+       35 642 AVTDLCTDLGSAPKNVLEFLQRGMQIGWLDadSVIDQDGLDYlairDHLYQVGRSVLARL 701
+              567888888888888888888888888888664444444444457788999999888887 PP
+
+  == domain 3  score: 11.0 bits;  conditional E-value: 0.00099
+  0054356   4 pallrvllvLaallledeggplslseLAkrlglprstvsrlLdrLeaaglverladedd 62 
+              p + ++ ++L      +++g l +++L +++g++r t   ++d+Le+ +lv r+ d+ +
+       35 943 PSVGKLVRALV-----TADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGWG 996
+              66677888888.....699*********************************9877655 PP
+
+>> 0051170  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.49   1.5e+02      18      60 ..     223     270 ..     213     280 .. 0.82
+   2 ?    5.1   0.0     0.056        17      16      77 ..     407     473 ..     398     478 .. 0.81
+   3 !   12.3   0.0   0.00028     0.085      35      79 ..     947     995 ..     933    1000 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 2.1 bits;  conditional E-value: 0.49
+  0051170  18 leelarllkaladptRlrILrlLa.....gelsvselaellglsqstv 60 
+              +++++++  a+ad+ R+ I  lL+         v+ la++ g++ ++ 
+       35 223 TDACVEAVEAIADDERRPIASLLStpepdAKTGVHHLADEYGIDAGNG 270
+              566778899***************987766788999999999887765 PP
+
+  == domain 2  score: 5.1 bits;  conditional E-value: 0.056
+  0051170  16 elleelarllkaladptRlrILrlLa..gelsvselaell..glsqstvshhLkvL.eaglverrre 77 
+              e+  ++ r+l al +  R rI+  L+  +++s+  l++    +l+   + +    L +aglv   r+
+       35 407 ENRLDAYRTLDALNSGGRYRIVGNLFadQSRSIRSLQDDAeiDLAADSINRYTGDLeAAGLVAIDRD 473
+              566788999***************************9987335566677777788888888877665 PP
+
+  == domain 3  score: 12.3 bits;  conditional E-value: 0.00028
+  0051170  35 rILrlLa...gelsvselaellglsqstvshhLkvL.eaglverrregr 79 
+              +++r+L+   g l ++ l+++ g+ + t   h+++L   +lv r+++g 
+       35 947 KLVRALVtadGRLEAGALVDAAGIHRRTYATHMDTLeTLDLVNRTDDGW 995
+              6789999999***********************************9986 PP
+
+>> 0051521  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.0   0.0   0.00065       0.2       8      89 ..     411     492 ..     406     500 .. 0.88
+   2 !    9.9   0.0    0.0014      0.42      26      69 ..     950     994 ..     940    1009 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00065
+  0051521   8 pvalaldllgdkwrlliLrlll.egplrfseLarllp.gisqgtltrrLkrLeedGlverevypedprrveysLTekGrallpv 89 
+              + +++ld+l++  r++i+  l+ +++++++ L++  + +++  ++ r+   Le++Glv   ++ ++  +  ++LTe G+ + + 
+       35 411 DAYRTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAEiDLAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETGKLAKDC 492
+              56799*****************************9988999******************9999876..5669999999866655 PP
+
+  == domain 2  score: 9.9 bits;  conditional E-value: 0.0014
+  0051521  26 rlll..egplrfseLarllpgisqgtltrrLkrLeedGlverevyp 69 
+              r+l   +g+l  + L+++  gi ++t + +++ Le  +lv r+ ++
+       35 950 RALVtaDGRLEAGALVDAA-GIHRRTYATHMDTLETLDLVNRTDDG 994
+              556667999**********.**********************9876 PP
+
+>> 0049384  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.5   0.0     0.001      0.31      10      85 ..     413     487 ..     410     500 .. 0.85
+   2 !    9.5   0.0    0.0021      0.63      28      74 ..     952     995 ..     935    1019 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.001
+  0049384  10 aellkalgldptrlriLllLlenggltvseLaeel..glsrstvsrrlkrLeeaGlvererapldgrkvgysltekge 85 
+               ++l+al+ +  r+ri+  L+ + + +++ L++    +l + ++ r+   Le aGlv   r+ ++  +  ++lte g+
+       35 413 YRTLDALN-SGGRYRIVGNLFADQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGSNQ--ITLTETGK 487
+              57899999.***********************9887799**********************8887655..55555554 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.0021
+  0049384  28 lLlenggltvseLaeelglsrstvsrrlkrLeeaGlvererapldgr 74 
+              l+  +g+l ++ L ++ g+ r+t   +++ Le  +lv r+    dg 
+       35 952 LVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTD---DGW 995
+              344589*********************************98...765 PP
+
+>> 0054478  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.7   0.0    0.0023      0.69       5      62 ..     424     488 ..     421     494 .. 0.81
+   2 !   10.2   0.0    0.0015      0.47      10      57 ..     951     998 ..     946    1002 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.0023
+  0054478   5 qllilllllengpigvkelaer..lglsegtvrtllkkLeelglverers..g...ivlTekGke 62 
+              +++i   l+ ++  ++++l +   ++l  ++++++   Le++glv + r+  g   i+lTe Gk 
+       35 424 RYRIVGNLFADQSRSIRSLQDDaeIDLAADSINRYTGDLEAAGLVAIDRDttGsnqITLTETGKL 488
+              677888888888888888887622568899********************762666*******85 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.0015
+  0054478  10 llllengpigvkelaerlglsegtvrtllkkLeelglverersgivlT 57 
+               l+  +g +    l +  g++++t  t+++ Le l+lv r+ +g+ lT
+       35 951 ALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGWGLT 998
+              5566688889999******************************99888 PP
+
+>> 0051444  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.5   0.0    0.0019      0.58      13      95 ..     411     493 ..     402     501 .. 0.87
+   2 !    9.7   0.0    0.0016       0.5      30      74 ..     949     994 ..     940    1008 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.0019
+  0051444  13 pvaraldllgdkwrlliLrlll.dgplrfseLarrlp.gisqstlsrrLkrLeedGlverrvypedprrveysLTekGrellpvl 95 
+              + +r+ld+l +  r++i+  l+ d+ ++++ L++  + +++  ++ r    Le++Glv   ++ +      ++LTe G+ + + l
+       35 411 DAYRTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAEiDLAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETGKLAKDCL 493
+              67899****************************99877999******************9888775..56699999998766655 PP
+
+  == domain 2  score: 9.7 bits;  conditional E-value: 0.0016
+  0051444  30 Lrlll..dgplrfseLarrlpgisqstlsrrLkrLeedGlverrvyp 74 
+              +r+l   dg+l  + L ++  gi ++t + ++++Le  +lv+r+ ++
+       35 949 VRALVtaDGRLEAGALVDAA-GIHRRTYATHMDTLETLDLVNRTDDG 994
+              56667779************.**********************9865 PP
+
+>> 0044139  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0     0.081        24      13      71 ..     414     475 ..     407     488 .. 0.79
+   2 !   14.0   0.1    0.0001     0.031      26      70 ..     948     994 ..     941    1002 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.081
+  0044139  13 vlsaalkaavelgildlLa.dgpltvaeLaa..algldpsllsrlLralvalglveededgr 71 
+               +  al  + +++i+  L  d++++++ L +  +++l ++++ r+   l a+glv  d+d +
+       35 414 RTLDALNSGGRYRIVGNLFaDQSRSIRSLQDdaEIDLAADSINRYTGDLEAAGLVAIDRDTT 475
+              56667888899999999999**********9334555579*****************88843 PP
+
+  == domain 2  score: 14.0 bits;  conditional E-value: 0.0001
+  0044139  26 ildlLa..dgpltvaeLaaalgldpsllsrlLralvalglveededg 70 
+              ++ +L+  dg l +++L++a g+++++   ++++l +l+lv++++dg
+       35 948 LVRALVtaDGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDG 994
+              56677778***********************************9998 PP
+
+>> 0053261  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.5   0.0    0.0014      0.42       5      69 ..     412     477 ..     410     499 .. 0.86
+   2 !    8.6   0.0    0.0053       1.6      21      80 ..     949    1001 ..     943    1077 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0014
+  0053261   5 larllkaLgdptrlrILrlLl.egpltvseLaeel..gisqstvsrhLkkLeeaGlverrrepedrgg 69 
+              + r+l+aL +  r rI+  L+ ++ +++  L++    ++   ++ r+   Le aGlv   r+ ++   
+       35 412 AYRTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTG--S 477
+              6799****************************999668999*****************9999777..3 PP
+
+  == domain 2  score: 8.6 bits;  conditional E-value: 0.0053
+  0053261   21 LrlLl..egpltvseLaeelgisqstvsrhLkkLeeaGlverrrepedrggrrvyYrltekg 80  
+               +r+L   +g+l ++ L ++ gi++ t   h++ Le   lv r+ +          + lt + 
+       35  949 VRALVtaDGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD---------GWGLTLEP 1001
+               6667778999*********************************99.........56666544 PP
+
+>> 0052364  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.1   0.0    0.0056       1.7      13      89 ..     415     489 ..     407     499 .. 0.82
+   2 !   10.6   0.0   0.00094      0.28      22      75 ..     944     994 ..     933    1013 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.0056
+  0052364  13 llkalgldptrlriLllLlengepltvseLaell..glskstvsrhlkkLeeaGlverrrsegdgrkvyysltekgrel 89 
+              +l+al+ +  r+ri   L+ ++ + +++ L +    +l   ++ r+   Le aGlv   r++++     ++lte g+  
+       35 415 TLDALN-SGGRYRIVGNLFADQ-SRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGSN--QITLTETGKLA 489
+              678888.89999********99.*******998855778999*******************98875..55666666555 PP
+
+  == domain 2  score: 10.6 bits;  conditional E-value: 0.00094
+  0052364  22 trlriLllLlengepltvseLaellglskstvsrhlkkLeeaGlverrrsegdg 75 
+              +  ++ ++L   +++l ++ L ++ g+++ t  +h++ Le ++lv r+ +   g
+       35 944 SVGKLVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD---G 994
+              55667778888888*********************************988...4 PP
+
+>> 0043164  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.9   0.0    0.0074       2.2       4      69 ..     424     494 ..     421     503 .. 0.75
+   2 !   11.1   0.0   0.00076      0.23       9      58 ..     950     998 ..     945    1005 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 7.9 bits;  conditional E-value: 0.0074
+  0043164   4 rlliLllLlealegelsftelaeal..glsqstvsrhlkkLeelglveregk.....yysLTekGeellellr 69 
+              r++i+  L +  +++ s+  l +    +l   ++ r+   Le +glv ++++     +++LTe G+   + l 
+       35 424 RYRIVGNLFA--DQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDttgsnQITLTETGKLAKDCLT 494
+              5666666666..777777777777733688999****************44445567********98776665 PP
+
+  == domain 2  score: 11.1 bits;  conditional E-value: 0.00076
+  0043164   9 llLlealegelsftelaealglsqstvsrhlkkLeelglveregkyysLT 58 
+              ++L  a +g l  + l++a g+ ++t  +h+++Le l+lv+r+++++ LT
+       35 950 RALVTA-DGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGWGLT 998
+              566666.999999*****************************99888887 PP
+
+>> 0043062  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0      0.98     3e+02      19      77 ..     414     475 ..     407     488 .. 0.77
+   2 ?   -0.7   0.0       4.3   1.3e+03      42      72 ..     642     672 ..     612     683 .. 0.82
+   3 !   15.9   0.1   2.4e-05    0.0073      32      81 ..     948     996 ..     940    1001 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.98
+  0043062  19 vlsmalrvaielgildlLa.dgpltvaeLAerlgls..psalsrlLrlLaslglveedgegr 77 
+               +  al ++ + +i+  L  d  ++++ L + + ++  ++++ r+   L+++glv  d++++
+       35 414 RTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAEIDlaADSINRYTGDLEAAGLVAIDRDTT 475
+              555677778888888888888888888888766665337****************9976665 PP
+
+  == domain 2  score: -0.7 bits;  conditional E-value: 4.3
+  0043062  42 tvaeLAerlglspsalsrlLrlLaslglvee 72 
+               v++L   lg  p +++ +L++  ++g+++ 
+       35 642 AVTDLCTDLGSAPKNVLEFLQRGMQIGWLDA 672
+              6789999999999999999999999999876 PP
+
+  == domain 3  score: 15.9 bits;  conditional E-value: 2.4e-05
+  0043062  32 ildlLa..dgpltvaeLAerlglspsalsrlLrlLaslglveedgegrrvyr 81 
+              ++++L+  dg+l ++ L +++g++ ++   ++++L++l+lv ++++g   + 
+       35 948 LVRALVtaDGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDG---WG 996
+              77888899***********************************9999...55 PP
+
+>> 0054905  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.0   0.0    0.0034         1      22      75 ..     437     493 ..     421     500 .. 0.76
+   2 !    8.8   0.0    0.0037       1.1      17      59 ..     954     996 ..     941    1009 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 9.0 bits;  conditional E-value: 0.0034
+  0054905  22 ltvseLaell..giskstvsrllkrLekkGlvtrtv.drravllslTekGrelleel 75 
+               +++ L +    ++   ++ r+  +Le++Glv   +    +  ++lTe G+ + + l
+       35 437 RSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRdTTGSNQITLTETGKLAKDCL 493
+              555555554433667889******************999999********9776655 PP
+
+  == domain 2  score: 8.8 bits;  conditional E-value: 0.0037
+  0054905  17 aeaggltvseLaellgiskstvsrllkrLekkGlvtrtvdrra 59 
+                +g+l ++ L ++ gi + t   ++++Le  +lv rt d+ +
+       35 954 TADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGWG 996
+              3455599*******************************88755 PP
+
+>> 0040266  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.0     0.093        28      28      91 ..     424     486 ..     412     498 .. 0.78
+   2 !   13.2   0.0   0.00018     0.055      24      91 ..     941    1003 ..     929    1046 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.093
+  0040266  28 rlriLalLaesdgpltvselaeel..glskstvsralkrLeelGlvrrerspgdrrrvyysltekg 91 
+              r+ri   L+ +d+  ++  l +    +l   ++ r+   Le +Glv   r++ +  +  ++lte g
+       35 424 RYRIVGNLF-ADQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETG 486
+              666666676.6666777777766633688899******************8876..6668888888 PP
+
+  == domain 2  score: 13.2 bits;  conditional E-value: 0.00018
+  0040266   24 lsptrlriLalLaesdgpltvselaeelglskstvsralkrLeelGlvrrerspgdrrrvyysltekg 91  
+               l p++ ++ ++L  +dg+l ++ l ++ g+ + t   ++++Le l lv r+ ++ +     ++l + +
+       35  941 LAPSVGKLVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGWG-----LTLEPWW 1003
+               567889999******************************************98753.....6666665 PP
+
+>> 0048177  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0      0.34     1e+02      28      63 ..     446     481 ..     419     491 .. 0.76
+   2 !   13.6   0.0   0.00013     0.038      10      59 ..     948     998 ..     943    1007 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 2.9 bits;  conditional E-value: 0.34
+  0048177  28 ealglpkstvhrlLatLeelglverdpdgryrlglr 63 
+              ++++l+  ++ r+   Le++glv  d+d++ +  + 
+       35 446 AEIDLAADSINRYTGDLEAAGLVAIDRDTTGSNQIT 481
+              57889999******************9996555555 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 0.00013
+  0048177  10 iLellaeaggplslselaealglpkstvhrlLatLeelglverdpdg.ryr 59 
+              + ++l+ a+g l ++ l++a+g+++ t   ++ tLe l+lv r++dg   +
+       35 948 LVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGwGLT 998
+              67899999*************************************995444 PP
+
+>> 0053037  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.3   0.0     0.024       7.2      60     107 ..     449     494 ..     413     510 .. 0.78
+   2 !   10.4   0.0    0.0013      0.38      35      84 ..     944     993 ..     925    1009 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 6.3 bits;  conditional E-value: 0.024
+  0053037  60 glskstvtrllkrLekkGlvererdpeDrRrvllslTekGrelleell 107
+              +l   ++ r    Le++Glv   rd +     +++lTe G+ + + l 
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCLT 494
+              56678999*****************9986..57999999987766665 PP
+
+  == domain 2  score: 10.4 bits;  conditional E-value: 0.0013
+  0053037  35 aqfrvLlaLaelggpltvseLaerlglskstvtrllkrLekkGlvererd 84 
+              +   + +aL  ++g l ++ L ++ g+++ t   + + Le  +lv r+ d
+       35 944 SVGKLVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              556677899999**********************************9876 PP
+
+>> 0052755  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.2   0.0    0.0052       1.6       9      85 ..     411     487 ..     405     498 .. 0.88
+   2 !    8.0   0.0    0.0056       1.7      29      70 ..     952     994 ..     940    1005 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 8.2 bits;  conditional E-value: 0.0052
+  0052755   9 pvalaldllggkwklliLrlll.ngplrfseLaralp.gisqktlsrrLkeLeedglverrvypedpprveYsLTelGr 85 
+              +  ++ld+l++  ++ i+  l+ ++ ++++ L++  + +++  +++r+   Le++glv   ++ ++     ++LTe G+
+       35 411 DAYRTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAEiDLAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETGK 487
+              567899****************************998899*******************9998766..56789999997 PP
+
+  == domain 2  score: 8.0 bits;  conditional E-value: 0.0056
+  0052755  29 ll..ngplrfseLaralpgisqktlsrrLkeLeedglverrvyp 70 
+              l   +g+l  + L++a  gi+++t + +++ Le  +lv+r+ ++
+       35 952 LVtaDGRLEAGALVDAA-GIHRRTYATHMDTLETLDLVNRTDDG 994
+              4445899999*******.**********************9774 PP
+
+>> 0052640  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.9   0.0     0.014       4.2      30     101 ..     424     494 ..     413     503 .. 0.79
+   2 !    9.0   0.0    0.0029      0.89      33      78 ..     948     993 ..     930    1009 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.014
+  0052640  30 qflvLlaLaelnggltqseLaerl..glskstvtrlldrLekkGlvererdpeDrRavllsLTekGrelleell 101
+              ++++   L   +++ +++ L +     l   ++ r    Le++Glv   rd +     +++LTe G+ + + l 
+       35 424 RYRIVGNLFA-DQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCLT 494
+              5666666666.677777777776644677889*******************9986..88999999987776665 PP
+
+  == domain 2  score: 9.0 bits;  conditional E-value: 0.0029
+  0052640  33 vLlaLaelnggltqseLaerlglskstvtrlldrLekkGlvererd 78 
+              + +aL  ++g+l ++ L ++ g+++ t   + d Le  +lv r+ d
+       35 948 LVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              567788889**********************************977 PP
+
+>> 0052644  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.9   0.0     0.007       2.1      64     136 ..     424     493 ..     409     502 .. 0.77
+   2 !    7.9   0.0    0.0066         2      67     114 ..     948     993 ..     928    1001 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.9 bits;  conditional E-value: 0.007
+  0052644  64 qfrvLlaLaenggggyltvseLaerl..glskstvsrllkrLekkGlvererdpeDrRrvlvsLTekGrelleel 136
+              ++r+   L   +     +++ L +    +l   ++ r    Le++Glv   rd +      ++LTe G+ + + l
+       35 424 RYRIVGNLFADQS---RSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCL 493
+              6666666666666...7777777766225677899******************9975..6799***998776655 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0066
+  0052644  67 vLlaLaenggggyltvseLaerlglskstvsrllkrLekkGlvererd 114
+              + +aL  ++g+  l +++L ++ g+++ t   + + Le  +lv r+ d
+       35 948 LVRALVTADGR--LEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              56677777777..99******************************977 PP
+
+>> 0054062  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.63   1.9e+02       2      50 ..     424     474 ..     423     490 .. 0.69
+   2 !   12.9   0.0    0.0002     0.061       7      53 ..     951     995 ..     947    1010 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 0.63
+  0054062   2 rlrilelLlrhggltvselaealgv..srstvsrhLkvLekaGlverepgg 50 
+              r+ri+  L  +++ +++ l +  ++     ++ r+   Le aGlv   ++ 
+       35 424 RYRIVGNLFADQSRSIRSLQDDAEIdlAADSINRYTGDLEAAGLVAIDRDT 474
+              667777777777777777777655522667899************999544 PP
+
+  == domain 2  score: 12.9 bits;  conditional E-value: 0.0002
+  0054062   7 elLlrhggltvselaealgvsrstvsrhLkvLekaGlverepggdgr 53 
+               l+  +g+l ++ l++a g++r t   h+++Le  +lv r+  +dg+
+       35 951 ALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRT--DDGW 995
+              566778999********************************..5554 PP
+
+>> 0047585  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.016       4.9      38     107 ..     426     495 ..     411     504 .. 0.74
+   2 ?    7.3   0.0      0.01       3.2      41      83 ..     950     993 ..     929    1005 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.016
+  0047585  38 lvLlaLaenggltvseLaerl..glskstvtrlldrLekkGlvererdpeDrRavllslTekGrelleelle 107
+              ++   L   +  +++ L +    +l   ++ r    Le++Glv   rd +     +++lTe G+ + + l +
+       35 426 RIVGNLFADQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCLTP 495
+              555555555566666666554114567799*****************99885..679999999877766655 PP
+
+  == domain 2  score: 7.3 bits;  conditional E-value: 0.01
+  0047585  41 laLaengg.ltvseLaerlglskstvtrlldrLekkGlvererd 83 
+              +aL   +g l ++ L ++ g+++ t   + d Le  +lv r+ d
+       35 950 RALVTADGrLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              566666644999****************************9876 PP
+
+>> 0052641  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.9   0.0     0.013         4      32     103 ..     424     495 ..     413     504 .. 0.81
+   2 ?    6.7   0.0     0.015       4.6      41      79 ..     955     993 ..     940    1005 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.013
+  0052641  32 qfrvLllLaenggltvseLaerl..glskstltrlldrLekkGlvererdpeDrRrvllsLTekGrelleella 103
+              ++r+   L  +++ +++ L +     l   ++ r    Le++Glv   rd +      ++LTe G+ + + l++
+       35 424 RYRIVGNLFADQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCLTP 495
+              6777777777777777888777755777889*******************9986..789999999987776665 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.015
+  0052641  41 enggltvseLaerlglskstltrlldrLekkGlvererd 79 
+               +g+l +++L ++ g+++ t   + d Le  +lv r+ d
+       35 955 ADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              456799******************************876 PP
+
+>> 0048695  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.8   0.0     0.033        10      60     106 ..     449     493 ..     409     501 .. 0.74
+   2 !    8.1   0.0    0.0063       1.9      29      84 ..     938     993 ..     921     996 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.033
+  0048695  60 glskstvtrlldrLekkglvererdpeDrRavllslTekGrelleel 106
+               l   ++ r    Le++glv   rd +     +++lTe G+ + + l
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCL 493
+              45667899**************9999985..6789999998766655 PP
+
+  == domain 2  score: 8.1 bits;  conditional E-value: 0.0063
+  0048695  29 lg.ltlaqfrvLlaLaelggglltvseLaerlglskstvtrlldrLekkglvererd 84 
+              ++ l ++   + +aL  ++g+ l +++L ++ g+++ t   + d Le  +lv r+ d
+       35 938 FPtLAPSVGKLVRALVTADGR-LEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              446666777778888888887.*******************************9876 PP
+
+>> 0054933  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.9   0.0     0.027       8.3      35     104 ..     426     494 ..     413     504 .. 0.75
+   2 !    7.4   0.0    0.0093       2.8      36      81 ..     948     993 ..     929     999 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 5.9 bits;  conditional E-value: 0.027
+  0054933  35 lvLlaLaelnggltqseLaerl..glskstvtrlldrLekkGlvererdpeDrRavllslTekGrelleell 104
+              ++   L   +++ +++ L +     l   ++ r    Le++Glv   rd +      ++lTe G+ + + l 
+       35 426 RIVGNLFA-DQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCLT 494
+              55555556.56666666666552245567899*****************9885..78999999987776665 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.0093
+  0054933  36 vLlaLaelnggltqseLaerlglskstvtrlldrLekkGlvererd 81 
+              + +aL  ++g+l +++L ++ g+++ t   + d Le  +lv r+ d
+       35 948 LVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              56778888999********************************876 PP
+
+>> 0049944  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.0       4.5   1.3e+03       7      45 ..     224     266 ..     219     269 .. 0.76
+   2 ?    5.4   0.0     0.048        15       7      70 ..     410     476 ..     405     498 .. 0.86
+   3 ?    7.0   0.0     0.015       4.7      24      69 ..     948     995 ..     943    1073 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 4.5
+  0049944   7 eelaelfkaLadptRlrILelLa.ege...ltvseLaellgls 45 
+              +  +e  +a+ad+ R+ I  lL+  ++     v  La++ g++
+       35 224 DACVEAVEAIADDERRPIASLLStPEPdakTGVHHLADEYGID 266
+              66778899**************964445667777777777775 PP
+
+  == domain 2  score: 5.4 bits;  conditional E-value: 0.048
+  0049944   7 eelaelfkaLadptRlrILelLa.egeltvseLaell..glsqstvsrHLkkLeeaGlverrregrd 70 
+               ++ + ++aL +  R rI+  L  ++++++  L +    +l+  ++ r    Le aGlv   r+ ++
+       35 410 LDAYRTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTG 476
+              678899****************************98855899999***************9998775 PP
+
+  == domain 3  score: 7.0 bits;  conditional E-value: 0.015
+  0049944  24 ILelLa..egeltvseLaellglsqstvsrHLkkLeeaGlverrregr 69 
+              ++++L   +g+l ++ L+++ g+++ t   H++ Le  +lv r  +g 
+       35 948 LVRALVtaDGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGW 995
+              566677789***********************************9998 PP
+
+>> 0049308  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   0.0     0.026       7.8      60     108 ..     449     495 ..     417     503 .. 0.76
+   2 ?    6.2   0.0     0.022       6.6      46      84 ..     955     993 ..     939    1009 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 6.0 bits;  conditional E-value: 0.026
+  0049308  60 glskstvtrlldrLekkGlvererdpeDrRavllsLTekGrelleelle 108
+              +l   ++ r    Le++Glv   rd +   + +++LTe G+ + + l++
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETGKLAKDCLTP 495
+              56677899*****************998..7889999999987776655 PP
+
+  == domain 2  score: 6.2 bits;  conditional E-value: 0.022
+  0049308  46 enggltvseLaerlglskstvtrlldrLekkGlvererd 84 
+               +g+l ++ L ++ g+++ t   + d Le  +lv r+ d
+       35 955 ADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              345699******************************976 PP
+
+>> 0043935  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.019       5.9      15      78 ..     431     493 ..     421     503 .. 0.76
+   2 ?    5.8   0.0     0.038        11      17      60 ..     954     994 ..     942    1004 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.019
+  0043935  15 LaegpgltvyelaerlggllslspgtvyrllkrLekeGlverrr.drrrkyyslTekGkelleel 78 
+              L   ++ +++ l +  +  ++l   ++ r+   Le +Glv   r   ++  ++lTe Gk   + l
+       35 431 LFADQSRSIRSLQDDAE--IDLAADSINRYTGDLEAAGLVAIDRdTTGSNQITLTETGKLAKDCL 493
+              55555555566655555..557888999***************9888899********9877665 PP
+
+  == domain 2  score: 5.8 bits;  conditional E-value: 0.038
+  0043935  17 egpg.ltvyelaerlggllslspgtvyrllkrLekeGlverrrdr 60 
+                +g l +  l+++ g    +++ t  +++++Le  +lv r++d+
+       35 954 TADGrLEAGALVDAAG----IHRRTYATHMDTLETLDLVNRTDDG 994
+              555558888999999*....**********************987 PP
+
+>> 0052514  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.6   0.0     0.034        10      57     103 ..     449     493 ..     417     503 .. 0.76
+   2 ?    6.3   0.0      0.02       6.2      39      81 ..     950     993 ..     933     999 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 5.6 bits;  conditional E-value: 0.034
+  0052514  57 glskstvtrlldrLekkGlvererdpeDrRvvllslTekGrelleel 103
+              +l   ++ r    Le++Glv   rd +      ++lTe G+ + + l
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCL 493
+              66778999*****************9876..5689999998776665 PP
+
+  == domain 2  score: 6.3 bits;  conditional E-value: 0.02
+  0052514  39 laLaelgg.ltvseLaerlglskstvtrlldrLekkGlvererd 81 
+              +aL  ++g l ++ L ++ g+++ t   ++d Le  +lv r+ d
+       35 950 RALVTADGrLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              556666655999*****************************976 PP
+
+>> 0051708  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.4   0.0     0.038        12      55     101 ..     449     493 ..     416     503 .. 0.75
+   2 ?    6.4   0.0     0.018       5.5      37      79 ..     950     993 ..     931    1002 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 5.4 bits;  conditional E-value: 0.038
+  0051708  55 giskstvtrllkrLekkGlverepdpeDrRrvllslTekGrelleel 101
+               +   ++ r    Le++Glv   +d +      ++lTe G+ + + l
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCL 493
+              6678899*****************99875..5789999998766655 PP
+
+  == domain 2  score: 6.4 bits;  conditional E-value: 0.018
+  0051708  37 laLaengg.ltvseLaerlgiskstvtrllkrLekkGlverepd 79 
+              +aL  ++g l ++ L ++ gi++ t   +++ Le  +lv r+ d
+       35 950 RALVTADGrLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              566666655999*****************************977 PP
+
+>> 0051528  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.4   0.0     0.019       5.7      58     108 ..     449     497 ..     415     518 .. 0.75
+   2 ?    5.4   0.0     0.039        12      41      82 ..     951     993 ..     937    1001 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 6.4 bits;  conditional E-value: 0.019
+  0051528  58 glskstltrllkrLekkGlvererdpeDrRvvllsLTekGrelleellell 108
+               l   ++ r    Le++Glv   rd +      ++LTe G+ + + l + +
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCLTPDY 497
+              66778999****************99875..7899*****98888777665 PP
+
+  == domain 2  score: 5.4 bits;  conditional E-value: 0.039
+  0051528  41 aLaengg.ltvseLaerlglskstltrllkrLekkGlvererd 82 
+              aL   +g l +++L ++ g+++ t   + + Le  +lv r+ d
+       35 951 ALVTADGrLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              555555559999****************************876 PP
+
+>> 0051507  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0      0.13        40      28      57 ..     447     476 ..     421     479 .. 0.77
+   2 ?    6.8   0.0     0.019       5.8       9      55 ..     948     994 ..     943     998 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 4.2 bits;  conditional E-value: 0.13
+  0051507  28 llglspatvtrivdeLeeaglveevgdped 57 
+              +++l+  +++r++ +Le+aglv   +d ++
+       35 447 EIDLAADSINRYTGDLEAAGLVAIDRDTTG 476
+              46788899**************98887765 PP
+
+  == domain 2  score: 6.8 bits;  conditional E-value: 0.019
+  0051507   9 lvlrllrengplsraeLarllglspatvtrivdeLeeaglveevgdp 55 
+              lv  l+  +g+l +  L ++ g+++ t  +++d Le  +lv +++d 
+       35 948 LVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDG 994
+              577889999*********************************99875 PP
+
+>> 0040517  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.016       4.8      33     103 ..     426     496 ..     417     504 .. 0.76
+   2 ?    4.1   0.0     0.097        29      40      78 ..     955     993 ..     941    1005 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.016
+  0040517  33 rvLllLaenggltvseLaerl..glsrstvtrllkrLeekGlvererdpedrRavllsLTekGrelleellel 103
+              r+   L+ +++ +++ L +    +l   ++ r    Le++Glv   rd++     +++LTe G+ + + l++ 
+       35 426 RIVGNLFADQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCLTPD 496
+              55555666666666666655522667789******************99866..7899999999888777665 PP
+
+  == domain 2  score: 4.1 bits;  conditional E-value: 0.097
+  0040517  40 enggltvseLaerlglsrstvtrllkrLeekGlvererd 78 
+               +g+l ++ L ++ g++r t   + + Le  +lv r+ d
+       35 955 ADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              34569999***************************9876 PP
+
+>> 0040586  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   0.0     0.033        10      37     107 ..     423     493 ..     409     503 .. 0.78
+   2 ?    5.2   0.0     0.047        14      45      85 ..     952     993 ..     939    1002 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.033
+  0040586  37 aqfliLllLaenggltvseLaerl..glskstltrllkrLekkglvererdpeDrRvvllsLTekGrelleel 107
+               +++i   L+  ++ +++ L +    +l   ++ r    Le++glv   rd +   +  ++LTe G+ + + l
+       35 423 GRYRIVGNLFADQSRSIRSLQDDAeiDLAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETGKLAKDCL 493
+              56777788888888888888887755777889***************9998766..57888999998766655 PP
+
+  == domain 2  score: 5.2 bits;  conditional E-value: 0.047
+  0040586  45 Laengg.ltvseLaerlglskstltrllkrLekkglvererd 85 
+              L   +g l ++ L ++ g+++ t   + + Le  +lv r+ d
+       35 952 LVTADGrLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              4444433999****************************9865 PP
+
+>> 0052801  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   0.0     0.024       7.2      67     113 ..     450     494 ..     415     504 .. 0.79
+   2 ?    4.4   0.0     0.074        22      48      90 ..     950     993 ..     930     996 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 6.0 bits;  conditional E-value: 0.024
+  0052801  67 lskstvtrlldrLekkGlvererdpeDrRvvllsLTekGrelleell 113
+              l   +++r    Le++Glv   rd +   + +++LTe G+ + + l 
+       35 450 LAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETGKLAKDCLT 494
+              456789*****************9987..578999999997776665 PP
+
+  == domain 2  score: 4.4 bits;  conditional E-value: 0.074
+  0052801  48 laLaengg.ltvseLaerlglskstvtrlldrLekkGlvererd 90 
+              +aL  ++g l ++ L ++ g+++ t   + d Le  +lv r+ d
+       35 950 RALVTADGrLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              566666655999****************************9866 PP
+
+>> 0054074  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   0.0      0.17        50       3      77 ..     414     488 ..     413     499 .. 0.84
+   2 ?    7.1   0.0     0.012       3.7      20      61 ..     952     994 ..     940    1006 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 3.5 bits;  conditional E-value: 0.17
+  0054074   3 llldllggkwrlliLrlll.egplrfseLarllp.gisqktLsqrLkeLeedglverrvypevpprveYsLTelGrs 77 
+              ++ld+l++  r++i+  l+ ++ ++ + L++  + ++  + + ++   Le++glv   ++ +      ++LTe G+ 
+       35 414 RTLDALNSGGRYRIVGNLFaDQSRSIRSLQDDAEiDLAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETGKL 488
+              68999999999999999999999999999988755889999**************99999776..455778888875 PP
+
+  == domain 2  score: 7.1 bits;  conditional E-value: 0.012
+  0054074  20 ll..egplrfseLarllpgisqktLsqrLkeLeedglverrvyp 61 
+              l+  +g l  + L+++  gi+++t + ++++Le  +lv+r+ ++
+       35 952 LVtaDGRLEAGALVDAA-GIHRRTYATHMDTLETLDLVNRTDDG 994
+              4456999999*******.**********************9876 PP
+
+>> 0042156  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.7   0.0     0.071        22      35     109 ..     423     495 ..     411     501 .. 0.82
+   2 ?    5.9   0.0      0.03         9      47      85 ..     955     993 ..     942     995 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 4.7 bits;  conditional E-value: 0.071
+  0042156  35 tqlliLllLaeaeeggltvkeLaeklg..lskstvtrllkrLekkglvervrspeDrRvvllsLTekgrelleelle 109
+               +++i   L+   +++ ++  L++     l   ++ r    Le +glv   r+++   +  ++LTe g+ + + l++
+       35 423 GRYRIVGNLF--ADQSRSIRSLQDDAEidLAADSINRYTGDLEAAGLVAIDRDTTG--SNQITLTETGKLAKDCLTP 495
+              6788888899..888889999988665114566899*****************986..789*******998887766 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.03
+  0042156  47 eeggltvkeLaeklglskstvtrllkrLekkglvervrs 85 
+               +g+l ++ L+++ g+++ t  ++++ Le  +lv r+ +
+       35 955 ADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              78999999**************************99865 PP
+
+>> 0053759  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1   0.0     0.097        29      59     108 ..     449     496 ..     414     517 .. 0.77
+   2 ?    5.5   0.0     0.035        11      42      83 ..     951     993 ..     934     998 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 4.1 bits;  conditional E-value: 0.097
+  0053759  59 gldkstvtrlldrLekkglvererdpeDrRvvlvslTekGrelleellel 108
+               l   ++ r    Le++glv   rd +      ++lTe G+ + + l + 
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCLTPD 496
+              4556789999***************9985..6788899888777766665 PP
+
+  == domain 2  score: 5.5 bits;  conditional E-value: 0.035
+  0053759  42 lLaengg.ltqseLaerlgldkstvtrlldrLekkglvererd 83 
+              +L  ++g l ++ L+++ g+++ t  ++ d Le  +lv r+ d
+       35 951 ALVTADGrLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              55666655999****************************9866 PP
+
+>> 0045862  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0       1.1   3.3e+02      34      59 ..     448     473 ..     425     475 .. 0.86
+   2 ?    7.9   0.0    0.0088       2.7      13      60 ..     947     994 ..     938     996 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.1
+  0045862  34 lgvspptvsralkrLeedGlvererd 59 
+              +++ + ++ r+   Le++Glv   rd
+       35 448 IDLAADSINRYTGDLEAAGLVAIDRD 473
+              6788899**************98776 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0088
+  0045862  13 klillllledgplsvseLaerlgvspptvsralkrLeedGlvererdg 60 
+              kl+  l+  dg+l  ++L ++ g+ + t   +++ Le   lv r++dg
+       35 947 KLVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDG 994
+              677888999***********************************9987 PP
+
+>> 0041905  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.6   0.0     0.022       6.8      12      81 ..     427     494 ..     421     503 .. 0.79
+   2 ?    3.6   0.0       0.2        60      21      62 ..     958     995 ..     946    1011 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 6.6 bits;  conditional E-value: 0.022
+  0041905  12 vllvLwekgpltvkelaeelgeeldlspstvttllkrLekkGlverekdgrrvvyysltekgeellellk 81 
+              +   L   ++ +++ l++  +  +dl+  ++ ++   Le  Glv   +d      ++lte g+  ++ l 
+       35 427 IVGNLFADQSRSIRSLQDDAE--IDLAADSINRYTGDLEAAGLVAIDRDTTGSNQITLTETGKLAKDCLT 494
+              555555666666666666655..449999********************888999*******99877665 PP
+
+  == domain 2  score: 3.6 bits;  conditional E-value: 0.2
+  0041905  21 pltvkelaeelgeeldlspstvttllkrLekkGlverekdgr 62 
+               l ++ l+++ g    +++ t  t+++ Le  +lv r+ dg 
+       35 958 RLEAGALVDAAG----IHRRTYATHMDTLETLDLVNRTDDGW 995
+              566678899999....*********************99975 PP
+
+>> 0048703  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.0       9.4   2.8e+03      33      62 ..     446     473 ..     422     479 .. 0.75
+   2 ?    9.9   0.0    0.0021      0.63      17      64 ..     951     995 ..     938    1007 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 9.4
+  0048703  33 leeelglspstvstlLkrLeekglvereke 62 
+                 e++l+  ++ ++   Le +glv   ++
+       35 446 A--EIDLAADSINRYTGDLEAAGLVAIDRD 473
+              4..44899999999999********98886 PP
+
+  == domain 2  score: 9.9 bits;  conditional E-value: 0.0021
+  0048703  17 lLwklg.pltvkeiaeeleeelglspstvstlLkrLeekglverekegr 64 
+              +L+  + +l ++ ++++     g+++ t  t+++ Le  +lv+r+ +g 
+       35 951 ALVTADgRLEAGALVDAA----GIHRRTYATHMDTLETLDLVNRTDDGW 995
+              5555554899999*****....***********************9986 PP
+
+>> 0053941  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.0       2.3   6.9e+02      29      76 ..     443     488 ..     422     498 .. 0.75
+   2 ?    8.6   0.0    0.0056       1.7      14      70 ..     950    1002 ..     939    1020 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 2.3
+  0053941  29 aealseerdlsysTvytlLdrLeekglvtrerdgrryvylpltsegey 76 
+               +    e+dl+  ++ ++   Le++glv   rd      + lt+ g+ 
+       35 443 QDDA--EIDLAADSINRYTGDLEAAGLVAIDRDTTGSNQITLTETGKL 488
+              4433..6799999999****************9777777777776655 PP
+
+  == domain 2  score: 8.6 bits;  conditional E-value: 0.0056
+  0053941   14 evLwelgepltvkeiaealseerdlsysTvytlLdrLeekglvtrerdgrryvylpl 70  
+               ++L ++++ l ++ +++a     ++++ T  t++d Le  +lv r++dg   +  p 
+       35  950 RALVTADGRLEAGALVDAA----GIHRRTYATHMDTLETLDLVNRTDDGWGLTLEPW 1002
+               67888888999********....************************9876666555 PP
+
+>> 0045968  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.0    0.0019      0.57      12      59 ..     951     998 ..     942    1001 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.0019
+  0045968  12 lllledgrlsveeLaeelgvSrstvrrhlkrLeeaGliiesvpgkgyr 59 
+              +l+  dgrl +++L ++ g+ r+t   h+++Le + l+ ++ +g g +
+       35 951 ALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGWGLT 998
+              455569*******************************99999998876 PP
+
+>> 0048605  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.0       1.4   4.3e+02      31      56 ..     448     473 ..     437     475 .. 0.88
+   2 ?    6.8   0.0     0.021       6.4      11      57 ..     948     994 ..     942     996 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 1.4
+  0048605  31 lgvspstvtrlvkrLeekglverepd 56 
+              +++ + ++ r+   Le++glv   +d
+       35 448 IDLAADSINRYTGDLEAAGLVAIDRD 473
+              5778899**************98776 PP
+
+  == domain 2  score: 6.8 bits;  conditional E-value: 0.021
+  0048605  11 lilllllengpvsvselaerlgvspstvtrlvkrLeekglverepdg 57 
+              l+  l+  +g++  + l ++ g+++ t   +++ Le  +lv+r++dg
+       35 948 LVRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDG 994
+              677889999**********************************9887 PP
+
+>> 0038701  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.0     0.094        28      59     105 ..     449     493 ..     421     498 .. 0.74
+   2 ?    4.3   0.0     0.096        29      41      83 ..     952     993 ..     941     995 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.094
+  0038701  59 glskstvtrllkrLekkglvererspeDrRvvllslTekGrelleel 105
+              +l   ++ r+   Le++glv   r+++      ++lTe G+ + + l
+       35 449 DLAADSINRYTGDLEAAGLVAIDRDTTGS--NQITLTETGKLAKDCL 493
+              445668999****************9975..6788999998776655 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.096
+  0038701  41 LaeeggelltvseLaerlglskstvtrllkrLekkglverers 83 
+              L   +g+ l ++ L ++ g+++ t   + + Le ++lv r+ +
+       35 952 LVTADGR-LEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDD 993
+              5555553.9999***************************9865 PP
+
+>> 0039384  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   0.0    0.0029      0.88      13      61 ..     949     998 ..     940    1001 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.0029
+  0039384  13 llllleggepvsveeLaeelgvsrstvrrdlalLeelglvirrrgg.gyr 61 
+              +++l  +++ + + +L +  g+ r+t   ++++Le l+lv r+ +g g +
+       35 949 VRALVTADGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGwGLT 998
+              55566666779*****************************9999997765 PP
+
+>> 0053027  "Winged helix" DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.4   0.0    0.0056       1.7      10      51 ..     956     997 ..     947    1004 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.0056
+  0053027  10 egplsvaeLaealglsqstvsnhLkvLrdaGlvvaekegrrv 51 
+              +g l +  L++a g+++ t   h++ L+   lv+++++g   
+       35 956 DGRLEAGALVDAAGIHRRTYATHMDTLETLDLVNRTDDGWGL 997
+              56677889*****************************99865 PP
+
+>> 0054939  NTF2-like
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.3   0.0    0.0075       2.3      88     133 ..     570     615 ..     539     617 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 8.3 bits;  conditional E-value: 0.0075
+  0054939  88 grltgtvratGkpvevrfahvftfedGkIvelrvylDtaallealg 133
+              ++ ++t+++ G  ++++ a v  fedG+++++  ++D++  + + g
+       35 570 LHKRCTAASRGDGITLTDAPVRPFEDGRVTQVSLMEDSLHAVTQWG 615
+              5667889999999999***********************9999987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1143 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       522  (0.0338127); expected 308.8 (0.02)
+Passed bias filter:                      522  (0.0338127); expected 308.8 (0.02)
+Passed Vit filter:                       148  (0.00958673); expected 15.4 (0.001)
+Passed Fwd filter:                        52  (0.00336831); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):              51  [number of targets reported over threshold]
+# CPU time: 0.58u 0.09s 00:00:00.67 Elapsed: 00:00:01.85
+# Mc/sec: 1662.58
+//
+Query:       38  [L=42]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (42 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       189  (0.0122425); expected 308.8 (0.02)
+Passed bias filter:                      189  (0.0122425); expected 308.8 (0.02)
+Passed Vit filter:                        23  (0.00148983); expected 15.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.21u 0.10s 00:00:00.31 Elapsed: 00:00:00.73
+# Mc/sec: 153.64
+//
+[ok]

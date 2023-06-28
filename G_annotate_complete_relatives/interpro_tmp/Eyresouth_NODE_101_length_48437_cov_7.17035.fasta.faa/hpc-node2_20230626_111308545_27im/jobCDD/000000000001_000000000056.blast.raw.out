@@ -1,0 +1,8949 @@
+Blast4-archive ::= {
+  request {
+    ident "2.13.0+",
+    body queue-search {
+      program "blastp",
+      service "rpsblast",
+      queries bioseq-set {
+        seq-set {
+          seq {
+            id {
+              local str "Query_1"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">1"
+                  }
+                }
+              },
+              title "1"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 420,
+              seq-data ncbieaa "MALDDPQDFAGRLHDERVRLKESSSVHERDRKMIERWLHRIDGRVT
+ISTMEAYLRRCRLGSERCEVPLLDLTLDSWHDFVFQLRHEHELSDSTVQSYENAILLYLQEMTDAEWPDDADRTSVDT
+EGPCADDILAEPDIHDLITTARHQRDVAFIEFLADTGCRLSMALSLRVKDVSLGTPSTYTPNSKARGLKGADIAEYPL
+IDAAAAIRTYLNTAHPRPDNPDVALFHKVKPAAREGDGRWSDDGGVAPNAMRQQLSRIADRAGVSKPTNPHAFRHSAI
+TRMVREGYSRSQIEHRVHWTLDTDMWETYEHITSTEHNDDIFREAGVLDPEDGPDRVRKQCGNCTTSLAPHHEFCPTC
+GQPSTPGASETVDEGRDSVLEELVSATDSSTRRELAALLEELDDRPDLAATRPEEPASSSSS"
+            }
+          },
+          seq {
+            id {
+              local str "Query_2"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">2"
+                  }
+                }
+              },
+              title "2"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 120,
+              seq-data ncbieaa "MGGKLKAAVSWPVEQVAGWWENTKAIVSSLSWEDAIPPAVLSSAAW
+TKEKLYLSLGIGTPQEQMSASFALGVAAWISSAISLGLTIPIALFFTMTFVIGAFRLWPVVDDVWPFGAAGTPR"
+            }
+          },
+          seq {
+            id {
+              local str "Query_3"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">3"
+                  }
+                }
+              },
+              title "3"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 594,
+              seq-data ncbieaa "MNDASNTTTNHEREKTLALDADAEINLPVLDVLSGRGFLTGKSGSG
+KSNSASVIFEELLSHPDGPYPFLAVDTDSEYWGLREEYELLHLGGDDECQARVGPEHAEWIAETVLVDRVPVILDVSG
+YADEGGTDVDSDIGRELLESVATALFTKAKAHKQPTLLAVEEIHEFIPEGGKLGSLGQRLVKIGKRGRKHGLGIMGMS
+QRPADVKKSYITQCDWLLWHRLTWNNDTRVVQNVLGSEYADAVETFDDGEAWLMTDWDGDVQRVQVRRKHTFDAGARP
+GLEGIDRPDLKDIDDDLLAGLDDVAEEAAQRRDRISQLEYQLEERDGRIEDLEDELAQARDMSAMAEQFTDALLQQDT
+AEGGDGASESGGESPQQVIKAEVMEVRQEKRALEQEVSEKDARIEELEERVADLEPYEERVETLEEKLDMDEAAEAVE
+RLADALGLPLADDEKLREKVSEQRERVAELEAKLDAAEQQGENGSVSASGSMDDLAGLVSHDAVQAAMQTAKDASSYA
+DEHFDRVVSILASSDGGAKTAGEIAPLTDISESSIRGVLKELQRSAILQTEQKDRAAAYRLDEETLRRRIEVAEQEAS
+LR"
+            }
+          },
+          seq {
+            id {
+              local str "Query_4"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">4"
+                  }
+                }
+              },
+              title "4"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 553,
+              seq-data ncbieaa "MTDAHRSDNDQIESLHLTDLVDTPQDLPDLRSHIKTLRDELNEHRD
+DDEALGVNDLIPLTPKNDVGYIRPSELEAAEWIADLYEQEDRPEIHPRGLHYQLLGKGYTRRNGEPYRNSTECWEELK
+QALKWARVLGLIDSDRIEDESTDEPIYGAFNDPDDAGTFRTDTTGHAGNGVRPAAFNDHVDRSHIHDGYQTPRIETTL
+QAASLLYNTYTEFVDNAVDALVDNAFEAIEYDLAAHQPYYIEIWSEKAGVIPEGIADEYGATIRSKKGELSLSMCEEA
+INVAEQRGQDLAVITVTDYDPKGADMPRAAGRKLEILAAMSDADLDVEVVQGALTKDQVREYELPGAPGTKPRGLEHG
+NTGAKGYQTHKDIFRAHAGQHPVEIRAFRSNYPAAFESAVERLVTKFYDTTLDAEIEAAIDEARERATDRLHALFNDR
+DDVEAAFQDLRVAMERYQEAVEPAFEAAARGLERLKDADAAARSDERVDDHRRRLSDRVEELEYQQALRDVEVPVPEG
+MVEGVEDAILDTRRGLLEQLRAYARHDVRGDQPLLDDHE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_5"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">5"
+                  }
+                }
+              },
+              title "5"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 114,
+              seq-data ncbieaa "MTTTTTTRSEAERIEARSELARALARGGMEDVQILSLEEAKEVNTP
+KRREIIEALSKGEYESVRALARELDRDKGQVSRDLALLAEHGIVTFDTDGRAKSPRLAQQRLLFEPIV"
+            }
+          },
+          seq {
+            id {
+              local str "Query_6"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">6"
+                  }
+                }
+              },
+              title "6"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 78,
+              seq-data ncbieaa "MGDTEKNPRVTFNERTSIWLDEQYPAAMTDPEKVRMAVNDAMSLHK
+LNQRLMDATAELLVERGEVPIQSEDLEAVADE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_7"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">7"
+                  }
+                }
+              },
+              title "7"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 312,
+              seq-data ncbieaa "MGLLSRTDISWRVVGIVALALVLTTSLAVGVLSAGVVAEEEADTDT
+DTETACETVVVHDAYMTDEQAIEAVANGSTVRSTEQNTQVVLGESNTFYTIEGTNPNTYCVHFVVKVSSDAMTPAQLP
+AEIQSDDGDHEASWDAMHNFSSGETHTQIEFTLPADTTARWSPHEMRIESIAWASTSRRKATGMFDQLRQRFTGEDEV
+VKRKYDITANASGEQVTIPLENPETGESIDNWRARYTLNDGFSWHTLGTSAEDPVFYTEAQDGSSIRVTFQNPDARVK
+FIANPTRKDEITEEWTMWESGLKEIGSRMPWN"
+            }
+          },
+          seq {
+            id {
+              local str "Query_8"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">8"
+                  }
+                }
+              },
+              title "8"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 90,
+              seq-data ncbieaa "MTEYADATLNQNGRALQLYLGVELVHDSAFPLAAEDDVFVHPIGRD
+GFLVLRQSALQSAYPITVDEPPEPLQEPLEFDASTLTTERESYE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_9"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">9"
+                  }
+                }
+              },
+              title "9"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 122,
+              seq-data ncbieaa "MSQSDFTYRLAAGERRGIKYLIGVRHDPSINNVDSFAAILFFPLDD
+GTRIEVAKIDDSAHDGERDIHIDRYYREIGADVKDFDPDIEDWMDAEEYLRENWERLVDTYFQNHGAIPRMDAKNI"
+            }
+          },
+          seq {
+            id {
+              local str "Query_10"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">10"
+                  }
+                }
+              },
+              title "10"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 239,
+              seq-data ncbieaa "MQWKVRLKGDVAGLASLAESFTDDPEIFEEDGAYFLRSSEFEETDD
+VEQIREVTEGILRSIRQFAPRDSVTVNDLDSETIYAIEQDGSRRFWKYSLFERGLFDGPAQAEVDSEEGSGDVYLPAD
+RTYEWTQLAMEDDQVGELVDLLEQGSNWVNLNRILEFIEDNIHDGDNIIEHGWWSEQEKSLFTHTVNSRDAIGAESRH
+GFELDESPSDPMSHTEAARLIETLVDRWLQHRQNAQT"
+            }
+          },
+          seq {
+            id {
+              local str "Query_11"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">11"
+                  }
+                }
+              },
+              title "11"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 319,
+              seq-data ncbieaa "MSPQIEVQNYGHSTRNGGDVRIYSGEAPPHHELRGDAVVIGTLELR
+PWKTSDVGISNLRFRRDQSGIAALLGSVLVADLAESPTTKQHHERTPSTTDERDDDYVLTRRALLAAATTVAAVGATT
+RNSRAATPSASDVAEFRIEENPQGVQIGVTDGLEDHLPTDQEYLVSVNGERRGTFKPGEERLTLPPETTGDVEVSSEN
+AAGTFGTIMAQYFSKDDLEFTDIAADGLATSEQYSDRVGERIVLDDHLIADAASDRPGDAVTLTIGGTEVPHANADTA
+DIGYWHVQGGDLMYTIGEAAPDARLFSITIDGDSGFGVF"
+            }
+          },
+          seq {
+            id {
+              local str "Query_12"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">12"
+                  }
+                }
+              },
+              title "12"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 455,
+              seq-data ncbieaa "MRGTIQHAAVVVVAILLAMTLLASPFAGVALAQNETASTTPTPTSE
+TATSDGGDGVVDVGSGAESDSGNDTSGPSMADGLRLNPIAFDEDYARIETIESDTRYNVTGKYAVFASNIDVKTARVT
+QPGSEARVMDGQRTIEVTFTDDAAPSSATYYEIELFFQDDSKYVVEVFVQNTDLMVSTVDMRDAHEFVERIKRDAEES
+ESGYNVEERGIAAAEDYYEDKKEMADLLSNIFGPTIEKFQLWAIATVSSALAIILICALLIFFLRRVKSAHGQKLEAL
+VNTPNLQDIKRQAMTYARLEDRQQAAEHPLHEVSEIGRDHVYWIDAADVHNVKQLADLFHFGQVRFEDGEIVRDEDDA
+PVMEHTGLDALIEADRLRDTWIEPVVRDGMLSEQDAIAHGKAALDLMASKYNEPAYRESRLKVRELLDDLSEGRSYSF
+GTGTTGMGGISTGSTGADD"
+            }
+          },
+          seq {
+            id {
+              local str "Query_13"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">13"
+                  }
+                }
+              },
+              title "13"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 826,
+              seq-data ncbieaa "MSSADEDEDPGEADLPGQSTRKHLTDLQAEDDAESVEAAIDGLIQN
+QRERRRREEDLGTEAYVRELQVAARRRIAEKEEYDAGLLLGEMRDVIERDSDLGTYIEGRPDELAEALDIPLEKASSL
+KATWRRHGKIRDRGRRFPDPEHELKVLSAFAKALGYMSSVSDPTRYAPVRFEAIDEPGAKTQVDEPTPVGRIRISRSS
+DVSIEDKTVEIPHKSCDHVLAIALPRRGKDSTLASFGKNLKEEHQYSYFSIYDDGRMETPMMAVANDDRGIQKNLERL
+GQEPDAMDIEVFVPRMTGLPEKLPANFTPFTISIADFTPSIILRLAGITKADMDAEARVKRALEETLANDGDVSQLVM
+RLQIYANETDAVIEWTEVEERPSGGDVETYQAEYAMREDEALRKAAAQLARLAGEGLIASPSASTNIDMEAVIREQET
+AAVLCCNFLQSSREALKYTIIDLWLRLIYEARDSNPRLPRVCLEIRELKNLAPSKWGDASYKDAIKPLRQTLFFLSSQ
+GGSRRIMMLASTQKINDVYKPIRSNMATKIMLQLNDEGIETLDRSIHFSYEQKDQLAGFDIGMGMIYAEGDAHWPIEW
+RGAPCGLGLGDYHWLDRYGEAMGARVRTSHRIGWKAGTKPDWWVHVPDASVVDADDRAPRVGDYYSEWYLLPTDFPDE
+TTPEDVDEPLVREALAERRDYPLKSDLMLLPSDVRARQTTMVMNAKDNETAKEEVIKECSIPHPVQDWLDKQRKTRKK
+LVEAVLGIAESDEDSIRTQQAWADELSYSRSTLANYTGDGEALDPCIEKTEDGYYALTPTGQAVARVDWETVEANLYD"
+            }
+          },
+          seq {
+            id {
+              local str "Query_14"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">14"
+                  }
+                }
+              },
+              title "14"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 152,
+              seq-data ncbieaa "MSDDATHKLSREVVESRMYQLRRSGDGGLEIDHSTDSQLVEFDEKA
+TIGCSCGERFRKEETALAHLDDVEAEQRDYDREALLEAYREAKPDNGPPYVPWSVFRAAYGEGAVDAFLAAVNGGDVE
+IEATKPGIRADGSWPLRNVGRLWLSFNF"
+            }
+          },
+          seq {
+            id {
+              local str "Query_15"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">15"
+                  }
+                }
+              },
+              title "15"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 263,
+              seq-data ncbieaa "MTTNQTPTPIHDARREKTFADEYNETLTEIPLQAITGTKLTHSCNI
+DITYRTNANTHRTIRCYHASEPASYNETPEGFYSWYYDGTEYAYSPDDQRLITINRNGSNVTVATSDDIVRVEEVEFG
+ERAPVAGAVTSDVEVTIYYRSPRSDTMQSVTVDVGRLESRRSASEISGVDEDGRKIVAKTRWEREIVAGRGRRKRTLG
+RVARVEFPRGKRLTVDVENVQREKIEDRLESIEQVIAEKAFRHSDDVEVSVEIDGDLGWDE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_16"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">16"
+                  }
+                }
+              },
+              title "16"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 90,
+              seq-data ncbieaa "MPEKTSLSLNYPTRDLVREIAPSWMEYDDFMLELLIQYDSSTLHID
+PRSTDYSQRLKYAMQVQDVDPRALDYESELVNFELPADATPLSP"
+            }
+          },
+          seq {
+            id {
+              local str "Query_17"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">17"
+                  }
+                }
+              },
+              title "17"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 101,
+              seq-data ncbieaa "MAQQTDADTNRFSEVDFDDDSPLTILKDHGFFPYSGADGDLFRKNG
+FAGWRVSVYGRYYVRIQKKNDRGTWVTQEQWENDNHEQLTSEQLAEFDAELEELV"
+            }
+          },
+          seq {
+            id {
+              local str "Query_18"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">18"
+                  }
+                }
+              },
+              title "18"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 45,
+              seq-data ncbieaa "MENVITEAAQSGWSRDDDHDDVGVGVGVDDYGVSHVAESTKVPTR"
+            }
+          },
+          seq {
+            id {
+              local str "Query_19"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">19"
+                  }
+                }
+              },
+              title "19"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 104,
+              seq-data ncbieaa "MSTTALIDAVAQSQTNADDDADTRFDVSSDVFDEFDARLEDLHWRE
+NSDGILLVADTARRPETVVSIRLNGLTLDASQEDPRDVNWQRAETLSAPDTQTNPQFD"
+            }
+          },
+          seq {
+            id {
+              local str "Query_20"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">20"
+                  }
+                }
+              },
+              title "20"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 511,
+              seq-data ncbieaa "MAQQTEAATDEPLQDTITSLVNKLLDAHYDAHPSSNAFGASYDEPN
+RPDAGTYYLGREHGADGADSDTGFDYLYRRFRDPDDPRSEDTAYVYGNYGWMDTSELVDEARLLRAVFDEARDAGYLT
+DSDLDRFDQAVDAQQHSLRTTREQYDLGDLADLFRDHDIETLRTLLAHGDEEGRTVWQLCYSKNEDGDHIENTISVPV
+VSETDQFMLVTTERYYYDDQTHDGKHYDYAAVVGYDDTPQRFFVHRLDGNVLRGIDDWTPATVKDAMGFDYNLHEVDT
+VDLPYGERVRVQGDLAVVRHDYDVALDDYRETVLSNSLNSVRREYAESYVDAHPAVDDHDDLSISSYGRVRVRADDTD
+AIKAVQDVAGVEEDAVRAMQDARGYSRLTANRRAEIVADLVRRDIAEWASEHEDVMLAAIKREAREDAREAFEDTVEQ
+SNAVLGNHTLLLSGVAEHPDVGFWSDGSLAAFVVPERAEGLVIHDEHEDKALELDAGVYEFRFLDGHQDEWWQSG"
+            }
+          },
+          seq {
+            id {
+              local str "Query_21"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">21"
+                  }
+                }
+              },
+              title "21"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 241,
+              seq-data ncbieaa "MSRFAFDIETVSPDVPHDEKPNFTDPRDFEFLISAVGYQPTPDAEI
+ETELFFRDGWTPEAELEVIESTLDWFDARTTGDDTLYTYNGERFDLHHLQGRASIASTQIGVDGVVDRVETFIADIEH
+VDIQHDAKHVYGGYPTLEDVCFKNNVPVDRTHLSEYGIAEEPLNETRSSRAWGTSYLVNEDVPVLGEDYLDAIADGET
+GTEAFENIRAAFDHYARADIEPLFQLADARPFAPTTDAR"
+            }
+          },
+          seq {
+            id {
+              local str "Query_22"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">22"
+                  }
+                }
+              },
+              title "22"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 96,
+              seq-data ncbieaa "MENSEIKYALTVRMFKDDIVVDQRYADVETVARYASIPRSDEGNAK
+ALLEGEMVQNDDCPVIKTGAGMVALKADTGAINTYLESLEAEMDLPWELR"
+            }
+          },
+          seq {
+            id {
+              local str "Query_23"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">23"
+                  }
+                }
+              },
+              title "23"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 420,
+              seq-data ncbieaa "MSDATDPYPAAGTKHPSLCSLDELEERYWDDVAPDMRVAGMDPDSD
+RPTYKWLSANGHRDLLYALKEYHGLSFGDFWTETLGLASGETGYNWSIEHEATIEEAETYIEQKTNWTESTANTHRQR
+LNRYLEAYYAENGEQDVLERVRPEADVPPRDAVDACWAAFSRLERDPELSDATIERIYRAVNSWYSYLLVRRVIALNP
+ADGLRDVRGWGQDDGSSASPTALSATQVRAIYDAAHSNRGRVLVVALCAWGLRPGEVAALHRDQLHLDAEQPYIEFET
+RKNGPGTVTVVYGQHDGRVRLSRLRRSEDWNGYLFPSPTSQSGHRTRGTILRWFKELCRDAGIEDVEGESPKAKMGRR
+FWYNAYSETLGDILEFVGKSAEDQGSSDPRVVMEQYLDDERERELRRQFMRARLDDAFDGAD"
+            }
+          },
+          seq {
+            id {
+              local str "Query_24"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">24"
+                  }
+                }
+              },
+              title "24"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 403,
+              seq-data ncbieaa "MTDEIYPVDPDTGDKIDTAAFDLNGDEIGAGSVEGYFRLVDADGEL
+TGDAVELPDGTVIPSGATAAVDLTPRDADGDTLSDQGVTVNGTLYGNASSGGGSGGGSVSLSVATNSIQQVGTEEFQV
+TGDLTELSGTDSADVYVEYRQTGAASWQSTTKTSQSSTGTFNVDVTGLTHDTEYEARAVVESGSTTATGAEVTQTTAI
+TVDDWERSTLDHYTGDTGNAAIVESNGVFHGSKALEVTATSGNKSIITSDSGLPHYPDDTDPFYLPVEFDTASTRLFI
+YYEYAGSNNWYRFTFGDDKIEIRERESGSDTILDDTTSPSVSAGTQYILKFDYTQGGTHTVTVYDTDGNQVSQFSGTA
+PNTITSSAIRLGTNDTGSGTKKGYFDYARQRGDLIPAGTGGGSGN"
+            }
+          },
+          seq {
+            id {
+              local str "Query_25"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">25"
+                  }
+                }
+              },
+              title "25"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 78,
+              seq-data ncbieaa "MAQQTHPVDAYTAARNGYNGFLGWAHYRQTNLGLHVDSDNETVDIW
+SADDTDLHTTIEATDTCNQFLDDLDAALEEAA"
+            }
+          },
+          seq {
+            id {
+              local str "Query_26"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">26"
+                  }
+                }
+              },
+              title "26"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 90,
+              seq-data ncbieaa "MIGYKSALLGVALLPLIPAVLVGGGFVIAILFAAAILVVGFGGPKL
+WQLHNNKSLGAKGRDNDVRDYMSPSRSSNENPRVQRPGNNREDR"
+            }
+          },
+          seq {
+            id {
+              local str "Query_27"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">27"
+                  }
+                }
+              },
+              title "27"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 323,
+              seq-data ncbieaa "MTNGDYADRFESFIQDHMAEEIGSMADEYTTSNRSLRIDWQQLRDV
+DPALADDFLNRPDTVRQKAHEAMIEVIPGLRREIQNAGPHGRANVRVRGLPDDRQRLVGKCRTNDLGKLLCVEGEVAD
+TDRVSPLAEVAVWECQRCHSVTRQQQFYGRMVEPHQCPDCEAKGPWVLDREESTLVDHQEIALMPPDPQRDDPPFLSV
+FLDDDITDAVGKGDIVSVVGVYDTLPSQNETVLNTYLDAYDLDVEEYAEAGVDGRELEDSIVEYVIERQDDGSSWGVP
+YEAVVEHFEADGVRRREIENTVDEAKGDRDLAEANGKLVVPDA"
+            }
+          },
+          seq {
+            id {
+              local str "Query_28"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">28"
+                  }
+                }
+              },
+              title "28"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 250,
+              seq-data ncbieaa "MNNLDRHGTTETEIESLSRSRQNLSYVRQELIEYRPDIVDDTLRER
+ITEWLAAGTDRTPASAQEHLSQTLHSIRDDNAMYRETGMTNAEDAFPDRCRGCPHYGTRCPVLTKTSAIKHRERIFQE
+TDDPAERRRKLREYAIEHNCHVIKEAIDELAEDHEPLLAEGQLLLMLVEEELLHNETDEELIRKLTNKVEHVRGKRVD
+DRGHAGRDETAAAGETPSVDKDDAEATAGDVPLQADGSGHTEVSDGGA"
+            }
+          },
+          seq {
+            id {
+              local str "Query_29"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">29"
+                  }
+                }
+              },
+              title "29"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 124,
+              seq-data ncbieaa "MSYIPWETEVDASLGDHLIGSPPEDAVSFVIRPQDDVGLPAASAPN
+YVAVDLEHPVRLQLRDTGREWLFSLDDRAARFSGFGVTSVAPPRDTPPDRLPGWVIAVLNYAGYRVGTLVDSATCETP"
+            }
+          },
+          seq {
+            id {
+              local str "Query_30"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">30"
+                  }
+                }
+              },
+              title "30"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 344,
+              seq-data ncbieaa "MSRFTRLSGVAAVAILIAAVAMTGMALAGPPLGVDSETVNTTSTSD
+ITAGANITSFSANASNRTLIEGKFGSTNASIEIINPDNGRVVASNSSDAMNQSFNDTTNSTYHYQWNLTHDELETLDI
+DASENKSMTLKLINDTNAASPNTTKVTFYVENTDDRAVIYAGDAAANGDHTGLEVTNEGGDDGFLGLMSADNSTTVND
+DGTTIGNNTTMYVVMANTSGSDVFSDAKEQKLFGSYEEGDFIRHHRILVDGNEHAVFIDDAPSDAADDVTYAETTTLG
+GEDAYAVHMGDEYDAGTSVSVEAAANDPYGLYDAYGIEADALGTNRFSTILGMVGGNGLFTAAS"
+            }
+          },
+          seq {
+            id {
+              local str "Query_31"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">31"
+                  }
+                }
+              },
+              title "31"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 365,
+              seq-data ncbieaa "MTKQVVDSGVSDADGVDYKDVDGDGKRDFVVGDGADGDVAWYEQGA
+DAQTWTRHSVATGFSEIEGMAAGDVDGDGIMELVICDQGGNDLAIASADTSDPTGSWSTLTLDSSAKNCTTARVIDIN
+NDGNPDVVYSYEGNDGTTGGLYWFEFSGGDPLDGSNWTKHEMFAKPGAYIFSPTRQDYSGDGNATDFVLAARYNSGYN
+SGAEGGLHVVKEPSDVTSTWNVDTYNSGETFTHVSHGDLTGDGDTRDVLVRGSGNVYEFLWDSGTSSFSKNTLLSSKT
+YHNAVALDVSSSDIYDMVTANKSDNKLELRIYDSDTDSWPVSDSFSQNKSDDELIPYDVNGDGTVDVATVEANGSSVY
+WGKIEQA"
+            }
+          },
+          seq {
+            id {
+              local str "Query_32"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">32"
+                  }
+                }
+              },
+              title "32"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 224,
+              seq-data ncbieaa "MTRNTTTAGRRIGSVLIAVLLTVAFTGAVAAPAAAAEQDEGSWTDG
+IYETGASFFDHISRVSGTFAREYDKRLGGNPGKSANETIDDFAETFNRMAASDPTFGDYLDGRVNATDNRLTYEVTCE
+DREGNQATRYIVADRDGDRFENETMVTTSEFEAMNRTVDYWLVADWYACENAESELNKFYDNNVVGDEDVSRSEKLRV
+QAQYMAGVETNLWGDVENTTAS"
+            }
+          },
+          seq {
+            id {
+              local str "Query_33"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">33"
+                  }
+                }
+              },
+              title "33"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 174,
+              seq-data ncbieaa "MTEESPFPRDNRKSAEFSDCCEYRYRLTRRWNTSKPACAFITLNPG
+TANQFRSDPTIRRCIGYAKAMGYGTLVVGNLFALRSADPECLYEHDDPVGPANDEHLQEIAECVDQVVAAWGPHGCYM
+DRGREVTELLDGELVALDVEEDGHPSHPLYLPKDVEPEPYQGPGGVGADD"
+            }
+          },
+          seq {
+            id {
+              local str "Query_34"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">34"
+                  }
+                }
+              },
+              title "34"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 55,
+              seq-data ncbieaa "MPVDDLTDAELQNRHDDLLRLQKQDLDAGYSEGARELARERNRLWN
+EAQARGITL"
+            }
+          },
+          seq {
+            id {
+              local str "Query_35"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">35"
+                  }
+                }
+              },
+              title "35"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 91,
+              seq-data ncbieaa "MLFNLGIAIVLFIAAILVGELLARRNQSGARLWGDFSQMMGAAFYF
+AIFALALLFEGFRIVAFPLAIVFWWVFRTKSKDIREGNWRRRVNG"
+            }
+          },
+          seq {
+            id {
+              local str "Query_36"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">36"
+                  }
+                }
+              },
+              title "36"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 1176,
+              seq-data ncbieaa "MTTTKPVRYFAIIFTALIVFSVFAPFIPLVTDTTDGVTGTASAAAT
+NDSARFYDGFENGTVGTSPANFSVVDSSADTFEVDNNTVNSGSKSLHGTESVSGRTVARPDEQPYSENITEPFRISVY
+IPTASESGGNTNIVNVLTLNRQGEVTDYTKQAAFVRINGDTPNGGAESFTINVQDNGTNTKVADNITAGEWYDVRIYN
+VDPDADTYSVEWDSASEYGNVHDIGMDGDMVEGYQTAEWEFGNDANMDDYEIGAGSVASHGVSGFVTDQNGDPVSDAT
+VYATGIDTQKPPQINGTDFDALLDNPLPADWDSQLNESGFGKTEIDTDDVESQRAVLMHSKEQWDIHGIVEHGDLAVA
+PSAELNPPLTQIPVGDDPFFSCWELNPDTSTSLLTVEGSIEASLPNAHYSECDSITFDRLDPLGGVADTTNYTTFAVA
+REGRLLPPRKKEYRAAKPDLGTGVYRVYPKGNPDKATIYAVTPEDGGLDSLEVDLENQIGNVQDAKSKFHKEYQQLLE
+NGDVQIKNVTTNSSGGYSIGMPNTVNRADVVAIDGGPGVTPHPSVTRDRVRQRISVVTQQNFEDLSGKTFSESEAGTK
+QFADACRKMESVANVAGTPFAGSTRGVDVPDSDVNISGQRGLLDALDPKVRDCYRLNLIEDINDDPLNVIPAWIGDLD
+SLTTDQIIEYAQMVLGLVNANPEIREQVDANVDNLPSEPSDINDRGTAVDVLKEGLGAIDSPTSDTPVGPGGGGGGGG
+GVDCPINAVCGGPDEETPDIDEDDIEETADRVNETISRTWPVTGVDDWDEAGVLIHVRYSNGTAKLLDRDSSYVEIDE
+NAVGADKVILDEFPFNATGAPLAEVELDIATPKGIDRQKGRVRNPNFDGDIPGLASVRISNTAPGPSDSVTVAAAPRD
+DAVFGGVASVNVSGPDCSRSATAADNEASFETCGEGTHRIEVRFTNADGKQFREVLQVDAKPASQARPPAIRAATGPT
+GRYAVVGNGIERGTIEVTDGTKTVILSGVIPGDAEPPSRVVASTTGVDVARDASTTVRIQKGDTEQSIRDRVSVLLHV
+DPVNEDSLLYRNSRAIRNPGETETATVTHEDSSTTIDTYTGETAEVSIEVTRNPSLVEQTLHAVQLRFPSLPSVQTAS
+VRDTGLDVVLGFVFLVVGRRRPPRPSVDAPTGAMEAAG"
+            }
+          },
+          seq {
+            id {
+              local str "Query_37"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">37"
+                  }
+                }
+              },
+              title "37"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 197,
+              seq-data ncbieaa "MTVTTDDVRDRWEHIEQSVPADKRADVPDHATVFAAWRSTGDTGET
+ESVSVYRAAGDEWHVTALRGGESDHVGKYNRQGPAMNAAADERRAACTDGREAERGRPSPDDAELLTAIGEVGGRYHV
+LRALEAVRALNEMDAVAVAEHEVDVETADVEAIAAAFCESWDVWTGDVMGVFETVAWAGRVEERYGGEADRYV"
+            }
+          }
+        }
+      },
+      subject database "data/cdd/3.20/db/Cdd_NCBI",
+      algorithm-options {
+        {
+          name "EvalueThreshold",
+          value cutoff e-value { 1, 10, -2 }
+        },
+        {
+          name "MaskAtHash",
+          value boolean FALSE
+        },
+        {
+          name "SegFiltering",
+          value boolean FALSE
+        },
+        {
+          name "HitlistSize",
+          value integer 500
+        },
+        {
+          name "CompositionBasedStats",
+          value integer 1
+        },
+        {
+          name "SmithWatermanMode",
+          value boolean FALSE
+        },
+        {
+          name "DbLength",
+          value big-integer 3442496
+        },
+        {
+          name "MatrixName",
+          value string "BLOSUM62"
+        },
+        {
+          name "GapOpeningCost",
+          value integer 11
+        },
+        {
+          name "GapExtensionCost",
+          value integer 1
+        },
+        {
+          name "EffectiveSearchSpace",
+          value big-integer 575228280
+        }
+      }
+    }
+  },
+  results {
+    alignments {
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 161
+          },
+          {
+            id str "blast_score",
+            value int 161
+          },
+          {
+            id str "e_value",
+            value real { 207747893726648, 10, -27 }
+          },
+          {
+            id str "bit_score",
+            value real { 659643001696598, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 37
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 63
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 388333333333333, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 11,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271175
+            }
+          },
+          starts {
+            148,
+            17,
+            197,
+            -1,
+            200,
+            66,
+            -1,
+            70,
+            204,
+            71,
+            217,
+            -1,
+            228,
+            84,
+            -1,
+            123,
+            267,
+            125,
+            300,
+            -1,
+            301,
+            158
+          },
+          lens {
+            49,
+            3,
+            4,
+            1,
+            13,
+            11,
+            39,
+            2,
+            33,
+            1,
+            8
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 143
+          },
+          {
+            id str "blast_score",
+            value int 143
+          },
+          {
+            id str "e_value",
+            value real { 733136935251816, 10, -25 }
+          },
+          {
+            id str "bit_score",
+            value real { 586764871999066, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 44
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 64
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 383571428571429, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 17,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271179
+            }
+          },
+          starts {
+            128,
+            3,
+            143,
+            -1,
+            147,
+            18,
+            182,
+            -1,
+            187,
+            53,
+            191,
+            -1,
+            192,
+            57,
+            -1,
+            61,
+            196,
+            66,
+            200,
+            -1,
+            204,
+            70,
+            -1,
+            86,
+            220,
+            88,
+            -1,
+            96,
+            228,
+            98,
+            238,
+            -1,
+            252,
+            108
+          },
+          lens {
+            15,
+            4,
+            35,
+            5,
+            4,
+            1,
+            4,
+            5,
+            4,
+            4,
+            16,
+            2,
+            8,
+            2,
+            10,
+            14,
+            35
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 142
+          },
+          {
+            id str "blast_score",
+            value int 142
+          },
+          {
+            id str "e_value",
+            value real { 117290106073307, 10, -24 }
+          },
+          {
+            id str "bit_score",
+            value real { 585817612437191, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 48
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 80
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 438333333333333, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 15,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271186
+            }
+          },
+          starts {
+            131,
+            0,
+            -1,
+            49,
+            180,
+            58,
+            200,
+            -1,
+            201,
+            78,
+            207,
+            -1,
+            210,
+            84,
+            232,
+            -1,
+            245,
+            106,
+            -1,
+            117,
+            256,
+            122,
+            267,
+            -1,
+            269,
+            133,
+            -1,
+            160,
+            296,
+            165
+          },
+          lens {
+            49,
+            9,
+            20,
+            1,
+            6,
+            3,
+            22,
+            13,
+            11,
+            5,
+            11,
+            2,
+            27,
+            5,
+            17
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 138
+          },
+          {
+            id str "blast_score",
+            value int 138
+          },
+          {
+            id str "e_value",
+            value real { 486800242176628, 10, -24 }
+          },
+          {
+            id str "bit_score",
+            value real { 569022899563213, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 44
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 63
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 390714285714286, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 17,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271183
+            }
+          },
+          starts {
+            131,
+            8,
+            138,
+            -1,
+            142,
+            15,
+            180,
+            -1,
+            184,
+            53,
+            191,
+            -1,
+            192,
+            60,
+            -1,
+            73,
+            205,
+            74,
+            -1,
+            90,
+            221,
+            91,
+            228,
+            -1,
+            249,
+            98,
+            -1,
+            108,
+            259,
+            110,
+            -1,
+            114,
+            263,
+            126
+          },
+          lens {
+            7,
+            4,
+            38,
+            4,
+            7,
+            1,
+            13,
+            1,
+            16,
+            1,
+            7,
+            21,
+            10,
+            2,
+            4,
+            12,
+            30
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 130
+          },
+          {
+            id str "blast_score",
+            value int 130
+          },
+          {
+            id str "e_value",
+            value real { 382940977124658, 10, -23 }
+          },
+          {
+            id str "bit_score",
+            value real { 538176882621082, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 34
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 62
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 381190476190476, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 9,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271193
+            }
+          },
+          starts {
+            130,
+            3,
+            182,
+            -1,
+            187,
+            55,
+            -1,
+            73,
+            205,
+            74,
+            216,
+            -1,
+            221,
+            85,
+            -1,
+            92,
+            228,
+            93
+          },
+          lens {
+            52,
+            5,
+            18,
+            1,
+            11,
+            5,
+            7,
+            1,
+            60
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 129
+          },
+          {
+            id str "blast_score",
+            value int 129
+          },
+          {
+            id str "e_value",
+            value real { 625092176017179, 10, -23 }
+          },
+          {
+            id str "bit_score",
+            value real { 533996111684599, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 38
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 55
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 355, 10, -1 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 13,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271188
+            }
+          },
+          starts {
+            142,
+            14,
+            178,
+            -1,
+            185,
+            50,
+            -1,
+            54,
+            189,
+            56,
+            -1,
+            73,
+            206,
+            74,
+            231,
+            -1,
+            232,
+            99,
+            234,
+            -1,
+            244,
+            101,
+            -1,
+            126,
+            269,
+            127
+          },
+          lens {
+            36,
+            7,
+            4,
+            2,
+            17,
+            1,
+            25,
+            1,
+            2,
+            10,
+            25,
+            1,
+            20
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 126
+          },
+          {
+            id str "blast_score",
+            value int 126
+          },
+          {
+            id str "e_value",
+            value real { 117029345131746, 10, -22 }
+          },
+          {
+            id str "bit_score",
+            value real { 5232908497745, 10, -11 }
+          },
+          {
+            id str "num_ident",
+            value int 32
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 51
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 357380952380952, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 9,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271177
+            }
+          },
+          starts {
+            139,
+            14,
+            193,
+            -1,
+            198,
+            68,
+            223,
+            -1,
+            237,
+            93,
+            242,
+            -1,
+            245,
+            98,
+            270,
+            -1,
+            271,
+            123
+          },
+          lens {
+            54,
+            5,
+            25,
+            14,
+            5,
+            3,
+            25,
+            1,
+            16
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 111
+          },
+          {
+            id str "blast_score",
+            value int 111
+          },
+          {
+            id str "e_value",
+            value real { 96968362484647, 10, -20 }
+          },
+          {
+            id str "bit_score",
+            value real { 466951723737801, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 44
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 69
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 383571428571429, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 13,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271195
+            }
+          },
+          starts {
+            128,
+            4,
+            139,
+            -1,
+            143,
+            15,
+            176,
+            -1,
+            179,
+            48,
+            201,
+            -1,
+            202,
+            70,
+            213,
+            -1,
+            214,
+            81,
+            223,
+            -1,
+            226,
+            90,
+            239,
+            -1,
+            247,
+            103
+          },
+          lens {
+            11,
+            4,
+            33,
+            3,
+            22,
+            1,
+            11,
+            1,
+            9,
+            3,
+            13,
+            8,
+            40
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 95
+          },
+          {
+            id str "blast_score",
+            value int 95
+          },
+          {
+            id str "e_value",
+            value real { 147127013519204, 10, -18 }
+          },
+          {
+            id str "bit_score",
+            value real { 403313713411485, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 31
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 46
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 381190476190476, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 13,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271182
+            }
+          },
+          starts {
+            137,
+            8,
+            -1,
+            49,
+            178,
+            54,
+            190,
+            -1,
+            198,
+            66,
+            209,
+            -1,
+            212,
+            77,
+            225,
+            -1,
+            226,
+            90,
+            228,
+            -1,
+            238,
+            92,
+            264,
+            -1,
+            267,
+            118
+          },
+          lens {
+            41,
+            5,
+            12,
+            8,
+            11,
+            3,
+            13,
+            1,
+            2,
+            10,
+            26,
+            3,
+            28
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 89
+          },
+          {
+            id str "blast_score",
+            value int 89
+          },
+          {
+            id str "e_value",
+            value real { 748084575714604, 10, -18 }
+          },
+          {
+            id str "bit_score",
+            value real { 379236707157223, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 24
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 48
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 369285714285714, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 13,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271189
+            }
+          },
+          starts {
+            136,
+            2,
+            -1,
+            12,
+            146,
+            14,
+            197,
+            -1,
+            202,
+            65,
+            -1,
+            68,
+            205,
+            71,
+            211,
+            -1,
+            224,
+            77,
+            237,
+            -1,
+            253,
+            90,
+            266,
+            -1,
+            267,
+            103
+          },
+          lens {
+            10,
+            2,
+            51,
+            5,
+            3,
+            3,
+            6,
+            13,
+            13,
+            16,
+            13,
+            1,
+            22
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 88
+          },
+          {
+            id str "blast_score",
+            value int 88
+          },
+          {
+            id str "e_value",
+            value real { 147537303047628, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 376714379736488, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 35
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 55
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 362142857142857, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 11,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271184
+            }
+          },
+          starts {
+            159,
+            34,
+            176,
+            -1,
+            187,
+            51,
+            199,
+            -1,
+            205,
+            63,
+            -1,
+            78,
+            220,
+            94,
+            244,
+            -1,
+            251,
+            118,
+            -1,
+            139,
+            272,
+            141
+          },
+          lens {
+            17,
+            11,
+            12,
+            6,
+            15,
+            16,
+            24,
+            7,
+            21,
+            2,
+            37
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 82
+          },
+          {
+            id str "blast_score",
+            value int 82
+          },
+          {
+            id str "e_value",
+            value real { 668839555291941, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 355608955254339, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 33
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 54
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 338333333333333, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 11,
+          ids {
+            local str "Query_1",
+            general {
+              db "CDD",
+              tag id 271197
+            }
+          },
+          starts {
+            160,
+            38,
+            184,
+            -1,
+            189,
+            62,
+            -1,
+            76,
+            203,
+            77,
+            213,
+            -1,
+            229,
+            87,
+            -1,
+            100,
+            242,
+            104,
+            -1,
+            140,
+            278,
+            149
+          },
+          lens {
+            24,
+            5,
+            14,
+            1,
+            10,
+            16,
+            13,
+            4,
+            36,
+            9,
+            22
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 81
+          },
+          {
+            id str "blast_score",
+            value int 81
+          },
+          {
+            id str "e_value",
+            value real { 178113883892568, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 349291740027418, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 15
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 22
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 622390572390572, 10, -14 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 1,
+          ids {
+            local str "Query_3",
+            general {
+              db "CDD",
+              tag id 269872
+            }
+          },
+          starts {
+            308,
+            16
+          },
+          lens {
+            34
+          },
+          strands {
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 86
+          },
+          {
+            id str "blast_score",
+            value int 86
+          },
+          {
+            id str "e_value",
+            value real { 196617385376491, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 368469305534878, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 24
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 38
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 198490054249548, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 9,
+          ids {
+            local str "Query_4",
+            general {
+              db "CDD",
+              tag id 438629
+            }
+          },
+          starts {
+            399,
+            26,
+            -1,
+            53,
+            426,
+            56,
+            435,
+            -1,
+            436,
+            65,
+            467,
+            -1,
+            471,
+            96,
+            -1,
+            123,
+            498,
+            124
+          },
+          lens {
+            27,
+            3,
+            9,
+            1,
+            31,
+            4,
+            27,
+            1,
+            8
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 94
+          },
+          {
+            id str "blast_score",
+            value int 94
+          },
+          {
+            id str "e_value",
+            value real { 4397888604597, 10, -18 }
+          },
+          {
+            id str "bit_score",
+            value real { 399745550712914, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 22
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 31
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 654122807017544, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 3,
+          ids {
+            local str "Query_5",
+            general {
+              db "CDD",
+              tag id 238042
+            }
+          },
+          starts {
+            39,
+            0,
+            60,
+            -1,
+            61,
+            21
+          },
+          lens {
+            21,
+            1,
+            52
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 85
+          },
+          {
+            id str "blast_score",
+            value int 85
+          },
+          {
+            id str "e_value",
+            value real { 139219388816911, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 365643011025754, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 27
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 47
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 407489626556017, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 13,
+          ids {
+            local str "Query_21",
+            general {
+              db "CDD",
+              tag id 99823
+            }
+          },
+          starts {
+            4,
+            6,
+            12,
+            -1,
+            16,
+            14,
+            -1,
+            21,
+            23,
+            22,
+            26,
+            -1,
+            32,
+            25,
+            -1,
+            41,
+            48,
+            45,
+            62,
+            -1,
+            64,
+            59,
+            72,
+            -1,
+            74,
+            67
+          },
+          lens {
+            8,
+            4,
+            7,
+            1,
+            3,
+            6,
+            16,
+            4,
+            14,
+            2,
+            8,
+            2,
+            27
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 82
+          },
+          {
+            id str "blast_score",
+            value int 82
+          },
+          {
+            id str "e_value",
+            value real { 432601581112251, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 353723915028256, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 26
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 42
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 415788381742739, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 9,
+          ids {
+            local str "Query_21",
+            general {
+              db "CDD",
+              tag id 99826
+            }
+          },
+          starts {
+            0,
+            4,
+            13,
+            -1,
+            18,
+            17,
+            -1,
+            44,
+            45,
+            50,
+            -1,
+            73,
+            68,
+            77,
+            73,
+            -1,
+            74,
+            82
+          },
+          lens {
+            13,
+            5,
+            27,
+            6,
+            23,
+            4,
+            5,
+            1,
+            25
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 102
+          },
+          {
+            id str "blast_score",
+            value int 102
+          },
+          {
+            id str "e_value",
+            value real { 153480602901474, 10, -19 }
+          },
+          {
+            id str "bit_score",
+            value real { 43237525190536, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 29
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 47
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 319285714285714, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 11,
+          ids {
+            local str "Query_23",
+            general {
+              db "CDD",
+              tag id 271175
+            }
+          },
+          starts {
+            228,
+            0,
+            -1,
+            12,
+            240,
+            17,
+            265,
+            -1,
+            267,
+            42,
+            -1,
+            63,
+            288,
+            64,
+            -1,
+            93,
+            317,
+            96,
+            351,
+            -1,
+            353,
+            130
+          },
+          lens {
+            12,
+            5,
+            25,
+            2,
+            21,
+            1,
+            29,
+            3,
+            34,
+            2,
+            7
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 96
+          },
+          {
+            id str "blast_score",
+            value int 96
+          },
+          {
+            id str "e_value",
+            value real { 882647387394668, 10, -19 }
+          },
+          {
+            id str "bit_score",
+            value real { 407730976999294, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 30
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 52
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 29547619047619, 10, -12 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 13,
+          ids {
+            local str "Query_23",
+            general {
+              db "CDD",
+              tag id 271177
+            }
+          },
+          starts {
+            224,
+            4,
+            -1,
+            17,
+            237,
+            19,
+            -1,
+            34,
+            252,
+            35,
+            269,
+            -1,
+            271,
+            52,
+            -1,
+            65,
+            284,
+            66,
+            290,
+            -1,
+            294,
+            72,
+            318,
+            -1,
+            320,
+            96
+          },
+          lens {
+            13,
+            2,
+            15,
+            1,
+            17,
+            2,
+            13,
+            1,
+            6,
+            4,
+            24,
+            2,
+            26
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      }
+    },
+    masks {
+    },
+    ka-blocks {
+      {
+        lambda { 316172885558641, 10, -15 },
+        k { 131602064884677, 10, -15 },
+        h { 396431336002949, 10, -15 },
+        gapped FALSE
+      },
+      {
+        lambda { 267, 10, -3 },
+        k { 72153168, 10, -9 },
+        h { 14, 10, -2 },
+        gapped TRUE
+      }
+    },
+    search-stats {
+      "Effective search space: 575228280",
+      "Effective search space used: 575228280",
+      "Length adjustment: 90"
+    }
+  }
+}
+Blast4-archive ::= {
+  request {
+    ident "2.13.0+",
+    body queue-search {
+      program "blastp",
+      service "rpsblast",
+      queries bioseq-set {
+        seq-set {
+          seq {
+            id {
+              local str "Query_38"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">38"
+                  }
+                }
+              },
+              title "38"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 122,
+              seq-data ncbieaa "MTTATEFGDRLDDPADADPGDYLRVIEGGETALHVYLKDDKEWWLA
+HNPRESPPGRLNGPWLLWTTYPTGAWELQYCTRKLLLFHVDELYYIDYAGEEAHSVHETTAVPIDDAPEFVQAEFE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_39"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">39"
+                  }
+                }
+              },
+              title "39"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 88,
+              seq-data ncbieaa "MAQQTSRAENWTRTTTRNVTDVIEIALSGIVREWTHETTDDTIEIV
+VYNENARFYTTKYNGEPVTGHATLREAEECAVDTMRSNEDGL"
+            }
+          },
+          seq {
+            id {
+              local str "Query_40"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">40"
+                  }
+                }
+              },
+              title "40"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 627,
+              seq-data ncbieaa "MALAFVSEVVSGFLSFPPRIQVAIALVLLLAVVSVVAVAYLVYRSG
+AIGAKIRAGIDRLLGRPEQYSYTVFSALITLSIVLLGVFGWAFSESAAQTKMGSGRIAEIVLGFGTNFMLWAALTVLG
+VVIAFRRLRPSLAEKTARKTRFTASEVEHIAAEAKTTDGTNRVIGDASLGEGQLRAKLLRALDDDGLDEGIDALDELA
+PDSKFESGTGPEYGGEIGQEISGALPSPDDVDVDIDDVEGRLAAEIDILEGALNAECLASHLDYSPVRGRRNTPAEDS
+EPIDVSTSSASTTDAGDSAGRDVVGTIRRRVELARMDAAASTSKDELASRFVAPAVLSMLAGFTVFGTVWVHPLLMAA
+NFSFGLFVGSVVYLGYKRRRRKNVEKARSTPDYGGWRACDALAKKCTTERGTDFYVVWMAGHSYFGFDRHRIARKVAD
+RWHQRLNGQVVAPAIHETFHDNACSMLPLAYNLEYTDDRRSRGAIYDAIADVVRQADDAIVPKMHLCELVVDRGPDHG
+YDPDLVGDVYQEMVGEALEEFEVELRDTEGELVPMTLVTLRTAGVPLDMEALRSEMSNQISPEDEPLYSLPDVEDSFD
+IEDALAVGVPPGVDPTEWNGTRTATPTEIDAPSAD"
+            }
+          },
+          seq {
+            id {
+              local str "Query_41"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">41"
+                  }
+                }
+              },
+              title "41"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 249,
+              seq-data ncbieaa "MSTTTHQDDTITDRLEQFYRDYYWDGIGRLLERYPKDQRSLEIDYS
+DLSSFDPDLADDYLEHPEQVQDYLHEALTHVNPTDVNLDNAHVRVTSLPSWQTFSVGDQRTDQRGDYIGISGQVARRT
+GVKPKATVCAYECLRCGTLTRVPQFDGHREPNECQGCERNGPFQLNDEKTEFVDFQILRLQRPPEDSTGGSTTTIDVH
+LEDDIAGEVEPGDRLDTAGTLELRATEDSDDATFDYYLDAGALEPKE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_42"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">42"
+                  }
+                }
+              },
+              title "42"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 124,
+              seq-data ncbieaa "MPDNDEPTDGIVESLPNRPLEFEELRALDAQEGEEYITMGLLVLKS
+DAWWGAASLSFTVLETYTIHVLGYSAEKRCWEVIDSFELEGEDWLMRQKRLVEEWAEDALADFDAEQEYVAPTEEPPV"
+            }
+          },
+          seq {
+            id {
+              local str "Query_43"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">43"
+                  }
+                }
+              },
+              title "43"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 57,
+              seq-data ncbieaa "MTQTIAGARRMIVKKAIREYAEDEGPIEPGSAAYHDLMQNVENQVQ
+VVLEEMGEYEY"
+            }
+          },
+          seq {
+            id {
+              local str "Query_44"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">44"
+                  }
+                }
+              },
+              title "44"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 116,
+              seq-data ncbieaa "MAQQTTNPRNALNQNTPTHSSINAIIPELTMHRDVGLDAAGYSHFH
+NADRGIIIVCKGDRRGKGIRDEDIAETHIISGEKTIEDWVKFTQDRRGWTDLRGDLEHRAFGPDGLPNQE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_45"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">45"
+                  }
+                }
+              },
+              title "45"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 174,
+              seq-data ncbieaa "MTAEPEPCGDGMETPELERRLDALSKRIGVLEEQNEWLEEQLKERD
+EEIETLRERIDELEDRSQLLDRVLDHGPSSRKKRAALLLQVLYNDAISSNGKAAMDVNAGLENLNRQVDRTTVYGIFD
+EAVDAVGDEDVCYVIKESRASKKNTRLVLEPDEGTVPEKVGGVPLKGGAD"
+            }
+          },
+          seq {
+            id {
+              local str "Query_46"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">46"
+                  }
+                }
+              },
+              title "46"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 430,
+              seq-data ncbieaa "MSRAKILLFVLLIFAAMFASPVAGSDTTPTTECPPDTGVQRVAPTV
+NATVTQPQNRSDIVRVTYNASDTSVIQFEPPAHATVINTSGFAYNRHADLYVDTDADNPVIEYQIGTYENYTYANRSD
+WTFAPLPTGHSNPTSTVIANGTGIAGQSFVYLGDYERYRRVVDCQEIVLVVADDAQPLEPEPDRVLDRLEYVSQALDT
+DHRPATTTVFVTNGQVAGPHQGLANGADAWVGAGASENLEVPIEVYIHEYVHTRQVYGESGIEEFHWINEGITQFLTH
+QMLLATGEINTFDYNDRLKEGSTWNASLSNTSTWSSKRVLYSRGSAFIALLNHRILDASNGSHRIRDVVRRLNQLPES
+PSRSEFLRVVEDVSDDETREWAADAMTTTESYEYRHAERSPTMFDLLVRAVLVVVAALVSGVILEARSSDQK"
+            }
+          },
+          seq {
+            id {
+              local str "Query_47"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">47"
+                  }
+                }
+              },
+              title "47"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 269,
+              seq-data ncbieaa "MTRQRQRTVSRRRVLQAIAVGSVVGSTALTASSPVTADHDGALPSH
+VTLSFPRNEMERYRPLLTIPESAEFKTPTWYGWRAASPEHELDVYVYFAYYRGQTGWTRSDSHRGDREPFYCFVDPDH
+QEVRYVAYSGWHWMRAASWGPNIYSGDGGHHPTARVFAKHHHYALTQMDSGQLFDVDPLGTDSDAPFTADAESDVQFE
+AWLADGWENALHPGAAQNPWVMRNRSSWWRDGAESWPRTIWNLQIQLAGVPFAGGFAGDATTSDLAD"
+            }
+          },
+          seq {
+            id {
+              local str "Query_48"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">48"
+                  }
+                }
+              },
+              title "48"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 46,
+              seq-data ncbieaa "MARDKGRGWYGDSDGHREAAKKANENWLQTKWRHFKERCFGCIGRR"
+            }
+          },
+          seq {
+            id {
+              local str "Query_49"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">49"
+                  }
+                }
+              },
+              title "49"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 537,
+              seq-data ncbieaa "MTRRDADTIDSDESRMPVARRDVLRAAPALAATVAVGSTPGMAART
+AEFSPLAAAVSGYLWTPPDAVSIPKYGSESVPAFHIELDSDESWSTLDDWVADRDSRSEHSRYRHDASQHTVVAANPY
+DVGINGFRTRSDTLLQAVDVEWIDVVQYTSLIEPVPTIPSGPDAADLPRSQTLHASIWQHDTGIDDGLAYSEDITEST
+LQDARQAANTDSVTLQPTGTTSTVAVIDTGVNDTSAMDDTTGSTRILDASKDYAGSGDTGVDAVEDGNGHGTWVAEAI
+AGDSDDDTKHDGWAPDASVLAVKVLSDDGRGTSADVAAGVRYAADQDADVANLSLGGLYSDAIDRAISYAAGAGTVPV
+AATGNARLQGRYVGHPASSPDAIGVAATTADAPADLKVASFSNPGPQPGTTDLSAGQTEGADPSIGAPGTEIRTATRP
+HLSGTSMAAPQVAGAAVWILEDTDASTPDEVADRLTTYPAPAENAGVTDVGNGVLDIAAALDETEPSSSQKDARTGKA
+SARDDANRARSDAAGGALTRWFA"
+            }
+          },
+          seq {
+            id {
+              local str "Query_50"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">50"
+                  }
+                }
+              },
+              title "50"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 85,
+              seq-data ncbieaa "MDNPKMPESTSGCVPRPRDPPLPDEVLDHMVKNRCYVVADLVVDFE
+DEYDPSRGTIRNRLEYLVEQGDVDRRKHENGAVTYRKTE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_51"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">51"
+                  }
+                }
+              },
+              title "51"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 357,
+              seq-data ncbieaa "MVELSNYRLAGLVIAGLIVLAIGIWFVRRRYFKSSSGNEETGEQRQ
+RAYEEHRQRSIPLRSRAMKTPLEGKILMFLVVGIVLAAGYEFYSFMKTGSPSQVAAAWETKFLAGFVVASIAGIGYER
+RRRTKTEGEIEVTYEAAPELGEEEKTVTYYYDPRDVIHTDKGPVMFERREDRKLGLFRLPKLHGDDPRFRGVEDPRPA
+DDKIGLELPSHARKVGPNRWAFRTKGHIVLDSAQGPGDIQFLPAYNKSLEQEMQRSTDIDNLQTKVKELQARNAHLEA
+SERERQTEQNNEIDEVLNQMSVVANRMQEMFNGTMNQVRITEESRPPSRSQRGQNGHADADALPQTDQRDGRRRGDT"
+            }
+          },
+          seq {
+            id {
+              local str "Query_52"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">52"
+                  }
+                }
+              },
+              title "52"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 124,
+              seq-data ncbieaa "MPDETPDTPDDVEIIDNGEDLIKQDPLIGLFGDTPRIRFFRVLLDA
+HNPINPSEIVRRANVGKTTWYNHEDALLATGLIEQTGNAGNSPLYAVVNADDDPRVEWLEKLRAWTRDYQRDWGNANE"
+            }
+          },
+          seq {
+            id {
+              local str "Query_53"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">53"
+                  }
+                }
+              },
+              title "53"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 87,
+              seq-data ncbieaa "MAESKRTEALWRIVAFLWSLVAAFIVQFLGILALLYGAIDVLWQLV
+TGSEGLPAGDGIGSFLSDLLYWPVDNLAYAAFGDGELNWLP"
+            }
+          },
+          seq {
+            id {
+              local str "Query_54"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">54"
+                  }
+                }
+              },
+              title "54"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 303,
+              seq-data ncbieaa "MSDKVTDQENSLTEKFRDEGVALLDNTRRQIEPYLPARLKTVLQYP
+YRRVVDSIATGVTTVRFEGLTADFKSTNAKTRRVMMLDKEGPILRDITDELEPSDVFYDVGANIGVYTCLLGNEMTHE
+GDVVAFEPHPKNADTLRENIELNSSPADVYDVALSDSDGEVEFAMRDERTGATHNTLIPDEADRDAKVEEVGGATTYV
+DMMTLDELRERDDLAAPSILKVDVEGAEYNVLAGAEETLRTGDCRIVYTECHPRHLPDFGATVDDIKSLLKDAGFTIE
+LLHDYRSEDKPNRAFFLKAVRDT"
+            }
+          },
+          seq {
+            id {
+              local str "Query_55"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">55"
+                  }
+                }
+              },
+              title "55"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 113,
+              seq-data ncbieaa "MAQQIHADTTDAQPQTYDRLTYDAVRDGFTDGDGVTLRYESPYSGT
+TVEVEGVAQEVSASMFLLELDDGREWGVFENSIRTTENSRRASGRDRPANGRPVGYVDEFTVHAGDA"
+            }
+          },
+          seq {
+            id {
+              local str "Query_56"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">56"
+                  }
+                }
+              },
+              title "56"
+            },
+            inst {
+              repr raw,
+              mol aa,
+              length 221,
+              seq-data ncbieaa "MSTQQQHQERGLRDEMYAGQRKDGKERIATDLQEDWFKQVLEFNIE
+ICNNCFSKREDTARHFRSCGGSTTGGGEHEDATADLFCTTCEAGTGKAPLHREYDHIATEIPPGLKSECAGTIGREWC
+ESTPLPKSGGTVSFSRLITNIGQRLEEAGYEIEDWDAVRHRAESLKDDHPNRDRAIFARVFSELTRKEFTAADFQTVP
+LRTEATPAPVTQTGRKDAE"
+            }
+          }
+        }
+      },
+      subject database "data/cdd/3.20/db/Cdd_NCBI",
+      algorithm-options {
+        {
+          name "EvalueThreshold",
+          value cutoff e-value { 1, 10, -2 }
+        },
+        {
+          name "MaskAtHash",
+          value boolean FALSE
+        },
+        {
+          name "SegFiltering",
+          value boolean FALSE
+        },
+        {
+          name "HitlistSize",
+          value integer 500
+        },
+        {
+          name "CompositionBasedStats",
+          value integer 1
+        },
+        {
+          name "SmithWatermanMode",
+          value boolean FALSE
+        },
+        {
+          name "DbLength",
+          value big-integer 3442496
+        },
+        {
+          name "MatrixName",
+          value string "BLOSUM62"
+        },
+        {
+          name "GapOpeningCost",
+          value integer 11
+        },
+        {
+          name "GapExtensionCost",
+          value integer 1
+        },
+        {
+          name "EffectiveSearchSpace",
+          value big-integer 89486190
+        }
+      }
+    }
+  },
+  results {
+    alignments {
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 87
+          },
+          {
+            id str "blast_score",
+            value int 87
+          },
+          {
+            id str "e_value",
+            value real { 173514904370855, 10, -18 }
+          },
+          {
+            id str "bit_score",
+            value real { 371598385751842, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 24
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 42
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 407298850574713, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 5,
+          ids {
+            local str "Query_45",
+            general {
+              db "CDD",
+              tag id 439196
+            }
+          },
+          starts {
+            12,
+            4,
+            -1,
+            51,
+            59,
+            66,
+            71,
+            -1,
+            76,
+            78
+          },
+          lens {
+            47,
+            15,
+            12,
+            5,
+            6
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 366
+          },
+          {
+            id str "blast_score",
+            value int 366
+          },
+          {
+            id str "e_value",
+            value real { 162530650418229, 10, -54 }
+          },
+          {
+            id str "bit_score",
+            value real { 144596564755887, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 88
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 120
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 466824953445065, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 17,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173803
+            }
+          },
+          starts {
+            224,
+            2,
+            238,
+            -1,
+            249,
+            16,
+            -1,
+            26,
+            259,
+            29,
+            282,
+            -1,
+            283,
+            52,
+            -1,
+            107,
+            338,
+            108,
+            383,
+            -1,
+            387,
+            153,
+            406,
+            -1,
+            409,
+            172,
+            412,
+            -1,
+            424,
+            175,
+            -1,
+            188,
+            437,
+            192
+          },
+          lens {
+            14,
+            11,
+            10,
+            3,
+            23,
+            1,
+            55,
+            1,
+            45,
+            4,
+            19,
+            3,
+            3,
+            12,
+            13,
+            4,
+            35
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 357
+          },
+          {
+            id str "blast_score",
+            value int 357
+          },
+          {
+            id str "e_value",
+            value real { 627207782425757, 10, -53 }
+          },
+          {
+            id str "bit_score",
+            value real { 141244955196643, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 104
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 127
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 47427374301676, 10, -12 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 19,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173810
+            }
+          },
+          starts {
+            219,
+            25,
+            238,
+            -1,
+            239,
+            44,
+            246,
+            -1,
+            259,
+            51,
+            -1,
+            59,
+            267,
+            65,
+            -1,
+            135,
+            337,
+            136,
+            365,
+            -1,
+            367,
+            164,
+            390,
+            -1,
+            394,
+            187,
+            405,
+            -1,
+            420,
+            198,
+            -1,
+            208,
+            430,
+            212,
+            453,
+            -1,
+            454,
+            235
+          },
+          lens {
+            19,
+            1,
+            7,
+            13,
+            8,
+            6,
+            70,
+            1,
+            28,
+            2,
+            23,
+            4,
+            11,
+            15,
+            10,
+            4,
+            23,
+            1,
+            17
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 348
+          },
+          {
+            id str "blast_score",
+            value int 348
+          },
+          {
+            id str "e_value",
+            value real { 246453486779709, 10, -51 }
+          },
+          {
+            id str "bit_score",
+            value real { 137846567152791, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 97
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 125
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 509655493482309, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 15,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173800
+            }
+          },
+          starts {
+            225,
+            5,
+            238,
+            -1,
+            240,
+            18,
+            -1,
+            45,
+            267,
+            59,
+            -1,
+            128,
+            336,
+            131,
+            -1,
+            178,
+            383,
+            180,
+            409,
+            -1,
+            418,
+            206,
+            -1,
+            225,
+            437,
+            231,
+            -1,
+            265,
+            471,
+            270
+          },
+          lens {
+            13,
+            2,
+            27,
+            14,
+            69,
+            3,
+            47,
+            2,
+            26,
+            9,
+            19,
+            6,
+            34,
+            5,
+            25
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 324
+          },
+          {
+            id str "blast_score",
+            value int 324
+          },
+          {
+            id str "e_value",
+            value real { 269992046106372, 10, -48 }
+          },
+          {
+            id str "bit_score",
+            value real { 128471997288368, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 88
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 121
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 468687150837989, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 19,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173812
+            }
+          },
+          starts {
+            224,
+            4,
+            233,
+            -1,
+            234,
+            13,
+            251,
+            -1,
+            252,
+            30,
+            264,
+            -1,
+            268,
+            42,
+            -1,
+            57,
+            283,
+            58,
+            -1,
+            101,
+            326,
+            105,
+            -1,
+            119,
+            340,
+            124,
+            -1,
+            189,
+            405,
+            200,
+            413,
+            -1,
+            414,
+            208,
+            431,
+            -1,
+            437,
+            225
+          },
+          lens {
+            9,
+            1,
+            17,
+            1,
+            12,
+            4,
+            15,
+            1,
+            43,
+            4,
+            14,
+            5,
+            65,
+            11,
+            8,
+            1,
+            17,
+            6,
+            36
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 309
+          },
+          {
+            id str "blast_score",
+            value int 309
+          },
+          {
+            id str "e_value",
+            value real { 273846325942313, 10, -46 }
+          },
+          {
+            id str "bit_score",
+            value real { 122624565583846, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 102
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 129
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 492895716945996, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 25,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173790
+            }
+          },
+          starts {
+            209,
+            12,
+            237,
+            -1,
+            252,
+            40,
+            -1,
+            54,
+            266,
+            59,
+            282,
+            -1,
+            288,
+            75,
+            324,
+            -1,
+            325,
+            111,
+            -1,
+            115,
+            329,
+            121,
+            -1,
+            159,
+            367,
+            160,
+            371,
+            -1,
+            373,
+            164,
+            390,
+            -1,
+            394,
+            181,
+            404,
+            -1,
+            407,
+            191,
+            410,
+            -1,
+            422,
+            194,
+            -1,
+            203,
+            431,
+            210,
+            435,
+            -1,
+            436,
+            214
+          },
+          lens {
+            28,
+            15,
+            14,
+            5,
+            16,
+            6,
+            36,
+            1,
+            4,
+            6,
+            38,
+            1,
+            4,
+            2,
+            17,
+            4,
+            10,
+            3,
+            3,
+            12,
+            9,
+            7,
+            4,
+            1,
+            35
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 295
+          },
+          {
+            id str "blast_score",
+            value int 295
+          },
+          {
+            id str "e_value",
+            value real { 130183803330025, 10, -44 }
+          },
+          {
+            id str "bit_score",
+            value real { 11768592109467, 10, -11 }
+          },
+          {
+            id str "num_ident",
+            value int 101
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 126
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 468687150837989, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 21,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173787
+            }
+          },
+          starts {
+            224,
+            1,
+            237,
+            -1,
+            239,
+            14,
+            265,
+            -1,
+            266,
+            40,
+            282,
+            -1,
+            283,
+            56,
+            -1,
+            97,
+            324,
+            98,
+            -1,
+            111,
+            337,
+            114,
+            -1,
+            130,
+            353,
+            131,
+            -1,
+            141,
+            363,
+            142,
+            393,
+            -1,
+            396,
+            172,
+            406,
+            -1,
+            409,
+            182,
+            431,
+            -1,
+            437,
+            204
+          },
+          lens {
+            13,
+            2,
+            26,
+            1,
+            16,
+            1,
+            41,
+            1,
+            13,
+            3,
+            16,
+            1,
+            10,
+            1,
+            30,
+            3,
+            10,
+            3,
+            22,
+            6,
+            36
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 288
+          },
+          {
+            id str "blast_score",
+            value int 288
+          },
+          {
+            id str "e_value",
+            value real { 229807812484126, 10, -43 }
+          },
+          {
+            id str "bit_score",
+            value real { 114597546419523, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 89
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 118
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 464962756052142, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173799
+            }
+          },
+          starts {
+            224,
+            4,
+            237,
+            -1,
+            239,
+            17,
+            -1,
+            40,
+            262,
+            43,
+            -1,
+            47,
+            266,
+            59,
+            -1,
+            130,
+            337,
+            135,
+            348,
+            -1,
+            352,
+            146,
+            -1,
+            167,
+            373,
+            168,
+            -1,
+            171,
+            376,
+            173,
+            390,
+            -1,
+            394,
+            187,
+            405,
+            -1,
+            407,
+            198,
+            411,
+            -1,
+            423,
+            202,
+            -1,
+            215,
+            436,
+            219
+          },
+          lens {
+            13,
+            2,
+            23,
+            3,
+            4,
+            12,
+            71,
+            5,
+            11,
+            4,
+            21,
+            1,
+            3,
+            2,
+            14,
+            4,
+            11,
+            2,
+            4,
+            12,
+            13,
+            4,
+            35
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 275
+          },
+          {
+            id str "blast_score",
+            value int 275
+          },
+          {
+            id str "e_value",
+            value real { 250603309141698, 10, -41 }
+          },
+          {
+            id str "bit_score",
+            value real { 109771120492157, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 91
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 124
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 507793296089385, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 27,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173806
+            }
+          },
+          starts {
+            219,
+            5,
+            -1,
+            20,
+            234,
+            24,
+            243,
+            -1,
+            252,
+            33,
+            260,
+            -1,
+            265,
+            41,
+            282,
+            -1,
+            283,
+            58,
+            -1,
+            111,
+            336,
+            115,
+            -1,
+            130,
+            351,
+            155,
+            -1,
+            167,
+            363,
+            169,
+            -1,
+            175,
+            369,
+            176,
+            389,
+            -1,
+            393,
+            196,
+            408,
+            -1,
+            419,
+            211,
+            -1,
+            228,
+            436,
+            232,
+            -1,
+            261,
+            465,
+            265,
+            -1,
+            271,
+            471,
+            275
+          },
+          lens {
+            15,
+            4,
+            9,
+            9,
+            8,
+            5,
+            17,
+            1,
+            53,
+            4,
+            15,
+            25,
+            12,
+            2,
+            6,
+            1,
+            20,
+            4,
+            15,
+            11,
+            17,
+            4,
+            29,
+            4,
+            6,
+            4,
+            18
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 262
+          },
+          {
+            id str "blast_score",
+            value int 262
+          },
+          {
+            id str "e_value",
+            value real { 353864941733466, 10, -39 }
+          },
+          {
+            id str "bit_score",
+            value real { 104655218971922, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 87
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 124
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 437029795158287, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 25,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173801
+            }
+          },
+          starts {
+            225,
+            14,
+            -1,
+            22,
+            233,
+            26,
+            -1,
+            46,
+            253,
+            66,
+            265,
+            -1,
+            266,
+            78,
+            -1,
+            102,
+            290,
+            105,
+            -1,
+            127,
+            312,
+            129,
+            337,
+            -1,
+            338,
+            154,
+            -1,
+            160,
+            344,
+            166,
+            -1,
+            192,
+            370,
+            206,
+            -1,
+            231,
+            395,
+            233,
+            404,
+            -1,
+            407,
+            242,
+            413,
+            -1,
+            419,
+            248,
+            -1,
+            262,
+            433,
+            266
+          },
+          lens {
+            8,
+            4,
+            20,
+            20,
+            12,
+            1,
+            24,
+            3,
+            22,
+            2,
+            25,
+            1,
+            6,
+            6,
+            26,
+            14,
+            25,
+            2,
+            9,
+            3,
+            6,
+            6,
+            14,
+            4,
+            24
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 247
+          },
+          {
+            id str "blast_score",
+            value int 247
+          },
+          {
+            id str "e_value",
+            value real { 637624584514257, 10, -38 }
+          },
+          {
+            id str "bit_score",
+            value real { 989537598622017, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 81
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 114
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 468687150837989, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 19,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173822
+            }
+          },
+          starts {
+            224,
+            1,
+            237,
+            -1,
+            239,
+            14,
+            261,
+            -1,
+            266,
+            36,
+            -1,
+            107,
+            337,
+            112,
+            -1,
+            125,
+            350,
+            126,
+            364,
+            -1,
+            366,
+            140,
+            390,
+            -1,
+            394,
+            164,
+            405,
+            -1,
+            408,
+            175,
+            413,
+            -1,
+            414,
+            180,
+            -1,
+            204,
+            438,
+            206
+          },
+          lens {
+            13,
+            2,
+            22,
+            5,
+            71,
+            5,
+            13,
+            1,
+            14,
+            2,
+            24,
+            4,
+            11,
+            3,
+            5,
+            1,
+            24,
+            2,
+            35
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 244
+          },
+          {
+            id str "blast_score",
+            value int 244
+          },
+          {
+            id str "e_value",
+            value real { 156805018084373, 10, -37 }
+          },
+          {
+            id str "bit_score",
+            value real { 980040068885994, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 84
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 124
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 466824953445065, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173815
+            }
+          },
+          starts {
+            224,
+            2,
+            -1,
+            12,
+            234,
+            13,
+            259,
+            -1,
+            265,
+            38,
+            286,
+            -1,
+            287,
+            59,
+            305,
+            -1,
+            306,
+            77,
+            340,
+            -1,
+            341,
+            111,
+            -1,
+            119,
+            349,
+            123,
+            364,
+            -1,
+            366,
+            138,
+            390,
+            -1,
+            394,
+            162,
+            410,
+            -1,
+            411,
+            178,
+            -1,
+            183,
+            416,
+            186,
+            -1,
+            206,
+            436,
+            214
+          },
+          lens {
+            10,
+            1,
+            25,
+            6,
+            21,
+            1,
+            18,
+            1,
+            34,
+            1,
+            8,
+            4,
+            15,
+            2,
+            24,
+            4,
+            16,
+            1,
+            5,
+            3,
+            20,
+            8,
+            36
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 244
+          },
+          {
+            id str "blast_score",
+            value int 244
+          },
+          {
+            id str "e_value",
+            value real { 37421506684242, 10, -36 }
+          },
+          {
+            id str "bit_score",
+            value real { 977487062446252, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 87
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 114
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 468687150837989, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 21,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173820
+            }
+          },
+          starts {
+            224,
+            2,
+            -1,
+            11,
+            233,
+            30,
+            240,
+            -1,
+            243,
+            37,
+            -1,
+            46,
+            252,
+            53,
+            309,
+            -1,
+            310,
+            110,
+            -1,
+            124,
+            324,
+            134,
+            -1,
+            146,
+            336,
+            148,
+            365,
+            -1,
+            366,
+            177,
+            390,
+            -1,
+            394,
+            201,
+            -1,
+            212,
+            405,
+            217,
+            408,
+            -1,
+            409,
+            220
+          },
+          lens {
+            9,
+            19,
+            7,
+            3,
+            9,
+            7,
+            57,
+            1,
+            14,
+            10,
+            12,
+            2,
+            29,
+            1,
+            24,
+            4,
+            11,
+            5,
+            3,
+            1,
+            64
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 238
+          },
+          {
+            id str "blast_score",
+            value int 238
+          },
+          {
+            id str "e_value",
+            value real { 345045183675151, 10, -36 }
+          },
+          {
+            id str "bit_score",
+            value real { 953631762081874, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 96
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 126
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 528277467411546, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 27,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173814
+            }
+          },
+          starts {
+            219,
+            10,
+            -1,
+            27,
+            236,
+            28,
+            -1,
+            57,
+            265,
+            58,
+            -1,
+            62,
+            269,
+            67,
+            286,
+            -1,
+            287,
+            84,
+            -1,
+            133,
+            336,
+            136,
+            -1,
+            169,
+            369,
+            170,
+            387,
+            -1,
+            396,
+            188,
+            404,
+            -1,
+            407,
+            196,
+            413,
+            -1,
+            419,
+            202,
+            430,
+            -1,
+            431,
+            213,
+            -1,
+            219,
+            437,
+            226,
+            -1,
+            239,
+            450,
+            240,
+            -1,
+            264,
+            474,
+            274
+          },
+          lens {
+            17,
+            1,
+            29,
+            1,
+            4,
+            5,
+            17,
+            1,
+            49,
+            3,
+            33,
+            1,
+            18,
+            9,
+            8,
+            3,
+            6,
+            6,
+            11,
+            1,
+            6,
+            7,
+            13,
+            1,
+            24,
+            10,
+            26
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 234
+          },
+          {
+            id str "blast_score",
+            value int 234
+          },
+          {
+            id str "e_value",
+            value real { 534102509657311, 10, -36 }
+          },
+          {
+            id str "bit_score",
+            value real { 939281049185086, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 78
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 109
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 477998137802607, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 21,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173794
+            }
+          },
+          starts {
+            219,
+            0,
+            238,
+            -1,
+            242,
+            19,
+            252,
+            -1,
+            253,
+            29,
+            290,
+            -1,
+            291,
+            66,
+            -1,
+            88,
+            313,
+            89,
+            -1,
+            125,
+            349,
+            141,
+            -1,
+            158,
+            366,
+            161,
+            -1,
+            177,
+            382,
+            179,
+            401,
+            -1,
+            411,
+            198,
+            416,
+            -1,
+            418,
+            203,
+            -1,
+            221,
+            436,
+            227
+          },
+          lens {
+            19,
+            4,
+            10,
+            1,
+            37,
+            1,
+            22,
+            1,
+            36,
+            16,
+            17,
+            3,
+            16,
+            2,
+            19,
+            10,
+            5,
+            2,
+            18,
+            6,
+            37
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 233
+          },
+          {
+            id str "blast_score",
+            value int 233
+          },
+          {
+            id str "e_value",
+            value real { 120063158136947, 10, -35 }
+          },
+          {
+            id str "bit_score",
+            value real { 935838439309114, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 83
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 119
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 43889199255121, 10, -12 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173808
+            }
+          },
+          starts {
+            224,
+            2,
+            237,
+            -1,
+            239,
+            15,
+            245,
+            -1,
+            247,
+            21,
+            -1,
+            27,
+            253,
+            35,
+            -1,
+            44,
+            262,
+            45,
+            284,
+            -1,
+            288,
+            67,
+            -1,
+            119,
+            340,
+            131,
+            -1,
+            154,
+            363,
+            174,
+            390,
+            -1,
+            394,
+            201,
+            -1,
+            212,
+            405,
+            217,
+            -1,
+            232,
+            420,
+            234,
+            -1,
+            250,
+            436,
+            255
+          },
+          lens {
+            13,
+            2,
+            6,
+            2,
+            6,
+            8,
+            9,
+            1,
+            22,
+            4,
+            52,
+            12,
+            23,
+            20,
+            27,
+            4,
+            11,
+            5,
+            15,
+            2,
+            16,
+            5,
+            21
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 215
+          },
+          {
+            id str "blast_score",
+            value int 215
+          },
+          {
+            id str "e_value",
+            value real { 753864568393262, 10, -34 }
+          },
+          {
+            id str "bit_score",
+            value real { 866234417557794, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 65
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 96
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 466824953445065, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 21,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173817
+            }
+          },
+          starts {
+            223,
+            1,
+            234,
+            -1,
+            236,
+            12,
+            264,
+            -1,
+            266,
+            40,
+            283,
+            -1,
+            293,
+            57,
+            -1,
+            105,
+            341,
+            107,
+            -1,
+            112,
+            346,
+            113,
+            364,
+            -1,
+            367,
+            131,
+            386,
+            -1,
+            406,
+            150,
+            414,
+            -1,
+            416,
+            158,
+            430,
+            -1,
+            431,
+            172,
+            -1,
+            178,
+            437,
+            183
+          },
+          lens {
+            11,
+            2,
+            28,
+            2,
+            17,
+            10,
+            48,
+            2,
+            5,
+            1,
+            18,
+            3,
+            19,
+            20,
+            8,
+            2,
+            14,
+            1,
+            6,
+            5,
+            34
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 203
+          },
+          {
+            id str "blast_score",
+            value int 203
+          },
+          {
+            id str "e_value",
+            value real { 681812157450994, 10, -32 }
+          },
+          {
+            id str "bit_score",
+            value real { 821478539810455, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 83
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 115
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 47427374301676, 10, -12 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173811
+            }
+          },
+          starts {
+            219,
+            7,
+            -1,
+            22,
+            234,
+            26,
+            245,
+            -1,
+            246,
+            37,
+            -1,
+            79,
+            288,
+            85,
+            -1,
+            134,
+            337,
+            142,
+            -1,
+            158,
+            353,
+            162,
+            370,
+            -1,
+            373,
+            179,
+            391,
+            -1,
+            395,
+            197,
+            403,
+            -1,
+            416,
+            205,
+            420,
+            -1,
+            422,
+            209,
+            -1,
+            223,
+            436,
+            234,
+            -1,
+            256,
+            458,
+            257
+          },
+          lens {
+            15,
+            4,
+            11,
+            1,
+            42,
+            6,
+            49,
+            8,
+            16,
+            4,
+            17,
+            3,
+            18,
+            4,
+            8,
+            13,
+            4,
+            2,
+            14,
+            11,
+            22,
+            1,
+            13
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 186
+          },
+          {
+            id str "blast_score",
+            value int 186
+          },
+          {
+            id str "e_value",
+            value real { 639522818717655, 10, -30 }
+          },
+          {
+            id str "bit_score",
+            value real { 754031658685423, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 66
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 95
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 459376163873371, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 19,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173797
+            }
+          },
+          starts {
+            224,
+            1,
+            260,
+            -1,
+            271,
+            37,
+            284,
+            -1,
+            287,
+            50,
+            -1,
+            72,
+            309,
+            75,
+            -1,
+            129,
+            363,
+            131,
+            370,
+            -1,
+            373,
+            138,
+            383,
+            -1,
+            387,
+            148,
+            405,
+            -1,
+            408,
+            166,
+            413,
+            -1,
+            416,
+            171,
+            432,
+            -1,
+            437,
+            187
+          },
+          lens {
+            36,
+            11,
+            13,
+            3,
+            22,
+            3,
+            54,
+            2,
+            7,
+            3,
+            10,
+            4,
+            18,
+            3,
+            5,
+            3,
+            16,
+            5,
+            31
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 178
+          },
+          {
+            id str "blast_score",
+            value int 178
+          },
+          {
+            id str "e_value",
+            value real { 117725077081837, 10, -28 }
+          },
+          {
+            id str "bit_score",
+            value real { 724093460067267, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 81
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 104
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 446340782122905, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173807
+            }
+          },
+          starts {
+            220,
+            0,
+            233,
+            -1,
+            242,
+            13,
+            252,
+            -1,
+            254,
+            23,
+            -1,
+            33,
+            264,
+            46,
+            283,
+            -1,
+            284,
+            65,
+            309,
+            -1,
+            310,
+            90,
+            -1,
+            96,
+            316,
+            108,
+            -1,
+            130,
+            338,
+            132,
+            -1,
+            166,
+            372,
+            167,
+            390,
+            -1,
+            394,
+            185,
+            407,
+            -1,
+            416,
+            198,
+            -1,
+            217,
+            435,
+            221
+          },
+          lens {
+            13,
+            9,
+            10,
+            2,
+            10,
+            13,
+            19,
+            1,
+            25,
+            1,
+            6,
+            12,
+            22,
+            2,
+            34,
+            1,
+            18,
+            4,
+            13,
+            9,
+            19,
+            4,
+            22
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 176
+          },
+          {
+            id str "blast_score",
+            value int 176
+          },
+          {
+            id str "e_value",
+            value real { 239582094737233, 10, -28 }
+          },
+          {
+            id str "bit_score",
+            value real { 716254672871335, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 66
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 96
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 379301675977654, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 15,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173809
+            }
+          },
+          starts {
+            255,
+            70,
+            304,
+            -1,
+            305,
+            119,
+            -1,
+            154,
+            340,
+            157,
+            -1,
+            183,
+            366,
+            194,
+            392,
+            -1,
+            395,
+            220,
+            405,
+            -1,
+            407,
+            230,
+            410,
+            -1,
+            422,
+            233,
+            -1,
+            248,
+            437,
+            252
+          },
+          lens {
+            49,
+            1,
+            35,
+            3,
+            26,
+            11,
+            26,
+            3,
+            10,
+            2,
+            3,
+            12,
+            15,
+            4,
+            19
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 175
+          },
+          {
+            id str "blast_score",
+            value int 175
+          },
+          {
+            id str "e_value",
+            value real { 425186093750242, 10, -28 }
+          },
+          {
+            id str "bit_score",
+            value real { 712068997407311, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 76
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 107
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 43889199255121, 10, -12 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 29,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173791
+            }
+          },
+          starts {
+            219,
+            4,
+            -1,
+            25,
+            240,
+            26,
+            255,
+            -1,
+            257,
+            41,
+            -1,
+            66,
+            282,
+            69,
+            -1,
+            100,
+            313,
+            101,
+            -1,
+            124,
+            336,
+            131,
+            345,
+            -1,
+            346,
+            140,
+            351,
+            -1,
+            352,
+            145,
+            -1,
+            161,
+            368,
+            162,
+            -1,
+            177,
+            383,
+            188,
+            404,
+            -1,
+            407,
+            209,
+            410,
+            -1,
+            413,
+            212,
+            417,
+            -1,
+            420,
+            216,
+            -1,
+            229,
+            433,
+            234,
+            -1,
+            238,
+            437,
+            246
+          },
+          lens {
+            21,
+            1,
+            15,
+            2,
+            25,
+            3,
+            31,
+            1,
+            23,
+            7,
+            9,
+            1,
+            5,
+            1,
+            16,
+            1,
+            15,
+            11,
+            21,
+            3,
+            3,
+            3,
+            4,
+            3,
+            13,
+            5,
+            4,
+            8,
+            15
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 166
+          },
+          {
+            id str "blast_score",
+            value int 166
+          },
+          {
+            id str "e_value",
+            value real { 369838139348645, 10, -27 }
+          },
+          {
+            id str "bit_score",
+            value real { 678639525065078, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 65
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 95
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 369990689013035, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 21,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173805
+            }
+          },
+          starts {
+            260,
+            35,
+            288,
+            -1,
+            291,
+            63,
+            337,
+            -1,
+            339,
+            109,
+            -1,
+            115,
+            345,
+            119,
+            -1,
+            137,
+            363,
+            138,
+            369,
+            -1,
+            370,
+            144,
+            390,
+            -1,
+            394,
+            164,
+            405,
+            -1,
+            407,
+            175,
+            417,
+            -1,
+            418,
+            185,
+            -1,
+            190,
+            423,
+            195,
+            436,
+            -1,
+            437,
+            208
+          },
+          lens {
+            28,
+            3,
+            46,
+            2,
+            6,
+            4,
+            18,
+            1,
+            6,
+            1,
+            20,
+            4,
+            11,
+            2,
+            10,
+            1,
+            5,
+            5,
+            13,
+            1,
+            19
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 150
+          },
+          {
+            id str "blast_score",
+            value int 150
+          },
+          {
+            id str "e_value",
+            value real { 808973139512649, 10, -25 }
+          },
+          {
+            id str "bit_score",
+            value real { 614600328280607, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 62
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 77
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 351368715083799, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 15,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173795
+            }
+          },
+          starts {
+            266,
+            104,
+            -1,
+            131,
+            293,
+            139,
+            -1,
+            183,
+            337,
+            187,
+            363,
+            -1,
+            375,
+            213,
+            383,
+            -1,
+            401,
+            221,
+            409,
+            -1,
+            415,
+            229,
+            -1,
+            234,
+            420,
+            237,
+            -1,
+            254,
+            437,
+            268
+          },
+          lens {
+            27,
+            8,
+            44,
+            4,
+            26,
+            12,
+            8,
+            18,
+            8,
+            6,
+            5,
+            3,
+            17,
+            14,
+            15
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 145
+          },
+          {
+            id str "blast_score",
+            value int 145
+          },
+          {
+            id str "e_value",
+            value real { 211666883896275, 10, -24 }
+          },
+          {
+            id str "bit_score",
+            value real { 596262048440265, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 68
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 102
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 429581005586592, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 27,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173818
+            }
+          },
+          starts {
+            224,
+            2,
+            -1,
+            10,
+            232,
+            13,
+            251,
+            -1,
+            252,
+            32,
+            256,
+            -1,
+            259,
+            36,
+            283,
+            -1,
+            285,
+            60,
+            -1,
+            78,
+            303,
+            80,
+            -1,
+            113,
+            336,
+            123,
+            -1,
+            129,
+            342,
+            135,
+            -1,
+            156,
+            363,
+            157,
+            390,
+            -1,
+            394,
+            184,
+            404,
+            -1,
+            407,
+            194,
+            410,
+            -1,
+            413,
+            197,
+            417,
+            -1,
+            420,
+            201,
+            -1,
+            219,
+            438,
+            223
+          },
+          lens {
+            8,
+            3,
+            19,
+            1,
+            4,
+            3,
+            24,
+            2,
+            18,
+            2,
+            33,
+            10,
+            6,
+            6,
+            21,
+            1,
+            27,
+            4,
+            10,
+            3,
+            3,
+            3,
+            4,
+            3,
+            18,
+            4,
+            14
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 146
+          },
+          {
+            id str "blast_score",
+            value int 146
+          },
+          {
+            id str "e_value",
+            value real { 44914991892414, 10, -23 }
+          },
+          {
+            id str "bit_score",
+            value real { 599386219293871, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 50
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 73
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 289916201117318, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 19,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173804
+            }
+          },
+          starts {
+            219,
+            1,
+            -1,
+            19,
+            237,
+            20,
+            -1,
+            32,
+            249,
+            42,
+            -1,
+            60,
+            267,
+            75,
+            -1,
+            120,
+            312,
+            130,
+            326,
+            -1,
+            327,
+            144,
+            -1,
+            146,
+            329,
+            152,
+            -1,
+            159,
+            336,
+            168,
+            344,
+            -1,
+            347,
+            176,
+            -1,
+            192,
+            363,
+            193
+          },
+          lens {
+            18,
+            1,
+            12,
+            10,
+            18,
+            15,
+            45,
+            10,
+            14,
+            1,
+            2,
+            6,
+            7,
+            9,
+            8,
+            3,
+            16,
+            1,
+            9
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 133
+          },
+          {
+            id str "blast_score",
+            value int 133
+          },
+          {
+            id str "e_value",
+            value real { 626199055590608, 10, -23 }
+          },
+          {
+            id str "bit_score",
+            value real { 550275149338941, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 60
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 80
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 349506517690875, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 19,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173802
+            }
+          },
+          starts {
+            271,
+            51,
+            289,
+            -1,
+            291,
+            69,
+            -1,
+            91,
+            313,
+            92,
+            -1,
+            115,
+            336,
+            120,
+            -1,
+            147,
+            363,
+            150,
+            367,
+            -1,
+            372,
+            154,
+            391,
+            -1,
+            395,
+            173,
+            403,
+            -1,
+            411,
+            181,
+            418,
+            -1,
+            422,
+            188,
+            -1,
+            200,
+            434,
+            204
+          },
+          lens {
+            18,
+            2,
+            22,
+            1,
+            23,
+            5,
+            27,
+            3,
+            4,
+            5,
+            19,
+            4,
+            8,
+            8,
+            7,
+            4,
+            12,
+            4,
+            22
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 119
+          },
+          {
+            id str "blast_score",
+            value int 119
+          },
+          {
+            id str "e_value",
+            value real { 488279002970455, 10, -21 }
+          },
+          {
+            id str "bit_score",
+            value real { 494804808291941, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 62
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 92
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 448202979515829, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173789
+            }
+          },
+          starts {
+            219,
+            36,
+            -1,
+            51,
+            234,
+            55,
+            245,
+            -1,
+            252,
+            66,
+            322,
+            -1,
+            325,
+            136,
+            -1,
+            147,
+            336,
+            159,
+            -1,
+            174,
+            351,
+            175,
+            363,
+            -1,
+            366,
+            187,
+            -1,
+            195,
+            374,
+            200,
+            390,
+            -1,
+            394,
+            216,
+            -1,
+            226,
+            404,
+            234,
+            416,
+            -1,
+            418,
+            246,
+            429,
+            -1,
+            436,
+            257
+          },
+          lens {
+            15,
+            4,
+            11,
+            7,
+            70,
+            3,
+            11,
+            12,
+            15,
+            1,
+            12,
+            3,
+            8,
+            5,
+            16,
+            4,
+            10,
+            8,
+            12,
+            2,
+            11,
+            7,
+            21
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 115
+          },
+          {
+            id str "blast_score",
+            value int 115
+          },
+          {
+            id str "e_value",
+            value real { 155928667942559, 10, -20 }
+          },
+          {
+            id str "bit_score",
+            value real { 48057766993236, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 69
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 96
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 526415270018622, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173798
+            }
+          },
+          starts {
+            219,
+            2,
+            -1,
+            20,
+            237,
+            26,
+            260,
+            -1,
+            271,
+            49,
+            280,
+            -1,
+            289,
+            58,
+            291,
+            -1,
+            292,
+            60,
+            302,
+            -1,
+            307,
+            70,
+            -1,
+            99,
+            336,
+            108,
+            347,
+            -1,
+            350,
+            119,
+            376,
+            -1,
+            377,
+            145,
+            -1,
+            185,
+            417,
+            194,
+            429,
+            -1,
+            431,
+            206,
+            -1,
+            258,
+            483,
+            259
+          },
+          lens {
+            18,
+            6,
+            23,
+            11,
+            9,
+            9,
+            2,
+            1,
+            10,
+            5,
+            29,
+            9,
+            11,
+            3,
+            26,
+            1,
+            40,
+            9,
+            12,
+            2,
+            52,
+            1,
+            16
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 112
+          },
+          {
+            id str "blast_score",
+            value int 112
+          },
+          {
+            id str "e_value",
+            value real { 392764211221358, 10, -20 }
+          },
+          {
+            id str "bit_score",
+            value real { 469131501442437, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 65
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 98
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 457513966480447, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173793
+            }
+          },
+          starts {
+            224,
+            1,
+            238,
+            -1,
+            247,
+            15,
+            277,
+            -1,
+            278,
+            45,
+            -1,
+            68,
+            301,
+            69,
+            -1,
+            80,
+            312,
+            84,
+            -1,
+            101,
+            329,
+            104,
+            -1,
+            111,
+            336,
+            118,
+            -1,
+            123,
+            341,
+            126,
+            345,
+            -1,
+            348,
+            130,
+            -1,
+            145,
+            363,
+            155,
+            -1,
+            211,
+            419,
+            228,
+            -1,
+            245,
+            436,
+            251
+          },
+          lens {
+            14,
+            9,
+            30,
+            1,
+            23,
+            1,
+            11,
+            4,
+            17,
+            3,
+            7,
+            7,
+            5,
+            3,
+            4,
+            3,
+            15,
+            10,
+            56,
+            17,
+            17,
+            6,
+            31
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 98
+          },
+          {
+            id str "blast_score",
+            value int 98
+          },
+          {
+            id str "e_value",
+            value real { 187595973025556, 10, -18 }
+          },
+          {
+            id str "bit_score",
+            value real { 416862562574001, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 72
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 94
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 446340782122905, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173821
+            }
+          },
+          starts {
+            220,
+            0,
+            233,
+            -1,
+            234,
+            13,
+            -1,
+            44,
+            265,
+            51,
+            -1,
+            71,
+            285,
+            74,
+            -1,
+            82,
+            293,
+            88,
+            -1,
+            116,
+            321,
+            125,
+            -1,
+            140,
+            336,
+            151,
+            -1,
+            153,
+            338,
+            155,
+            350,
+            -1,
+            353,
+            167,
+            -1,
+            208,
+            394,
+            219,
+            404,
+            -1,
+            413,
+            229,
+            -1,
+            255,
+            439,
+            269
+          },
+          lens {
+            13,
+            1,
+            31,
+            7,
+            20,
+            3,
+            8,
+            6,
+            28,
+            9,
+            15,
+            11,
+            2,
+            2,
+            12,
+            3,
+            41,
+            11,
+            10,
+            9,
+            26,
+            14,
+            18
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 91
+          },
+          {
+            id str "blast_score",
+            value int 91
+          },
+          {
+            id str "e_value",
+            value real { 137103119263424, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 389975769260388, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 59
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 86
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 440754189944134, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 23,
+          ids {
+            local str "Query_49",
+            general {
+              db "CDD",
+              tag id 173819
+            }
+          },
+          starts {
+            237,
+            25,
+            -1,
+            46,
+            258,
+            49,
+            282,
+            -1,
+            292,
+            73,
+            309,
+            -1,
+            313,
+            90,
+            -1,
+            113,
+            336,
+            127,
+            366,
+            -1,
+            371,
+            157,
+            -1,
+            185,
+            399,
+            190,
+            -1,
+            204,
+            413,
+            206,
+            419,
+            -1,
+            420,
+            212,
+            -1,
+            216,
+            424,
+            219,
+            -1,
+            228,
+            433,
+            235,
+            -1,
+            239,
+            437,
+            244
+          },
+          lens {
+            21,
+            3,
+            24,
+            10,
+            17,
+            4,
+            23,
+            14,
+            30,
+            5,
+            28,
+            5,
+            14,
+            2,
+            6,
+            1,
+            4,
+            3,
+            9,
+            7,
+            4,
+            5,
+            34
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      },
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 75
+          },
+          {
+            id str "blast_score",
+            value int 75
+          },
+          {
+            id str "e_value",
+            value real { 317997782421698, 10, -17 }
+          },
+          {
+            id str "bit_score",
+            value real { 326557631288617, 10, -13 }
+          },
+          {
+            id str "num_ident",
+            value int 18
+          },
+          {
+            id str "comp_adjustment_method",
+            value int 1
+          },
+          {
+            id str "num_positives",
+            value int 31
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 513064516129032, 10, -13 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 5,
+          ids {
+            local str "Query_52",
+            general {
+              db "CDD",
+              tag id 238042
+            }
+          },
+          starts {
+            35,
+            8,
+            45,
+            -1,
+            47,
+            18,
+            83,
+            -1,
+            84,
+            54
+          },
+          lens {
+            10,
+            2,
+            36,
+            1,
+            14
+          },
+          strands {
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown,
+            unknown
+          }
+        }
+      }
+    },
+    masks {
+    },
+    ka-blocks {
+      {
+        lambda { 317119620783283, 10, -15 },
+        k { 137841886269268, 10, -15 },
+        h { 454580915624258, 10, -15 },
+        gapped FALSE
+      },
+      {
+        lambda { 267, 10, -3 },
+        k { 73516152, 10, -9 },
+        h { 14, 10, -2 },
+        gapped TRUE
+      }
+    },
+    search-stats {
+      "Effective search space: 89486190",
+      "Effective search space used: 89486190",
+      "Length adjustment: 77"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession    qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- --------------------  ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1                    -            271 Enoyl-ACP_rdct       PIRSF000094   260   9.1e-16   48.1   0.0   1   1   6.7e-17   1.1e-15   47.7   0.0     4   252    27   270    25   271 0.84 -
+1                    -            271 17beta-HSD           PIRSF000095   313   1.4e-31   99.8   0.0   1   1     1e-32   1.7e-31   99.5   0.0     4   203    30   228    27   238 0.92 -
+1                    -            271 11-beta-HSD1         PIRSF000126   311   8.8e-42  133.1   0.0   1   1   6.5e-43   1.1e-41  132.8   0.0    48   240    30   220    12   234 0.86 -
+90                   -            537 Alpha-AR             PIRSF001617  1391   1.5e-09   25.6   0.5   1   2   5.8e-09   9.8e-08   19.6   0.0   272   442   110   283   102   332 0.85 -
+90                   -            537 Alpha-AR             PIRSF001617  1391   1.5e-09   25.6   0.5   2   2   0.00022    0.0037    4.4   0.2   673   716   492   536   476   537 0.80 -
+1                    -            271 CDP-ribitol_syn      PIRSF036586   474   1.2e-19   60.7   0.0   1   1   2.5e-20   4.2e-19   58.8   0.0   290   420    86   217    14   222 0.92 -
+4                    -            272 UCP036704            PIRSF036704    69   8.2e-06   16.4   0.6   1   1     9e-07   1.5e-05   15.5   0.6     9    42    19    49    13    63 0.79 -
+1                    -            271 Mas1                 PIRSF036951   430   2.5e-17   52.7   0.0   1   1   1.8e-18   3.1e-17   52.3   0.0   200   406    30   248    24   259 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/pirsf/3.10/sf_hmm_all
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/AOIR01000042.1.fasta.faa/hpc-node2_20230626_111205598_kyge//jobPIRSF/000000000001_000000000106.fasta
+# Option settings: bin/hmmer/hmmer3/3.3/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/AOIR01000042.1.fasta.faa/hpc-node2_20230626_111205598_kyge//jobPIRSF/000000000001_000000000106.raw.out --domtblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/AOIR01000042.1.fasta.faa/hpc-node2_20230626_111205598_kyge//jobPIRSF/000000000001_000000000106.raw.domtblout.out --acc -E 0.01 --cpu 1 data/pirsf/3.10/sf_hmm_all /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/AOIR01000042.1.fasta.faa/hpc-node2_20230626_111205598_kyge//jobPIRSF/000000000001_000000000106.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:04 2023
+# [ok]

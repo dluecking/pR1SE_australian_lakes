@@ -1,0 +1,152 @@
+{
+    "31": {
+        "domainMatches": {}
+    },
+    "43": {
+        "domainMatches": {
+            "PIRSR606118-50": [
+                {
+                    "domScore": "38.2",
+                    "domEvalue": "2.5e-12",
+                    "hmmFrom": 4,
+                    "hmmTo": 127,
+                    "hmmAlign": "aiYvRvSteeQalk.....aqidklkaacikka.kdiykekisGgssern..rpaLnrlledlskgdv..vvvyklDRlsRs.lddllkiveeLrkrgvelis.lsds.idtsanspegqlflavrgaiaeferaki",
+                    "seqFrom": 123,
+                    "seqTo": 259,
+                    "seqAlign": "VIYARVSSNRQAREgnslqQQVQSLSKIAKEQNiDLVREPIRDDGETGTDfdRPGIQEVRRLAMNGEIscVLVDDVDRIGRHsAETIFYLYELRSECGVTVITaKSGElDVETFNGLAQVMLKSLSSQIANENRARR",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 10,
+                            "hmmStart": 10,
+                            "end": "10",
+                            "group": "1",
+                            "desc": "O-(5'-phospho-DNA)-serine intermediate.",
+                            "label": "ACT_SITE",
+                            "start": "10",
+                            "condition": "S"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Viruses"
+                    ]
+                }
+            ]
+        }
+    },
+    "25": {
+        "domainMatches": {
+            "PIRSR037907-1": [
+                {
+                    "domScore": "82.3",
+                    "domEvalue": "5.8e-26",
+                    "hmmFrom": 143,
+                    "hmmTo": 435,
+                    "hmmAlign": "ldesaaqvmatnlwnlGydGsgitiaiidtGidash....pdlqGkvi.gwkdfvngkttp.......yddnGhGthvasiaaGt.GaasngkykGvapgaklvGikvldadGsGsisdiiaGvdwavqnkdkyGikvinlslGssqssdGtdslsqavnnawdaGlvvvvaaGnsGpdkytvGspaaaskvitvgavdkv................dvitdfssrGptadgrlkpevvapGnwiiaarasgtsltvtindyyvaasGtsmatphvaGiaal.llqahpsltpdkvkkal....ietadivkpdeiadiayGaGrvn",
+                    "seqFrom": 191,
+                    "seqTo": 501,
+                    "seqAlign": "STPAAAKSTSLDAASHGIDTSNGYIGIIDTGLNVADevfgTDASTRVAdASKNMITGETVAdsglsaiEDGAGHGTFVASQMAANpTLSEYNDYGGLCPSADLAIAKALNDDGSGSIDDIAAAVRLLTD----EGVDVICMSLGSPKWSEA---LDDALAYAVENGVVPVAAVGNDRQRSRWPNSPSSSPNTIAVTALTNAaateqkvayfantgdhNGVTDLS-GGKTAG--QTPDIGAPGMQQEAASVT-----SSGSHFIEELSGTSMAAPWVAGIAQLvILDKNPSPGEDETRLDIvrdwMQTYAKRTP-KIAAREVGAGEVS",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 171,
+                            "hmmStart": 171,
+                            "end": "170",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "170",
+                            "condition": "D"
+                        },
+                        {
+                            "hmmEnd": 204,
+                            "hmmStart": 204,
+                            "end": "203",
+                            "group": "1",
+                            "desc": "Charge relay system.",
+                            "label": "ACT_SITE",
+                            "start": "203",
+                            "condition": "H"
+                        },
+                        {
+                            "hmmEnd": 383,
+                            "hmmStart": 383,
+                            "end": "382",
+                            "group": "1",
+                            "desc": "Nucleophile.",
+                            "label": "ACT_SITE",
+                            "start": "382",
+                            "condition": "S"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ],
+            "PIRSR037907-3": [
+                {
+                    "domScore": "82.3",
+                    "domEvalue": "5.8e-26",
+                    "hmmFrom": 143,
+                    "hmmTo": 435,
+                    "hmmAlign": "ldesaaqvmatnlwnlGydGsgitiaiidtGidash....pdlqGkvi.gwkdfvngkttp.......yddnGhGthvasiaaGt.GaasngkykGvapgaklvGikvldadGsGsisdiiaGvdwavqnkdkyGikvinlslGssqssdGtdslsqavnnawdaGlvvvvaaGnsGpdkytvGspaaaskvitvgavdkv................dvitdfssrGptadgrlkpevvapGnwiiaarasgtsltvtindyyvaasGtsmatphvaGiaal.llqahpsltpdkvkkal....ietadivkpdeiadiayGaGrvn",
+                    "seqFrom": 191,
+                    "seqTo": 501,
+                    "seqAlign": "STPAAAKSTSLDAASHGIDTSNGYIGIIDTGLNVADevfgTDASTRVAdASKNMITGETVAdsglsaiEDGAGHGTFVASQMAANpTLSEYNDYGGLCPSADLAIAKALNDDGSGSIDDIAAAVRLLTD----EGVDVICMSLGSPKWSEA---LDDALAYAVENGVVPVAAVGNDRQRSRWPNSPSSSPNTIAVTALTNAaateqkvayfantgdhNGVTDLS-GGKTAG--QTPDIGAPGMQQEAASVT-----SSGSHFIEELSGTSMAAPWVAGIAQLvILDKNPSPGEDETRLDIvrdwMQTYAKRTP-KIAAREVGAGEVS",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 304,
+                            "hmmStart": 304,
+                            "end": "303",
+                            "group": "1",
+                            "desc": "Important for catalytic activity.",
+                            "label": "SITE",
+                            "start": "303",
+                            "condition": "N"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Archaea"
+                    ]
+                }
+            ]
+        }
+    },
+    "44": {
+        "domainMatches": {}
+    },
+    "33": {
+        "domainMatches": {
+            "PIRSR606118-50": [
+                {
+                    "domScore": "77.9",
+                    "domEvalue": "2.2e-24",
+                    "hmmFrom": 2,
+                    "hmmTo": 137,
+                    "hmmAlign": "miaiYvRvSteeQalkaqidklkaacikka.....kdiykekisGgssern.rpaLnrlledlskg..dvvvvyklDRlsRslddllkiveeLrkrgvelislsdsidtsanspegqlflavrgaiaeferakikeRtesGlel",
+                    "seqFrom": 15,
+                    "seqTo": 156,
+                    "seqAlign": "RAAVYARTSSTSQRFGYSIGEQVRQCIDRCemlgwEPVFVFRDEAKSGKDTdRPMFQEMLTSAEQGafDVLVFWKLDRFSRSIMHAVQLENEFRDWGIALHSVTEQLDTT--TAAGRFNFRNIANAAEFERDMIKQRTKMGHTA",
+                    "ruleSites": [
+                        {
+                            "hmmEnd": 10,
+                            "hmmStart": 10,
+                            "end": "10",
+                            "group": "1",
+                            "desc": "O-(5'-phospho-DNA)-serine intermediate.",
+                            "label": "ACT_SITE",
+                            "start": "10",
+                            "condition": "S"
+                        }
+                    ],
+                    "scope": [
+                        "Bacteria",
+                        "Viruses"
+                    ]
+                }
+            ]
+        }
+    }
+}

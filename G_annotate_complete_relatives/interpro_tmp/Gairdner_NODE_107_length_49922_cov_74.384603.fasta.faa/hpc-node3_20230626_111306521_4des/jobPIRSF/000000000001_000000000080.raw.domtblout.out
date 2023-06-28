@@ -1,0 +1,55 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession    qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- --------------------  ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+18                   -            295 Nitrogenase_iron     PIRSF000363   278   3.2e-05   15.9   0.0   1   1   7.1e-07   5.7e-05   15.1   0.0     5    42     4    42     1    57 0.87 -
+72                   -             60 DUSP12               PIRSF000941   343   0.00031   12.1   0.1   1   1     4e-06   0.00032   12.1   0.1   294   319    17    46     6    55 0.78 -
+18                   -            295 ArsAB_ATPase         PIRSF001327   589     5e-05   14.3   0.0   1   2   1.2e-06   9.9e-05   13.3   0.0    16    50     6    40     2    58 0.73 -
+18                   -            295 ArsAB_ATPase         PIRSF001327   589     5e-05   14.3   0.0   2   2       0.2        16   -3.9   0.0   127   147   121   141   117   147 0.75 -
+77                   -            125 RPS13p_RPS13a_RPS18e_RPS13o PIRSF002134   131   3.5e-05   16.2   0.2   1   2     0.038       3.1    0.2   0.0    39    65    20    46     9    62 0.51 -
+77                   -            125 RPS13p_RPS13a_RPS18e_RPS13o PIRSF002134   131   3.5e-05   16.2   0.2   2   2   6.5e-06   0.00052   12.4   0.0     9    63    61   114    53   124 0.79 -
+18                   -            295 MinD                 PIRSF003092   286   5.3e-09   27.9   0.0   1   2   3.9e-08   3.1e-06   18.8   0.0    19    53     5    39     3    41 0.93 -
+18                   -            295 MinD                 PIRSF003092   286   5.3e-09   27.9   0.0   2   2   0.00017     0.014    6.8   0.0   121   157   129   165   113   218 0.78 -
+53                   -             85 Integrase            PIRSF004338   104   0.00051   12.7   0.1   1   1   8.6e-06   0.00069   12.3   0.1    11    31    51    71    45    81 0.78 -
+6                    -             81 HTH_arch             PIRSF004955   266   9.7e-09   26.9   0.0   1   1   2.8e-10   1.1e-08   26.7   0.0    11    76     8    78     4    80 0.80 -
+39                   -             82 HTH_arch             PIRSF004955   266    0.0005   11.4   0.0   1   1   1.3e-05    0.0005   11.4   0.0     9    62     8    62     1    80 0.77 -
+18                   -            295 CooC                 PIRSF005647   250   6.2e-08   24.8   0.0   1   1   1.8e-09   1.4e-07   23.6   0.0     9   197    11   208     6   224 0.72 -
+39                   -             82 RR_citrat_malat      PIRSF006171   230   1.8e-06   19.9   0.0   1   1   2.6e-08     2e-06   19.7   0.0   154   208     3    57     1    64 0.93 -
+6                    -             81 TFE_archaea          PIRSF006373   176   0.00033   12.2   0.0   1   1   4.3e-06   0.00034   12.2   0.0    36    82    26    68     8    77 0.80 -
+6                    -             81 Txn_reg_HTH_AF0396   PIRSF006692   264   0.00092   10.9   0.0   1   1   1.3e-05     0.001   10.7   0.0    31    60    29    58    27    77 0.87 -
+18                   -            295 Nuc_binding_HP_1000  PIRSF009320   224     3e-13   42.1   0.0   1   2   6.4e-12   5.1e-10   31.5   0.0     4    42     4    42     1    61 0.90 -
+18                   -            295 Nuc_binding_HP_1000  PIRSF009320   224     3e-13   42.1   0.0   2   2   6.8e-05    0.0055    8.5   0.0    78   114   131   167   110   180 0.89 -
+12                   -            522 UCP014872            PIRSF014872   527   2.2e-05   15.5   0.0   1   1   4.2e-07   3.4e-05   14.9   0.0   256   300   400   444   389   453 0.83 -
+80                   -            198 UCP018748            PIRSF018748   177   2.1e-06   19.7   0.1   1   1   3.6e-08   2.9e-06   19.2   0.1    34    89    92   147    75   169 0.82 -
+9                    -            135 GOGAT_lg_dom1        PIRSF018774   374    0.0018    9.4   0.8   1   1   3.1e-05    0.0024    8.9   0.8   168   199     9    40     4    47 0.87 -
+52                   -             93 UCP032162_imp        PIRSF032162   171     0.004    9.0   4.8   1   1   5.2e-05    0.0041    8.9   4.6    42    69    41    68    20    83 0.79 -
+6                    -             81 UCP032673            PIRSF032673   136   0.00069   11.9   0.0   1   1   9.7e-06   0.00078   11.8   0.0    19    67    28    74    16    79 0.88 -
+64                   -             98 UCP037225            PIRSF037225    62   0.00024   13.4   0.1   1   1   4.8e-06   0.00038   12.7   0.1     5    21    38    54    34    61 0.86 -
+12                   -            522 Vpr-related_protease PIRSF037844  1408     3e-09   27.2   7.4   1   2   6.9e-07   5.5e-05   13.1   3.9   325   420   275   370   230   394 0.80 -
+12                   -            522 Vpr-related_protease PIRSF037844  1408     3e-09   27.2   7.4   2   2   8.4e-08   6.7e-06   16.1   0.1   612   699   420   512   373   522 0.74 -
+12                   -            522 Subtilisin_cyano     PIRSF037851   596     1e-29   95.6  15.6   1   1   2.2e-31   1.8e-29   94.8  15.6   143   405   201   487   189   506 0.75 -
+12                   -            522 Subtilisin_rel_SAV5721 PIRSF037852  1246   1.2e-18   58.4  24.3   1   1     2e-20   1.6e-18   58.0  24.3   266   507   249   488   185   512 0.83 -
+12                   -            522 EpiP_NisP_MutP       PIRSF037875   479   8.4e-08   23.3   0.7   1   2   3.1e-09   2.5e-07   21.7   0.5   153   266   202   320   184   348 0.85 -
+12                   -            522 EpiP_NisP_MutP       PIRSF037875   479   8.4e-08   23.3   0.7   2   2     0.039       3.1   -1.7   0.0   409   422   423   436   417   463 0.80 -
+12                   -            522 Subtilisin_rel_SRU_0565 PIRSF037892   558   3.1e-11   35.1   4.6   1   1   6.7e-13   5.3e-11   34.3   4.6   308   489   252   434   203   443 0.70 -
+12                   -            522 Subtilisin_rel_Maqu_2796 PIRSF037893   851   1.6e-21   68.4  20.7   1   1   3.1e-23   2.5e-21   67.7  20.7   307   617   195   486   188   493 0.77 -
+12                   -            522 Subtilisin_rel_CspABC PIRSF037894   572   0.00032   11.3   1.5   1   2    0.0021      0.16    2.4   0.1   142   195   211   268   196   276 0.76 -
+12                   -            522 Subtilisin_rel_CspABC PIRSF037894   572   0.00032   11.3   1.5   2   2   4.2e-05    0.0033    8.0   0.1   479   514   402   436   333   457 0.87 -
+12                   -            522 Subtilisin_rel_Sama_2696 PIRSF037895  1601   4.5e-07   19.8  12.2   1   3     0.021       1.7   -2.0   0.2   312   331   246   265   222   267 0.70 -
+12                   -            522 Subtilisin_rel_Sama_2696 PIRSF037895  1601   4.5e-07   19.8  12.2   2   3   2.6e-06    0.0002   11.0   0.8   430   470   330   370   310   376 0.89 -
+12                   -            522 Subtilisin_rel_Sama_2696 PIRSF037895  1601   4.5e-07   19.8  12.2   3   3   9.5e-08   7.6e-06   15.7   1.1   629   693   377   437   371   443 0.82 -
+12                   -            522 Subtilisin_rel_PfSUB_1 PIRSF037900   602   5.3e-06   17.5   0.0   1   1   1.3e-07   1.1e-05   16.5   0.0   495   579   400   485   240   499 0.57 -
+12                   -            522 Subtilisin_rel_Nmul_A1891 PIRSF037901   603   3.1e-18   57.8  12.4   1   1   8.4e-20   6.8e-18   56.7  12.4   190   410   250   490   243   503 0.80 -
+12                   -            522 Subtilisin_rel_GFO_2223 PIRSF037903   458   1.4e-07   22.7   2.9   1   2     0.061       4.9   -2.1   0.0   165   213   197   245   145   270 0.69 -
+12                   -            522 Subtilisin_rel_GFO_2223 PIRSF037903   458   1.4e-07   22.7   2.9   2   2   1.7e-09   1.4e-07   22.7   2.9   302   446   325   483   320   494 0.69 -
+12                   -            522 Subtilisin_rel_TK1689 PIRSF037907   654   2.4e-17   54.5  14.8   1   1   4.3e-19   3.4e-17   54.1  14.8   193   437   249   485   177   490 0.78 -
+6                    -             81 AMP-prot_trans       PIRSF038925   370   0.00043   11.4   0.0   1   1   5.6e-06   0.00045   11.4   0.0   315   361    24    70    10    78 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/pirsf/3.10/sf_hmm_all
+# Target file:     /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_107_length_49922_cov_74.384603.fasta.faa/hpc-node3_20230626_111306521_4des//jobPIRSF/000000000001_000000000080.fasta
+# Option settings: bin/hmmer/hmmer3/3.3/hmmsearch -o /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_107_length_49922_cov_74.384603.fasta.faa/hpc-node3_20230626_111306521_4des//jobPIRSF/000000000001_000000000080.raw.out --domtblout /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_107_length_49922_cov_74.384603.fasta.faa/hpc-node3_20230626_111306521_4des//jobPIRSF/000000000001_000000000080.raw.domtblout.out --acc -E 0.01 --cpu 1 data/pirsf/3.10/sf_hmm_all /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Gairdner_NODE_107_length_49922_cov_74.384603.fasta.faa/hpc-node3_20230626_111306521_4des//jobPIRSF/000000000001_000000000080.fasta 
+# Current dir:     /bioinf/home/dlueckin/dbs/interproscan-5.62-94.0
+# Date:            Mon Jun 26 11:13:53 2023
+# [ok]

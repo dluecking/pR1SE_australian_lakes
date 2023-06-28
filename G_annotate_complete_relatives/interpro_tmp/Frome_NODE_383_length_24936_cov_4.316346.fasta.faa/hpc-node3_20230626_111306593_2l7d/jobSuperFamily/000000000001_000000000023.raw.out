@@ -1,0 +1,619 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobSuperFamily/000000000001_000000000023.fasta
+# target HMM database:             data/superfamily/1.75/hmmlib_1.75
+# output directed to file:         /home/dlueckin/projects/pR1SE_australian_lakes/G_annotate_complete_relatives/scripts/../interpro_tmp/Frome_NODE_383_length_24936_cov_4.316346.fasta.faa/hpc-node3_20230626_111306593_2l7d//jobSuperFamily/000000000001_000000000023.raw.out
+# profile reporting threshold:     E-value <= 10
+# sequence search space set to:    15438
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       1  [L=270]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+  ------ inclusion threshold ------
+       0.15   11.5   0.0       0.21   11.0   0.0    1.2  1  0047426   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.16   11.5   0.0       0.22   11.1   0.0    1.3  1  0039162   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.16   11.5   0.0       0.23   11.0   0.0    1.3  1  0049273   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.16   11.7   0.0       0.22   11.2   0.0    1.2  1  0048784   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.17   11.5   0.0       0.24   10.9   0.0    1.2  1  0043435   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.23   10.7   0.0       0.31   10.3   0.0    1.3  1  0039164   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.27   10.6   0.0       0.44    9.9   0.0    1.4  1  0039163   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.28   10.6   0.0       0.42   10.0   0.0    1.4  1  0043429   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.29   10.3   0.0       0.42    9.8   0.0    1.3  1  0043425   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.29   10.5   0.0       0.39   10.1   0.0    1.3  1  0043428   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.29   10.5   0.0       0.51    9.7   0.0    1.4  1  0039159   N-terminal nucleophile aminohydrolases (Ntn hydrola
+        0.3   10.7   0.0       0.41   10.3   0.0    1.2  1  0039165   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.31   10.2   0.0       0.42    9.8   0.0    1.3  1  0039160   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.31   10.4   0.0       0.48    9.8   0.0    1.3  1  0043422   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.32   10.6   0.0       0.56    9.8   0.0    1.4  1  0039168   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.36   10.3   0.0       0.53    9.8   0.0    1.4  1  0047427   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.37   10.0   0.0       0.55    9.5   0.0    1.3  1  0043426   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.37   10.3   0.0       0.54    9.8   0.0    1.2  1  0039156   N-terminal nucleophile aminohydrolases (Ntn hydrola
+       0.43   10.2   0.0        0.6    9.7   0.0    1.3  1  0043434   N-terminal nucleophile aminohydrolases (Ntn hydrola
+
+
+Domain annotation for each model (and alignments):
+>> 0047426  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   0.00026      0.21      66     177 ..     146     212 ..     132     239 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00026
+  0047426  66 dhiglafaGlaaDartlverlraelqlyrlrygepisvealaklladllqeytqygglrPlgvsllvaGydeeggpqlysidpsGsyleykaaaiGsgsqla 167
+              ++i+ +  G  + ar+++++  + l +                           +                  + +ql+ +dp+G++ + +++a G +s   
+        1 146 PNIYSGDGGHHPTARVFAKHHHYALTE---------------------------M------------------DSGQLFDVDPLGTTDDAPFTADGDSSVQF 202
+              555555555555555555554444333...........................3..................9**********************999988 PP
+
+  0047426 168 lglLeklyke 177
+                +L + +++
+        1 203 EVWLADGWEN 212
+              8888777776 PP
+
+>> 0039162  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00027      0.22      91     185 ..     148     217 ..     126     246 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00027
+  0039162  91 lyrlrygrpisvealakllanllyeytqsdaeldaglrplgvsllvaGvdedgpqlysidpsGsyieykavaiGsgslyalgiLeklykedlsle 185
+               y    g+ ++++++ak   ++ y  t++                      d +ql+ +dp+G++ + +++a G +s +   +L + +++ l   
+        1 148 IYSGDGGHHPTARVFAK---HHHYALTEM----------------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENALHPG 217
+              55555556666666665...566666777......................99************************999999988888876655 PP
+
+>> 0049273  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   0.00028      0.23      58     147 ..     141     215 ..     126     244 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00028
+  0049273  58 llrvelelyrlrygepisvealanlladllyeytrplgvsllvaGvdkdgpqlylidpsGsvieypaaaiGsgsqyalgiLeklykpdls 147
+               ++   + y+   g++++ +++a+     l+e                d +ql+ +dp+G++ + p++a G  s      L + +++ l 
+        1 141 AASWGPNIYSGDGGHHPTARVFAKHHHYALTEM---------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENALH 215
+              455555566666666666666666666666655...............99*********************9998887777777776655 PP
+
+>> 0048784  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00028      0.22      64     147 ..     147     215 ..     128     245 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00028
+  0048784  64 qlyrlrygepisvealanllsdllyeytqrplgvsllvaGvdggpqlysidpsGsyleykavaiGsgsqlalglleklykedls 147
+              ++y    g++++ +++a+     l+e                + +ql+ +dp+G++ + +++a G +s +   +l + +++ l 
+        1 147 NIYSGDGGHHPTARVFAKHHHYALTEM---------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENALH 215
+              555666666666666666666666555...............99***********************99998888888887665 PP
+
+>> 0043435  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0    0.0003      0.24      55     149 ..     138     215 ..     127     241 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.0003
+  0043435  55 lvellrlelqlyrlrygepisvealakllsdllyeytqrplgvsllvaGvdedggpqlysvdpsGsylelkaaaiGsgslyalglleklykedlt 149
+              +++ + +  ++y+   g++++ +++ak  +  l+e                  +++ql+ vdp+G++   +++a G +s     +l + +++ l 
+        1 138 WMRAASWGPNIYSGDGGHHPTARVFAKHHHYALTEM-----------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENALH 215
+              566666666777777777777777777777777777.................9***********************999988888888887665 PP
+
+>> 0039164  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0   0.00039      0.31     143     184 ..     173     214 ..     130     244 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.00039
+  0039164 143 dggpqLysidpsGsyieykataiGsgsqlalglLeklykedl 184
+               +++qL+ +dp+G++ + ++ta G +s     +L + +++ l
+        1 173 MDSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENAL 214
+              3589*********************99998888888777655 PP
+
+>> 0039163  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.0   0.00054      0.44     137     178 ..     174     213 ..     130     241 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.00054
+  0039163 137 egpqLysidpsGsyleykataiGsgslaalgvLeklykeled 178
+              ++ qL+ +dp+G+++  ++ta G +s +   +L + + +   
+        1 174 DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWEN--A 213
+              478************************999999999888..4 PP
+
+>> 0043429  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.0   0.00052      0.42     139     182 ..     174     213 ..     130     244 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00052
+  0043429 139 egpqLysidpsGsylelkataiGsgslaalgvLeklykelelld 182
+              + +qL+ +dp+G++ + ++ta G +s++   +L + +++     
+        1 174 DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWEN----A 213
+              578************************999999999988....4 PP
+
+>> 0043425  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.0   0.00052      0.42     121     181 ..     170     212 ..     128     225 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00052
+  0043425 121 ytqsggvrPlgvslliaGvdeeggpqLysidpsGsyleykaaaiGsgsllalglLeklyke 181
+               t +                  +++qL+ +dp+G++ + +++a G +s+    +L + +++
+        1 170 LTEM------------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWEN 212
+              3333..................89*********************9998877777776665 PP
+
+>> 0043428  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0   0.00048      0.39     115     182 ..     170     213 ..     123     243 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00048
+  0043428 115 ytqskdarsdaglrPlgvsllvaGvdeeggpqLysvdpsGsyieykaaaiGsgslyalglLeklyked 182
+               t +                        +++qL+ vdp+G++ + +++a G +s     +L + +++ 
+        1 170 LTEM------------------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENA 213
+              4444........................699********************99998888887777765 PP
+
+>> 0039159  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00062      0.51     141     181 ..     174     214 ..     135     244 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00062
+  0039159 141 egpqLysvdpsGsyleykaaaiGsgsllalglLeklykedl 181
+              + +qL+ vdp+G++ +++++a G +s     +L + +++ l
+        1 174 DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENAL 214
+              579*********************99998888888887765 PP
+
+>> 0039165  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0005      0.41      62     149 ..     145     216 ..     125     246 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0005
+  0039165  62 elqlyrlrlgepisvealanllsdllyeytrplgvsllvaGvdedggpqlysvdpsGsvlelkavaiGsgslyalglleklykedlsl 149
+                ++y+ + g++++ +++a+     l+e                 +++ql+ vdp+G++ +++++a G +s +   +l + +++ l  
+        1 145 GPNIYSGDGGHHPTARVFAKHHHYALTEM----------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENALHP 216
+              55666666666666666666666655555................99**********************9999888888888876665 PP
+
+>> 0039160  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.0   0.00052      0.42     120     179 ..     170     211 ..     130     236 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00052
+  0039160 120 ytqsgglrPlgvsllvaGvdedggpqLysidpsGsyleykaaaiGsgsqlalglLeklyk 179
+               t +                  +++qL+ +dp+G++ + +++a G +s +   +L + ++
+        1 170 LTEM------------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWE 211
+              4444..................89**********************99998888877777 PP
+
+>> 0043422  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.0   0.00059      0.48      96     155 ..     169     211 ..     130     226 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00059
+  0043422  96 llysrrfrplgvsllvaGvdedggpqlysvdpsGsyleykaaaiGsgsqyalglLeklyk 155
+               l +                    +ql+ vdp+G++   +++a G +s     +L + ++
+        1 169 ALTEMD-----------------SGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWE 211
+              444444.................99***********************999999998888 PP
+
+>> 0039168  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.0   0.00068      0.56     111     156 ..     174     219 ..     132     247 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00068
+  0039168 111 ggpqLysvdpsGsylelkavaiGsgsllalglLeklykedltleea 156
+              +++qL+ vdp+G++ +++++a G +s     +L + +++ l    a
+        1 174 DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENALHPGAA 219
+              489***********************99999998888877766655 PP
+
+>> 0047427  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.0   0.00065      0.53      88     147 ..     171     215 ..     119     245 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00065
+  0047427  88 yggrrplgvsllvaGvdkdgpqlylidpsGsyieypavaiGsgsqyalgiLeklykpdls 147
+              ++                d +ql+ +dp+G++ + p++a G +s     +L + +++ l 
+        1 171 TEM---------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENALH 215
+              222...............889********************9998887777777776665 PP
+
+>> 0043426  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.5   0.0   0.00067      0.55     117     182 ..     166     213 ..     130     225 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.00067
+  0043426 117 llyeyrqsgglrplgvsllvaGvdeeggpqlysidpsGsvleykaaaiGsgsqyalglLeklyked 182
+              + y+ + +                  +++ql+ +dp+G++ +++++a G +s +   +L + +++ 
+        1 166 HHYALTEM------------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENA 213
+              44555555..................99*********************99998888877777765 PP
+
+>> 0039156  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.0   0.00067      0.54      72     153 ..     146     210 ..     129     221 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00067
+  0039156  72 lelyrlrygepisvealakllsdllyeytqrplgvsllvaGvdeeggpqlysvdpsGsyleykaaaiGsgslyalgllekly 153
+               + y+   g++++ +++ak     l+e                  + +ql+ vdp+G++   +++a G +s     +l + +
+        1 146 PNIYSGDGGHHPTARVFAKHHHYALTEM-----------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGW 210
+              5566666677777777766666666666.................9**********************99998888887777 PP
+
+>> 0043434  N-terminal nucleophile aminohydrolases (Ntn hydrolases)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00074       0.6      92     154 ..     171     216 ..     124     245 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00074
+  0043434  92 rgglrplgvsllvaGvdeetggpqlysvdpsGsvlelkavaiGsgslyalglleklykedltl 154
+                +                 +++ql+ vdp+G++ + +++a G +s +   +l + +++ l  
+        1 171 TEM-----------------DSGQLFDVDPLGTTDDAPFTADGDSSVQFEVWLADGWENALHP 216
+              333.................899**********************999998888888876655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (270 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       504  (0.0326467); expected 308.8 (0.02)
+Passed bias filter:                      504  (0.0326467); expected 308.8 (0.02)
+Passed Vit filter:                       133  (0.00861511); expected 15.4 (0.001)
+Passed Fwd filter:                        22  (0.00142506); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):              19  [number of targets reported over threshold]
+# CPU time: 0.33u 0.19s 00:00:00.52 Elapsed: 00:00:32.24
+# Mc/sec: 22.57
+//
+Query:       2  [L=357]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+  ------ inclusion threshold ------
+      0.071   11.6   0.2      0.091   11.3   0.2    1.1  1  0042501   MFS general substrate transporter
+       0.61    9.9   1.3        1.7    8.5   1.3    1.7  1  0053560   Tropomyosin
+        3.9    7.6   4.2         10    6.3   4.2    1.7  1  0053562   Myosin rod fragments
+
+
+Domain annotation for each model (and alignments):
+>> 0042501  MFS general substrate transporter
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.2   1.8e-05     0.091     177     315 ..       3     126 ..       1     130 [. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 1.8e-05
+  0042501 177 eldlgWrwafliaailalllalllllllpesprflllkglseeerkvlerrlkadaeakaasplsllellrn.pr..flllllayfllflgfyglltflply 275
+              e+  ++r+a l++a+l +l a+ ++++ +        +++s+   +++ ++++++ e+++++ ++l++     p    +l++l+++++ ++ y +++f+   
+        2   3 EF-SNYRLAGLVIAGLIVL-AIGIWFVRR-------RYFKSSSGNEETGEQRQRAYEEHRQRSIPLRSRAMKtPLegKILMFLVVGIVLAAGYEFYSFM--- 92 
+              56.7899999999999999.999999999.......888888888888886666666666666666555544044443333333333333333333333... PP
+
+  0042501 276 lqevlglsasqaglllalfglggilgsllagrlsdrlpeg 315
+                     s+sq++ ++   +l+g++++ +ag+   r   +
+        2  93 ----KTGSPSQVAAAWETKFLAGFVVASIAGIGYERR--R 126
+              ....446899999999999999999999998887776..4 PP
+
+>> 0053560  Tropomyosin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.5   1.3   0.00033       1.7      53     103 ..     249     299 ..     239     317 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.00033
+  0053560  53 kasereekyeekikllteklkeaekraedAErevaklekeideleeellra 103
+              k+ e e +  ++i+ l++k+ke ++r  + E++ ++ + e +   +e+l++
+        2 249 KSLEQEMQRSTDIDNLQTKVKELQARNAHLEASERERQTEQNNEIDEVLNQ 299
+              445566667889999999999999998888877666665554444444333 PP
+
+>> 0053562  Myosin rod fragments
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.3   4.2     0.002        10      22      88 ..     257     317 ..     245     335 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 6.3 bits;  conditional E-value: 0.002
+  0053562  22 leeqlkeleekleelerqlakllkekkrlqeelqelteqleeaeeklsqlsklkakleqqleeleer 88 
+                 ++++l++k++el+  +a l +  +         teq  e +e l+q+s + ++++++ + +  +
+        2 257 RSTDIDNLQTKVKELQARNAHLEASERE------RQTEQNNEIDEVLNQMSVVANRMQEMFNGTMNQ 317
+              4456777888888888877777663333......333344445555566666555555555555444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (357 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       451  (0.0292136); expected 308.8 (0.02)
+Passed bias filter:                      451  (0.0292136); expected 308.8 (0.02)
+Passed Vit filter:                       149  (0.00965151); expected 15.4 (0.001)
+Passed Fwd filter:                         3  (0.000194326); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.29u 0.09s 00:00:00.38 Elapsed: 00:00:15.10
+# Mc/sec: 63.72
+//
+Query:       3  [L=312]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+  ------ inclusion threshold ------
+      0.053   13.5   1.2       0.11   12.5   0.1    2.0  2  0047057   Galactose-binding domain-like
+       0.11   12.2   0.4         18    5.2   0.0    2.8  3  0045963   beta-Galactosidase/glucuronidase domain
+       0.15   11.4   0.0        7.4    5.8   0.0    2.1  2  0046078   Hect, E3 ligase catalytic domain
+       0.17   12.0   0.5        0.4   10.7   0.1    1.9  2  0046425   Galactose-binding domain-like
+       0.22   10.7   0.0         19    4.3   0.0    2.1  2  0048334   Hect, E3 ligase catalytic domain
+       0.32   11.0   0.3         12    5.9   0.0    3.2  2  0048457   Cupredoxins
+       0.41   10.9   0.7         22    5.3   0.0    3.2  2  0049086   Cupredoxins
+       0.46   10.5   1.3          8    6.6   0.1    2.9  3  0054215   beta-Galactosidase/glucuronidase domain
+
+
+Domain annotation for each model (and alignments):
+>> 0047057  Galactose-binding domain-like
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.1   5.5e-05      0.11      45     112 ..      97     161 ..      69     168 .. 0.83
+   2 ?   -1.0   0.1      0.85   1.6e+03      57      92 ..     258     295 ..     206     302 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 5.5e-05
+  0047057  45 lnlekgktYtlsFdakad....vartiivkvglngdpytaylsetvtlttewqtysftFtmtvdllllddat 112
+              +  ++ +tY ++F +k +    ++ ++ + ++ +++++ a ++ + + +++ ++ +++Ft +       ++t
+        3  97 IEGKNPNTYCVHFVVKVSddamTPAQLPAEIQSDDGSHEASWDAMHNFSSGETHTQIEFTLP-------ADT 161
+              45567899********5546669999************************************.......333 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 0.85
+  0047057  57 Fdakadvartiivkvglngdpytayls..etvtlttew 92 
+              F   a  + +i+v+++ +++    + +     ++t+ew
+        3 258 FYTEAQDGSSIRVTFQNPDARVKFIANptRKDEITEEW 295
+              44445555566666665555444444433444555555 PP
+
+>> 0045963  beta-Galactosidase/glucuronidase domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.7   0.0      0.62   1.2e+03      38      61 ..      80     103 ..      43     121 .. 0.65
+   2 ?    4.3   0.1     0.018        34      21      69 ..     111     171 ..      86     177 .. 0.70
+   3 ?    5.2   0.0    0.0092        18      26      77 ..     212     260 ..     189     276 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 0.62
+  0045963  38 ldaegkvvagagglvgelkvpnpk 61 
+               +++++vv+g ++++++++ +np+
+        3  80 TEQNTQVVLGESNTFYTIEGKNPN 103
+              345566666666666666666554 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.018
+  0045963  21 vkvevellgdlkvevelldaegkvva............gagglvgelkvpnpklWwPlglg 69 
+              vkv+ ++++++++ +e+  ++g   a            + ++++++l  +   +W+P+ + 
+        3 111 VKVSDDAMTPAQLPAEIQSDDGSHEAswdamhnfssgeTHTQIEFTLPADTTARWSPHEMR 171
+              33333444477777777777777777677777777665667788888888*******8875 PP
+
+  == domain 3  score: 5.2 bits;  conditional E-value: 0.0092
+  0045963  26 ellgdlkvevelldaegkvvagagglvgelkvpnpklWwPlglgeepPyLYd 77 
+              +++g+   +v++  ++ ++  + +++++++++++   W  lg  +e+P+ Y+
+        3 212 NASGE---QVTIPLENPETGESIDNWRARYTLNDGFSWHTLGTSAEDPVFYT 260
+              33222...34444444555558899999***********************8 PP
+
+>> 0046078  Hect, E3 ligase catalytic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.8   0.0    0.0039       7.4     145     205 ..      38      98 ..      25     150 .. 0.87
+   2 ?    3.7   0.0     0.017        34     168     220 ..     252     304 ..     212     309 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.0039
+  0046078 145 slleldldelellllltflvlvfllgggktvelipngsnipvtlenkeeyvdlvvdyrlnk 205
+                 e d d   ++ + t++v + ++++ + +e i ngs++  t++n +  +     +++++
+        3  38 AAEEADTDTDTETACETVVVHDAYMTDEQAIEAIANGSTVRSTEQNTQVVLGESNTFYTIE 98 
+              56677888888899999*****************************998777776666655 PP
+
+  == domain 2  score: 3.7 bits;  conditional E-value: 0.017
+  0046078 168 llgggktvelipngsnipvtlenkeeyvdlvvdyrlnksikeqleafreGfls 220
+              +  + +++   ++gs+i vt++n +  v+ +++ +  ++i e  ++  +G+ +
+        3 252 SAEDPVFYTEAQDGSSIRVTFQNPDARVKFIANPTRKDEITEEWTMWESGLKE 304
+              4555566677899********************99999999888888777765 PP
+
+>> 0046425  Galactose-binding domain-like
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.1   0.00021       0.4      45     122 ..      83     160 ..      48     180 .. 0.72
+   2 ?   -2.7   0.0       2.8   5.5e+03     118     139 ..     206     228 ..     197     242 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00021
+  0046425  45 RtstwdGaaqdltdlklkagktYtvsawvklasgvs.satvrltlqvedssgtteyvtiasvtvtkgewtklegtftld 122
+               t+   G + ++ ++  k+ +tY v ++vk+++++  +a++ + +q +d+s +++++ + +++ ++++ t++e t+  d
+        3  83 NTQVVLGESNTFYTIEGKNPNTYCVHFVVKVSDDAMtPAQLPAEIQSDDGSHEASWDAMHNFS-SGETHTQIEFTLPAD 160
+              566666666666777778999*************44599999999999998888887776654.444555666555554 PP
+
+  == domain 2  score: -2.7 bits;  conditional E-value: 2.8
+  0046425 118 tftld.psgakdlvlyvespdsg 139
+              ++ ++ +++ +++++ +e+p++g
+        3 206 KYDITaNASGEQVTIPLENPETG 228
+              55555577777777777777766 PP
+
+>> 0048334  Hect, E3 ligase catalytic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0     0.011        20     169     212 ..      43      86 ..      29     106 .. 0.86
+   2 ?    4.3   0.0      0.01        19     193     240 ..     258     305 ..     220     308 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 4.2 bits;  conditional E-value: 0.011
+  0048334 169 eldldvlellltflvlvellgglktvelipggsnipVtlenkee 212
+              ++d d++  + t++v++ ++ + + +e i +gs++  t++n + 
+        3  43 DTDTDTETACETVVVHDAYMTDEQAIEAIANGSTVRSTEQNTQV 86 
+              568888899********************************876 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.01
+  0048334 193 tvelipggsnipVtlenkeeYvdlvvdyrlnksvkeqleafreGflsv 240
+               +   ++gs+i Vt++n +  v+ +++ +  +++ e ++   +G+ ++
+        3 258 FYTEAQDGSSIRVTFQNPDARVKFIANPTRKDEITEEWTMWESGLKEI 305
+              4555789************************99999999999998775 PP
+
+>> 0048457  Cupredoxins
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.1      0.37   7.1e+02      27      27 ..      93      93 ..      51     166 .. 0.56
+   2 ?    5.9   0.0    0.0062        12      19      40 ..     208     229 ..     196     298 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 0.37
+  0048457 27 e 27
+             +
+        3 93 T 93
+             1 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.0062
+  0048457  19 eitvkasGetvtltlkntgklp 40 
+               it++asGe+vt+ l+n+++  
+        3 208 DITANASGEQVTIPLENPETGE 229
+              5899999*******99998655 PP
+
+>> 0049086  Cupredoxins
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.3      0.13   2.5e+02      36      93 ..      98     150 ..      50     165 .. 0.56
+   2 ?    5.3   0.0     0.012        22      10      39 ..     199     228 ..     192     277 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 0.13
+  0049086  36 tgklpktvmgHnlvlvkagdldgvaaaalaagadglyllpddervlahtklvgpgesd 93 
+               gk+p t+ +H +v v+++ + +++  a  ++ d     +++e  +  ++  ++ge+ 
+        3  98 EGKNPNTYCVHFVVKVSDDAMTPAQLPAEIQSDD-----GSHEASWDAMHNFSSGETH 150
+              3666777778888888887777766655555433.....2333334444445555554 PP
+
+  == domain 2  score: 5.3 bits;  conditional E-value: 0.012
+  0049086  10 ndqmrfdpkeievkasGetvrlvltntgkl 39 
+               d ++  + +i+++asGe+v++ l n+++ 
+        3 199 EDEVVKRKYDITANASGEQVTIPLENPETG 228
+              56666667789**************98754 PP
+
+>> 0054215  beta-Galactosidase/glucuronidase domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.1     0.074   1.4e+02      24      76 ..      51     103 ..      34     118 .. 0.75
+   2 ?    6.6   0.1    0.0041         8      18      81 ..     102     168 ..      86     171 .. 0.64
+   3 ?    0.2   0.0      0.39   7.5e+02      25      75 ..     207     256 ..     191     276 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.074
+  0054215  24 evevenasdgpvdltvtvtllddgkvvasltqkvtlapgegtvtltlevenPk 76 
+               +e + ++d+ ++ +  ++ + +g +v s++q++ +  ge+   +t+e +nP 
+        3  51 ACETVVVHDAYMTDEQAIEAIANGSTVRSTEQNTQVVLGESNTFYTIEGKNPN 103
+              44555555666666778888889999999999999999999999999998875 PP
+
+  == domain 2  score: 6.6 bits;  conditional E-value: 0.0041
+  0054215  18 satvtvevevenasdgpvdltvtvtlld.dgkvvasltqkvtlapge..gtvtltlevenPklWwPn 81 
+                t  v++ v+ + d+ +++++ +++++ dg   as+ +   + +ge  +++++tl+ +   +W+P+
+        3 102 PNTYCVHFVVKVSDDAMTPAQLPAEIQSdDGSHEASWDAMHNFSSGEthTQIEFTLPADTTARWSPH 168
+              334445555555566666777777777756666666666666666663367777888888******9 PP
+
+  == domain 3  score: 0.2 bits;  conditional E-value: 0.39
+  0054215  25 vevenasdgpvdltvtvtllddgkvvasltqkvtlapgegtvtltlevenP 75 
+              +++++  +g+ ++t+ ++    g+ +  +++++tl++g ++ tl    e+P
+        3 207 YDITANASGE-QVTIPLENPETGESIDNWRARYTLNDGFSWHTLGTSAEDP 256
+              4444444443.3333333333667777777777777777777776666666 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (312 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       574  (0.037181); expected 308.8 (0.02)
+Passed bias filter:                      574  (0.037181); expected 308.8 (0.02)
+Passed Vit filter:                       120  (0.00777303); expected 15.4 (0.001)
+Passed Fwd filter:                         8  (0.000518202); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.29u 0.11s 00:00:00.40 Elapsed: 00:00:07.03
+# Mc/sec: 119.58
+//
+Query:       4  [L=558]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+  ------ inclusion threshold ------
+       0.31   10.0   0.3       0.49    9.4   0.3    1.3  1  0048375   C-terminal (heme d1) domain of cytochrome cd1-nitri
+
+
+Domain annotation for each model (and alignments):
+>> 0048375  C-terminal (heme d1) domain of cytochrome cd1-nitrite reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.4   0.3   3.2e-05      0.49      67     142 ..     359     430 ..     327     494 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 3.2e-05
+  0048375  67 vafspdgrylyvas..rdgtvsvidlatktgkvvatipvggg.phgiafspldGldgkylyvanygdgtvvviDldtgk 142
+               a  p gry++v++  + gt+ v d  tkt  +++ ip++ + p ++  s   G     + va  ++ tv++   dt +
+        4 359 AATGPTGRYAVVGNgiERGTLEVTDG-TKTVILTGVIPGDAEpPSNVVAST-TG-----VDVARDASTTVRIQKGDTEQ 430
+              56789999999999988899999996.788888899999988888899988.88.....99998888888888777754 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (558 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       331  (0.0214406); expected 308.8 (0.02)
+Passed bias filter:                      331  (0.0214406); expected 308.8 (0.02)
+Passed Vit filter:                        49  (0.00317399); expected 15.4 (0.001)
+Passed Fwd filter:                         1  (6.47752e-05); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.30u 0.10s 00:00:00.40 Elapsed: 00:00:00.82
+# Mc/sec: 1834.06
+//
+Query:       5  [L=120]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (120 residues searched)
+Target model(s):                       15438  (2695333 nodes)
+Passed MSV filter:                       326  (0.0211167); expected 308.8 (0.02)
+Passed bias filter:                      326  (0.0211167); expected 308.8 (0.02)
+Passed Vit filter:                       103  (0.00667185); expected 15.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.2 (1e-05)
+Initial search space (Z):              15438  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.21u 0.12s 00:00:00.32 Elapsed: 00:00:00.48
+# Mc/sec: 672.67
+//

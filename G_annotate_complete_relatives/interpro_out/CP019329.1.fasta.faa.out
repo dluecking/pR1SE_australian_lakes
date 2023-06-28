@@ -1,0 +1,709 @@
+CP019329.1_174	94fedf592df0382cce7d8f5bfb374b7d	318	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	30	214	5.93E-8	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_174	94fedf592df0382cce7d8f5bfb374b7d	318	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	24	215	1.2E-10	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_207	4dc72f5063a6cf9324cae806b14bc6fa	109	MobiDBLite	mobidb-lite	consensus disorder prediction	1	37	-	T	26-06-2023	-	-
+CP019329.1_168	742e23c871ab0f818d5cfa5c40126ee5	180	MobiDBLite	mobidb-lite	consensus disorder prediction	109	180	-	T	26-06-2023	-	-
+CP019329.1_168	742e23c871ab0f818d5cfa5c40126ee5	180	MobiDBLite	mobidb-lite	consensus disorder prediction	123	147	-	T	26-06-2023	-	-
+CP019329.1_19	b436250984afee11e86279e15e4ef085	378	MobiDBLite	mobidb-lite	consensus disorder prediction	29	70	-	T	26-06-2023	-	-
+CP019329.1_55	2129ed1350e1cac862aea31b75f26620	321	Gene3D	G3DSA:3.30.1640.10	-	3	93	1.1E-10	T	26-06-2023	-	-
+CP019329.1_55	2129ed1350e1cac862aea31b75f26620	321	Gene3D	G3DSA:2.40.50.140	-	102	227	1.2E-25	T	26-06-2023	IPR012340	Nucleic acid-binding, OB-fold
+CP019329.1_55	2129ed1350e1cac862aea31b75f26620	321	PANTHER	PTHR11630	DNA REPLICATION LICENSING FACTOR MCM FAMILY MEMBER	27	270	2.8E-23	T	26-06-2023	IPR031327	Mini-chromosome maintenance protein
+CP019329.1_55	2129ed1350e1cac862aea31b75f26620	321	Gene3D	G3DSA:2.20.28.10	-	125	175	1.2E-25	T	26-06-2023	-	-
+CP019329.1_55	2129ed1350e1cac862aea31b75f26620	321	SUPERFAMILY	SSF50249	Nucleic acid-binding proteins	23	236	8.22E-30	T	26-06-2023	IPR012340	Nucleic acid-binding, OB-fold
+CP019329.1_55	2129ed1350e1cac862aea31b75f26620	321	Pfam	PF17207	MCM OB domain	102	222	1.1E-19	T	26-06-2023	IPR033762	MCM OB domain
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	PRINTS	PR00033	AsnC bacterial regulatory protein HTH signature	5	21	2.0E-10	T	26-06-2023	IPR000485	AsnC-type HTH domain
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	PRINTS	PR00033	AsnC bacterial regulatory protein HTH signature	33	52	2.0E-10	T	26-06-2023	IPR000485	AsnC-type HTH domain
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	Pfam	PF13404	AsnC-type helix-turn-helix domain	5	47	2.7E-10	T	26-06-2023	IPR000485	AsnC-type HTH domain
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	ProSiteProfiles	PS51202	RCK C-terminal domain profile.	157	245	11.630795	T	26-06-2023	IPR006037	Regulator of K+ conductance, C-terminal
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	SMART	SM00344	asnc	5	113	5.2E-14	T	26-06-2023	IPR019888	Transcription regulator AsnC-like
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	Gene3D	G3DSA:1.10.10.10	-	6	57	7.5E-18	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	4	62	1.03E-12	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	CDD	cd00090	HTH_ARSR	6	55	3.13403E-7	T	26-06-2023	IPR011991	ArsR-like helix-turn-helix domain
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	ProSiteProfiles	PS50956	AsnC-type HTH domain profile.	5	68	27.660391	T	26-06-2023	IPR000485	AsnC-type HTH domain
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	SUPERFAMILY	SSF116726	TrkA C-terminal domain-like	158	239	3.53E-11	T	26-06-2023	IPR036721	Regulator of K+ conductance, C-terminal domain superfamily
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	Gene3D	G3DSA:3.30.70.1450	-	157	238	1.3E-14	T	26-06-2023	IPR036721	Regulator of K+ conductance, C-terminal domain superfamily
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	Pfam	PF02080	TrkA-C domain	171	231	2.0E-10	T	26-06-2023	IPR006037	Regulator of K+ conductance, C-terminal
+CP019329.1_27	6ca74302c2a06cfe1c8b9c87e4c80bfa	247	PANTHER	PTHR30154	LEUCINE-RESPONSIVE REGULATORY PROTEIN	1	152	1.9E-30	T	26-06-2023	-	-
+CP019329.1_64	12174c5af57f335d36c170d2a0bf2dc8	85	MobiDBLite	mobidb-lite	consensus disorder prediction	64	85	-	T	26-06-2023	-	-
+CP019329.1_64	12174c5af57f335d36c170d2a0bf2dc8	85	MobiDBLite	mobidb-lite	consensus disorder prediction	63	85	-	T	26-06-2023	-	-
+CP019329.1_166	ad7772353b37159c9a4546e35916b571	135	MobiDBLite	mobidb-lite	consensus disorder prediction	1	20	-	T	26-06-2023	-	-
+CP019329.1_153	abe2f169db27a3c6f8a6f962535ef915	1108	Coils	Coil	Coil	509	529	-	T	26-06-2023	-	-
+CP019329.1_153	abe2f169db27a3c6f8a6f962535ef915	1108	MobiDBLite	mobidb-lite	consensus disorder prediction	65	86	-	T	26-06-2023	-	-
+CP019329.1_153	abe2f169db27a3c6f8a6f962535ef915	1108	MobiDBLite	mobidb-lite	consensus disorder prediction	35	86	-	T	26-06-2023	-	-
+CP019329.1_153	abe2f169db27a3c6f8a6f962535ef915	1108	SUPERFAMILY	SSF63825	YWTD domain	94	274	3.4E-11	T	26-06-2023	-	-
+CP019329.1_153	abe2f169db27a3c6f8a6f962535ef915	1108	MobiDBLite	mobidb-lite	consensus disorder prediction	35	64	-	T	26-06-2023	-	-
+CP019329.1_6	341d4e3ed77f6af4d09109944e8a45d9	411	NCBIfam	TIGR01766	IS200/IS605 family accessory protein TnpB-like domain	241	321	3.8E-23	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_6	341d4e3ed77f6af4d09109944e8a45d9	411	MobiDBLite	mobidb-lite	consensus disorder prediction	386	411	-	T	26-06-2023	-	-
+CP019329.1_6	341d4e3ed77f6af4d09109944e8a45d9	411	MobiDBLite	mobidb-lite	consensus disorder prediction	370	385	-	T	26-06-2023	-	-
+CP019329.1_6	341d4e3ed77f6af4d09109944e8a45d9	411	NCBIfam	NF040570	RNA-guided endonuclease TnpB family protein	148	364	1.2E-37	T	26-06-2023	-	-
+CP019329.1_6	341d4e3ed77f6af4d09109944e8a45d9	411	MobiDBLite	mobidb-lite	consensus disorder prediction	368	411	-	T	26-06-2023	-	-
+CP019329.1_6	341d4e3ed77f6af4d09109944e8a45d9	411	Pfam	PF07282	Putative transposase DNA-binding domain	294	364	2.6E-23	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_15	80b956b00f10a8bd0862a90ff1db7265	226	Pfam	PF19865	Family of unknown function (DUF6338)	3	205	5.9E-15	T	26-06-2023	IPR045919	Protein of unknown function DUF6338
+CP019329.1_84	41a5bb13c5c615b70be7094020fba857	47	MobiDBLite	mobidb-lite	consensus disorder prediction	1	29	-	T	26-06-2023	-	-
+CP019329.1_84	41a5bb13c5c615b70be7094020fba857	47	MobiDBLite	mobidb-lite	consensus disorder prediction	1	47	-	T	26-06-2023	-	-
+CP019329.1_84	41a5bb13c5c615b70be7094020fba857	47	MobiDBLite	mobidb-lite	consensus disorder prediction	30	47	-	T	26-06-2023	-	-
+CP019329.1_197	9aa4beedaa6562bbce1bc9427fe7c000	148	MobiDBLite	mobidb-lite	consensus disorder prediction	81	119	-	T	26-06-2023	-	-
+CP019329.1_197	9aa4beedaa6562bbce1bc9427fe7c000	148	MobiDBLite	mobidb-lite	consensus disorder prediction	99	119	-	T	26-06-2023	-	-
+CP019329.1_89	ad7535c0b06bf0fd32aedf50a0b15f27	233	Pfam	PF07282	Putative transposase DNA-binding domain	132	196	4.8E-12	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_221	9b0b8470aab58bced9c5a3880d00878d	99	Gene3D	G3DSA:2.10.230.10	-	2	75	5.6E-6	T	26-06-2023	-	-
+CP019329.1_217	d6e2becb1d9dc8be231f974d6c4529c5	128	MobiDBLite	mobidb-lite	consensus disorder prediction	107	128	-	T	26-06-2023	-	-
+CP019329.1_217	d6e2becb1d9dc8be231f974d6c4529c5	128	MobiDBLite	mobidb-lite	consensus disorder prediction	108	128	-	T	26-06-2023	-	-
+CP019329.1_36	c443fed4e1a1bfa0c45a953af5da5714	224	Pfam	PF02683	Cytochrome C biogenesis protein transmembrane region	18	214	6.2E-7	T	26-06-2023	IPR003834	Cytochrome C biogenesis protein, transmembrane domain
+CP019329.1_36	c443fed4e1a1bfa0c45a953af5da5714	224	PANTHER	PTHR31272	CYTOCHROME C-TYPE BIOGENESIS PROTEIN HI_1454-RELATED	12	220	2.8E-10	T	26-06-2023	-	-
+CP019329.1_193	d5775e47574ee81f62788246017aa84e	287	Pfam	PF00857	Isochorismatase family	76	276	2.6E-37	T	26-06-2023	IPR000868	Isochorismatase-like
+CP019329.1_193	d5775e47574ee81f62788246017aa84e	287	Gene3D	G3DSA:3.40.50.850	-	71	285	2.4E-49	T	26-06-2023	IPR036380	Isochorismatase-like superfamily
+CP019329.1_193	d5775e47574ee81f62788246017aa84e	287	CDD	cd00431	cysteine_hydrolases	77	263	2.71608E-40	T	26-06-2023	-	-
+CP019329.1_193	d5775e47574ee81f62788246017aa84e	287	SUPERFAMILY	SSF52499	Isochorismatase-like hydrolases	67	282	5.23E-46	T	26-06-2023	IPR036380	Isochorismatase-like superfamily
+CP019329.1_193	d5775e47574ee81f62788246017aa84e	287	PANTHER	PTHR43540	PEROXYUREIDOACRYLATE/UREIDOACRYLATE AMIDOHYDROLASE-RELATED	57	284	2.3E-58	T	26-06-2023	-	-
+CP019329.1_216	6f330cb0193bdced56c8250367fd6744	74	MobiDBLite	mobidb-lite	consensus disorder prediction	1	21	-	T	26-06-2023	-	-
+CP019329.1_216	6f330cb0193bdced56c8250367fd6744	74	MobiDBLite	mobidb-lite	consensus disorder prediction	1	35	-	T	26-06-2023	-	-
+CP019329.1_190	b58ae6a0e6d141894395565dfb6ff5d1	217	MobiDBLite	mobidb-lite	consensus disorder prediction	19	40	-	T	26-06-2023	-	-
+CP019329.1_123	1acc04e8922d1334109669343a4eca5a	74	MobiDBLite	mobidb-lite	consensus disorder prediction	1	74	-	T	26-06-2023	-	-
+CP019329.1_52	a0623753c51d6e4da55e759bf70a236a	169	MobiDBLite	mobidb-lite	consensus disorder prediction	137	169	-	T	26-06-2023	-	-
+CP019329.1_52	a0623753c51d6e4da55e759bf70a236a	169	MobiDBLite	mobidb-lite	consensus disorder prediction	143	162	-	T	26-06-2023	-	-
+CP019329.1_98	7cdd4ef7eff1a3b0686bee69fbfdbadd	226	CDD	cd05403	NT_KNTase_like	124	174	8.45537E-7	T	26-06-2023	-	-
+CP019329.1_98	7cdd4ef7eff1a3b0686bee69fbfdbadd	226	Gene3D	G3DSA:3.30.460.10	Beta Polymerase, domain 2	106	221	2.1E-11	T	26-06-2023	IPR043519	Nucleotidyltransferase superfamily
+CP019329.1_98	7cdd4ef7eff1a3b0686bee69fbfdbadd	226	Pfam	PF01909	Nucleotidyltransferase domain	128	170	5.2E-9	T	26-06-2023	IPR002934	Polymerase, nucleotidyl transferase domain
+CP019329.1_98	7cdd4ef7eff1a3b0686bee69fbfdbadd	226	SUPERFAMILY	SSF81301	Nucleotidyltransferase	111	216	2.52E-13	T	26-06-2023	IPR043519	Nucleotidyltransferase superfamily
+CP019329.1_98	7cdd4ef7eff1a3b0686bee69fbfdbadd	226	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	28	90	2.97E-8	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_98	7cdd4ef7eff1a3b0686bee69fbfdbadd	226	Gene3D	G3DSA:1.10.10.10	-	19	97	1.1E-5	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_98	7cdd4ef7eff1a3b0686bee69fbfdbadd	226	Pfam	PF08279	HTH domain	28	80	3.3E-8	T	26-06-2023	IPR013196	Helix-turn-helix, type 11
+CP019329.1_98	7cdd4ef7eff1a3b0686bee69fbfdbadd	226	PANTHER	PTHR33933	NUCLEOTIDYLTRANSFERASE	123	215	5.1E-10	T	26-06-2023	-	-
+CP019329.1_225	b53bc513ba3dcf67b0822f68d7fd875c	186	CDD	cd04301	NAT_SF	80	110	6.9772E-6	T	26-06-2023	-	-
+CP019329.1_225	b53bc513ba3dcf67b0822f68d7fd875c	186	ProSiteProfiles	PS51186	Gcn5-related N-acetyltransferase (GNAT) domain profile.	1	173	10.139174	T	26-06-2023	IPR000182	GNAT domain
+CP019329.1_225	b53bc513ba3dcf67b0822f68d7fd875c	186	Gene3D	G3DSA:3.40.630.30	-	14	148	1.3E-13	T	26-06-2023	-	-
+CP019329.1_225	b53bc513ba3dcf67b0822f68d7fd875c	186	Pfam	PF00583	Acetyltransferase (GNAT) family	59	131	3.2E-7	T	26-06-2023	IPR000182	GNAT domain
+CP019329.1_225	b53bc513ba3dcf67b0822f68d7fd875c	186	SUPERFAMILY	SSF55729	Acyl-CoA N-acyltransferases (Nat)	66	141	1.24E-13	T	26-06-2023	IPR016181	Acyl-CoA N-acyltransferase
+CP019329.1_219	8c870e3e5715de460821ee1efe321eed	217	MobiDBLite	mobidb-lite	consensus disorder prediction	195	217	-	T	26-06-2023	-	-
+CP019329.1_31	63529ac7c153a54d23b46c6f0dc78e62	576	Pfam	PF01609	Transposase DDE domain	322	537	3.2E-10	T	26-06-2023	IPR002559	Transposase IS4-like domain
+CP019329.1_31	63529ac7c153a54d23b46c6f0dc78e62	576	SUPERFAMILY	SSF53098	Ribonuclease H-like	370	540	4.55E-6	T	26-06-2023	IPR012337	Ribonuclease H-like superfamily
+CP019329.1_45	d81abfd847c4d827278ff6384d3af626	424	SUPERFAMILY	SSF56349	DNA breaking-rejoining enzymes	98	372	2.15E-16	T	26-06-2023	IPR011010	DNA breaking-rejoining enzyme, catalytic core
+CP019329.1_45	d81abfd847c4d827278ff6384d3af626	424	Gene3D	G3DSA:1.10.443.10	Intergrase catalytic core	214	416	4.5E-15	T	26-06-2023	IPR013762	Integrase-like, catalytic domain superfamily
+CP019329.1_154	847078c46c498c7f8a7b469ba95cbd47	412	NCBIfam	TIGR01766	IS200/IS605 family accessory protein TnpB-like domain	258	335	1.8E-14	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_154	847078c46c498c7f8a7b469ba95cbd47	412	NCBIfam	NF040570	RNA-guided endonuclease TnpB family protein	153	376	4.3E-54	T	26-06-2023	-	-
+CP019329.1_154	847078c46c498c7f8a7b469ba95cbd47	412	Pfam	PF07282	Putative transposase DNA-binding domain	308	376	9.0E-24	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_154	847078c46c498c7f8a7b469ba95cbd47	412	MobiDBLite	mobidb-lite	consensus disorder prediction	383	412	-	T	26-06-2023	-	-
+CP019329.1_73	003aab6e9ed139bd7b4d43cccdc6a22a	375	Pfam	PF00534	Glycosyl transferases group 1	197	355	1.9E-18	T	26-06-2023	IPR001296	Glycosyl transferase, family 1
+CP019329.1_73	003aab6e9ed139bd7b4d43cccdc6a22a	375	CDD	cd03794	GT4_WbuB-like	25	372	4.04213E-52	T	26-06-2023	-	-
+CP019329.1_73	003aab6e9ed139bd7b4d43cccdc6a22a	375	Gene3D	G3DSA:3.40.50.2000	Glycogen Phosphorylase B;	187	358	9.1E-31	T	26-06-2023	-	-
+CP019329.1_73	003aab6e9ed139bd7b4d43cccdc6a22a	375	PANTHER	PTHR45947	SULFOQUINOVOSYL TRANSFERASE SQD2	6	373	4.3E-31	T	26-06-2023	-	-
+CP019329.1_73	003aab6e9ed139bd7b4d43cccdc6a22a	375	SUPERFAMILY	SSF53756	UDP-Glycosyltransferase/glycogen phosphorylase	5	372	2.75E-48	T	26-06-2023	-	-
+CP019329.1_73	003aab6e9ed139bd7b4d43cccdc6a22a	375	Gene3D	G3DSA:3.40.50.2000	Glycogen Phosphorylase B;	4	186	5.5E-11	T	26-06-2023	-	-
+CP019329.1_73	003aab6e9ed139bd7b4d43cccdc6a22a	375	Pfam	PF13439	Glycosyltransferase Family 4	20	180	1.7E-10	T	26-06-2023	IPR028098	Glycosyltransferase subfamily 4-like, N-terminal domain
+CP019329.1_120	887fd5b0fb41512abb8a6aedbc9386d2	112	MobiDBLite	mobidb-lite	consensus disorder prediction	82	103	-	T	26-06-2023	-	-
+CP019329.1_120	887fd5b0fb41512abb8a6aedbc9386d2	112	MobiDBLite	mobidb-lite	consensus disorder prediction	82	112	-	T	26-06-2023	-	-
+CP019329.1_120	887fd5b0fb41512abb8a6aedbc9386d2	112	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	13	85	7.21E-8	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_120	887fd5b0fb41512abb8a6aedbc9386d2	112	Gene3D	G3DSA:1.10.10.10	-	1	89	3.4E-15	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_148	4b451bf0c2c2ffe5c03f7545eedaeab7	197	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	26-06-2023	-	-
+CP019329.1_110	b964e36720aa8457dbd5286ced8df8aa	41	MobiDBLite	mobidb-lite	consensus disorder prediction	1	41	-	T	26-06-2023	-	-
+CP019329.1_110	b964e36720aa8457dbd5286ced8df8aa	41	MobiDBLite	mobidb-lite	consensus disorder prediction	10	27	-	T	26-06-2023	-	-
+CP019329.1_30	762857dd4b688730a650de6eb410170d	516	Pfam	PF02386	Cation transport protein	122	503	2.6E-66	T	26-06-2023	IPR003445	Cation transporter
+CP019329.1_30	762857dd4b688730a650de6eb410170d	516	PANTHER	PTHR32024	TRK SYSTEM POTASSIUM UPTAKE PROTEIN TRKG-RELATED	4	512	8.5E-129	T	26-06-2023	-	-
+CP019329.1_13	c21bfd2b96b5ec435de11364dda1d0ec	197	Coils	Coil	Coil	103	123	-	T	26-06-2023	-	-
+CP019329.1_22	7bb3a6dc73bab75148d2ec62dba3058f	134	MobiDBLite	mobidb-lite	consensus disorder prediction	94	116	-	T	26-06-2023	-	-
+CP019329.1_22	7bb3a6dc73bab75148d2ec62dba3058f	134	Coils	Coil	Coil	116	134	-	T	26-06-2023	-	-
+CP019329.1_22	7bb3a6dc73bab75148d2ec62dba3058f	134	MobiDBLite	mobidb-lite	consensus disorder prediction	98	116	-	T	26-06-2023	-	-
+CP019329.1_22	7bb3a6dc73bab75148d2ec62dba3058f	134	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	22	99	1.97E-6	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_22	7bb3a6dc73bab75148d2ec62dba3058f	134	Gene3D	G3DSA:1.10.10.10	-	7	134	8.6E-7	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_63	96e7bd120b08f299eaf8bc57c40afa84	227	MobiDBLite	mobidb-lite	consensus disorder prediction	182	227	-	T	26-06-2023	-	-
+CP019329.1_63	96e7bd120b08f299eaf8bc57c40afa84	227	MobiDBLite	mobidb-lite	consensus disorder prediction	1	24	-	T	26-06-2023	-	-
+CP019329.1_76	aadccfa629b98762bb51cc250d375c45	438	MobiDBLite	mobidb-lite	consensus disorder prediction	28	51	-	T	26-06-2023	-	-
+CP019329.1_76	aadccfa629b98762bb51cc250d375c45	438	SUPERFAMILY	SSF49363	Purple acid phosphatase, N-terminal domain	13	102	3.66E-8	T	26-06-2023	IPR008963	Purple acid phosphatase-like, N-terminal
+CP019329.1_76	aadccfa629b98762bb51cc250d375c45	438	Gene3D	G3DSA:2.60.40.380	-	6	103	4.8E-7	T	26-06-2023	-	-
+CP019329.1_76	aadccfa629b98762bb51cc250d375c45	438	Pfam	PF16656	Purple acid Phosphatase, N-terminal domain	12	100	6.4E-9	T	26-06-2023	IPR015914	Purple acid phosphatase, N-terminal
+CP019329.1_76	aadccfa629b98762bb51cc250d375c45	438	SUPERFAMILY	SSF56300	Metallo-dependent phosphatases	110	322	4.59E-26	T	26-06-2023	IPR029052	Metallo-dependent phosphatase-like
+CP019329.1_76	aadccfa629b98762bb51cc250d375c45	438	PANTHER	PTHR22953	ACID PHOSPHATASE RELATED	11	395	8.9E-23	T	26-06-2023	IPR039331	Purple acid phosphatase-like
+CP019329.1_76	aadccfa629b98762bb51cc250d375c45	438	Gene3D	G3DSA:3.60.21.10	-	112	419	8.1E-19	T	26-06-2023	IPR029052	Metallo-dependent phosphatase-like
+CP019329.1_76	aadccfa629b98762bb51cc250d375c45	438	Pfam	PF00149	Calcineurin-like phosphoesterase	113	316	1.9E-17	T	26-06-2023	IPR004843	Calcineurin-like phosphoesterase domain, ApaH type
+CP019329.1_47	9e2afc0d917d086d62c0aa932be15369	71	Coils	Coil	Coil	55	71	-	T	26-06-2023	-	-
+CP019329.1_16	a0808a3df64a7d69601d7144fdfea474	81	MobiDBLite	mobidb-lite	consensus disorder prediction	1	81	-	T	26-06-2023	-	-
+CP019329.1_16	a0808a3df64a7d69601d7144fdfea474	81	MobiDBLite	mobidb-lite	consensus disorder prediction	1	15	-	T	26-06-2023	-	-
+CP019329.1_16	a0808a3df64a7d69601d7144fdfea474	81	MobiDBLite	mobidb-lite	consensus disorder prediction	16	48	-	T	26-06-2023	-	-
+CP019329.1_16	a0808a3df64a7d69601d7144fdfea474	81	MobiDBLite	mobidb-lite	consensus disorder prediction	57	75	-	T	26-06-2023	-	-
+CP019329.1_28	54e72a16c93cb761f987eda56602483e	146	CDD	cd00293	USP_Like	8	137	3.69188E-8	T	26-06-2023	-	-
+CP019329.1_28	54e72a16c93cb761f987eda56602483e	146	Pfam	PF00582	Universal stress protein family	7	138	3.8E-9	T	26-06-2023	IPR006016	UspA
+CP019329.1_28	54e72a16c93cb761f987eda56602483e	146	Gene3D	G3DSA:3.40.50.620	HUPs	5	138	6.1E-13	T	26-06-2023	IPR014729	Rossmann-like alpha/beta/alpha sandwich fold
+CP019329.1_28	54e72a16c93cb761f987eda56602483e	146	SUPERFAMILY	SSF52402	Adenine nucleotide alpha hydrolases-like	7	138	3.93E-13	T	26-06-2023	-	-
+CP019329.1_104	eaeb08396f4c44af9237b91950897938	159	Hamap	MF_01032	Methanogen homoaconitase small subunit [hacB].	1	159	31.095161	T	26-06-2023	IPR011827	Hydrolyase LeuD/HacB/DmdB
+CP019329.1_104	eaeb08396f4c44af9237b91950897938	159	SUPERFAMILY	SSF52016	LeuD/IlvD-like	4	156	2.55E-44	T	26-06-2023	-	-
+CP019329.1_104	eaeb08396f4c44af9237b91950897938	159	Gene3D	G3DSA:3.20.19.10	Aconitase, domain 4	1	159	4.8E-52	T	26-06-2023	IPR015928	Aconitase/3-isopropylmalate dehydratase, swivel
+CP019329.1_104	eaeb08396f4c44af9237b91950897938	159	Pfam	PF00694	Aconitase C-terminal domain	48	100	7.9E-21	T	26-06-2023	IPR000573	Aconitase A/isopropylmalate dehydratase small subunit, swivel domain
+CP019329.1_104	eaeb08396f4c44af9237b91950897938	159	PANTHER	PTHR43345	3-ISOPROPYLMALATE DEHYDRATASE SMALL SUBUNIT 2-RELATED-RELATED	2	157	1.1E-45	T	26-06-2023	-	-
+CP019329.1_104	eaeb08396f4c44af9237b91950897938	159	CDD	cd01577	IPMI_Swivel	6	119	2.9295E-34	T	26-06-2023	IPR033940	3-isopropylmalate dehydratase, swivel domain
+CP019329.1_104	eaeb08396f4c44af9237b91950897938	159	NCBIfam	TIGR02087	3-isopropylmalate dehydratase, small subunit	2	156	1.3E-57	T	26-06-2023	IPR011827	Hydrolyase LeuD/HacB/DmdB
+CP019329.1_165	aa0626c330bafaaf9f7c908185407f4b	167	ProSitePatterns	PS00782	Transcription factor TFIIB repeat signature.	54	69	-	T	26-06-2023	IPR023486	Transcription factor TFIIB, conserved site
+CP019329.1_165	aa0626c330bafaaf9f7c908185407f4b	167	MobiDBLite	mobidb-lite	consensus disorder prediction	138	167	-	T	26-06-2023	-	-
+CP019329.1_165	aa0626c330bafaaf9f7c908185407f4b	167	Gene3D	G3DSA:1.10.472.10	-	18	122	9.6E-11	T	26-06-2023	-	-
+CP019329.1_165	aa0626c330bafaaf9f7c908185407f4b	167	MobiDBLite	mobidb-lite	consensus disorder prediction	117	137	-	T	26-06-2023	-	-
+CP019329.1_165	aa0626c330bafaaf9f7c908185407f4b	167	Pfam	PF00382	Transcription factor TFIIB repeat	36	109	2.8E-6	T	26-06-2023	IPR013150	Transcription factor TFIIB, cyclin-like domain
+CP019329.1_165	aa0626c330bafaaf9f7c908185407f4b	167	MobiDBLite	mobidb-lite	consensus disorder prediction	117	167	-	T	26-06-2023	-	-
+CP019329.1_165	aa0626c330bafaaf9f7c908185407f4b	167	SUPERFAMILY	SSF47954	Cyclin-like	36	115	2.98E-10	T	26-06-2023	IPR036915	Cyclin-like superfamily
+CP019329.1_115	f6b29a2527a15209dbac85eb8689ad67	152	ProSiteProfiles	PS51257	Prokaryotic membrane lipoprotein lipid attachment site profile.	1	24	7.0	T	26-06-2023	-	-
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	Pfam	PF02086	D12 class N6 adenine-specific DNA methyltransferase	13	190	3.3E-16	T	26-06-2023	IPR012327	D12 class N6 adenine-specific DNA methyltransferase
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	8	264	6.23E-39	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	PRINTS	PR00505	D12 class N6 adenine-specific DNA methyltransferase signature	13	29	1.7E-8	T	26-06-2023	IPR012327	D12 class N6 adenine-specific DNA methyltransferase
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	PRINTS	PR00505	D12 class N6 adenine-specific DNA methyltransferase signature	34	48	1.7E-8	T	26-06-2023	IPR012327	D12 class N6 adenine-specific DNA methyltransferase
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	PRINTS	PR00505	D12 class N6 adenine-specific DNA methyltransferase signature	54	67	1.7E-8	T	26-06-2023	IPR012327	D12 class N6 adenine-specific DNA methyltransferase
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	PRINTS	PR00505	D12 class N6 adenine-specific DNA methyltransferase signature	179	191	1.7E-8	T	26-06-2023	IPR012327	D12 class N6 adenine-specific DNA methyltransferase
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	PANTHER	PTHR30481	DNA ADENINE METHYLASE	1	266	5.9E-32	T	26-06-2023	IPR012327	D12 class N6 adenine-specific DNA methyltransferase
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	PIRSF	PIRSF000398	M_m6A_EcoRV	4	268	1.6E-34	T	26-06-2023	IPR012263	Adenine modification methylase, M.EcoRV-type
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	Gene3D	G3DSA:1.10.1020.10	-	61	159	6.5E-28	T	26-06-2023	IPR023095	Adenine-specific methyltransferase, domain 2
+CP019329.1_218	1244073e0ccf2d19aabf596ebed7415e	298	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	12	224	6.5E-28	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_62	16d6ce513f57547e25236be2a5634214	332	MobiDBLite	mobidb-lite	consensus disorder prediction	298	332	-	T	26-06-2023	-	-
+CP019329.1_62	16d6ce513f57547e25236be2a5634214	332	Coils	Coil	Coil	244	278	-	T	26-06-2023	-	-
+CP019329.1_62	16d6ce513f57547e25236be2a5634214	332	Coils	Coil	Coil	31	51	-	T	26-06-2023	-	-
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	PANTHER	PTHR10629	CYTOSINE-SPECIFIC METHYLTRANSFERASE	12	184	1.2E-45	T	26-06-2023	-	-
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	ProSitePatterns	PS00095	C-5 cytosine-specific DNA methylases C-terminal signature.	377	395	-	T	26-06-2023	IPR031303	DNA methylase, C-5 cytosine-specific, conserved site
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	Gene3D	G3DSA:3.90.120.10	DNA Methylase, subunit A, domain 2	232	383	2.2E-25	T	26-06-2023	-	-
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	Pfam	PF00145	C-5 cytosine-specific DNA methylase	14	395	1.2E-51	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	ProSiteProfiles	PS51679	C-5 cytosine-specific DNA methylase (Dnmt) domain profile.	12	402	48.279041	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	PRINTS	PR00105	Cytosine-specific DNA methyltransferase signature	13	29	9.3E-15	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	PRINTS	PR00105	Cytosine-specific DNA methyltransferase signature	117	131	9.3E-15	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	PRINTS	PR00105	Cytosine-specific DNA methyltransferase signature	164	177	9.3E-15	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	MobiDBLite	mobidb-lite	consensus disorder prediction	219	238	-	T	26-06-2023	-	-
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	9	212	4.7E-47	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	13	396	1.38E-73	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	MobiDBLite	mobidb-lite	consensus disorder prediction	320	344	-	T	26-06-2023	-	-
+CP019329.1_175	87c85ca5f8c5f3a09d5ea9a5919c6a4b	414	NCBIfam	TIGR00675	DNA (cytosine-5-)-methyltransferase	15	194	1.2E-30	T	26-06-2023	IPR001525	C-5 cytosine methyltransferase
+CP019329.1_119	60fd81f98c03a666709456ff675879dc	84	Pfam	PF07927	HicA toxin of bacterial toxin-antitoxin,	9	70	2.5E-10	T	26-06-2023	IPR012933	HicA mRNA interferase family
+CP019329.1_119	60fd81f98c03a666709456ff675879dc	84	SUPERFAMILY	SSF54786	YcfA/nrd intein domain	6	71	1.8E-9	T	26-06-2023	-	-
+CP019329.1_119	60fd81f98c03a666709456ff675879dc	84	Gene3D	G3DSA:3.30.920.30	Hypothetical protein.	5	76	1.1E-13	T	26-06-2023	IPR038570	HicA superfamily
+CP019329.1_119	60fd81f98c03a666709456ff675879dc	84	PANTHER	PTHR34873	SSR1766 PROTEIN	6	83	9.1E-9	T	26-06-2023	-	-
+CP019329.1_107	69b00f2832966773b2e5151dd7207800	274	CDD	cd03293	ABC_NrtD_SsuB_transporters	2	224	1.21051E-128	T	26-06-2023	-	-
+CP019329.1_107	69b00f2832966773b2e5151dd7207800	274	Gene3D	G3DSA:3.40.50.300	-	1	269	8.0E-65	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_107	69b00f2832966773b2e5151dd7207800	274	MobiDBLite	mobidb-lite	consensus disorder prediction	255	274	-	T	26-06-2023	-	-
+CP019329.1_107	69b00f2832966773b2e5151dd7207800	274	Pfam	PF00005	ABC transporter	25	163	7.6E-32	T	26-06-2023	IPR003439	ABC transporter-like, ATP-binding domain
+CP019329.1_107	69b00f2832966773b2e5151dd7207800	274	ProSiteProfiles	PS50893	ATP-binding cassette, ABC transporter-type domain profile.	2	236	27.010889	T	26-06-2023	IPR003439	ABC transporter-like, ATP-binding domain
+CP019329.1_107	69b00f2832966773b2e5151dd7207800	274	PANTHER	PTHR42788	TAURINE IMPORT ATP-BINDING PROTEIN-RELATED	2	263	3.6E-91	T	26-06-2023	-	-
+CP019329.1_107	69b00f2832966773b2e5151dd7207800	274	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	1	231	1.08E-69	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_107	69b00f2832966773b2e5151dd7207800	274	SMART	SM00382	AAA_5	33	226	9.3E-16	T	26-06-2023	IPR003593	AAA+ ATPase domain
+CP019329.1_176	f9964b32b07070cfb4f751875103938c	227	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	26-06-2023	-	-
+CP019329.1_176	f9964b32b07070cfb4f751875103938c	227	MobiDBLite	mobidb-lite	consensus disorder prediction	208	227	-	T	26-06-2023	-	-
+CP019329.1_176	f9964b32b07070cfb4f751875103938c	227	MobiDBLite	mobidb-lite	consensus disorder prediction	201	227	-	T	26-06-2023	-	-
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	ProSiteProfiles	PS51318	Twin arginine translocation (Tat) signal profile.	1	33	7.65304	T	26-06-2023	IPR006311	Twin-arginine translocation pathway, signal sequence
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	PANTHER	PTHR43806	PEPTIDASE S8	193	434	3.3E-36	T	26-06-2023	-	-
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	210	229	1.3E-9	T	26-06-2023	IPR015500	Peptidase S8, subtilisin-related
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	253	266	1.3E-9	T	26-06-2023	IPR015500	Peptidase S8, subtilisin-related
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	PRINTS	PR00723	Subtilisin serine protease family (S8) signature	414	430	1.3E-9	T	26-06-2023	IPR015500	Peptidase S8, subtilisin-related
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	ProSitePatterns	PS00138	Serine proteases, subtilase family, serine active site.	415	425	-	T	26-06-2023	IPR023828	Peptidase S8, subtilisin, Ser-active site
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	Gene3D	G3DSA:3.40.50.200	Peptidase S8/S53 domain	196	489	2.4E-53	T	26-06-2023	IPR036852	Peptidase S8/S53 domain superfamily
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	SUPERFAMILY	SSF52743	Subtilisin-like	205	472	4.84E-46	T	26-06-2023	IPR036852	Peptidase S8/S53 domain superfamily
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	ProSiteProfiles	PS51892	Serine proteases, subtilase domain profile.	194	471	25.024284	T	26-06-2023	-	-
+CP019329.1_79	3441ea42d5d08184a2bd11074ff1c129	503	Pfam	PF00082	Subtilase family	213	433	4.3E-34	T	26-06-2023	IPR000209	Peptidase S8/S53 domain
+CP019329.1_109	b0b0495fcab300e1452c02f8d2925a0f	266	SUPERFAMILY	SSF161098	MetI-like	60	241	7.33E-25	T	26-06-2023	IPR035906	MetI-like superfamily
+CP019329.1_109	b0b0495fcab300e1452c02f8d2925a0f	266	CDD	cd06261	TM_PBP2	66	242	8.04925E-10	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+CP019329.1_109	b0b0495fcab300e1452c02f8d2925a0f	266	Gene3D	G3DSA:1.10.3720.10	-	60	257	1.2E-20	T	26-06-2023	IPR035906	MetI-like superfamily
+CP019329.1_109	b0b0495fcab300e1452c02f8d2925a0f	266	ProSiteProfiles	PS50928	ABC transporter integral membrane type-1 domain profile.	66	246	18.44364	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+CP019329.1_109	b0b0495fcab300e1452c02f8d2925a0f	266	PANTHER	PTHR30151	ALKANE SULFONATE ABC TRANSPORTER-RELATED, MEMBRANE SUBUNIT	20	257	3.5E-41	T	26-06-2023	-	-
+CP019329.1_109	b0b0495fcab300e1452c02f8d2925a0f	266	Pfam	PF00528	Binding-protein-dependent transport system inner membrane component	84	256	8.4E-20	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+CP019329.1_82	ff0b5354d79b58189d5479bfdf7ea039	80	MobiDBLite	mobidb-lite	consensus disorder prediction	20	55	-	T	26-06-2023	-	-
+CP019329.1_82	ff0b5354d79b58189d5479bfdf7ea039	80	MobiDBLite	mobidb-lite	consensus disorder prediction	18	80	-	T	26-06-2023	-	-
+CP019329.1_90	3782399894e46fd3c5bd37a87c9249a5	298	SUPERFAMILY	SSF57997	Tropomyosin	16	102	3.49E-6	T	26-06-2023	-	-
+CP019329.1_90	3782399894e46fd3c5bd37a87c9249a5	298	Gene3D	G3DSA:1.20.5.340	-	11	108	3.4E-5	T	26-06-2023	-	-
+CP019329.1_90	3782399894e46fd3c5bd37a87c9249a5	298	MobiDBLite	mobidb-lite	consensus disorder prediction	276	298	-	T	26-06-2023	-	-
+CP019329.1_90	3782399894e46fd3c5bd37a87c9249a5	298	Coils	Coil	Coil	22	98	-	T	26-06-2023	-	-
+CP019329.1_92	317d63a51f95360671a5d0f2d32da36a	89	CDD	cd22231	RHH_NikR_HicB-like	12	48	2.21661E-12	T	26-06-2023	-	-
+CP019329.1_92	317d63a51f95360671a5d0f2d32da36a	89	PANTHER	PTHR34719	NICKEL-RESPONSIVE REGULATOR	9	54	1.5E-11	T	26-06-2023	-	-
+CP019329.1_92	317d63a51f95360671a5d0f2d32da36a	89	Gene3D	G3DSA:1.10.1220.170	-	48	89	4.2E-7	T	26-06-2023	-	-
+CP019329.1_92	317d63a51f95360671a5d0f2d32da36a	89	Pfam	PF01402	Ribbon-helix-helix protein, copG family	14	48	7.2E-9	T	26-06-2023	IPR002145	Ribbon-helix-helix protein, CopG
+CP019329.1_92	317d63a51f95360671a5d0f2d32da36a	89	Gene3D	G3DSA:1.10.1220.10	-	13	47	7.2E-12	T	26-06-2023	IPR013321	Arc-type ribbon-helix-helix
+CP019329.1_92	317d63a51f95360671a5d0f2d32da36a	89	SUPERFAMILY	SSF47598	Ribbon-helix-helix	10	50	7.94E-11	T	26-06-2023	IPR010985	Ribbon-helix-helix
+CP019329.1_74	dfe53458b5437a739543c5669dd7b392	246	SUPERFAMILY	SSF49899	Concanavalin A-like lectins/glucanases	38	239	2.38E-25	T	26-06-2023	IPR013320	Concanavalin A-like lectin/glucanase domain superfamily
+CP019329.1_74	dfe53458b5437a739543c5669dd7b392	246	Gene3D	G3DSA:2.60.120.200	-	40	241	1.4E-25	T	26-06-2023	-	-
+CP019329.1_74	dfe53458b5437a739543c5669dd7b392	246	MobiDBLite	mobidb-lite	consensus disorder prediction	116	150	-	T	26-06-2023	-	-
+CP019329.1_74	dfe53458b5437a739543c5669dd7b392	246	Pfam	PF13385	Concanavalin A-like lectin/glucanases superfamily	84	234	1.8E-16	T	26-06-2023	-	-
+CP019329.1_124	14c2fe996b27f5ac7a86684876391e4f	96	Pfam	PF08461	Ribonuclease R winged-helix domain	15	80	2.1E-6	T	26-06-2023	IPR013668	Ribonuclease R winged-helix domain
+CP019329.1_124	14c2fe996b27f5ac7a86684876391e4f	96	Coils	Coil	Coil	86	96	-	T	26-06-2023	-	-
+CP019329.1_124	14c2fe996b27f5ac7a86684876391e4f	96	Gene3D	G3DSA:1.10.10.10	-	1	90	1.7E-26	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_124	14c2fe996b27f5ac7a86684876391e4f	96	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	38	86	1.55E-10	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_124	14c2fe996b27f5ac7a86684876391e4f	96	CDD	cd00090	HTH_ARSR	15	75	1.18112E-6	T	26-06-2023	IPR011991	ArsR-like helix-turn-helix domain
+CP019329.1_146	a3695ba770977baddeefbe596a6ca46e	146	MobiDBLite	mobidb-lite	consensus disorder prediction	10	28	-	T	26-06-2023	-	-
+CP019329.1_146	a3695ba770977baddeefbe596a6ca46e	146	MobiDBLite	mobidb-lite	consensus disorder prediction	1	30	-	T	26-06-2023	-	-
+CP019329.1_220	11d531c8ac21b92b87dd89e99fc05f28	118	MobiDBLite	mobidb-lite	consensus disorder prediction	67	90	-	T	26-06-2023	-	-
+CP019329.1_117	21ffcf05d4d67f9981116ec649b0056b	218	Pfam	PF12686	Protein of unknown function (DUF3800)	82	180	2.3E-5	T	26-06-2023	IPR024524	Protein of unknown function DUF3800
+CP019329.1_143	6c3340a65eeb2877305b2f26223e59e1	68	MobiDBLite	mobidb-lite	consensus disorder prediction	27	52	-	T	26-06-2023	-	-
+CP019329.1_3	648d9d622eb2155cd459fd665f74e2d6	163	Gene3D	G3DSA:3.30.450.40	-	2	69	9.6E-6	T	26-06-2023	IPR029016	GAF-like domain superfamily
+CP019329.1_3	648d9d622eb2155cd459fd665f74e2d6	163	SUPERFAMILY	SSF55781	GAF domain-like	3	58	1.03E-6	T	26-06-2023	-	-
+CP019329.1_3	648d9d622eb2155cd459fd665f74e2d6	163	MobiDBLite	mobidb-lite	consensus disorder prediction	148	163	-	T	26-06-2023	-	-
+CP019329.1_3	648d9d622eb2155cd459fd665f74e2d6	163	MobiDBLite	mobidb-lite	consensus disorder prediction	139	163	-	T	26-06-2023	-	-
+CP019329.1_3	648d9d622eb2155cd459fd665f74e2d6	163	Coils	Coil	Coil	47	67	-	T	26-06-2023	-	-
+CP019329.1_205	55fd0f8f403cd59536f5aedf358826c6	173	MobiDBLite	mobidb-lite	consensus disorder prediction	80	103	-	T	26-06-2023	-	-
+CP019329.1_215	64348743fd1fac0bdb1343af2f8daf99	200	Coils	Coil	Coil	136	163	-	T	26-06-2023	-	-
+CP019329.1_222	97aca909ddd3c4dc6d194c3a3f5919c4	93	MobiDBLite	mobidb-lite	consensus disorder prediction	1	32	-	T	26-06-2023	-	-
+CP019329.1_88	68a0f78a4b8dd86485b93c9ca0a4e0a7	251	MobiDBLite	mobidb-lite	consensus disorder prediction	211	251	-	T	26-06-2023	-	-
+CP019329.1_78	862eb096f8ec29e5de3415651bb4a86e	281	ProSiteProfiles	PS51318	Twin arginine translocation (Tat) signal profile.	1	30	8.049742	T	26-06-2023	IPR006311	Twin-arginine translocation pathway, signal sequence
+CP019329.1_91	30be8fbecc0a8d3ded14298c49632c76	172	PANTHER	PTHR42709	ALKALINE PHOSPHATASE LIKE PROTEIN	21	163	1.6E-13	T	26-06-2023	-	-
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	Gene3D	G3DSA:1.10.60.10	Iron dependent repressor, metal binding and dimerisation domain	75	137	8.0E-26	T	26-06-2023	IPR036421	Iron dependent repressor, metal binding and dimerisation domain superfamily
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	4	64	3.11E-15	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	Gene3D	G3DSA:2.30.30.90	-	146	219	1.0E-9	T	26-06-2023	IPR038157	Ferrous iron transporter, core domain
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	SMART	SM00899	FeoA_2	146	220	4.8E-14	T	26-06-2023	IPR007167	Ferrous iron transporter FeoA domain
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	Pfam	PF01325	Iron dependent repressor, N-terminal DNA binding domain	2	62	1.4E-17	T	26-06-2023	IPR022687	DTXR-type HTH domain
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	SUPERFAMILY	SSF50037	C-terminal domain of transcriptional repressors	151	219	5.72E-10	T	26-06-2023	IPR008988	Transcriptional repressor, C-terminal
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	Pfam	PF02742	Iron dependent repressor, metal binding and dimerisation domain	65	133	4.9E-28	T	26-06-2023	IPR001367	Iron dependent repressor, metal binding and dimerisation domain
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	Gene3D	G3DSA:1.10.10.10	-	3	74	7.9E-25	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	FunFam	G3DSA:1.10.60.10:FF:000004	DtxR family transcriptional regulator	75	138	3.4E-28	T	26-06-2023	-	-
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	SMART	SM00529	dtx3	26	125	4.4E-37	T	26-06-2023	IPR022689	Iron dependent repressor
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	PANTHER	PTHR33238	IRON (METAL) DEPENDENT REPRESSOR, DTXR FAMILY	2	217	1.7E-48	T	26-06-2023	-	-
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	ProSiteProfiles	PS50944	DtxR-type HTH domain profile.	3	65	21.071098	T	26-06-2023	IPR022687	DTXR-type HTH domain
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	SUPERFAMILY	SSF47979	Iron-dependent repressor protein, dimerization domain	65	135	3.01E-23	T	26-06-2023	IPR036421	Iron dependent repressor, metal binding and dimerisation domain superfamily
+CP019329.1_43	91c9165f7cc8f5226e48063d2079887b	228	Pfam	PF04023	FeoA domain	147	219	1.6E-12	T	26-06-2023	IPR007167	Ferrous iron transporter FeoA domain
+CP019329.1_213	8ea2105f53a99e509a1a984dae309d47	128	MobiDBLite	mobidb-lite	consensus disorder prediction	1	37	-	T	26-06-2023	-	-
+CP019329.1_213	8ea2105f53a99e509a1a984dae309d47	128	MobiDBLite	mobidb-lite	consensus disorder prediction	11	33	-	T	26-06-2023	-	-
+CP019329.1_87	efd3ed8410570777e09c16bc6f7fd736	88	MobiDBLite	mobidb-lite	consensus disorder prediction	1	68	-	T	26-06-2023	-	-
+CP019329.1_93	5e400f59e5956ad206494e9d3c2c6838	98	Gene3D	G3DSA:3.30.2310.20	-	1	83	7.0E-12	T	26-06-2023	IPR035093	Toxin-antitoxin system, RelE/ParE toxin domain superfamily
+CP019329.1_93	5e400f59e5956ad206494e9d3c2c6838	98	SUPERFAMILY	SSF143011	RelE-like	1	79	2.24E-10	T	26-06-2023	IPR035093	Toxin-antitoxin system, RelE/ParE toxin domain superfamily
+CP019329.1_44	287c7c164e1e23bed02f1da0eb955b42	331	Pfam	PF01758	Sodium Bile acid symporter family	38	223	2.9E-38	T	26-06-2023	IPR002657	Bile acid:sodium symporter/arsenical resistance protein Acr3
+CP019329.1_44	287c7c164e1e23bed02f1da0eb955b42	331	PANTHER	PTHR43057	ARSENITE EFFLUX TRANSPORTER	1	317	6.5E-68	T	26-06-2023	IPR004706	Arsenical-resistance protein Acr3
+CP019329.1_44	287c7c164e1e23bed02f1da0eb955b42	331	Gene3D	G3DSA:1.20.1530.20	-	1	312	4.5E-54	T	26-06-2023	IPR038770	Sodium/solute symporter superfamily
+CP019329.1_75	4f1789853afc3f4447621b88ac693a34	254	Pfam	PF13385	Concanavalin A-like lectin/glucanases superfamily	85	241	1.9E-14	T	26-06-2023	-	-
+CP019329.1_75	4f1789853afc3f4447621b88ac693a34	254	SUPERFAMILY	SSF49899	Concanavalin A-like lectins/glucanases	38	246	5.81E-18	T	26-06-2023	IPR013320	Concanavalin A-like lectin/glucanase domain superfamily
+CP019329.1_75	4f1789853afc3f4447621b88ac693a34	254	Gene3D	G3DSA:2.60.120.200	-	39	248	3.7E-20	T	26-06-2023	-	-
+CP019329.1_80	1149de2fc0f688d9b094c3fdc4fe276d	1148	Coils	Coil	Coil	538	558	-	T	26-06-2023	-	-
+CP019329.1_80	1149de2fc0f688d9b094c3fdc4fe276d	1148	MobiDBLite	mobidb-lite	consensus disorder prediction	129	156	-	T	26-06-2023	-	-
+CP019329.1_80	1149de2fc0f688d9b094c3fdc4fe276d	1148	Coils	Coil	Coil	306	333	-	T	26-06-2023	-	-
+CP019329.1_127	4090465fc870aa8d543867167bdabeb3	1145	MobiDBLite	mobidb-lite	consensus disorder prediction	184	204	-	T	26-06-2023	-	-
+CP019329.1_127	4090465fc870aa8d543867167bdabeb3	1145	MobiDBLite	mobidb-lite	consensus disorder prediction	543	579	-	T	26-06-2023	-	-
+CP019329.1_127	4090465fc870aa8d543867167bdabeb3	1145	Coils	Coil	Coil	302	322	-	T	26-06-2023	-	-
+CP019329.1_127	4090465fc870aa8d543867167bdabeb3	1145	MobiDBLite	mobidb-lite	consensus disorder prediction	543	572	-	T	26-06-2023	-	-
+CP019329.1_2	1d42b0dc7440e9849546d75f057e6e11	294	Gene3D	G3DSA:3.30.450.40	-	1	81	2.3E-7	T	26-06-2023	IPR029016	GAF-like domain superfamily
+CP019329.1_2	1d42b0dc7440e9849546d75f057e6e11	294	Pfam	PF04967	HTH DNA binding domain	241	277	1.6E-9	T	26-06-2023	IPR007050	Bacterioopsin activator-type, HTH domain
+CP019329.1_2	1d42b0dc7440e9849546d75f057e6e11	294	Pfam	PF15915	GAF and HTH_10 associated domain	82	229	1.2E-39	T	26-06-2023	IPR031803	Bacterioopsin transcriptional activator, GAF and HTH associated domain
+CP019329.1_2	1d42b0dc7440e9849546d75f057e6e11	294	SUPERFAMILY	SSF55781	GAF domain-like	2	74	5.67E-9	T	26-06-2023	-	-
+CP019329.1_2	1d42b0dc7440e9849546d75f057e6e11	294	PANTHER	PTHR34236	DIMETHYL SULFOXIDE REDUCTASE TRANSCRIPTIONAL ACTIVATOR	76	272	5.6E-18	T	26-06-2023	-	-
+CP019329.1_214	efada90841cf1196297a1a6bc080678a	178	Coils	Coil	Coil	158	178	-	T	26-06-2023	-	-
+CP019329.1_214	efada90841cf1196297a1a6bc080678a	178	MobiDBLite	mobidb-lite	consensus disorder prediction	72	92	-	T	26-06-2023	-	-
+CP019329.1_214	efada90841cf1196297a1a6bc080678a	178	CDD	cd11539	NTP-PPase_u2	90	172	3.15752E-23	T	26-06-2023	-	-
+CP019329.1_60	f83dd97315152566c21ebce341b943d7	669	MobiDBLite	mobidb-lite	consensus disorder prediction	611	644	-	T	26-06-2023	-	-
+CP019329.1_60	f83dd97315152566c21ebce341b943d7	669	MobiDBLite	mobidb-lite	consensus disorder prediction	611	636	-	T	26-06-2023	-	-
+CP019329.1_60	f83dd97315152566c21ebce341b943d7	669	Coils	Coil	Coil	253	287	-	T	26-06-2023	-	-
+CP019329.1_130	d7bef0c12b0b82e9f039d6f87202db49	68	MobiDBLite	mobidb-lite	consensus disorder prediction	46	68	-	T	26-06-2023	-	-
+CP019329.1_130	d7bef0c12b0b82e9f039d6f87202db49	68	MobiDBLite	mobidb-lite	consensus disorder prediction	1	30	-	T	26-06-2023	-	-
+CP019329.1_130	d7bef0c12b0b82e9f039d6f87202db49	68	MobiDBLite	mobidb-lite	consensus disorder prediction	1	23	-	T	26-06-2023	-	-
+CP019329.1_94	35ed9d0a4af84bc9883b0fa51ca1c6b7	351	PANTHER	PTHR10763	CELL DIVISION CONTROL PROTEIN 6-RELATED	11	308	4.0E-29	T	26-06-2023	-	-
+CP019329.1_94	35ed9d0a4af84bc9883b0fa51ca1c6b7	351	Gene3D	G3DSA:1.10.8.60	-	15	265	3.8E-46	T	26-06-2023	-	-
+CP019329.1_94	35ed9d0a4af84bc9883b0fa51ca1c6b7	351	Pfam	PF13401	AAA domain	51	155	4.5E-9	T	26-06-2023	IPR003593	AAA+ ATPase domain
+CP019329.1_94	35ed9d0a4af84bc9883b0fa51ca1c6b7	351	MobiDBLite	mobidb-lite	consensus disorder prediction	1	23	-	T	26-06-2023	-	-
+CP019329.1_94	35ed9d0a4af84bc9883b0fa51ca1c6b7	351	CDD	cd00009	AAA	52	190	6.82785E-8	T	26-06-2023	-	-
+CP019329.1_94	35ed9d0a4af84bc9883b0fa51ca1c6b7	351	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	10	260	2.07E-30	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_94	35ed9d0a4af84bc9883b0fa51ca1c6b7	351	Gene3D	G3DSA:3.40.50.300	-	25	190	3.8E-46	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_94	35ed9d0a4af84bc9883b0fa51ca1c6b7	351	SMART	SM00382	AAA_5	47	211	1.3E-4	T	26-06-2023	IPR003593	AAA+ ATPase domain
+CP019329.1_208	23f5f3f798b132c60ffd68342f798d05	426	MobiDBLite	mobidb-lite	consensus disorder prediction	403	426	-	T	26-06-2023	-	-
+CP019329.1_208	23f5f3f798b132c60ffd68342f798d05	426	Pfam	PF01385	Probable transposase	181	295	3.6E-27	T	26-06-2023	IPR001959	Probable transposase, IS891/IS1136/IS1341
+CP019329.1_208	23f5f3f798b132c60ffd68342f798d05	426	NCBIfam	NF040570	RNA-guided endonuclease TnpB family protein	13	380	1.2E-38	T	26-06-2023	-	-
+CP019329.1_208	23f5f3f798b132c60ffd68342f798d05	426	MobiDBLite	mobidb-lite	consensus disorder prediction	405	426	-	T	26-06-2023	-	-
+CP019329.1_208	23f5f3f798b132c60ffd68342f798d05	426	Pfam	PF07282	Putative transposase DNA-binding domain	314	381	1.7E-18	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_41	af2673c113241f2ef9a678475fd9e1fb	459	PANTHER	PTHR30224	ELECTRON TRANSPORT PROTEIN	64	352	1.0E-20	T	26-06-2023	-	-
+CP019329.1_41	af2673c113241f2ef9a678475fd9e1fb	459	Pfam	PF12801	4Fe-4S binding domain	82	119	0.0017	T	26-06-2023	IPR017896	4Fe-4S ferredoxin-type, iron-sulphur binding domain
+CP019329.1_41	af2673c113241f2ef9a678475fd9e1fb	459	Pfam	PF12801	4Fe-4S binding domain	167	196	6.1E-4	T	26-06-2023	IPR017896	4Fe-4S ferredoxin-type, iron-sulphur binding domain
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	184	197	-	T	26-06-2023	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	1	249	29.353603	T	26-06-2023	IPR000891	Pyruvate carboxyltransferase
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	PANTHER	PTHR42880	HOMOCITRATE SYNTHASE	3	341	2.1E-65	T	26-06-2023	-	-
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	Gene3D	G3DSA:1.10.238.260	-	262	357	1.1E-11	T	26-06-2023	-	-
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	CDD	cd03174	DRE_TIM_metallolyase	4	231	7.86677E-61	T	26-06-2023	-	-
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	Pfam	PF00682	HMGL-like	3	231	1.5E-56	T	26-06-2023	IPR000891	Pyruvate carboxyltransferase
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	SUPERFAMILY	SSF51569	Aldolase	3	271	3.11E-59	T	26-06-2023	-	-
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	Gene3D	G3DSA:3.20.20.70	Aldolase class I	1	257	4.7E-59	T	26-06-2023	IPR013785	Aldolase-type TIM barrel
+CP019329.1_103	416d4028cc76ca08cd4c3edf668f8a36	362	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	8	24	-	T	26-06-2023	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	Hamap	MF_01027	3-isopropylmalate dehydratase large subunit [leuC].	2	418	44.381325	T	26-06-2023	IPR011826	Homoaconitase/3-isopropylmalate dehydratase, large subunit, prokaryotic
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	Gene3D	G3DSA:3.30.499.10	Aconitase, domain 3	3	269	7.3E-91	T	26-06-2023	IPR015931	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha, subdomain 1/3
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	Gene3D	G3DSA:3.30.499.10	Aconitase, domain 3	272	424	6.7E-50	T	26-06-2023	IPR015931	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha, subdomain 1/3
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	PRINTS	PR00415	Aconitase family signature	100	108	7.5E-22	T	26-06-2023	IPR001030	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	PRINTS	PR00415	Aconitase family signature	111	124	7.5E-22	T	26-06-2023	IPR001030	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	PRINTS	PR00415	Aconitase family signature	125	140	7.5E-22	T	26-06-2023	IPR001030	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	PRINTS	PR00415	Aconitase family signature	187	200	7.5E-22	T	26-06-2023	IPR001030	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	PRINTS	PR00415	Aconitase family signature	201	214	7.5E-22	T	26-06-2023	IPR001030	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	PRINTS	PR00415	Aconitase family signature	269	283	7.5E-22	T	26-06-2023	IPR001030	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	PRINTS	PR00415	Aconitase family signature	351	364	7.5E-22	T	26-06-2023	IPR001030	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	CDD	cd01583	IPMI	29	412	0.0	T	26-06-2023	IPR033941	3-Isopropylmalate dehydratase, catalytic domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	Pfam	PF00330	Aconitase family (aconitate hydratase)	25	410	8.1E-98	T	26-06-2023	IPR001030	Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	PANTHER	PTHR43822	HOMOACONITASE, MITOCHONDRIAL-RELATED	3	417	0.0	T	26-06-2023	-	-
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	ProSitePatterns	PS00450	Aconitase family signature 1.	291	307	-	T	26-06-2023	IPR018136	Aconitase family, 4Fe-4S cluster binding site
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	NCBIfam	TIGR01343	homoaconitate hydratase family protein	3	415	0.0	T	26-06-2023	IPR006251	Homoaconitase/3-isopropylmalate dehydratase, large subunit
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	SUPERFAMILY	SSF53732	Aconitase iron-sulfur domain	4	421	0.0	T	26-06-2023	IPR036008	Aconitase, iron-sulfur domain
+CP019329.1_105	8ecdc80a921894e64427acf3f9f89bc5	425	NCBIfam	TIGR02086	3-isopropylmalate dehydratase/homoaconitate hydratase family large subunit	3	416	0.0	T	26-06-2023	IPR011826	Homoaconitase/3-isopropylmalate dehydratase, large subunit, prokaryotic
+CP019329.1_195	535fd69b0634f8380959618e3e71f5bd	456	Gene3D	G3DSA:1.10.4160.10	Hydantoin permease	28	432	8.8E-50	T	26-06-2023	-	-
+CP019329.1_195	535fd69b0634f8380959618e3e71f5bd	456	PANTHER	PTHR30569	CYTOSINE TRANSPORTER CODB	23	429	1.3E-57	T	26-06-2023	IPR030191	Cytosine permease
+CP019329.1_195	535fd69b0634f8380959618e3e71f5bd	456	Pfam	PF02133	Permease for cytosine/purines, uracil, thiamine, allantoin	33	401	2.3E-26	T	26-06-2023	IPR001248	Purine-cytosine permease
+CP019329.1_102	378722d9b70dfb25c3bf73f679c02e51	401	SUPERFAMILY	SSF89796	CoA-transferase family III (CaiB/BaiF)	7	401	1.83E-121	T	26-06-2023	IPR023606	CoA-transferase family III domain 1 superfamily
+CP019329.1_102	378722d9b70dfb25c3bf73f679c02e51	401	Gene3D	G3DSA:3.40.50.10540	-	4	401	6.4E-99	T	26-06-2023	IPR023606	CoA-transferase family III domain 1 superfamily
+CP019329.1_102	378722d9b70dfb25c3bf73f679c02e51	401	Gene3D	G3DSA:3.30.1540.10	-	236	319	2.0E-27	T	26-06-2023	IPR044855	CoA-transferase family III domain 3 superfamily
+CP019329.1_102	378722d9b70dfb25c3bf73f679c02e51	401	PANTHER	PTHR48207	SUCCINATE--HYDROXYMETHYLGLUTARATE COA-TRANSFERASE	4	400	5.3E-97	T	26-06-2023	-	-
+CP019329.1_102	378722d9b70dfb25c3bf73f679c02e51	401	MobiDBLite	mobidb-lite	consensus disorder prediction	354	373	-	T	26-06-2023	-	-
+CP019329.1_102	378722d9b70dfb25c3bf73f679c02e51	401	Pfam	PF02515	CoA-transferase family III	9	377	3.1E-112	T	26-06-2023	IPR003673	CoA-transferase family III
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	PANTHER	PTHR10763	CELL DIVISION CONTROL PROTEIN 6-RELATED	10	384	3.6E-49	T	26-06-2023	-	-
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	Pfam	PF13191	AAA ATPase domain	26	107	4.0E-11	T	26-06-2023	IPR041664	Orc1-like, AAA ATPase domain
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	11	278	1.93E-42	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	NCBIfam	TIGR02928	orc1/cdc6 family replication initiation protein	10	373	2.2E-128	T	26-06-2023	IPR014277	Orc1/Cdc6-type DNA replication protein, archaea
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	285	387	1.9E-19	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	Gene3D	G3DSA:1.10.10.10	-	293	391	8.9E-23	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	Gene3D	G3DSA:1.10.8.60	-	10	284	4.1E-91	T	26-06-2023	-	-
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	Gene3D	G3DSA:3.40.50.300	-	26	205	4.1E-91	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	SMART	SM01074	Cdc6_C_2	301	384	7.8E-21	T	26-06-2023	IPR015163	Cdc6, C-terminal
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	CDD	cd08768	Cdc6_C	294	378	1.18294E-21	T	26-06-2023	IPR015163	Cdc6, C-terminal
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	SMART	SM00382	AAA_5	48	225	1.2E-4	T	26-06-2023	IPR003593	AAA+ ATPase domain
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	FunFam	G3DSA:1.10.8.60:FF:000073	ORC1-type DNA replication protein	192	284	1.5E-23	T	26-06-2023	-	-
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	Pfam	PF09079	CDC6, C terminal winged helix domain	301	383	1.9E-22	T	26-06-2023	IPR015163	Cdc6, C-terminal
+CP019329.1_161	5728d3eebe4f4894371a37cb8490d961	405	Hamap	MF_01407	ORC1-type DNA replication protein.	3	384	29.052946	T	26-06-2023	IPR014277	Orc1/Cdc6-type DNA replication protein, archaea
+CP019329.1_11	e482f51d4a8755710937001cb57f682f	230	Gene3D	G3DSA:3.40.50.300	-	30	189	7.4E-7	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_35	ade04701d69993ff220b19327acedb6e	178	Pfam	PF08534	Redoxin	46	163	2.8E-9	T	26-06-2023	IPR013740	Redoxin
+CP019329.1_35	ade04701d69993ff220b19327acedb6e	178	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	37	178	7.9E-25	T	26-06-2023	-	-
+CP019329.1_35	ade04701d69993ff220b19327acedb6e	178	CDD	cd02966	TlpA_like_family	51	160	6.15558E-20	T	26-06-2023	-	-
+CP019329.1_35	ade04701d69993ff220b19327acedb6e	178	SUPERFAMILY	SSF52833	Thioredoxin-like	43	176	7.96E-24	T	26-06-2023	IPR036249	Thioredoxin-like superfamily
+CP019329.1_35	ade04701d69993ff220b19327acedb6e	178	ProSiteProfiles	PS51352	Thioredoxin domain profile.	32	176	10.357431	T	26-06-2023	IPR013766	Thioredoxin domain
+CP019329.1_35	ade04701d69993ff220b19327acedb6e	178	PANTHER	PTHR42852	THIOL:DISULFIDE INTERCHANGE PROTEIN DSBE	50	173	2.1E-15	T	26-06-2023	-	-
+CP019329.1_181	b7c99191e12457d7f979f92adb2aa711	126	MobiDBLite	mobidb-lite	consensus disorder prediction	1	23	-	T	26-06-2023	-	-
+CP019329.1_101	cb90c7556adf61748e6dfdfe589b340f	131	Gene3D	G3DSA:3.40.50.1010	-	4	106	8.6E-6	T	26-06-2023	-	-
+CP019329.1_147	702237062c935f0bfedb2ef60c691bbd	187	MobiDBLite	mobidb-lite	consensus disorder prediction	168	187	-	T	26-06-2023	-	-
+CP019329.1_96	3c16bf3979699eeb98f2bd4d62f95ec3	98	Pfam	PF03551	Transcriptional regulator PadR-like family	11	79	2.6E-17	T	26-06-2023	IPR005149	Transcription regulator PadR, N-terminal
+CP019329.1_96	3c16bf3979699eeb98f2bd4d62f95ec3	98	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	3	89	4.33E-20	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_96	3c16bf3979699eeb98f2bd4d62f95ec3	98	Gene3D	G3DSA:1.10.10.10	-	8	97	1.9E-14	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_129	90f03e29bd8bc023effcff12e4c62218	44	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	1	42	5.17E-6	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_129	90f03e29bd8bc023effcff12e4c62218	44	Coils	Coil	Coil	7	27	-	T	26-06-2023	-	-
+CP019329.1_129	90f03e29bd8bc023effcff12e4c62218	44	Gene3D	G3DSA:1.10.10.10	-	1	42	4.7E-5	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_155	226e73334d015af0c337810f0c894183	240	Gene3D	G3DSA:3.30.420.10	-	8	157	7.2E-7	T	26-06-2023	IPR036397	Ribonuclease H superfamily
+CP019329.1_155	226e73334d015af0c337810f0c894183	240	SUPERFAMILY	SSF53098	Ribonuclease H-like	7	103	9.11E-9	T	26-06-2023	IPR012337	Ribonuclease H-like superfamily
+CP019329.1_113	8987b316296aefa43d21593c385fed91	130	SUPERFAMILY	SSF88723	PIN domain-like	2	120	5.56E-11	T	26-06-2023	IPR029060	PIN-like domain superfamily
+CP019329.1_113	8987b316296aefa43d21593c385fed91	130	Pfam	PF01850	PIN domain	1	119	1.8E-8	T	26-06-2023	IPR002716	PIN domain
+CP019329.1_113	8987b316296aefa43d21593c385fed91	130	Gene3D	G3DSA:3.40.50.1010	-	1	123	3.3E-7	T	26-06-2023	-	-
+CP019329.1_116	5d3901c9b17083dfc453142225ad6253	35	MobiDBLite	mobidb-lite	consensus disorder prediction	18	35	-	T	26-06-2023	-	-
+CP019329.1_116	5d3901c9b17083dfc453142225ad6253	35	MobiDBLite	mobidb-lite	consensus disorder prediction	1	35	-	T	26-06-2023	-	-
+CP019329.1_116	5d3901c9b17083dfc453142225ad6253	35	MobiDBLite	mobidb-lite	consensus disorder prediction	1	15	-	T	26-06-2023	-	-
+CP019329.1_20	92b9916083499d1e64547f6421145273	159	Gene3D	G3DSA:1.10.10.10	-	9	149	1.2E-12	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_20	92b9916083499d1e64547f6421145273	159	MobiDBLite	mobidb-lite	consensus disorder prediction	122	144	-	T	26-06-2023	-	-
+CP019329.1_20	92b9916083499d1e64547f6421145273	159	Pfam	PF01638	HxlR-like helix-turn-helix	17	91	1.2E-5	T	26-06-2023	IPR002577	Helix-turn-helix, HxlR type
+CP019329.1_20	92b9916083499d1e64547f6421145273	159	Coils	Coil	Coil	100	131	-	T	26-06-2023	-	-
+CP019329.1_20	92b9916083499d1e64547f6421145273	159	MobiDBLite	mobidb-lite	consensus disorder prediction	122	159	-	T	26-06-2023	-	-
+CP019329.1_20	92b9916083499d1e64547f6421145273	159	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	17	93	7.66E-10	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_125	2486630db0cf86432e9db43b86291ba0	169	MobiDBLite	mobidb-lite	consensus disorder prediction	1	29	-	T	26-06-2023	-	-
+CP019329.1_125	2486630db0cf86432e9db43b86291ba0	169	MobiDBLite	mobidb-lite	consensus disorder prediction	1	59	-	T	26-06-2023	-	-
+CP019329.1_125	2486630db0cf86432e9db43b86291ba0	169	MobiDBLite	mobidb-lite	consensus disorder prediction	30	59	-	T	26-06-2023	-	-
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	Pfam	PF00582	Universal stress protein family	468	604	3.9E-18	T	26-06-2023	IPR006016	UspA
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	Pfam	PF00582	Universal stress protein family	611	740	6.1E-8	T	26-06-2023	IPR006016	UspA
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	CDD	cd01988	Na_H_Antiporter_C	468	604	1.9386E-32	T	26-06-2023	-	-
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	PANTHER	PTHR42770	AMINO ACID TRANSPORTER-RELATED	1	442	1.1E-83	T	26-06-2023	-	-
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	SUPERFAMILY	SSF52402	Adenine nucleotide alpha hydrolases-like	610	740	1.59E-10	T	26-06-2023	-	-
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	CDD	cd00293	USP_Like	619	739	3.85126E-6	T	26-06-2023	-	-
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	Gene3D	G3DSA:3.40.50.12370	-	465	740	1.1E-32	T	26-06-2023	-	-
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	Coils	Coil	Coil	516	536	-	T	26-06-2023	-	-
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	SUPERFAMILY	SSF52402	Adenine nucleotide alpha hydrolases-like	468	606	1.67E-20	T	26-06-2023	-	-
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	Pfam	PF13520	Amino acid permease	10	419	4.9E-53	T	26-06-2023	IPR002293	Amino acid/polyamine transporter I
+CP019329.1_26	dc6dd5ea35c7898304b3e9cb66b21a9f	765	Gene3D	G3DSA:1.20.1740.10	Amino acid/polyamine transporter I	6	453	1.6E-104	T	26-06-2023	-	-
+CP019329.1_23	207ab8dddfdff59d2ca3e31683d5f421	380	Gene3D	G3DSA:3.90.320.10	-	63	272	3.8E-29	T	26-06-2023	IPR011604	PD-(D/E)XK endonuclease-like domain superfamily
+CP019329.1_23	207ab8dddfdff59d2ca3e31683d5f421	380	PANTHER	PTHR36531	CRISPR-ASSOCIATED EXONUCLEASE CAS4	124	272	1.5E-9	T	26-06-2023	-	-
+CP019329.1_23	207ab8dddfdff59d2ca3e31683d5f421	380	Pfam	PF12705	PD-(D/E)XK nuclease superfamily	133	270	1.3E-7	T	26-06-2023	IPR038726	PD-(D/E)XK endonuclease-like domain, AddAB-type
+CP019329.1_138	ac046e89bd0824ea12dafed25ec003d4	127	MobiDBLite	mobidb-lite	consensus disorder prediction	8	31	-	T	26-06-2023	-	-
+CP019329.1_138	ac046e89bd0824ea12dafed25ec003d4	127	MobiDBLite	mobidb-lite	consensus disorder prediction	1	31	-	T	26-06-2023	-	-
+CP019329.1_8	19aaa55706ba6311c56b764676372506	149	PANTHER	PTHR34236	DIMETHYL SULFOXIDE REDUCTASE TRANSCRIPTIONAL ACTIVATOR	23	146	3.4E-17	T	26-06-2023	-	-
+CP019329.1_8	19aaa55706ba6311c56b764676372506	149	SUPERFAMILY	SSF46894	C-terminal effector domain of the bipartite response regulators	83	136	1.8E-6	T	26-06-2023	IPR016032	Signal transduction response regulator, C-terminal effector
+CP019329.1_8	19aaa55706ba6311c56b764676372506	149	Pfam	PF04967	HTH DNA binding domain	90	140	8.9E-15	T	26-06-2023	IPR007050	Bacterioopsin activator-type, HTH domain
+CP019329.1_8	19aaa55706ba6311c56b764676372506	149	Gene3D	G3DSA:1.10.10.10	-	86	142	3.1E-10	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_54	63cf03a4d76d668c1fbcc3bb34f0c25e	522	MobiDBLite	mobidb-lite	consensus disorder prediction	1	28	-	T	26-06-2023	-	-
+CP019329.1_128	a3c85e8de0d3e986680eb1e7507d6edb	171	Coils	Coil	Coil	49	83	-	T	26-06-2023	-	-
+CP019329.1_128	a3c85e8de0d3e986680eb1e7507d6edb	171	MobiDBLite	mobidb-lite	consensus disorder prediction	1	27	-	T	26-06-2023	-	-
+CP019329.1_128	a3c85e8de0d3e986680eb1e7507d6edb	171	MobiDBLite	mobidb-lite	consensus disorder prediction	1	19	-	T	26-06-2023	-	-
+CP019329.1_71	55b670ba86276e55b44b8f55341a2679	179	MobiDBLite	mobidb-lite	consensus disorder prediction	13	32	-	T	26-06-2023	-	-
+CP019329.1_71	55b670ba86276e55b44b8f55341a2679	179	MobiDBLite	mobidb-lite	consensus disorder prediction	1	58	-	T	26-06-2023	-	-
+CP019329.1_71	55b670ba86276e55b44b8f55341a2679	179	MobiDBLite	mobidb-lite	consensus disorder prediction	33	58	-	T	26-06-2023	-	-
+CP019329.1_137	b380763b3d0bceb19cb674ae068a7ab3	190	Coils	Coil	Coil	130	150	-	T	26-06-2023	-	-
+CP019329.1_137	b380763b3d0bceb19cb674ae068a7ab3	190	MobiDBLite	mobidb-lite	consensus disorder prediction	81	108	-	T	26-06-2023	-	-
+CP019329.1_137	b380763b3d0bceb19cb674ae068a7ab3	190	MobiDBLite	mobidb-lite	consensus disorder prediction	87	102	-	T	26-06-2023	-	-
+CP019329.1_164	445e31ec2b7b4ab412a95dcf1292da60	141	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	26-06-2023	-	-
+CP019329.1_164	445e31ec2b7b4ab412a95dcf1292da60	141	MobiDBLite	mobidb-lite	consensus disorder prediction	1	31	-	T	26-06-2023	-	-
+CP019329.1_200	e7cff628983ba08e60909648f4242da7	168	MobiDBLite	mobidb-lite	consensus disorder prediction	1	31	-	T	26-06-2023	-	-
+CP019329.1_86	d2b5c7cf5fe1dd191bffcc7a8b6d5aa7	98	Gene3D	G3DSA:1.10.10.10	-	8	93	2.5E-26	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_86	d2b5c7cf5fe1dd191bffcc7a8b6d5aa7	98	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	24	88	7.72E-7	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	SMART	SM00418	arsrmega2	506	576	0.0066	T	26-06-2023	IPR001845	HTH ArsR-type DNA-binding domain
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	Coils	Coil	Coil	573	589	-	T	26-06-2023	-	-
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	508	573	9.93E-11	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	Gene3D	G3DSA:1.10.10.10	-	473	582	9.9E-11	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	Gene3D	G3DSA:3.40.50.300	-	21	270	3.4E-50	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	MobiDBLite	mobidb-lite	consensus disorder prediction	1	27	-	T	26-06-2023	-	-
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	Coils	Coil	Coil	298	346	-	T	26-06-2023	-	-
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	PANTHER	PTHR42957	HELICASE MJ1565-RELATED	117	266	5.4E-24	T	26-06-2023	-	-
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	15	264	9.6E-25	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	Coils	Coil	Coil	365	433	-	T	26-06-2023	-	-
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	CDD	cd00090	HTH_ARSR	517	563	2.77037E-5	T	26-06-2023	IPR011991	ArsR-like helix-turn-helix domain
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	ProSiteProfiles	PS50987	ArsR-type HTH domain profile.	481	582	10.609451	T	26-06-2023	IPR001845	HTH ArsR-type DNA-binding domain
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	Coils	Coil	Coil	442	476	-	T	26-06-2023	-	-
+CP019329.1_152	d07de928805c577e5ad3559d1028bac1	589	Pfam	PF01935	Helicase HerA, central domain	46	94	1.1E-9	T	26-06-2023	IPR002789	Helicase HerA, central domain
+CP019329.1_56	d3a9acd1c0e96c4e69b31c25fe0a0c29	555	Coils	Coil	Coil	215	235	-	T	26-06-2023	-	-
+CP019329.1_156	0998232a7010c6dc67e6659a80a10011	424	NCBIfam	TIGR01766	IS200/IS605 family accessory protein TnpB-like domain	251	331	2.2E-15	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_156	0998232a7010c6dc67e6659a80a10011	424	MobiDBLite	mobidb-lite	consensus disorder prediction	400	424	-	T	26-06-2023	-	-
+CP019329.1_156	0998232a7010c6dc67e6659a80a10011	424	NCBIfam	NF040570	RNA-guided endonuclease TnpB family protein	140	370	1.0E-36	T	26-06-2023	-	-
+CP019329.1_156	0998232a7010c6dc67e6659a80a10011	424	Pfam	PF07282	Putative transposase DNA-binding domain	304	371	2.5E-18	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_170	7a87e1d0be5046372b70f84301234bcd	167	MobiDBLite	mobidb-lite	consensus disorder prediction	128	152	-	T	26-06-2023	-	-
+CP019329.1_182	ee8bdcbb90d99ea80549964a6d854e7f	152	NCBIfam	TIGR02537	archaeal flagellin N-terminal-like domain	25	48	1.0E-5	T	26-06-2023	IPR013373	Flagellin/pilin, N-terminal site, archaea
+CP019329.1_182	ee8bdcbb90d99ea80549964a6d854e7f	152	Pfam	PF07790	Archaeal Type IV pilin, N-terminal	26	107	1.0E-11	T	26-06-2023	IPR012859	Archaeal Type IV pilin, N-terminal
+CP019329.1_25	b02e5df37452bc0535dea940eca4fa54	236	Gene3D	G3DSA:3.40.50.12370	-	20	232	5.5E-16	T	26-06-2023	-	-
+CP019329.1_25	b02e5df37452bc0535dea940eca4fa54	236	Pfam	PF00582	Universal stress protein family	111	231	2.5E-7	T	26-06-2023	IPR006016	UspA
+CP019329.1_25	b02e5df37452bc0535dea940eca4fa54	236	SUPERFAMILY	SSF52402	Adenine nucleotide alpha hydrolases-like	108	232	3.27E-13	T	26-06-2023	-	-
+CP019329.1_160	93d675e7e39bddf54eed587a4cf83d41	129	PANTHER	PTHR41286	HNH NUCLEASE YAJD-RELATED	42	112	2.2E-10	T	26-06-2023	-	-
+CP019329.1_160	93d675e7e39bddf54eed587a4cf83d41	129	MobiDBLite	mobidb-lite	consensus disorder prediction	107	129	-	T	26-06-2023	-	-
+CP019329.1_160	93d675e7e39bddf54eed587a4cf83d41	129	Gene3D	G3DSA:1.10.30.50	-	29	118	1.5E-12	T	26-06-2023	-	-
+CP019329.1_160	93d675e7e39bddf54eed587a4cf83d41	129	SMART	SM00507	HNH_5	47	105	5.2E-7	T	26-06-2023	IPR003615	HNH nuclease
+CP019329.1_160	93d675e7e39bddf54eed587a4cf83d41	129	Pfam	PF01844	HNH endonuclease	60	109	1.2E-11	T	26-06-2023	IPR002711	HNH endonuclease
+CP019329.1_160	93d675e7e39bddf54eed587a4cf83d41	129	CDD	cd00085	HNHc	46	108	2.89013E-8	T	26-06-2023	IPR003615	HNH nuclease
+CP019329.1_121	2421aa4fc221aae446c4f276a92c88c1	128	CDD	cd00085	HNHc	45	106	5.75696E-7	T	26-06-2023	IPR003615	HNH nuclease
+CP019329.1_121	2421aa4fc221aae446c4f276a92c88c1	128	Gene3D	G3DSA:1.10.30.50	-	34	127	1.4E-10	T	26-06-2023	-	-
+CP019329.1_121	2421aa4fc221aae446c4f276a92c88c1	128	SMART	SM00507	HNH_5	45	105	2.8E-8	T	26-06-2023	IPR003615	HNH nuclease
+CP019329.1_121	2421aa4fc221aae446c4f276a92c88c1	128	PANTHER	PTHR41286	HNH NUCLEASE YAJD-RELATED	36	115	9.4E-13	T	26-06-2023	-	-
+CP019329.1_121	2421aa4fc221aae446c4f276a92c88c1	128	Pfam	PF01844	HNH endonuclease	58	106	5.2E-9	T	26-06-2023	IPR002711	HNH endonuclease
+CP019329.1_61	b1b8a4d8226882de3f38df762226deb7	474	MobiDBLite	mobidb-lite	consensus disorder prediction	442	474	-	T	26-06-2023	-	-
+CP019329.1_61	b1b8a4d8226882de3f38df762226deb7	474	MobiDBLite	mobidb-lite	consensus disorder prediction	53	96	-	T	26-06-2023	-	-
+CP019329.1_61	b1b8a4d8226882de3f38df762226deb7	474	Coils	Coil	Coil	428	448	-	T	26-06-2023	-	-
+CP019329.1_61	b1b8a4d8226882de3f38df762226deb7	474	MobiDBLite	mobidb-lite	consensus disorder prediction	59	82	-	T	26-06-2023	-	-
+CP019329.1_118	e3e7c39879a40e096120db13b3412412	81	Gene3D	G3DSA:3.30.160.250	-	7	67	3.6E-5	T	26-06-2023	-	-
+CP019329.1_118	e3e7c39879a40e096120db13b3412412	81	MobiDBLite	mobidb-lite	consensus disorder prediction	43	65	-	T	26-06-2023	-	-
+CP019329.1_118	e3e7c39879a40e096120db13b3412412	81	MobiDBLite	mobidb-lite	consensus disorder prediction	43	81	-	T	26-06-2023	-	-
+CP019329.1_118	e3e7c39879a40e096120db13b3412412	81	SUPERFAMILY	SSF143100	TTHA1013/TTHA0281-like	7	48	7.85E-6	T	26-06-2023	IPR035069	TTHA1013/TTHA0281-like
+CP019329.1_194	3b2d25f1e79a9c2c5f54166daf49f38f	459	PANTHER	PTHR11895	TRANSAMIDASE	1	449	1.5E-81	T	26-06-2023	IPR000120	Amidase
+CP019329.1_194	3b2d25f1e79a9c2c5f54166daf49f38f	459	SUPERFAMILY	SSF75304	Amidase signature (AS) enzymes	3	441	1.02E-110	T	26-06-2023	IPR036928	Amidase signature (AS) superfamily
+CP019329.1_194	3b2d25f1e79a9c2c5f54166daf49f38f	459	Gene3D	G3DSA:1.20.58.1700	-	289	362	0.0	T	26-06-2023	-	-
+CP019329.1_194	3b2d25f1e79a9c2c5f54166daf49f38f	459	Pfam	PF01425	Amidase	20	431	4.1E-83	T	26-06-2023	IPR023631	Amidase signature domain
+CP019329.1_194	3b2d25f1e79a9c2c5f54166daf49f38f	459	Gene3D	G3DSA:3.90.1300.10	Amidase signature (AS) domain	34	435	0.0	T	26-06-2023	IPR036928	Amidase signature (AS) superfamily
+CP019329.1_194	3b2d25f1e79a9c2c5f54166daf49f38f	459	NCBIfam	TIGR02713	allophanate hydrolase	34	451	0.0	T	26-06-2023	IPR014085	Allophanate hydrolase
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	MobiDBLite	mobidb-lite	consensus disorder prediction	78	101	-	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	CDD	cd00371	HMA	12	74	5.83929E-13	T	26-06-2023	IPR006121	Heavy metal-associated domain, HMA
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	284	298	2.0E-25	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	451	465	2.0E-25	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	601	612	2.0E-25	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	624	634	2.0E-25	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	677	696	2.0E-25	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	701	713	2.0E-25	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	FunFam	G3DSA:2.70.150.10:FF:000002	Copper-transporting ATPase 1, putative	222	338	1.1E-37	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	Pfam	PF00403	Heavy-metal-associated domain	13	73	1.9E-14	T	26-06-2023	IPR006121	Heavy metal-associated domain, HMA
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	Pfam	PF00122	E1-E2 ATPase	235	431	4.6E-53	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	NCBIfam	TIGR01525	heavy metal translocating P-type ATPase	179	781	0.0	T	26-06-2023	IPR027256	P-type ATPase, subfamily IB
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	PANTHER	PTHR48085	CADMIUM/ZINC-TRANSPORTING ATPASE HMA2-RELATED	7	783	0.0	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	Gene3D	G3DSA:3.40.1110.10	-	462	609	4.6E-86	T	26-06-2023	IPR023299	P-type ATPase, cytoplasmic domain N
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	NCBIfam	TIGR01494	HAD-IC family P-type ATPase	576	745	1.8E-39	T	26-06-2023	IPR001757	P-type ATPase
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	NCBIfam	TIGR01494	HAD-IC family P-type ATPase	207	482	3.2E-39	T	26-06-2023	IPR001757	P-type ATPase
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	SUPERFAMILY	SSF81653	Calcium ATPase, transduction domain A	237	334	1.44E-27	T	26-06-2023	IPR008250	P-type ATPase, A domain superfamily
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	Gene3D	G3DSA:3.30.70.100	-	4	76	3.2E-16	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	SUPERFAMILY	SSF55008	HMA, heavy metal-associated domain	7	75	4.32E-17	T	26-06-2023	IPR036163	Heavy metal-associated domain superfamily
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	Gene3D	G3DSA:2.70.150.10	-	222	338	4.4E-37	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	SFLD	SFLDS00003	Haloacid Dehalogenase	433	725	0.0	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	SFLD	SFLDF00027	p-type atpase	433	725	0.0	T	26-06-2023	IPR044492	P-type ATPase, haloacid dehalogenase domain
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	Pfam	PF00702	haloacid dehalogenase-like hydrolase	447	690	2.9E-47	T	26-06-2023	-	-
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	SUPERFAMILY	SSF56784	HAD-like	450	777	6.48E-52	T	26-06-2023	IPR036412	HAD-like superfamily
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	ProSitePatterns	PS00154	E1-E2 ATPases phosphorylation site.	453	459	-	T	26-06-2023	IPR018303	P-type ATPase, phosphorylation site
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	ProSiteProfiles	PS50846	Heavy-metal-associated domain profile.	9	75	21.352995	T	26-06-2023	IPR006121	Heavy metal-associated domain, HMA
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	Gene3D	G3DSA:3.40.50.1000	-	442	727	4.6E-86	T	26-06-2023	IPR023214	HAD superfamily
+CP019329.1_40	54c8aeb7e026d2013f1ce93ffce70614	797	SUPERFAMILY	SSF81665	Calcium ATPase, transmembrane domain M	191	445	5.1E-11	T	26-06-2023	IPR023298	P-type ATPase, transmembrane domain superfamily
+CP019329.1_183	c8f3a6b4cbcb46ed7ec499ffefc6ca1c	140	MobiDBLite	mobidb-lite	consensus disorder prediction	10	25	-	T	26-06-2023	-	-
+CP019329.1_183	c8f3a6b4cbcb46ed7ec499ffefc6ca1c	140	MobiDBLite	mobidb-lite	consensus disorder prediction	1	40	-	T	26-06-2023	-	-
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	CDD	cd00009	AAA	44	174	1.16028E-7	T	26-06-2023	-	-
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	CDD	cd18139	HLD_clamp_RarA	186	249	1.73748E-7	T	26-06-2023	-	-
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	SMART	SM00382	AAA_5	39	179	0.001	T	26-06-2023	IPR003593	AAA+ ATPase domain
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	Pfam	PF13401	AAA domain	39	153	1.1E-9	T	26-06-2023	IPR003593	AAA+ ATPase domain
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	PANTHER	PTHR10763	CELL DIVISION CONTROL PROTEIN 6-RELATED	6	307	2.1E-28	T	26-06-2023	-	-
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	NCBIfam	TIGR02928	orc1/cdc6 family replication initiation protein	3	328	3.6E-55	T	26-06-2023	IPR014277	Orc1/Cdc6-type DNA replication protein, archaea
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	Gene3D	G3DSA:1.10.8.60	-	6	259	1.4E-57	T	26-06-2023	-	-
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	2	251	1.35E-40	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_24	1b876123cb0d0fc75ed916aa54155955	335	Gene3D	G3DSA:3.40.50.300	-	17	182	1.4E-57	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_70	35017aaf20818d3b2372470497eaee68	253	ProSiteProfiles	PS51318	Twin arginine translocation (Tat) signal profile.	1	51	9.288334	T	26-06-2023	IPR006311	Twin-arginine translocation pathway, signal sequence
+CP019329.1_70	35017aaf20818d3b2372470497eaee68	253	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	26-06-2023	-	-
+CP019329.1_70	35017aaf20818d3b2372470497eaee68	253	MobiDBLite	mobidb-lite	consensus disorder prediction	1	19	-	T	26-06-2023	-	-
+CP019329.1_39	de7932567ddcf52e0b515b1114f8a93f	331	Pfam	PF02517	Type II CAAX prenyl endopeptidase Rce1-like	135	228	3.8E-17	T	26-06-2023	IPR003675	Type II CAAX prenyl endopeptidase Rce1-like
+CP019329.1_39	de7932567ddcf52e0b515b1114f8a93f	331	PANTHER	PTHR43592	CAAX AMINO TERMINAL PROTEASE	87	232	6.7E-12	T	26-06-2023	-	-
+CP019329.1_167	e9b7fe51096e671584c92b9926e2290c	87	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	26-06-2023	-	-
+CP019329.1_18	3861d20c9b5a8252ff2884aa218cfd52	581	SUPERFAMILY	SSF53098	Ribonuclease H-like	361	544	1.97E-5	T	26-06-2023	IPR012337	Ribonuclease H-like superfamily
+CP019329.1_18	3861d20c9b5a8252ff2884aa218cfd52	581	MobiDBLite	mobidb-lite	consensus disorder prediction	141	165	-	T	26-06-2023	-	-
+CP019329.1_18	3861d20c9b5a8252ff2884aa218cfd52	581	Pfam	PF01609	Transposase DDE domain	382	542	9.6E-8	T	26-06-2023	IPR002559	Transposase IS4-like domain
+CP019329.1_204	35c91eb9c6791e9d0185634e5307e6f4	124	MobiDBLite	mobidb-lite	consensus disorder prediction	96	124	-	T	26-06-2023	-	-
+CP019329.1_204	35c91eb9c6791e9d0185634e5307e6f4	124	MobiDBLite	mobidb-lite	consensus disorder prediction	104	124	-	T	26-06-2023	-	-
+CP019329.1_81	d159a4079b15cd9b81ef80be30dc2c2b	214	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	26-06-2023	-	-
+CP019329.1_81	d159a4079b15cd9b81ef80be30dc2c2b	214	MobiDBLite	mobidb-lite	consensus disorder prediction	48	64	-	T	26-06-2023	-	-
+CP019329.1_81	d159a4079b15cd9b81ef80be30dc2c2b	214	MobiDBLite	mobidb-lite	consensus disorder prediction	1	64	-	T	26-06-2023	-	-
+CP019329.1_1	c4b3ac783fa131c7cc79db8448cb67a9	424	Pfam	PF01609	Transposase DDE domain	105	342	1.0E-29	T	26-06-2023	IPR002559	Transposase IS4-like domain
+CP019329.1_1	c4b3ac783fa131c7cc79db8448cb67a9	424	Gene3D	G3DSA:3.90.350.10	Transposase Inhibitor Protein From Tn5; Chain A, domain 1	183	324	1.4E-5	T	26-06-2023	-	-
+CP019329.1_1	c4b3ac783fa131c7cc79db8448cb67a9	424	PANTHER	PTHR33258	TRANSPOSASE INSL FOR INSERTION SEQUENCE ELEMENT IS186A-RELATED	1	423	2.3E-116	T	26-06-2023	-	-
+CP019329.1_1	c4b3ac783fa131c7cc79db8448cb67a9	424	NCBIfam	NF033592	IS4 family transposase	4	347	4.6E-85	T	26-06-2023	-	-
+CP019329.1_1	c4b3ac783fa131c7cc79db8448cb67a9	424	SUPERFAMILY	SSF53098	Ribonuclease H-like	106	357	1.74E-24	T	26-06-2023	IPR012337	Ribonuclease H-like superfamily
+CP019329.1_203	98ba80703aa7d022658854cfdde57bfe	128	MobiDBLite	mobidb-lite	consensus disorder prediction	1	41	-	T	26-06-2023	-	-
+CP019329.1_203	98ba80703aa7d022658854cfdde57bfe	128	MobiDBLite	mobidb-lite	consensus disorder prediction	12	41	-	T	26-06-2023	-	-
+CP019329.1_203	98ba80703aa7d022658854cfdde57bfe	128	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	46	113	3.12E-5	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_203	98ba80703aa7d022658854cfdde57bfe	128	Gene3D	G3DSA:1.10.10.10	-	24	125	3.9E-5	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_187	ad5426f1cd67a0338bdf8c22abb71948	473	Pfam	PF07282	Putative transposase DNA-binding domain	334	402	5.9E-13	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_187	ad5426f1cd67a0338bdf8c22abb71948	473	MobiDBLite	mobidb-lite	consensus disorder prediction	411	473	-	T	26-06-2023	-	-
+CP019329.1_187	ad5426f1cd67a0338bdf8c22abb71948	473	MobiDBLite	mobidb-lite	consensus disorder prediction	426	460	-	T	26-06-2023	-	-
+CP019329.1_187	ad5426f1cd67a0338bdf8c22abb71948	473	Pfam	PF01385	Probable transposase	211	314	9.4E-22	T	26-06-2023	IPR001959	Probable transposase, IS891/IS1136/IS1341
+CP019329.1_202	d41be2a4c023e9a1cde0dd1fd31c5ead	295	MobiDBLite	mobidb-lite	consensus disorder prediction	121	160	-	T	26-06-2023	-	-
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	ProSitePatterns	PS00059	Zinc-containing alcohol dehydrogenases signature.	59	73	-	T	26-06-2023	IPR002328	Alcohol dehydrogenase, zinc-type, conserved site
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	Pfam	PF08240	Alcohol dehydrogenase GroES-like domain	26	150	3.7E-28	T	26-06-2023	IPR013154	Alcohol dehydrogenase-like, N-terminal
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	CDD	cd08283	FDH_like_1	1	381	0.0	T	26-06-2023	-	-
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	SUPERFAMILY	SSF50129	GroES-like	1	204	7.91E-60	T	26-06-2023	IPR011032	GroES-like superfamily
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	PANTHER	PTHR42813	ZINC-TYPE ALCOHOL DEHYDROGENASE-LIKE	1	381	0.0	T	26-06-2023	-	-
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	163	343	4.37E-64	T	26-06-2023	IPR036291	NAD(P)-binding domain superfamily
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	Gene3D	G3DSA:3.90.180.10	-	2	370	2.1E-124	T	26-06-2023	-	-
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	Pfam	PF13823	Alcohol dehydrogenase GroES-associated	1	23	3.3E-9	T	26-06-2023	IPR027399	Alcohol dehydrogenase GroES-associated
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	Pfam	PF00107	Zinc-binding dehydrogenase	196	323	5.5E-15	T	26-06-2023	IPR013149	Alcohol dehydrogenase-like, C-terminal
+CP019329.1_4	46e163d59861d941f421dbf53cfbf97f	381	Gene3D	G3DSA:3.40.50.720	-	175	332	2.1E-124	T	26-06-2023	-	-
+CP019329.1_57	16490ff238fdbc05792867127fea9426	818	Gene3D	G3DSA:3.40.50.300	-	401	579	4.2E-7	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_57	16490ff238fdbc05792867127fea9426	818	MobiDBLite	mobidb-lite	consensus disorder prediction	106	123	-	T	26-06-2023	-	-
+CP019329.1_57	16490ff238fdbc05792867127fea9426	818	Coils	Coil	Coil	801	818	-	T	26-06-2023	-	-
+CP019329.1_57	16490ff238fdbc05792867127fea9426	818	Coils	Coil	Coil	36	56	-	T	26-06-2023	-	-
+CP019329.1_57	16490ff238fdbc05792867127fea9426	818	Coils	Coil	Coil	733	753	-	T	26-06-2023	-	-
+CP019329.1_57	16490ff238fdbc05792867127fea9426	818	MobiDBLite	mobidb-lite	consensus disorder prediction	106	127	-	T	26-06-2023	-	-
+CP019329.1_57	16490ff238fdbc05792867127fea9426	818	Coils	Coil	Coil	375	395	-	T	26-06-2023	-	-
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	Pfam	PF02080	TrkA-C domain	147	213	8.5E-14	T	26-06-2023	IPR006037	Regulator of K+ conductance, C-terminal
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	SUPERFAMILY	SSF116726	TrkA C-terminal domain-like	130	214	1.03E-15	T	26-06-2023	IPR036721	Regulator of K+ conductance, C-terminal domain superfamily
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	Gene3D	G3DSA:3.40.50.720	-	1	135	2.3E-39	T	26-06-2023	-	-
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	Pfam	PF02254	TrkA-N domain	3	118	1.5E-27	T	26-06-2023	IPR003148	Regulator of K+ conductance, N-terminal
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	PRINTS	PR00335	TrkA potassium uptake protein signature	2	16	7.0E-10	T	26-06-2023	IPR006036	Potassium uptake protein TrkA
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	PRINTS	PR00335	TrkA potassium uptake protein signature	19	33	7.0E-10	T	26-06-2023	IPR006036	Potassium uptake protein TrkA
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	PRINTS	PR00335	TrkA potassium uptake protein signature	49	59	7.0E-10	T	26-06-2023	IPR006036	Potassium uptake protein TrkA
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	PRINTS	PR00335	TrkA potassium uptake protein signature	60	70	7.0E-10	T	26-06-2023	IPR006036	Potassium uptake protein TrkA
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	PRINTS	PR00335	TrkA potassium uptake protein signature	73	87	7.0E-10	T	26-06-2023	IPR006036	Potassium uptake protein TrkA
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	ProSiteProfiles	PS51201	RCK N-terminal domain profile.	2	124	16.139435	T	26-06-2023	IPR003148	Regulator of K+ conductance, N-terminal
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	PANTHER	PTHR43833	POTASSIUM CHANNEL PROTEIN 2-RELATED-RELATED	2	214	6.3E-48	T	26-06-2023	-	-
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	Gene3D	G3DSA:3.30.70.1450	-	136	217	2.3E-18	T	26-06-2023	IPR036721	Regulator of K+ conductance, C-terminal domain superfamily
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	1	143	1.84E-35	T	26-06-2023	IPR036291	NAD(P)-binding domain superfamily
+CP019329.1_29	03769b1577bc78c93441e59a3a286689	223	ProSiteProfiles	PS51202	RCK C-terminal domain profile.	133	221	13.146701	T	26-06-2023	IPR006037	Regulator of K+ conductance, C-terminal
+CP019329.1_108	46766433f082bbab8896e865ff207001	266	CDD	cd06261	TM_PBP2	73	249	3.00436E-11	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+CP019329.1_108	46766433f082bbab8896e865ff207001	266	Gene3D	G3DSA:1.10.3720.10	-	68	263	9.1E-26	T	26-06-2023	IPR035906	MetI-like superfamily
+CP019329.1_108	46766433f082bbab8896e865ff207001	266	ProSiteProfiles	PS50928	ABC transporter integral membrane type-1 domain profile.	73	253	19.902451	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+CP019329.1_108	46766433f082bbab8896e865ff207001	266	PANTHER	PTHR30151	ALKANE SULFONATE ABC TRANSPORTER-RELATED, MEMBRANE SUBUNIT	17	265	2.8E-48	T	26-06-2023	-	-
+CP019329.1_108	46766433f082bbab8896e865ff207001	266	Pfam	PF00528	Binding-protein-dependent transport system inner membrane component	88	265	2.1E-28	T	26-06-2023	IPR000515	ABC transporter type 1, transmembrane domain MetI-like
+CP019329.1_108	46766433f082bbab8896e865ff207001	266	SUPERFAMILY	SSF161098	MetI-like	67	248	5.1E-29	T	26-06-2023	IPR035906	MetI-like superfamily
+CP019329.1_188	ad10c5e7721e71c343b0ed28947056cf	87	Gene3D	G3DSA:1.10.10.10	-	29	86	6.9E-7	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_188	ad10c5e7721e71c343b0ed28947056cf	87	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	28	86	1.65E-9	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_188	ad10c5e7721e71c343b0ed28947056cf	87	Pfam	PF08279	HTH domain	36	68	3.7E-6	T	26-06-2023	IPR013196	Helix-turn-helix, type 11
+CP019329.1_188	ad10c5e7721e71c343b0ed28947056cf	87	Coils	Coil	Coil	46	66	-	T	26-06-2023	-	-
+CP019329.1_196	249cd2b6a794d9ba10ca8b2870aea4ce	140	Pfam	PF18902	Domain of unknown function (DUF5658)	44	104	1.7E-5	T	26-06-2023	IPR043717	Domain of unknown function DUF5658
+CP019329.1_184	b1327dcba58e3c56ab29cb07256a6933	282	Gene3D	G3DSA:3.40.50.300	-	8	282	7.2E-37	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_184	b1327dcba58e3c56ab29cb07256a6933	282	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	10	278	6.38E-21	T	26-06-2023	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+CP019329.1_184	b1327dcba58e3c56ab29cb07256a6933	282	Pfam	PF13614	AAA domain	9	187	2.0E-15	T	26-06-2023	IPR025669	AAA domain
+CP019329.1_184	b1327dcba58e3c56ab29cb07256a6933	282	PANTHER	PTHR13696	P-LOOP CONTAINING NUCLEOSIDE TRIPHOSPHATE HYDROLASE	9	274	1.9E-23	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	434	450	1.0E-17	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	465	479	1.0E-17	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	589	601	1.0E-17	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	624	648	1.0E-17	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	MobiDBLite	mobidb-lite	consensus disorder prediction	731	751	-	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	Pfam	PF13588	Type I restriction enzyme R protein N terminus (HSDR_N)	63	125	2.3E-6	T	26-06-2023	IPR029464	Type I restriction enzyme R protein, N-terminal domain
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	Pfam	PF12950	TaqI-like C-terminal specificity domain	905	1018	4.5E-15	T	26-06-2023	IPR025931	TaqI-like C-terminal specificity domain
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	Coils	Coil	Coil	1150	1170	-	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	PANTHER	PTHR33841	DNA METHYLTRANSFERASE YEEA-RELATED	264	1183	4.4E-72	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	ProSitePatterns	PS00092	N-6 Adenine-specific DNA methylases signature.	592	598	-	T	26-06-2023	IPR002052	DNA methylase, N-6 adenine-specific, conserved site
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	309	734	2.41E-64	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	Pfam	PF02384	N-6 DNA Methylase	413	684	3.7E-18	T	26-06-2023	IPR003356	DNA methylase, adenine-specific
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	Coils	Coil	Coil	229	283	-	T	26-06-2023	-	-
+CP019329.1_48	f0a9f4b3388961da886c36d84be21811	1204	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	414	750	5.8E-57	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	Pfam	PF00705	Proliferating cell nuclear antigen, N-terminal domain	73	153	1.2E-4	T	26-06-2023	IPR022648	Proliferating cell nuclear antigen, PCNA, N-terminal
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	CDD	cd00577	PCNA	74	309	3.93625E-37	T	26-06-2023	-	-
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	Hamap	MF_00317	DNA polymerase sliding clamp [pcn].	54	309	21.109684	T	26-06-2023	IPR000730	Proliferating cell nuclear antigen, PCNA
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	Pfam	PF02747	Proliferating cell nuclear antigen, C-terminal domain	175	284	5.5E-5	T	26-06-2023	IPR022649	Proliferating cell nuclear antigen, PCNA, C-terminal
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	SUPERFAMILY	SSF55979	DNA clamp	64	175	3.87E-15	T	26-06-2023	IPR046938	DNA clamp superfamily
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	SUPERFAMILY	SSF55979	DNA clamp	174	312	1.04E-18	T	26-06-2023	IPR046938	DNA clamp superfamily
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	Gene3D	G3DSA:3.70.10.10	-	57	312	9.1E-65	T	26-06-2023	-	-
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	MobiDBLite	mobidb-lite	consensus disorder prediction	20	40	-	T	26-06-2023	-	-
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	PANTHER	PTHR11352	PROLIFERATING CELL NUCLEAR ANTIGEN	75	285	1.6E-16	T	26-06-2023	IPR000730	Proliferating cell nuclear antigen, PCNA
+CP019329.1_133	4b2ef75fd8f3b9192095cc38bd6d3e7e	313	MobiDBLite	mobidb-lite	consensus disorder prediction	1	47	-	T	26-06-2023	-	-
+CP019329.1_111	d5d13c5ea84bf0e926c8c9edd06060bd	223	PANTHER	PTHR34236	DIMETHYL SULFOXIDE REDUCTASE TRANSCRIPTIONAL ACTIVATOR	11	201	1.2E-30	T	26-06-2023	-	-
+CP019329.1_111	d5d13c5ea84bf0e926c8c9edd06060bd	223	Gene3D	G3DSA:1.10.10.10	-	142	200	2.0E-6	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_111	d5d13c5ea84bf0e926c8c9edd06060bd	223	Pfam	PF04967	HTH DNA binding domain	145	196	2.7E-22	T	26-06-2023	IPR007050	Bacterioopsin activator-type, HTH domain
+CP019329.1_198	4c69027c6cf2452a63008595ee757736	115	Pfam	PF08279	HTH domain	32	74	4.5E-6	T	26-06-2023	IPR013196	Helix-turn-helix, type 11
+CP019329.1_198	4c69027c6cf2452a63008595ee757736	115	MobiDBLite	mobidb-lite	consensus disorder prediction	1	23	-	T	26-06-2023	-	-
+CP019329.1_198	4c69027c6cf2452a63008595ee757736	115	MobiDBLite	mobidb-lite	consensus disorder prediction	89	115	-	T	26-06-2023	-	-
+CP019329.1_198	4c69027c6cf2452a63008595ee757736	115	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	30	88	2.19E-9	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_198	4c69027c6cf2452a63008595ee757736	115	Gene3D	G3DSA:1.10.10.10	-	30	108	4.4E-7	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_69	d63b078c6ceac0745193a121c8e2ef46	63	MobiDBLite	mobidb-lite	consensus disorder prediction	1	33	-	T	26-06-2023	-	-
+CP019329.1_114	7441503b8c1922f5387ff0fce6a9e84e	89	MobiDBLite	mobidb-lite	consensus disorder prediction	67	89	-	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	Gene3D	G3DSA:3.40.50.1000	-	431	705	1.3E-62	T	26-06-2023	IPR023214	HAD superfamily
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	SFLD	SFLDF00027	p-type atpase	422	706	1.121E-44	T	26-06-2023	IPR044492	P-type ATPase, haloacid dehalogenase domain
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	Gene3D	G3DSA:3.30.70.100	-	1	64	2.0E-6	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	Pfam	PF00702	haloacid dehalogenase-like hydrolase	436	669	9.6E-32	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	CDD	cd00371	HMA	1	58	2.44707E-4	T	26-06-2023	IPR006121	Heavy metal-associated domain, HMA
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	291	305	3.0E-25	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	440	454	3.0E-25	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	581	592	3.0E-25	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	603	613	3.0E-25	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	655	674	3.0E-25	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00119	P-type cation-transporting ATPase superfamily signature	678	690	3.0E-25	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	ProSiteProfiles	PS50846	Heavy-metal-associated domain profile.	1	58	13.022965	T	26-06-2023	IPR006121	Heavy metal-associated domain, HMA
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	NCBIfam	TIGR01525	heavy metal translocating P-type ATPase	180	752	2.7E-119	T	26-06-2023	IPR027256	P-type ATPase, subfamily IB
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	SUPERFAMILY	SSF56784	HAD-like	438	751	8.41E-41	T	26-06-2023	IPR036412	HAD-like superfamily
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	NCBIfam	TIGR01494	HAD-IC family P-type ATPase	214	485	6.2E-33	T	26-06-2023	IPR001757	P-type ATPase
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	NCBIfam	TIGR01494	HAD-IC family P-type ATPase	518	745	8.9E-34	T	26-06-2023	IPR001757	P-type ATPase
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	SUPERFAMILY	SSF81653	Calcium ATPase, transduction domain A	246	327	8.63E-22	T	26-06-2023	IPR008250	P-type ATPase, A domain superfamily
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	SFLD	SFLDS00003	Haloacid Dehalogenase	422	706	1.121E-44	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00120	H+-transporting ATPase (proton pump) signature	628	644	4.2E-6	T	26-06-2023	IPR001757	P-type ATPase
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00120	H+-transporting ATPase (proton pump) signature	655	671	4.2E-6	T	26-06-2023	IPR001757	P-type ATPase
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PRINTS	PR00120	H+-transporting ATPase (proton pump) signature	686	711	4.2E-6	T	26-06-2023	IPR001757	P-type ATPase
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	Gene3D	G3DSA:2.70.150.10	-	227	344	7.3E-25	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	SUPERFAMILY	SSF55008	HMA, heavy metal-associated domain	1	63	2.49E-9	T	26-06-2023	IPR036163	Heavy metal-associated domain superfamily
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	SUPERFAMILY	SSF81660	Metal cation-transporting ATPase, ATP-binding domain N	442	585	5.23E-14	T	26-06-2023	IPR023299	P-type ATPase, cytoplasmic domain N
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	Gene3D	G3DSA:3.40.1110.10	-	451	589	1.3E-62	T	26-06-2023	IPR023299	P-type ATPase, cytoplasmic domain N
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	PANTHER	PTHR43520	ATP7, ISOFORM B	1	754	0.0	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	ProSitePatterns	PS00154	E1-E2 ATPases phosphorylation site.	442	448	-	T	26-06-2023	IPR018303	P-type ATPase, phosphorylation site
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	MobiDBLite	mobidb-lite	consensus disorder prediction	486	517	-	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	Pfam	PF00122	E1-E2 ATPase	243	417	1.3E-35	T	26-06-2023	-	-
+CP019329.1_38	e9eb9db0d35ab86b18b82a452a9afac6	763	MobiDBLite	mobidb-lite	consensus disorder prediction	492	517	-	T	26-06-2023	-	-
+CP019329.1_53	3df73d623aee807e38346f193c75a8a1	291	MobiDBLite	mobidb-lite	consensus disorder prediction	263	291	-	T	26-06-2023	-	-
+CP019329.1_100	c765203c438f9f6fd75ce06a8c0f8559	56	SUPERFAMILY	SSF89447	AbrB/MazE/MraZ-like	9	52	1.62E-6	T	26-06-2023	IPR037914	SpoVT-AbrB domain superfamily
+CP019329.1_106	dc85c6cfc684f3f158ac04548e0acaa5	360	SUPERFAMILY	SSF53850	Periplasmic binding protein-like II	57	285	1.36E-31	T	26-06-2023	-	-
+CP019329.1_106	dc85c6cfc684f3f158ac04548e0acaa5	360	PANTHER	PTHR30024	ALIPHATIC SULFONATES-BINDING PROTEIN-RELATED	63	346	3.1E-25	T	26-06-2023	-	-
+CP019329.1_106	dc85c6cfc684f3f158ac04548e0acaa5	360	Gene3D	G3DSA:3.40.190.10	-	62	331	1.1E-40	T	26-06-2023	-	-
+CP019329.1_106	dc85c6cfc684f3f158ac04548e0acaa5	360	Gene3D	G3DSA:3.40.190.10	-	135	240	1.1E-40	T	26-06-2023	-	-
+CP019329.1_106	dc85c6cfc684f3f158ac04548e0acaa5	360	Pfam	PF09084	NMT1/THI5 like	66	280	2.5E-24	T	26-06-2023	IPR015168	SsuA/THI5-like
+CP019329.1_159	ba24667d00fe21b6891c9d719b33d6f9	91	SUPERFAMILY	SSF143422	Transposase IS200-like	2	87	1.44E-27	T	26-06-2023	IPR036515	Transposase IS200-like superfamily
+CP019329.1_159	ba24667d00fe21b6891c9d719b33d6f9	91	Gene3D	G3DSA:3.30.70.1290	-	1	90	3.3E-30	T	26-06-2023	IPR036515	Transposase IS200-like superfamily
+CP019329.1_159	ba24667d00fe21b6891c9d719b33d6f9	91	Pfam	PF01797	Transposase IS200 like	2	87	4.5E-25	T	26-06-2023	IPR002686	Transposase IS200-like
+CP019329.1_159	ba24667d00fe21b6891c9d719b33d6f9	91	NCBIfam	NF033573	IS200/IS605 family transposase	1	87	1.5E-33	T	26-06-2023	-	-
+CP019329.1_159	ba24667d00fe21b6891c9d719b33d6f9	91	SMART	SM01321	Y1_Tnp_2	1	88	8.2E-14	T	26-06-2023	IPR002686	Transposase IS200-like
+CP019329.1_159	ba24667d00fe21b6891c9d719b33d6f9	91	PANTHER	PTHR33360	TRANSPOSASE FOR INSERTION SEQUENCE ELEMENT IS200	2	88	2.3E-25	T	26-06-2023	-	-
+CP019329.1_149	e264aaa6a36f90756284e49f65dd3036	112	MobiDBLite	mobidb-lite	consensus disorder prediction	1	20	-	T	26-06-2023	-	-
+CP019329.1_85	d9107ec230fd0d97a820a20045bed5b6	132	Pfam	PF18780	Homing endonuclease associated repeat	77	129	1.2E-19	T	26-06-2023	IPR041025	Homing endonuclease associated repeat
+CP019329.1_85	d9107ec230fd0d97a820a20045bed5b6	132	Pfam	PF18780	Homing endonuclease associated repeat	14	65	8.9E-15	T	26-06-2023	IPR041025	Homing endonuclease associated repeat
+CP019329.1_34	55cad2b5e978e95afaa79a1c6986b67c	220	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	51	219	6.4E-27	T	26-06-2023	-	-
+CP019329.1_34	55cad2b5e978e95afaa79a1c6986b67c	220	PANTHER	PTHR12151	ELECTRON TRANSPORT PROTIN SCO1/SENC FAMILY MEMBER	61	203	1.1E-11	T	26-06-2023	IPR003782	Copper chaperone SCO1/SenC
+CP019329.1_34	55cad2b5e978e95afaa79a1c6986b67c	220	SUPERFAMILY	SSF52833	Thioredoxin-like	58	217	3.16E-22	T	26-06-2023	IPR036249	Thioredoxin-like superfamily
+CP019329.1_34	55cad2b5e978e95afaa79a1c6986b67c	220	CDD	cd02968	SCO	59	200	7.8117E-23	T	26-06-2023	IPR003782	Copper chaperone SCO1/SenC
+CP019329.1_34	55cad2b5e978e95afaa79a1c6986b67c	220	Pfam	PF02630	SCO1/SenC	60	193	1.1E-14	T	26-06-2023	IPR003782	Copper chaperone SCO1/SenC
+CP019329.1_224	39615945110203d08b3667ab17865f86	129	SUPERFAMILY	SSF143422	Transposase IS200-like	2	125	1.83E-39	T	26-06-2023	IPR036515	Transposase IS200-like superfamily
+CP019329.1_224	39615945110203d08b3667ab17865f86	129	Pfam	PF01797	Transposase IS200 like	8	123	6.1E-34	T	26-06-2023	IPR002686	Transposase IS200-like
+CP019329.1_224	39615945110203d08b3667ab17865f86	129	NCBIfam	NF033573	IS200/IS605 family transposase	1	123	7.6E-47	T	26-06-2023	-	-
+CP019329.1_224	39615945110203d08b3667ab17865f86	129	Gene3D	G3DSA:3.30.70.1290	-	1	129	8.3E-40	T	26-06-2023	IPR036515	Transposase IS200-like superfamily
+CP019329.1_224	39615945110203d08b3667ab17865f86	129	PANTHER	PTHR33360	TRANSPOSASE FOR INSERTION SEQUENCE ELEMENT IS200	1	127	3.1E-41	T	26-06-2023	-	-
+CP019329.1_224	39615945110203d08b3667ab17865f86	129	SMART	SM01321	Y1_Tnp_2	8	124	1.0E-34	T	26-06-2023	IPR002686	Transposase IS200-like
+CP019329.1_32	8197937b0692d5ec8b1f6c4912feed34	182	Gene3D	G3DSA:1.10.10.10	-	5	92	4.7E-5	T	26-06-2023	IPR036388	Winged helix-like DNA-binding domain superfamily
+CP019329.1_32	8197937b0692d5ec8b1f6c4912feed34	182	MobiDBLite	mobidb-lite	consensus disorder prediction	126	182	-	T	26-06-2023	-	-
+CP019329.1_32	8197937b0692d5ec8b1f6c4912feed34	182	MobiDBLite	mobidb-lite	consensus disorder prediction	148	171	-	T	26-06-2023	-	-
+CP019329.1_32	8197937b0692d5ec8b1f6c4912feed34	182	SUPERFAMILY	SSF46785	"Winged helix" DNA-binding domain	9	116	1.36E-6	T	26-06-2023	IPR036390	Winged helix DNA-binding domain superfamily
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	Coils	Coil	Coil	1098	1125	-	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	312	701	4.33E-65	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	ProSitePatterns	PS00092	N-6 Adenine-specific DNA methylases signature.	593	599	-	T	26-06-2023	IPR002052	DNA methylase, N-6 adenine-specific, conserved site
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	Pfam	PF13588	Type I restriction enzyme R protein N terminus (HSDR_N)	60	123	5.7E-6	T	26-06-2023	IPR029464	Type I restriction enzyme R protein, N-terminal domain
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	Gene3D	G3DSA:3.90.1570.30	-	48	134	1.8E-5	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	Pfam	PF02384	N-6 DNA Methylase	417	708	3.0E-21	T	26-06-2023	IPR003356	DNA methylase, adenine-specific
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	Coils	Coil	Coil	258	278	-	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	438	454	2.4E-16	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	467	481	2.4E-16	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	590	602	2.4E-16	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	PRINTS	PR00507	N12 class N6 adenine-specific DNA methyltransferase signature	626	650	2.4E-16	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	Coils	Coil	Coil	230	250	-	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	416	793	1.5E-55	T	26-06-2023	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	PANTHER	PTHR33841	DNA METHYLTRANSFERASE YEEA-RELATED	287	984	2.7E-69	T	26-06-2023	-	-
+CP019329.1_95	a43f5a1b0a97b91e1b8d9d173f47fd23	1155	Pfam	PF12950	TaqI-like C-terminal specificity domain	820	965	1.1E-13	T	26-06-2023	IPR025931	TaqI-like C-terminal specificity domain
+CP019329.1_14	6b3becd6b4f0d94650110c6806f179f1	65	MobiDBLite	mobidb-lite	consensus disorder prediction	1	65	-	T	26-06-2023	-	-
+CP019329.1_14	6b3becd6b4f0d94650110c6806f179f1	65	MobiDBLite	mobidb-lite	consensus disorder prediction	30	65	-	T	26-06-2023	-	-
+CP019329.1_206	a6837f052037fd7edea2d17f20a4c6e0	249	CDD	cd22231	RHH_NikR_HicB-like	2	45	1.12319E-12	T	26-06-2023	-	-
+CP019329.1_206	a6837f052037fd7edea2d17f20a4c6e0	249	Gene3D	G3DSA:1.10.1220.10	-	1	45	2.4E-10	T	26-06-2023	IPR013321	Arc-type ribbon-helix-helix
+CP019329.1_206	a6837f052037fd7edea2d17f20a4c6e0	249	MobiDBLite	mobidb-lite	consensus disorder prediction	47	62	-	T	26-06-2023	-	-
+CP019329.1_206	a6837f052037fd7edea2d17f20a4c6e0	249	MobiDBLite	mobidb-lite	consensus disorder prediction	68	84	-	T	26-06-2023	-	-
+CP019329.1_206	a6837f052037fd7edea2d17f20a4c6e0	249	SUPERFAMILY	SSF47598	Ribbon-helix-helix	1	45	1.78E-7	T	26-06-2023	IPR010985	Ribbon-helix-helix
+CP019329.1_206	a6837f052037fd7edea2d17f20a4c6e0	249	MobiDBLite	mobidb-lite	consensus disorder prediction	47	92	-	T	26-06-2023	-	-
+CP019329.1_158	34c8366bd7bc66d49abb85099049863b	38	SUPERFAMILY	SSF143422	Transposase IS200-like	3	27	1.7E-5	T	26-06-2023	IPR036515	Transposase IS200-like superfamily
+CP019329.1_223	d87ce7ec7cd4bbeeacd55f93973493b0	411	NCBIfam	NF040570	RNA-guided endonuclease TnpB family protein	138	365	6.0E-40	T	26-06-2023	-	-
+CP019329.1_223	d87ce7ec7cd4bbeeacd55f93973493b0	411	Pfam	PF07282	Putative transposase DNA-binding domain	295	365	9.3E-25	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_223	d87ce7ec7cd4bbeeacd55f93973493b0	411	MobiDBLite	mobidb-lite	consensus disorder prediction	371	387	-	T	26-06-2023	-	-
+CP019329.1_223	d87ce7ec7cd4bbeeacd55f93973493b0	411	MobiDBLite	mobidb-lite	consensus disorder prediction	371	411	-	T	26-06-2023	-	-
+CP019329.1_223	d87ce7ec7cd4bbeeacd55f93973493b0	411	NCBIfam	TIGR01766	IS200/IS605 family accessory protein TnpB-like domain	243	322	9.2E-23	T	26-06-2023	IPR010095	Cas12f1-like, TNB domain
+CP019329.1_132	c9584031bb065de6594f30de48e00bbc	83	MobiDBLite	mobidb-lite	consensus disorder prediction	1	49	-	T	26-06-2023	-	-
+CP019329.1_132	c9584031bb065de6594f30de48e00bbc	83	MobiDBLite	mobidb-lite	consensus disorder prediction	1	43	-	T	26-06-2023	-	-
+CP019329.1_66	61d22fd1e0a264ff795a28c7ae055e06	108	MobiDBLite	mobidb-lite	consensus disorder prediction	71	108	-	T	26-06-2023	-	-
+CP019329.1_66	61d22fd1e0a264ff795a28c7ae055e06	108	MobiDBLite	mobidb-lite	consensus disorder prediction	56	108	-	T	26-06-2023	-	-
+CP019329.1_10	7bc6f524266a595e4a7b916f56126ebe	351	PANTHER	PTHR33258	TRANSPOSASE INSL FOR INSERTION SEQUENCE ELEMENT IS186A-RELATED	2	350	9.7E-100	T	26-06-2023	-	-
+CP019329.1_10	7bc6f524266a595e4a7b916f56126ebe	351	Pfam	PF01609	Transposase DDE domain	32	269	2.1E-30	T	26-06-2023	IPR002559	Transposase IS4-like domain
+CP019329.1_10	7bc6f524266a595e4a7b916f56126ebe	351	SUPERFAMILY	SSF53098	Ribonuclease H-like	32	294	2.35E-26	T	26-06-2023	IPR012337	Ribonuclease H-like superfamily
+CP019329.1_10	7bc6f524266a595e4a7b916f56126ebe	351	NCBIfam	NF033592	IS4 family transposase	5	274	2.3E-68	T	26-06-2023	-	-
+CP019329.1_10	7bc6f524266a595e4a7b916f56126ebe	351	Gene3D	G3DSA:3.90.350.10	Transposase Inhibitor Protein From Tn5; Chain A, domain 1	56	251	2.2E-5	T	26-06-2023	-	-
