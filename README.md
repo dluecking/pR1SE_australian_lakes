@@ -23,6 +23,20 @@ Note: after 2 iterations the profiles did not return any new results.
 
 ![image](./pictures/cluster_generation.png)
 
+
+### input for all of this
+'initial_data_susanne/' contains the input for this project.
+
+### Final Results
+'plots/' contains many plots that were generated in this pipeline.
+'main_figures/' contains the figures I suspect might become main figures in the publication.
+'FINAL_complete_relatives/' contains the final complete pR1SE-relatives found in NCBI and ASL.
+'FINAL_complete_relatives_proteins/' contains the correspponding proteins.
+
+The main findings regarding the pR1SE relatives can be accessed here:
+quick_access_pR1SE_google_sheet.R
+
+
 ### The parts of the project
 #### A - generate_protein_clusters
 Here, we find, align create hmm profiles for each ORF iteratively. 
@@ -71,7 +85,21 @@ Get info on the length/number of genes between the two clusters.
 For our metagenomic assembled pR1SEs, we do not know the host. Here we use iphop to figure this out.
 
 #### J_COG_categories_complete
+Analyzing the COG categories found in pR1SE_region genes. 
+*This is out of date and not important rn*
+
+#### K - integrases
+We are looking for integrases surrounding the pR1SEs!
+
+#### L conserved regions
+This is tricky: We are looking for mutation rates along the core genes, which we do in "K". Here in L, we do it via alignments, which does not really work. 
+*This is out of date and not important rn*
+
+#### K - mutation rates
+This is tricky: We are looking for mutation rates along the core genes, for that we need reads, so we do it only for the ORFs coming from our own assembled contigs.
 
 
+#### Z - mini tests
+Contains plenty of little things I checked. Documented inside.
 
 
