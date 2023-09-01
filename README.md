@@ -16,55 +16,62 @@ If we identified like 30-50 (?) possible candidates, we do the follwing:
     2. repeat this iteratively
     3. create a HMM (MAFFT for alignment and HMMER for hmm creation)
     4. again, iteratively search ASL and public databases thus increasing the number of proteins in a cluster even more (cutoffs are dependend on a search hmm-vs-pfam)
-2. then screen binned/not-binned contigs and select ones with hits >4000 bp and at least 4 (might be more for us, since for 4/4 for pleos, so we have to go higher?)
+2. then screen binned/not-binned contigs and select ones with hits >4000 bp and at least 6 (might be more for us, since for 4/4 for pleos, so we have to go higher?)
 3. further downstream quality control 
 
 Note: after 2 iterations the profiles did not return any new results.
 
 ![image](./pictures/cluster_generation.png)
 
-### Notes from Tomas
-- the concept is: lose addition of homologs then later on removal of short proteins and more distant proteins (see step 5, where we set the minimum score to be included equal to the maximum score of false positives + 10)
-- he has some pre-sorted assemblies where the contigs are sorted into plasmid / 
-
 ### The parts of the project
 #### A - generate_protein_clusters
-This part is basically steps 1 (substeps 1-4) mentioned in the methods description. I'm happy with the results we have here.
-Final commands to generate the files for all ORFs:
-1. Generate MSAs
-```commandline
-for i in *; do mafft --localpair --reorder $i > ../FINAL_msa/${i}.msa; done
-```
-2. Generate profiles:
-```commandline
-for i  in *; do hmmbuild --amino ../FINAL_profiles/${i}.hmm $i; done
-```
+Here, we find, align create hmm profiles for each ORF iteratively. 
+This results in 'A_generate_protein_clusters/FINAL_profiles/ORF*.hmm'.
+
 
 #### B - known_hosts
-This is interesting. Key is: I need to figure out how to get from protein accession to genome accession. I will try once more, before moving on and asking Daan Speth.
+Here we use the information we got while creating the clusters in "A", to identify sequences on NCBI that have multiple pR1SE proteins.
+This results in ~80 pR1SE relatives from NCBI in the folder 'B_known_hosts/known_hosts/'.
 
 #### C - search_ASL
-This part is basically step 2 in the methods. So far not much has been done, initial search showed some hits.
+Here we use the profiles form A in order to search the Australian Salt Lakes for pR1SE relatives. Results in the file 'pR1SE_australian_lakes/C_search_ASL/scripts/novel_host_sequences.fasta'.
+
 
 #### D - search IMG
-Same approach as in search_ASL. Needed to download IMGV7 and changed some "-" characters to "" using the following command:
+Same approach as in search_ASL. 
+Needed to download IMGV7 and changed some "-" characters to "" using the following command:
 ```
 sed -i.bak 's/^-//g' IMGVR_all_proteins.faa
 ```
+However, we dont find full pR1SE relatives in IMG. Makes sense, since they excluded plasmids in one of their releases. 
+We will come back to this result later though!
+
 
 #### E - check the synteny of the discovered relatives
-I made a mistake in B - known_hosts, that downloads NZ_contig_ID and contig_ID as two different contigs.
-This now has impacts on this part, and the protein length analysis etc. I should go back and check how to solve it. 
+Here we learn about the synteny, the two clusters etc. Gave us a first region_border idea for each pR1SE like element. 
 
 
-#### F - check the presence/absence of other pR1SE ORFs
-had to copy the genes from ./E_check_synteny/genes/ since I had to replace the '*' with '' in the protein files with the following command:
-`for i in *; do sed -i "s/\*//g" $i; done`
-
+#### F - check the presence/absence of other (non core) pR1SE ORFs in the pR1SE relatives
+There are two approaches in the folder. The better is found in the subfolder all_against_all, which relies on a psi_blast clustering in order to determine the core, cloud and pangenome of pR1SE.
 
 #### G - annotate the complete relatives
-had to copy the genes from ./E_check_synteny/genes/ since I had to replace the '*' with '' in the protein files with the following command:
-`for i in *; do sed -i "s/\*//g" $i; done`
+Annotate all genes of pR1SE regions with:
+- DRAM
+- nr
+- interpro-scan
+
+Results in 'improved_gene_df_with_DRAM_and_nr.tsv'.
+
+Here we also search for replication, toxins, partitioning systems and other core plasmid functions.
+
+#### H_inserted_genes
+Get info on the length/number of genes between the two clusters.
+
+#### I_host_prediction
+For our metagenomic assembled pR1SEs, we do not know the host. Here we use iphop to figure this out.
+
+#### J_COG_categories_complete
+
 
 
 
