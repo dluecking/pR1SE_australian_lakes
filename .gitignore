@@ -14,6 +14,9 @@ B_known_hosts/known_hosts
 A_generate_protein_clusters/scripts/out/
 K_integrases/integrases
 
+Z_mini_tests/DRAM/distill_out
+
+
 I_host_prediction/out
 F_all_pR1SE_ORFs/all_vs_all/blast_out
 F_all_pR1SE_ORFs/all_vs_all/proteins
