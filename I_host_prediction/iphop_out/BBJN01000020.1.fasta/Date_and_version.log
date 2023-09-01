@@ -1,0 +1,21 @@
+### iPHoP version 1.2.0 ran on 05-Jul-2023 (05:32:17.888631)
+### Main classifier used: Model_Final_RF-24
+### Individual classifiers used:
+## blast - Model_blast_Conv-87
+## blast - Model_blast_RF-39
+## crispr - Model_crispr_Conv-85
+## crispr - Model_crispr_Dense-15
+## wish - Model_wish_Conv-2
+## wish - Model_wish_Dense-54
+## vhm - Model_vhm_Conv-92
+## vhm - Model_vhm_Dense-97
+## php - Model_php_Conv-90
+## php - Model_php_Dense-74
+### Database used:
+/bioinf/transfer/tal/iphop_db/
+### Minimum score asked: 90
+###################################################################################################################################################
+!#!#!#!#!#! WARNING --- SOME UNEXPECTED EVENTS HAPPENED -- WE LIST THEM BELOW, IT COULD BE NOTHING, BUT YOU SHOULD STILL DOUBLE-CHECK #!#!#!#!#!#!#
+RaFAH results were empty. This may be ok, but is still unusual, so you may want to check the rafah log (Wdir/rafah.log)
+Note that we tried to use RaFAH, but the file iphop_out/BBJN01000020.1.fasta/Wdir/rafahparsed.csv had no data
+###################################################################################################################################################

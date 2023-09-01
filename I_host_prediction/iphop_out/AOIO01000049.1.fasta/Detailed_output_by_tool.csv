@@ -1,0 +1,75 @@
+### Top 5 hits for each virus with each method used
+### Score 1 / Score 2 columns correpond respectively to:
+### For blast hits => Total number of matches in hsps / Average percentage of identity across the full alignment
+### For crispr hits => Number of mismatches / Length of CRISPR spacer
+### For WIsH => Log-likelihood / P-value
+### For VirHostMatcher => s2 similarity/ NA
+### For PHP => PHP score/ NA
+### For RaFAH => Confidence score / estimated FDR
+### For iPHoP-RF => Confidence score / estimated FDR
+Virus,Method,Host,Host taxonomy,Metric 1,Score 1,Metric 2,Score 2,Rank,Host representative
+AOIO01000049.1,blast,GCF_000337535.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba aegyptia,Match_length,18554.000,Id_pcent,94.2,1,RS_GCF_000337535.1
+AOIO01000049.1,blast,GCA_014647155.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Halobacteriaceae;g__Halarchaeum;s__Halarchaeum nitratireducens,Match_length,9712.000,Id_pcent,83.18,2,GB_GCA_014647155.1
+AOIO01000049.1,blast,GCA_014647115.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Halobacteriaceae;g__Halarchaeum;s__Halarchaeum rubridurum,Match_length,9174.000,Id_pcent,83.12,3,GB_GCA_014647115.1
+AOIO01000049.1,blast,GCF_000337535.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba aegyptia,Match_length,18554.000,Id_pcent,94.2,4,RS_GCF_000337535.1
+AOIO01000049.1,blast,GCF_002572525.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema sp002572525,Match_length,6357.000,Id_pcent,86.58,5,RS_GCF_002572525.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,39.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,33.0,1,RS_GCF_000337555.1
+AOIO01000049.1,crispr,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,N_mismatches,0.000,Spacer_length,32.0,1,RS_GCF_000337555.1
+AOIO01000049.1,iPHoP-RF,RS_GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,Confidence_score,0.976,FDR,0.069,1,RS_GCF_000337555.1
+AOIO01000049.1,iPHoP-RF,RS_GCF_000337535.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba aegyptia,Confidence_score,0.908,FDR,0.175,2,RS_GCF_000337535.1
+AOIO01000049.1,iPHoP-RF,RS_GCF_000337595.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba taiwanensis,Confidence_score,0.900,FDR,0.186,3,RS_GCF_000337595.1
+AOIO01000049.1,iPHoP-RF,RS_GCF_000337135.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba chahannaoensis,Confidence_score,0.886,FDR,0.205,4,RS_GCF_000337135.1
+AOIO01000049.1,iPHoP-RF,RS_GCF_000025625.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba magadii,Confidence_score,0.694,FDR,0.438,5,RS_GCF_000025625.1
+AOIO01000049.1,php,GCF_900880625.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Halorhabdus;s__Halorhabdus rudnickae,Score,1460.951,NA,NA,1,RS_GCF_900880625.1
+AOIO01000049.1,php,GCF_000337595.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba taiwanensis,Score,1460.812,NA,NA,2,RS_GCF_000337595.1
+AOIO01000049.1,php,GCF_004217335.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema hispanicum,Score,1459.649,NA,NA,3,RS_GCF_004217335.1
+AOIO01000049.1,php,3300026957_7,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Halapricum;s__,Score,1459.582,NA,NA,4,3300026957_7
+AOIO01000049.1,php,GCA_007118975.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__SKNY01;g__SKNY01;s__SKNY01 sp007118975,Score,1459.375,NA,NA,5,GB_GCA_007118975.1
+AOIO01000049.1,vhm,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,S2star_similarity,0.708,NA,NA,1,RS_GCF_000337555.1
+AOIO01000049.1,vhm,GCF_000337535.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba aegyptia,S2star_similarity,0.704,NA,NA,2,RS_GCF_000337535.1
+AOIO01000049.1,vhm,GCF_000337595.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba taiwanensis,S2star_similarity,0.703,NA,NA,3,RS_GCF_000337595.1
+AOIO01000049.1,vhm,GCF_000337175.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema gari,S2star_similarity,0.691,NA,NA,4,RS_GCF_000337175.1
+AOIO01000049.1,vhm,GCF_000337615.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema pallidum,S2star_similarity,0.690,NA,NA,5,RS_GCF_000337615.1
+AOIO01000049.1,wish,GCF_000337555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba asiatica,Log-likelihood,-1.306,p-value,0.00341841,1,RS_GCF_000337555.1
+AOIO01000049.1,wish,GCF_000337535.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba aegyptia,Log-likelihood,-1.348,p-value,0.0397884,2,RS_GCF_000337535.1
+AOIO01000049.1,wish,GCF_011043775.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronolimnobius;s__Natronolimnobius sp011043775,Log-likelihood,-1.350,p-value,0.0334839,3,RS_GCF_011043775.1
+AOIO01000049.1,wish,GCF_000337595.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba taiwanensis,Log-likelihood,-1.350,p-value,0.0465177,4,RS_GCF_000337595.1
+AOIO01000049.1,wish,GCF_002572525.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema sp002572525,Log-likelihood,-1.351,p-value,0.0444354,5,RS_GCF_002572525.1

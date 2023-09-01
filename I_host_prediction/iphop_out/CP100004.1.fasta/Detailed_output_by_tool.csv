@@ -1,0 +1,41 @@
+### Top 5 hits for each virus with each method used
+### Score 1 / Score 2 columns correpond respectively to:
+### For blast hits => Total number of matches in hsps / Average percentage of identity across the full alignment
+### For crispr hits => Number of mismatches / Length of CRISPR spacer
+### For WIsH => Log-likelihood / P-value
+### For VirHostMatcher => s2 similarity/ NA
+### For PHP => PHP score/ NA
+### For RaFAH => Confidence score / estimated FDR
+### For iPHoP-RF => Confidence score / estimated FDR
+Virus,Method,Host,Host taxonomy,Metric 1,Score 1,Metric 2,Score 2,Rank,Host representative
+CP100004.1,blast,GCF_004114995.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halorubrum;s__Halorubrum amylolyticum,Match_length,2805.000,Id_pcent,88.24,1,RS_GCF_004114995.1
+CP100004.1,blast,3300000350_9,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__;s__,Match_length,2322.000,Id_pcent,86.18,2,3300000350_9
+CP100004.1,blast,GCF_000230715.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronobacterium;s__Natronobacterium gregoryi,Match_length,2321.000,Id_pcent,85.74,3,RS_GCF_000230715.2
+CP100004.1,blast,GCF_013342525.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__N1521;s__N1521 sp003551725,Match_length,1948.000,Id_pcent,87.83,4,RS_GCF_013342525.1
+CP100004.1,blast,GCF_003665925.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halobellus;s__Halobellus sp003665925,Match_length,903.000,Id_pcent,82.06,5,RS_GCF_003665925.1
+CP100004.1,crispr,GCF_000336755.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax elongans,N_mismatches,1.000,Spacer_length,38.0,1,RS_GCF_000336755.1
+CP100004.1,crispr,3300017431_24,d__Bacteria;p__Planctomycetota;c__Planctomycetes;o__Pirellulales;f__UBA1268;g__QWPN01;s__,N_mismatches,1.000,Spacer_length,25.0,1,3300024262_19
+CP100004.1,crispr,3300017431_24,d__Bacteria;p__Planctomycetota;c__Planctomycetes;o__Pirellulales;f__UBA1268;g__QWPN01;s__,N_mismatches,2.000,Spacer_length,25.0,2,3300024262_19
+CP100004.1,crispr,GCF_004114995.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halorubrum;s__Halorubrum amylolyticum,N_mismatches,3.000,Spacer_length,36.0,3,RS_GCF_004114995.1
+CP100004.1,crispr,GCF_001462205.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloparvum;s__Haloparvum sedimenti,N_mismatches,4.000,Spacer_length,36.0,4,RS_GCF_001462205.1
+CP100004.1,crispr,3300017431_24,d__Bacteria;p__Planctomycetota;c__Planctomycetes;o__Pirellulales;f__UBA1268;g__QWPN01;s__,N_mismatches,4.000,Spacer_length,25.0,4,3300024262_19
+CP100004.1,iPHoP-RF,RS_GCF_000336775.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax gibbonsii,Confidence_score,0.976,FDR,0.069,1,RS_GCF_000336775.1
+CP100004.1,iPHoP-RF,RS_GCF_003665925.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halobellus;s__Halobellus sp003665925,Confidence_score,0.956,FDR,0.102,2,RS_GCF_003665925.1
+CP100004.1,iPHoP-RF,RS_GCF_001482285.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax sp001482285,Confidence_score,0.946,FDR,0.118,3,RS_GCF_001482285.1
+CP100004.1,iPHoP-RF,RS_GCF_000336815.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax prahovense,Confidence_score,0.942,FDR,0.124,4,RS_GCF_000336815.1
+CP100004.1,iPHoP-RF,RS_GCF_000337835.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax sulfurifontis,Confidence_score,0.940,FDR,0.127,5,RS_GCF_000337835.1
+CP100004.1,php,GCF_008831545.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Halorussus;s__Halorussus sp008831545,Score,1458.924,NA,NA,1,RS_GCF_008831545.1
+CP100004.1,php,GCF_005239435.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Halorussus;s__Halorussus sp005239435,Score,1458.343,NA,NA,2,RS_GCF_005239435.1
+CP100004.1,php,GCF_000306765.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax mediterranei,Score,1457.811,NA,NA,3,RS_GCF_000306765.2
+CP100004.1,php,GCF_003298465.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Haladaptatus;s__Haladaptatus sp003298465,Score,1456.688,NA,NA,4,RS_GCF_003298465.1
+CP100004.1,php,GCF_000172995.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halogeometricum;s__Halogeometricum borinquense,Score,1456.038,NA,NA,5,RS_GCF_000172995.2
+CP100004.1,vhm,GCF_005239435.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Halorussus;s__Halorussus sp005239435,S2star_similarity,0.756,NA,NA,1,RS_GCF_005239435.1
+CP100004.1,vhm,GCF_008831545.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Halorussus;s__Halorussus sp008831545,S2star_similarity,0.750,NA,NA,2,RS_GCF_008831545.1
+CP100004.1,vhm,GCF_004143485.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Halorussus;s__Halorussus amylolyticus,S2star_similarity,0.749,NA,NA,3,RS_GCF_004143485.2
+CP100004.1,vhm,GCF_009791395.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Halomarina;s__Halomarina oriensis,S2star_similarity,0.741,NA,NA,4,RS_GCF_009791395.1
+CP100004.1,vhm,GCF_000336955.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax larsenii,S2star_similarity,0.738,NA,NA,5,RS_GCF_000336955.1
+CP100004.1,wish,GCF_008831545.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Halorussus;s__Halorussus sp008831545,Log-likelihood,-1.327,p-value,0.00337349,1,RS_GCF_008831545.1
+CP100004.1,wish,GCF_000306765.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax mediterranei,Log-likelihood,-1.327,p-value,0.00493529,2,RS_GCF_000306765.2
+CP100004.1,wish,GCF_005239435.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Halorussus;s__Halorussus sp005239435,Log-likelihood,-1.328,p-value,0.00693807,3,RS_GCF_005239435.1
+CP100004.1,wish,GCF_000336755.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax elongans,Log-likelihood,-1.328,p-value,0.00512311,4,RS_GCF_000336755.1
+CP100004.1,wish,GCF_001625445.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haladaptataceae;g__Haladaptatus;s__Haladaptatus sp001625445,Log-likelihood,-1.329,p-value,0.00598397,5,RS_GCF_001625445.1

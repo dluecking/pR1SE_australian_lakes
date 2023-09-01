@@ -14,8 +14,6 @@ this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(this_dir)
 print(paste0("Setting wd to: \n ", this_dir))
 
-core_ORFs <- c("ORF6", "ORF24", "ORF23", "ORF21")
-
 
 # explore -----------------------------------------------------------------
 

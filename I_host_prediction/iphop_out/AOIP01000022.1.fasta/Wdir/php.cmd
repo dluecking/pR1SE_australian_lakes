@@ -1,0 +1,1 @@
+python3 /home/dlueckin/bin/miniconda3/envs/iphop_mamba/lib/python3.7/site-packages/iphop/utils/PHP.py --virusFastaFileDir iphop_out/AOIP01000022.1.fasta/Wdir/split_input/ --outFileDir iphop_out/AOIP01000022.1.fasta/Wdir/php_results/ --bacteriaKmerDir /bioinf/transfer/tal/iphop_db/db --bacteriaKmerName php_db> iphop_out/AOIP01000022.1.fasta/Wdir/php.log 2>&1

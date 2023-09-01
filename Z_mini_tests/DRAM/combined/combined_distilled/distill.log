@@ -1,0 +1,7 @@
+2023-08-23 17:43:50,310 - The log file is created at combined_distilled/distill.log
+2023-08-23 17:43:50,387 - Note: the fallowing id fields were not in the annotations file and are not being used: ['kegg_genes_id', 'kegg_id', 'camper_id', 'fegenie_id', 'sulfur_id', 'methyl_id'], but these are ['ko_id', 'kegg_hit', 'peptidase_family', 'cazy_best_hit', 'pfam_hits']
+2023-08-23 17:43:50,465 - Retrieved database locations and descriptions
+2023-08-23 17:43:50,579 - Calculated genome statistics
+2023-08-23 17:43:56,768 - Generated genome metabolism summary
+2023-08-23 17:44:03,791 - Generated product heatmap and table
+2023-08-23 17:44:03,791 - Completed distillation

@@ -1,0 +1,23 @@
+### Top 5 hits for each virus with each method used
+### Score 1 / Score 2 columns correpond respectively to:
+### For blast hits => Total number of matches in hsps / Average percentage of identity across the full alignment
+### For crispr hits => Number of mismatches / Length of CRISPR spacer
+### For WIsH => Log-likelihood / P-value
+### For VirHostMatcher => s2 similarity/ NA
+### For PHP => PHP score/ NA
+### For RaFAH => Confidence score / estimated FDR
+### For iPHoP-RF => Confidence score / estimated FDR
+Virus,Method,Host,Host taxonomy,Metric 1,Score 1,Metric 2,Score 2,Rank,Host representative
+CP099999.1,iPHoP-RF,RS_GCF_900100335.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum texcoconense,Confidence_score,0.920,FDR,0.158,3,RS_GCF_900100335.1
+CP099999.1,iPHoP-RF,RS_GCF_001971705.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum daqingense,Confidence_score,0.912,FDR,0.169,4,RS_GCF_001971705.1
+CP099999.1,iPHoP-RF,RS_GCF_000383975.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum tibetense,Confidence_score,0.910,FDR,0.172,5,RS_GCF_000383975.1
+CP099999.1,iPHoP-RF,RS_GCF_004217335.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema hispanicum,Confidence_score,0.910,FDR,0.172,5,RS_GCF_004217335.1
+CP099999.1,php,GCF_000383975.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum tibetense,Score,1455.195,NA,NA,3,RS_GCF_000383975.1
+CP099999.1,php,GCF_000691505.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halostagnicola;s__Halostagnicola sp000691505,Score,1455.186,NA,NA,4,RS_GCF_000691505.1
+CP099999.1,php,GCA_001564275.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Tc-Br11;s__Tc-Br11 sp001564275,Score,1455.058,NA,NA,5,GB_GCA_001564275.1
+CP099999.1,vhm,GCA_001563805.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrarchaeobaculum;s__Natrarchaeobaculum sp001563805,S2star_similarity,0.682,NA,NA,3,GB_GCA_001563805.1
+CP099999.1,vhm,GCF_009392895.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum aibiense,S2star_similarity,0.680,NA,NA,4,RS_GCF_009392895.1
+CP099999.1,vhm,GCF_000517625.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halostagnicola;s__Halostagnicola larsenii,S2star_similarity,0.678,NA,NA,5,RS_GCF_000517625.1
+CP099999.1,wish,GCF_003430825.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrarchaeobaculum;s__Natrarchaeobaculum sulfurireducens,Log-likelihood,-1.309,p-value,0.00257079,3,RS_GCF_003430825.1
+CP099999.1,wish,GCF_000383975.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum tibetense,Log-likelihood,-1.309,p-value,0.00416764,4,RS_GCF_000383975.1
+CP099999.1,wish,GCF_004799645.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum bangense,Log-likelihood,-1.310,p-value,0.00344369,5,RS_GCF_004799645.1

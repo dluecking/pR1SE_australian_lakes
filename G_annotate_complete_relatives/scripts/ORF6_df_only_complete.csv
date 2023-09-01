@@ -1,0 +1,45 @@
+orf#,start,end,strand,contig,id,annot,score,evalue,aln_length,interpro_annot,interpro_evalue,DRAM_kegg,DRAM_pdfam,nr_annotation,nr_bitscore
+89,73573,76854,TRUE,AOIO01000049.1,AOIO01000049.1_89,ORF6.faa,1100.7,0,1166,"",,"","","",
+21,12848,16498,TRUE,AOIP01000022.1,AOIP01000022.1_21,ORF6.faa,1340.9,0,1183,Quinoprotein alcohol dehydrogenase-like,1.65e-68,"","","",
+37,36139,37464,TRUE,AOIR01000042.1,AOIR01000042.1_37,ORF6.faa,70.3,5.1e-22,254,CELL SURFACE PROTEIN,8e-45,"","",PQQ-binding-like beta-propeller repeat protein [Natrinema thermotolerans],761
+43,41965,45603,TRUE,AOIR01000042.1,AOIR01000042.1_43,ORF6.faa,846.7,2.3e-256,1172,Quinoprotein alcohol dehydrogenase-like,3.14e-15,"","",S8 family serine peptidase [Halobaculum magnesiiphilum],196
+27,25073,28525,TRUE,AOJE01000025.1,AOJE01000025.1_27,ORF6.faa,726.5,3e-220,712,Quinoprotein alcohol dehydrogenase-like,2.12e-10,"","","",
+50,40298,44122,FALSE,AOJE01000051.1,AOJE01000051.1_50,ORF6.faa,956.5,8e-290,1228,"",,"","",COPI-like protein [Halorubrum lacusprofundi],1578
+19,15743,19432,TRUE,AOLZ01000012.1,AOLZ01000012.1_19,ORF6.faa,1247.8,0,1177,Quinoprotein alcohol dehydrogenase-like,7.06e-55,"","","",
+32,23437,27639,TRUE,BBJN01000020.1,BBJN01000020.1_32,ORF6.faa,998.2,4.5e-302,1225,Fibronectin type III,1.91e-10,"","",fibronectin type III domain-containing protein [Halolamina rubra],2659
+50,46771,50460,FALSE,CP019286.1,CP019286.1_50,ORF6.faa,1247.8,0,1177,Quinoprotein alcohol dehydrogenase-like,7.06e-55,"","","",
+80,79722,83168,FALSE,CP019329.1,CP019329.1_80,ORF6.faa,1144,0,1176,"",,"","","",
+4,1530,2291,TRUE,CP031299.1,CP031299.1_4,ORF6.faa,102.5,1.2e-31,260,Quinoprotein alcohol dehydrogenase-like,5.49e-41,"","","",
+6,3167,4096,TRUE,CP031299.1,CP031299.1_6,ORF6.faa,324.2,1.5e-98,244,"",,"","","",
+7,4428,4880,TRUE,CP031299.1,CP031299.1_7,ORF6.faa,133.9,4.1e-41,121,"",,"","","",
+77,45779,48448,FALSE,CP084476.1,CP084476.1_77,ORF6.faa,1101.5,0,844,"",,"","","",
+33,30694,34293,TRUE,CP095494.1,CP095494.1_33,ORF6.faa,1373.1,0,1179,YVTN repeat-like/Quinoprotein amine dehydrogenase,4.39e-36,"","","",
+34,34303,37557,TRUE,CP095494.1,CP095494.1_34,ORF6.faa,1203.7,0,115,"",,"","",PQQ-binding-like beta-propeller repeat protein [Halosolutus gelatinilyticus],1164
+41,24260,27889,FALSE,CP099999.1,CP099999.1_41,ORF6.faa,1034.7,0,1161,Quinoprotein alcohol dehydrogenase-like,1.14e-06,"","","",
+3,1623,5567,TRUE,CP100004.1,CP100004.1_3,ORF6.faa,1166.6,0,1169,Quinoprotein alcohol dehydrogenase-like,3.34e-17,"","",carboxypeptidase regulatory-like domain-containing protein [Halorussus sp. XZYJT10],2562
+74,49065,52772,TRUE,CP101158.1,CP101158.1_74,ORF6.faa,1055.7,0,1171,Quinoprotein alcohol dehydrogenase-like,1.18e-39,"","","",
+3055,2916139,2920074,TRUE,CP101161.1,CP101161.1_3055,ORF6.faa,839.2,1.5e-252,1223,Carboxypeptidase regulatory-like domain,7.9e-09,"","",carboxypeptidase-like regulatory domain-containing protein [Halosegnis sp. ZY10],2534
+45,29983,33093,FALSE,CP119801.1,CP119801.1_45,ORF6.faa,1158.1,0,953,"",,"","","",
+9,6199,9729,TRUE,Eyresouth_NODE_101_length_48437_cov_7.17035,Eyresouth_NODE_101_length_48437_cov_7.17035_9,ORF6.faa,561.3,1.7e-170,212,"",,"","","",
+19,11488,14820,TRUE,FNFE01000011.1,FNFE01000011.1_19,ORF6.faa,1120.7,0,1182,"",,"","","",
+55,46419,46955,FALSE,FOXI01000018.1,FOXI01000018.1_55,ORF6.faa,133.3,2.6e-41,175,"",,"","","succinylglutamate desuccinylase/aspartoacylase family protein, partial [Halolamina sp. R1-12]",314
+1,2,1678,TRUE,Frome_NODE_383_length_24936_cov_4.316346,Frome_NODE_383_length_24936_cov_4.316346_1,ORF6.faa,368.8,9.2e-113,467,"",,"","",carboxypeptidase regulatory-like domain-containing protein [Natronomonas sp. CBA1123],446
+12,6704,10945,TRUE,Gairdner_NODE_107_length_49922_cov_74.384603,Gairdner_NODE_107_length_49922_cov_74.384603_12,ORF6.faa,552.7,9.6e-168,1223,Calcium-dependent phosphotriesterase,1.63e-06,"","","",
+32,28415,32692,FALSE,Gairdner_NODE_167_length_41210_cov_9.888325,Gairdner_NODE_167_length_41210_cov_9.888325_32,ORF6.faa,876,1.5e-265,433,YVTN repeat-like/Quinoprotein amine dehydrogenase,4e-24,"","","",
+4,3437,7180,FALSE,JAAOHU010000009.1,JAAOHU010000009.1_4,ORF6.faa,1237.9,0,1164,CELL SURFACE PROTEIN,7.3e-49,"","","",
+557,553752,557924,TRUE,JAJCVI010000002.1,JAJCVI010000002.1_557,ORF6.faa,992.4,1.7e-299,1213,Quinoprotein alcohol dehydrogenase-like,3.37e-13,"","","",
+12,18629,20647,TRUE,JAJCVI010000007.1,JAJCVI010000007.1_12,ORF6.faa,172.2,2.1e-52,593,Kelch motif,2.09e-43,"","","",
+13,20610,23183,TRUE,JAJCVI010000007.1,JAJCVI010000007.1_13,ORF6.faa,483.5,2.3e-146,312,"",,"","",PQQ-binding-like beta-propeller repeat protein [Halosolutus gelatinilyticus],147
+81,49809,53501,TRUE,JDTG01000019.1,JDTG01000019.1_81,ORF6.faa,1251.3,0,1179,Quinoprotein alcohol dehydrogenase-like,2.16e-63,"","","",
+7,6074,10228,TRUE,KX687704.1,KX687704.1_7,ORF6.faa,1080.2,0,1227,YVTN repeat-like/Quinoprotein amine dehydrogenase,1.88e-33,"","",carboxypeptidase-like regulatory domain-containing protein [Salinirubellus salinus],250
+88,61622,65776,TRUE,KX906370.1,KX906370.1_88,ORF6.faa,1080.2,0,1227,YVTN repeat-like/Quinoprotein amine dehydrogenase,1.88e-33,"","",carboxypeptidase-like regulatory domain-containing protein [Salinirubellus salinus],250
+61,59154,63458,FALSE,LOAJ01000002.1,LOAJ01000002.1_61,ORF6.faa,1042.3,0,840,Quinoprotein alcohol dehydrogenase-like,5.49e-16,"","","",
+13,7016,10582,TRUE,LWLN01000003.1,LWLN01000003.1_13,ORF6.faa,855,7.5e-259,252,Concanavalin A-like lectins/glucanases,6.34e-17,"","",PQQ-binding-like beta-propeller repeat protein [Halorussus sp. XZYJT10],294
+9,5547,8963,TRUE,NC_013748.1,NC_013748.1_9,ORF6.faa,1100.2,0,1179,"",,"","","",
+102,64638,67985,FALSE,NC_015659.1,NC_015659.1_102,ORF6.faa,1203.2,0,1178,"",,"","","",
+18,21917,23119,TRUE,QKNW01000002.1,QKNW01000002.1_18,ORF6.faa,119.8,9.5e-37,154,CELL SURFACE PROTEIN,3e-57,"","","",
+41,41833,46122,FALSE,QKNW01000002.1,QKNW01000002.1_41,ORF6.faa,840.4,2.8e-254,1211,"",,"","","",
+28,28915,30003,TRUE,RJJW01000001.1,RJJW01000001.1_28,ORF6.faa,361.1,5.6e-109,350,"",,"","",carboxypeptidase-like regulatory domain-containing protein [Salinirubellus salinus],154
+127,69886,74619,TRUE,SJER01000008.1,SJER01000008.1_127,ORF6.faa,869.3,5.3e-263,219,Carboxypeptidase regulatory-like domain,2.9e-13,"","",carboxypeptidase-like regulatory domain-containing protein [Halostella litorea],2348
+79,50686,54333,FALSE,SRIF01000015.1,SRIF01000015.1_79,ORF6.faa,909.7,2.1e-275,1159,Quinoprotein alcohol dehydrogenase-like,5.26e-12,"","",PQQ-binding-like beta-propeller repeat protein [Haloarcula argentinensis],715
+36,27581,30700,FALSE,WSZK01000033.1,WSZK01000033.1_36,ORF6.faa,982.6,8.9e-298,1011,Quinoprotein alcohol dehydrogenase-like,4.97e-33,"","","",

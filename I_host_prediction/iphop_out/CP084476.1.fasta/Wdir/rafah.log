@@ -1,0 +1,19 @@
+Running host prediction mode
+Indexing sequences from iphop_out/CP084476.1.fasta/Wdir/split_input/
+Processing CP084476.1.fasta
+Processed 1 Genomic Sequences
+Running Prodigal
+Indexing sequences from iphop_out/CP084476.1.fasta/Wdir/rafah_out/Full_CDS_Prediction.faa
+Running hmmsearch. Query: iphop_out/CP084476.1.fasta/Wdir/rafah_out/Full_CDS_Prediction.faa DB: /bioinf/transfer/tal/iphop_db/db/rafah_data/HP_Ranger_Model_3_Filtered_0.9_Valids.hmm
+Obtained 43644 ids from /bioinf/transfer/tal/iphop_db/db/rafah_data/HP_Ranger_Model_3_Valid_Cols.txt
+Parsing iphop_out/CP084476.1.fasta/Wdir/rafah_out/Full_CDSxClusters_Prediction
+Detected 44 OGs across 1 genomic sequences
+Performing host prediction
+[1] "Loading Model from  /bioinf/transfer/tal/iphop_db/db/rafah_data/MMSeqs_Clusters_Ranger_Model_1+2+3_Clean.RData"
+[1] "Reading input file  iphop_out/CP084476.1.fasta/Wdir/rafah_out/Full_Genome_to_OG_Score_Min_Score_50-Max_evalue_1e-05_Prediction.tsv"
+             used    (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells    8268823   441.7   13377265   714.5   13377265   714.5
+Vcells 2144904147 16364.4 2754466244 21015.0 2191232811 16717.8
+[1] "Passing data to Random Forest using  1  threads"
+No such file or directory at /home/dlueckin/bin/miniconda3/envs/iphop_mamba/lib/python3.7/site-packages/iphop/utils/RaFAH_v0.3.pl line 313.
+Parsing output of host prediction iphop_out/CP084476.1.fasta/Wdir/rafah_out/Full_Host_Predictions.tsv

@@ -1,0 +1,5 @@
+Virus,Host genome,Host taxonomy,Main method,Confidence score,Additional methods
+CP019286.1,RS_GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,CRISPR,99.70,iPHoP-RF;92.40 blast;74.90
+CP019286.1,RS_GCF_900112205.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma haloterrestris,iPHoP-RF,92.80,blast;73.60
+CP019286.1,RS_GCF_004799645.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum bangense,blast,91.80,None
+CP019286.1,RS_GCF_000337895.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma_A;s__Halobiforma_A nitratireducens,iPHoP-RF,90.50,None

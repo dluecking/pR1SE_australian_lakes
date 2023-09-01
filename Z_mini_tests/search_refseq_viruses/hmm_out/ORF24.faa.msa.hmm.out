@@ -1,0 +1,46 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+YP_009483750.1       -          ORF24.faa            -              0.066   16.6   2.1     0.069   16.6   2.1   1.2   1   0   0   1   1   1   0 hypothetical protein pqer_cds_1059 [Pandoravirus quercus]
+YP_010002566.1       -          ORF24.faa            -               0.16   15.4   0.6      0.18   15.2   0.6   1.0   1   0   0   1   1   1   0 membrane protein [Gordonia phage Lilbeanie]
+YP_001426720.1       -          ORF24.faa            -               0.22   14.9   2.1      0.22   14.9   2.1   1.3   1   1   0   1   1   1   0 hypothetical protein ATCV1_Z239R [Acanthocystis turfacea chlorella virus 1]
+YP_009832650.1       -          ORF24.faa            -               0.34   14.3   1.7      0.38   14.2   1.7   1.2   1   0   0   1   1   1   0 hypothetical protein BIS47_143 [Klebsiella phage vB_KpnM_BIS47]
+YP_009596734.1       -          ORF24.faa            -               0.36   14.2   2.1      0.45   13.9   2.1   1.0   1   0   0   1   1   1   0 hypothetical protein FDH06_gp73 [Streptomyces phage Rima]
+YP_009842319.1       -          ORF24.faa            -               0.45   13.9   1.7      0.49   13.8   1.7   1.2   1   0   0   1   1   1   0 hypothetical protein HWB97_gp116 [Proteus phage Mydo]
+YP_009859203.1       -          ORF24.faa            -               0.48   13.8   1.7      0.52   13.7   1.7   1.2   1   0   0   1   1   1   0 hypothetical protein HWD29_gp185 [Klebsiella phage KpS8]
+YP_009612596.1       -          ORF24.faa            -               0.55   13.6   1.9      0.68   13.3   1.9   1.0   1   0   0   1   1   1   0 hypothetical protein FDI43_gp66 [Streptomyces phage DrGrey]
+YP_009150000.1       -          ORF24.faa            -                  1   12.7   0.0       1.1   12.7   0.0   1.1   1   0   0   1   1   1   0 hypothetical protein ACQ47_gp43 [Leuconostoc phage Ln-9]
+YP_010098254.1       -          ORF24.faa            -                1.1   12.6   0.1       1.1   12.6   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein KNU09_gp91 [Gordonia phage TillyBobJoe]
+YP_010107728.1       -          ORF24.faa            -                1.1   12.6   0.1       1.1   12.6   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein KNV01_gp92 [Gordonia phage Evamon]
+YP_010102055.1       -          ORF24.faa            -                1.1   12.6   0.1       1.1   12.6   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein KNU53_gp93 [Gordonia phage SmokingBunny]
+NP_046949.1          -          ORF24.faa            -                1.4   12.3   0.0       1.6   12.1   0.0   1.1   1   0   0   1   1   1   0 holin [Escherichia phage N15]
+YP_010051511.1       -          ORF24.faa            -                1.5   12.2   2.8       1.6   12.1   2.8   1.0   1   0   0   1   1   1   0 hypothetical protein KDW73_gp39 [Mycobacterium phage Avocado]
+YP_009214461.1       -          ORF24.faa            -                1.5   12.2   0.0       2.2   11.6   0.0   1.2   1   0   0   1   1   1   0 membrane protein [Staphylococcus phage phiIPLA-C1C]
+YP_009600931.1       -          ORF24.faa            -                1.5   12.2   0.0       2.2   11.6   0.0   1.2   1   0   0   1   1   1   0 hypothetical protein FDH45_gp006 [Staphylococcus phage phiIBB-SEP1]
+YP_009857490.1       -          ORF24.faa            -                1.7   12.0   0.0       1.8   11.9   0.0   1.0   1   0   0   1   1   1   0 hypothetical protein HWD17_gp058 [Proteus phage Privateer]
+YP_002854670.1       -          ORF24.faa            -                1.7   12.0   0.2       2.8   11.3   0.1   1.3   1   1   1   2   2   2   0 hypothetical protein EupsNPV_gp060 [Euproctis pseudoconspersa nucleopolyhedrovirus]
+YP_010656616.1       -          ORF24.faa            -                1.8   11.9   0.3       2.2   11.6   0.3   1.1   1   0   0   1   1   1   0 hypothetical protein PP650_gp143 [Synechococcus phage S-SZBM1]
+YP_009482133.1       -          ORF24.faa            -                2.2   11.6   0.2       3.4   11.0   0.2   1.2   1   0   0   1   1   1   0 hypothetical protein pneo_cds_523 [Pandoravirus neocaledonia]
+YP_009316080.1       -          ORF24.faa            -                2.4   11.5   0.6       3.2   11.1   0.6   1.1   1   0   0   1   1   1   0 p40 [Anticarsia gemmatalis multiple nucleopolyhedrovirus]
+YP_803491.1          -          ORF24.faa            -                2.4   11.5   0.6       3.2   11.1   0.6   1.1   1   0   0   1   1   1   0 p40 [Anticarsia gemmatalis nucleopolyhedrovirus]
+YP_008357373.1       -          ORF24.faa            -                2.8   11.3   1.2         3   11.2   1.2   1.1   1   0   0   1   1   1   0 hypothetical protein IIV22_075R [Invertebrate iridovirus 22]
+YP_009187768.1       -          ORF24.faa            -                2.9   11.2   0.6         3   11.2   0.6   1.1   1   0   0   1   1   1   0 hypothetical protein KB57_155 [Klebsiella phage vB_KpnM_KB57]
+YP_009481100.1       -          ORF24.faa            -                3.5   10.9   0.3       5.6   10.3   0.3   1.3   1   0   0   1   1   1   0 hypothetical protein pmac_cds_416 [Pandoravirus macleodensis]
+NP_851904.1          -          ORF24.faa            -                  4   10.8   2.0       5.5   10.3   2.0   1.1   1   0   0   1   1   1   0 envelope glycoprotein C [Macacine alphaherpesvirus 1]
+YP_009010840.1       -          ORF24.faa            -                4.1   10.7   1.4       4.3   10.7   1.4   1.1   1   0   0   1   1   1   0 hypothetical protein IIV22A_079R [Invertebrate iridescent virus 22]
+YP_009885995.1       -          ORF24.faa            -                4.1   10.7   2.2       4.1   10.7   2.2   1.1   1   0   0   1   1   1   0 membrane protein [Arthrobacter phage DrYang]
+YP_009664253.1       -          ORF24.faa            -                7.7    9.8   4.6       9.3    9.6   4.6   1.1   1   0   0   1   1   1   0 hypothetical protein FK780_gp051 [Bacillus phage PBS1]
+YP_009481340.1       -          ORF24.faa            -                7.8    9.8  10.3        14    9.0  10.3   1.3   1   0   0   1   1   1   0 hypothetical protein pmac_cds_656 [Pandoravirus macleodensis]
+YP_009177261.1       -          ORF24.faa            -                8.9    9.6   0.6       9.4    9.5   0.6   1.0   1   0   0   1   1   1   0 hypothetical protein CPT_Michonne_gp014 [Citrobacter phage Michonne]
+YP_009606654.1       -          ORF24.faa            -                8.9    9.6   0.6       9.4    9.5   0.6   1.0   1   0   0   1   1   1   0 hypothetical protein FDI02_gp068 [Citrobacter phage Mordin]
+YP_009255096.1       -          ORF24.faa            -                9.7    9.5   0.2        12    9.2   0.2   1.1   1   0   0   1   1   1   0 conserved putative secreted protein [Tokyovirus A1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm
+# Target file:     viral.1.protein.faa.gz
+# Option settings: hmmsearch --tblout hmm_out/ORF24.faa.msa.hmm.out --domtblout hmm_out/ORF24.faa.msa.hmm.dom.out --cpu 40 ../../A_generate_protein_clusters/FINAL_profiles/ORF24.faa.msa.hmm viral.1.protein.faa.gz 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/search_refseq_viruses
+# Date:            Mon Jul  3 12:37:22 2023
+# [ok]

@@ -1,0 +1,1 @@
+/home/dlueckin/bin/miniconda3/envs/iphop_mamba/lib/python3.7/site-packages/iphop/utils/WIsH -c predict -g iphop_out/CP019286.1.fasta/Wdir/split_input/ -m /bioinf/transfer/tal/iphop_db/db/wish_models -n /bioinf/transfer/tal/iphop_db/db_infos/Wish_negFits.csv -r iphop_out/CP019286.1.fasta/Wdir/wish_results/ -t 1 -b > iphop_out/CP019286.1.fasta/Wdir/wish.log 2>&1

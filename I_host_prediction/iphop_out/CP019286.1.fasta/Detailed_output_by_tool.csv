@@ -1,0 +1,112 @@
+### Top 5 hits for each virus with each method used
+### Score 1 / Score 2 columns correpond respectively to:
+### For blast hits => Total number of matches in hsps / Average percentage of identity across the full alignment
+### For crispr hits => Number of mismatches / Length of CRISPR spacer
+### For WIsH => Log-likelihood / P-value
+### For VirHostMatcher => s2 similarity/ NA
+### For PHP => PHP score/ NA
+### For RaFAH => Confidence score / estimated FDR
+### For iPHoP-RF => Confidence score / estimated FDR
+Virus,Method,Host,Host taxonomy,Metric 1,Score 1,Metric 2,Score 2,Rank,Host representative
+CP019286.1,blast,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,Match_length,21421.000,Id_pcent,97.78,1,RS_GCF_000226975.2
+CP019286.1,blast,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,Match_length,21421.000,Id_pcent,97.78,1,RS_GCF_000226975.2
+CP019286.1,blast,GCF_000383975.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum tibetense,Match_length,13796.000,Id_pcent,94.58,2,RS_GCF_000383975.1
+CP019286.1,blast,GCF_004799645.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum bangense,Match_length,41708.000,Id_pcent,94.49,3,RS_GCF_004799645.1
+CP019286.1,blast,GCF_004799645.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum bangense,Match_length,41708.000,Id_pcent,94.49,3,RS_GCF_004799645.1
+CP019286.1,blast,GCF_004799645.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum bangense,Match_length,41708.000,Id_pcent,94.49,3,RS_GCF_004799645.1
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,38.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,38.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,38.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,37.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,36.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,35.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,34.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,33.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,33.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,33.0,1,RS_GCF_000226975.2
+CP019286.1,crispr,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,N_mismatches,0.000,Spacer_length,32.0,1,RS_GCF_000226975.2
+CP019286.1,iPHoP-RF,RS_GCF_900112205.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma haloterrestris,Confidence_score,0.974,FDR,0.072,1,RS_GCF_900112205.1
+CP019286.1,iPHoP-RF,RS_GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,Confidence_score,0.972,FDR,0.076,2,RS_GCF_000226975.2
+CP019286.1,iPHoP-RF,RS_GCF_000337895.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma_A;s__Halobiforma_A nitratireducens,Confidence_score,0.960,FDR,0.095,3,RS_GCF_000337895.1
+CP019286.1,iPHoP-RF,RS_GCF_003610195.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halopiger;s__Halopiger aswanensis,Confidence_score,0.824,FDR,0.276,4,RS_GCF_003610195.1
+CP019286.1,iPHoP-RF,RS_GCF_000217715.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halopiger;s__Halopiger xanaduensis,Confidence_score,0.822,FDR,0.278,5,RS_GCF_000217715.1
+CP019286.1,php,GCF_000337135.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba chahannaoensis,Score,1463.514,NA,NA,1,RS_GCF_000337135.1
+CP019286.1,php,GCF_013402815.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema sp013402815,Score,1462.521,NA,NA,2,RS_GCF_013402815.1
+CP019286.1,php,GCF_000337595.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba taiwanensis,Score,1462.467,NA,NA,3,RS_GCF_000337595.1
+CP019286.1,php,GCF_004217335.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema hispanicum,Score,1462.350,NA,NA,4,RS_GCF_004217335.1
+CP019286.1,php,GCF_001861355.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba sp001861355,Score,1462.211,NA,NA,5,RS_GCF_001861355.1
+CP019286.1,vhm,GCF_005938085.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema sp005938085,S2star_similarity,0.779,NA,NA,1,RS_GCF_005938085.1
+CP019286.1,vhm,GCF_004217335.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema hispanicum,S2star_similarity,0.777,NA,NA,2,RS_GCF_004217335.1
+CP019286.1,vhm,GCF_900111485.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema hispanicum_A,S2star_similarity,0.776,NA,NA,3,RS_GCF_900111485.1
+CP019286.1,vhm,GCF_900156475.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum thiooxidans,S2star_similarity,0.770,NA,NA,4,RS_GCF_900156475.1
+CP019286.1,vhm,GCF_000337135.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba chahannaoensis,S2star_similarity,0.768,NA,NA,5,RS_GCF_000337135.1
+CP019286.1,wish,GCF_000226975.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Halobiforma;s__Halobiforma lacisalsi,Log-likelihood,-1.302,p-value,0.00204184,1,RS_GCF_000226975.2
+CP019286.1,wish,GCF_013402815.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema sp013402815,Log-likelihood,-1.350,p-value,0.0388954,2,RS_GCF_013402815.1
+CP019286.1,wish,GCF_004799645.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum bangense,Log-likelihood,-1.351,p-value,0.040676,3,RS_GCF_004799645.1
+CP019286.1,wish,GCF_900156475.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum thiooxidans,Log-likelihood,-1.352,p-value,0.0399787,4,RS_GCF_900156475.1
+CP019286.1,wish,GCF_000337135.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba chahannaoensis,Log-likelihood,-1.353,p-value,0.0542285,5,RS_GCF_000337135.1

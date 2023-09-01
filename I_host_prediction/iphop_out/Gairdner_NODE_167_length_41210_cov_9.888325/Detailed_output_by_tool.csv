@@ -1,0 +1,26 @@
+### Top 5 hits for each virus with each method used
+### Score 1 / Score 2 columns correpond respectively to:
+### For blast hits => Total number of matches in hsps / Average percentage of identity across the full alignment
+### For crispr hits => Number of mismatches / Length of CRISPR spacer
+### For WIsH => Log-likelihood / P-value
+### For VirHostMatcher => s2 similarity/ NA
+### For PHP => PHP score/ NA
+### For RaFAH => Confidence score / estimated FDR
+### For iPHoP-RF => Confidence score / estimated FDR
+Virus,Method,Host,Host taxonomy,Metric 1,Score 1,Metric 2,Score 2,Rank,Host representative
+Gairdner_NODE_167_length_41210_cov_9.888325,iPHoP-RF,RS_GCF_000011085.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula marismortui,Confidence_score,0.998,FDR,0.033,2,RS_GCF_000011085.1
+Gairdner_NODE_167_length_41210_cov_9.888325,iPHoP-RF,RS_GCF_001485575.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula sp001485575,Confidence_score,0.998,FDR,0.033,2,RS_GCF_001485575.1
+Gairdner_NODE_167_length_41210_cov_9.888325,iPHoP-RF,RS_GCF_012726115.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula sebkhae,Confidence_score,0.998,FDR,0.033,2,RS_GCF_012726115.1
+Gairdner_NODE_167_length_41210_cov_9.888325,iPHoP-RF,RS_GCF_000336635.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula japonica,Confidence_score,0.996,FDR,0.036,3,RS_GCF_000336635.1
+Gairdner_NODE_167_length_41210_cov_9.888325,php,GCF_012726115.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula sebkhae,Score,1450.813,NA,NA,3,RS_GCF_012726115.1
+Gairdner_NODE_167_length_41210_cov_9.888325,php,GCF_000336635.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula japonica,Score,1450.603,NA,NA,4,RS_GCF_000336635.1
+Gairdner_NODE_167_length_41210_cov_9.888325,php,GCF_000336895.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula argentinensis,Score,1450.297,NA,NA,5,RS_GCF_000336895.1
+Gairdner_NODE_167_length_41210_cov_9.888325,rafah,Bacillus,d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae_G;g__Bacillus_A,Confidence_score,0.084,FDR,0.927,2,NA
+Gairdner_NODE_167_length_41210_cov_9.888325,rafah,Pseudomonas,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas,Confidence_score,0.053,FDR,0.958,3,NA
+Gairdner_NODE_167_length_41210_cov_9.888325,rafah,Pseudomonas,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas_E,Confidence_score,0.053,FDR,0.958,3,NA
+Gairdner_NODE_167_length_41210_cov_9.888325,vhm,GCF_009741925.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Natronomonas;s__Natronomonas sp009741925,S2star_similarity,0.687,NA,NA,3,RS_GCF_009741925.1
+Gairdner_NODE_167_length_41210_cov_9.888325,vhm,GCF_013391635.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Natronomonas;s__Natronomonas gomsonensis,S2star_similarity,0.686,NA,NA,4,RS_GCF_013391635.1
+Gairdner_NODE_167_length_41210_cov_9.888325,vhm,GCF_008729015.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula sp008729015,S2star_similarity,0.680,NA,NA,5,RS_GCF_008729015.1
+Gairdner_NODE_167_length_41210_cov_9.888325,wish,GCF_001485575.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula sp001485575,Log-likelihood,-1.338,p-value,0.0265713,3,RS_GCF_001485575.1
+Gairdner_NODE_167_length_41210_cov_9.888325,wish,GCF_000336615.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula amylolytica,Log-likelihood,-1.338,p-value,0.0273134,4,RS_GCF_000336615.1
+Gairdner_NODE_167_length_41210_cov_9.888325,wish,GCF_012726115.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Haloarcula;s__Haloarcula sebkhae,Log-likelihood,-1.339,p-value,0.0271421,5,RS_GCF_012726115.1

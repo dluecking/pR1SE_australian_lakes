@@ -1,0 +1,1 @@
+diamond blastp --query iphop_out/AOJE01000051.1.fasta/Wdir/rafah_out/Full_CDS_Prediction.faa --db /bioinf/transfer/tal/iphop_db/db/rafah_data/RaFAH_ref_cds.dmnd --out iphop_out/AOJE01000051.1.fasta/Wdir/input_vs_ref.dmd.tsv --outfmt 6 --evalue 1e-5 --max-target-seqs 10000 --threads 1 > iphop_out/AOJE01000051.1.fasta/Wdir/input_vs_ref.dmd.tsv.log 2>&1

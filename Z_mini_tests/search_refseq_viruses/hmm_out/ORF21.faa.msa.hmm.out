@@ -1,0 +1,48 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+YP_008857475.1       -          ORF21.faa            -               0.25   16.0   5.0      0.36   15.5   3.4   1.8   1   1   0   2   2   2   0 hypothetical protein X824_gp090 [Escherichia phage 4MG]
+YP_009187426.1       -          ORF21.faa            -               0.53   15.0   0.0      0.57   14.9   0.0   1.2   1   0   0   1   1   1   0 hypothetical protein AU162_gp029 [Pseudomonas phage YMC11/02/R656]
+YP_010764026.1       -          ORF21.faa            -               0.54   15.0   0.1      0.69   14.6   0.1   1.2   1   0   0   1   1   1   0 hypothetical protein QE333_gp134 [Pseudomonas phage vB_PaeM_B31]
+YP_010773062.1       -          ORF21.faa            -               0.74   14.5   0.1       1.3   13.7   0.1   1.4   1   0   0   1   1   1   0 replication protein (endogenous virus) [Pseudomonas phage phiAH14a]
+YP_009849979.1       -          ORF21.faa            -                1.2   13.8   0.0       1.4   13.6   0.0   1.0   1   0   0   1   1   1   0 hypothetical protein HWC53_gp034 [Bacillus phage vB_BmeM-Goe8]
+NP_663230.1          -          ORF21.faa            -                1.5   13.5   0.1         8   11.1   0.0   1.9   2   0   0   2   2   2   0 P38.7 [Phthorimaea operculella granulovirus]
+YP_010660437.1       -          ORF21.faa            -                1.6   13.4   0.1       5.6   11.6   0.0   2.0   2   1   0   2   2   2   0 hypothetical protein PP914_gp071 [Arthrobacter phage Qui]
+YP_009012260.1       -          ORF21.faa            -                1.6   13.4   0.0       1.6   13.4   0.0   1.1   1   0   0   1   1   1   0 minor tail protein [Mycobacterium phage BigNuz]
+YP_009163793.1       -          ORF21.faa            -                1.7   13.4   0.1       2.6   12.7   0.1   1.3   1   0   0   1   1   1   0 ORF_032L [Scale drop disease virus]
+YP_009230000.1       -          ORF21.faa            -                1.8   13.3   0.1       1.8   13.2   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein AYR72_gp081 [Cnaphalocrocis medinalis granulovirus]
+YP_010300679.1       -          ORF21.faa            -                1.8   13.3   0.0       3.1   12.5   0.0   1.3   1   0   0   1   1   1   0 hypothetical protein MPK66_gp238 [Erwinia phage pEa_SNUABM_2]
+YP_010089111.1       -          ORF21.faa            -                  2   13.1   0.3       4.1   12.1   0.3   1.5   1   0   0   1   1   1   0 hypothetical protein KNT56_gp148 [Escherichia phage phT4A]
+YP_010772980.1       -          ORF21.faa            -                2.7   12.7   0.1       4.6   11.9   0.1   1.3   1   0   0   1   1   1   0 primosomal protein I [Pseudomonas phage Medea1]
+YP_007678028.1       -          ORF21.faa            -                3.3   12.4   0.1       4.2   12.0   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein K203_gp02 [Bacillus phage PM1]
+YP_009607393.1       -          ORF21.faa            -                3.3   12.4   0.2       6.5   11.4   0.2   1.4   1   0   0   1   1   1   0 hypothetical protein FDI06_gp160 [Klebsiella phage Miro]
+YP_009601039.1       -          ORF21.faa            -                3.4   12.3   0.9       5.2   11.7   0.1   1.5   2   0   0   2   2   2   0 hypothetical protein FDH45_gp114 [Staphylococcus phage phiIBB-SEP1]
+YP_010078652.1       -          ORF21.faa            -                3.4   12.3   0.6   3.5e+02    5.8   0.1   2.2   2   0   0   2   2   2   0 RecT-like ssDNA annealing protein [Ralstonia phage Claudette]
+YP_010669642.1       -          ORF21.faa            -                3.6   12.2   3.1   1.3e+02    7.2   0.4   2.4   2   0   0   2   2   2   0 head scaffolding protein [Synechococcus phage S-H9-1]
+YP_009194444.1       -          ORF21.faa            -                3.9   12.1   0.3       7.7   11.2   0.3   1.5   1   0   0   1   1   1   0 hypothetical protein CPT_Matisse200 [Klebsiella phage Matisse]
+YP_010748490.1       -          ORF21.faa            -                4.3   12.0   0.0       4.6   11.9   0.0   1.1   1   0   0   1   1   1   0 hypothetical protein QA063_gp47 [Salmonella phage vB_SenS_ER1]
+NP_570447.1          -          ORF21.faa            -                4.5   11.9   0.0       7.8   11.2   0.0   1.3   1   0   0   1   1   1   0 Hypothetical protein CamMLVgp057 [Camelpox virus]
+YP_009303769.1       -          ORF21.faa            -                4.6   11.9   0.0       4.6   11.9   0.0   1.1   1   0   0   1   1   1   0 minor tail protein [Mycobacterium phage Shipwreck]
+YP_009607115.1       -          ORF21.faa            -                4.6   11.9   0.2         9   11.0   0.2   1.4   1   0   0   1   1   1   0 hypothetical protein FDI05_gp198 [Enterobacter phage phiEap-3]
+YP_010246329.1       -          ORF21.faa            -                4.6   11.9   0.3       9.2   10.9   0.3   1.5   1   0   0   1   1   1   0 hypothetical protein L3Y22_gp084 [Gordonia phage Octobien14]
+YP_009320562.1       -          ORF21.faa            -                4.7   11.9   1.9   2.7e+02    6.2   0.1   2.3   2   0   0   2   2   2   0 head scaffolding protein [Synechococcus phage S-CAM4]
+YP_010355505.1       -          ORF21.faa            -                4.7   11.9   1.9   2.7e+02    6.2   0.1   2.3   2   0   0   2   2   2   0 head scaffolding protein [Synechococcus phage ACG-2014j]
+YP_009134614.1       -          ORF21.faa            -                4.9   11.8   1.9   2.8e+02    6.1   0.1   2.3   2   0   0   2   2   2   0 head scaffolding protein [Synechococcus phage ACG-2014e]
+YP_009140897.1       -          ORF21.faa            -                4.9   11.8   1.9   2.8e+02    6.1   0.1   2.3   2   0   0   2   2   2   0 head scaffolding protein [Synechococcus phage ACG-2014i]
+YP_010355727.1       -          ORF21.faa            -                4.9   11.8   1.9   2.8e+02    6.1   0.1   2.3   2   0   0   2   2   2   0 head scaffolding protein [Synechococcus phage ACG-2014e]
+YP_003580034.1       -          ORF21.faa            -                5.8   11.6   0.2        11   10.6   0.2   1.4   1   0   0   1   1   1   0 hypothetical protein KP15_158 [Klebsiella phage KP15]
+YP_007348832.1       -          ORF21.faa            -                5.8   11.6   0.2        11   10.6   0.2   1.4   1   0   0   1   1   1   0 hypothetical protein KP27_211 [Klebsiella phage KP27]
+YP_009626432.1       -          ORF21.faa            -                5.8   11.6   0.2        11   10.6   0.2   1.4   1   0   0   1   1   1   0 Phage protein [Klebsiella phage PMBT1]
+NP_046553.1          -          ORF21.faa            -                  7   11.3   3.8       3.7   12.2   0.3   2.3   2   1   0   2   2   2   0 integrase [Bacillus phage SPBc2]
+YP_010300338.1       -          ORF21.faa            -                7.1   11.3   0.0        12   10.5   0.0   1.3   1   0   0   1   1   1   0 hypothetical protein MPK65_gp233 [Erwinia phage pEa_SNUABM_35]
+YP_009134104.1       -          ORF21.faa            -                7.6   11.2   1.9   4.3e+02    5.5   0.1   2.3   2   0   0   2   2   2   0 head scaffolding protein [Synechococcus phage ACG-2014j]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF21.faa.msa.hmm
+# Target file:     viral.1.protein.faa.gz
+# Option settings: hmmsearch --tblout hmm_out/ORF21.faa.msa.hmm.out --domtblout hmm_out/ORF21.faa.msa.hmm.dom.out --cpu 40 ../../A_generate_protein_clusters/FINAL_profiles/ORF21.faa.msa.hmm viral.1.protein.faa.gz 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/search_refseq_viruses
+# Date:            Mon Jul  3 12:37:17 2023
+# [ok]

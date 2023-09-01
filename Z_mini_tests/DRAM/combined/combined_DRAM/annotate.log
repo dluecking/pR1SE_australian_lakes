@@ -1,0 +1,518 @@
+2023-08-23 14:20:47,844 - The log file is created at combined_DRAM/annotate.log.
+2023-08-23 14:20:47,844 - 41 FASTAs found
+2023-08-23 14:20:47,864 - Starting the Annotation of Bins with database configuration: 
+ 
+
+KOfam db:
+    Citation: T. Aramaki, R. Blanc-Mathieu, H. Endo, K. Ohkubo, M. Kanehisa, S. Goto, and H. Ogata, "Kofamkoala: Kegg ortholog assignment based on profile hmm and adaptive score threshold," Bioinformatics, vol. 36, no. 7, pp. 2251–2252, 2020.
+    Download Time: 01/03/2023, 11:27:38
+    Origin: Downloaded by DRAM
+KOfam KO list:
+    Citation: T. Aramaki, R. Blanc-Mathieu, H. Endo, K. Ohkubo, M. Kanehisa, S. Goto, and H. Ogata, "Kofamkoala: Kegg ortholog assignment based on profile hmm and adaptive score threshold," Bioinformatics, vol. 36, no. 7, pp. 2251–2252, 2020.
+    Download Time: 01/03/2023, 11:27:40
+    Origin: Downloaded by DRAM
+Pfam db:
+    Citation: J. Mistry, S. Chuguransky, L. Williams, M. Qureshi, G. A. Salazar, E. L. Sonnhammer, S. C. Tosatto, L. Paladin, S. Raj, L. J. Richardson et al., "Pfam: The protein families database in 2021," Nucleic acids research, vol. 49, no. D1, pp. D412–D419, 2021.
+    Download Time: 01/03/2023, 11:31:08
+    Origin: Downloaded by DRAM
+    Description_Db_Updated: 01/03/2023, 12:22:19
+dbCAN db:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Download Time: 01/03/2023, 11:31:16
+    Origin: Downloaded by DRAM
+    Description_Db_Updated: 01/03/2023, 12:22:20
+MEROPS peptidase db:
+    Description_Db_Updated: 01/03/2023, 12:22:19
+    Citation: N. D. Rawlings, A. J. Barrett, P. D. Thomas, X. Huang, A. Bateman, and R. D. Finn, "The merops database of proteolytic enzymes, their substrates and inhibitors in 2017 and a comparison with peptidases in the panther database," Nucleic acids research, vol. 46, no. D1, pp. D624–D632, 2018.
+    Download Time: 01/03/2023, 11:31:41
+    Origin: Downloaded by DRAM
+
+Pfam hmm dat:
+    Description_Db_Updated: Unknown, or Never
+    Citation: J. Mistry, S. Chuguransky, L. Williams, M. Qureshi, G. A. Salazar, E. L. Sonnhammer, S. C. Tosatto, L. Paladin, S. Raj, L. J. Richardson et al., "Pfam: The protein families database in 2021," Nucleic acids research, vol. 49, no. D1, pp. D412–D419, 2021.
+    Download Time: 01/03/2023, 11:31:09
+    Origin: Downloaded by DRAM
+dbCAN family activities:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Upload_Date: 08062022
+    Download Time: 01/03/2023, 11:31:17
+    Origin: Downloaded by DRAM
+dbCAN subfamily EC numbers:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Upload_Date: 08062022
+    Download Time: 01/03/2023, 11:31:18
+    Origin: Downloaded by DRAM
+VOG annotations:
+    Description_Db_Updated: Unknown, or Never
+    Citation: J. Thannesberger, H.-J. Hellinger, I. Klymiuk, M.-T. Kastner, F. J. Rieder, M. Schneider, S. Fister, T. Lion, K. Kosulin, J. Laengle et al., "Viruses comprise an extensive pool of mobile genetic elements in eukaryote cell cultures and human clinical samples," The FASEB Journal, vol. 31, no. 5, pp. 1987–2000, 2017.
+    Version: latest
+    Download Time: 01/03/2023, 11:31:26
+    Origin: Downloaded by DRAM
+
+Genome summary form:
+    Branch: master
+    Download Time: 01/03/2023, 11:31:42
+    Origin: Downloaded by DRAM
+Module step form:
+    Branch: master
+    Download Time: 01/03/2023, 11:31:42
+    Origin: Downloaded by DRAM
+ETC module database:
+    Branch: master
+    Download Time: 01/03/2023, 11:31:43
+    Origin: Downloaded by DRAM
+Function heatmap form:
+    Branch: master
+    Download Time: 01/03/2023, 11:31:43
+    Origin: Downloaded by DRAM
+AMG database:
+    Branch: master
+    Download Time: 01/03/2023, 11:31:43
+    Origin: Downloaded by DRAM
+2023-08-23 14:20:47,867 - Retrieved database locations and descriptions
+2023-08-23 14:20:47,867 - Annotating CP031299.1
+2023-08-23 14:20:49,115 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:20:59,805 - Getting hits from kofam
+2023-08-23 14:23:43,505 - Getting forward best hits from peptidase
+2023-08-23 14:24:17,021 - Getting reverse best hits from peptidase
+2023-08-23 14:24:26,211 - Getting descriptions of hits from peptidase
+2023-08-23 14:24:26,303 - Getting hits from pfam
+2023-08-23 14:25:50,513 - Getting hits from dbCAN
+2023-08-23 14:25:53,417 - Merging ORF annotations
+2023-08-23 14:25:57,677 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 14:26:01,306 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:26:01,969 - Annotating SRIF01000015.1
+2023-08-23 14:26:03,099 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:26:13,861 - Getting hits from kofam
+2023-08-23 14:28:42,635 - Getting forward best hits from peptidase
+2023-08-23 14:28:44,838 - Getting reverse best hits from peptidase
+2023-08-23 14:28:53,943 - Getting descriptions of hits from peptidase
+2023-08-23 14:28:53,993 - Getting hits from pfam
+2023-08-23 14:29:04,014 - Getting hits from dbCAN
+2023-08-23 14:29:06,706 - Merging ORF annotations
+2023-08-23 14:29:10,997 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 14:29:15,047 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:29:15,738 - Annotating AOIR01000042.1
+2023-08-23 14:29:17,098 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:29:27,944 - Getting hits from kofam
+2023-08-23 14:32:56,700 - Getting forward best hits from peptidase
+2023-08-23 14:32:58,943 - Getting reverse best hits from peptidase
+2023-08-23 14:33:08,294 - Getting descriptions of hits from peptidase
+2023-08-23 14:33:08,339 - Getting hits from pfam
+2023-08-23 14:33:17,306 - Getting hits from dbCAN
+2023-08-23 14:33:20,211 - Merging ORF annotations
+2023-08-23 14:33:28,739 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:33:29,404 - Annotating KX687704.1
+2023-08-23 14:33:30,299 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:33:40,989 - Getting hits from kofam
+2023-08-23 14:35:57,636 - Getting forward best hits from peptidase
+2023-08-23 14:35:59,721 - Getting reverse best hits from peptidase
+2023-08-23 14:36:08,815 - Getting descriptions of hits from peptidase
+2023-08-23 14:36:08,840 - Getting hits from pfam
+2023-08-23 14:36:16,996 - Getting hits from dbCAN
+2023-08-23 14:36:19,557 - Merging ORF annotations
+2023-08-23 14:36:23,524 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 14:36:27,400 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:36:28,071 - Annotating Gairdner_NODE_107_length_49922_cov_74.384603
+2023-08-23 14:36:28,981 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:36:39,554 - Getting hits from kofam
+2023-08-23 14:38:44,820 - Getting forward best hits from peptidase
+2023-08-23 14:38:46,659 - Getting reverse best hits from peptidase
+2023-08-23 14:38:55,734 - Getting descriptions of hits from peptidase
+2023-08-23 14:38:55,741 - Getting hits from pfam
+2023-08-23 14:39:03,926 - Getting hits from dbCAN
+2023-08-23 14:39:06,195 - Merging ORF annotations
+2023-08-23 14:39:10,523 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 14:39:14,622 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:39:15,217 - Annotating LOAJ01000002.1
+2023-08-23 14:39:18,524 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:39:29,085 - Getting hits from kofam
+2023-08-23 14:44:05,891 - Getting forward best hits from peptidase
+2023-08-23 14:44:08,185 - Getting reverse best hits from peptidase
+2023-08-23 14:44:17,997 - Getting descriptions of hits from peptidase
+2023-08-23 14:44:18,008 - Getting hits from pfam
+2023-08-23 14:44:27,170 - Getting hits from dbCAN
+2023-08-23 14:44:30,770 - Merging ORF annotations
+2023-08-23 14:44:35,038 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 14:44:38,650 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:44:39,350 - Annotating KX906370.1
+2023-08-23 14:44:42,610 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:44:53,402 - Getting hits from kofam
+2023-08-23 14:48:59,142 - Getting forward best hits from peptidase
+2023-08-23 14:49:01,517 - Getting reverse best hits from peptidase
+2023-08-23 14:49:10,643 - Getting descriptions of hits from peptidase
+2023-08-23 14:49:10,648 - Getting hits from pfam
+2023-08-23 14:49:19,118 - Getting hits from dbCAN
+2023-08-23 14:49:22,739 - Merging ORF annotations
+2023-08-23 14:49:29,472 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 14:49:33,582 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:49:34,266 - Annotating CP100004.1
+2023-08-23 14:49:36,410 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:49:46,988 - Getting hits from kofam
+2023-08-23 14:53:11,500 - Getting forward best hits from peptidase
+2023-08-23 14:53:13,717 - Getting reverse best hits from peptidase
+2023-08-23 14:53:22,851 - Getting descriptions of hits from peptidase
+2023-08-23 14:53:22,856 - Getting hits from pfam
+2023-08-23 14:53:31,308 - Getting hits from dbCAN
+2023-08-23 14:53:34,359 - Merging ORF annotations
+2023-08-23 14:53:47,822 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:53:48,414 - Annotating FNFE01000011.1
+2023-08-23 14:53:49,524 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:54:00,024 - Getting hits from kofam
+2023-08-23 14:56:20,375 - Getting forward best hits from peptidase
+2023-08-23 14:56:22,448 - Getting reverse best hits from peptidase
+2023-08-23 14:56:31,384 - Getting descriptions of hits from peptidase
+2023-08-23 14:56:31,414 - Getting hits from pfam
+2023-08-23 14:56:39,629 - Getting hits from dbCAN
+2023-08-23 14:56:42,074 - Merging ORF annotations
+2023-08-23 14:56:46,328 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 14:56:50,009 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:56:50,647 - Annotating Eyresouth_NODE_101_length_48437_cov_7.17035
+2023-08-23 14:56:51,491 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 14:57:02,468 - Getting hits from kofam
+2023-08-23 14:59:20,818 - Getting forward best hits from peptidase
+2023-08-23 14:59:22,796 - Getting reverse best hits from peptidase
+2023-08-23 14:59:31,907 - Getting descriptions of hits from peptidase
+2023-08-23 14:59:31,911 - Getting hits from pfam
+2023-08-23 14:59:40,012 - Getting hits from dbCAN
+2023-08-23 14:59:42,234 - Merging ORF annotations
+2023-08-23 14:59:46,033 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 14:59:49,168 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 14:59:49,730 - Annotating QKNW01000002.1
+2023-08-23 14:59:53,152 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:00:04,934 - Getting hits from kofam
+2023-08-23 15:04:40,215 - Getting forward best hits from peptidase
+2023-08-23 15:04:42,403 - Getting reverse best hits from peptidase
+2023-08-23 15:04:51,662 - Getting descriptions of hits from peptidase
+2023-08-23 15:04:51,713 - Getting hits from pfam
+2023-08-23 15:05:00,713 - Getting hits from dbCAN
+2023-08-23 15:05:04,444 - Merging ORF annotations
+2023-08-23 15:05:15,138 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:05:20,060 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:05:20,697 - Annotating AOIP01000022.1
+2023-08-23 15:05:21,862 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:05:32,471 - Getting hits from kofam
+2023-08-23 15:07:55,623 - Getting forward best hits from peptidase
+2023-08-23 15:07:57,629 - Getting reverse best hits from peptidase
+2023-08-23 15:08:07,063 - Getting descriptions of hits from peptidase
+2023-08-23 15:08:07,067 - Getting hits from pfam
+2023-08-23 15:08:15,297 - Getting hits from dbCAN
+2023-08-23 15:08:17,619 - Merging ORF annotations
+2023-08-23 15:08:21,613 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:08:25,115 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:08:25,692 - Annotating RJJW01000001.1
+2023-08-23 15:08:31,725 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:08:42,786 - Getting hits from kofam
+2023-08-23 15:20:02,612 - Getting forward best hits from peptidase
+2023-08-23 15:20:05,646 - Getting reverse best hits from peptidase
+2023-08-23 15:20:15,601 - Getting descriptions of hits from peptidase
+2023-08-23 15:20:16,438 - Getting hits from pfam
+2023-08-23 15:20:26,931 - Getting hits from dbCAN
+2023-08-23 15:20:35,584 - Merging ORF annotations
+2023-08-23 15:20:45,502 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:20:46,344 - Annotating WSZK01000033.1
+2023-08-23 15:20:47,040 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:20:57,114 - Getting hits from kofam
+2023-08-23 15:23:04,332 - Getting forward best hits from peptidase
+2023-08-23 15:23:06,134 - Getting reverse best hits from peptidase
+2023-08-23 15:23:15,159 - Getting descriptions of hits from peptidase
+2023-08-23 15:23:15,164 - Getting hits from pfam
+2023-08-23 15:23:23,374 - Getting hits from dbCAN
+2023-08-23 15:23:25,662 - Merging ORF annotations
+2023-08-23 15:23:29,766 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:23:33,074 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:23:33,647 - Annotating Gairdner_NODE_167_length_41210_cov_9.888325
+2023-08-23 15:23:34,451 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:23:45,124 - Getting hits from kofam
+2023-08-23 15:25:53,164 - Getting forward best hits from peptidase
+2023-08-23 15:25:55,210 - Getting reverse best hits from peptidase
+2023-08-23 15:26:04,454 - Getting descriptions of hits from peptidase
+2023-08-23 15:26:04,459 - Getting hits from pfam
+2023-08-23 15:26:12,668 - Getting hits from dbCAN
+2023-08-23 15:26:15,042 - Merging ORF annotations
+2023-08-23 15:26:19,604 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:26:24,814 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:26:25,387 - Annotating BBJN01000020.1
+2023-08-23 15:26:26,736 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:26:37,664 - Getting hits from kofam
+2023-08-23 15:30:00,446 - Getting forward best hits from peptidase
+2023-08-23 15:30:02,571 - Getting reverse best hits from peptidase
+2023-08-23 15:30:12,169 - Getting descriptions of hits from peptidase
+2023-08-23 15:30:12,195 - Getting hits from pfam
+2023-08-23 15:30:20,709 - Getting hits from dbCAN
+2023-08-23 15:30:23,893 - Merging ORF annotations
+2023-08-23 15:30:30,297 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:30:30,908 - Annotating AOLZ01000012.1
+2023-08-23 15:30:33,042 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:30:43,527 - Getting hits from kofam
+2023-08-23 15:36:26,205 - Getting forward best hits from peptidase
+2023-08-23 15:36:28,661 - Getting reverse best hits from peptidase
+2023-08-23 15:36:37,737 - Getting descriptions of hits from peptidase
+2023-08-23 15:36:37,768 - Getting hits from pfam
+2023-08-23 15:36:46,138 - Getting hits from dbCAN
+2023-08-23 15:36:49,968 - Merging ORF annotations
+2023-08-23 15:36:54,220 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:36:57,030 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:36:57,670 - Annotating CP019329.1
+2023-08-23 15:37:01,305 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:37:11,978 - Getting hits from kofam
+2023-08-23 15:41:37,441 - Getting forward best hits from peptidase
+2023-08-23 15:41:39,743 - Getting reverse best hits from peptidase
+2023-08-23 15:41:48,830 - Getting descriptions of hits from peptidase
+2023-08-23 15:41:48,838 - Getting hits from pfam
+2023-08-23 15:41:57,384 - Getting hits from dbCAN
+2023-08-23 15:42:01,047 - Merging ORF annotations
+2023-08-23 15:42:04,981 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:42:08,422 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:42:09,061 - Annotating AOJE01000025.1
+2023-08-23 15:42:10,165 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:42:20,797 - Getting hits from kofam
+2023-08-23 15:45:11,188 - Getting forward best hits from peptidase
+2023-08-23 15:45:13,220 - Getting reverse best hits from peptidase
+2023-08-23 15:45:22,312 - Getting descriptions of hits from peptidase
+2023-08-23 15:45:22,322 - Getting hits from pfam
+2023-08-23 15:45:30,510 - Getting hits from dbCAN
+2023-08-23 15:45:33,254 - Merging ORF annotations
+2023-08-23 15:45:39,508 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:45:40,078 - Annotating CP095494.1
+2023-08-23 15:45:41,830 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:45:52,569 - Getting hits from kofam
+2023-08-23 15:48:32,746 - Getting forward best hits from peptidase
+2023-08-23 15:48:34,949 - Getting reverse best hits from peptidase
+2023-08-23 15:48:43,946 - Getting descriptions of hits from peptidase
+2023-08-23 15:48:43,950 - Getting hits from pfam
+2023-08-23 15:48:52,289 - Getting hits from dbCAN
+2023-08-23 15:48:55,028 - Merging ORF annotations
+2023-08-23 15:48:57,806 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:49:01,268 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:49:01,914 - Annotating FOXI01000018.1
+2023-08-23 15:49:02,394 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:49:13,317 - Getting hits from kofam
+2023-08-23 15:51:42,243 - Getting forward best hits from peptidase
+2023-08-23 15:51:44,211 - Getting reverse best hits from peptidase
+2023-08-23 15:51:53,837 - Getting descriptions of hits from peptidase
+2023-08-23 15:51:53,864 - Getting hits from pfam
+2023-08-23 15:52:03,544 - Getting hits from dbCAN
+2023-08-23 15:52:05,991 - Merging ORF annotations
+2023-08-23 15:52:12,827 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:52:13,396 - Annotating CP099999.1
+2023-08-23 15:52:14,174 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:52:24,864 - Getting hits from kofam
+2023-08-23 15:54:37,371 - Getting forward best hits from peptidase
+2023-08-23 15:54:39,237 - Getting reverse best hits from peptidase
+2023-08-23 15:54:48,473 - Getting descriptions of hits from peptidase
+2023-08-23 15:54:48,480 - Getting hits from pfam
+2023-08-23 15:54:56,761 - Getting hits from dbCAN
+2023-08-23 15:54:58,960 - Merging ORF annotations
+2023-08-23 15:55:03,036 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:55:07,523 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:55:08,166 - Annotating NC_015659.1
+2023-08-23 15:55:09,139 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:55:19,945 - Getting hits from kofam
+2023-08-23 15:57:55,444 - Getting forward best hits from peptidase
+2023-08-23 15:57:57,443 - Getting reverse best hits from peptidase
+2023-08-23 15:58:06,496 - Getting descriptions of hits from peptidase
+2023-08-23 15:58:06,503 - Getting hits from pfam
+2023-08-23 15:58:14,862 - Getting hits from dbCAN
+2023-08-23 15:58:17,565 - Merging ORF annotations
+2023-08-23 15:58:20,552 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 15:58:23,054 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 15:58:23,663 - Annotating AOJE01000051.1
+2023-08-23 15:58:24,424 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 15:58:35,277 - Getting hits from kofam
+2023-08-23 16:00:43,810 - Getting forward best hits from peptidase
+2023-08-23 16:00:45,737 - Getting reverse best hits from peptidase
+2023-08-23 16:00:55,272 - Getting descriptions of hits from peptidase
+2023-08-23 16:00:55,276 - Getting hits from pfam
+2023-08-23 16:01:03,336 - Getting hits from dbCAN
+2023-08-23 16:01:05,749 - Merging ORF annotations
+2023-08-23 16:01:08,640 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:01:11,136 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:01:11,731 - Annotating CP019286.1
+2023-08-23 16:01:15,518 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:01:25,913 - Getting hits from kofam
+2023-08-23 16:06:37,607 - Getting forward best hits from peptidase
+2023-08-23 16:06:39,843 - Getting reverse best hits from peptidase
+2023-08-23 16:06:48,749 - Getting descriptions of hits from peptidase
+2023-08-23 16:06:48,754 - Getting hits from pfam
+2023-08-23 16:06:57,142 - Getting hits from dbCAN
+2023-08-23 16:07:01,150 - Merging ORF annotations
+2023-08-23 16:07:06,924 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:07:11,591 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:07:12,162 - Annotating CP101158.1
+2023-08-23 16:07:14,140 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:07:24,167 - Getting hits from kofam
+2023-08-23 16:10:28,635 - Getting forward best hits from peptidase
+2023-08-23 16:10:30,808 - Getting reverse best hits from peptidase
+2023-08-23 16:10:40,047 - Getting descriptions of hits from peptidase
+2023-08-23 16:10:40,055 - Getting hits from pfam
+2023-08-23 16:10:48,340 - Getting hits from dbCAN
+2023-08-23 16:10:51,366 - Merging ORF annotations
+2023-08-23 16:10:54,716 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:10:57,358 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:10:57,970 - Annotating JAAOHU010000009.1
+2023-08-23 16:10:58,699 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:11:09,396 - Getting hits from kofam
+2023-08-23 16:13:21,136 - Getting forward best hits from peptidase
+2023-08-23 16:13:22,980 - Getting reverse best hits from peptidase
+2023-08-23 16:13:31,964 - Getting descriptions of hits from peptidase
+2023-08-23 16:13:31,970 - Getting hits from pfam
+2023-08-23 16:13:41,543 - Getting hits from dbCAN
+2023-08-23 16:13:44,149 - Merging ORF annotations
+2023-08-23 16:13:47,053 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:13:49,508 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:13:50,080 - Annotating NC_013748.1
+2023-08-23 16:13:51,177 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:14:01,826 - Getting hits from kofam
+2023-08-23 16:16:26,647 - Getting forward best hits from peptidase
+2023-08-23 16:16:29,139 - Getting reverse best hits from peptidase
+2023-08-23 16:16:38,697 - Getting descriptions of hits from peptidase
+2023-08-23 16:16:38,702 - Getting hits from pfam
+2023-08-23 16:16:47,221 - Getting hits from dbCAN
+2023-08-23 16:16:49,920 - Merging ORF annotations
+2023-08-23 16:16:53,257 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:16:55,985 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:16:56,620 - Annotating AOIO01000049.1
+2023-08-23 16:16:58,417 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:17:08,927 - Getting hits from kofam
+2023-08-23 16:20:09,262 - Getting forward best hits from peptidase
+2023-08-23 16:20:11,703 - Getting reverse best hits from peptidase
+2023-08-23 16:20:20,657 - Getting descriptions of hits from peptidase
+2023-08-23 16:20:20,666 - Getting hits from pfam
+2023-08-23 16:20:28,997 - Getting hits from dbCAN
+2023-08-23 16:20:31,692 - Merging ORF annotations
+2023-08-23 16:20:35,604 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:20:38,377 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:20:38,945 - Annotating JAJCVI010000007.1
+2023-08-23 16:20:42,569 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:20:53,205 - Getting hits from kofam
+2023-08-23 16:27:43,018 - Getting forward best hits from peptidase
+2023-08-23 16:27:45,378 - Getting reverse best hits from peptidase
+2023-08-23 16:27:54,660 - Getting descriptions of hits from peptidase
+2023-08-23 16:27:54,690 - Getting hits from pfam
+2023-08-23 16:28:04,507 - Getting hits from dbCAN
+2023-08-23 16:28:09,170 - Merging ORF annotations
+2023-08-23 16:28:14,090 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:28:17,431 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:28:18,110 - Annotating AOID01000019.1
+2023-08-23 16:28:19,255 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:28:29,886 - Getting hits from kofam
+2023-08-23 16:30:55,329 - Getting forward best hits from peptidase
+2023-08-23 16:30:57,359 - Getting reverse best hits from peptidase
+2023-08-23 16:31:06,635 - Getting descriptions of hits from peptidase
+2023-08-23 16:31:06,640 - Getting hits from pfam
+2023-08-23 16:31:14,770 - Getting hits from dbCAN
+2023-08-23 16:31:17,460 - Merging ORF annotations
+2023-08-23 16:31:20,774 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:31:23,672 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:31:24,253 - Annotating Frome_NODE_383_length_24936_cov_4.316346
+2023-08-23 16:31:24,679 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:31:34,759 - Getting hits from kofam
+2023-08-23 16:33:15,194 - Getting forward best hits from peptidase
+2023-08-23 16:33:17,037 - Getting reverse best hits from peptidase
+2023-08-23 16:33:26,135 - Getting descriptions of hits from peptidase
+2023-08-23 16:33:26,140 - Getting hits from pfam
+2023-08-23 16:33:35,455 - Getting hits from dbCAN
+2023-08-23 16:33:37,507 - Merging ORF annotations
+2023-08-23 16:33:40,432 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:33:43,058 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:33:43,802 - Annotating CP119801.1
+2023-08-23 16:33:44,849 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:33:55,673 - Getting hits from kofam
+2023-08-23 16:36:08,987 - Getting forward best hits from peptidase
+2023-08-23 16:36:11,386 - Getting reverse best hits from peptidase
+2023-08-23 16:36:20,541 - Getting descriptions of hits from peptidase
+2023-08-23 16:36:20,547 - Getting hits from pfam
+2023-08-23 16:36:28,689 - Getting hits from dbCAN
+2023-08-23 16:36:31,217 - Merging ORF annotations
+2023-08-23 16:36:34,297 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:36:36,925 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:36:37,466 - Annotating JDTG01000019.1
+2023-08-23 16:36:38,691 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:36:49,129 - Getting hits from kofam
+2023-08-23 16:39:34,034 - Getting forward best hits from peptidase
+2023-08-23 16:39:36,056 - Getting reverse best hits from peptidase
+2023-08-23 16:39:46,066 - Getting descriptions of hits from peptidase
+2023-08-23 16:39:46,072 - Getting hits from pfam
+2023-08-23 16:39:54,758 - Getting hits from dbCAN
+2023-08-23 16:39:57,262 - Merging ORF annotations
+2023-08-23 16:40:00,545 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:40:03,318 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:40:03,980 - Annotating JAJCVI010000002.1
+2023-08-23 16:40:07,663 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:40:18,575 - Getting hits from kofam
+2023-08-23 16:55:31,807 - Getting forward best hits from peptidase
+2023-08-23 16:55:35,038 - Getting reverse best hits from peptidase
+2023-08-23 16:55:45,752 - Getting descriptions of hits from peptidase
+2023-08-23 16:55:46,826 - Getting hits from pfam
+2023-08-23 16:55:56,375 - Getting hits from dbCAN
+2023-08-23 16:56:06,873 - Merging ORF annotations
+2023-08-23 16:56:14,826 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:56:15,750 - Annotating Eyre_NODE_236_length_33155_cov_19.932
+2023-08-23 16:56:16,247 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:56:26,787 - Getting hits from kofam
+2023-08-23 16:58:32,876 - Getting forward best hits from peptidase
+2023-08-23 16:58:34,773 - Getting reverse best hits from peptidase
+2023-08-23 16:58:43,805 - Getting descriptions of hits from peptidase
+2023-08-23 16:58:43,810 - Getting hits from pfam
+2023-08-23 16:58:53,318 - Getting hits from dbCAN
+2023-08-23 16:58:55,650 - Merging ORF annotations
+2023-08-23 16:58:58,817 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 16:59:01,985 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 16:59:02,585 - Annotating LWLN01000003.1
+2023-08-23 16:59:03,756 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 16:59:14,187 - Getting hits from kofam
+2023-08-23 17:01:54,329 - Getting forward best hits from peptidase
+2023-08-23 17:01:56,324 - Getting reverse best hits from peptidase
+2023-08-23 17:02:05,517 - Getting descriptions of hits from peptidase
+2023-08-23 17:02:05,522 - Getting hits from pfam
+2023-08-23 17:02:14,151 - Getting hits from dbCAN
+2023-08-23 17:02:16,788 - Merging ORF annotations
+2023-08-23 17:02:20,300 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 17:02:23,313 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 17:02:24,022 - Annotating CP101161.1
+2023-08-23 17:02:43,883 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 17:02:54,669 - Getting hits from kofam
+2023-08-23 17:29:20,746 - Getting forward best hits from peptidase
+2023-08-23 17:29:28,296 - Getting reverse best hits from peptidase
+2023-08-23 17:29:39,653 - Getting descriptions of hits from peptidase
+2023-08-23 17:29:42,222 - Getting hits from pfam
+2023-08-23 17:29:53,673 - Getting hits from dbCAN
+2023-08-23 17:30:14,118 - Merging ORF annotations
+2023-08-23 17:30:32,303 - Annotating SJER01000008.1
+2023-08-23 17:30:33,768 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 17:30:44,424 - Getting hits from kofam
+2023-08-23 17:33:38,117 - Getting forward best hits from peptidase
+2023-08-23 17:33:40,403 - Getting reverse best hits from peptidase
+2023-08-23 17:33:50,509 - Getting descriptions of hits from peptidase
+2023-08-23 17:33:50,514 - Getting hits from pfam
+2023-08-23 17:33:58,907 - Getting hits from dbCAN
+2023-08-23 17:34:01,670 - Merging ORF annotations
+2023-08-23 17:34:10,162 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 17:34:16,609 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 17:34:17,194 - Annotating CP084476.1
+2023-08-23 17:34:18,525 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 17:34:29,257 - Getting hits from kofam
+2023-08-23 17:36:58,113 - Getting forward best hits from peptidase
+2023-08-23 17:37:00,201 - Getting reverse best hits from peptidase
+2023-08-23 17:37:09,698 - Getting descriptions of hits from peptidase
+2023-08-23 17:37:09,703 - Getting hits from pfam
+2023-08-23 17:37:18,169 - Getting hits from dbCAN
+2023-08-23 17:37:20,709 - Merging ORF annotations
+2023-08-23 17:37:23,776 - No tRNAs were detected, no trnas.tsv file will be created.
+2023-08-23 17:37:27,213 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 17:37:27,764 - Annotating JAANTI010000009.1
+2023-08-23 17:37:28,549 - Turning genes from prodigal to mmseqs2 db
+2023-08-23 17:37:39,598 - Getting hits from kofam
+2023-08-23 17:40:55,783 - Getting forward best hits from peptidase
+2023-08-23 17:40:57,862 - Getting reverse best hits from peptidase
+2023-08-23 17:41:07,108 - Getting descriptions of hits from peptidase
+2023-08-23 17:41:07,145 - Getting hits from pfam
+2023-08-23 17:41:15,900 - Getting hits from dbCAN
+2023-08-23 17:41:18,786 - Merging ORF annotations
+2023-08-23 17:41:25,535 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-08-23 17:41:26,139 - Annotations complete, processing annotations
+2023-08-23 17:41:29,120 - Completed annotations

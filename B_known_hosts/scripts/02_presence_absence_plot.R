@@ -66,3 +66,28 @@ write(wide_df$organism_acc, file = "accs_to_download.txt")
 
 
 
+
+
+
+
+
+
+
+# test --------------------------------------------------------------------
+
+wide_df$first <- 0
+wide_df$second <- 0
+
+for(i in 1:nrow(wide_df)){
+    wide_df$first[i] <- sum(wide_df$ORF6[i], wide_df$ORF8[i], wide_df$ORF10[i])
+    wide_df$second[i] <- sum(wide_df$ORF17[i], wide_df$ORF21[i], wide_df$ORF23[i], wide_df$ORF24[i])
+    
+    
+}
+
+
+
+
+
+
+

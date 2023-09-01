@@ -1,0 +1,28 @@
+### Top 5 hits for each virus with each method used
+### Score 1 / Score 2 columns correpond respectively to:
+### For blast hits => Total number of matches in hsps / Average percentage of identity across the full alignment
+### For crispr hits => Number of mismatches / Length of CRISPR spacer
+### For WIsH => Log-likelihood / P-value
+### For VirHostMatcher => s2 similarity/ NA
+### For PHP => PHP score/ NA
+### For RaFAH => Confidence score / estimated FDR
+### For iPHoP-RF => Confidence score / estimated FDR
+Virus,Method,Host,Host taxonomy,Metric 1,Score 1,Metric 2,Score 2,Rank,Host representative
+Eyresouth_NODE_101_length_48437_cov_7.17035,crispr,3300008101_15,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes_A;s__Alistipes_A ihumii,N_mismatches,4.000,Spacer_length,30.0,2,RS_GCF_000321205.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,crispr,3300011154_2,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Alcaligenes;s__Alcaligenes faecalis,N_mismatches,4.000,Spacer_length,25.0,2,RS_GCF_002443155.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,crispr,GCF_900114055.1,d__Bacteria;p__Firmicutes;c__Bacilli;o__Thermoactinomycetales;f__Thermoactinomycetaceae;g__Thermoflavimicrobium;s__Thermoflavimicrobium dichotomicum,N_mismatches,4.000,Spacer_length,25.0,2,RS_GCF_900114055.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,iPHoP-RF,RS_GCF_004799685.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halobellus;s__Halobellus limi,Confidence_score,0.876,FDR,0.217,3,RS_GCF_004799685.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,iPHoP-RF,RS_GCF_007655485.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halobellus;s__Halobellus captivus,Confidence_score,0.864,FDR,0.232,4,RS_GCF_007655485.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,iPHoP-RF,RS_GCF_900107195.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halobellus;s__Halobellus clavatus,Confidence_score,0.804,FDR,0.298,5,RS_GCF_900107195.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,php,GCF_009742825.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halorubrum;s__Halorubrum sp009742825,Score,1450.376,NA,NA,3,RS_GCF_009742825.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,php,GCA_003021015.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Halovenus;s__Halovenus sp003021015,Score,1450.213,NA,NA,4,GB_GCA_003021015.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,php,GCA_003022845.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Halovenus;s__Halovenus sp003022845,Score,1450.186,NA,NA,5,GB_GCA_003022845.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,rafah,Bacteroides,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides,Confidence_score,0.085,FDR,0.926,2,NA
+Eyresouth_NODE_101_length_48437_cov_7.17035,rafah,Haemophilus,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Pasteurellaceae;g__Haemophilus,Confidence_score,0.078,FDR,0.933,3,NA
+Eyresouth_NODE_101_length_48437_cov_7.17035,rafah,Mesorhizobium,d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__Mesorhizobium,Confidence_score,0.072,FDR,0.939,4,NA
+Eyresouth_NODE_101_length_48437_cov_7.17035,vhm,GCA_014647475.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Halobacteriaceae;g__Halocalculus;s__Halocalculus aciditolerans,S2star_similarity,0.687,NA,NA,3,GB_GCA_014647475.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,vhm,GCF_000230955.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Halobacteriaceae;g__Halobacterium;s__Halobacterium sp000230955,S2star_similarity,0.686,NA,NA,4,RS_GCF_000230955.2
+Eyresouth_NODE_101_length_48437_cov_7.17035,vhm,GCF_013391105.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Natronomonas;s__Natronomonas sp013391105,S2star_similarity,0.683,NA,NA,5,RS_GCF_013391105.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,wish,GCF_900107195.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halobellus;s__Halobellus clavatus,Log-likelihood,-1.305,p-value,0.00296652,3,RS_GCF_900107195.1
+Eyresouth_NODE_101_length_48437_cov_7.17035,wish,3300011185_4,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__;s__,Log-likelihood,-1.306,p-value,0.00110987,4,3300011185_4
+Eyresouth_NODE_101_length_48437_cov_7.17035,wish,GCF_009831555.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Halobacteriaceae;g__Halobacterium;s__Halobacterium sp009831555,Log-likelihood,-1.307,p-value,0.00265434,5,RS_GCF_009831555.1

@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+YP_009483471.1       -          ORF23.faa            -               0.28   14.9   8.9      0.47   14.2   8.9   1.4   1   0   0   1   1   1   0 hypothetical protein pqer_cds_780 [Pandoravirus quercus]
+YP_009844692.1       -          ORF23.faa            -               0.33   14.7   0.0      0.36   14.6   0.0   1.0   1   0   0   1   1   1   0 XRE family transcriptional regulator [Nodularia phage vB_NspS-kac65v151]
+YP_009844904.1       -          ORF23.faa            -                0.4   14.4   0.0      0.41   14.4   0.0   1.0   1   0   0   1   1   1   0 XRE family transcriptional regulator [Nodularia phage vB_NspS-kac68v161]
+YP_009830384.1       -          ORF23.faa            -                0.4   14.4   0.0      0.42   14.3   0.0   1.0   1   0   0   1   1   1   0 transcriptional regulator [Nodularia phage vB_NpeS-2AV2]
+YP_214118.1          -          ORF23.faa            -                0.8   13.4   1.2      0.97   13.2   1.2   1.0   1   0   0   1   1   1   0 hypothetical protein MuHV1_gp109 [Murid betaherpesvirus 1]
+NP_612706.1          -          ORF23.faa            -                1.4   12.7   4.2       1.4   12.6   4.2   1.1   1   0   0   1   1   1   0 envelope glycoprotein N [Panine betaherpesvirus 2]
+YP_002791891.1       -          ORF23.faa            -                2.4   11.8   0.3         3   11.5   0.3   1.1   1   0   0   1   1   1   0 hypothetical protein HRPV-1_gp6 [Halorubrum pleomorphic virus 1]
+YP_009121927.1       -          ORF23.faa            -                2.6   11.7   5.9       4.8   10.9   5.9   1.4   1   0   0   1   1   1   0 fgf-3 [Spodoptera frugiperda granulovirus]
+YP_010731773.1       -          ORF23.faa            -                3.7   11.2   0.0       4.9   10.8   0.0   1.2   1   0   0   1   1   1   0 AAA domain protein [Escherichia phage Halfdan]
+YP_009788946.1       -          ORF23.faa            -                4.5   10.9   0.3       7.2   10.3   0.3   1.2   1   0   0   1   1   1   0 tail protein [Yersinia phage fHe-Yen3-01]
+YP_009664956.1       -          ORF23.faa            -                5.8   10.6   0.0       7.5   10.2   0.0   1.1   1   0   0   1   1   1   0 hypothetical protein FK873_gp085 [Micromonas pusilla virus SP1]
+YP_003986821.1       -          ORF23.faa            -                6.4   10.5   0.0       8.7   10.0   0.0   1.1   1   0   0   1   1   1   0 probable DNA polymerase family X [Acanthamoeba polyphaga mimivirus]
+YP_214067.1          -          ORF23.faa            -                6.8   10.4   5.2        12    9.5   5.2   1.4   1   0   0   1   1   1   0 Glycoprotein B [Murid betaherpesvirus 1]
+NP_620501.1          -          ORF23.faa            -                7.3   10.3   2.2       7.8   10.2   2.2   1.2   1   0   0   1   1   1   0 hypothetical protein RYSVgp6 [Rice yellow stunt nucleorhabdovirus]
+YP_081521.1          -          ORF23.faa            -                8.3   10.1   4.8       9.7    9.8   4.8   1.1   1   0   0   1   1   1   0 envelope glycoprotein N [Human betaherpesvirus 5]
+YP_010051121.1       -          ORF23.faa            -                9.7    9.9   5.6        11    9.7   5.6   1.1   1   0   0   1   1   1   0 lipoprotein [Gordonia phage TZGordon]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF23.faa.msa.hmm
+# Target file:     viral.1.protein.faa.gz
+# Option settings: hmmsearch --tblout hmm_out/ORF23.faa.msa.hmm.out --domtblout hmm_out/ORF23.faa.msa.hmm.dom.out --cpu 40 ../../A_generate_protein_clusters/FINAL_profiles/ORF23.faa.msa.hmm viral.1.protein.faa.gz 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/search_refseq_viruses
+# Date:            Mon Jul  3 12:37:19 2023
+# [ok]

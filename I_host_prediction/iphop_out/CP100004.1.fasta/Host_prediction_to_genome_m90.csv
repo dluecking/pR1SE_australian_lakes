@@ -1,0 +1,5 @@
+Virus,Host genome,Host taxonomy,Main method,Confidence score,Additional methods
+CP100004.1,RS_GCF_004114995.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Halorubrum;s__Halorubrum amylolyticum,blast,93.20,iPHoP-RF;84.80 CRISPR;69.30
+CP100004.1,RS_GCF_000336775.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloferacaceae;g__Haloferax;s__Haloferax gibbonsii,iPHoP-RF,93.10,None
+CP100004.1,3300000350_9,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__;s__,blast,90.60,iPHoP-RF;56.20
+CP100004.1,RS_GCF_000230715.2,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronobacterium;s__Natronobacterium gregoryi,blast,90.00,None

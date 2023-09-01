@@ -53,7 +53,6 @@ interpro_out$orf <- str_extract(interpro_out$gene_id, "\\d*$")
 interpro_out <- interpro_out %>% 
     filter(evalue <= 0.00001) %>% 
     filter(annotation != "-")
-
 fwrite(interpro_out, "interpro_out_full.tsv", sep = "\t")
 
 

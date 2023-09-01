@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+YP_009819966.1       -          ORF10_iter3          -             0.0051   21.3   7.5    0.0067   20.9   7.5   1.1   1   0   0   1   1   1   1 hypothetical protein HOV15_gp03 [Halorubrum pleomorphic virus 11]
+YP_009819953.1       -          ORF10_iter3          -              0.055   17.9   8.3     0.074   17.5   8.3   1.1   1   0   0   1   1   1   0 hypothetical protein HOV14_gp03 [Halorubrum pleomorphic virus 10]
+YP_003970129.1       -          ORF10_iter3          -               0.12   16.7   0.8      0.17   16.3   0.8   1.2   1   0   0   1   1   1   0 hypothetical protein crov496 [Cafeteria roenbergensis virus BV-PW1]
+YP_010001778.1       -          ORF10_iter3          -               0.23   15.8   1.4      0.29   15.5   1.4   1.1   1   0   0   1   1   1   0 hypothetical protein J1763_gp69 [Gordonia phage YorkOnyx]
+YP_007378909.1       -          ORF10_iter3          -               0.24   15.8   0.5      0.26   15.6   0.5   1.1   1   0   0   1   1   1   0 hypothetical protein HVTV1_3 [Haloarcula vallismortis tailed virus 1]
+YP_010754726.1       -          ORF10_iter3          -               0.25   15.7   0.0      0.26   15.7   0.0   1.0   1   0   0   1   1   1   0 hypothetical protein QEH36_gp061 [Streptomyces phage Ibantik]
+YP_010001609.1       -          ORF10_iter3          -               0.35   15.2   1.7      0.44   14.9   1.7   1.1   1   0   0   1   1   1   0 hypothetical protein J1761_gp67 [Gordonia phage Kroos]
+YP_010002117.1       -          ORF10_iter3          -               0.59   14.5   1.4      0.73   14.2   1.4   1.1   1   0   0   1   1   1   0 hypothetical protein J1767_gp68 [Gordonia phage Tangerine]
+YP_010001861.1       -          ORF10_iter3          -               0.86   14.0   1.9       1.1   13.6   1.9   1.1   1   0   0   1   1   1   0 hypothetical protein J1764_gp68 [Gordonia phage Ashertheman]
+YP_009619917.1       -          ORF10_iter3          -               0.86   13.9   0.0      0.95   13.8   0.0   1.0   1   0   0   1   1   1   0 tail assembly chaperone [Stenotrophomonas phage vB_SmaS_DLP_5]
+YP_009786105.1       -          ORF10_iter3          -                1.5   13.1   5.2       1.4   13.2   5.2   1.1   1   0   0   1   1   1   0 hypothetical protein [Ralstonia phage Rs551]
+YP_009004881.1       -          ORF10_iter3          -                1.9   12.8   1.5       2.2   12.6   1.5   1.1   1   0   0   1   1   1   0 hypothetical protein Ea357_088 [Erwinia phage Ea35-70]
+YP_009605235.1       -          ORF10_iter3          -                1.9   12.8   1.5       2.2   12.6   1.5   1.1   1   0   0   1   1   1   0 hypothetical protein FDH97_gp092 [Erwinia phage vB_EamM_Deimos-Minion]
+YP_009605554.1       -          ORF10_iter3          -                1.9   12.8   1.5       2.2   12.6   1.5   1.1   1   0   0   1   1   1   0 hypothetical protein FDH98_gp087 [Erwinia phage vB_EamM_RAY]
+YP_009605874.1       -          ORF10_iter3          -                1.9   12.8   1.5       2.2   12.6   1.5   1.1   1   0   0   1   1   1   0 hypothetical protein FDH99_gp090 [Erwinia phage vB_EamM_Simmy50]
+YP_009606196.1       -          ORF10_iter3          -                1.9   12.8   1.5       2.2   12.6   1.5   1.1   1   0   0   1   1   1   0 hypothetical protein FDI00_gp090 [Erwinia phage vB_EamM_Special G]
+YP_009621828.1       -          ORF10_iter3          -                  2   12.8   1.6       2.3   12.6   1.6   1.1   1   0   0   1   1   1   0 hypothetical protein FDJ23_gp087 [Erwinia phage vB_EamM_Desertfox]
+YP_010001946.1       -          ORF10_iter3          -                2.2   12.6   3.1       2.8   12.2   3.1   1.1   1   0   0   1   1   1   0 hypothetical protein J1765_gp68 [Gordonia phage Gaea]
+YP_762413.1          -          ORF10_iter3          -                2.3   12.5   4.6        46    8.3   2.7   2.1   2   0   0   2   2   2   0 37 kDa [Spodoptera frugiperda ascovirus 1a]
+YP_010002202.1       -          ORF10_iter3          -                2.8   12.3   2.9       3.5   11.9   2.9   1.1   1   0   0   1   1   1   0 hypothetical protein J1768_gp68 [Gordonia phage Ribeye]
+YP_010107309.1       -          ORF10_iter3          -                2.9   12.2   2.6       4.3   11.6   2.6   1.4   1   1   0   1   1   1   0 hypothetical protein KNU99_gp234 [Agrobacterium phage OLIVR5]
+YP_008004562.1       -          ORF10_iter3          -                  3   12.2   0.3       4.2   11.7   0.3   1.2   1   0   0   1   1   1   0 unknown similar to AMEV140 [Choristoneura rosaceana entomopoxvirus 'L']
+YP_010002032.1       -          ORF10_iter3          -                3.6   11.9   2.7       4.6   11.6   2.7   1.1   1   0   0   1   1   1   0 hypothetical protein J1766_gp68 [Gordonia phage Bizzy]
+YP_010656573.1       -          ORF10_iter3          -                7.9   10.8   1.4       9.6   10.5   1.4   1.1   1   0   0   1   1   1   0 DUF680 domain-containing protein [Synechococcus phage S-SZBM1]
+YP_010052244.1       -          ORF10_iter3          -                8.1   10.7   1.6        10   10.4   1.6   1.1   1   0   0   1   1   1   0 DUF732 domain-containing protein [Mycobacterium phage Rebel]
+YP_009017109.1       -          ORF10_iter3          -                8.2   10.7   1.6        11   10.4   1.6   1.1   1   0   0   1   1   1   0 DUF732 domain-containing protein [Mycobacterium phage Redi]
+YP_003969790.1       -          ORF10_iter3          -                8.4   10.7   0.2       9.2   10.6   0.2   1.0   1   0   0   1   1   1   0 hypothetical protein crov158 [Cafeteria roenbergensis virus BV-PW1]
+YP_010051840.1       -          ORF10_iter3          -                9.5   10.5   1.6        12   10.2   1.6   1.1   1   0   0   1   1   1   0 DUF732 domain-containing protein [Mycobacterium phage Raymond7]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF10_iter3.msa.hmm
+# Target file:     viral.1.protein.faa.gz
+# Option settings: hmmsearch --tblout hmm_out/ORF10_iter3.msa.hmm.out --domtblout hmm_out/ORF10_iter3.msa.hmm.dom.out --cpu 40 ../../A_generate_protein_clusters/FINAL_profiles/ORF10_iter3.msa.hmm viral.1.protein.faa.gz 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/search_refseq_viruses
+# Date:            Mon Jul  3 12:37:12 2023
+# [ok]

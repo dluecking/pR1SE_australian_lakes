@@ -1,0 +1,38 @@
+### Top 5 hits for each virus with each method used
+### Score 1 / Score 2 columns correpond respectively to:
+### For blast hits => Total number of matches in hsps / Average percentage of identity across the full alignment
+### For crispr hits => Number of mismatches / Length of CRISPR spacer
+### For WIsH => Log-likelihood / P-value
+### For VirHostMatcher => s2 similarity/ NA
+### For PHP => PHP score/ NA
+### For RaFAH => Confidence score / estimated FDR
+### For iPHoP-RF => Confidence score / estimated FDR
+Virus,Method,Host,Host taxonomy,Metric 1,Score 1,Metric 2,Score 2,Rank,Host representative
+AOID01000019.1,blast,GCF_005576615.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema versiforme_A,Match_length,2043.000,Id_pcent,87.52,1,RS_GCF_005576615.1
+AOID01000019.1,blast,GCF_002572525.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema sp002572525,Match_length,1755.000,Id_pcent,86.72,2,RS_GCF_002572525.1
+AOID01000019.1,blast,GCF_002494345.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema ejinorense,Match_length,1491.000,Id_pcent,83.9,3,RS_GCF_002494345.1
+AOID01000019.1,blast,2914868299,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema thermotolerans,Match_length,1423.000,Id_pcent,83.42,4,RS_GCF_000337115.1
+AOID01000019.1,blast,GCF_003670115.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum sp003670115,Match_length,1321.000,Id_pcent,81.3,5,RS_GCF_003670115.1
+AOID01000019.1,crispr,2914868299,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema thermotolerans,N_mismatches,3.000,Spacer_length,34.0,1,RS_GCF_000337115.1
+AOID01000019.1,crispr,GCF_004187715.1,d__Bacteria;p__Actinobacteriota;c__Actinomycetia;o__Streptomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces sp004187715,N_mismatches,3.000,Spacer_length,22.0,1,RS_GCF_004187715.1
+AOID01000019.1,crispr,2914868299,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema thermotolerans,N_mismatches,4.000,Spacer_length,37.0,2,RS_GCF_000337115.1
+AOID01000019.1,iPHoP-RF,RS_GCF_003670115.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum sp003670115,Confidence_score,0.994,FDR,0.039,1,RS_GCF_003670115.1
+AOID01000019.1,iPHoP-RF,RS_GCF_900108095.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum sediminis,Confidence_score,0.990,FDR,0.046,2,RS_GCF_900108095.1
+AOID01000019.1,iPHoP-RF,RS_GCF_900156475.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum thiooxidans,Confidence_score,0.990,FDR,0.046,2,RS_GCF_900156475.1
+AOID01000019.1,iPHoP-RF,3300026970_5,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__,Confidence_score,0.988,FDR,0.049,3,3300026970_5
+AOID01000019.1,iPHoP-RF,RS_GCF_004799645.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum bangense,Confidence_score,0.988,FDR,0.049,3,RS_GCF_004799645.1
+AOID01000019.1,php,GCF_900110215.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Haloarculaceae;g__Halorientalis;s__Halorientalis persicus,Score,1450.030,NA,NA,1,RS_GCF_900110215.1
+AOID01000019.1,php,GCF_000336935.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Halococcaceae;g__Halococcus;s__Halococcus salifodinae,Score,1448.281,NA,NA,2,RS_GCF_000336935.1
+AOID01000019.1,php,GCF_000337595.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrialba;s__Natrialba taiwanensis,Score,1448.122,NA,NA,3,RS_GCF_000337595.1
+AOID01000019.1,php,GCF_000336915.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Halococcaceae;g__Halococcus;s__Halococcus saccharolyticus,Score,1448.038,NA,NA,4,RS_GCF_000336915.1
+AOID01000019.1,php,GCF_000337175.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema gari,Score,1447.784,NA,NA,5,RS_GCF_000337175.1
+AOID01000019.1,vhm,GCF_000337735.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum sulfidifaciens,S2star_similarity,0.640,NA,NA,1,RS_GCF_000337735.1
+AOID01000019.1,vhm,GCF_009392895.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum aibiense,S2star_similarity,0.627,NA,NA,2,RS_GCF_009392895.1
+AOID01000019.1,vhm,GCF_900156475.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum thiooxidans,S2star_similarity,0.624,NA,NA,3,RS_GCF_900156475.1
+AOID01000019.1,vhm,GCF_900111485.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema hispanicum_A,S2star_similarity,0.623,NA,NA,4,RS_GCF_900111485.1
+AOID01000019.1,vhm,3300026970_5,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__,S2star_similarity,0.622,NA,NA,5,3300026970_5
+AOID01000019.1,wish,GCF_000337195.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema versiforme,Log-likelihood,-1.284,p-value,0.000513155,1,RS_GCF_000337195.1
+AOID01000019.1,wish,GCF_900156475.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum thiooxidans,Log-likelihood,-1.318,p-value,0.00518117,2,RS_GCF_900156475.1
+AOID01000019.1,wish,GCF_009392895.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natronorubrum;s__Natronorubrum aibiense,Log-likelihood,-1.318,p-value,0.00533592,3,RS_GCF_009392895.1
+AOID01000019.1,wish,GCF_900111485.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema hispanicum_A,Log-likelihood,-1.320,p-value,0.00704317,4,RS_GCF_900111485.1
+AOID01000019.1,wish,GCF_000337615.1,d__Archaea;p__Halobacteriota;c__Halobacteria;o__Halobacteriales;f__Natrialbaceae;g__Natrinema;s__Natrinema pallidum,Log-likelihood,-1.320,p-value,0.0066783,5,RS_GCF_000337615.1

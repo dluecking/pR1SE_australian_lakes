@@ -1,0 +1,49 @@
+Running host prediction mode
+Indexing sequences from iphop_out/incomplete/Wdir/split_input/
+Processing Eyre_NODE_236_length_33155_cov_19.932.fasta
+Processing Eyre_NODE_24569_length_4005_cov_3.34962.fasta
+Processing Eyre_NODE_32600_length_3487_cov_2.67279.fasta
+Processing Eyre_NODE_3967_length_9655_cov_16.4747.fasta
+Processing Eyresouth_NODE_101_length_48437_cov_7.17035.fasta
+Processing Eyresouth_NODE_218_length_34093_cov_9.73377.fasta
+Processing Frome_NODE_15509_length_4607_cov_7.339851.fasta
+Processing Frome_NODE_208_length_31991_cov_42.105993.fasta
+Processing Frome_NODE_383_length_24936_cov_4.316346.fasta
+Processing Frome_NODE_5173_length_7875_cov_23.618542.fasta
+Processing Frome_NODE_5768_length_7469_cov_22.360534.fasta
+Processing Frome_NODE_9768_length_5756_cov_4.674268.fasta
+Processing Gairdner_NODE_107_length_49922_cov_74.384603.fasta
+Processing Gairdner_NODE_118_length_47723_cov_5.388856.fasta
+Processing Gairdner_NODE_144_length_43966_cov_7.457380.fasta
+Processing Gairdner_NODE_1649_length_16492_cov_7.650423.fasta
+Processing Gairdner_NODE_167_length_41210_cov_9.888325.fasta
+Processing Gairdner_NODE_200_length_38460_cov_9.422054.fasta
+Processing Gairdner_NODE_217_length_37248_cov_7.812599.fasta
+Processing Gairdner_NODE_22520_length_5296_cov_5.021370.fasta
+Processing Gairdner_NODE_22962_length_5252_cov_4.041755.fasta
+Processing Gairdner_NODE_2803_length_13236_cov_7.077763.fasta
+Processing Gairdner_NODE_29507_length_4689_cov_5.089555.fasta
+Processing Gairdner_NODE_35642_length_4302_cov_2.899223.fasta
+Processing Gairdner_NODE_4298_length_11003_cov_3.762240.fasta
+Processing Gairdner_NODE_74_length_59309_cov_8.317565.fasta
+Processing Kenyon_NODE_596_length_16493_cov_7.34451.fasta
+Processing Torrens_NODE_2029_length_12012_cov_23.663126.fasta
+Processing Tyrell_NODE_42_length_52436_cov_43.400050.fasta
+Processing Tyrell_NODE_6051_length_7332_cov_4.201457.fasta
+Processed 30 Genomic Sequences
+Running Prodigal
+Indexing sequences from iphop_out/incomplete/Wdir/rafah_out/Full_CDS_Prediction.faa
+Running hmmsearch. Query: iphop_out/incomplete/Wdir/rafah_out/Full_CDS_Prediction.faa DB: /bioinf/transfer/tal/iphop_db/db/rafah_data/HP_Ranger_Model_3_Filtered_0.9_Valids.hmm
+Obtained 43644 ids from /bioinf/transfer/tal/iphop_db/db/rafah_data/HP_Ranger_Model_3_Valid_Cols.txt
+Parsing iphop_out/incomplete/Wdir/rafah_out/Full_CDSxClusters_Prediction
+Detected 170 OGs across 21 genomic sequences
+Performing host prediction
+[1] "Loading Model from  /bioinf/transfer/tal/iphop_db/db/rafah_data/MMSeqs_Clusters_Ranger_Model_1+2+3_Clean.RData"
+[1] "Reading input file  iphop_out/incomplete/Wdir/rafah_out/Full_Genome_to_OG_Score_Min_Score_50-Max_evalue_1e-05_Prediction.tsv"
+             used    (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells    8268831   441.7   13377265   714.5   13377265   714.5
+Vcells 2145559828 16369.4 2754466233 21015.0 2193078918 16731.9
+[1] "Passing data to Random Forest using  1  threads"
+[1] "Writing predictions to  iphop_out/incomplete/Wdir/rafah_out/Full_Host_Predictions.tsv"
+Parsing output of host prediction iphop_out/incomplete/Wdir/rafah_out/Full_Host_Predictions.tsv
+Printing results to iphop_out/incomplete/Wdir/rafah_out/Full_Seq_Info_Prediction.tsv

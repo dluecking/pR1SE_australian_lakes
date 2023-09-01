@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+YP_010671266.1       -            103 ORF8_iter3           -            263      0.15   16.3   0.1   1   1   1.9e-06      0.18   16.0   0.1   176   247    15    85    13    93 0.81 hypothetical protein PQC17_gp117 [Rhizobium phage RHph_Y65]
+YP_010675863.1       -            282 ORF8_iter3           -            263      0.15   16.2   0.1   1   1   2.4e-06      0.22   15.7   0.1   170   237    76   141    73   156 0.86 hypothetical protein PQD16_gp148 [Aeromonas phage ZPAH34]
+YP_010670900.1       -            103 ORF8_iter3           -            263      0.22   15.7   0.0   1   1   2.8e-06      0.26   15.5   0.0   176   247    15    85    13    93 0.81 hypothetical protein PQC16_gp115 [Rhizobium phage RHph_TM30]
+YP_007005897.1       -            141 ORF8_iter3           -            263      0.64   14.2   0.3   1   1   8.7e-06      0.82   13.8   0.3   129   202    43   116    36   119 0.87 hypothetical protein F400_gp046 [Bacillus phage BCD7]
+YP_009146562.1       -            103 ORF8_iter3           -            263       2.1   12.5   0.3   1   1   2.6e-05       2.4   12.3   0.3   187   227    26    66    13    75 0.83 hypothetical protein ACQ46_gp129 [Citrobacter phage Moon]
+NP_848214.2          -            238 ORF8_iter3           -            263       3.7   11.7   0.5   1   1   5.7e-05       5.3   11.2   0.5    36    98    92   154    71   166 0.72 protease [Salmonella phage epsilon15]
+YP_005097983.1       -            238 ORF8_iter3           -            263       3.8   11.6   0.5   1   1   5.8e-05       5.5   11.1   0.5    36    98    92   154    71   166 0.72 protease [Salmonella phage SPN1S]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF8_iter3.msa.hmm
+# Target file:     viral.1.protein.faa.gz
+# Option settings: hmmsearch --tblout hmm_out/ORF8_iter3.msa.hmm.out --domtblout hmm_out/ORF8_iter3.msa.hmm.dom.out --cpu 40 ../../A_generate_protein_clusters/FINAL_profiles/ORF8_iter3.msa.hmm viral.1.protein.faa.gz 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/search_refseq_viruses
+# Date:            Mon Jul  3 12:37:30 2023
+# [ok]

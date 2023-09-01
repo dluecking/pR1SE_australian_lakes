@@ -1,0 +1,1181 @@
+2023-06-30 10:59:59,089 - INFO - Starting pharokka v1.3.2
+2023-06-30 10:59:59,089 - INFO - Input args: Namespace(infile='../../FINAL_complete_relatives/KX687704.1.fasta', outdir='KX687704', database='/home/dlueckin/bioinf/dbs/pharokka_db_correct/', threads='16', force=True, prefix='Default', locustag='Default', gene_predictor='phanotate', meta=False, split=False, coding_table='11', evalue='1E-05', terminase=False, terminase_strand='nothing', terminase_start='nothing', citation=False)
+2023-06-30 10:59:59,090 - INFO - Checking database installation.
+2023-06-30 10:59:59,099 - INFO - All databases have been successfully checked.
+2023-06-30 10:59:59,099 - INFO - Checking dependencies.
+2023-06-30 11:00:00,094 - INFO - phan_out version found is v1.5.1.
+2023-06-30 11:00:00,095 - INFO - Phanotate version is ok.
+2023-06-30 11:00:00,159 - INFO - MMseqs2 version found is v13.45111.
+2023-06-30 11:00:00,159 - INFO - MMseqs2 version is ok.
+2023-06-30 11:00:02,398 - INFO - tRNAscan-SE version found is v2.45111.12.
+2023-06-30 11:00:02,399 - INFO - tRNAscan-SE version is ok.
+2023-06-30 11:00:02,849 - INFO - MinCED version found is v0.4.2.
+2023-06-30 11:00:02,849 - INFO - MinCED version is ok.
+2023-06-30 11:00:02,860 - INFO - ARAGORN version found is v1.2.41.
+2023-06-30 11:00:02,860 - INFO - ARAGORN version is ok.
+2023-06-30 11:00:02,904 - INFO - mash version found is v2.3.
+2023-06-30 11:00:02,904 - INFO - mash version is ok.
+2023-06-30 11:00:02,952 - INFO - Running Phanotate.
+2023-06-30 11:00:20,883 - INFO - Translating gene predicted fastas.
+2023-06-30 11:00:21,073 - INFO - Starting tRNA-scanSE
+2023-06-30 11:00:23,034 - INFO - 
+
+2023-06-30 11:00:23,034 - INFO - tRNAscan-SE v.2.0.12 (Nov 2022) - scan sequences for transfer RNAs
+
+2023-06-30 11:00:23,034 - INFO - Copyright (C) 2022 Patricia Chan and Todd Lowe
+
+2023-06-30 11:00:23,034 - INFO -                    University of California Santa Cruz
+
+2023-06-30 11:00:23,034 - INFO - Freely distributed under the GNU General Public License (GPLv3)
+
+2023-06-30 11:00:23,034 - INFO - 
+
+2023-06-30 11:00:23,034 - INFO - ------------------------------------------------------------
+
+2023-06-30 11:00:23,034 - INFO - Sequence file(s) to search:        ../../FINAL_complete_relatives/KX687704.1.fasta
+
+2023-06-30 11:00:23,034 - INFO - Search Mode:                       General
+
+2023-06-30 11:00:23,034 - INFO - Results written to:                Standard output
+
+2023-06-30 11:00:23,034 - INFO - Output format:                     Tabular
+
+2023-06-30 11:00:23,035 - INFO - Searching with:                    Infernal single-pass scan
+
+2023-06-30 11:00:23,035 - INFO -                                    Fast mode
+
+2023-06-30 11:00:23,035 - INFO - Covariance model:                  /home/dlueckin/bin/miniconda3/envs/phrokka/lib/tRNAscan-SE/models/TRNAinf.cm
+
+2023-06-30 11:00:23,035 - INFO - 
+
+2023-06-30 11:00:23,035 - INFO - Temporary directory:               /tmp
+
+2023-06-30 11:00:23,035 - INFO - tRNA predictions saved to:         KX687704/trnascan_out.gff
+
+2023-06-30 11:00:23,035 - INFO - ------------------------------------------------------------
+
+2023-06-30 11:00:23,035 - INFO - 
+
+2023-06-30 11:00:23,253 - INFO - No tRNAs found.
+
+2023-06-30 11:00:23,253 - INFO - 
+
+2023-06-30 11:00:23,268 - INFO - Running MinCED.
+2023-06-30 11:00:23,618 - INFO - Running Aragorn.
+2023-06-30 11:00:23,677 - INFO - Starting MMseqs2.
+2023-06-30 11:00:23,677 - INFO - Running MMseqs2 on PHROGs Database.
+2023-06-30 11:00:24,809 - INFO - createdb KX687704/phanotate_aas_tmp.fasta KX687704/target_dir/target_seqs 
+
+2023-06-30 11:00:24,809 - INFO - 
+
+2023-06-30 11:00:24,810 - INFO - MMseqs Version:       	13.45111
+
+2023-06-30 11:00:24,810 - INFO - Database type         	0
+
+2023-06-30 11:00:24,810 - INFO - Shuffle input database	true
+
+2023-06-30 11:00:24,810 - INFO - Createdb mode         	0
+
+2023-06-30 11:00:24,810 - INFO - Write lookup file     	1
+
+2023-06-30 11:00:24,810 - INFO - Offset of numeric ids 	0
+
+2023-06-30 11:00:24,810 - INFO - Compressed            	0
+
+2023-06-30 11:00:24,810 - INFO - Verbosity             	3
+
+2023-06-30 11:00:24,810 - INFO - 
+
+2023-06-30 11:00:24,810 - INFO - Converting sequences
+
+2023-06-30 11:00:24,810 - INFO - [
+
+2023-06-30 11:00:24,810 - INFO - Time for merging to target_seqs_h: 0h 0m 0s 100ms
+
+2023-06-30 11:00:24,810 - INFO - Time for merging to target_seqs: 0h 0m 0s 106ms
+
+2023-06-30 11:00:24,810 - INFO - Database type: Aminoacid
+
+2023-06-30 11:00:24,810 - INFO - Time for processing: 0h 0m 1s 121ms
+
+2023-06-30 11:00:24,822 - INFO - Create directory KX687704/tmp_dir/
+
+2023-06-30 11:00:24,822 - INFO - search -e 1E-05 /home/dlueckin/bioinf/dbs/pharokka_db_correct/phrogs_profile_db KX687704/target_dir/target_seqs KX687704/mmseqs/results_mmseqs KX687704/tmp_dir/ -s 8.5 --threads 16 
+
+2023-06-30 11:00:24,822 - INFO - 
+
+2023-06-30 11:00:24,822 - INFO - MMseqs Version:                        	13.45111
+
+2023-06-30 11:00:24,823 - INFO - Substitution matrix                    	nucl:nucleotide.out,aa:blosum62.out
+
+2023-06-30 11:00:24,823 - INFO - Add backtrace                          	false
+
+2023-06-30 11:00:24,823 - INFO - Alignment mode                         	2
+
+2023-06-30 11:00:24,823 - INFO - Alignment mode                         	0
+
+2023-06-30 11:00:24,823 - INFO - Allow wrapped scoring                  	false
+
+2023-06-30 11:00:24,823 - INFO - E-value threshold                      	1e-05
+
+2023-06-30 11:00:24,823 - INFO - Seq. id. threshold                     	0
+
+2023-06-30 11:00:24,823 - INFO - Min alignment length                   	0
+
+2023-06-30 11:00:24,823 - INFO - Seq. id. mode                          	0
+
+2023-06-30 11:00:24,823 - INFO - Alternative alignments                 	0
+
+2023-06-30 11:00:24,823 - INFO - Coverage threshold                     	0
+
+2023-06-30 11:00:24,823 - INFO - Coverage mode                          	0
+
+2023-06-30 11:00:24,823 - INFO - Max sequence length                    	65535
+
+2023-06-30 11:00:24,823 - INFO - Compositional bias                     	1
+
+2023-06-30 11:00:24,823 - INFO - Max reject                             	2147483647
+
+2023-06-30 11:00:24,823 - INFO - Max accept                             	2147483647
+
+2023-06-30 11:00:24,823 - INFO - Include identical seq. id.             	false
+
+2023-06-30 11:00:24,823 - INFO - Preload mode                           	0
+
+2023-06-30 11:00:24,823 - INFO - Pseudo count a                         	1
+
+2023-06-30 11:00:24,824 - INFO - Pseudo count b                         	1.5
+
+2023-06-30 11:00:24,824 - INFO - Score bias                             	0
+
+2023-06-30 11:00:24,824 - INFO - Realign hits                           	false
+
+2023-06-30 11:00:24,824 - INFO - Realign score bias                     	-0.2
+
+2023-06-30 11:00:24,824 - INFO - Realign max seqs                       	2147483647
+
+2023-06-30 11:00:24,824 - INFO - Gap open cost                          	nucl:5,aa:11
+
+2023-06-30 11:00:24,824 - INFO - Gap extension cost                     	nucl:2,aa:1
+
+2023-06-30 11:00:24,824 - INFO - Zdrop                                  	40
+
+2023-06-30 11:00:24,824 - INFO - Threads                                	16
+
+2023-06-30 11:00:24,824 - INFO - Compressed                             	0
+
+2023-06-30 11:00:24,824 - INFO - Verbosity                              	3
+
+2023-06-30 11:00:24,824 - INFO - Seed substitution matrix               	nucl:nucleotide.out,aa:VTML80.out
+
+2023-06-30 11:00:24,824 - INFO - Sensitivity                            	8.5
+
+2023-06-30 11:00:24,824 - INFO - k-mer length                           	0
+
+2023-06-30 11:00:24,824 - INFO - k-score                                	2147483647
+
+2023-06-30 11:00:24,824 - INFO - Alphabet size                          	nucl:5,aa:21
+
+2023-06-30 11:00:24,824 - INFO - Max results per query                  	300
+
+2023-06-30 11:00:24,824 - INFO - Split database                         	0
+
+2023-06-30 11:00:24,824 - INFO - Split mode                             	2
+
+2023-06-30 11:00:24,824 - INFO - Split memory limit                     	0
+
+2023-06-30 11:00:24,825 - INFO - Diagonal scoring                       	true
+
+2023-06-30 11:00:24,825 - INFO - Exact k-mer matching                   	0
+
+2023-06-30 11:00:24,825 - INFO - Mask residues                          	1
+
+2023-06-30 11:00:24,825 - INFO - Mask lower case residues               	0
+
+2023-06-30 11:00:24,825 - INFO - Minimum diagonal score                 	15
+
+2023-06-30 11:00:24,825 - INFO - Spaced k-mers                          	1
+
+2023-06-30 11:00:24,825 - INFO - Spaced k-mer pattern                   	
+
+2023-06-30 11:00:24,825 - INFO - Local temporary path                   	
+
+2023-06-30 11:00:24,825 - INFO - Rescore mode                           	0
+
+2023-06-30 11:00:24,825 - INFO - Remove hits by seq. id. and coverage   	false
+
+2023-06-30 11:00:24,825 - INFO - Sort results                           	0
+
+2023-06-30 11:00:24,825 - INFO - Mask profile                           	1
+
+2023-06-30 11:00:24,825 - INFO - Profile E-value threshold              	0.1
+
+2023-06-30 11:00:24,825 - INFO - Global sequence weighting              	false
+
+2023-06-30 11:00:24,825 - INFO - Allow deletions                        	false
+
+2023-06-30 11:00:24,825 - INFO - Filter MSA                             	1
+
+2023-06-30 11:00:24,825 - INFO - Maximum seq. id. threshold             	0.9
+
+2023-06-30 11:00:24,825 - INFO - Minimum seq. id.                       	0
+
+2023-06-30 11:00:24,825 - INFO - Minimum score per column               	-20
+
+2023-06-30 11:00:24,826 - INFO - Minimum coverage                       	0
+
+2023-06-30 11:00:24,826 - INFO - Select N most diverse seqs             	1000
+
+2023-06-30 11:00:24,826 - INFO - Min codons in orf                      	30
+
+2023-06-30 11:00:24,826 - INFO - Max codons in length                   	32734
+
+2023-06-30 11:00:24,826 - INFO - Max orf gaps                           	2147483647
+
+2023-06-30 11:00:24,826 - INFO - Contig start mode                      	2
+
+2023-06-30 11:00:24,826 - INFO - Contig end mode                        	2
+
+2023-06-30 11:00:24,826 - INFO - Orf start mode                         	1
+
+2023-06-30 11:00:24,826 - INFO - Forward frames                         	1,2,3
+
+2023-06-30 11:00:24,826 - INFO - Reverse frames                         	1,2,3
+
+2023-06-30 11:00:24,826 - INFO - Translation table                      	1
+
+2023-06-30 11:00:24,826 - INFO - Translate orf                          	0
+
+2023-06-30 11:00:24,826 - INFO - Use all table starts                   	false
+
+2023-06-30 11:00:24,826 - INFO - Offset of numeric ids                  	0
+
+2023-06-30 11:00:24,826 - INFO - Create lookup                          	0
+
+2023-06-30 11:00:24,826 - INFO - Add orf stop                           	false
+
+2023-06-30 11:00:24,826 - INFO - Overlap between sequences              	0
+
+2023-06-30 11:00:24,826 - INFO - Sequence split mode                    	1
+
+2023-06-30 11:00:24,826 - INFO - Header split mode                      	0
+
+2023-06-30 11:00:24,827 - INFO - Chain overlapping alignments           	0
+
+2023-06-30 11:00:24,827 - INFO - Merge query                            	1
+
+2023-06-30 11:00:24,827 - INFO - Search type                            	0
+
+2023-06-30 11:00:24,827 - INFO - Search iterations                      	1
+
+2023-06-30 11:00:24,827 - INFO - Start sensitivity                      	4
+
+2023-06-30 11:00:24,827 - INFO - Search steps                           	1
+
+2023-06-30 11:00:24,827 - INFO - Exhaustive search mode                 	false
+
+2023-06-30 11:00:24,827 - INFO - Filter results during exhaustive search	0
+
+2023-06-30 11:00:24,827 - INFO - Strand selection                       	1
+
+2023-06-30 11:00:24,827 - INFO - LCA search mode                        	false
+
+2023-06-30 11:00:24,827 - INFO - Disk space limit                       	0
+
+2023-06-30 11:00:24,827 - INFO - MPI runner                             	
+
+2023-06-30 11:00:24,827 - INFO - Force restart with latest tmp          	false
+
+2023-06-30 11:00:24,827 - INFO - Remove temporary files                 	false
+
+2023-06-30 11:00:24,827 - INFO - 
+
+2023-06-30 11:00:25,261 - INFO - prefilter /home/dlueckin/bioinf/dbs/pharokka_db_correct/phrogs_profile_db KX687704/target_dir/target_seqs KX687704/tmp_dir//13436979186619015504/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 16 --compressed 0 -v 3 -s 8.5 
+
+2023-06-30 11:00:25,261 - INFO - 
+
+2023-06-30 11:00:25,262 - INFO - Query database size: 38880 type: Profile
+
+2023-06-30 11:00:25,262 - INFO - Estimated memory consumption: 488M
+
+2023-06-30 11:00:25,262 - INFO - Target database size: 78 type: Aminoacid
+
+2023-06-30 11:00:25,262 - INFO - Index table k-mer threshold: 0 at k-mer size 6 
+
+2023-06-30 11:00:25,262 - INFO - Index table: counting k-mers
+
+2023-06-30 11:00:25,452 - INFO - [=================================================================] 78 0s 12ms
+
+2023-06-30 11:00:25,452 - INFO - Index table: Masked residues: 239
+
+2023-06-30 11:00:25,452 - INFO - Index table: fill
+
+2023-06-30 11:00:27,358 - INFO - [=================================================================] 78 0s 4ms
+
+2023-06-30 11:00:27,358 - INFO - Index statistics
+
+2023-06-30 11:00:27,358 - INFO - Entries:          14536
+
+2023-06-30 11:00:27,358 - INFO - DB size:          488 MB
+
+2023-06-30 11:00:27,358 - INFO - Avg k-mer size:   0.000227
+
+2023-06-30 11:00:27,358 - INFO - Top 10 k-mers
+
+2023-06-30 11:00:27,359 - INFO -     EQLVDD	2
+
+2023-06-30 11:00:27,359 - INFO -     ILEDKD	2
+
+2023-06-30 11:00:27,359 - INFO -     GINLRE	2
+
+2023-06-30 11:00:27,359 - INFO -     DRRVDF	2
+
+2023-06-30 11:00:27,359 - INFO -     VSQGGK	2
+
+2023-06-30 11:00:27,359 - INFO -     YDNLIL	2
+
+2023-06-30 11:00:27,359 - INFO -     EIFPAN	2
+
+2023-06-30 11:00:27,359 - INFO -     ATLPLN	2
+
+2023-06-30 11:00:27,359 - INFO -     PANELP	2
+
+2023-06-30 11:00:27,359 - INFO -     FDDLDR	2
+
+2023-06-30 11:00:27,359 - INFO - Time for index table init: 0h 0m 0s 800ms
+
+2023-06-30 11:00:27,359 - INFO - Process prefiltering step 1 of 1
+
+2023-06-30 11:00:27,359 - INFO - 
+
+2023-06-30 11:00:27,359 - INFO - k-mer similarity threshold: 81
+
+2023-06-30 11:00:27,359 - INFO - Starting prefiltering scores calculation (step 1 of 1)
+
+2023-06-30 11:00:27,359 - INFO - Query db start 1 to 38880
+
+2023-06-30 11:00:27,359 - INFO - Target db start 1 to 78
+
+2023-06-30 11:01:42,679 - INFO - [=================================================================] 38.88K 1m 16s 438ms
+
+2023-06-30 11:01:42,680 - INFO - 
+
+2023-06-30 11:01:42,680 - INFO - 5386.328443 k-mers per position
+
+2023-06-30 11:01:42,680 - INFO - 203 DB matches per sequence
+
+2023-06-30 11:01:42,680 - INFO - 0 overflows
+
+2023-06-30 11:01:42,680 - INFO - 0 queries produce too many hits (truncated result)
+
+2023-06-30 11:01:42,680 - INFO - 4 sequences passed prefiltering per query sequence
+
+2023-06-30 11:01:42,680 - INFO - 3 median result list length
+
+2023-06-30 11:01:42,680 - INFO - 3918 sequences with 0 size result lists
+
+2023-06-30 11:01:42,680 - INFO - Time for merging to pref_0: 0h 0m 0s 98ms
+
+2023-06-30 11:01:42,680 - INFO - Time for processing: 0h 1m 17s 843ms
+
+2023-06-30 11:01:42,843 - INFO - align /home/dlueckin/bioinf/dbs/pharokka_db_correct/phrogs_profile_db KX687704/target_dir/target_seqs KX687704/tmp_dir//13436979186619015504/pref_0 KX687704/mmseqs/results_mmseqs --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 1e-05 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 16 --compressed 0 -v 3 
+
+2023-06-30 11:01:42,844 - INFO - 
+
+2023-06-30 11:01:42,844 - INFO - Compute score and coverage
+
+2023-06-30 11:01:42,844 - INFO - Query database size: 38880 type: Profile
+
+2023-06-30 11:01:42,844 - INFO - Target database size: 78 type: Aminoacid
+
+2023-06-30 11:01:42,844 - INFO - Calculation of alignments
+
+2023-06-30 11:01:44,297 - INFO - [=================================================================] 38.88K 1s 343ms
+
+2023-06-30 11:01:44,297 - INFO - Time for merging to results_mmseqs: 0h 0m 0s 92ms
+
+2023-06-30 11:01:44,298 - INFO - 163777 alignments calculated
+
+2023-06-30 11:01:44,298 - INFO - 7 sequence pairs passed the thresholds (0.000043 of overall calculated)
+
+2023-06-30 11:01:44,298 - INFO - 0.000180 hits per query sequence
+
+2023-06-30 11:01:44,298 - INFO - Time for processing: 0h 0m 1s 606ms
+
+2023-06-30 11:01:44,533 - INFO - createtsv /home/dlueckin/bioinf/dbs/pharokka_db_correct/phrogs_profile_db KX687704/target_dir/target_seqs KX687704/mmseqs/results_mmseqs KX687704/mmseqs_results.tsv --full-header --threads 16 
+
+2023-06-30 11:01:44,534 - INFO - 
+
+2023-06-30 11:01:44,534 - INFO - MMseqs Version:                 	13.45111
+
+2023-06-30 11:01:44,534 - INFO - First sequence as representative	false
+
+2023-06-30 11:01:44,534 - INFO - Target column                   	1
+
+2023-06-30 11:01:44,534 - INFO - Add full header                 	true
+
+2023-06-30 11:01:44,534 - INFO - Sequence source                 	0
+
+2023-06-30 11:01:44,534 - INFO - Database output                 	false
+
+2023-06-30 11:01:44,534 - INFO - Threads                         	16
+
+2023-06-30 11:01:44,534 - INFO - Compressed                      	0
+
+2023-06-30 11:01:44,534 - INFO - Verbosity                       	3
+
+2023-06-30 11:01:44,534 - INFO - 
+
+2023-06-30 11:01:44,534 - INFO - Time for merging to mmseqs_results.tsv: 0h 0m 0s 109ms
+
+2023-06-30 11:01:44,534 - INFO - Time for processing: 0h 0m 0s 225ms
+
+2023-06-30 11:01:44,551 - INFO - Running mmseqs2 on CARD.
+2023-06-30 11:01:45,149 - INFO - createdb KX687704/phanotate_aas_tmp.fasta KX687704/CARD_target_dir/target_seqs 
+
+2023-06-30 11:01:45,149 - INFO - 
+
+2023-06-30 11:01:45,149 - INFO - MMseqs Version:       	13.45111
+
+2023-06-30 11:01:45,149 - INFO - Database type         	0
+
+2023-06-30 11:01:45,149 - INFO - Shuffle input database	true
+
+2023-06-30 11:01:45,149 - INFO - Createdb mode         	0
+
+2023-06-30 11:01:45,149 - INFO - Write lookup file     	1
+
+2023-06-30 11:01:45,149 - INFO - Offset of numeric ids 	0
+
+2023-06-30 11:01:45,150 - INFO - Compressed            	0
+
+2023-06-30 11:01:45,150 - INFO - Verbosity             	3
+
+2023-06-30 11:01:45,150 - INFO - 
+
+2023-06-30 11:01:45,150 - INFO - Converting sequences
+
+2023-06-30 11:01:45,150 - INFO - [
+
+2023-06-30 11:01:45,150 - INFO - Time for merging to target_seqs_h: 0h 0m 0s 143ms
+
+2023-06-30 11:01:45,150 - INFO - Time for merging to target_seqs: 0h 0m 0s 130ms
+
+2023-06-30 11:01:45,150 - INFO - Database type: Aminoacid
+
+2023-06-30 11:01:45,150 - INFO - Time for processing: 0h 0m 0s 590ms
+
+2023-06-30 11:01:45,161 - INFO - Create directory KX687704/CARD_tmp_dir/
+
+2023-06-30 11:01:45,161 - INFO - search --min-seq-id 0.8 -c 0.4 /home/dlueckin/bioinf/dbs/pharokka_db_correct/CARD KX687704/CARD_target_dir/target_seqs KX687704/CARD/results_CARD KX687704/CARD_tmp_dir/ -s 8.5 --threads 16 
+
+2023-06-30 11:01:45,161 - INFO - 
+
+2023-06-30 11:01:45,161 - INFO - MMseqs Version:                        	13.45111
+
+2023-06-30 11:01:45,161 - INFO - Substitution matrix                    	nucl:nucleotide.out,aa:blosum62.out
+
+2023-06-30 11:01:45,161 - INFO - Add backtrace                          	false
+
+2023-06-30 11:01:45,161 - INFO - Alignment mode                         	2
+
+2023-06-30 11:01:45,161 - INFO - Alignment mode                         	0
+
+2023-06-30 11:01:45,161 - INFO - Allow wrapped scoring                  	false
+
+2023-06-30 11:01:45,161 - INFO - E-value threshold                      	0.001
+
+2023-06-30 11:01:45,161 - INFO - Seq. id. threshold                     	0.8
+
+2023-06-30 11:01:45,161 - INFO - Min alignment length                   	0
+
+2023-06-30 11:01:45,161 - INFO - Seq. id. mode                          	0
+
+2023-06-30 11:01:45,162 - INFO - Alternative alignments                 	0
+
+2023-06-30 11:01:45,162 - INFO - Coverage threshold                     	0.4
+
+2023-06-30 11:01:45,162 - INFO - Coverage mode                          	0
+
+2023-06-30 11:01:45,162 - INFO - Max sequence length                    	65535
+
+2023-06-30 11:01:45,162 - INFO - Compositional bias                     	1
+
+2023-06-30 11:01:45,162 - INFO - Max reject                             	2147483647
+
+2023-06-30 11:01:45,162 - INFO - Max accept                             	2147483647
+
+2023-06-30 11:01:45,162 - INFO - Include identical seq. id.             	false
+
+2023-06-30 11:01:45,162 - INFO - Preload mode                           	0
+
+2023-06-30 11:01:45,162 - INFO - Pseudo count a                         	1
+
+2023-06-30 11:01:45,162 - INFO - Pseudo count b                         	1.5
+
+2023-06-30 11:01:45,162 - INFO - Score bias                             	0
+
+2023-06-30 11:01:45,162 - INFO - Realign hits                           	false
+
+2023-06-30 11:01:45,162 - INFO - Realign score bias                     	-0.2
+
+2023-06-30 11:01:45,162 - INFO - Realign max seqs                       	2147483647
+
+2023-06-30 11:01:45,162 - INFO - Gap open cost                          	nucl:5,aa:11
+
+2023-06-30 11:01:45,162 - INFO - Gap extension cost                     	nucl:2,aa:1
+
+2023-06-30 11:01:45,162 - INFO - Zdrop                                  	40
+
+2023-06-30 11:01:45,163 - INFO - Threads                                	16
+
+2023-06-30 11:01:45,163 - INFO - Compressed                             	0
+
+2023-06-30 11:01:45,163 - INFO - Verbosity                              	3
+
+2023-06-30 11:01:45,163 - INFO - Seed substitution matrix               	nucl:nucleotide.out,aa:VTML80.out
+
+2023-06-30 11:01:45,163 - INFO - Sensitivity                            	8.5
+
+2023-06-30 11:01:45,163 - INFO - k-mer length                           	0
+
+2023-06-30 11:01:45,163 - INFO - k-score                                	2147483647
+
+2023-06-30 11:01:45,163 - INFO - Alphabet size                          	nucl:5,aa:21
+
+2023-06-30 11:01:45,163 - INFO - Max results per query                  	300
+
+2023-06-30 11:01:45,163 - INFO - Split database                         	0
+
+2023-06-30 11:01:45,163 - INFO - Split mode                             	2
+
+2023-06-30 11:01:45,163 - INFO - Split memory limit                     	0
+
+2023-06-30 11:01:45,163 - INFO - Diagonal scoring                       	true
+
+2023-06-30 11:01:45,163 - INFO - Exact k-mer matching                   	0
+
+2023-06-30 11:01:45,163 - INFO - Mask residues                          	1
+
+2023-06-30 11:01:45,163 - INFO - Mask lower case residues               	0
+
+2023-06-30 11:01:45,163 - INFO - Minimum diagonal score                 	15
+
+2023-06-30 11:01:45,163 - INFO - Spaced k-mers                          	1
+
+2023-06-30 11:01:45,163 - INFO - Spaced k-mer pattern                   	
+
+2023-06-30 11:01:45,163 - INFO - Local temporary path                   	
+
+2023-06-30 11:01:45,164 - INFO - Rescore mode                           	0
+
+2023-06-30 11:01:45,164 - INFO - Remove hits by seq. id. and coverage   	false
+
+2023-06-30 11:01:45,164 - INFO - Sort results                           	0
+
+2023-06-30 11:01:45,164 - INFO - Mask profile                           	1
+
+2023-06-30 11:01:45,164 - INFO - Profile E-value threshold              	0.1
+
+2023-06-30 11:01:45,164 - INFO - Global sequence weighting              	false
+
+2023-06-30 11:01:45,164 - INFO - Allow deletions                        	false
+
+2023-06-30 11:01:45,164 - INFO - Filter MSA                             	1
+
+2023-06-30 11:01:45,164 - INFO - Maximum seq. id. threshold             	0.9
+
+2023-06-30 11:01:45,164 - INFO - Minimum seq. id.                       	0
+
+2023-06-30 11:01:45,164 - INFO - Minimum score per column               	-20
+
+2023-06-30 11:01:45,164 - INFO - Minimum coverage                       	0
+
+2023-06-30 11:01:45,164 - INFO - Select N most diverse seqs             	1000
+
+2023-06-30 11:01:45,164 - INFO - Min codons in orf                      	30
+
+2023-06-30 11:01:45,164 - INFO - Max codons in length                   	32734
+
+2023-06-30 11:01:45,164 - INFO - Max orf gaps                           	2147483647
+
+2023-06-30 11:01:45,164 - INFO - Contig start mode                      	2
+
+2023-06-30 11:01:45,164 - INFO - Contig end mode                        	2
+
+2023-06-30 11:01:45,164 - INFO - Orf start mode                         	1
+
+2023-06-30 11:01:45,165 - INFO - Forward frames                         	1,2,3
+
+2023-06-30 11:01:45,165 - INFO - Reverse frames                         	1,2,3
+
+2023-06-30 11:01:45,165 - INFO - Translation table                      	1
+
+2023-06-30 11:01:45,165 - INFO - Translate orf                          	0
+
+2023-06-30 11:01:45,165 - INFO - Use all table starts                   	false
+
+2023-06-30 11:01:45,165 - INFO - Offset of numeric ids                  	0
+
+2023-06-30 11:01:45,165 - INFO - Create lookup                          	0
+
+2023-06-30 11:01:45,165 - INFO - Add orf stop                           	false
+
+2023-06-30 11:01:45,165 - INFO - Overlap between sequences              	0
+
+2023-06-30 11:01:45,165 - INFO - Sequence split mode                    	1
+
+2023-06-30 11:01:45,165 - INFO - Header split mode                      	0
+
+2023-06-30 11:01:45,165 - INFO - Chain overlapping alignments           	0
+
+2023-06-30 11:01:45,165 - INFO - Merge query                            	1
+
+2023-06-30 11:01:45,165 - INFO - Search type                            	0
+
+2023-06-30 11:01:45,165 - INFO - Search iterations                      	1
+
+2023-06-30 11:01:45,165 - INFO - Start sensitivity                      	4
+
+2023-06-30 11:01:45,165 - INFO - Search steps                           	1
+
+2023-06-30 11:01:45,165 - INFO - Exhaustive search mode                 	false
+
+2023-06-30 11:01:45,165 - INFO - Filter results during exhaustive search	0
+
+2023-06-30 11:01:45,174 - INFO - Strand selection                       	1
+
+2023-06-30 11:01:45,174 - INFO - LCA search mode                        	false
+
+2023-06-30 11:01:45,174 - INFO - Disk space limit                       	0
+
+2023-06-30 11:01:45,174 - INFO - MPI runner                             	
+
+2023-06-30 11:01:45,174 - INFO - Force restart with latest tmp          	false
+
+2023-06-30 11:01:45,174 - INFO - Remove temporary files                 	false
+
+2023-06-30 11:01:45,174 - INFO - 
+
+2023-06-30 11:01:45,549 - INFO - prefilter /home/dlueckin/bioinf/dbs/pharokka_db_correct/CARD KX687704/CARD_target_dir/target_seqs KX687704/CARD_tmp_dir//17647712267017633899/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.4 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 16 --compressed 0 -v 3 -s 8.5 
+
+2023-06-30 11:01:45,549 - INFO - 
+
+2023-06-30 11:01:45,549 - INFO - Query database size: 4641 type: Aminoacid
+
+2023-06-30 11:01:45,549 - INFO - Estimated memory consumption: 977M
+
+2023-06-30 11:01:45,549 - INFO - Target database size: 78 type: Aminoacid
+
+2023-06-30 11:01:45,549 - INFO - Index table k-mer threshold: 87 at k-mer size 6 
+
+2023-06-30 11:01:45,549 - INFO - Index table: counting k-mers
+
+2023-06-30 11:01:45,731 - INFO - [=================================================================] 78 0s 23ms
+
+2023-06-30 11:01:45,731 - INFO - Index table: Masked residues: 206
+
+2023-06-30 11:01:45,731 - INFO - Index table: fill
+
+2023-06-30 11:01:46,589 - INFO - [=================================================================] 78 0s 7ms
+
+2023-06-30 11:01:46,589 - INFO - Index statistics
+
+2023-06-30 11:01:46,589 - INFO - Entries:          14534
+
+2023-06-30 11:01:46,589 - INFO - DB size:          488 MB
+
+2023-06-30 11:01:46,589 - INFO - Avg k-mer size:   0.000227
+
+2023-06-30 11:01:46,590 - INFO - Top 10 k-mers
+
+2023-06-30 11:01:46,590 - INFO -     EQLVDD	2
+
+2023-06-30 11:01:46,590 - INFO -     ILEDKD	2
+
+2023-06-30 11:01:46,590 - INFO -     GINLRE	2
+
+2023-06-30 11:01:46,590 - INFO -     DRRVDF	2
+
+2023-06-30 11:01:46,590 - INFO -     VSQGGK	2
+
+2023-06-30 11:01:46,590 - INFO -     YDNLIL	2
+
+2023-06-30 11:01:46,590 - INFO -     EIFPAN	2
+
+2023-06-30 11:01:46,590 - INFO -     ATLPLN	2
+
+2023-06-30 11:01:46,590 - INFO -     PANELP	2
+
+2023-06-30 11:01:46,590 - INFO -     FDDLDR	2
+
+2023-06-30 11:01:46,590 - INFO - Time for index table init: 0h 0m 0s 750ms
+
+2023-06-30 11:01:46,590 - INFO - Process prefiltering step 1 of 1
+
+2023-06-30 11:01:46,590 - INFO - 
+
+2023-06-30 11:01:46,590 - INFO - k-mer similarity threshold: 87
+
+2023-06-30 11:01:46,590 - INFO - Starting prefiltering scores calculation (step 1 of 1)
+
+2023-06-30 11:01:46,590 - INFO - Query db start 1 to 4641
+
+2023-06-30 11:01:46,590 - INFO - Target db start 1 to 78
+
+2023-06-30 11:01:57,507 - INFO - [=================================================================] 4.64K 10s 949ms
+
+2023-06-30 11:01:57,508 - INFO - 
+
+2023-06-30 11:01:57,508 - INFO - 3883.681631 k-mers per position
+
+2023-06-30 11:01:57,508 - INFO - 293 DB matches per sequence
+
+2023-06-30 11:01:57,508 - INFO - 0 overflows
+
+2023-06-30 11:01:57,508 - INFO - 0 queries produce too many hits (truncated result)
+
+2023-06-30 11:01:57,508 - INFO - 5 sequences passed prefiltering per query sequence
+
+2023-06-30 11:01:57,508 - INFO - 5 median result list length
+
+2023-06-30 11:01:57,508 - INFO - 25 sequences with 0 size result lists
+
+2023-06-30 11:01:57,508 - INFO - Time for merging to pref_0: 0h 0m 0s 40ms
+
+2023-06-30 11:01:57,508 - INFO - Time for processing: 0h 0m 12s 324ms
+
+2023-06-30 11:01:57,583 - INFO - align /home/dlueckin/bioinf/dbs/pharokka_db_correct/CARD KX687704/CARD_target_dir/target_seqs KX687704/CARD_tmp_dir//17647712267017633899/pref_0 KX687704/CARD/results_CARD --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.4 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 16 --compressed 0 -v 3 
+
+2023-06-30 11:01:57,584 - INFO - 
+
+2023-06-30 11:01:57,584 - INFO - Compute score and coverage
+
+2023-06-30 11:01:57,584 - INFO - Query database size: 4641 type: Aminoacid
+
+2023-06-30 11:01:57,584 - INFO - Target database size: 78 type: Aminoacid
+
+2023-06-30 11:01:57,584 - INFO - Calculation of alignments
+
+2023-06-30 11:01:57,967 - INFO - [=================================================================] 4.64K 0s 203ms
+
+2023-06-30 11:01:57,968 - INFO - Time for merging to results_CARD: 0h 0m 0s 40ms
+
+2023-06-30 11:01:57,968 - INFO - 16924 alignments calculated
+
+2023-06-30 11:01:57,968 - INFO - 0 sequence pairs passed the thresholds (0.000000 of overall calculated)
+
+2023-06-30 11:01:57,968 - INFO - 0.000000 hits per query sequence
+
+2023-06-30 11:01:57,968 - INFO - Time for processing: 0h 0m 0s 452ms
+
+2023-06-30 11:01:58,158 - INFO - createtsv /home/dlueckin/bioinf/dbs/pharokka_db_correct/CARD KX687704/CARD_target_dir/target_seqs KX687704/CARD/results_CARD KX687704/CARD_results.tsv --full-header --threads 16 
+
+2023-06-30 11:01:58,158 - INFO - 
+
+2023-06-30 11:01:58,158 - INFO - MMseqs Version:                 	13.45111
+
+2023-06-30 11:01:58,158 - INFO - First sequence as representative	false
+
+2023-06-30 11:01:58,158 - INFO - Target column                   	1
+
+2023-06-30 11:01:58,158 - INFO - Add full header                 	true
+
+2023-06-30 11:01:58,158 - INFO - Sequence source                 	0
+
+2023-06-30 11:01:58,158 - INFO - Database output                 	false
+
+2023-06-30 11:01:58,158 - INFO - Threads                         	16
+
+2023-06-30 11:01:58,158 - INFO - Compressed                      	0
+
+2023-06-30 11:01:58,158 - INFO - Verbosity                       	3
+
+2023-06-30 11:01:58,158 - INFO - 
+
+2023-06-30 11:01:58,158 - INFO - Time for merging to CARD_results.tsv: 0h 0m 0s 106ms
+
+2023-06-30 11:01:58,159 - INFO - Time for processing: 0h 0m 0s 182ms
+
+2023-06-30 11:01:58,282 - INFO - Running mmseqs2 on vfdb.
+2023-06-30 11:02:00,128 - INFO - createdb KX687704/phanotate_aas_tmp.fasta KX687704/vfdb_target_dir/target_seqs 
+
+2023-06-30 11:02:00,128 - INFO - 
+
+2023-06-30 11:02:00,128 - INFO - MMseqs Version:       	13.45111
+
+2023-06-30 11:02:00,129 - INFO - Database type         	0
+
+2023-06-30 11:02:00,129 - INFO - Shuffle input database	true
+
+2023-06-30 11:02:00,129 - INFO - Createdb mode         	0
+
+2023-06-30 11:02:00,129 - INFO - Write lookup file     	1
+
+2023-06-30 11:02:00,129 - INFO - Offset of numeric ids 	0
+
+2023-06-30 11:02:00,129 - INFO - Compressed            	0
+
+2023-06-30 11:02:00,129 - INFO - Verbosity             	3
+
+2023-06-30 11:02:00,129 - INFO - 
+
+2023-06-30 11:02:00,129 - INFO - Converting sequences
+
+2023-06-30 11:02:00,129 - INFO - [
+
+2023-06-30 11:02:00,129 - INFO - Time for merging to target_seqs_h: 0h 0m 0s 450ms
+
+2023-06-30 11:02:00,129 - INFO - Time for merging to target_seqs: 0h 0m 0s 320ms
+
+2023-06-30 11:02:00,129 - INFO - Database type: Aminoacid
+
+2023-06-30 11:02:00,129 - INFO - Time for processing: 0h 0m 1s 818ms
+
+2023-06-30 11:02:00,140 - INFO - Create directory KX687704/vfdb_tmp_dir/
+
+2023-06-30 11:02:00,140 - INFO - search --min-seq-id 0.8 -c 0.4 /home/dlueckin/bioinf/dbs/pharokka_db_correct/vfdb KX687704/vfdb_target_dir/target_seqs KX687704/vfdb/results_vfdb KX687704/vfdb_tmp_dir/ -s 8.5 --threads 16 
+
+2023-06-30 11:02:00,140 - INFO - 
+
+2023-06-30 11:02:00,140 - INFO - MMseqs Version:                        	13.45111
+
+2023-06-30 11:02:00,140 - INFO - Substitution matrix                    	nucl:nucleotide.out,aa:blosum62.out
+
+2023-06-30 11:02:00,140 - INFO - Add backtrace                          	false
+
+2023-06-30 11:02:00,140 - INFO - Alignment mode                         	2
+
+2023-06-30 11:02:00,140 - INFO - Alignment mode                         	0
+
+2023-06-30 11:02:00,140 - INFO - Allow wrapped scoring                  	false
+
+2023-06-30 11:02:00,140 - INFO - E-value threshold                      	0.001
+
+2023-06-30 11:02:00,140 - INFO - Seq. id. threshold                     	0.8
+
+2023-06-30 11:02:00,140 - INFO - Min alignment length                   	0
+
+2023-06-30 11:02:00,140 - INFO - Seq. id. mode                          	0
+
+2023-06-30 11:02:00,140 - INFO - Alternative alignments                 	0
+
+2023-06-30 11:02:00,140 - INFO - Coverage threshold                     	0.4
+
+2023-06-30 11:02:00,140 - INFO - Coverage mode                          	0
+
+2023-06-30 11:02:00,141 - INFO - Max sequence length                    	65535
+
+2023-06-30 11:02:00,141 - INFO - Compositional bias                     	1
+
+2023-06-30 11:02:00,141 - INFO - Max reject                             	2147483647
+
+2023-06-30 11:02:00,141 - INFO - Max accept                             	2147483647
+
+2023-06-30 11:02:00,141 - INFO - Include identical seq. id.             	false
+
+2023-06-30 11:02:00,141 - INFO - Preload mode                           	0
+
+2023-06-30 11:02:00,141 - INFO - Pseudo count a                         	1
+
+2023-06-30 11:02:00,141 - INFO - Pseudo count b                         	1.5
+
+2023-06-30 11:02:00,141 - INFO - Score bias                             	0
+
+2023-06-30 11:02:00,141 - INFO - Realign hits                           	false
+
+2023-06-30 11:02:00,141 - INFO - Realign score bias                     	-0.2
+
+2023-06-30 11:02:00,141 - INFO - Realign max seqs                       	2147483647
+
+2023-06-30 11:02:00,141 - INFO - Gap open cost                          	nucl:5,aa:11
+
+2023-06-30 11:02:00,141 - INFO - Gap extension cost                     	nucl:2,aa:1
+
+2023-06-30 11:02:00,141 - INFO - Zdrop                                  	40
+
+2023-06-30 11:02:00,141 - INFO - Threads                                	16
+
+2023-06-30 11:02:00,141 - INFO - Compressed                             	0
+
+2023-06-30 11:02:00,141 - INFO - Verbosity                              	3
+
+2023-06-30 11:02:00,141 - INFO - Seed substitution matrix               	nucl:nucleotide.out,aa:VTML80.out
+
+2023-06-30 11:02:00,141 - INFO - Sensitivity                            	8.5
+
+2023-06-30 11:02:00,142 - INFO - k-mer length                           	0
+
+2023-06-30 11:02:00,142 - INFO - k-score                                	2147483647
+
+2023-06-30 11:02:00,142 - INFO - Alphabet size                          	nucl:5,aa:21
+
+2023-06-30 11:02:00,142 - INFO - Max results per query                  	300
+
+2023-06-30 11:02:00,142 - INFO - Split database                         	0
+
+2023-06-30 11:02:00,142 - INFO - Split mode                             	2
+
+2023-06-30 11:02:00,142 - INFO - Split memory limit                     	0
+
+2023-06-30 11:02:00,142 - INFO - Diagonal scoring                       	true
+
+2023-06-30 11:02:00,142 - INFO - Exact k-mer matching                   	0
+
+2023-06-30 11:02:00,142 - INFO - Mask residues                          	1
+
+2023-06-30 11:02:00,142 - INFO - Mask lower case residues               	0
+
+2023-06-30 11:02:00,142 - INFO - Minimum diagonal score                 	15
+
+2023-06-30 11:02:00,142 - INFO - Spaced k-mers                          	1
+
+2023-06-30 11:02:00,142 - INFO - Spaced k-mer pattern                   	
+
+2023-06-30 11:02:00,142 - INFO - Local temporary path                   	
+
+2023-06-30 11:02:00,142 - INFO - Rescore mode                           	0
+
+2023-06-30 11:02:00,142 - INFO - Remove hits by seq. id. and coverage   	false
+
+2023-06-30 11:02:00,142 - INFO - Sort results                           	0
+
+2023-06-30 11:02:00,142 - INFO - Mask profile                           	1
+
+2023-06-30 11:02:00,142 - INFO - Profile E-value threshold              	0.1
+
+2023-06-30 11:02:00,142 - INFO - Global sequence weighting              	false
+
+2023-06-30 11:02:00,143 - INFO - Allow deletions                        	false
+
+2023-06-30 11:02:00,143 - INFO - Filter MSA                             	1
+
+2023-06-30 11:02:00,143 - INFO - Maximum seq. id. threshold             	0.9
+
+2023-06-30 11:02:00,143 - INFO - Minimum seq. id.                       	0
+
+2023-06-30 11:02:00,143 - INFO - Minimum score per column               	-20
+
+2023-06-30 11:02:00,143 - INFO - Minimum coverage                       	0
+
+2023-06-30 11:02:00,143 - INFO - Select N most diverse seqs             	1000
+
+2023-06-30 11:02:00,143 - INFO - Min codons in orf                      	30
+
+2023-06-30 11:02:00,143 - INFO - Max codons in length                   	32734
+
+2023-06-30 11:02:00,143 - INFO - Max orf gaps                           	2147483647
+
+2023-06-30 11:02:00,143 - INFO - Contig start mode                      	2
+
+2023-06-30 11:02:00,143 - INFO - Contig end mode                        	2
+
+2023-06-30 11:02:00,143 - INFO - Orf start mode                         	1
+
+2023-06-30 11:02:00,143 - INFO - Forward frames                         	1,2,3
+
+2023-06-30 11:02:00,143 - INFO - Reverse frames                         	1,2,3
+
+2023-06-30 11:02:00,143 - INFO - Translation table                      	1
+
+2023-06-30 11:02:00,143 - INFO - Translate orf                          	0
+
+2023-06-30 11:02:00,143 - INFO - Use all table starts                   	false
+
+2023-06-30 11:02:00,143 - INFO - Offset of numeric ids                  	0
+
+2023-06-30 11:02:00,143 - INFO - Create lookup                          	0
+
+2023-06-30 11:02:00,143 - INFO - Add orf stop                           	false
+
+2023-06-30 11:02:00,143 - INFO - Overlap between sequences              	0
+
+2023-06-30 11:02:00,144 - INFO - Sequence split mode                    	1
+
+2023-06-30 11:02:00,144 - INFO - Header split mode                      	0
+
+2023-06-30 11:02:00,144 - INFO - Chain overlapping alignments           	0
+
+2023-06-30 11:02:00,144 - INFO - Merge query                            	1
+
+2023-06-30 11:02:00,144 - INFO - Search type                            	0
+
+2023-06-30 11:02:00,144 - INFO - Search iterations                      	1
+
+2023-06-30 11:02:00,144 - INFO - Start sensitivity                      	4
+
+2023-06-30 11:02:00,144 - INFO - Search steps                           	1
+
+2023-06-30 11:02:00,144 - INFO - Exhaustive search mode                 	false
+
+2023-06-30 11:02:00,144 - INFO - Filter results during exhaustive search	0
+
+2023-06-30 11:02:00,144 - INFO - Strand selection                       	1
+
+2023-06-30 11:02:00,144 - INFO - LCA search mode                        	false
+
+2023-06-30 11:02:00,144 - INFO - Disk space limit                       	0
+
+2023-06-30 11:02:00,144 - INFO - MPI runner                             	
+
+2023-06-30 11:02:00,144 - INFO - Force restart with latest tmp          	false
+
+2023-06-30 11:02:00,144 - INFO - Remove temporary files                 	false
+
+2023-06-30 11:02:00,144 - INFO - 
+
+2023-06-30 11:02:00,563 - INFO - prefilter /home/dlueckin/bioinf/dbs/pharokka_db_correct/vfdb KX687704/vfdb_target_dir/target_seqs KX687704/vfdb_tmp_dir//5441368758915445832/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.4 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 16 --compressed 0 -v 3 -s 8.5 
+
+2023-06-30 11:02:00,564 - INFO - 
+
+2023-06-30 11:02:00,564 - INFO - Query database size: 27504 type: Aminoacid
+
+2023-06-30 11:02:00,564 - INFO - Estimated memory consumption: 977M
+
+2023-06-30 11:02:00,564 - INFO - Target database size: 78 type: Aminoacid
+
+2023-06-30 11:02:00,564 - INFO - Index table k-mer threshold: 87 at k-mer size 6 
+
+2023-06-30 11:02:00,564 - INFO - Index table: counting k-mers
+
+2023-06-30 11:02:00,711 - INFO - [=================================================================] 78 0s 19ms
+
+2023-06-30 11:02:00,711 - INFO - Index table: Masked residues: 206
+
+2023-06-30 11:02:00,711 - INFO - Index table: fill
+
+2023-06-30 11:02:02,913 - INFO - [=================================================================] 78 0s 5ms
+
+2023-06-30 11:02:02,913 - INFO - Index statistics
+
+2023-06-30 11:02:02,913 - INFO - Entries:          14534
+
+2023-06-30 11:02:02,913 - INFO - DB size:          488 MB
+
+2023-06-30 11:02:02,913 - INFO - Avg k-mer size:   0.000227
+
+2023-06-30 11:02:02,913 - INFO - Top 10 k-mers
+
+2023-06-30 11:02:02,913 - INFO -     EQLVDD	2
+
+2023-06-30 11:02:02,913 - INFO -     ILEDKD	2
+
+2023-06-30 11:02:02,913 - INFO -     GINLRE	2
+
+2023-06-30 11:02:02,913 - INFO -     DRRVDF	2
+
+2023-06-30 11:02:02,914 - INFO -     VSQGGK	2
+
+2023-06-30 11:02:02,914 - INFO -     YDNLIL	2
+
+2023-06-30 11:02:02,914 - INFO -     EIFPAN	2
+
+2023-06-30 11:02:02,914 - INFO -     ATLPLN	2
+
+2023-06-30 11:02:02,914 - INFO -     PANELP	2
+
+2023-06-30 11:02:02,914 - INFO -     FDDLDR	2
+
+2023-06-30 11:02:02,914 - INFO - Time for index table init: 0h 0m 0s 734ms
+
+2023-06-30 11:02:02,914 - INFO - Process prefiltering step 1 of 1
+
+2023-06-30 11:02:02,914 - INFO - 
+
+2023-06-30 11:02:02,914 - INFO - k-mer similarity threshold: 87
+
+2023-06-30 11:02:02,914 - INFO - Starting prefiltering scores calculation (step 1 of 1)
+
+2023-06-30 11:02:02,914 - INFO - Query db start 1 to 27504
+
+2023-06-30 11:02:02,914 - INFO - Target db start 1 to 78
+
+2023-06-30 11:03:19,979 - INFO - [=================================================================] 27.50K 1m 17s 713ms
+
+2023-06-30 11:03:19,980 - INFO - 
+
+2023-06-30 11:03:19,980 - INFO - 3159.764157 k-mers per position
+
+2023-06-30 11:03:19,980 - INFO - 386 DB matches per sequence
+
+2023-06-30 11:03:19,980 - INFO - 0 overflows
+
+2023-06-30 11:03:19,980 - INFO - 0 queries produce too many hits (truncated result)
+
+2023-06-30 11:03:19,981 - INFO - 6 sequences passed prefiltering per query sequence
+
+2023-06-30 11:03:19,981 - INFO - 5 median result list length
+
+2023-06-30 11:03:19,981 - INFO - 1582 sequences with 0 size result lists
+
+2023-06-30 11:03:19,981 - INFO - Time for merging to pref_0: 0h 0m 0s 90ms
+
+2023-06-30 11:03:19,981 - INFO - Time for processing: 0h 1m 19s 828ms
+
+2023-06-30 11:03:20,184 - INFO - align /home/dlueckin/bioinf/dbs/pharokka_db_correct/vfdb KX687704/vfdb_target_dir/target_seqs KX687704/vfdb_tmp_dir//5441368758915445832/pref_0 KX687704/vfdb/results_vfdb --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.4 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 16 --compressed 0 -v 3 
+
+2023-06-30 11:03:20,185 - INFO - 
+
+2023-06-30 11:03:20,185 - INFO - Compute score and coverage
+
+2023-06-30 11:03:20,185 - INFO - Query database size: 27504 type: Aminoacid
+
+2023-06-30 11:03:20,185 - INFO - Target database size: 78 type: Aminoacid
+
+2023-06-30 11:03:20,185 - INFO - Calculation of alignments
+
+2023-06-30 11:03:21,943 - INFO - [=================================================================] 27.50K 1s 678ms
+
+2023-06-30 11:03:21,944 - INFO - Time for merging to results_vfdb: 0h 0m 0s 72ms
+
+2023-06-30 11:03:21,944 - INFO - 96415 alignments calculated
+
+2023-06-30 11:03:21,944 - INFO - 0 sequence pairs passed the thresholds (0.000000 of overall calculated)
+
+2023-06-30 11:03:21,944 - INFO - 0.000000 hits per query sequence
+
+2023-06-30 11:03:21,944 - INFO - Time for processing: 0h 0m 1s 877ms
+
+2023-06-30 11:03:22,189 - INFO - createtsv /home/dlueckin/bioinf/dbs/pharokka_db_correct/vfdb KX687704/vfdb_target_dir/target_seqs KX687704/vfdb/results_vfdb KX687704/vfdb_results.tsv --full-header --threads 16 
+
+2023-06-30 11:03:22,189 - INFO - 
+
+2023-06-30 11:03:22,189 - INFO - MMseqs Version:                 	13.45111
+
+2023-06-30 11:03:22,189 - INFO - First sequence as representative	false
+
+2023-06-30 11:03:22,189 - INFO - Target column                   	1
+
+2023-06-30 11:03:22,190 - INFO - Add full header                 	true
+
+2023-06-30 11:03:22,190 - INFO - Sequence source                 	0
+
+2023-06-30 11:03:22,190 - INFO - Database output                 	false
+
+2023-06-30 11:03:22,190 - INFO - Threads                         	16
+
+2023-06-30 11:03:22,190 - INFO - Compressed                      	0
+
+2023-06-30 11:03:22,190 - INFO - Verbosity                       	3
+
+2023-06-30 11:03:22,190 - INFO - 
+
+2023-06-30 11:03:22,190 - INFO - Time for merging to vfdb_results.tsv: 0h 0m 0s 136ms
+
+2023-06-30 11:03:22,190 - INFO - Time for processing: 0h 0m 0s 236ms
+
+2023-06-30 11:03:22,250 - INFO - Post Processing Output.
+2023-06-30 11:03:22,730 - INFO - Converting gff to genbank.
+2023-06-30 11:03:22,830 - INFO - Finding the closest match for each contig in INPHARED using mash.
+2023-06-30 11:03:22,852 - INFO - Sketching ../../FINAL_complete_relatives/KX687704.1.fasta...
+
+2023-06-30 11:03:22,899 - INFO - Writing to KX687704/input_mash_sketch.msh...
+
+2023-06-30 11:03:24,262 - INFO - pharokka has finished
+2023-06-30 11:03:24,262 - INFO - Elapsed time: 205.2 seconds
+2023-06-30 11:03:24,262 - INFO - If you use pharokka in your research, please cite:
+2023-06-30 11:03:24,263 - INFO - George Bouras, Roshan Nepal, Ghais Houtak, Alkis James Psaltis, Peter-John Wormald, Sarah Vreugde.
+2023-06-30 11:03:24,263 - INFO - Pharokka: a fast scalable bacteriophage annotation tool.
+2023-06-30 11:03:24,263 - INFO - Bioinformatics, Volume 39, Issue 1, January 2023, btac776.
+2023-06-30 11:03:24,263 - INFO - https://doi.org/10.1093/bioinformatics/btac776.
+2023-06-30 11:03:24,263 - INFO - You should also cite the full list of tools pharokka uses, which can be found at https://github.com/gbouras13/pharokka#citation.

@@ -1,0 +1,1 @@
+s2star.s2star_calculator_redux(iphop_out/AOLZ01000012.1.fasta/Wdir/split_input/, /bioinf/transfer/tal/iphop_db/db/GTDBtkr202_and_newrepr_s2_mat.pkl, 1)s2star_matrix.to_csv(os.path.join(iphop_out/AOLZ01000012.1.fasta/Wdir/vhm_results/,'feature_values_s2star.csv'), float_format='%.4f')

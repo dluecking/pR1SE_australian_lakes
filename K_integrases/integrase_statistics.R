@@ -1,0 +1,46 @@
+# author: dlueckin
+# date: Thu Jun 29 12:41:08 2023
+
+# libraries ---------------------------------------------------------------
+library(data.table)
+library(stringr)
+library(seqinr)
+library(tidyr)
+library(ggplot2)
+library(dplyr)
+library(networkD3)
+
+
+# working directory -------------------------------------------------------
+this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+setwd(this_dir)
+print(paste0("Setting wd to: \n ", this_dir))
+
+# read google sheet -------------------------------------------------------
+
+manual_region_df <- as.data.table(read_sheet("https://docs.google.com/spreadsheets/d/1J9eVHjpSJsBOVN_gavMRTGaNeT7iXZSdowyOkn9GUsA/edit#gid=1238763630",
+                                             sheet = "pR1SE_relatives"))
+
+
+# plot integrase types ----------------------------------------------------
+
+ggplot(manual_region_df, aes(x = "integrases", y = manual_integrase_annotation, fill = manual_region_df$manual_integrase_annotation)) +
+    geom_bar(stat = "identity", position = "stack")
+
+
+df <- data.table(source = c("all", "all", "integrase", "integrase"),
+                 target = c("no integrase", "integrase", "phage familiy", "ser recombinase"),
+                 value = c(31, 50, 48, 2))
+nodes <- data.frame(
+    name=c(as.character(df$source), 
+           as.character(df$target)) %>% unique()
+)
+df$IDsource <- match(df$source, nodes$name)-1 
+df$IDtarget <- match(df$target, nodes$name)-1
+
+p1 <- sankeyNetwork(Links = df, Nodes = nodes,
+              Source = "IDsource", Target = "IDtarget",
+              Value = "value", NodeID = "name", 
+              sinksRight=FALSE)
+
+

@@ -9,6 +9,7 @@ library(tidyr)
 library(ggplot2)
 library(dplyr)
 library(patchwork)
+library(googlesheets4)
 
 # working directory -------------------------------------------------------
 this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)

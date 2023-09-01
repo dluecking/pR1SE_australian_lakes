@@ -1,0 +1,1 @@
+blastn -task megablast -query iphop_out/incomplete/novel_host_sequences_clean.fna -db /bioinf/transfer/tal/iphop_db/db/Host_Genomes/Host_Genomes -out iphop_out/incomplete/Wdir/blastgenomes.tsv -num_threads 1 -evalue 1e-3 -outfmt '6 std qlen slen nident positive' -max_target_seqs 25000 -perc_identity 80 > iphop_out/incomplete/Wdir/blastgenomes.tsv.log 2>&1

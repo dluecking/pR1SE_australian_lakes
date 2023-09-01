@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+YP_003212936.1       -          ORF17.faa            -             0.0062   20.7   1.7      0.43   14.7   0.2   2.1   2   0   0   2   2   2   2 hypothetical protein OTV1_113 [Ostreococcus tauri virus 1]
+YP_009191449.1       -          ORF17.faa            -               0.31   15.1   0.0      0.45   14.6   0.0   1.2   1   0   0   1   1   1   0 minor tail protein [Enterobacter phage phiEap-2]
+YP_009552751.1       -          ORF17.faa            -               0.35   15.0   1.1      0.52   14.4   1.1   1.2   1   0   0   1   1   1   0 E2 [Human papillomavirus type 203]
+YP_009885322.1       -          ORF17.faa            -               0.35   15.0   0.1      0.45   14.6   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein HYQ09_gp138 [Acinetobacter phage vB_AbaM_Konradin]
+YP_009886413.1       -          ORF17.faa            -               0.44   14.7   0.1      0.57   14.3   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein HYQ21_gp136 [Acinetobacter phage vB_AbaM_Apostate]
+YP_009901394.1       -          ORF17.faa            -               0.48   14.5   0.7   1.3e+02    6.6   0.1   2.3   2   0   0   2   2   2   0 hypothetical protein H1N84_gp04 [Shigella phage 2019SD1]
+NP_612706.1          -          ORF17.faa            -                0.5   14.5   7.1      0.55   14.4   7.1   1.1   1   0   0   1   1   1   0 envelope glycoprotein N [Panine betaherpesvirus 2]
+YP_009886168.1       -          ORF17.faa            -               0.68   14.1   0.2      0.87   13.7   0.2   1.1   1   0   0   1   1   1   0 hypothetical protein HYQ20_gp141 [Acinetobacter phage vB_AbaM_Berthold]
+YP_009880912.1       -          ORF17.faa            -               0.76   13.9   0.1      0.96   13.6   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein HYP67_gp142 [Acinetobacter phage vB_ApiM_fHyAci03]
+YP_009886911.1       -          ORF17.faa            -                1.2   13.2   0.1       1.6   12.8   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein HYQ23_gp138 [Acinetobacter phage vB_AbaM_Lazarus]
+YP_009886662.1       -          ORF17.faa            -                1.6   12.9   0.1         2   12.5   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein HYQ22_gp141 [Acinetobacter phage vB_AbaM_Kimel]
+NP_597740.1          -          ORF17.faa            -                1.8   12.7   0.9       4.2   11.4   0.7   1.6   1   1   0   1   1   1   0 regulatory protein E2 [Mupapillomavirus 1]
+YP_009881561.1       -          ORF17.faa            -                1.9   12.5   0.1       2.5   12.2   0.1   1.1   1   0   0   1   1   1   0 hypothetical protein HYP70_gp141 [Acinetobacter phage KARL-1]
+YP_010086207.1       -          ORF17.faa            -                2.4   12.2   0.6       3.5   11.7   0.6   1.2   1   0   0   1   1   1   0 nucleoprotein [Caimito virus]
+YP_009507269.1       -          ORF17.faa            -                3.8   11.6   0.6       5.7   11.0   0.6   1.2   1   0   0   1   1   1   0 putative early E2 protein [Eptesicus serotinus papillomavirus 1]
+YP_009217773.1       -          ORF17.faa            -                5.8   11.0   0.2   1.3e+02    6.6   0.1   2.0   2   0   0   2   2   2   0 hypothetical protein AVV41_gp089 [Microcystis phage MaMV-DC]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../A_generate_protein_clusters/FINAL_profiles/ORF17.faa.msa.hmm
+# Target file:     viral.1.protein.faa.gz
+# Option settings: hmmsearch --tblout hmm_out/ORF17.faa.msa.hmm.out --domtblout hmm_out/ORF17.faa.msa.hmm.dom.out --cpu 40 ../../A_generate_protein_clusters/FINAL_profiles/ORF17.faa.msa.hmm viral.1.protein.faa.gz 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/search_refseq_viruses
+# Date:            Mon Jul  3 12:37:14 2023
+# [ok]
