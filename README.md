@@ -62,4 +62,9 @@ had to copy the genes from ./E_check_synteny/genes/ since I had to replace the '
 `for i in *; do sed -i "s/\*//g" $i; done`
 
 
+#### G - annotate the complete relatives
+had to copy the genes from ./E_check_synteny/genes/ since I had to replace the '*' with '' in the protein files with the following command:
+`for i in *; do sed -i "s/\*//g" $i; done`
+
+
 
