@@ -1,6 +1,7 @@
 # all html and sco files
 *.html
 *.sco
+G_annotate_complete_relatives/DRAM_distilled
 
 # via the cool 'du --inodes -xS' command, I found:
 E_check_synteny/hmm_results
