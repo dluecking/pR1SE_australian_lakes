@@ -1,3 +1,7 @@
+# all html and sco files
+*.html
+*.sco
+
 # via the cool 'du --inodes -xS' command, I found:
 E_check_synteny/hmm_results
 C_search_ASL/01_hmm_results
