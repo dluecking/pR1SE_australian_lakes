@@ -1,7 +1,0 @@
-2023-08-23 14:17:51,741 - The log file is created at distill_out/JAJCVI010000007.1/distill.log
-2023-08-23 14:17:51,751 - Note: the fallowing id fields were not in the annotations file and are not being used: ['kegg_genes_id', 'kegg_id', 'camper_id', 'fegenie_id', 'sulfur_id', 'methyl_id'], but these are ['ko_id', 'kegg_hit', 'peptidase_family', 'cazy_best_hit', 'pfam_hits']
-2023-08-23 14:17:51,819 - Retrieved database locations and descriptions
-2023-08-23 14:17:51,827 - Calculated genome statistics
-2023-08-23 14:17:53,152 - Generated genome metabolism summary
-2023-08-23 14:17:54,297 - Generated product heatmap and table
-2023-08-23 14:17:54,297 - Completed distillation

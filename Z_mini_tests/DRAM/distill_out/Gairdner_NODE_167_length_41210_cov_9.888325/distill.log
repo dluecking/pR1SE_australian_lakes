@@ -1,7 +1,0 @@
-2023-08-23 14:17:32,495 - The log file is created at distill_out/Gairdner_NODE_167_length_41210_cov_9.888325/distill.log
-2023-08-23 14:17:32,502 - Note: the fallowing id fields were not in the annotations file and are not being used: ['kegg_genes_id', 'kegg_id', 'cazy_best_hit', 'camper_id', 'fegenie_id', 'sulfur_id', 'methyl_id'], but these are ['ko_id', 'kegg_hit', 'peptidase_family', 'pfam_hits']
-2023-08-23 14:17:32,570 - Retrieved database locations and descriptions
-2023-08-23 14:17:32,578 - Calculated genome statistics
-2023-08-23 14:17:33,842 - Generated genome metabolism summary
-2023-08-23 14:17:34,864 - Generated product heatmap and table
-2023-08-23 14:17:34,864 - Completed distillation
