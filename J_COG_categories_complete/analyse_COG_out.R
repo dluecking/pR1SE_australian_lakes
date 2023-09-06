@@ -39,9 +39,9 @@ blast_df <- rbindlist(lapply(list.files("blast_out", full.names = TRUE), fread))
 
 # add COG db, based on hit ------------------------------------------------
 
-def <- fread("../../misc/test_new_COG/cog-20.def.tab")
+def <- fread("../../misc/mvome_cog_analysis/helper_files/cog-20.def.tab")
 # cog needs to be treated with sed -i 's/,,,,,/,,,,/' cog-20.cog.csv
-cog <- fread("../../misc/test_new_COG/cog-20.cog.csv", fill = T, sep = ",") 
+cog <- fread("../../misc/mvome_cog_analysis/helper_files/cog-20.cog.csv", fill = T, sep = ",") 
 
 blast_df$COG <- cog$V7[match(blast_df$V2, cog$V3)]
 
@@ -175,11 +175,14 @@ template_df$perc <- template_df$COUNT / sum(template_df$COUNT) * 100
 
 
 # plot
-ggplot(template_df, aes(x = SHORT_DESCRIPTION, y = perc)) +
+ggplot(template_df, aes(x = reorder(SHORT_DESCRIPTION, desc(perc)), y = perc)) +
     geom_bar(stat = 'identity', color = "black", fill = "grey", alpha = 0.9) +
     theme_minimal() +
+    xlab("COG category") +
+    ylab("Assigned genes [%]") +
     ggtitle("COG category of genes OUTSIDE",
             subtitle = "outside: plasmids only, outside of pR1SE_regions") +
     theme(axis.text.x = element_text(angle = 45 ,  hjust=1),
-          plot.margin=unit(c(0.5,0.5,0.5,l = 2), "cm"))
+          plot.margin=unit(c(0.5,0.5,0.5,l = 2.5), "cm")) 
+
 ggsave(plot = last_plot(), filename = "../plots/COG_outside_pR1SE_regions.pdf", height = 4, width = 6)

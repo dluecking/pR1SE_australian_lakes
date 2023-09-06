@@ -104,7 +104,8 @@ ggsave(plot = last_plot(), file = "../plots/ciruclar_plasmids_region_and_full_co
 # quick calculation
 df <- region_df %>% 
     filter(genome_segment == "circular", integrated_state != "main_chromosome") %>% 
-    select(contig, length_minus_region, region_length_bp, sequence_length)
+    select(contig, length_minus_region, region_length_bp, sequence_length) %>% 
+    filter(contig != "AOID01000019.1") # since that has no defined region boundary
 df$ratio <- df$sequence_length / df$region_length_bp
 
 
