@@ -196,11 +196,12 @@ repeat_df <- left_join(repeat_df,
                            group_by(contig) %>% 
                            count(),
                        by = "contig")
+repeat_df$n <- repeat_df$n / 2
 ggplot(repeat_df, aes(x = sequence_length, y = n)) +
     geom_point() +
     theme_cowplot() +
     xlim(c(0, 300000)) +
-    ylim(c(0, 70)) +
+    ylim(c(0, 35)) +
     ylab("number of distant pairs")
 
 ggsave("../../plots/number_of_distant_pairs_vs_sequence_length.png")                       

@@ -73,3 +73,4 @@ ggplot(clean_df, aes(final_cluster, contig, fill = cluster_annotation, alpha = p
                                  "unknown" = "#FBFEF9"))
 
 ggsave(last_plot(), filename = "../plots/FIGURE_1_pangenome_collapsed.svg", height = 6, width = 16)
+ggsave(last_plot(), filename = "../plots/FIGURE_1_pangenome_collapsed.png", height = 6, width = 16)

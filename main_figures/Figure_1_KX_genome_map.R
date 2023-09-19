@@ -8,6 +8,8 @@ library(seqinr)
 library(tidyr)
 library(ggplot2)
 library(dplyr)
+library(gggenes)
+
 
 # working directory -------------------------------------------------------
 this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)

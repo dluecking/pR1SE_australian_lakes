@@ -9,6 +9,7 @@ library(tidyr)
 library(ggplot2)
 library(dplyr)
 library(googlesheets4)
+library(cowplot)
 
 # working directory -------------------------------------------------------
 this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
@@ -173,7 +174,8 @@ for(i in 1:nrow(template_df)){
 }
 template_df$perc <- template_df$COUNT / sum(template_df$COUNT) * 100
 
-
+fwrite(template_df, "df_to_plot_for_COG.tsv")
+template_df <- fread("df_to_plot_for_COG.tsv")
 # plot
 ggplot(template_df, aes(x = reorder(SHORT_DESCRIPTION, desc(perc)), y = perc)) +
     geom_bar(stat = 'identity', color = "black", fill = "grey", alpha = 0.9) +
@@ -182,7 +184,19 @@ ggplot(template_df, aes(x = reorder(SHORT_DESCRIPTION, desc(perc)), y = perc)) +
     ylab("Assigned genes [%]") +
     ggtitle("COG category of genes OUTSIDE",
             subtitle = "outside: plasmids only, outside of pR1SE_regions") +
+    theme(
+        panel.background = element_rect(fill='transparent'), #transparent panel bg
+        plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+        panel.grid.major = element_blank(), #remove major gridlines
+        panel.grid.minor = element_blank(), #remove minor gridlines
+        legend.background = element_rect(fill='transparent'), #transparent legend bg
+        legend.box.background = element_rect(fill='transparent') #transparent legend panel
+    ) +
+    theme_cowplot() +
     theme(axis.text.x = element_text(angle = 45 ,  hjust=1),
-          plot.margin=unit(c(0.5,0.5,0.5,l = 2.5), "cm")) 
+          plot.margin=unit(c(0.5,0.5,0.5,l = 3.5), "cm"))
 
-ggsave(plot = last_plot(), filename = "../plots/COG_outside_pR1SE_regions.pdf", height = 4, width = 6)
+ggsave(plot = last_plot(), filename = "../plots/COG_outside_pR1SE_regions.pdf", height = 4, width = 7,
+       bg = "transparent")
+ggsave(plot = last_plot(), filename = "../plots/COG_outside_pR1SE_regions.png", height = 4, width = 7,
+       bg = "transparent")
