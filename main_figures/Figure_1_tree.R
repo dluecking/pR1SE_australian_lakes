@@ -9,11 +9,13 @@ library(tidyr)
 library(ggplot2)
 library(dplyr)
 library(vegan)
-# library(hclust)
+library(patchwork)
 library(ggplotify)
 library(ggtree)
 library(ape)
 library(googlesheets4)
+library(aplot)
+library(cowplot)
 
 
 # working directory -------------------------------------------------------
@@ -64,14 +66,14 @@ p_classic <- plot(hclust_avg, xlab = "", ylab = "distance",
 # not great.  I have to export it. Or figure out
 
 
-
+# ggtree plot -------------------------------------------------------------
+# first convert the tree
+tree <- as.phylo(hclust_avg)
 
 
 # we need family information
 region_df <- as.data.table(read_sheet("https://docs.google.com/spreadsheets/d/1J9eVHjpSJsBOVN_gavMRTGaNeT7iXZSdowyOkn9GUsA/edit#gid=1238763630",
                                       sheet = "pR1SE_relatives"))
-region_df <- region_df %>% 
-    select(contig, family)
 
 feature_table <- data.table(label = tree$tip.label, host = "")
 feature_table$host <- region_df$family[match(feature_table$label, region_df$contig)]
@@ -79,14 +81,112 @@ feature_table$host <- region_df$family[match(feature_table$label, region_df$cont
 # Define a color palette mapping each unique host value to a color
 color_palette <- c("#ffbe0b", "#fb5607", "#ff006e", "#8338ec", "#3a86ff", "grey", "darkgreen")
 
+
 # Add the "color" column to the feature_table based on the host value
 feature_table[, color := color_palette[match(host, unique(host))]]
 
+tree_plot <- ""
+ggtree(tree, branch.length = 10) +
+    theme(plot.margin = unit(c(2, 2, 2, 2), "cm")) +
+    # geom_treescale(y = -3) +
+    geom_tiplab(align = TRUE, offset = 0.1, as_ylab = TRUE, color = "black") +
+    geom_tippoint(color = "black", shape = 23, size = 3, fill = feature_table$color) +
+    theme(
+        panel.grid = element_line(color = "transparent"),
+        panel.background = element_rect(fill='transparent'), #transparent panel bg
+        plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+        panel.grid.major = element_blank(), #remove major gridlines
+        panel.grid.minor = element_blank(), #remove minor gridlines
+        legend.background = element_rect(fill='transparent'), #transparent legend bg
+        legend.box.background = element_rect(fill='transparent') #transparent legend panel
+    )
 
-tree <- as.phylo(hclust_avg)
-plot(tree, type = "tidy", direction = "right", 
-     show.node.label = TRUE, 
-     no.margin = TRUE, font = 1,
-     col = feature_table$color)
+# replication plot
+region_df$contig <- str_remove(region_df$contig, "\\_length.*")
+region_df$replication_group[is.na(region_df$replication_group)] <- "unknown"
+region_df$manual_integrase_annotation[is.na(region_df$manual_integrase_annotation)] <- "unknown"
 
+
+replication_plot<- ggplot(data = region_df, aes(y = contig)) +
+    geom_point(aes(shape = genome_segment,  x = 0), fill = "black", color = "black", size = 3) +
+    geom_point(aes(fill = replication_group,  x = 0.1), shape = 22, alpha = 0.7, color = "black", size = 4) +
+    geom_text(aes(label = country, color = country), x = -0.5, hjust = 0) +
+    # THIS WOULD PRINT integrase absence presence
+    # geom_point(aes(fill = manual_integrase_annotation,  x = 0.1), shape = 22, alpha = 0.7, color = "black", size = 4) +
+    scale_y_discrete(name = "", position = "right", limits = rev(get_taxa_name(tree_plot))) +
+    scale_x_discrete(limits = c(0,0.2), name = "") +
+    theme_cowplot() +
+    theme(axis.ticks.x = element_blank(),
+          axis.text.x = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank(),
+          axis.line = element_blank(),
+          plot.margin = unit(c(0,0,0,0), "cm")) +
+    scale_fill_manual(values = c("CDC6" = "#8338ec",
+                                 "HNH" = "red",
+                                 "MCM" = "#43aa8b",
+                                 "recombinase" = "yellow",
+                                 "unknown" = "white",
+                                 "phage family" = "black",
+                                 "ser recombinase" = "black")) +
+    theme(legend.position = "None") +
+    scale_shape_manual(values = c("circular" = 1 ,
+                                 "linear" = 4)) +
+    theme(
+        # panel.background = element_rect(fill='transparent'), #transparent panel bg
+        plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+        panel.grid.major = element_blank(), #remove major gridlines
+        panel.grid.minor = element_blank(), #remove minor gridlines
+        legend.background = element_rect(fill='transparent'), #transparent legend bg
+        legend.box.background = element_rect(fill='transparent') #transparent legend panel
+    )
+
+p1 <- tree_plot + replication_plot +
+    theme(plot.margin = unit(c(.2,.2,.2,.2), "cm")) &
+    plot_annotation(theme = theme(plot.background = element_blank()))
+ggsave(p1, file = "../plots/tree_with_labels.png", height = 9, width = 9, bg = "transparent")
+ggsave(p1, file = "../plots/tree_with_labels.svg", height = 9, width = 9, bg = "transparent")
+
+
+
+# old
+# # add presence absence plot -----------------------------------------------
+# SEARCH_TERMS <- c("helicase", "cdc6", "HNH", "endonuclease", "recombinase", "integrase", "transposase", "pilin", "Vaccinia Virus protein VP39")
+# contig_df <- data.table("contig" = unique(interpro_df$contig))
 # 
+# for(word in SEARCH_TERMS){
+#     tmp_df <- interpro_df %>% 
+#         group_by(contig) %>% 
+#         summarize(word = ifelse(
+#             any(str_detect(annotation, regex(paste0(".*", word, ".*"), ignore_case = TRUE))
+#             ), TRUE, FALSE))
+#     names(tmp_df) <- c("contig", word)
+#     contig_df <- left_join(contig_df, tmp_df, by = "contig")
+# }
+# 
+# 
+# # combine information
+# to_plot <- gather(contig_df, key = "gene", value = "val", -contig)
+# to_plot$contig <- str_remove(to_plot$contig, "\\_length.*")
+# 
+# # plot
+# p2 <- ggplot(to_plot, aes(x = gene,y = contig, fill = , alpha = val)) + 
+#     geom_tile(colour = "black") +
+#     scale_alpha_identity(guide = "none") +
+#     coord_equal(expand = 0) +
+#     theme_bw() +
+#     theme(panel.grid.major = element_blank(),
+#           axis.text.x = element_blank(),
+#           axis.text.y = element_blank(),
+#           axis.ticks.y = element_blank(),
+#           legend.position = "None") +
+#     ggtitle("Others") +
+#     ylab("") +
+#     xlab("") + 
+#     scale_y_discrete(name = "", position = "right", limits = rev(get_taxa_name(p1)))
+# 
+
+
+# ## old
+# geom_point(aes(fill = repeat_type, x = 0.1), shape = 22, color = "black", size = 2) +
+

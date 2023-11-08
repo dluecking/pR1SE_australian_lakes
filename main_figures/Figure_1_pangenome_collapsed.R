@@ -48,8 +48,8 @@ x_order <- c(x_order, clean_df %>%
 
 # contig_order for now is KX on top, then the rest, but will change with tree!
 contig_order <- sort(unique(clean_df$contig))
-contig_order <- contig_order[contig_order != "KX906370.1"]
-contig_order <- c("KX906370.1", contig_order)
+contig_order <- contig_order[contig_order != "KX687704.1"]
+contig_order <- c("KX687704.1", contig_order)
 
 ggplot(clean_df, aes(final_cluster, contig, fill = cluster_annotation, alpha = presence)) + 
     geom_tile(colour = "black") +

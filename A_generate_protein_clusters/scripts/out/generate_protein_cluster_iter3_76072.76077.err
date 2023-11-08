@@ -1,0 +1,134 @@
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 43    1 / 43    2 / 43    3 / 43    4 / 43    5 / 43    6 / 43    7 / 43    8 / 43    9 / 43   10 / 43   11 / 43   12 / 43   13 / 43   14 / 43   15 / 43   16 / 43   17 / 43   18 / 43   19 / 43   20 / 43   21 / 43   22 / 43   23 / 43   24 / 43   25 / 43   26 / 43   27 / 43   28 / 43   29 / 43   30 / 43   31 / 43   32 / 43   33 / 43   34 / 43   35 / 43   36 / 43   37 / 43   38 / 43   39 / 43   40 / 43   41 / 43tbfast-pair (aa) Version 7.520
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 43   10 / 43   20 / 43   30 / 43   40 / 43
+done.
+
+Progressive alignment ... 
+STEP     1 /42 STEP     2 /42 STEP     3 /42 STEP     4 /42 STEP     5 /42 STEP     6 /42 STEP     7 /42 STEP     8 /42 STEP     9 /42 STEP    10 /42 STEP    11 /42 STEP    12 /42 STEP    13 /42 STEP    14 /42 STEP    15 /42 STEP    16 /42 STEP    17 /42 STEP    18 /42 STEP    19 /42 STEP    20 /42 STEP    21 /42 
+Reallocating..done. *alloclen = 2417
+STEP    22 /42 STEP    23 /42 STEP    24 /42 STEP    25 /42 STEP    26 /42 STEP    27 /42 STEP    28 /42 STEP    29 /42 STEP    30 /42 STEP    31 /42 STEP    32 /42 STEP    33 /42 STEP    34 /42 STEP    35 /42 STEP    36 /42 STEP    37 /42 STEP    38 /42 STEP    39 /42 STEP    40 /42 STEP    41 /42 STEP    42 /42 
+done.
+tbfast (aa) Version 7.520
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Warning message:
+package ‘data.table’ was built under R version 4.2.2 
+Warning message:
+package ‘stringr’ was built under R version 4.2.2 
+Warning message:
+package ‘seqinr’ was built under R version 4.2.3 
+Warning message:
+package ‘tidyr’ was built under R version 4.2.2 
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:seqinr’:
+
+    count
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.2.3 
+Warning message:
+package ‘rentrez’ was built under R version 4.2.1 
+Warning message:
+In fread(DOMTBLE_FILE, skip = 3, fill = TRUE) :
+  Stopped early on line 274. Expected 30 fields but found 31. Consider fill=TRUE and comment.char=. First discarded non-empty line: <<ACY17886.1           -            224 ORF24_alignment1     -            530       4.5   20.2   8.2   1   2   2.1e-05        28   17.6   0.2   249   300    42    93    27    99 0.89 SNARE associated Golgi protein-like protein [Haliangium ochraceum DSM 14365]>>
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 43    1 / 43    2 / 43    3 / 43    4 / 43    5 / 43    6 / 43    7 / 43    8 / 43    9 / 43   10 / 43   11 / 43   12 / 43   13 / 43   14 / 43   15 / 43   16 / 43   17 / 43   18 / 43   19 / 43   20 / 43   21 / 43   22 / 43   23 / 43   24 / 43   25 / 43   26 / 43   27 / 43   28 / 43   29 / 43   30 / 43   31 / 43   32 / 43   33 / 43   34 / 43   35 / 43   36 / 43   37 / 43   38 / 43   39 / 43   40 / 43   41 / 43tbfast-pair (aa) Version 7.520
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 43   10 / 43   20 / 43   30 / 43   40 / 43
+done.
+
+Progressive alignment ... 
+STEP     1 /42 STEP     2 /42 STEP     3 /42 STEP     4 /42 STEP     5 /42 STEP     6 /42 STEP     7 /42 STEP     8 /42 STEP     9 /42 STEP    10 /42 STEP    11 /42 STEP    12 /42 STEP    13 /42 STEP    14 /42 STEP    15 /42 STEP    16 /42 STEP    17 /42 STEP    18 /42 STEP    19 /42 STEP    20 /42 STEP    21 /42 
+Reallocating..done. *alloclen = 2417
+STEP    22 /42 STEP    23 /42 STEP    24 /42 STEP    25 /42 STEP    26 /42 STEP    27 /42 STEP    28 /42 STEP    29 /42 STEP    30 /42 STEP    31 /42 STEP    32 /42 STEP    33 /42 STEP    34 /42 STEP    35 /42 STEP    36 /42 STEP    37 /42 STEP    38 /42 STEP    39 /42 STEP    40 /42 STEP    41 /42 STEP    42 /42 
+done.
+tbfast (aa) Version 7.520
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Traceback (most recent call last):
+  File "/home/dlueckin/bin/miniconda3/envs/iterative_hmm/lib/python3.11/shutil.py", line 825, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: 'tmp_ORF24/ORF24_final_alignment.msa' -> '../10_hmm_iter/ORF24_iter3.msa'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dlueckin/projects/pR1SE_australian_lakes/A_generate_protein_clusters/scripts/inflate_protein_to_protile_to_mafft.py", line 68, in <module>
+    shutil.move(final_alignment_file, args.output_file)
+  File "/home/dlueckin/bin/miniconda3/envs/iterative_hmm/lib/python3.11/shutil.py", line 845, in move
+    copy_function(src, real_dst)
+  File "/home/dlueckin/bin/miniconda3/envs/iterative_hmm/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/dlueckin/bin/miniconda3/envs/iterative_hmm/lib/python3.11/shutil.py", line 258, in copyfile
+    with open(dst, 'wb') as fdst:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../10_hmm_iter/ORF24_iter3.msa'

@@ -1,0 +1,41 @@
+[2023-09-21 11:08:55] INFO: GTDB-Tk v2.1.1
+[2023-09-21 11:08:55] INFO: gtdbtk classify_wf --cpus 24 --genome_dir host_genomes/ --out_dir gtdbtk_out --extension fna
+[2023-09-21 11:08:55] INFO: Using GTDB-Tk reference data version r214: /bioinf/projects/MG_annotation_databases/gtdb-db/r214/
+[2023-09-21 11:08:55] INFO: Identifying markers in 32 genomes with 24 threads.
+[2023-09-21 11:08:55] TASK: Running Prodigal V2.6.3 to identify genes.
+[2023-09-21 11:10:16] INFO: Completed 32 genomes in 1.35 minutes (23.70 genomes/minute).
+[2023-09-21 11:10:16] TASK: Identifying TIGRFAM protein families.
+[2023-09-21 11:10:35] INFO: Completed 32 genomes in 18.93 seconds (1.69 genomes/second).
+[2023-09-21 11:10:35] TASK: Identifying Pfam protein families.
+[2023-09-21 11:10:37] INFO: Completed 32 genomes in 1.39 seconds (23.04 genomes/second).
+[2023-09-21 11:10:37] INFO: Annotations done using HMMER 3.1b2 (February 2015).
+[2023-09-21 11:10:37] TASK: Summarising identified marker genes.
+[2023-09-21 11:10:39] INFO: Completed 32 genomes in 2.07 seconds (15.45 genomes/second).
+[2023-09-21 11:10:39] INFO: Done.
+[2023-09-21 11:10:41] INFO: Aligning markers in 32 genomes with 24 CPUs.
+[2023-09-21 11:10:41] INFO: Processing 32 genomes identified as archaeal.
+[2023-09-21 11:10:42] INFO: Read concatenated alignment for 4,416 GTDB genomes.
+[2023-09-21 11:10:42] TASK: Generating concatenated alignment for each marker.
+[2023-09-21 11:10:42] INFO: Completed 32 genomes in 0.10 seconds (334.41 genomes/second).
+[2023-09-21 11:10:42] TASK: Aligning 53 identified markers using hmmalign 3.1b2 (February 2015).
+[2023-09-21 11:10:44] INFO: Completed 53 markers in 1.37 seconds (38.73 markers/second).
+[2023-09-21 11:10:44] TASK: Masking columns of archaeal multiple sequence alignment using canonical mask.
+[2023-09-21 11:10:49] INFO: Completed 4,448 sequences in 5.17 seconds (860.69 sequences/second).
+[2023-09-21 11:10:49] INFO: Masked archaeal alignment from 13,540 to 10,135 AAs.
+[2023-09-21 11:10:49] INFO: 0 archaeal user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2023-09-21 11:10:49] INFO: Creating concatenated alignment for 4,448 archaeal GTDB and user genomes.
+[2023-09-21 11:10:52] INFO: Creating concatenated alignment for 32 archaeal user genomes.
+[2023-09-21 11:10:52] INFO: Done.
+[2023-09-21 11:10:53] TASK: Placing 32 archaeal genomes into reference tree with pplacer using 24 CPUs (be patient).
+[2023-09-21 11:10:53] INFO: pplacer version: v1.1.alpha19-0-g807f6f3
+[2023-09-21 11:21:30] INFO: Calculating RED values based on reference tree.
+[2023-09-21 11:21:31] TASK: Traversing tree to determine classification method.
+[2023-09-21 11:21:31] INFO: Completed 32 genomes in 0.01 seconds (3,180.89 genomes/second).
+[2023-09-21 11:21:36] TASK: Calculating average nucleotide identity using FastANI (v1.3).
+[2023-09-21 11:22:37] INFO: Completed 978 comparisons in 1.02 minutes (954.64 comparisons/minute).
+[2023-09-21 11:22:37] INFO: 31 genome(s) have been classified using FastANI and pplacer.
+[2023-09-21 11:22:37] INFO: Note that Tk classification mode is insufficient for publication of new taxonomic designations. New designations should be based on one or more de novo trees, an example of which can be produced by Tk in de novo mode.
+[2023-09-21 11:22:37] INFO: Done.
+[2023-09-21 11:22:37] INFO: Removing intermediate files.
+[2023-09-21 11:22:38] INFO: Intermediate files removed.
+[2023-09-21 11:22:38] INFO: Done.

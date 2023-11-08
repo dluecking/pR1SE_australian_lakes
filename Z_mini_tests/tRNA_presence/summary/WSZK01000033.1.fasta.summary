@@ -1,0 +1,85 @@
+
+tRNAscan-SE v.2.0.12 (Nov 2022) scan results (on host linux-desktop-2)
+Started: Mon Aug 14 17:13:42 CEST 2023
+
+------------------------------------------------------------
+Sequence file(s) to search:        ../../FINAL_complete_relatives/WSZK01000033.1.fasta
+Search Mode:                       Archaeal
+Results written to:                WSZK01000033.1.fasta.out
+Output format:                     Tabular
+Searching with:                    Infernal First Pass->Infernal
+Isotype-specific model scan:       Yes
+Scan for noncanonical introns
+Covariance model:                  /home/dlueckin/bin/miniconda3/envs/tRNA-scanSE/lib/tRNAscan-SE/models/TRNAinf-arch.cm
+                                   /home/dlueckin/bin/miniconda3/envs/tRNA-scanSE/lib/tRNAscan-SE/models/TRNAinf-arch-SeC.cm
+Infernal first pass cutoff score:  10
+
+Temporary directory:               /tmp
+Search statistics saved in:        WSZK01000033.1.fasta.summary
+------------------------------------------------------------
+
+First-pass Stats:
+---------------
+Sequences read:         1
+Seqs w/at least 1 hit:  0
+Bases read:             40673 (x2 for both strands)
+Bases in tRNAs:         0
+tRNAs predicted:        0
+Av. tRNA length:        0
+Script CPU time:        0.01 s
+Scan CPU time:          0.57 s
+Scan speed:             142.7 Kbp/sec
+
+First pass search(es) ended: Mon Aug 14 17:13:43 CEST 2023
+
+Infernal Stats:
+-----------
+Candidate tRNAs read:     0
+Infernal-confirmed tRNAs:     0
+Bases scanned by Infernal:  0
+% seq scanned by Infernal:  0.0 %
+Script CPU time:          0.00 s
+Infernal CPU time:            0.00 s
+Scan speed:               0.0 bp/sec
+
+Infernal analysis of tRNAs ended: Mon Aug 14 17:13:43 CEST 2023
+
+Overall scan speed: 140251.7 bp/sec
+
+tRNAs decoding Standard 20 AA:              0
+Selenocysteine tRNAs (TCA):                 0
+Possible suppressor tRNAs (CTA,TTA,TCA):    0
+tRNAs with undetermined/unknown isotypes:   0
+Predicted pseudogenes:                      0
+                                            -------
+Total tRNAs:                                0
+
+tRNAs with introns:     	0
+
+|
+
+Isotype / Anticodon Counts:
+
+Ala     : 0	  AGC:         GGC:         CGC:         TGC:       
+Gly     : 0	  ACC:         GCC:         CCC:         TCC:       
+Pro     : 0	  AGG:         GGG:         CGG:         TGG:       
+Thr     : 0	  AGT:         GGT:         CGT:         TGT:       
+Val     : 0	  AAC:         GAC:         CAC:         TAC:       
+Ser     : 0	  AGA:         GGA:         CGA:         TGA:         ACT:         GCT:       
+Arg     : 0	  ACG:         GCG:         CCG:         TCG:         CCT:         TCT:       
+Leu     : 0	  AAG:         GAG:         CAG:         TAG:         CAA:         TAA:       
+Phe     : 0	  AAA:         GAA:                                 
+Asn     : 0	  ATT:         GTT:                                 
+Lys     : 0	                            CTT:         TTT:       
+Asp     : 0	  ATC:         GTC:                                 
+Glu     : 0	                            CTC:         TTC:       
+His     : 0	  ATG:         GTG:                                 
+Gln     : 0	                            CTG:         TTG:       
+Ile     : 0	  AAT:         GAT:         CAT:         TAT:       
+Met     : 0	                            CAT:                    
+Tyr     : 0	  ATA:         GTA:                                 
+Supres  : 0	               CTA:         TTA:         TCA:       
+Cys     : 0	  ACA:         GCA:                                 
+Trp     : 0	                            CCA:                    
+SelCys  : 0	                                         TCA:       
+

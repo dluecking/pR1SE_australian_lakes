@@ -15,6 +15,8 @@ setwd(this_dir)
 print(paste0("Setting wd to: \n ", this_dir))
 
 
+WINDOW <- 0
+
 # blast_df ----------------------------------------------------------------
 
 blast_df <- fread("combined_blast_results.out")
@@ -43,9 +45,10 @@ blast_df$host_species <- str_remove(str_extract(blast_df$host_taxonomy, "s\\_\\_
 blast_df$within_region <- FALSE
 for(i in 1:nrow(blast_df)){
     spacer_position <- blast_df$qstart[i]
-    if(between(x = spacer_position, 
-               left = region_df$region_start_bp[region_df$contig == blast_df$qseqid[i]],
-               right = region_df$region_start_bp[region_df$contig == blast_df$qseqid[i]])){
+    contig <-  blast_df$qseqid[i]
+    region_start <-  region_df$region_start_bp[region_df$contig == contig]
+    region_end <- region_df$region_end_bp[region_df$contig == contig]
+    if(between(x = spacer_position, left = region_start - WINDOW, right = region_end + WINDOW)){
         blast_df$within_region[i] <- TRUE
     }
 }
@@ -66,4 +69,4 @@ for(i in 1:nrow(region_df)){
     
     
 }
-write(region_df$CIRSPR_targeted_by, "CRISPR_targeted_by.tsv")
+write(region_df$CIRSPR_targeted_by, "CRISPR_targeted_by5k.tsv")

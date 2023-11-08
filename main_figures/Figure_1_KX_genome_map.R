@@ -36,7 +36,7 @@ gene_df$annot <- "unknown"
 
 gene_df$annot[7] <- "ORF6"
 gene_df$annot[9] <- "ORF8"
-gene_df$annot[11] <- "ORF10"
+gene_df$annot[10] <- "ORF9"
 gene_df$annot[18] <- "ORF17"
 gene_df$annot[22] <- "ORF21"
 gene_df$annot[24] <- "ORF23"
@@ -53,7 +53,7 @@ ggplot(gene_df, aes(xmin = start, xmax = end, y = contig, fill = annot)) +
     theme_genes() +
     scale_fill_manual(values = c("ORF6" = "#f94144",
                                  "ORF8" = "#f3722c",
-                                 "ORF10" = "#f8961e",
+                                 "ORF9" = "#f8961e",
                                  "ORF17" = "#f9c74f",
                                  "ORF21" = "#90be6d",
                                  "ORF23" = "#43aa8b",

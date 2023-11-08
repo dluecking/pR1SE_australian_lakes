@@ -61,9 +61,9 @@ region_df$length_minus_region <- region_df$sequence_length - region_df$region_le
 
 to_plot <- region_df %>% 
     filter(genome_segment == "circular", integrated_state != "main_chromosome") %>% 
-    select(contig, length_minus_region, region_length_bp, sequence_length)
-
-
+    select(contig, length_minus_region, region_length_bp, sequence_length) %>% 
+    filter(contig != "AOID01000019.1") %>% 
+    filter(contig != "JAAOHU010000009.1")
 
 a <- gather(to_plot, key = "which", "length", -contig)
 
@@ -84,16 +84,18 @@ a <- a %>% filter(which != "sequence_length")
 ggplot(a, aes(x = contig, y = length, fill = which)) +
     geom_bar(stat = 'identity', color = "black", alpha = 0.8) +
     coord_flip() +
-    xlab("Contig") +
+    xlab("apHPV contigs") +
     ylab("Sequence Length (bp)") +
     labs(fill = "") +
     coord_flip() +
-    theme_cowplot() +
-    theme(legend.position = "bottom") +
+    theme_cowplot(
+        font_size = 8
+    ) +
+    theme(legend.position = "none") +
     scale_fill_manual(values = c("length_minus_region" = "grey", "region_length_bp" = "orange"),
                       labels = c("full pR1SE contig", "core region"))
 
-ggsave(plot = last_plot(), file = "../plots/ciruclar_plasmids_region_and_full_contig_dualplot.png", height = 5, width = 6)
+ggsave(plot = last_plot(), file = "../plots/ciruclar_plasmids_region_and_full_contig_dualplot.png", height = 2.5, width = 3.5)
 
 
 

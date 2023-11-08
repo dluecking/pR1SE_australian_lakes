@@ -1,0 +1,2033 @@
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             tmp_ORF8/ORF8_alignment1.msa
+# output HMM file:                  tmp_ORF8/ORF8_profile.hmm
+# input alignment is asserted as:   protein
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     ORF8_alignment1         24   343   267     1.32  0.590 
+
+# CPU time: 0.21u 0.00s 00:00:00.21 Elapsed: 00:00:00.21
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  tmp_ORF8/ORF8_profile.hmm
+# target sequence database:        /home/dlueckin/bioinf/dbs/diamond_nr/nr.gz
+# per-dom hits tabular output:     tmp_ORF8/ORF8_hmmsearch_result.domtableout.txt
+# number of worker threads:        16
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ORF8_alignment1  [M=267]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   2.5e-107  372.6   6.1   2.8e-107  372.5   6.1    1.0  1  WP_006430202.1  twin-arginine translocation signal domain-con
+   6.9e-106  367.9   8.1   7.6e-106  367.8   8.1    1.0  1  WP_006665476.1  hypothetical protein [Natrialba aegyptia]
+   5.9e-105  364.8   9.8   6.8e-105  364.6   9.8    1.0  1  WP_276257233.1  hypothetical protein [Halovivax sp. TS33]
+   1.2e-104  363.8   6.0   1.4e-104  363.6   6.0    1.0  1  WP_138655685.1  hypothetical protein [Natrinema pallidum]
+   6.6e-103  358.1   5.2   7.4e-103  358.0   5.2    1.0  1  WP_049967301.1  hypothetical protein [Natrinema thermotoleran
+    6.6e-98  341.7  14.0    7.6e-98  341.5  14.0    1.0  1  WP_076583956.1  hypothetical protein [Natronorubrum daqingens
+    9.5e-98  341.2  12.1    1.1e-97  341.0  12.1    1.0  1  WP_006671473.1  hypothetical protein [Halobiforma nitratiredu
+      2e-96  336.9   9.2    2.3e-96  336.7   9.2    1.0  1  WP_174682793.1  hypothetical protein [Haloterrigena gelatinil
+    2.2e-96  336.7  10.6    2.6e-96  336.5  10.6    1.0  1  WP_247005177.1  hypothetical protein [Halosolutus gelatinilyt
+    8.1e-96  334.9  10.7    9.6e-96  334.6  10.7    1.0  1  WP_012946146.1  hypothetical protein [Haloterrigena turkmenic
+    1.7e-95  333.8   8.9    1.9e-95  333.7   8.9    1.0  1  WP_013876080.1  hypothetical protein [Halopiger xanaduensis]
+    2.3e-95  333.4  10.6    2.6e-95  333.2  10.6    1.0  1  WP_090312391.1  hypothetical protein [Natronorubrum texcocone
+    3.7e-94  329.4   9.7    4.1e-94  329.3   9.7    1.0  1  WP_006111374.1  hypothetical protein [Natrialba asiatica]
+    1.1e-93  327.9   0.5    1.3e-93  327.7   0.5    1.0  1  WP_226043303.1  hypothetical protein [Natrinema sp. DC36]
+    1.5e-92  324.2  11.1    1.7e-92  324.0  11.1    1.0  1  WP_007139920.1  hypothetical protein [Halobiforma lacisalsi]
+    2.4e-92  323.5  11.3    2.9e-92  323.2  11.3    1.0  1  WP_236996034.1  hypothetical protein [Natronorubrum daqingens
+    3.8e-92  322.8  11.9    4.5e-92  322.6  11.9    1.0  1  APX98748.1      hypothetical protein BB347_18420 [Natronorubr
+    7.4e-89  312.1   8.0    8.2e-89  311.9   8.0    1.0  1  WP_253439249.1  hypothetical protein [Halovivax sp. AGai3-5]
+    1.2e-87  308.1   6.5    1.3e-87  307.9   6.5    1.0  1  WP_250586005.1  hypothetical protein [Natronocalculus amylovo
+    2.9e-80  283.9   8.0    3.2e-80  283.7   8.0    1.0  1  WP_088901258.1  hypothetical protein [Halorubrum lacusprofund
+    2.4e-79  280.9  11.5      3e-79  280.6  11.5    1.0  1  WP_121819924.1  MULTISPECIES: hypothetical protein [Halostell
+    3.9e-79  280.2   9.3    4.3e-79  280.0   9.3    1.0  1  WP_004048522.1  hypothetical protein [Halorubrum saccharovoru
+    2.3e-78  277.6   6.4    2.6e-78  277.5   6.4    1.0  1  WP_066418812.1  hypothetical protein [Halorubrum aethiopicum]
+    3.8e-60  217.9   8.8    4.7e-60  217.6   8.8    1.0  1  WP_254810600.1  hypothetical protein [Saliphagus sp. WLHSJ1]
+    6.8e-60  217.1   8.8    8.2e-60  216.8   8.8    1.0  1  WP_119817599.1  hypothetical protein [Halalkaliarchaeum desul
+    1.2e-56  206.5   5.8    1.5e-56  206.2   5.8    1.0  1  WP_254156782.1  hypothetical protein [Saliphagus sp. WLHS1]
+    5.9e-44  164.9   4.0    7.4e-44  164.5   4.0    1.2  1  WP_092699151.1  hypothetical protein [Halovenus aranensis]
+    1.1e-42  160.7   0.3    1.3e-42  160.4   0.3    1.1  1  WP_074880454.1  MULTISPECIES: hypothetical protein [Halolamin
+    3.9e-42  158.9   3.9    4.5e-42  158.7   3.9    1.1  1  WP_222606885.1  hypothetical protein [Halobaculum magnesiiphi
+    2.8e-41  156.1   1.7    3.4e-41  155.8   1.7    1.0  1  WP_074880348.1  MULTISPECIES: hypothetical protein [Halolamin
+    3.8e-40  152.4  13.9    9.4e-39  147.8   9.4    2.1  2  WP_090312393.1  hypothetical protein [Natronorubrum texcocone
+    4.9e-39  148.7   8.0    7.6e-39  148.1   8.0    1.3  1  WP_096391476.1  twin-arginine translocation signal domain-con
+    7.9e-37  141.5   8.1    1.4e-36  140.6   8.1    1.4  1  WP_260643759.1  twin-arginine translocation signal domain-con
+    1.9e-36  140.2   2.9    4.6e-36  139.0   2.9    1.6  1  WP_179918453.1  hypothetical protein [Halosimplex pelagicum]
+      9e-35  134.7   2.6    1.2e-34  134.4   2.6    1.1  1  WP_227134581.1  hypothetical protein [Halorubellus salinus]
+    6.8e-34  131.8   7.8    8.2e-34  131.6   7.8    1.0  1  WP_166975898.1  hypothetical protein [Haloarcula sp. JP-L23]
+    1.2e-33  131.1   0.4    2.1e-33  130.2   0.4    1.4  1  WP_153952742.1  hypothetical protein [Halosegnis longus]
+      2e-33  130.3   4.1    2.5e-33  130.0   4.1    1.1  1  WP_135823075.1  hypothetical protein [Halostella litorea]
+      2e-33  130.3   6.9    2.8e-33  129.8   4.7    1.9  2  WP_013876079.1  hypothetical protein [Halopiger xanaduensis]
+      5e-33  129.0   9.7    6.1e-33  128.7   9.7    1.0  1  WP_049980255.1  hypothetical protein [Halolamina rubra]
+    1.3e-32  127.7   2.0    1.3e-32  127.7   2.0    1.8  2  WP_012946147.1  hypothetical protein [Haloterrigena turkmenic
+    3.3e-32  126.3   5.1    6.8e-32  125.3   5.1    1.4  1  WP_253521850.1  twin-arginine translocation signal domain-con
+    5.6e-32  125.6   4.7    6.9e-32  125.3   4.7    1.0  1  WP_007273987.1  hypothetical protein [Haloferax sulfurifontis
+    1.7e-31  124.0   5.1    2.2e-31  123.6   5.1    1.0  1  WP_156709145.1  hypothetical protein [Natronomonas sp. CBA112
+    2.1e-31  123.7  13.9    2.3e-31  123.5  10.3    2.0  2  WP_076583954.1  hypothetical protein [Natronorubrum daqingens
+    7.7e-31  121.8  14.6    1.9e-30  120.5  13.4    1.9  2  WP_254156785.1  twin-arginine translocation signal domain-con
+      9e-31  121.6   6.0    1.1e-30  121.3   6.0    1.0  1  ELZ14407.1      hypothetical protein C478_07277 [Natrinema th
+    8.1e-29  115.2   7.2    9.9e-29  114.9   7.2    1.1  1  WP_152421843.1  hypothetical protein [Halorubrum saccharovoru
+    8.9e-29  115.1   3.0    1.1e-28  114.7   3.0    1.1  1  WP_115806037.1  hypothetical protein [Haloferax sp. Atlit-4N]
+      9e-29  115.1   6.5    1.2e-28  114.6   6.5    1.2  1  WP_103428370.1  hypothetical protein [Salinigranum rubrum]
+    1.8e-28  114.1  11.1    2.4e-28  113.7  11.1    1.1  1  WP_271959460.1  hypothetical protein [Halorubrum ezzemoulense
+    3.5e-28  113.1   3.3    4.9e-28  112.6   3.3    1.2  1  WP_253513347.1  hypothetical protein [Halorussus sp. XZYJT10]
+      1e-27  111.6   3.9    1.4e-27  111.1   3.9    1.0  1  WP_255149777.1  hypothetical protein [Halosegnis sp. ZY10]
+    1.5e-27  111.0   6.2    2.2e-27  110.5   6.2    1.2  1  WP_158205904.1  hypothetical protein [Halomarina oriensis]
+    3.4e-27  109.9  14.2    5.4e-27  109.2  14.2    1.3  1  SEW32859.1      hypothetical protein SAMN05216285_4159 [Natri
+    1.7e-26  107.6   4.5    2.5e-26  107.0   4.5    1.2  1  WP_147435212.1  hypothetical protein [Haloarcula sp. Atlit-12
+    2.8e-26  106.9  10.6    3.8e-26  106.4  10.6    1.2  1  WP_135306372.1  twin-arginine translocation signal domain-con
+    4.8e-26  106.1   5.9    6.4e-26  105.7   5.9    1.2  1  WP_143825118.1  hypothetical protein [Natrinema ejinorense]
+    1.7e-25  104.3   9.6    2.8e-25  103.6   9.6    1.3  1  WP_170097797.1  hypothetical protein [Haloarcula argentinensi
+    4.2e-25  103.0   1.3    5.6e-25  102.6   1.3    1.1  1  WP_123619164.1  hypothetical protein [Halorubrum sp. CSM-61]
+    1.4e-24  101.3   5.4      2e-24  100.8   5.4    1.2  1  WP_163522185.1  hypothetical protein [Halorussus sp. MSC15.2]
+    5.5e-24   99.4   2.5    6.9e-24   99.0   2.5    1.2  1  WP_115795068.1  MULTISPECIES: hypothetical protein [Halorussu
+    2.2e-22   94.1   8.5    3.6e-22   93.4   8.5    1.2  1  RLM32615.1      hypothetical protein DVK01_20290 [Haloarcula 
+      3e-22   93.7   7.9    3.8e-22   93.3   7.9    1.1  1  WP_227132328.1  hypothetical protein [Halorubellus salinus]
+    7.5e-22   92.4   2.4    9.6e-22   92.0   2.4    1.0  1  WP_076148798.1  hypothetical protein [Natrinema saccharevitan
+    4.8e-21   89.7  15.7    8.2e-21   89.0  15.7    1.3  1  WP_049991476.1  hypothetical protein [Natrinema salifodinae]
+    2.4e-19   84.2   3.0    2.9e-19   83.9   3.0    1.1  1  PSO54347.1      hypothetical protein BRC31_01915, partial [Ac
+    1.2e-17   78.5   7.5    1.4e-17   78.4   7.5    1.1  1  ELZ40639.1      hypothetical protein C471_07646 [Halorubrum s
+    5.5e-12   60.0   3.4    7.5e-12   59.6   3.4    1.2  1  WP_135805525.1  hypothetical protein [Halorussus marinus]
+    7.5e-12   59.6   3.8      1e-11   59.1   3.8    1.2  1  WP_134670584.1  hypothetical protein [Halorussus marinus]
+    1.8e-11   58.3   6.4    2.3e-11   58.0   6.4    1.1  1  WP_076148871.1  hypothetical protein [Natrinema saccharevitan
+  ------ inclusion threshold ------
+        1.3   22.7   0.2        1.7   22.4   0.2    1.1  1  SCK37939.1      hypothetical protein H180DRAFT_03197 [Strepto
+        1.3   22.7   0.2        2.9   21.6   0.2    1.5  1  MBQ8796326.1    hypothetical protein [Clostridia bacterium]
+        2.1   22.1   1.7        2.5   21.8   1.7    1.0  1  MBK8346092.1    hypothetical protein [Saprospiraceae bacteriu
+        2.2   22.0   0.2    3.5e+03   11.5   0.0    2.4  2  WP_272054269.1  TolC family protein, partial [Parabacteroides
+        2.6   21.7   0.3        3.6   21.3   0.3    1.2  1  NOK63075.1      hypothetical protein [Chloroflexi bacterium A
+        2.9   21.6   0.1         13   19.4   0.0    1.8  2  WP_011321793.1  PQQ-dependent sugar dehydrogenase [Natronomon
+        3.2   21.5   3.7        4.7   20.9   3.7    1.2  1  XP_023769508.1  probable transcription factor KAN2 [Lactuca s
+        6.2   20.5   2.0        8.7   20.0   2.0    1.2  1  MBK8669655.1    hypothetical protein [Saprospiraceae bacteriu
+        6.8   20.4   0.9         18   19.0   0.1    1.8  2  WP_163487313.1  twin-arginine translocation signal domain-con
+        7.5   20.2   0.0         25   18.6   0.0    1.8  1  KAH7702203.1    hypothetical protein AAVH_30651 [Aphelenchus 
+        7.9   20.2   0.1          9   20.0   0.1    1.1  1  MBK6283084.1    hypothetical protein [Draconibacterium sp.]
+        8.3   20.1   0.2         15   19.2   0.2    1.4  1  MCP4569687.1    Vps62-related protein [FCB group bacterium]
+        8.4   20.1   0.0         12   19.6   0.0    1.2  1  OFW88849.1      hypothetical protein A3B66_00490 [Alphaproteo
+        8.6   20.0   0.1         84   16.8   0.0    1.9  2  WP_159763705.1  halocyanin domain-containing protein [Haloven
+        9.4   19.9   0.3    7.8e+03   10.3   0.0    2.4  2  WP_224204124.1  TolC family protein [Parabacteroides merdae]
+        9.5   19.9   0.3    7.8e+03   10.3   0.0    2.4  2  WP_022321640.1  TolC family protein [Parabacteroides merdae]
+        9.6   19.9   0.3    7.8e+03   10.3   0.0    2.4  2  WP_182387870.1  TolC family protein [Parabacteroides merdae]
+        9.7   19.9   0.3    7.4e+03   10.4   0.0    2.4  2  WP_182433541.1  TolC family protein [Parabacteroides merdae]
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_006430202.1  twin-arginine translocation signal domain-containing protein [Natrinema versiforme]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  372.5   6.1  4.7e-114  2.8e-107       2     264 ..       3     258 ..       2     260 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 372.5 bits;  conditional E-value: 4.7e-114
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      +l+RRqfL+ ++a+ aa+++v +lasa+     + ++++pdhit+v+dd +eL+kY+P+l+++++++++lig+Ygw+a+see+d+rayyYW+ky
+   WP_006430202.1   3 RLSRRQFLTGATAT-AATIAVPGLASAA-----TPPDWSPDHITSVGDDLAELRKYEPYLDIAWTDQRQLIGIYGWYADSEEHDTRAYYYWCKY 90 
+                      579*****666555.99999*******9.....89*********************************************************** PP
+
+  ORF8_alignment1  96 ntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedg 189
+                      ++Qdsl+d+++++g llaadsHf+DhEP +v++d+d+gev++v+ysgyHH+a+el+g+e+tlv+d++ d++TH++Lev++phhhyr++++e++g
+   WP_006430202.1  91 SKQDSLSDSIPVFGPLLAADSHFQDHEPALVLADRDTGEVQTVLYSGYHHFAVELSGDEITLVQDET-DQPTHPSLEVASPHHHYRHQRDETRG 183
+                      ******************************************************************8.************************** PP
+
+  ORF8_alignment1 190 vlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsderdel 264
+                      v+a++isgaefgsfldk+++We+ngvf++++++a++dP+sv++ gtWWd++t+D+q+ari+l l++rd+++++++
+   WP_006430202.1 184 VPAHTISGAEFGSFLDKQSQWEQNGVFKSSNNTAIFDPYSVSELGTWWDKSTIDYQFARIRLLLNWRDQGHDELV 258
+                      **********************************************************************99876 PP
+
+>> WP_006665476.1  hypothetical protein [Natrialba aegyptia]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  367.8   8.1  1.3e-112  7.6e-106       3     265 ..       2     256 ..       1     257 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 367.8 bits;  conditional E-value: 1.3e-112
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      ++RRqf+ s++a+ aaa++v +l+sa+      +++++pdhit ++dde+eL++YqP+l++ ++++q+lig+Ygw aese+yd+rayyYW+kyn
+   WP_006665476.1   2 FSRRQFIVSASAT-AAAIAVPGLVSAE------TPEWSPDHITMTGDDEDELRRYQPYLDIPWADQQSLIGVYGWFAESEDYDTRAYYYWAKYN 88 
+                      58*******9998.999999******8......69*********************************************************** PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                      +Q+sl d+l+++g l+++d+Hf+DhEPviv++d d+gev++v+ysgyHH+a++++ge++tlved++ + +TH++L+v+ phhh+r++++++++ 
+   WP_006665476.1  89 SQNSLFDALPLIGGLFSEDAHFGDHEPVIVLADPDSGEVQRVLYSGYHHFAVDISGEDMTLVEDAE-SYPTHPSLQVAVPHHHFRHQRDDSRTI 181
+                      *****************************************************************8.9************************** PP
+
+  ORF8_alignment1 191 laqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsderdelr 265
+                       a++isgaefgsfld+r++We+ngvfd+++d+a++dP++++drgtWWde+ttD+q+ari++ l++rdsd+++++r
+   WP_006665476.1 182 AASSISGAEFGSFLDQRSSWEQNGVFDSSSDTAIADPWAMSDRGTWWDESTTDYQFARIRVLLNWRDSDHDELIR 256
+                      ***********************************************************************9998 PP
+
+>> WP_276257233.1  hypothetical protein [Halovivax sp. TS33]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  364.6   9.8  1.1e-111  6.8e-105       2     265 ..       3     258 ..       2     259 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 364.6 bits;  conditional E-value: 1.1e-111
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      +l+RR+fLa+++a+ +a+++v +la+ad      +++++pdhi +v+d+ + L++YqP+l+++r+++q+lig+Ygw+a+s++yd+rayyYW+ky
+   WP_276257233.1   3 QLSRRRFLAAATAT-VATTIVPGLATAD------TPDWSPDHIVNVGDEDAGLRRYQPYLDIRRDDQQSLIGIYGWYADSDTYDTRAYYYWAKY 89 
+                      689*****998777.99999*******9......69********************************************************** PP
+
+  ORF8_alignment1  96 ntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedg 189
+                      ++Qdslad+++++g l+a+dsHf+DhEPvivf+d+++g+v+evvysgyHH++++l+++++tlved++ d++TH++Lev++phhhyr+++++++g
+   WP_276257233.1  90 AKQDSLADQIPLVGPLFAKDSHFGDHEPVIVFTDAETGAVEEVVYSGYHHFGVQLAADQMTLVEDEA-DQPTHPSLEVATPHHHYRHQRDGTRG 182
+                      ******************************************************************8.************************** PP
+
+  ORF8_alignment1 190 vlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsderdelr 265
+                      v a++i+gaefgsfl+k+++We+ngvf  +++ av+dP++++d+gtWW+ed++D+++ari+l l++rd++++d+++
+   WP_276257233.1 183 VRASSIAGAEFGSFLEKQSAWEKNGVFGASHEPAVFDPWEARDQGTWWAEDSWDYRFARIRLVLNWRDESHDDLIQ 258
+                      *************************************************************************987 PP
+
+>> WP_138655685.1  hypothetical protein [Natrinema pallidum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  363.6   6.0  2.4e-111  1.4e-104       1     261 [.       1     255 [.       1     259 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 363.6 bits;  conditional E-value: 2.4e-111
+  ORF8_alignment1   1 msltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvk 94 
+                      ms++RR+fLa++a++aaaa++v +lasa+     + + ++ +hit+v+dde+eL++Y+P+l+++ +++q+++g+Ygw+aes+e+d+rayyYW+k
+   WP_138655685.1   1 MSVSRRRFLATAATTAAAAVAVPGLASAA-----DPPGWTLSHITAVGDDEAELRQYEPYLDIRFDDQQQQVGVYGWWAESSEHDTRAYYYWAK 89 
+                      6789***********999999*******9.....89********************************************************** PP
+
+  ORF8_alignment1  95 yntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeed 188
+                      y++Qdslad++++lg ll+adsHf+DhEP+ivf+d d+g+v++vvysgyHH+a++l+g+e+tl++d+  + +TH++L+v++phhhyr+++++++
+   WP_138655685.1  90 YAKQDSLADRIPFLGPLLSADSHFKDHEPIIVFTDPDSGDVQTVVYSGYHHFAVRLTGDEMTLAQDEL-SIPTHPSLAVATPHHHYRHQRDATR 182
+                      *******************************************************************9.9************************ PP
+
+  ORF8_alignment1 189 gvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsder 261
+                      gv+a++i+g+efgsfl+k+ +We+n vf+k++d av+dP++++drgtWWd++t+D+q+ari++ l+lrd++e+
+   WP_138655685.1 183 GVPAHTIAGSEFGSFLEKQPQWERNRVFAKSHDPAVFDPWVARDRGTWWDKSTRDYQFARIRILLNLRDGGET 255
+                      *********************************************************************9986 PP
+
+>> WP_049967301.1  hypothetical protein [Natrinema thermotolerans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  358.0   5.2  1.2e-109  7.4e-103       3     261 ..       4     256 ..       2     261 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 358.0 bits;  conditional E-value: 1.2e-109
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      +tRR+ L+ ++++ ++++  +++a+a+     + ++++ dhit+v+dd +eL+kY+P+l++ ++++q+lig+Ygw+a+s+e+d+rayyYW+ky+
+   WP_049967301.1   4 TTRRNALTVAGILGGLTVGGTTAAAAE-----DPPEWAVDHITSVGDDPAELRKYEPYLDIPWSDQQSLIGVYGWYADSSEFDTRAYYYWAKYA 92 
+                      69***********88777777777776.....89************************************************************ PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                      +Qdsl+d++++lg ll+ dsHf+DhEPv+vf+d+d+gev++v+ysgyHH++++l+gee+tlv+d++ d++TH++L+v+ phhhyr++++e++gv
+   WP_049967301.1  93 KQDSLTDSIPVLGPLLSLDSHFKDHEPVAVFADTDTGEVTDVIYSGYHHFGVRLTGEEMTLVQDET-DRPTHPSLQVAVPHHHYRHQRDETKGV 185
+                      *****************************************************************8.*************************** PP
+
+  ORF8_alignment1 191 laqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsder 261
+                      +a++isgaefgsfl++r+ W++n+vf+++++ av+dP+ +k rgtWW++dt+D+q+ari++ l++rd++e+
+   WP_049967301.1 186 PAHTISGAEFGSFLEQRSVWDQNNVFASSHEPAVNDPWLAKSRGTWWAKDTWDYQFARIRILLNWRDGGED 256
+                      *******************************************************************9975 PP
+
+>> WP_076583956.1  hypothetical protein [Natronorubrum daqingense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  341.5  14.0  1.3e-104   7.6e-98       2     267 .]       4     279 ..       3     279 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 341.5 bits;  conditional E-value: 1.3e-104
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasadd..ed....ydeeapvlpdhitevrddeeeLekYqPklva.......srearqkliglYgwiaese 82 
+                      +ltRRq+L++g++aa+++a++gp+as+dd   d    yd+++pv+pdhit vrdd ++L++YqP++++       ++ea++k++glYgwiaes+
+   WP_076583956.1   4 QLTRRQLLKTGGVAATTPAFFGPFASDDDeqRDnsleYDGDYPVPPDHIT-VRDDLDDLREYQPAFSYehmtiaeRQEAQAKARGLYGWIAESD 96 
+                      689*************************96522699999**********7.*****************99****99****************** PP
+
+  ORF8_alignment1  83 eydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrp 176
+                      e+dv+ayyYW++++tQ+s   ++ay+gl++++d+H+lDhEP+ivfv++dd++vd++v++g+HHy+l +dge++ ++e++v+d+eTHvnL+v+rp
+   WP_076583956.1  97 EHDVTAYYYWFRHQTQHS---AFAYVGLDWGPDEHYLDHEPTIVFVRDDDDTVDTIVTTGGHHYGLWIDGEWGPMSEHYVSDRETHVNLMVIRP 187
+                      ******************...************************************************************************* PP
+
+  ORF8_alignment1 177 hhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd..rgtWWdedttDaqlar.iylrlglrdsderdelrve 267
+                      ++hy+ea+++ +g+++++++  +fgsf++ r++W+d+g+f++t+++a+edPf+++d  r++WWd++t+Da++ar i++rlgl+++++r +lr+e
+   WP_076583956.1 188 WNHYMEAPTT-NGEFIEDFR-GSFGSFREIRTDWYDEGRFKTTNHRAIEDPFVFWDedRHHWWDDGTCDAWAARnIWIRLGLSEGTSRARLRFE 279
+                      ********65.********6.789*******************************999********************************9985 PP
+
+>> WP_006671473.1  hypothetical protein [Halobiforma nitratireducens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  341.0  12.1  1.8e-104   1.1e-97       3     260 ..       1     264 [.       1     268 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 341.0 bits;  conditional E-value: 1.8e-104
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasadded...ydeeapvlpdhitevrddeeeLekYqPklva.......srearqkliglYgwiaeseeydv 86 
+                      ++RRqfLa     aa++a+vg++ s+  ed   +++++pv+pdhite+rdd++eLe+YqPkl++       ++e+r++++g +gw+aeseeydv
+   WP_006671473.1   1 MHRRQFLAL----AASPAFVGAFGSDGREDdleRENGYPVPPDHITEIRDDRDELERYQPKLYLghlpwseRDETRTDMRGQFGWTAESEEYDV 90 
+                      79*****55....478888888877766334657799********************************9999********************* PP
+
+  ORF8_alignment1  87 rayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhy 180
+                       a+yYW++yntQ+s   +l ylgl++++d+H+lDhEP+ivf +++dg+v+ev+++g+HHy+l++dge+++l+edrv++e+THvnL+v+rph+hy
+   WP_006671473.1  91 IAHYYWTRYNTQRS---VLYYLGLDWGPDEHYLDHEPTIVF-RREDGTVEEVWTTGGHHYGLRIDGETGNLSEDRVNGEDTHVNLAVMRPHNHY 180
+                      **************...************************.99************************************************** PP
+
+  ORF8_alignment1 181 reaeeeedgvlaqeis.gaefgsfldkretWedngvfdktadeavedPfsvkd..rgtWWdedttDaqlar.iylrlglrdsde 260
+                      +ea+ +++g+++qe+  ++ f+s+ld re+W+dn++f++t+ ea+edPf+++d  r++WW+edt+Da++ar ++++lgl++ d+
+   WP_006671473.1 181 TEAAFDAEGEFVQEFPtSVPFDSWLDVREQWYDNNRFASTSYEAIEDPFTFYDrdREHWWREDTMDAWFARnVWIPLGLTERDD 264
+                      ***************879**********************************9999***********************97654 PP
+
+>> WP_174682793.1  hypothetical protein [Haloterrigena gelatinilytica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  336.7   9.2  3.9e-103   2.3e-96       3     257 ..       1     261 [.       1     268 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 336.7 bits;  conditional E-value: 3.9e-103
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaal....vgplasadd..ed...ydeeapvlpdhitevrddeeeLekYqPklva.srearqkliglYgwiaeseeydv 86 
+                      ++RR+fLasga+a+ a  +    +gpl ++++  ++   yd+++p++pdhit+vrdd +eLe+YqP+l++ +++ar++++g+Ygw+a+seeydv
+   WP_174682793.1   1 MHRREFLASGAVATPA--FlgleWGPLGDNEGpeTNgleYDGDIPQFPDHITDVRDDVDELEDYQPRLEIaTQQARDDMQGMYGWSADSEEYDV 92 
+                      79*******9887444..33699*******9986558989****************************99899********************* PP
+
+  ORF8_alignment1  87 rayyYWvkyntQdsladllaylglll.aadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhh 179
+                      +a+yYWv+++tQ+s   ll+y+gl+  ++++Hf+DhEP++vf +++dg+vd++v+sg+HH+a+e dge ++l+edrvad++THv+L+++rph+h
+   WP_174682793.1  93 TAHYYWVRSHTQRS---LLWYAGLDGiGPEEHFYDHEPIAVF-ENPDGTVDKIVFSGGHHLAAEEDGEFGHLIEDRVADRRTHVVLRQMRPHNH 182
+                      **************...******99669**************.99************************************************* PP
+
+  ORF8_alignment1 180 yreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWdedttDaqlar.iylrlglrd 257
+                      ++ ae++ dg+++q +  +efgs+ldkre+W++ng++dkt+d av+dPfs+++   r++WW+e+t+Da++a+ +y+r+ l++
+   WP_174682793.1 183 FVPAESTVDGEWIQGH--SEFGSWLDKRESWYRNGRYDKTSDVAVMDPFSFYEsggRTHWWREGTWDAWAAQnVYVRR-LAT 261
+                      ****************..8*********************************************************99.554 PP
+
+>> WP_247005177.1  hypothetical protein [Halosolutus gelatinilyticus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  336.5  10.6  4.3e-103   2.6e-96       2     267 .]       3     273 ..       2     273 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 336.5 bits;  conditional E-value: 4.3e-103
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasadded.......yd.eeapvlpdhitevrddeeeLekYqPklva.srearqkliglYgwiaeseeydv 86 
+                      ++tRR++L++g++   a + ++p+ s++d+d       yd +++p++p+hit +rdd  +Le+YqP+lv+ s++ar++++g+Ygwiaesee+dv
+   WP_247005177.1   3 MMTRRSVLQTGGTI--AFFGWWPFGSDEDDDdrdddlkYDtNGIPEFPEHIT-ARDDLGDLENYQPRLVVgSQQARHDMQGMYGWIAESEEHDV 93 
+                      69********9888..566699999998833366789988799********7.9****************99********************** PP
+
+  ORF8_alignment1  87 rayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhy 180
+                      +ayyYW+++ntQ+s+ + l  l++ + +d+H+lDhEP+ivfv ++dg+vd+vvy+++HH+a+eldge+++l+edrvad++THv+L++vrph+h+
+   WP_247005177.1  94 DAYYYWIRSNTQRSIFQHLFGLDIEF-KDTHYLDHEPIIVFV-NSDGTVDKVVYTAGHHLAAELDGEWGRLIEDRVADRRTHVVLRQVRPHNHF 185
+                      **************888887777666.5*************7.5************************************************** PP
+
+  ORF8_alignment1 181 reaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWdedttDaqlar.iylrlglrdsderdelrve 267
+                      +ea++ edgv++q +  aef+s+ld+retW++ng++d+ta+ av+dPf++++   r+ WW+++ttDa+la+ +y+r+ l+ +derdelr+e
+   WP_247005177.1 186 MEASSLEDGVWVQGF--AEFDSWLDRRETWYRNGRYDNTANVAVMDPFEFYEsdgRTFWWADGTTDAWLAKnVYVRR-LTIGDERDELRFE 273
+                      ***************..9**********************************************************9.999*******985 PP
+
+>> WP_012946146.1  hypothetical protein [Haloterrigena turkmenica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  334.6  10.7  1.6e-102   9.6e-96       3     257 ..       1     259 [.       1     266 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 334.6 bits;  conditional E-value: 1.6e-102
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasadd..ed...ydeeapvlpdhitevrddeeeLekYqPklva.srearqkliglYgwiaeseeydvrayy 90 
+                      ++RR+fLa++a  a + + +gpla++++  ++   yd+++p++pdhit+vrdd +eLe+YqP+l++ +++ar++++g+Ygw+a+se+ydv+a+y
+   WP_012946146.1   1 MHRREFLATTASPAFLGLEWGPLADNEGpeTNnleYDGSIPQFPDHITDVRDDIDELENYQPRLEIaTQQARDDMQGMYGWSADSEDYDVTAHY 94 
+                      79*****998777666666********9874469899***************************99899************************* PP
+
+  ORF8_alignment1  91 YWvkyntQdsladllaylglll.aadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyrea 183
+                      YWv+++tQ+s   ll+y+gl+  ++++Hf+DhEP++vf +++dg+vd+vv+sg+HH+a+e dge ++l+edrvad++THv+L+++rph+h++ a
+   WP_012946146.1  95 YWVRSHTQRS---LLWYAGLDGiGPEEHFYDHEPILVF-QNPDGTVDTVVFSGGHHLAAEEDGEFGHLIEDRVADRRTHVVLRQMRPHNHFVPA 184
+                      **********...******99669**************.99***************************************************** PP
+
+  ORF8_alignment1 184 eeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWdedttDaqlar.iylrlglrd 257
+                      e+++dg+++q +  +efgs+ldkre+W++ng++dkt+d av+dPfs+++   r++WW+e+t+Da++a+ +y+r+ l++
+   WP_012946146.1 185 ESTTDGEWIQGH--SEFGSWLDKRESWYRNGRYDKTSDVAVMDPFSFYEsggRTHWWREGTWDAWAAQnVYVRR-LAT 259
+                      ************..8*********************************************************99.554 PP
+
+>> WP_013876080.1  hypothetical protein [Halopiger xanaduensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  333.7   8.9  3.2e-102   1.9e-95       2     266 ..       5     269 ..       4     270 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 333.7 bits;  conditional E-value: 3.2e-102
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasadded.....ydeeapvlpdhitevrddeeeLekYqPklva.srearqkliglYgwiaeseeydvray 89 
+                      +ltRR++L++g+aa   +a++gp++s+d+++     yd++ p++pdhi + rdd +eLe+YqP+lv+ +++ar++++g+Ygw+a+se++dv+a+
+   WP_013876080.1   5 ELTRRDVLRAGTAA---PAFFGPFDSSDESEsnhleYDGSVPQFPDHIVDPRDDLTELENYQPRLVTqNQQAREDMTGMYGWSADSENHDVTAH 95 
+                      589*****999555...***********9334588899****************************97899*********************** PP
+
+  ORF8_alignment1  90 yYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyrea 183
+                      yYWv++ntQ+s   +++y+g+++++++H+lDhEPvivf +++dg+v++vv+sg+HH+a+e+dge+++l+edrvad++THv+Le++rph+h++ea
+   WP_013876080.1  96 YYWVRSNTQRS---IFSYFGIDAGPEEHHLDHEPVIVF-EAPDGSVEKVVHSGGHHMAAEIDGEWGHLIEDRVADRRTHVVLEQMRPHNHFVEA 185
+                      ***********...************************.99***************************************************** PP
+
+  ORF8_alignment1 184 eeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWdedttDaqlar.iylrlglrdsderdelrv 266
+                      +++edg ++q +  aefgs+ldkr+ W + g+++kt+d av+dPf+++    r++WW++dt+Da++ar iy++l ++ +der +lr+
+   WP_013876080.1 186 PDGEDGGYVQGY--AEFGSWLDKRDPWFSYGRYAKTSDVAVVDPFAFYPadgRQHWWRADTNDAWFARnIYVPL-TTAADERGNLRY 269
+                      ************..9*********************************999***********************.667899999987 PP
+
+>> WP_090312391.1  hypothetical protein [Natronorubrum texcoconense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  333.2  10.6  4.3e-102   2.6e-95       3     267 .]       1     282 [.       1     282 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 333.2 bits;  conditional E-value: 4.3e-102
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasadded....yd.eeapvlpdhitevrddeeeLekYqPklva.......srearqkliglYgwiaeseey 84 
+                      ++RR+fL+sgaaa +++a++gp++++d+ed    yd +++p +pdhite+rdd +eL+++qP++++       ++ear+k++glYgw+aese++
+   WP_090312391.1   1 MQRREFLTSGAAA-STVAFWGPFSRNDGEDdgleYDdGGYPIPPDHITEIRDDLDELREFQPEFYYghmnyleQEEARSKARGLYGWTAESEDH 93 
+                      79******99888.*************955599977699*********************************99******************** PP
+
+  ORF8_alignment1  85 dvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphh 178
+                      dv+a+yYW++++tQ+sl ++l  +++ ++ d+H+lDhEP+ivf +++d++vd++v++g+HHyal +dge++ ++e++v+++eTHvnL+v+rph+
+   WP_090312391.1  94 DVTAHYYWFRHQTQQSLLNTLFNVDVSWG-DAHYLDHEPTIVF-RREDKTVDTIVTTGGHHYALYIDGEWGPMSEEYVSGRETHVNLMVIRPHN 185
+                      ****************************9.*************.99************************************************ PP
+
+  ORF8_alignment1 179 hyreaeeee..dgvlaqeisgaefgsfldkretWedn....gvfdktadeavedPfsvkd..rgtWWdedttDaqlar.iylrlglrdsderde 263
+                      hy+e+++++  dg+++++++  +fgsf+d re+W+d+    g++++tad+a+edPf+++d  r++WWd+dt+Da++ar ++++lgl+++++r++
+   WP_090312391.1 186 HYMESPSSAvgDGQFVEDFR-GTFGSFRDVREDWYDEgiddGRYNNTADRAIEDPFVFYDeeRHHWWDSDTNDAWFARnVWIPLGLSEGTSRNR 278
+                      *****99886689******6.789***********98666689*************************************************** PP
+
+  ORF8_alignment1 264 lrve 267
+                      lr+e
+   WP_090312391.1 279 LRFE 282
+                      *985 PP
+
+>> WP_006111374.1  hypothetical protein [Natrialba asiatica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  329.3   9.7  6.8e-101   4.1e-94       2     262 ..       5     259 ..       4     263 .] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 329.3 bits;  conditional E-value: 6.8e-101
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      sl+RR+f+asg aa + a+l ++ asad   +de+ +++++hit+v+dd++eLekYqP+lv+ +e+rq++ig+Ygw+a+s++y++ray YW+ky
+   WP_006111374.1   5 SLSRREFIASGVAA-VGAVLGTQSASAD-IWSDEGGSWAASHITHVGDDAAELEKYQPRLVTLPEDRQRMIGIYGWYADSDRYNTRAYNYWMKY 96 
+                      689*******9888.7778888888888.3467999********************************************************** PP
+
+  ORF8_alignment1  96 ntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedg 189
+                      ++Qdsl+d++++lg l+a+d+H++DhEP++++vd+++g+v+ev+ysgyHHya  l++e+++l++++v+++eTH+ Levv+phhhyr a ++ dg
+   WP_006111374.1  97 SHQDSLTDRIPFLGSLFAEDAHLGDHEPFTALVDSETGAVQEVLYSGYHHYASVLAAENAHLSAEAVEGKETHTPLEVVTPHHHYRLAGTD-DG 189
+                      ****************************************************************************************977.** PP
+
+  ORF8_alignment1 190 vlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsderd 262
+                      vla++++++e  sfld+   W+d+gv+++t++++v+dP++v+d gtWWd++t+D+q+ari+l l++rd++ ++
+   WP_006111374.1 190 VLASNTTSME--SFLDAFPVWDDDGVWASTDRRTVADPWRVRDTGTWWDKSTLDYQFARIQLFLAWRDEH-DN 259
+                      ******8777..******************************************************9854.33 PP
+
+>> WP_226043303.1  hypothetical protein [Natrinema sp. DC36]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  327.7   0.5  2.1e-100   1.3e-93       3     267 .]       1     260 [.       1     260 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 327.7 bits;  conditional E-value: 2.1e-100
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseey.dvrayyYWvky 95 
+                      ++RRqf++++aaa a+ +l++++a+a+      e+p++pdh ++v+dd +eL+kYqP+++asrearq l+g+Ygw+a+s+ey d+rayyYW+ky
+   WP_226043303.1   1 MHRRQFIRRAAAAGALGTLAVGTATAA------EPPSRPDHLENVGDDLDELRKYQPSIIASREARQLLVGCYGWYADSSEYpDLRAYYYWFKY 88 
+                      79***********99999999999998......6************************************************************ PP
+
+  ORF8_alignment1  96 ntQds.ladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeee. 187
+                       tQ+s l++l+++l+   ++d+Hf+DhEP+++ vdk++gev + ++sgyHH+ l+l +++l+l +++  d +TH++L+vv+p+hh+r+ + ++ 
+   WP_226043303.1  89 PTQQSgLTSLIPFLS---GPDAHFSDHEPYVCAVDKSTGEVVRTLQSGYHHFVLDLPESDLELRTQHG-DGPTHPKLRVVDPWHHFRNGRGASr 178
+                      *****7888888877...9*********************************************9998.*******************997763 PP
+
+  ORF8_alignment1 188 dgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd.rgtWWdedttDaqlar.iylrlglrdsderdelrve 267
+                      dgvl ++isgaefgs+ldkr++W++n+vf+kt+++avedPfs+ d r+tWW+++t+Da++ar i+++lglr++de+d+lrve
+   WP_226043303.1 179 DGVLPDTISGAEFGSWLDKRDSWYKNDVFKKTSKTAVEDPFSLIDsRDTWWKDGTWDAWAARnIWIPLGLRGADESDTLRVE 260
+                      7******************************************************************************985 PP
+
+>> WP_007139920.1  hypothetical protein [Halobiforma lacisalsi]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  324.0  11.1   2.8e-99   1.7e-92       3     266 ..       1     269 [.       1     270 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 324.0 bits;  conditional E-value: 2.8e-99
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasadd.ed....ydeeapvlpdhitevrddeeeLekYqPklva.......srearqkliglYgwiaeseey 84 
+                      ++RR+fLa++    a++ ++gp+ ++d+ +d     d ++p +pdhi+ vrdd+eeL ++qP+l++       +rea+++++g+Ygw+aes+e+
+   WP_007139920.1   1 MQRRTFLATA----ATPSFFGPFGGSDGrQDdlerDDAGNPAPPDHIE-VRDDREELLEFQPQLSYdhlpwdeAREAKSDVRGMYGWTAESTEH 89 
+                      79*****663....67999999999999844587445899*******6.**********************999******************** PP
+
+  ORF8_alignment1  85 dvrayyYWvkyntQdsladllaylgllla.adsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrph 177
+                      dv a+yYWv++ntQ+s   +l+ylg++++ +d+Hf+DhEP+ivf +++d++++ev++sg+HHy+l++dg+  ++vedrva+e+THv+L+v+rph
+   WP_007139920.1  90 DVIAHYYWVRSNTQRS---VLWYLGWDIDfKDAHFTDHEPIIVF-RQPDKTIEEVWCSGGHHYGLRIDGDASNFVEDRVAGEQTHVVLAVARPH 179
+                      ****************...*********669*************.99*********************************************** PP
+
+  ORF8_alignment1 178 hhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd..rgtWWdedttDaqlar.iylrlglrdsderdelrv 266
+                      +h+ + + ++dg+++q++  ae+gs+l++retW+dng++++t+ eave+Pf+++d  r++WW+edt+Da+lar ++++lgl+++++rdel +
+   WP_007139920.1 180 NHFFTPALSADGEYVQDF--AEYGSWLETRETWYDNGRYSSTSYEAVENPFVFYDgdREHWWREDTRDAWLARnVWIPLGLSQGTDRDELAY 269
+                      ******************..9********************************************************************987 PP
+
+>> WP_236996034.1  hypothetical protein [Natronorubrum daqingense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  323.2  11.3   4.8e-99   2.9e-92       3     266 ..       5     283 ..       3     284 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 323.2 bits;  conditional E-value: 4.8e-99
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasadd..ed.....ydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvray 89 
+                      +tRR++L+s++    a + +g+++sadd  ed     yd++apv+pdhite+rdd++eLe+Y Pklv+++ear++++g+Ygwiaesee+dv+ay
+   WP_236996034.1   5 VTRREYLQSTGSV--AFLGWGAFDSADDalEDepeleYDGDAPVFPDHITETRDDTDELEEYAPKLVTTPEARSEMRGMYGWIAESEEFDVTAY 96 
+                      79******97655..6666********99854689999******************************************************** PP
+
+  ORF8_alignment1  90 yYWvkyntQdsladllaylglll.............aadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvn 170
+                      yYW++yntQ+s   +lay+gl++             + dsH+lDhEP+i fv +ddg+v++ v++++HHya+eld+++++++edrv+++eTH+n
+   WP_236996034.1  97 YYWTRYNTQRS---SLAYVGLDVdairvpftdrelfGFDSHYLDHEPYISFV-NDDGTVEQAVATAGHHYAMELDSDWGSFTEDRVSGRETHAN 186
+                      ***********...9*******999**********99**************7.5**************************************** PP
+
+  ORF8_alignment1 171 LevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd......rgtWWdedttDaqlar.iylrlglrd 257
+                      L+v+rp++h+++a+++e+g+++ ++  a+fgs+l+++etW++n+++++tad av+dPf+++d      r++WW++d++Da++ r i+lr+ ++ 
+   WP_236996034.1 187 LAVIRPWNHFMDAPRGEHGDFVFNY--ASFGSWLNEYETWYRNNRYERTADIAVMDPFRFYDdgeqayRDHWWEADELDARVVRdIRLRR-IT- 276
+                      *************************..9************************************************************99.65. PP
+
+  ORF8_alignment1 258 sderdelrv 266
+                        +rd+lr+
+   WP_236996034.1 277 --DRDQLRI 283
+                      ..5667765 PP
+
+>> APX98748.1  hypothetical protein BB347_18420 [Natronorubrum daqingense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  322.6  11.9   7.5e-99   4.5e-92       3     266 ..       1     279 [.       1     280 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 322.6 bits;  conditional E-value: 7.5e-99
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasadd..ed.....ydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvray 89 
+                      +tRR++L+s++    a + +g+++sadd  ed     yd++apv+pdhite+rdd++eLe+Y Pklv+++ear++++g+Ygwiaesee+dv+ay
+       APX98748.1   1 MTRREYLQSTGSV--AFLGWGAFDSADDalEDepeleYDGDAPVFPDHITETRDDTDELEEYAPKLVTTPEARSEMRGMYGWIAESEEFDVTAY 92 
+                      79******97655..6666********99854689999******************************************************** PP
+
+  ORF8_alignment1  90 yYWvkyntQdsladllaylglll.............aadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvn 170
+                      yYW++yntQ+s   +lay+gl++             + dsH+lDhEP+i fv +ddg+v++ v++++HHya+eld+++++++edrv+++eTH+n
+       APX98748.1  93 YYWTRYNTQRS---SLAYVGLDVdairvpftdrelfGFDSHYLDHEPYISFV-NDDGTVEQAVATAGHHYAMELDSDWGSFTEDRVSGRETHAN 182
+                      ***********...9*******999**********99**************7.5**************************************** PP
+
+  ORF8_alignment1 171 LevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd......rgtWWdedttDaqlar.iylrlglrd 257
+                      L+v+rp++h+++a+++e+g+++ ++  a+fgs+l+++etW++n+++++tad av+dPf+++d      r++WW++d++Da++ r i+lr+ ++ 
+       APX98748.1 183 LAVIRPWNHFMDAPRGEHGDFVFNY--ASFGSWLNEYETWYRNNRYERTADIAVMDPFRFYDdgeqayRDHWWEADELDARVVRdIRLRR-IT- 272
+                      *************************..9************************************************************99.65. PP
+
+  ORF8_alignment1 258 sderdelrv 266
+                        +rd+lr+
+       APX98748.1 273 --DRDQLRI 279
+                      ..5667765 PP
+
+>> WP_253439249.1  hypothetical protein [Halovivax sp. AGai3-5]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  311.9   8.0   1.4e-95   8.2e-89       1     265 [.       1     254 [.       1     255 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 311.9 bits;  conditional E-value: 1.4e-95
+  ORF8_alignment1   1 msltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvk 94 
+                      ms+tRRq+L++gaa+ + +alvg++asa+      e ++lpdh+ +++dd e+Le YqPklv+++++r++l g+Yg++++s eyd r+y +W++
+   WP_253439249.1   1 MSRTRRQILTAGAAL-VGTALVGSTASAQ------EGDWLPDHVVAAGDDVESLEPYQPKLVTTPADRAALLGFYGCWMDSAEYDERVYLFWAR 87 
+                      689******999888.9999999999997......69********************************************************* PP
+
+  ORF8_alignment1  95 yntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeed 188
+                      y++Qds++d++++lg+++a+dsH++DhEP+++f+d+++gev++++ysgyHHy+++ +++e++lv+d++ ++eTH++L+vv+phhhy+ ++e+ +
+   WP_253439249.1  88 YTHQDSSIDAIPFLGDIFARDSHLGDHEPYALFADRQTGEVKRILYSGYHHYGVSKSKDEIELVADAT-AAETHPVLDVVSPHHHYQLVHED-R 179
+                      *******************************************************************8.99*******************77.* PP
+
+  ORF8_alignment1 189 gvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsderdelr 265
+                      gvl ++++g e  sfl+++ +W+d++v+++++ e+v+dP+++++rg+WW+++t+Da++a+++++l++rdsd+++++r
+   WP_253439249.1 180 GVLPSTFTGLE--SFLEAHPRWRDRDVWRNADLESVTDPWHAEERGYWWKDGTRDARMAWLRVALDWRDSDHDELIR 254
+                      *******9999..************************************************************9998 PP
+
+>> WP_250586005.1  hypothetical protein [Natronocalculus amylovorans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  307.9   6.5   2.2e-94   1.3e-87       1     266 [.       1     258 [.       1     259 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 307.9 bits;  conditional E-value: 2.2e-94
+  ORF8_alignment1   1 msltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhit.evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWv 93 
+                      m++ RR+fL+sga++ +++++  pl s+  +  +e+ ++++++ + +++++++e+e+YqP lvasr+ar+k++++Yg++++s+++d+++y+YW+
+   WP_250586005.1   1 MNHLRRSFLRSGATL-GSILT-IPLLSGR-SVGEEAGEWQEEWPSlTYSFNRAEVERYQPLLVASRDARRKMRAMYGMKVQSDSNDLDCYVYWM 91 
+                      5789*******9888.55544.3444443.22348899*****9999*********************************************** PP
+
+  ORF8_alignment1  94 kyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlv..edrvadeeTHvnLevvrphhhyreaee 185
+                      +y++Qd++a++l++lg+lla+d+H++DhEP +++vd d++evd++v++gyHH+aleld ++ +++  edrv + eTHvnL+vv+p+hhyr+a++
+   WP_250586005.1  92 QYTHQDGSAETLEWLGDLLARDTHLWDHEPSYIYVDPDTNEVDRIVCTGYHHFALELDPDDENVLmsEDRVPGVETHVNLDVVSPWHHYRTADR 185
+                      **********************************************************999887667**************************7 PP
+
+  ORF8_alignment1 186 eedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsderdelrv 266
+                      e  g++      ae+ s+l+kr++W+dng++d+ta+ea+e+P+s+ dr++WWde+t+D+++ +++++lgl +++e+delr+
+   WP_250586005.1 186 E--GTY------AELVSWLEKRDAWKDNGFYDRTATEAIENPYSMLDRDSWWDESTWDYRFGKLWIQLGLGGARETDELRI 258
+                      7..998......5667**************************************************************996 PP
+
+>> WP_088901258.1  hypothetical protein [Halorubrum lacusprofundi]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  283.7   8.0   5.4e-87   3.2e-80       1     262 [.       1     263 [.       1     264 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 283.7 bits;  conditional E-value: 5.4e-87
+  ORF8_alignment1   1 msltRRqfLasgaaaaaaaal..vgplasadded...ydeeapvlpdhit....evrddeeeLekYqPklvasrearqkliglYgwiaeseeyd 85 
+                      m++tRRqfLasg+aa ++++l  + p++++d++d   +d+++p+l+++++    +++++ee+L+kY+P+++a+r+++q+++glY++++++++++
+   WP_088901258.1   1 MTRTRRQFLASGGAA-GLSFLpgWLPFVGGDSDDtesTDDRSPTLAEREDqygmTIDYPEEWLQKYRPAFIADRDTMQQSMGLYAHRVQYDDSE 93 
+                      689***********9.8888899******99955556779*********9999999************************************** PP
+
+  ORF8_alignment1  86 vrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlv.edrvadeeTHvnLevvrphh 178
+                      ++++yYW+k+++Q+         g+l++adsH++DhEP+iv+vd +dg +d+v+y++yHH+a++++g++lt++ ++r+++e+THv+L++v p+h
+   WP_088901258.1  94 YQYAYYWHKLTHQQ---------GILFDADSHLGDHEPTIVRVD-SDGVIDRVTYTFYHHLADSISGARLTRAlRARETAEPTHVQLRIVPPWH 177
+                      **************.........8******************98.**************************9999******************* PP
+
+  ORF8_alignment1 179 hyreaeeeedgvlaqeis..gaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlg....lrdsderd 262
+                      +y+ +e    g+++q +s  +++ ++++++ +tWe++g+fd+tadeav++P++v+drg+WWde+ttD+q+a++ylrlg    +++s+e d
+   WP_088901258.1 178 NYAVVE----GTPSQPVSfrDVQGDADASHLRTWETQGIFDPTADEAVWSPRTVQDRGSWWDESTTDYQAAQLYLRLGqyidIAGSGEID 263
+                      *****9....6666655555*********************************************************9777777777766 PP
+
+>> WP_121819924.1  MULTISPECIES: hypothetical protein [Halostella]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  280.6  11.5   4.9e-86     3e-79       2     261 ..       3     248 ..       2     251 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 280.6 bits;  conditional E-value: 4.9e-86
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      + tRRqfL++++a +aa++ ++++a+a+      e+p++p+hi++v+dd +eL ++qP+l+as ++rq+++++Ygw+aes+ey+++ayyYW+ky
+   WP_121819924.1   3 TSTRRQFLRATGAGIAAVVGLSSTAAAA------EPPERPSHIHTVSDDPAELAEWQPALHASYSTRQEMQDIYGWRAESDEYETDAYYYWMKY 90 
+                      689***********99999999999887......6*********************************************************** PP
+
+  ORF8_alignment1  96 ntQds.ladllaylglll.aadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeee 187
+                       +Q+s ++++l + g+++ aad+H++DhEP+i+fv  +dg++d+vv+s++HHya+el++++++l++ +      H+nL+v  +hhh++ ++e++
+   WP_121819924.1  91 PAQSSaWQEWLGLDGAWFgAADAHLKDHEPFIAFV--KDGTLDSVVFSSGHHYADELAAADANLTDGQ------HANLAVDPTHHHFNPESEGD 176
+                      *****99***********669*************8..5**************************9888......9****************996 PP
+
+  ORF8_alignment1 188 dgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsder 261
+                       + +++ ++g+e  s+ld+r++W++n+v++k++++avedP+++++rg+WW+edttDaql+ +y +l+l ++++ 
+   WP_121819924.1 177 GALPSEFLDGVE--SWLDARKAWYENDVYAKSSEDAVEDPWAARERGMWWAEDTTDAQLKGVYQTLNLGGAGDV 248
+                      666666667888..******************************************************998875 PP
+
+>> WP_004048522.1  hypothetical protein [Halorubrum saccharovorum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  280.0   9.3   7.1e-86   4.3e-79       1     262 [.       1     269 [.       1     270 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 280.0 bits;  conditional E-value: 7.1e-86
+  ORF8_alignment1   1 msltRRqfLasgaaaaaaaal..vgplasadd..ed.......ydeeapvlpdhit....evrddeeeLekYqPklvasrearqkliglYgwia 79 
+                      m++tRRqfLasg+aa + a+l  ++p++++dd  +d       +d+++p+l+++++    +++++ee+L+kY+P++va+r+++q+++glYg+++
+   WP_004048522.1   1 MTRTRRQFLASGGAA-GIAFLpgWFPFVGGDDsdTDgtdtdttTDDRPPTLAEREDqygmSIDFPEEWLQKYRPAFVADRDTMQQSMGLYGHRV 93 
+                      689**********99.8888789*******99663366788867799*******99888899******************************** PP
+
+  ORF8_alignment1  80 eseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlv.edrvadeeTHvnLe 172
+                       ++++d++++yYW+k+++Q+         g+l++adsH++DhEP+iv+vd +dg++d+v+y++yHH+a++++g++lt++ ++r+ +e+TH++L+
+   WP_004048522.1  94 RYDDSDYQYAYYWHKLTHQE---------GILFDADSHLGDHEPTIVRVD-SDGAIDQVTYTFYHHLADTVEGARLTRAlRAREVAEPTHIQLR 177
+                      ********************.........8******************98.**************************99999999********* PP
+
+  ORF8_alignment1 173 vvrphhhyreaeeeedgvlaqeis..gaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlg....lrdsde 260
+                      ++ p+h+y+ +e    g++aq++s  +++ ++ +++ +tWe++g+fd+tadeav++P++v+drg+WWde+ttD+q+a++ylrlg    +++s+e
+   WP_004048522.1 178 IIVPWHNYAVVE----GTPAQSVSfrDVQGDDNASHLRTWETQGIFDPTADEAVWSPRTVQDRGSWWDESTTDYQAAQLYLRLGqyidVAGSGE 267
+                      ***********9....7787777666*********************************************************97766667766 PP
+
+  ORF8_alignment1 261 rd 262
+                       d
+   WP_004048522.1 268 ID 269
+                      66 PP
+
+>> WP_066418812.1  hypothetical protein [Halorubrum aethiopicum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  277.5   6.4   4.3e-85   2.6e-78       1     261 [.       1     264 [.       1     266 [] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 277.5 bits;  conditional E-value: 4.3e-85
+  ORF8_alignment1   1 msltRRqfLasgaaaaaaaal..vgplasadd.ed....ydeeapvlpdhit....evrddeeeLekYqPklvasrearqkliglYgwiaesee 83 
+                      m++tRRqfLasg++a ++++l  ++p+ ++dd +d    +d+++p+++++++    +++++ee+L++Y+P+++a+r++ q++igl+++++++++
+   WP_066418812.1   1 MTRTRRQFLASGGTA-SLTLLpgWFPFLGGDDdTDetenTDDRTPTTAEREDqygiTIDYPEEWLQRYRPAFIADRQTIQQSIGLFAHRVQYDD 93 
+                      689*********999.8888889****9999873346657799********9999999************************************ PP
+
+  ORF8_alignment1  84 ydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlv.edrvadeeTHvnLevvrp 176
+                      +d++++yYW++++ Qd         g+l+++dsH++D EP+iv+v ++dg++d+v+y++yHH+a++++ge+lt++ ++r+ +eeTHv+L+++ p
+   WP_066418812.1  94 SDHQYAYYWHRLSFQD---------GILFDQDSHLGDTEPCIVRV-NSDGTIDRVTYTFYHHLADTIEGERLTRAlRSRAVGEETHVQLRIIAP 177
+                      ****************.........8******************7.5**************************99999**************** PP
+
+  ORF8_alignment1 177 hhhyreaeeeedgvlaqeis..gaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlg....lrdsder 261
+                      +h+y+ +e    g+++q ++  ++e ++++++ +tWe++gvfd+tadeav++P++v+drg+WWde+ttD+q+a++ylrlg    +++s+e 
+   WP_066418812.1 178 WHNYAVVE----GTPNQPVTflDVEGDADASHLRTWETRGVFDPTADEAVWSPRTVQDRGSWWDESTTDYQVAQLYLRLGqyidIAGSGEI 264
+                      *******9....66666666569********************************************************966666666665 PP
+
+>> WP_254810600.1  hypothetical protein [Saliphagus sp. WLHSJ1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  217.6   8.8   7.8e-67   4.7e-60       3     262 ..      12     271 ..      10     274 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 217.6 bits;  conditional E-value: 7.8e-67
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhit.evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      ++RR fL++  +   +++ + + ++++  +  +e+++  d    e  +de+ L ++ P l++s++ar+k iglYg++a s ++d++a+ +W++y
+   WP_254810600.1  12 RSRRGFLRTLPTS--LTLGTIGSVQSATANEGTEYEWVNDGDYiERTFDEDTLLEWVPFLNISSDARRKFIGLYGFTARSPDHDTDAHCFWARY 103
+                      79*****996444..44443333333334445678888875444789*********************************************** PP
+
+  ORF8_alignment1  96 ntQdsladllaylglll...aadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeee 186
+                      ++Q+s ad + + +  +   ++dsH++DhEP ++f+d+++ge  + +++gyHHy le+++ ++ l++ +   ++ H +L+vv+p+hhy+  ++e
+   WP_254810600.1 104 THQESAADDMGFWDEAAgwmSSDSHLWDHEPSTIFTDSQTGEFRKAIATGYHHYPLEISAMNAPLTQFYG-TRDSHLHLNVVDPWHHYTVDHNE 196
+                      **********99876654559*********************************************9998.9*****************99966 PP
+
+  ORF8_alignment1 187 edgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd..rgtWWdedttDaqlariylrlglrdsderd 262
+                       +g+  + +    f+sf+ +r++We++++f++++  a+ +P+++ d   ++WWde+t+Da++ari+  lglr++++ d
+   WP_254810600.1 197 -QGQDPTYF--GRFESFIANRDSWEEQNIFKNSNPLAIDNPWALADgrADSWWDESTRDARAARIWAYLGLRGAGDVD 271
+                      .89998888..8999********************************889************************9987 PP
+
+>> WP_119817599.1  hypothetical protein [Halalkaliarchaeum desulfuricum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  216.8   8.8   1.4e-66   8.2e-60       3     254 ..       2     235 ..       1     241 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 216.8 bits;  conditional E-value: 1.4e-66
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      l+RR++La +aaa a ++ ++++ +a       +++  pd ++   +dee+Le+YqP+l+ s++ r++++gl++++a  e+ d++++ YW++++
+   WP_119817599.1   2 LSRRELLAGTAAALAGTIGLSSAGAA------VDYEGVPDDVE-LTFDEEWLERYQPALIKSSDGRRRSVGLFAYRATKEDTDTEVACYWHRLT 88 
+                      68*****8777775555555544444......35677899885.99************************************************ PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeelt..lvedrvadeeTHvnLevvrphhhyreaeeeed 188
+                      +Qd+    l+++g    +d H++DhEP +vfv  +dg+v+evv++gyHH+a +++g++l+  lv++++ +e TH++Levv+p+hhy  ++ +++
+   WP_119817599.1  89 HQDG----LPLIG----SDGHLYDHEPAYVFV--EDGAVEEVVFTGYHHFASSIEGDRLHdhLVANHT-SEATHPVLEVVDPWHHYDAVRASDS 171
+                      ***8....77776....8*************8..6**********************98622566665.9*****************9998877 PP
+
+  ORF8_alignment1 189 gvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlg 254
+                       +  + +    +++f  ++++W+ n++++ ta+eav dP+s++dr++WWde+t D+++a ++ rl+
+   WP_119817599.1 172 DEGERAF--LALEDFTAAESSWRANDIWEATASEAVYDPHSMRDRDSWWDEGTFDYRMASLWRRLD 235
+                      7776777..5667*************************************************9997 PP
+
+>> WP_254156782.1  hypothetical protein [Saliphagus sp. WLHS1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  206.2   5.8   2.4e-63   1.5e-56       2     261 ..       3     255 ..       2     259 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 206.2 bits;  conditional E-value: 2.4e-63
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      +++RR+fLas + a +  +++ ++a+ d   +++      d i + +++e+eL+++ P+l++sr+ar++ iglYgw+aes + d+++y YW++y
+   WP_254156782.1   3 EMNRRRFLASVGFA-SIGLTTPTTAQTD-YSWTD----GGDVI-DRSYPEDELRRHVPYLTTSRTARESFIGLYGWKAESPDRDTDVYAYWARY 89 
+                      699*****998777.5555555555555.22233....34555.4789********************************************** PP
+
+  ORF8_alignment1  96 ntQdsladllaylglll...aadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeee 186
+                      ++Q   +  + ++++ +   a+d H +DhEP +vfvd+++g+ +  v++gyHH+ l +++++  ++++   d   H +L+vv+p+hhy   +++
+   WP_254156782.1  90 THQTPGIGDIGLMDWAVgafASDGHVWDHEPSYVFVDSETGNFELAVVTGYHHFPLFVSSQSPPITRAD--DGGQHLHLKVVDPWHHYLLDNDT 181
+                      ****977777777666554499***************************************99999776..567899***************99 PP
+
+  ORF8_alignment1 187 edgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd..rgtWWdedttDaqlariylrlglrdsder 261
+                        g+++  +    ++sfld r +W++ngvfd t++ a+ +P+++ d   ++WWde+t+Da++ar +  lglr++de 
+   WP_254156782.1 182 IGGDPT-IY--GRLESFLDVRGEWDQNGVFDATNNLAIDNPWAFPDnrVDSWWDESTRDAKAARWWAWLGLRGADEA 255
+                      888883.33..5678*******************************9779**********************99985 PP
+
+>> WP_092699151.1  hypothetical protein [Halovenus aranensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.5   4.0   1.2e-50   7.4e-44       4     240 ..       3     220 ..       1     257 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 164.5 bits;  conditional E-value: 1.2e-50
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkynt 97 
+                      tRRq+L+s aaa +a+++v ++++ad     +++++  +h++ ++++++ Le++qP+l ++ e+r +l+   +w+a s+eyd++a  Y ++y++
+   WP_092699151.1   3 TRRQYLQSLAAAGGATVVVESASAAD---L-DDIDSEYSHVD-TSFEQATLEQFQPRLLVDGETRPNLRNQLAWVARSDEYDTTACCYVTRYSH 91 
+                      8*******999977777777777776...3.55888999996.99************************************************* PP
+
+  ORF8_alignment1  98 QdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvl 191
+                      Q++          l++ dsH++D EPv+vfvd+d g+vdev+++g H  a+ ++g+ + l+++r+ d+eTHv+L+vv+p+h+y+ a+ + +g +
+   WP_092699151.1  92 QEG----------LTGLDSHLYDTEPVYVFVDEDAGTVDEVIFTGWHWNAAAVSGSAAPLSAQRT-DTETHVSLTVVSPWHNYVLARPD-SGAF 173
+                      **7..........6789***********************************************8.*********************77.6666 PP
+
+  ORF8_alignment1 192 aqeisgaefgsfldkretWedngvfdktadeavedPfsvkd....rgtWWded 240
+                              + ++  +r+   dng++++ a ea e+P++++     rg WW+e 
+   WP_092699151.1 174 F------GLTDWHARRSYLVDNGLYERGAVEAFEEPWTMHSdhgaRGGWWNEK 220
+                      2......3348****************************988********986 PP
+
+>> WP_074880454.1  MULTISPECIES: hypothetical protein [Halolamina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.4   0.3   2.2e-49   1.3e-42       3     243 ..       1     210 [.       1     225 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 160.4 bits;  conditional E-value: 2.2e-49
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      + RR+fL+++++ a+  +++++ a +      ++ + +p+h+t   ++   L +Y+P+lv+  +a++kliglYgw+a s e ++++++YW+ y+
+   WP_074880454.1   1 MRRREFLQAAGVVAVGGTVFSANALG------KHFDAQPEHVT-LAYEPSTLDRYRPELVMPAAAEEKLIGLYGWVARSAERETSVAVYWASYS 87 
+                      68*****9988775555555444444......57999*****7.99************************************************ PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                      +Qd+         +l + dsH++DhEPv+vf d d+gev++v++s yH +a ++ g e+ lv+       TH++L+v++p+h+y+ a +   g+
+   WP_074880454.1  88 HQDG---------WLGNLDSHYGDHEPVYVFFD-DEGEVQQVIASIYHWIAGRVPGTEIALVD------GTHPQLRVIEPWHQYTAAGQP--GE 163
+                      ***5.........55588*************76.9************************9986......48*************998844..66 PP
+
+  ORF8_alignment1 191 laqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttD 243
+                      +   +   ++++     ++W dng+ ++ a  av++P++++ r  WW+ +t+ 
+   WP_074880454.1 164 F---F---DVDDLGTVFDSWLDNGLEASLAPGAVTNPWTMRSRPDWWRRGTVG 210
+                      6...4...34566677889999***************************9975 PP
+
+>> WP_222606885.1  hypothetical protein [Halobaculum magnesiiphilum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  158.7   3.9   7.5e-49   4.5e-42       4     241 ..       3     215 ..       1     238 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 158.7 bits;  conditional E-value: 7.5e-49
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkynt 97 
+                      tRR++L++ +a+ a+a +  ++asa    +  + + +pdh+t ++++e ++++Y P+lv+s++ar+k  +lYgw+a s+eyd+++y+YW+ y++
+   WP_222606885.1   3 TRRDVLRTVGAT-ATAGVGLAAASAP--VRAAHDDAQPDHVT-IDFPESDMQRYAPELVMSDDARAKFLALYGWRASSTEYDTDIYVYWASYSH 92 
+                      8*******9888.4433333444443..24466799*****7.*************************************************** PP
+
+  ORF8_alignment1  98 QdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvl 191
+                      Q +      ++g   + dsH++DhEP+ v+v++ +gev+++ +s yH +    +ge   l+++ v + eTH+ L+v++p+h+y+ ++e+ +g +
+   WP_222606885.1  93 QTG------FIG---NLDSHYGDHEPIQVVVNDTTGEVERIRASIYHWI----KGE--ALASEFVLADETHPRLRVIDPWHQYTAVDEG-RGGF 170
+                      **6......666...78******************************75....554..35667777899*****************987.9999 PP
+
+  ORF8_alignment1 192 aqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedt 241
+                      + ++     ++ +d+ ++W  ng+ ++ a  + ++P+ ++ r  WW+ + 
+   WP_222606885.1 171 VPDV-----DDLRDEWDSWLANGLEESVAPGSSVNPWIMSTRSDWWRRSD 215
+                      8888.....56779********************************9875 PP
+
+>> WP_074880348.1  MULTISPECIES: hypothetical protein [Halolamina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.8   1.7   5.6e-48   3.4e-41       3     243 ..       1     209 [.       1     224 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 155.8 bits;  conditional E-value: 5.6e-48
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      + RR++L++++a a+ ++++++ a a+      + + +pd +t  ++de  Le+Y+P+lv+  +a++k iglYgw+  see ++++++YW+ y+
+   WP_074880348.1   1 MRRREYLQAAGAVAVGSTVFSASALAE------HFDAKPDDVT-LEYDESVLERYRPELVMPAAAEEKFIGLYGWVTRSEERETNVAVYWASYS 87 
+                      68********99977777777777776......68999**997.************************************************** PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                      +Q++         +l + dsH++DhEPv+vf   dd+ v++v++s yH +a +  g+e+ lv+d      TH++L+v++p+h+y+ a +   g+
+   WP_074880348.1  88 HQEG---------WLGNLDSHYGDHEPVYVFF--DDDGVTQVIASIYHWIAGRAPGAEIPLVDD------THPQLRVIKPWHQYTAAGQP--GE 162
+                      ***5.........55588*************6..6899***********************976......7*************998744..66 PP
+
+  ORF8_alignment1 191 laqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttD 243
+                      +   +   ++++     ++W dng+ ++ a  +v++P++++ r  WW+ +t  
+   WP_074880348.1 163 F---F---DVDDLTTVFDSWLDNGLEESLAPGSVTNPWTMRSRPDWWRRGTAG 209
+                      6...4...4568889999*******************************9975 PP
+
+>> WP_090312393.1  hypothetical protein [Natronorubrum texcoconense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.0   0.1     0.014   8.1e+04       3      49 ..      17      63 ..      15      81 .. 0.60
+   2 !  147.8   9.4   1.6e-45   9.4e-39      33     266 ..     146     363 ..     125     364 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.014
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaal.vgplasaddedydeeapvlpdhitevrd 49
+                       RR++L++++aa+a +++  +++++a  +d d++ap+l    t+ +d
+   WP_090312393.1 17 ADRREVLKATGAAIAFVVVgRSGIERATASD-DDDAPTLTTDATTPGD 63
+                     67********999887777533333333222.2444444444444444 PP
+
+  == domain 2  score: 147.8 bits;  conditional E-value: 1.6e-45
+  ORF8_alignment1  33 ydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPviv 126
+                      +++e ++ p+   e+ +de  L+kYqP++++++++r+ + g+++++a+s++ d+ +  YW+ + + +          ++++ +s ++ h P++v
+   WP_090312393.1 146 STDEWSEVPENA-EIVYDEYRLRKYQPRISMDSDTRRGSDGMFAFVADSDDEDTFVCCYWLDLPKAET---------AWVDFNSQLGSHKPIYV 229
+                      334445555555.699*************************************************996.........7788999********** PP
+
+  ORF8_alignment1 127 fvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdkta 220
+                      fvd++++e++e+vysgy  +a++++ +e +l ++r  de+TH++ ev++p++h   ++++ +g + + +      +  ++r+tW+d+g +d ++
+   WP_090312393.1 230 FVDEETEEIEEIVYSGYQYLAADVQPDEDDLEQSRG-DEPTHASFEVIDPWNHLSFKDDG-RGSFPELH------ALEETRSTWTDHGWYDAAD 315
+                      ***********************************8.*****************999976.89886655......6679*************** PP
+
+  ORF8_alignment1 221 deavedPfsvkdrgtWWdedttD..aqlariylrlglrdsderdelrv 266
+                        avedP+++++r++WWd++ t   a+  +i  rlg +++++ delrv
+   WP_090312393.1 316 AIAVEDPWQMRNREMWWDDSWTSfsARYVNIARRLGAAGGEHADELRV 363
+                      *******************9765115666677788999999***9986 PP
+
+>> WP_096391476.1  twin-arginine translocation signal domain-containing protein [Halopenitus persicus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.1   8.0   1.3e-45   7.6e-39       2     254 ..       7     234 ..       6     246 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 148.1 bits;  conditional E-value: 1.3e-45
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasadd.edydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvk 94 
+                      +ltRR+fL+ ++aaaa++a+ g++a+  + ++++ +  ++pdh++   +d+  +e+Y+P+l++++ + +   +lYgwia s e+++++y+Y +k
+   WP_096391476.1   7 TLTRREFLRGSGAAAALVAT-GGIAGRSSaTEHTAHWREKPDHVS-LTFDQVAMEEYRPRLEIHHLDVEP-SALYGWIASSPEHETDVYVYFAK 97 
+                      689*******9999666555.444444443788888999*****6.99***************9988765.68********************* PP
+
+  ORF8_alignment1  95 yntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeed 188
+                      y+tQ++         + l  dsH  D EP++vfvd +dg+v+ev ysgyH + ++ ++         v d +THv+ +vv+phhh++ ++e+  
+   WP_096391476.1  98 YATQRG---------ISL-LDSHMHDREPFYVFVDPSDGSVQEVAYSGYHWFRASNAS-------PPV-DGDTHVTARVVNPHHHFVLSSES-- 171
+                      *****6.........333.49******************************9766543.......344.889****************9955.. PP
+
+  ORF8_alignment1 189 gvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlar.iylrlg 254
+                        + +++    ++s +d+ + W +ng  ++ +  a ++P++++ r++WW+e  +  ++a  iy +  
+   WP_096391476.1 172 -AIREDV---PVESLVDEFDIWLSNGWGESLHPGAATNPWVMRSRESWWREKDWEDKIALtIYDAYR 234
+                      .555555...667*****************************************9999987875444 PP
+
+>> WP_260643759.1  twin-arginine translocation signal domain-containing protein [Salinirubellus salinus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.6   8.1   2.4e-43   1.4e-36       3     255 ..       6     234 ..       4     246 .] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 140.6 bits;  conditional E-value: 2.4e-43
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasadd.ed....yd.eeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayy 90 
+                       tRR+fL+  +aa+a+ a  ++++sad+  d     d e  + +p+ + ++++de+ L +YqP+l +s+ + ++ +g+Y+w+++s++ d++a +
+   WP_260643759.1   6 STRRDFLRGVGAATALYAG-TGVVSADHtADpdgdADdEYWNAKPSGV-TISYDEALLSEYQPYLRVSHLN-EQPVGMYAWVVDSTDRDTQALV 96 
+                      69*****999999666555.4455555432234444414344444444.7****************98765.5679****************** PP
+
+  ORF8_alignment1  91 YWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreae 184
+                      YW+ y+ Q +          l +adsH +D EP++vf d+d+g+++evvysgyH +a++    ++         +  H+ + vv+p+hhy+ a+
+   WP_260643759.1  97 YWTYYALQTG----------LSSADSHVQDREPIYVFRDTDTGQIEEVVYSGYHWLAARTPTPQT---------SGNHPMMYVVKPWHHYVGAS 171
+                      *********6..........6689*********************************98765432.........346****************9 PP
+
+  ORF8_alignment1 185 eeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlgl 255
+                      ++ +           ++   d   +W  ng  ++ a  +v++P+ ++ r++WW+ ++ D  +a+ + + +l
+   WP_260643759.1 172 DSGRQID--------LQPLHDVFGSWLVNGWAEHLAPGTVTNPWGMRSRESWWRRSSFDFSFAETFAQVNL 234
+                      7733333........335567777788888889999***********************998764433332 PP
+
+>> WP_179918453.1  hypothetical protein [Halosimplex pelagicum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  139.0   2.9   7.7e-43   4.6e-36       2     263 ..       5     236 ..       4     237 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 139.0 bits;  conditional E-value: 7.7e-43
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      ++tRR++Las++a  a  a + + a+a+      + +  p+h t +++de+ L kY+P+l+ s ++ +k   lYgw+a s+  ++++ +YW+ y
+   WP_179918453.1   5 ETTRRELLASAGAV-AVGAGLAGRARAE---APARGDLVPSHAT-IEYDEDMLLKYRPRLQFSADEYSKFLNLYGWVATSTALETDVCVYWAEY 93 
+                      579*******9999.7777777777777...56889******97.************************************************* PP
+
+  ORF8_alignment1  96 ntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedg 189
+                      ++Q++            + dsH +DhEP++vfv+  dg+vd+vvys+yH + ++  +          a   TH+  +v++p+h+y+++++   g
+   WP_179918453.1  94 THQEG----------VSEYDSHDGDHEPIYVFVR--DGTVDKVVYSAYHWLRATSYAP---------ALDGTHPLFRVISPWHQYTRTDTP--G 164
+                      ****7..........5578*************96..*************886543332.........23579*************998844..7 PP
+
+  ORF8_alignment1 190 vlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedt....tDaqlariylrlglrdsderde 263
+                       l      ++ g+  +  ++W + g+ ++ a  av++P+ +  r +WW+ +t    +Da   ++  +lg  +++++d+
+   WP_179918453.1 165 RL------TTIGDLTQVFDQWLEGGLEESIAPGAVVNPWIMARRPHWWRRGTfglsWDAMYVELLYTLGAHKAGDSDN 236
+                      76......3457888999*********************************966667888888888888888888876 PP
+
+>> WP_227134581.1  hypothetical protein [Halorubellus salinus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  134.4   2.6   1.9e-41   1.2e-34       4     242 ..       3     232 ..       1     237 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 134.4 bits;  conditional E-value: 1.9e-41
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasadded...ydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvk 94 
+                      tRR++L+ +a a aa+ l++++a+ad+++        + +pdh+t  ++de+ Le+Y+P +v+++  + +  ++Ygwia s++ d+ +++YW+ 
+   WP_227134581.1   3 TRRDVLKMSASALAATSLASSTAGADEDEalsAAPYWEARPDHVT-LSFDEQVLERYKPMVVIDH-LQYTPNAFYGWIARSSHRDTAIAVYWAD 94 
+                      8******9999999***********9866653335567899**97.*************999976.5667889********************* PP
+
+  ORF8_alignment1  95 yntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeed 188
+                      y  Q++    l+ +g  l+ dsH++DhEP+iv  ++d+g+v  v+ys+yH +a +     + l e      eTH++  vv+p+h+y+ ++ee  
+   WP_227134581.1  95 YDRQEG----LSPFGGALS-DSHLGDHEPCIVQFHEDTGQVLGVTYSAYHWLAGRAPTYGIPLYE------ETHPQFYVVKPWHQYAITAEE-- 175
+                      *****8....666776665.9**********************************9999999875......69*************988755.. PP
+
+  ORF8_alignment1 189 gvlaqeis..gaefgsfldkretWedngvfdkta.deavedPfsvkdrgtWWdedtt 242
+                      gvl   ++   a+  +f  ++++W   +  +++    a ++P+s+  r++WW++ tt
+   WP_227134581.1 176 GVLDVPVKslLASTPDFETRYDEWLIADELANALfVGANTNPWSLATRESWWKDTTT 232
+                      66555554225777899999****9999998886256899*************9997 PP
+
+>> WP_166975898.1  hypothetical protein [Haloarcula sp. JP-L23]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.6   7.8   1.4e-40   8.2e-34       3     241 ..       1     209 [.       1     235 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 131.6 bits;  conditional E-value: 1.4e-40
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      ++RR+f ++   +aa+++ +++ ++a+      +++++ + i+   +de+ L  Y+P+lv+s+ear+k +g +gw+a s +yd+++++YW +y+
+   WP_166975898.1   1 MKRREFAKAV--LAALTFGATSGTAAA-----SHMDEPGENIS-LTFDEAALDTYRPRLVMSTEAREKHTGTFGWYATSADYDTDVAVYWNRYS 86 
+                      6899998663..424444433333333.....45777788885.99************************************************ PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                      +Q++          ++++dsHf+D EPv + +d+++g+v++v +s yH +  e++++++ l e      eTH++L+vv+phh++r a+ +edg 
+   WP_166975898.1  87 NQEG----------WIGPDSHFGDTEPVQIEIDSETGAVTRVRASVYHWMKGEVTAANAPLYE------ETHAHLAVVDPHHQHRAAQPAEDGF 164
+                      ***7..........677************************************9999999875......69*******************9999 PP
+
+  ORF8_alignment1 191 laqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedt 241
+                      +  +i+     +  +++ +W dn++ +     + + P+++++ ++WW+ + 
+   WP_166975898.1 165 FP-DIK-----DLTEHYPRWLDNDLEEDVRVGSSTVPWRMQNWDHWWQTGA 209
+                      84.343.....5679********************************9876 PP
+
+>> WP_153952742.1  hypothetical protein [Halosegnis longus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.2   0.4   3.6e-40   2.1e-33       4     262 ..       3     235 ..       1     239 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 130.2 bits;  conditional E-value: 3.6e-40
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkynt 97 
+                      tRR +L++++ a aa++l++++++ad      + ++ p+h+t +++d+ +Le+YqP l +++e+r++  glYgw+a s e++++ + YW+ y++
+   WP_153952742.1   3 TRRAVLTATGSALAATTLATGTVAAD------HFEEIPEHVT-IGYDQPWLERYQPLLAMDSETRSRFLGLYGWRASSPEFEYDWACYWASYTH 89 
+                      8*******999999999999999998......6899*****7.*************************************************** PP
+
+  ORF8_alignment1  98 QdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvl 191
+                      Q +          l++ dsH +DhEP++v vd ++g+vd+v+y++yH + +e     +  +        T +++ v +p+hhy  a++   +++
+   WP_153952742.1  90 QTG----------LTDLDSHRGDHEPLYVAVD-EQGNVDRVCYTAYHWLKAESR---MPTL------DGTNPVMLVNNPYHHYLMAPTP--TTP 161
+                      **7..........6789*************98.99************9866533...3333......246799**************55..999 PP
+
+  ORF8_alignment1 192 aqeisgaefgsfldkretWedngvfdktad.eavedPfsvkdrgtWWded.....ttDaqlariylrlglrdsderd 262
+                      a+++ ++e  + + +  +W dng+ ++ ++   v+ P ++     WW+ +     ++Da  ar +l+lgl ++  +d
+   WP_153952742.1 162 AERF-DVE--DLVPEMPDWLDNGLEESLDTsVGVARPETILAEPDWWATGsfglgSLDALYARTRLTLGLDGAAASD 235
+                      9999.577..999**********98876541579**************962222268************99887766 PP
+
+>> WP_135823075.1  hypothetical protein [Halostella litorea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.0   4.1   4.2e-40   2.5e-33      11     239 ..       3     219 ..       1     223 [. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 130.0 bits;  conditional E-value: 4.2e-40
+  ORF8_alignment1  11 sgaaaaaaaalvgplasadd.edyd..eeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsl 101
+                      ++ +a a   l+g++asad   dy+     + +pdh+t +++d+  Le YqP l + +  + +  +lYgw+a s++ d  + +YW+ y +Q++ 
+   WP_135823075.1   3 TAQTA-AGLSLLGGVASADTdGDYTaqPYLDAQPDHVT-IEFDRGLLETYQPMLRTGH-LKYRPNALYGWVARSSQRDSLMLVYWADYDKQEG- 92 
+                      44444.667778899999964446532446899****7.***************9865.4566789**************************6. PP
+
+  ORF8_alignment1 102 adllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaq.. 193
+                               l+ +dsH++DhEP++v vd+ +gev +v+ys+yH +a++ +g  + +       eeTH++ +vvrp+h+ r +e e  gv+ +  
+   WP_135823075.1  93 ---------LTYKDSHLGDHEPIYVKVDAATGEVLSVIYSAYHWLAASQSGILVPMY------EETHPQFHVVRPWHQVRITEAE--GVFPSir 169
+                      .........5678*********************************99888666554......479************9999965..7775422 PP
+
+  ORF8_alignment1 194 eis...gaefgsfldkretWedngvfdktad.eavedPfsvkdrgtWWde 239
+                      +++   +a+   f +  e+W   +  + + +  +v+dP++++dr++WW++
+   WP_135823075.1 170 DFTaaiEADGRTFDSVFEKWLVADHLADSLQpGTVTDPWRMTDRDHWWRD 219
+                      444656788889999*****99998887765169**************97 PP
+
+>> WP_013876079.1  hypothetical protein [Halopiger xanaduensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.6   0.0       1.2   7.3e+06       2      28 ..       5      34 ..       4      66 .. 0.58
+   2 !  129.8   4.7   4.6e-40   2.8e-33      32     265 ..     132     353 ..     113     354 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 0.6 bits;  conditional E-value: 1.2
+  ORF8_alignment1  2 sltRRqfLasgaaaaaaaal...vgplasa 28
+                     sltRR+ L   +aa aaa+    v++ ++a
+   WP_013876079.1  5 SLTRREALLGIGAAGAAAVGgiaVTQRVAA 34
+                     579999997666664444433322222222 PP
+
+  == domain 2  score: 129.8 bits;  conditional E-value: 4.6e-40
+  ORF8_alignment1  32 dydeeapvlpdhit.evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPv 124
+                      +y++++++++   + ++  de  L+++qP l++++++rq+  glYg++a se+ d+++  YW k ++ +s    l++ +  l+  s  +Dh+P+
+   WP_013876079.1 132 NYTTKKEWSAKPDDaKIVWDEYRLRQFQPLLKMDDATRQAFDGLYGYVATSEDQDTDVLCYWSKVSSGES----LPVGDNALG--SAIGDHDPI 219
+                      4666666665544447999***********************************************9998....777666555..899****** PP
+
+  ORF8_alignment1 125 ivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdk 218
+                      +vfv+++++e++++vysgy   a+e++ +e +l + r+ d++TH++ +vv+ ++hyr+++++  g++      ae++s+ + retW++n++   
+   WP_013876079.1 220 YVFVNSETDELERIVYSGYNLEAAEIQPSEDDLEQRRT-DTPTHATFTVVSGWNHYRHTPDA-TGHF------AELKSWGEVRETWQSNNFGP- 304
+                      *********************************99997.*********************66.6776......7889***********99754. PP
+
+  ORF8_alignment1 219 tadeavedPfsvkdrgtWWdedttDaqlariylrlg....lrdsderdelr 265
+                       +++ave+P+++     W d+d +   l  i+l+lg    + ++d+ delr
+   WP_013876079.1 305 -DTTAVENPWQLATASDWRDNDGV-FSLTDIWLNLGqqigWYGADNIDELR 353
+                      .668*********99888777765.77888999988777799999999987 PP
+
+>> WP_049980255.1  hypothetical protein [Halolamina rubra]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.7   9.7     1e-39   6.1e-33       1     262 [.       1     246 [.       1     250 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 128.7 bits;  conditional E-value: 1e-39
+  ORF8_alignment1   1 msltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvk 94 
+                      ms tRR++L+ +a  aa ++++g++a+++  +yd+  + +pdh++   +de  L +Y P+lv+s+ear+k +gl+gw+a s+eyd++ ++Y + 
+   WP_049980255.1   1 MSYTRRDVLRGAAGVAAGSVAIGTVAAQE--EYDH-WQAQPDHVS-LVYDEPTLVSYAPRLVLSQEAREKFRGLWGWTATSQEYDHDHHVYVAL 90 
+                      5789*****98877767777777776666..5665.899*****7.889999****************************************** PP
+
+  ORF8_alignment1  95 yntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeed 188
+                      y++Qd+    l  +g++l+ dsH++D E ++v+ d ++ge ++v+y +yH  a + +++++t+  d +     H++ +v +p+h y++++ +  
+   WP_049980255.1  91 YTHQDG----LGTIGQMLS-DSHLGDTEWYYVLSDPETGETQQVIYDAYHWVAGRQNASSITM--DGE-----HPVASVQDPWHFYAHQSVD-- 170
+                      *****8....999998776.*********************************9988887765..555.....99**************966.. PP
+
+  ORF8_alignment1 189 gvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWded....ttDaqlariylrlglrdsderd 262
+                      ++ a++++  e+++  ++     +ng+ ++ +  +v+dP +++ r++WW++     +tDa la    rlg+ ++d+ d
+   WP_049980255.1 171 ADSATSFD--EVNDLTEEFGGLLSNGLDESLEPGTVTDPATMQARTHWWRSAvgefSTDALLASAVYRLGWVGADQAD 246
+                      66677884..56699999999****************************965333379******8899***9999887 PP
+
+>> WP_012946147.1  hypothetical protein [Haloterrigena turkmenica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.1       1.8   1.1e+07       2      22 ..       5      28 ..       4      64 .. 0.60
+   2 !  127.7   2.0   2.1e-39   1.3e-32      35     265 ..     133     349 ..     108     350 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 1.8
+  ORF8_alignment1  2 sltRRqfLasgaaaaaaaal...v 22
+                     +ltRR+ +a +aaaa  aa    +
+   WP_012946147.1  5 TLTRRDAMAGTAAAAIGAAGalsI 28
+                     689****97766553333322222 PP
+
+  == domain 2  score: 127.7 bits;  conditional E-value: 2.1e-39
+  ORF8_alignment1  35 eeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfv 128
+                      +e +++pd + ++  de+ L kYqP l+++ e+r++  glYg++a se+ d+++  YW k +  +s    l+   +     s  +Dh+P++vfv
+   WP_012946147.1 133 QEWSEKPDGV-QIIWDEQRLWKYQPLLQMDAETRDRFDGLYGYVATSEDEDTDVLCYWSKTERVKS----LPGGND--TLGSSIGDHDPIYVFV 219
+                      4444556666.58899*************************************************9....444333..3447789********* PP
+
+  ORF8_alignment1 129 dkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktade 222
+                      ++d+ge++++vysgy   a+e++  + +lv++r+ d++TH++ +vv+ +hhyr+++e+  g +      + ++s+   r+tW++ng+    +++
+   WP_012946147.1 220 NSDTGELERIVYSGYNLEAAEIQPGTDDLVTQRA-DSPTHATFTVVNGWHHYRHTPEK-TGFF------TALKSWPAVRDTWSNNGFGP--DTT 303
+                      *********************************8.*********************66.5555......3456***********99754..568 PP
+
+  ORF8_alignment1 223 avedPfsvkdrgtWWdedttDaqlariylrlg....lrdsderdelr 265
+                      av++P++++ ++ W +++ +   l  i++ lg    + ++de+d+lr
+   WP_012946147.1 304 AVQNPWELTTKNDWRANSGL-FSLTDIWISLGktfgWYGADETDDLR 349
+                      **********9998777766.889999*9999888899999999987 PP
+
+>> WP_253521850.1  twin-arginine translocation signal domain-containing protein [Halorussus sp. XZYJT10]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.3   5.1   1.1e-38   6.8e-32       2     248 ..       3     226 ..       2     237 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 125.3 bits;  conditional E-value: 1.1e-38
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklva....srearqkliglYgwiaeseeydvrayyY 91 
+                      +++RRqfL+++a a +++++vg++   +     ++ + +pdh++ v +d+  Le+YqP+l++    ++ + +   ++Ygw+a s e+ ++++++
+   WP_253521850.1   3 QVSRRQFLRATALA-GTVTAVGSTHVHA-----DHGEHQPDHVS-VTFDRVFLESYQPRLDLtavkTNPEDTLPKAIYGWKASSPEHSTDVAVF 89 
+                      689*****987666.8888888887777.....6799******6.***************9977654444556689****************** PP
+
+  ORF8_alignment1  92 WvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaee 185
+                      W+ y+ Q +    l      +++dsH++DhEPv+vfvd+++gev ev+ys+yH +  + +     l + r      H++ +vv+p+h+y   ++
+   WP_253521850.1  90 WTAYSFQAG----L----SPFGHDSHLGDHEPVYVFVDDETGEVREVIYSAYHWLRGRAT--VPPLYDGR------HPEATVVSPWHQYSLGAS 167
+                      ********8....3....35679******************************9866543..34455544......9************99884 PP
+
+  ORF8_alignment1 186 eedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWdedttDaqlar 248
+                              e+  +++++ ld  ++W d+g+ d  a  +  +P++++    r +WW+e+     + +
+   WP_253521850.1 168 P-----EAEF--VSVEDLLDVFNNWLDDGLEDDLAPGTARNPWKMSGrsgRRHWWREGRDGVSMNK 226
+                      4.....4455..44559****************************998999******976666655 PP
+
+>> WP_007273987.1  hypothetical protein [Haloferax sulfurifontis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.3   4.7   1.2e-38   6.9e-32       3     239 ..       2     222 ..       1     232 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 125.3 bits;  conditional E-value: 1.2e-38
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasadded.ydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      +tRR+fL++g+ a aa alvg++ sa  +  +++  + +pdh+t   ++ + L++Y+P+lv+++   ++ ++lY ++a s+e+d ++ +YW+ y
+   WP_007273987.1   2 RTRREFLRAGGKALAAGALVGGTFSAGVSAaSETIDDATPDHVT-RTYEPDLLNRYKPRLVLRDLGTNTPTALYSFVARSTEFDDTVLVYWAEY 94 
+                      79*********999999998888888764426677899*****8.78999******************************************** PP
+
+  ORF8_alignment1  96 ntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedg 189
+                        Q+         g+ l+ dsH++DhEP++v+v++ ++e+ +v +s+yH +     +  + l  d +     H++L+vv+p+hhy  ++ee  g
+   WP_007273987.1  95 PFQK---------GVALGYDSHWGDHEPIYVRVNETTDEIVDVAFSAYHWLRGWSRSPPTVL-GDSE--GAVHPTLHVVNPWHHYYLTAEE--G 174
+                      ****.........79999*******************************9987766655555.5544..589*************999977..4 PP
+
+  ORF8_alignment1 190 vlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWde 239
+                      +    + + e  s  d+ ++W dng  d    +++++P++++    r  WW++
+   WP_007273987.1 175 QD---V-DLEHLS-DDEMQAWWDNGWDDAIYLRSLTQPWVMTGfggRSDWWHN 222
+                      33...3.344333.36678888999888889999*******99999*****86 PP
+
+>> WP_156709145.1  hypothetical protein [Natronomonas sp. CBA1123]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.6   5.1   3.6e-38   2.2e-31       4     256 ..      11     249 ..       8     259 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 123.6 bits;  conditional E-value: 3.6e-38
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkynt 97 
+                      tRR+fL++g+a +aaa+ +++las +      +  ++p h+t  ++d+++L++Y+P l++ ++a+ ++   Ygw+aes eyd+++ +Y + y+ 
+   WP_156709145.1  11 TRRTFLRRGTAVTAAAVGATTLASTA-----AAERSPPPHVT-LSYDQQQLKQYRPLLDIPSDAEFSSPEWYGWVAESPEYDTTCLVYFAYYRG 98 
+                      8*********9999999999998888.....55667788886.*************************************************** PP
+
+  ORF8_alignment1  98 QdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeee.dgv 190
+                      Q++          ++ adsH +D EP++vf d + g+v+evvys+ H + +  ++++ +l e        Hv+ +  +phh+y+ +  ++ +  
+   WP_156709145.1  99 QRG----------WTRADSHRGDREPMYVFLD-QYGTVTEVVYSAWHWMQA--SSSTPNLYEPDS--GGSHVTARTFEPHHQYKLNGANAgRLL 177
+                      **6..........6789*************87.9*************9865..556677777765..679**************9886642334 PP
+
+  ORF8_alignment1 191 laqeis...gaefgsfld...kretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglr 256
+                      +++e+    +a f ++l+   + e+W  +g  +  +  a ++P+ +++r++WW+++t  +  a   ++l+l+
+   WP_156709145.1 178 PVNELGtseDAPFVADLEsdvQFEQWLAEGWSEALHPGAATEPWIMQNRDSWWRDGTERYARAVWNVQLQLA 249
+                      555543445999*999994445799******9*************************998777655666655 PP
+
+>> WP_076583954.1  hypothetical protein [Natronorubrum daqingense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.5   0.1      0.64   3.9e+06       3      32 ..      16      48 ..      14      84 .. 0.52
+   2 !  123.5  10.3   3.9e-38   2.3e-31      35     266 ..     152     367 ..     133     368 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.5 bits;  conditional E-value: 0.64
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaal....vgplasadded 32
+                       RR++L+++a a++++++    ++p+ + ++ +
+   WP_076583954.1 16 ADRRDVLKATAGAISLVIVgrsaTQPVGATEN-N 48
+                     67*****9987775655554442222222221.1 PP
+
+  == domain 2  score: 123.5 bits;  conditional E-value: 3.9e-38
+  ORF8_alignment1  35 eeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfv 128
+                      ++  + pd   ev +de  L+kYqP++++s++ r+++ g+Y++ aese+ ++ +  YW+ + + +          + ++ +s  + h P++vfv
+   WP_076583954.1 152 DDWTEVPDDA-EVMYDEYRLRKYQPRVSMSSDLRSDTDGMYAVLAESEDEETFVCCYWLDLPSAET---------AVVDFNSQIGSHKPIYVFV 235
+                      3333444444.699***********************************************99996.........6677889999********* PP
+
+  ORF8_alignment1 129 dkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktade 222
+                      d++++ev+e+vysgy  +a++ + +e +l ++r+ de+TH++ ev++p++h +  e++  g +       e+ +  d+retWe+++  d ++  
+   WP_076583954.1 236 DAETEEVEEIVYSGYQYLAADTQPDEDDLEQARA-DEPTHATFEVIDPYNHLVYDEDG-GGAF------LELHDIDDERETWEQHQWLDVADPL 321
+                      ******************************9997.*****************999977.5555......3455677****************** PP
+
+  ORF8_alignment1 223 avedPfsvkdrgtWWdedttDaqlar..iylrlglrdsderdelrv 266
+                      av dP+++ dr++W +++ t     +  +  rlg++++++ delr+
+   WP_076583954.1 322 AVDDPWQMADRESWFHDGLTSFTSMQanMARRLGWAGGSDADELRA 367
+                      ******************988776554588899*********9985 PP
+
+>> WP_254156785.1  twin-arginine translocation signal domain-containing protein [Saliphagus sp. WLHS1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.0       1.6   9.6e+06       2      26 ..       7      31 ..       6      65 .. 0.73
+   2 !  120.5  13.4   3.2e-37   1.9e-30      31     262 ..     131     349 ..     116     350 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 1.6
+  ORF8_alignment1  2 sltRRqfLasgaaaaaaaalvgpla 26
+                     +++RR+ ++ ++aaa+  a v +l+
+   WP_254156785.1  7 TISRRDAMKGAGAAAGVLAGVPQLT 31
+                     579******9999977776655443 PP
+
+  == domain 2  score: 120.5 bits;  conditional E-value: 3.2e-37
+  ORF8_alignment1  31 edydeeapvlpdhit.evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEP 123
+                       dy++  ++    ++ ++++de  L++YqP+l+++ e+r+++ g+Y+++a see ++++  YWv +   +        ++  + + s ++Dh P
+   WP_254156785.1 131 VDYTDVLEWEHKAEStTIEYDEWYLRNYQPQLNMALEERDRMNGMYAYVARSEEENTDVLCYWVYLDRESE-------ADEKIRTGSDLGDHQP 217
+                      33667677766554449***********************************************7776664.......566777888999**** PP
+
+  ORF8_alignment1 124 vivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfd 217
+                      ++vfv +d g+v+++vys++H y+++++     l +dr  d + H+  e ++ph h++ +++e  g++       e++ + + r+ W++n +++
+   WP_254156785.1 218 IYVFV-NDAGKVEKIVYSAFHWYTATITPGPDVLWQDRK-DDPAHAAFE-MTPHGHFMFNATE-PGDF------YELKPWPEVRDVWKNNTFYS 301
+                      ****7.5*******************************8.*******98.68******99955.5555......58889*************** PP
+
+  ORF8_alignment1 218 ktadeavedPfsvkdrgtWWdedttDaqlariylrlg....lrdsderd 262
+                      +++ +++e+P+++   ++WW+e+  D    r+y++lg    + ++de d
+   WP_254156785.1 302 RSKPNTIENPWEIGAHDHWWAES-FDTLYDRLYVKLGqwfgWYGADEAD 349
+                      ********************997.8999******998766677766665 PP
+
+>> ELZ14407.1  hypothetical protein C478_07277 [Natrinema thermotolerans DSM 11552]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.3   6.0   1.8e-37   1.1e-30      16     255 ..       3     229 ..       1     237 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 121.3 bits;  conditional E-value: 1.8e-37
+  ORF8_alignment1  16 aaaaalvgplasadded.ydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllayl 108
+                      aa+++  +++asa+ +d ++   + +p+h+t v++d++ +e YqP+l  +r + ++ i   + +aes e d+++    + y++Q++        
+       ELZ14407.1   3 AATVVGGTSTASAATNDgTEAYWDAQPEHVT-VSFDRAAIEAYQPRLLWDRYDVADPISYTALYAESPEWDTDVVAGFHEYAQQEG-------- 87 
+                      3566667777788765646688899*****7.*****************************************************6........ PP
+
+  ORF8_alignment1 109 glllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgs 202
+                         +a+dsH +DhEP +vf+++d+g+v++vvysgyH + ++++ ++++lv++ + +e   ++L+ v p++h+  ++++ d    ++ +   ++s
+       ELZ14407.1  88 --ATAQDSHAGDHEPSYVFINSDTGDVQRVVYSGYHWFQASVTRDQIRLVQNDAGGE--NPVLRRVPPWNHHLPTASGID----RTGRAFPVES 173
+                      ..6799********************************************9998454..599**********99997633....333345667* PP
+
+  ORF8_alignment1 203 fldkretWedngvfdktadeavedPfsvkdrgtWWded...ttDaqlariylrlgl 255
+                      +ld+ ++W  ng+  +   +   +P+++ + + WW++d   t+  ++ ++y++ g+
+       ELZ14407.1 174 MLDSLDAWLVNGMSGSLRVDQPLNPWKMLNAHDWWQDDamsTIEIWMQQLYVQFGF 229
+                      ***********************************9964448899*******9876 PP
+
+>> WP_152421843.1  hypothetical protein [Halorubrum saccharovorum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  114.9   7.2   1.6e-35   9.9e-29       3     251 ..       9     234 ..       7     240 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 114.9 bits;  conditional E-value: 1.6e-35
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      +tRR fLas+aa  +a+a  ++ ++a      ++++++pdh+t vr+d++ +e+YqP+lv++  + +      +++aes e  + + +  ++y+
+   WP_152421843.1   9 VTRRAFLASAAAV-GAVA-GSQSVTA------THPEQKPDHVT-VRYDTDIIERYQPALVLDGVEIEP-YSYCAMVAESPERGLGCVVGFHRYT 92 
+                      79*****997555.4443.3333344......4699******7.*****************9877665.567799******************* PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                      +Q++             +dsHf+D EP +vf d+ +g+v +vvysgyH y ++  +++l+ v     d +  + L+v+ phhh+++    ++++
+   WP_152421843.1  93 HQEG----------FSMEDSHFGDTEPAYVFFDSRTGDVVQVVYSGYHWYQASTWANNLDYVV----DDRQRPILRVIPPHHHHTTDF--ARSE 170
+                      ***6..........3457********************************9998888876663....3445899*********99887..5688 PP
+
+  ORF8_alignment1 191 laqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedtt...Daqlariyl 251
+                      +++  +++   +  +++ +W ++++ d+    +v +P++++d + WW+ +t+      l ri+l
+   WP_152421843.1 171 ISDVRTDIPTSDLTERYPEWLEDDLEDQIRPGSVYSPWNMRDWEAWWEPSTMtefEITLQRIWL 234
+                      88888899999999************************************97222334445554 PP
+
+>> WP_115806037.1  hypothetical protein [Haloferax sp. Atlit-4N]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  114.7   3.0   1.9e-35   1.1e-28       4     239 ..       3     221 ..       1     230 [. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 114.7 bits;  conditional E-value: 1.9e-35
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkynt 97 
+                      tRR++L++++ a a+ alvg++ s      +   + +p+h+t   ++ + L++Y+P+lv+++   ++ ++lY ++a s+e++ ++ +YW+ y  
+   WP_115806037.1   3 TRREYLRTSGKALATGALVGGVFSVGAAAANAIDDATPEHVT-RTYEPDLLNRYKPRLVVRDLGTNTPTALYSFVARSTEFNDTVLVYWASYPF 95 
+                      8*******99999999996665544433445556799****8.78999********************************************** PP
+
+  ORF8_alignment1  98 QdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvl 191
+                      Q+         g+ l+ dsH++DhEP++v++++d +e+ +v +s+yH +     +   t++ d +     H++ +vv+p+hhy  ++ee   v 
+   WP_115806037.1  96 QE---------GVALGYDSHWGDHEPIYVRINEDRDEILDVAFSAYHWLRGWNPSPP-TVLGDTE--GAVHPTFHVVNPWHHYFLTTEEGVDVD 177
+                      **.........79999*******************************9987766555.5555554..589**************9997744444 PP
+
+  ORF8_alignment1 192 aqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWde 239
+                       +++s+ae        ++W dng  +  +  +v++P++++    r+ WW +
+   WP_115806037.1 178 LEHLSDAE-------LQAWLDNGWDEAVHLPSVTQPWVMTGadgRTDWWLD 221
+                      45555555.......556777777778899*********98889*****75 PP
+
+>> WP_103428370.1  hypothetical protein [Salinigranum rubrum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  114.6   6.5   2.1e-35   1.2e-28       2     241 ..       3     222 ..       2     245 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 114.6 bits;  conditional E-value: 2.1e-35
+  ORF8_alignment1   2 sltRRqfLasgaaaaaaaal..vgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWv 93 
+                      s++RR++L++ a+ ++++a   vg+++ a+    +  a+ +p+h+t  ++d+e L +Y+P+lv+++   ++  +lYg++a s e+d+++ +YW+
+   WP_103428370.1   3 SISRREYLHRVATPTGLSAGlvVGATSVAA--AVSAVADDTPSHVT-REYDAELLDQYKPYLVTRDLGSNTPNALYGYVARSPEFDYTMCVYWA 93 
+                      579******999988888775445555554..567778999****7.89********************************************* PP
+
+  ORF8_alignment1  94 kyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeee 187
+                       y  Q+         g+ l+ dsHf+DhEPv+v+vd++++++ +v ys+yH +    +    t   d+   +  H+ L+vv+p+hhy ++ e+ 
+   WP_103428370.1  94 SYDFQR---------GVALGYDSHFGDHEPVYVRVDEETDSLIDVSYSAYHWLRGWSA----TPPVDAN--SGSHPLLHVVDPWHHYYQTVES- 171
+                      ******.........79999*******************************8765543....3334443..568*************999966. PP
+
+  ORF8_alignment1 188 dgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWdedt 241
+                       gv ++     +      + e+W dng  +  + +++  P+++     r  WW+++ 
+   WP_103428370.1 172 -GVSVDLK-HLD----DATLEAWFDNGWNEAIHVRSLSVPWVMAGadgRSDWWRDSV 222
+                      .6654433.222....235789*********************97789******985 PP
+
+>> WP_271959460.1  hypothetical protein [Halorubrum ezzemoulense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.7  11.1     4e-35   2.4e-28      38     250 ..      28     222 ..       6     231 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 113.7 bits;  conditional E-value: 4e-35
+  ORF8_alignment1  38 pvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkd 131
+                          ++ t+v +d++  e+YqP+l++++ +  +  glY  + es ++d+++  YW++y  Q +           ++adsH +D EP++v vd++
+   WP_271959460.1  28 WDDVEKATTVYYDQTVCEQYQPYLSLDHVE-VSPDGLYCAVYESPDHDTDVIAYWARYPVQFG----------YTNADSHVGDREPIYVHVDDQ 110
+                      33468889*****************98765.5679**************************96..........5679***************** PP
+
+  ORF8_alignment1 132 dgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldk..retWedngvfdktadea 223
+                      +ge+d+vvys+yH ya e ++ ++  v+         ++L v +phhhy+  + +  g+l++    +  +s ld+   ++W +ng +   +++a
+   WP_271959460.1 111 TGEIDKVVYSAYHYYAGETSSPQMAEVNGSD-----YPSLYVFEPHHHYAPRTFT-TGELVDVKPFV-SNSNLDAssSQDWVSNG-W-DVNHDA 195
+                      ******************9999987776665.....89************99966.88887655433.366666511678**999.4.56788* PP
+
+  ORF8_alignment1 224 vedPfsvkdrgtWWdedttDaqlariy 250
+                      ++dP+s++  + WW +d+ D +l  +y
+   WP_271959460.1 196 IVDPWSISAGDNWWPDDSYDGRLSAVY 222
+                      **********************99987 PP
+
+>> WP_253513347.1  hypothetical protein [Halorussus sp. XZYJT10]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.6   3.3   8.2e-35   4.9e-28      39     243 ..      25     200 ..       2     212 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 112.6 bits;  conditional E-value: 8.2e-35
+  ORF8_alignment1  39 vlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkdd 132
+                       +pdh+t +++de++L+kYqP+  +++ + +  ++ Y+ +  s e ++ ay+Y ++y +Q++          l+aadsH  D EPv+v+vd+ +
+   WP_253513347.1  25 DRPDHVT-CSYDEAKLKKYQPETAIDHLDVAP-TASYAAVYTSPERETAAYVYFLRYPHQRG----------LTAADSHVADREPVYVLVDEGT 106
+                      579**97.9****************9988765.678*************************6..........7799****************** PP
+
+  ORF8_alignment1 133 gevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeaved 226
+                      g v++vvys yH   +  + +  tl       + THv L+vv+p+h+y+ + +   g+       +++  + ++ ++W+ ng   +++ ea  +
+   WP_253513347.1 107 GRVERVVYSVYHYVKAAGTPS--TLPM-----NGTHVRLHVVEPWHQYVPTGDP--GTR------VDLRNYCEAVDDWHANGW--RASAEATRN 183
+                      ***********9875554444..4433.....469*************998744..665......456689**********95..567799*** PP
+
+  ORF8_alignment1 227 PfsvkdrgtWWdedttD 243
+                      P+++++r+ WW+edt+ 
+   WP_253513347.1 184 PWTMRNRDGWWAEDTLG 200
+                      ***************75 PP
+
+>> WP_255149777.1  hypothetical protein [Halosegnis sp. ZY10]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.1   3.9   2.4e-34   1.4e-27       4     264 ..       5     257 ..       3     260 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 111.1 bits;  conditional E-value: 2.4e-34
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasadd.ed........ydeeapvlpdhit.......evrddeeeLekYqPklvasrearqkliglYgwiaes 81 
+                      tRR++L++g+ a +a a+vg++asa+            +    ++++   t         ++de+ +++YqP+lv+++ +  + i+++++ a  
+   WP_255149777.1   5 TRRDVLRAGTGA-TALAIVGSTASAETsRPaggeftqeS----ETRATV-TyssgreiVLEYDEAAIQEYQPQLVLQEVD-PEPIAFHAVHASD 91 
+                      8*****999777.67777889999987522455543332....222221.12334444789**************98766.56789******** PP
+
+  ORF8_alignment1  82 eeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvr 175
+                      +e+ ++a y W+ y++Q++            +adsH++DhEPviv  d+ +gev +v y++yH +  +   + l+ ++ +    +  + L+v  
+   WP_255149777.1  92 SESSLNAVYGWTLYSHQEG----------VSSADSHLGDHEPVIVWYDETTGEVARVDYAAYHWFRGSARPDVLQYADRA----DRRPMLRVDP 171
+                      ******************6..........5589***********************************999999877444....34699***** PP
+
+  ORF8_alignment1 176 phhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWde...dttDaqlariylrlglrdsderdel 264
+                      ++hhy   +    g +  e    + +  l++ + W +ng+ ++ a +  +dP+ +  r+tWW++   + +Da l+ ++ +lgl++++++ ++
+   WP_255149777.1 172 TYHHYYLYQ----GSWPGER--LQTENLLSSMSGWLSNGLEESLAVSQPWDPWDMLGRETWWRHtrgNYVDALLKSLWFNLGLSGATSTADV 257
+                      *******99....5555554..455699***************99999**************98222458999999********99988665 PP
+
+>> WP_158205904.1  hypothetical protein [Halomarina oriensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.5   6.2   3.6e-34   2.2e-27       3     262 ..      11     247 ..       9     250 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 110.5 bits;  conditional E-value: 3.6e-34
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      +tRR+fL++ ++ + +  ++ ++++++     +     p++++ + +de+ L++YqP+l + +  +qk i +  ++ae+ +  + +  YW+ky+
+   WP_158205904.1  11 VTRRRFLRTVTVSTMLGSAARTTSTSA--AAGTLFGGVPEYVS-TYYDEDLLRRYQPRLATGH-LEQKPIEMASYVAEYADQPYAVLSYWTKYR 100
+                      69*****99655533333322222222..23355677888886.789************8865.567789999********************* PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddge...vdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeee 187
+                       Q +     ++ g  l +dsH++DhEPv+v v++ddg+   v +v y+gyH + ++ ++ +        ad+e  + L   +phhhy+ ++ee 
+   WP_158205904.1 101 RQTG-----WFSGYGLFSDSHWGDHEPVLVTVRQDDGQfgdVLRVDYAGYHWFRATAAA-WQ-------ADSEGRPLLYPFNPHHHYTLTREE- 180
+                      ***9.....889999999******************863337778899**999765443.32.......35566789*************966. PP
+
+  ORF8_alignment1 188 dgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariylrlglrdsderd 262
+                       g+l++ ++g++      + e+W+d+g + + +++a++dP +++ r +WW+e+++   l +++   gl d+++ d
+   WP_158205904.1 181 -GDLIELTDGTT------ALEEWYDDG-WTSIHQDAIADPAVMHARPSWWKEGSNQTSLIKLWSWFGLDDAGNAD 247
+                      .99987775554......899***987.9***********************************99999988765 PP
+
+>> SEW32859.1  hypothetical protein SAMN05216285_4159 [Natrinema salifodinae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.2  14.2     9e-34   5.4e-27       3     250 ..       1     211 [.       1     224 [. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 109.2 bits;  conditional E-value: 9e-34
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      ++RR+fL+++aa+aa++a+vg +++a        ++++p++++   +de  Le+YqP+lv+++ + + ++  Y+w+a+s+e ++r+y YWv  +
+       SEW32859.1   1 MHRRRFLQATAATAATVATVGRVSGAT-------YDSQPEYVD-LVYDEVALEQYQPYLVTRHLDVKPTV-AYAWVADSTERETRMYCYWVYWT 85 
+                      79*******999966666666665554.......778899986.7789999*********9998887665.7********************** PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                       Q++          l   dsH  D EP++v vd +++e++ vv+ gyH +a +       + ++      TH+ L+  + +h y++++e   g+
+       SEW32859.1  86 VQHG----------LSPFDSHQHDREPILVEVDPETDEIEGVVVDGYHYLAKQYPT----VPTE----DGTHPLLRPTHKWHFYTTTTEV--GE 159
+                      ***7..........5578********************************987653....3333....359*************999854..77 PP
+
+  ORF8_alignment1 191 laqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDaqlariy 250
+                      +      + ++s+  k+++W dng  +    ++v+ P+++k+r +WWde+     + r++
+       SEW32859.1 160 F------VPLESMHTKYTAWMDNGWLAD--PKTVTVPWRIKERRHWWDEGRDSVSMNRLF 211
+                      7......5667999**********9875..567788*************99888888854 PP
+
+>> WP_147435212.1  hypothetical protein [Haloarcula sp. Atlit-120R]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.0   4.5   4.2e-33   2.5e-26       3     255 ..       2     219 ..       1     224 [. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 107.0 bits;  conditional E-value: 4.2e-33
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpd..hitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvk 94 
+                       +RR fL+s a+  ++ a++++ a+a+        +++pd   it   d ++++e YqP l++s+  r +  +lY+w + s eyd++   YW+ 
+   WP_147435212.1   2 QSRRAFLKSVATVGGLGAVYSGPAAAE---F----SEQPDdvTITGLPDARTDIETYQPLLDLSN-VRVRPSDLYAWQVTSPEYDYDWNCYWAF 87 
+                      58*******999999999988888887...3....3344401466888999***********975.678889********************** PP
+
+  ORF8_alignment1  95 yntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeed 188
+                      y++Q++            ++dsH+ D EPv+v vd  +gevd++v+s  H  a+        +ved    e TH++Lev++p+h  r++++  d
+   WP_147435212.1  88 YTAQQG----------VSSEDSHLPDREPVYVAVD--NGEVDHIVISDWHYSAQ--------VVEDPPLYESTHPKLEVIKPWHGTRTTTS--D 159
+                      *****7..........5689*************85..9*********9987654........5666666789************9988884..5 PP
+
+  ORF8_alignment1 189 gvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWded.ttDaqlariylrlgl 255
+                      g++++        ++ d++ +W  ng   + ++++v+dP ++++rg WW+ed  +  +la ++  l +
+   WP_147435212.1 160 GEFVSLA------DMKDEYPSWLVNGW--NVHRRSVVDPPTAEERGNWWREDdQINHRLAVLWHDLSI 219
+                      9996555......5779********96..7899****************9862678899999887765 PP
+
+>> WP_135306372.1  twin-arginine translocation signal domain-containing protein [Halomicroarcula amylolytica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.4  10.6   6.3e-33   3.8e-26       4     241 ..       3     207 ..       1     222 [. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 106.4 bits;  conditional E-value: 6.3e-33
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhit..evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvky 95 
+                      tRRqfL+  + a a a++++++a+a+   +de+ +++pdh+t    + +++ +e+Y+P l++s+ +  + ++l++w + see+d++ y YW+ y
+   WP_135306372.1   3 TRRQFLTGVGSA-AVAVATSSTATAQ---TDESFSEQPDHVTinGLDEERTAIERYRPLLDLSNVE-VRPTDLHAWEVVSEEFDYDWYCYWAFY 91 
+                      8*****776666.5666666666666...779999*****996566777789*********98765.45689********************** PP
+
+  ORF8_alignment1  96 ntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedg 189
+                      ++Q++            ++dsH+ D EPv+v v  +dg+vd++++s  H ya+e       ++ed +  e TH+ L+v++p+h  + ++++  g
+   WP_135306372.1  92 TAQQG----------VRSEDSHLPDREPVYVAV--EDGSVDHIIVSDWH-YAAE-------VIEDPELYETTHPRLRVIEPWHGTTPTDSG--G 163
+                      ****6..........5689*************8..6**********986.5544.......4556666789************98777755..9 PP
+
+  ORF8_alignment1 190 vlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedt 241
+                      ++++         + +++ +W  ng   + ++++v+dP ++++rg WW+ed 
+   WP_135306372.1 164 EFVSLA------NMKSTYPDWLANGW--NVDRRSVVDPPTAEERGNWWREDD 207
+                      996555......567899******96..7899*****************986 PP
+
+>> WP_143825118.1  hypothetical protein [Natrinema ejinorense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.7   5.9   1.1e-32   6.4e-26       3     240 ..       2     228 ..       1     248 [. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 105.7 bits;  conditional E-value: 1.1e-32
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhit..evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvk 94 
+                      ++RR++La  +a  a   l  ++a+a+   +d+++p +  +    ++++de++Le+YqP l ++  +  + + lYg++a se   ++++++ ++
+   WP_143825118.1   2 HSRRDVLAGLGAV-AVGGLSATTATAQ---TDGSYPHADAKPAgaTIEFDEAWLESYQPLLRTDLLEV-TPTSLYGFRARSEGEATDVAVFFAH 90 
+                      68*****775555.3333333333333...4455555555544458***************9987655.5679********************* PP
+
+  ORF8_alignment1  95 yntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaee... 185
+                      y tQ++           +++dsH+lD EP++vfvd+++ge+d+v ys+yH +a   +   +  +e        H++  vv+ +hhy+  ++   
+   WP_143825118.1  91 YPTQRG----------VTNRDSHYLDREPFYVFVDSETGEIDSVAYSAYHWLANVEQRPPTYSSETG-----EHPTALVVTNWHHYVLDSSywv 169
+                      *****7..........6789********************************987665555444444.....499999********98775222 PP
+
+  ORF8_alignment1 186 ..eedgvl..aqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWded 240
+                        +++ ++  ++++++++     d  ++W dng  d+    av dP+ ++d   WW++d
+   WP_143825118.1 170 fdDSRRDFleIRDLQSVHSPHLEDGSTAWLDNGWADTLRVGAVLDPWIMQDAPDWWQDD 228
+                      213333331145566777677788899******99999999****************98 PP
+
+>> WP_170097797.1  hypothetical protein [Haloarcula argentinensis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.6   9.6   4.6e-32   2.8e-25       3     247 ..       3     211 ..       1     224 [. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 103.6 bits;  conditional E-value: 4.6e-32
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhit..evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvk 94 
+                       tRR++++ ga+aa+++ +++++ +a+        +++pdh+t   ++d ++++e YqP l++s+ + +     Y+w+a seey  + y YW+ 
+   WP_170097797.1   3 NTRRELITGGAVAAGLISAAQQV-RAA-------FSEQPDHVTidGYDDAKADIETYQPLLDLSNLEVRPN-RQYAWRARSEEYGADWYCYWTF 87 
+                      69*****8877774444444444.443.......678999998667888899***********87766554.47******************** PP
+
+  ORF8_alignment1  95 yntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeed 188
+                      y+ Q++         ++ +adsH+ D EPv+v v  +dg+vd+vvys+  Hya+e d++  +          TH+ L+v+ p+h ++ +e++  
+   WP_170097797.1  88 YTDQQG---------ID-EADSHLPDREPVYVAV--SDGAVDRVVYSTW-HYAAETDDDPSQ-------YDSTHPRLQVIAPWHGHQPSESG-- 159
+                      *****6.........33.67*************7..7**********97.689998887654.......3579************9999976.. PP
+
+  ORF8_alignment1 189 gvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedt.tDaqla 247
+                      g++      +++++    + +W  ng     ++++v+dP +++drg WW e+  +D +la
+   WP_170097797.1 160 GEF------VTLDDLSGVYGDWLANGW--GVDRRSVVDPPHAEDRGNWWPESQqRDHKLA 211
+                      776......344555566777887774..56899***************99852677766 PP
+
+>> WP_123619164.1  hypothetical protein [Halorubrum sp. CSM-61]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.6   1.3   9.2e-32   5.6e-25       3     262 ..      25     272 ..      23     275 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 102.6 bits;  conditional E-value: 9.2e-32
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                      +tRR+ +a+++ a +  + + ++++++   +  + +++pdh+t ++ d  +L  Y P l++++   ++   l gw+  s ey++++ +Y + y+
+   WP_123619164.1  25 VTRRDAVAKAGKALTGGMGILAVSGSA---TASHGDTKPDHVT-ISEDIGWLSYYSPMLDLRHVPIENHPQLLGWRFSSPEYETEVGVYMAEYA 114
+                      79****999988867777777666666...457789******7.************************************************** PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                       Qd    +l          sH +DhE v+vfvd+++gevd+v y++yH +   +++ +++  +        H++L+v+ ++h+y+ +++++++ 
+   WP_123619164.1 115 VQDD---VL-------TLTSHAGDHEFVYVFVDRETGEVDHVAYTAYHWLQGYVTNPNVNTED-----GGAHPTLMVAPTYHNYVPQSSATSSS 193
+                      ***4...44.......4458******************************9999988877544.....456*******************9999 PP
+
+  ORF8_alignment1 191 laqeis.gaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWde...dttDaqlariylrlglrdsderd 262
+                      +  +++   + g       +W +ng  ++ a+ av +P++++     + WW     + + +++ + + + g+r++d  d
+   WP_123619164.1 194 ILLDVDsLGDPGERTGPLYQWLSNGGESSLATGAVHEPWNLSRhgtMTDWWSRegiSAVNYWIVQAWATIGIRGADFAD 272
+                      9999873345577888899**********************99777778**873445789************9988655 PP
+
+>> WP_163522185.1  hypothetical protein [Halorussus sp. MSC15.2]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.8   5.4   3.3e-31     2e-24      45     249 ..      31     208 ..       5     224 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 100.8 bits;  conditional E-value: 3.3e-31
+  ORF8_alignment1  45 tevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdev 138
+                       ++ +de  Le YqP+ v+++ a +  ++ Y+ +  s e  +++y+Y ++y++Q++           +a dsH  DhEPv+v+vd+++gev +v
+   WP_163522185.1  31 VSCAYDESRLETYQPETVIDHLAVK-PTASYAAVYSSPERPTDVYVYFLRYTHQEG----------VTAVDSHTDDHEPVYVLVDDQTGEVRRV 113
+                      47889**************998876.5678*************************7..........6688************************ PP
+
+  ORF8_alignment1 139 vysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd 232
+                      v+s+ H    + + ++  l       +  Hv+L+vv p+h+y+ ++++  g        + ++ +  + e+W+ ng +d  + ea +dP++++ 
+   WP_163522185.1 114 VFSASHYVKETGTPSS--LPM-----NGSHVKLRVVAPWHQYVPTTQS--GSR------VRLKNYCAAVERWHANG-WD-VSVEATTDPWTMRH 190
+                      ****997654444443..333.....3459*************99965..554......4566889999*****99.55.567899******** PP
+
+  ORF8_alignment1 233 rgtWWdedttDaqlar.i 249
+                      r++WW++d++ a +a+  
+   WP_163522185.1 191 RDSWWADDSVGASMAErY 208
+                      ***********9999743 PP
+
+>> WP_115795068.1  MULTISPECIES: hypothetical protein [Halorussus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.0   2.5   1.1e-30   6.9e-24      42     248 ..      35     214 ..       1     227 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 99.0 bits;  conditional E-value: 1.1e-30
+  ORF8_alignment1  42 dhit.evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddge 134
+                      d+   ++++de  L+ YqP+ ++++ a +  ++ Y+ i  s e+ +++y+Y ++y++Q++           +  dsH  DhEPv+v+vd+ +ge
+   WP_115795068.1  35 DQSGvSCEYDESRLKAYQPETDVDHLAVRP-TASYAGIFSSPEHPTDVYVYFLRYSHQEG----------VTPVDSHADDHEPVYVLVDERTGE 117
+                      44434789***************9988765.5789999*********************7..........5567******************** PP
+
+  ORF8_alignment1 135 vdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPf 228
+                      v +vv+s yH +  + + ++  l  +       Hv+L+vv+p+h+y+ ++e+  g        + +  + ++ ++W+ +g +d ++  a ++P+
+   WP_115795068.1 118 VRRVVFSVYHYIKETGTPAT--LPMNG-----SHVKLHVVEPWHQYAPTTES--GSR------VRLRNYCEAVDRWHAEG-WD-ASVAATTNPW 194
+                      *********98765544444..44333.....59*************99855..655......45668999******999.44.566799**** PP
+
+  ORF8_alignment1 229 svkdrgtWWdedttDaqlar 248
+                      ++ dr++WW+ +++   la+
+   WP_115795068.1 195 TMLDRKSWWARNSLGFSLAE 214
+                      **********9988777765 PP
+
+>> RLM32615.1  hypothetical protein DVK01_20290 [Haloarcula sp. Atlit-120R]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.4   8.5   5.9e-29   3.6e-22      40     255 ..      13     200 ..       5     205 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 93.4 bits;  conditional E-value: 5.9e-29
+  ORF8_alignment1  40 lpdhit..evrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkd 131
+                      +pd +t     d ++++e YqP l++s+  r +  +lY+w + s eyd++   YW+ y++Q++            ++dsH+ D EPv+v vd  
+       RLM32615.1  13 QPDDVTitGLPDARTDIETYQPLLDLSN-VRVRPSDLYAWQVTSPEYDYDWNCYWAFYTAQQG----------VSSEDSHLPDREPVYVAVD-- 93 
+                      455444226778999**********975.678889***************************7..........5689*************85.. PP
+
+  ORF8_alignment1 132 dgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeave 225
+                      +gevd++v+s  H  a+        +ved    e TH++Lev++p+h  r++++  dg++++        ++ d++ +W  ng   + ++++v+
+       RLM32615.1  94 NGEVDHIVISDWHYSAQ--------VVEDPPLYESTHPKLEVIKPWHGTRTTTS--DGEFVSLA------DMKDEYPSWLVNGW--NVHRRSVV 169
+                      9*********9987654........5666666789************9988884..59996555......5779********96..7899**** PP
+
+  ORF8_alignment1 226 dPfsvkdrgtWWded.ttDaqlariylrlgl 255
+                      dP ++++rg WW+ed  +  +la ++  l +
+       RLM32615.1 170 DPPTAEERGNWWREDdQINHRLAVLWHDLSI 200
+                      ************9862678899999887765 PP
+
+>> WP_227132328.1  hypothetical protein [Halorubellus salinus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.3   7.9   6.3e-29   3.8e-22       3     260 ..       6     242 ..       4     247 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 93.3 bits;  conditional E-value: 6.3e-29
+  ORF8_alignment1   3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyn 96 
+                       +RR++La++a+ a++ a++g+++s+      +   ++p+ + + ++d++++++YqP++v++   + +  g+++  ae   + ++a y  ++y 
+   WP_227132328.1   6 ASRRDVLAAAATVAGSLAVAGATTSSV-ASA-DVERSTPSDV-TLSYDKAKIQEYQPEFVLQGV-EPRPYGVWALHAEKAGSGLNAVYGFTRYP 95 
+                      68*****99988877777766665554.222.3334455555.59**************99765.56679************************ PP
+
+  ORF8_alignment1  97 tQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgv 190
+                       Q++          +++ dsH+lDhEP iv  d+ +++ ++v y++yH +      ++l+++++        ++L+v   +hhy   +    g 
+   WP_227132328.1  96 YQEG----------QTEYDSHYLDHEPWIVWYDAATETTERVDYAAYHWFRGYAFRDQLEFATADK----KRPVLRVDPNYHHYYLYS----GS 171
+                      ***7..........6789******************************************996554....479*************99....55 PP
+
+  ORF8_alignment1 191 laqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedttDa.qlar..iylrlglrdsde 260
+                      la e    e++s l k e+W  ng+ ++ a +   dP+++  rg+WW+e+ +      +   + +lgl+d++ 
+   WP_227132328.1 172 LAGER--PEVNSLLAKIEDWLANGMDEELAVSQPYDPWAMMGRGSWWREEARHSfETVWnaFWFNLGLSDARA 242
+                      66555..5677*************************************9876431222224777777777665 PP
+
+>> WP_076148798.1  hypothetical protein [Natrinema saccharevitans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.0   2.4   1.6e-28   9.6e-22       4     240 ..      13     237 ..      11     262 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 92.0 bits;  conditional E-value: 1.6e-28
+  ORF8_alignment1   4 tRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkynt 97 
+                       RR++L+ gaaa+++++ + +l++ +      +a+++p+ +t   +de  L++Y+P l++++ + ++   l gw+a s++ d+++ +Y + y++
+   WP_076148798.1  13 GRREVLRGGAAAVTSIVGTLSLTGVA---AASHADSKPNSVT-LTYDEGVLRQYRPMLDLQDVTYSNRPTLRGWVASSSDEDTTVLVYACEYAK 102
+                      5*****99999977777665555554...3456788888886.99************************************************* PP
+
+  ORF8_alignment1  98 QdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvl 191
+                      Q+s     ++ g +++  sH +DhE ++v+vd+ +ge+ e  y++yH +  + ++   t+ ed       H++ +v   +hhy     + +g+l
+   WP_076148798.1 103 QES-----SWYGFTFDLTSHSGDHEWIYVVVDDASGEIVETDYTAYHWLRGRETA--PTIYEDSD---GPHPVYRVDGNFHHYYPIGAT-EGEL 185
+                      ***.....99*************************************98765544..45556654...67***************9955.8998 PP
+
+  ORF8_alignment1 192 aqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWded 240
+                       +  s  + +       +W dng+ +   + av +P+ +        WW  +
+   WP_076148798.1 186 LEVESLGDPETQSGGVYSWLDNGMEEDLRRGAVHNPWLMVGssgYSDWWTRQ 237
+                      77776555567778899*********************998777889**876 PP
+
+>> WP_049991476.1  hypothetical protein [Natrinema salifodinae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.0  15.7   1.4e-27   8.2e-21      37     250 ..       6     189 ..       2     202 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 89.0 bits;  conditional E-value: 1.4e-27
+  ORF8_alignment1  37 apvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdk 130
+                      ++++p++++   +de  Le+YqP+lv+++ + + ++  Y+w+a+s+e ++r+y YWv  + Q++          l   dsH  D EP++v vd 
+   WP_049991476.1   6 YDSQPEYVD-LVYDEVALEQYQPYLVTRHLDVKPTV-AYAWVADSTERETRMYCYWVYWTVQHG----------LSPFDSHQHDREPILVEVDP 87 
+                      567788886.7789999*********9998887665.7*************************7..........5578**************** PP
+
+  ORF8_alignment1 131 ddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeav 224
+                      +++e++ vv+ gyH +a +       + ++      TH+ L+  + +h y++++e   g++      + ++s+  k+++W dng  +    ++v
+   WP_049991476.1  88 ETDEIEGVVVDGYHYLAKQYPT----VPTE----DGTHPLLRPTHKWHFYTTTTEV--GEF------VPLESMHTKYTAWMDNGWLAD--PKTV 163
+                      ****************987653....3333....359*************999854..777......5667999**********9875..5677 PP
+
+  ORF8_alignment1 225 edPfsvkdrgtWWdedttDaqlariy 250
+                      + P+++k+r +WWde+     + r++
+   WP_049991476.1 164 TVPWRIKERRHWWDEGRDSVSMNRLF 189
+                      88*************99888888854 PP
+
+>> PSO54347.1  hypothetical protein BRC31_01915, partial [Actinobacteria bacterium QS_5_72_10]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.9   3.0   4.8e-26   2.9e-19     115     241 ..       1     113 [.       1     127 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 83.9 bits;  conditional E-value: 4.8e-26
+  ORF8_alignment1 115 dsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkre 208
+                      dsHf+DhEPv+vfvd+ +ge+ +v +s yH    +  +e++ l +       TH++L+v++p+hhy+e++e+  gvl + ++     +  d ++
+       PSO54347.1   1 DSHFGDHEPVLVFVDSASGELGRVAASVYHWSKGQAPAEQVPLYD------GTHPKLRVIDPWHHYTETTED--GVL-EPVE-----DLSDVYQ 80 
+                      9******************************99999999999975......48**************99955..887.5553.....556999* PP
+
+  ORF8_alignment1 209 tWedngvfdktadeavedPfsvkdrgtWWdedt 241
+                      +W dng+ d  +  a +dP++++ rg+WW++  
+       PSO54347.1  81 SWLDNGLEDDLHPGANTDPWRMRTRGHWWRDAA 113
+                      *****************************9875 PP
+
+>> ELZ40639.1  hypothetical protein C471_07646 [Halorubrum saccharovorum DSM 1137]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.4   7.5   2.3e-24   1.4e-17      80     251 ..       4     162 ..       1     168 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 78.4 bits;  conditional E-value: 2.3e-24
+  ORF8_alignment1  80 eseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLev 173
+                      es e  + + +  ++y++Q++             +dsHf+D EP +vf d+ +g+v +vvysgyH y ++  +++l+ v     d +  + L+v
+       ELZ40639.1   4 ESPERGLGCVVGFHRYTHQEG----------FSMEDSHFGDTEPAYVFFDSRTGDVVQVVYSGYHWYQASTWANNLDYVV----DDRQRPILRV 83 
+                      555555555666677777774..........3358********************************9998888876663....3445899*** PP
+
+  ORF8_alignment1 174 vrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWdedtt...Daqlariyl 251
+                      + phhh+++    +++++++  +++   +  +++ +W ++++ d+    +v +P++++d + WW+ +t+      l ri+l
+       ELZ40639.1  84 IPPHHHHTTDF--ARSEISDVRTDIPTSDLTERYPEWLEDDLEDQIRPGSVYSPWNMRDWEAWWEPSTMtefEITLQRIWL 162
+                      ******99887..568888888899999999************************************97222334455554 PP
+
+>> WP_135805525.1  hypothetical protein [Halorussus marinus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.6   3.4   1.2e-18   7.5e-12     127     248 ..       2     106 ..       1     118 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 59.6 bits;  conditional E-value: 1.2e-18
+  ORF8_alignment1 127 fvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdkta 220
+                      +vd+d+gev +++ys+yH +  + + ++l +          Hv L+vv+p+h+y+ a+e   g+       + +  + ++ e+W+ +g   +++
+   WP_135805525.1   2 LVDDDTGEVRRIIYSAYHYIKGTETPSDLPMN-------GSHVRLRVVEPWHQYAPADEP--GTR------VRLRNYCEAVEDWHADGW--RAS 78 
+                      6899**************98877777776653.......4699*************9955..766......4566899*******9995..678 PP
+
+  ORF8_alignment1 221 deavedPfsvkdrgtWWdedttDaqlar 248
+                      + a e+P++++dr++WW+ +++D+ l +
+   WP_135805525.1  79 RAATENPWTMTDRDSWWRRGSLDYSLSE 106
+                      89**********************9876 PP
+
+>> WP_134670584.1  hypothetical protein [Halorussus marinus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.1   3.8   1.7e-18     1e-11     127     248 ..       2     106 ..       1     118 [. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 59.1 bits;  conditional E-value: 1.7e-18
+  ORF8_alignment1 127 fvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTHvnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdkta 220
+                      +vd+d+gev +++ys+yH    + + ++l +       +  Hv L+vv+p+h+y+ a+e   g+       + +  + ++ e+W+ +g   +++
+   WP_134670584.1   2 LVDDDTGEVRRIIYSAYHYVKGTETPSDLPM-------NGSHVRLRVVEPWHQYAPADEP--GTR------VRLRNYCEAVEDWHADGW--RAS 78 
+                      6899**************9877777766665.......34699*************9955..766......4566899*******9995..678 PP
+
+  ORF8_alignment1 221 deavedPfsvkdrgtWWdedttDaqlar 248
+                      + a e+P++++dr++WW+ +++D+ l +
+   WP_134670584.1  79 RAATENPWTMTDRDSWWRRGSLDYSLSE 106
+                      89**********************9876 PP
+
+>> WP_076148871.1  hypothetical protein [Natrinema saccharevitans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.0   6.4   3.7e-18   2.3e-11      75     240 ..      10     167 ..       3     192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 58.0 bits;  conditional E-value: 3.7e-18
+  ORF8_alignment1  75 YgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrvadeeTH 168
+                       gw+a s++ d+++ +Y + y++Q+s     ++ g +++  sH +DhE ++v+vd+ +ge+ e  y++yH +  + ++   t+ ed       H
+   WP_076148871.1  10 RGWVASSSDEDTTVLVYACEYAKQES-----SWYGFTFDLTSHSGDHEWIYVVVDDASGEIVETDYTAYHWLRGRETA--PTIYEDSD---GPH 93 
+                      59************************.....99*************************************98765544..45556654...67* PP
+
+  ORF8_alignment1 169 vnLevvrphhhyreaeeeedgvlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkd...rgtWWded 240
+                      ++ +v   +hhy     + +g+l +  s  + +       +W dng+ +   + av +P+ +        WW  +
+   WP_076148871.1  94 PVYRVDGNFHHYYPIGAT-EGELLEVESLGDPETQSGGVYSWLDNGMEEDLRRGAVHNPWLMVGssgYSDWWTRQ 167
+                      **************9955.899877776555567778899*********************998778889**876 PP
+
+>> SCK37939.1  hypothetical protein H180DRAFT_03197 [Streptomyces sp. WMMB 322]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   22.4   0.2   2.8e-07       1.7       3      59 ..       4      61 ..       2      74 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 22.4 bits;  conditional E-value: 2.8e-07
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasadd.edydeeapvlpdhitevrddeeeLekYqP 59
+                     +tRR++L+s+++a a+aa+ g++as+++   ++e+ p ++dh ++++  e+eL++ + 
+       SCK37939.1  4 RTRRTLLRSAGVAGASAAIGGAAASSASaRPKEERFPRTADHPSTYDWTEAELKDRKR 61
+                     79***********99999988888888756699********************97655 PP
+
+>> MBQ8796326.1  hypothetical protein [Clostridia bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   21.6   0.2   4.7e-07       2.9      38     145 ..     261     366 ..     224     386 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 4.7e-07
+  ORF8_alignment1  38 pvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydvrayyYWvkyntQdsladllaylglllaadsHflDhEPvivfvdkd 131
+                      p+++     +++ + e   Y Pk+++++ a+q+++   ++ a+ ++y  +a y+W  y+ Q+  +d+ + + + +++ds ++    ++v+++++
+     MBQ8796326.1 261 PSAETNTVVIKFKAPEAWGYIPKISINDGAKQAMTKADAMFAQNDSY--TAKYFWYSYTLQNVPSDAETKIEISASRDSFYKECTYTLVVMNEE 352
+                      3333333367888889999************************9987..799**********999******************99999999999 PP
+
+  ORF8_alignment1 132 dgevdevvysgyHH 145
+                      + +vd     +y  
+     MBQ8796326.1 353 NFKVDGANKCFYFA 366
+                      99999887777754 PP
+
+>> MBK8346092.1  hypothetical protein [Saprospiraceae bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   21.8   1.7   4.2e-07       2.5     190     257 ..      43     112 ..      27     116 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 4.2e-07
+  ORF8_alignment1 190 vlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWd.edttDaqlar.iylrlglrd 257
+                      ++ q i g+e+gs + +r  W+++ +     d+ ++ P+ ++  +tWW+ + ++D++l   ++  l+ r+
+     MBK8346092.1  43 HPGQPIIGTEMGSTVTTRGVWQKDSIRCYVPDQDITAPWWASTAETWWKlAAENDYWLGGfVWTGLDYRG 112
+                      566778899*****************999*******************956789*****99**9998876 PP
+
+>> WP_272054269.1  TolC family protein, partial [Parabacteroides merdae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0   0.00058   3.5e+03       3      69 ..       1      70 [.       1      85 [. 0.85
+   2 ?    8.4   0.3    0.0052   3.1e+04     198     233 ..      83     124 ..      70     139 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00058
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasadded...ydeeapvlpdhitevrddeeeLekYqPklvasrearq 69
+                     + RR++L    +  +aa+++g+ +s++++     +++++ +++h  + r  + +Le+Yq +lva+r+  +
+   WP_272054269.1  1 MIRRELLSMKKIILTAAVCLGGYVSSQGQVsltIEKAMDIAEEHSPSLRRSHMNLERYQQNLVAQRASLK 70
+                     57*****999998888888999999987434557799***************************987655 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 0.0052
+  ORF8_alignment1 198 aefgsfldkretWedngvfdktadeavedPfsvkd......r 233
+                      ++  sf ++ ++W++n++f+ t +  v +P   +d       
+   WP_272054269.1  83 SKSRSFDNRLSQWYTNERFSATGTFQVDQPILWTDgvlsliN 124
+                      4557999*********************99887775555552 PP
+
+>> NOK63075.1  hypothetical protein [Chloroflexi bacterium AL-N1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   21.3   0.3     6e-07       3.6      31     100 ..     102     173 ..      75     195 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 6e-07
+  ORF8_alignment1  31 edydeeapvlpdhitevrddeeeLekYqPklva..srearqkliglYgwiaeseeydvrayyYWvkyntQds 100
+                       + +++ + l d+ +++++d   ++ Y+ +l +  ++ + q++   Yg  a+ ee + +ayyY    + Q+s
+       NOK63075.1 102 ANLEQTEQALSDYAKAIEFDPGYIRAYKNRLLIveQQRDLQAMARDYGALAKLEEDNADAYYYAQGNALQES 173
+                      34667778999********************99777788899999******************999999998 PP
+
+>> WP_011321793.1  PQQ-dependent sugar dehydrogenase [Natronomonas pharaonis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.4   0.0   2.2e-06        13       3      63 ..       5      62 ..       3      72 .. 0.87
+   2 ?   -0.6   0.0       2.8   1.7e+07     214     239 ..     103     137 ..      90     140 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 2.2e-06
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklva 63
+                     ++RRqfL +++ + ++aa++g ++sa   + ++e pv +dh  +v++d e+  +Y P  ++
+   WP_011321793.1  5 HSRRQFLVAAGLT-VTAAAAGCFDSAS--EPTGEEPVEADHDLSVDHDIESWDRYDPDWTV 62
+                     68*****999888.8888999999997..567889**********************8765 PP
+
+  == domain 2  score: -0.6 bits;  conditional E-value: 2.8
+  ORF8_alignment1 214 gvfdktadeavedPfsvkd.........rgtWWde 239
+                       ++d  + +av++P +v d          g WW+ 
+   WP_011321793.1 103 SRYDGGDLDAVTEPANVIDhataidhgdEGGWWAT 137
+                      57889999999999999998888888878889976 PP
+
+>> XP_023769508.1  probable transcription factor KAN2 [Lactuca sativa]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   20.9   3.7   7.7e-07       4.7      81     194 ..      33     144 ..       6     165 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 7.7e-07
+  ORF8_alignment1  81 seeydvrayyYWvky.ntQdsladllaylglllaadsHflDhEPvivfvdkddgevdevvysgyHH.yaleldgeeltlved.rvadeeTHvnL 171
+                       +++d +   +W++  n+Q+      +  + ++ + s f+  EP+ +  +++  + +++++  yHH  +++l++e l+ ++      + TH+nL
+   XP_023769508.1  33 DQDHDFDLGHFWTRAlNSQN------HQHDSTTRSQSSFGLYEPYQAHSNDSGLNQNTITTNLYHHhQGVSLQEELLKPIKGiPIFYQTTHPNL 120
+                      579999*******9625555......355677888999**********6544445556666778651699*****99999651567899***** PP
+
+  ORF8_alignment1 172 evvrphhhyreaeeee.dgvlaqe 194
+                      ++   +hh+ ++++++ d+  + +
+   XP_023769508.1 121 QIPAQYHHHHQNNQASlDSCAVAT 144
+                      **8777766665554314333333 PP
+
+>> MBK8669655.1  hypothetical protein [Saprospiraceae bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   20.0   2.0   1.4e-06       8.7     190     257 ..     151     220 ..     136     223 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 1.4e-06
+  ORF8_alignment1 190 vlaqeisgaefgsfldkretWedngvfdktadeavedPfsvkdrgtWWd.edttDaqlar.iylrlglrd 257
+                      ++ q i g+e+gs + +r  W+++ +     d+ ++ P+ ++  +tWW+ + ++D++l   ++  l+ r+
+     MBK8669655.1 151 HPGQPIIGTEMGSTVTTRGVWQKDSIRCYVPDQDITAPWWASTAETWWKlAAENDYWLGGfVWTGLDYRG 220
+                      566778899*****************999*******************956789*****99999998775 PP
+
+>> WP_163487313.1  twin-arginine translocation signal domain-containing protein [Halogeometricum borinquense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.0   0.1     3e-06        18       3      56 ..      10      67 ..       8      94 .. 0.80
+   2 ?   -0.4   0.1       2.4   1.4e+07     184     227 ..     110     153 ..      98     158 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 19.0 bits;  conditional E-value: 3e-06
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasadd.ed..yd.eeapvlpdhitevrddeeeLek 56
+                      +RRqfL+++++a+aa++++  +++a + ++   d  ++++  ++i+ v+d+e+ +e+
+   WP_163487313.1 10 KNRRQFLKTAGVATAATFAIPITVTAKEsSNtpFDpSDKDEVLEYIEWVDDQEDTIEQ 67
+                     68***********99998866666665543345777889999**********999987 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 2.4
+  ORF8_alignment1 184 eeeedgvlaqeisgaefgsfldkretWedn..gvfdktadeavedP 227
+                      +  + g+ + +i++ + +  l++r +W+ +  + +++ +++   dP
+   WP_163487313.1 110 H--HVGKAVGSIENETTEYILEHRIDWYYDngDDYKSVESTITPDP 153
+                      4..3477777887777788899999997552345666555555555 PP
+
+>> KAH7702203.1  hypothetical protein AAVH_30651 [Aphelenchus avenae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.6   0.0   4.1e-06        25     113     158 ..     723     768 ..     700     782 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 4.1e-06
+  ORF8_alignment1 113 aadsHflDhEPvivfvdkddgevdevvysgyHHyaleldgeeltlv 158
+                      a+ +H+l  EPv+  v ++ ++++ev+ ++ HH++l+ d+e++++v
+     KAH7702203.1 723 APPNHLLKTEPVLQNVVQPPDTIQEVLEATQHHFTLDEDSETGEMV 768
+                      4558**************************************9998 PP
+
+>> MBK6283084.1  hypothetical protein [Draconibacterium sp.]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   20.0   0.1   1.5e-06         9       3      86 ..       6      89 ..       4     102 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 1.5e-06
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklvasrearqkliglYgwiaeseeydv 86
+                      +RR fLa+ + +++++++v++  sa   ++++e p ++d+ + ++  e+++ k+ P+++a+re++++ i+   ++  see d 
+     MBK6283084.1  6 ESRRAFLAKLGLTVGTTIAVSTKLSATVLNSKTEFPLKADQQEFMELYEKWMDKFIPAVKAQRENQEDKIAKATIVELSEEVDN 89
+                     58***********999999999999988888888*********************************99988777777777776 PP
+
+>> MCP4569687.1  Vps62-related protein [FCB group bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.2   0.2   2.6e-06        15     105     172 ..     131     204 ..     126     239 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 2.6e-06
+  ORF8_alignment1 105 laylglllaadsHflDhEPvivfvdkddgevdevvysgyHHyalel......dgeeltlvedrvadeeTHvnLe 172
+                      ++y g l    +H +D E ++++vd+d ++++++ ys+ HH +  +      +++  +l +d+     TH+   
+     MCP4569687.1 131 FPYNGNLSVGGAHEGDWEHITIRVDDDAENIEKIYYSAHHHEGKWIyshgqdNKDGFKLEKDEIVPIATHPIVY 204
+                      67888888889******************************988773322223445567788888888887554 PP
+
+>> OFW88849.1  hypothetical protein A3B66_00490 [Alphaproteobacteria bacterium RIFCSPHIGHO2_02_FULL_46_13]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.6   0.0     2e-06        12       2      78 ..       8      86 ..       7     107 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 19.6 bits;  conditional E-value: 2e-06
+  ORF8_alignment1  2 sltRRqfLasgaaaaaaaalvgplasaddedydeeapvlpdhitevrddeeeLekYqPklva..srearqkliglYgwi 78
+                     +l+RR+fL+++++++a++a+  p+ +++ ++     +v+  + ++ + +++ L kY+P++++  +r  + + + ++   
+       OFW88849.1  8 NLNRRRFLQAAGVTVASTATGLPFFASAATQEYPPVKVQSVRYSRWQLNATFLAKYRPQFEVavDRLLKLDPRTVFDAL 86
+                     579**************99977766555322223344445555588889999********9933333344445555554 PP
+
+>> WP_159763705.1  halocyanin domain-containing protein [Halovenus carboxidivorans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.8   0.0   1.4e-05        84       2      50 ..       4      55 ..       3      60 .. 0.78
+   2 ?    1.2   0.0      0.79   4.7e+06     122     162 ..      90     130 ..      76     147 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 16.8 bits;  conditional E-value: 1.4e-05
+  ORF8_alignment1  2 sltRRqfLasgaaaaaaaalvgplasadd.ed..ydeeapvlpdhitevrdd 50
+                     ++ RR+fLa+++a+aa++al+g  +++d+ ++  + ++ p+ pd ++++  d
+   WP_159763705.1  4 QTDRRTFLAAAGATAATVALAGCSSGGDNgSNgdNGDSGPSVPDAVDSYLSD 55
+                     578***********99999988888888775543448899999999866444 PP
+
+  == domain 2  score: 1.2 bits;  conditional E-value: 0.79
+  ORF8_alignment1 122 EPvivfvdkddgevdevvysgyHHyaleldgeeltlvedrv 162
+                      +Pv+vfvd+ ++   e +  g+ H  ++ d++ +++ + ++
+   WP_159763705.1  90 DPVAVFVDAGTEVTWEWTGNGGAHNVVSADSSAASFDSGEA 130
+                      799****9999999999999999999999999888874443 PP
+
+>> WP_224204124.1  TolC family protein [Parabacteroides merdae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0013   7.8e+03       3      68 ..       1      69 [.       1      84 [. 0.85
+   2 ?    7.2   0.3     0.011   6.9e+04     199     233 ..      84     124 ..      74     138 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0013
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasadded...ydeeapvlpdhitevrddeeeLekYqPklvasrear 68
+                     + RR++L    +  +aa+++g+ +s++++     +++++ +++h  + r  + +Le+Yq +lva+r+  
+   WP_224204124.1  1 MIRRELLSMKKIILTAAVCLGGYVSSQGQVsltIEKAMDIAEEHSPSLRRSHMNLERYQQNLVAQRASL 69
+                     579****999998888888999999987434557799**************************998765 PP
+
+  == domain 2  score: 7.2 bits;  conditional E-value: 0.011
+  ORF8_alignment1 199 efgsfldkretWedngvfdktadeavedPfsvkd......r 233
+                      +  sf ++ ++W++n++f+ t +  v +P   +d       
+   WP_224204124.1  84 KSRSFDNRLSQWYTNERFSATGTFQVDQPILWTDgvlsliN 124
+                      557999********************999887775555552 PP
+
+>> WP_022321640.1  TolC family protein [Parabacteroides merdae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0013   7.8e+03       3      68 ..       1      69 [.       1      84 [. 0.85
+   2 ?    7.2   0.3     0.011   6.9e+04     199     233 ..      84     124 ..      74     138 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0013
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasadded...ydeeapvlpdhitevrddeeeLekYqPklvasrear 68
+                     + RR++L    +  +aa+++g+ +s++++     +++++ +++h  + r  + +Le+Yq +lva+r+  
+   WP_022321640.1  1 MIRRELLSMKKIILTAAVCLGGYVSSQGQVsltIEKAMDIAEEHSPSLRRSHMNLERYQQNLVAQRASL 69
+                     579****999998888888999999987434557799**************************998765 PP
+
+  == domain 2  score: 7.2 bits;  conditional E-value: 0.011
+  ORF8_alignment1 199 efgsfldkretWedngvfdktadeavedPfsvkd......r 233
+                      +  sf ++ ++W++n++f+ t +  v +P   +d       
+   WP_022321640.1  84 KSRSFDNRLSQWYTNERFSATGTFQVDQPILWTDgvlsliN 124
+                      557999********************999887775555552 PP
+
+>> WP_182387870.1  TolC family protein [Parabacteroides merdae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0013   7.8e+03       3      68 ..       1      69 [.       1      84 [. 0.85
+   2 ?    7.2   0.3     0.011   6.9e+04     199     233 ..      84     124 ..      74     138 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0013
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasadded...ydeeapvlpdhitevrddeeeLekYqPklvasrear 68
+                     + RR++L    +  +aa+++g+ +s++++     +++++ +++h  + r  + +Le+Yq +lva+r+  
+   WP_182387870.1  1 MIRRELLSMKKIILTAAVCLGGYVSSQGQVsltIEKAMDIAEEHSPSLRRSHMNLERYQQNLVAQRASL 69
+                     579****999998888888999999987434557799**************************998765 PP
+
+  == domain 2  score: 7.2 bits;  conditional E-value: 0.011
+  ORF8_alignment1 199 efgsfldkretWedngvfdktadeavedPfsvkd......r 233
+                      +  sf ++ ++W++n++f+ t +  v +P   +d       
+   WP_182387870.1  84 KSRSFDNRLSQWYTNERFSATGTFQVDQPILWTDgvlsliN 124
+                      557999********************999887775555552 PP
+
+>> WP_182433541.1  TolC family protein [Parabacteroides merdae]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0    0.0012   7.4e+03       3      69 ..       1      70 [.       1      85 [. 0.85
+   2 ?    7.3   0.3     0.011   6.5e+04     199     232 ..      84     117 ..      70     137 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0012
+  ORF8_alignment1  3 ltRRqfLasgaaaaaaaalvgplasadded...ydeeapvlpdhitevrddeeeLekYqPklvasrearq 69
+                     + RR++L    +  +aa+++g+ +s++++     +++++ +++h  + r  + +Le+Yq +lva+r+  +
+   WP_182433541.1  1 MIRRELLSMKKIILTAAVCLGGYVSSQGQVsltIEKAMDIAEEHSPSLRRSHMNLERYQQNLVAQRASLK 70
+                     579****999998888888999999987434557799***************************987655 PP
+
+  == domain 2  score: 7.3 bits;  conditional E-value: 0.011
+  ORF8_alignment1 199 efgsfldkretWedngvfdktadeavedPfsvkd 232
+                      +  sf ++ ++W++n++f+ t +  v +P   +d
+   WP_182433541.1  84 KSRSFDNRLSQWYTNERFSATGTFQVDQPILWTD 117
+                      557999********************99988777 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (267 nodes)
+Target sequences:                  536937122  (211660193950 residues searched)
+Passed MSV filter:                  14775875  (0.0275188); expected 10738742.4 (0.02)
+Passed bias filter:                 10024361  (0.0186695); expected 10738742.4 (0.02)
+Passed Vit filter:                    893013  (0.00166316); expected 536937.1 (0.001)
+Passed Fwd filter:                     10079  (1.87713e-05); expected 5369.4 (1e-05)
+Initial search space (Z):          536937122  [actual number of targets]
+Domain search space  (domZ):              89  [number of targets reported over threshold]
+# CPU time: 6066.37u 250.69s 01:45:17.06 Elapsed: 00:48:26.82
+# Mc/sec: 19441.57
+//
+[ok]
+[1] "current ORF: ORF8"
+[1] "no of proteins before: 24"
+[1] "no of novel proteins: 3"
+            hit1             hit2             hit3 
+"WP_254810600.1" "WP_119817599.1" "WP_254156782.1" 
+[1] "downloading new accs..."
+# STEP 1 #################################
+Running MAFFT command:  mafft --localpair --reorder ../13_curated_iter4_proteins/ORF8_proteins.fasta > tmp_ORF8/ORF8_alignment1.msa
+# STEP 2 #################################
+Running hmmbuild command:  hmmbuild --amino tmp_ORF8/ORF8_profile.hmm tmp_ORF8/ORF8_alignment1.msa
+# STEP 3 #################################
+Running hmmsearch command:  hmmsearch --domtblout tmp_ORF8/ORF8_hmmsearch_result.domtableout.txt --cpu 16 tmp_ORF8/ORF8_profile.hmm /home/dlueckin/bioinf/dbs/diamond_nr/nr.gz
+# STEP 4 #################################
+Running Rscript command:  Rscript filter_and_download_new_accessions.R ORF8 tmp_ORF8/ORF8_hmmsearch_result.domtableout.txt ../13_curated_iter4_proteins/ORF8_proteins.fasta tmp_ORF8/ORF8_output.fasta
+# STEP 5 #################################
+Running MAFFT command for final alignment:  mafft --localpair --reorder tmp_ORF8/ORF8_output.fasta > tmp_ORF8/ORF8_final_alignment.msa
+# DONE ###################################
+We are done with ORF8
+Script execution complete!

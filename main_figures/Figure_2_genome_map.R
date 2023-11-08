@@ -120,10 +120,11 @@ ggplot(gene_df, aes(xmin = start, xmax = end, y = contig, fill = annot, label = 
         panel.grid.minor = element_blank(), #remove minor gridlines
         legend.background = element_rect(fill='transparent'), #transparent legend bg
         legend.box.background = element_rect(fill='transparent') #transparent legend panel
-    )
+    ) +
+    theme(plot.margin=unit(c(0.5,0.5,r = 0.5, 0.1), "cm"))
 
-ggsave(plot = last_plot(), file = "genome_maps_5_representatives.png", height = 5, width = 8)
-ggsave(plot = last_plot(), file = "genome_maps_5_representatives.svg", height = 5, width = 8)
+# ggsave(plot = last_plot(), file = "genome_maps_5_representatives.png", height = 5, width = 8)
+# ggsave(plot = last_plot(), file = "genome_maps_5_representatives.svg", height = 5, width = 8)
 
 
 

@@ -1,0 +1,113 @@
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 19    1 / 19    2 / 19    3 / 19    4 / 19    5 / 19    6 / 19    7 / 19    8 / 19    9 / 19   10 / 19   11 / 19   12 / 19   13 / 19   14 / 19   15 / 19   16 / 19   17 / 19tbfast-pair (aa) Version 7.520
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 19   10 / 19
+done.
+
+Progressive alignment ... 
+STEP     1 /18 STEP     2 /18 STEP     3 /18 STEP     4 /18 STEP     5 /18 STEP     6 /18 STEP     7 /18 STEP     8 /18 STEP     9 /18 STEP    10 /18 STEP    11 /18 STEP    12 /18 STEP    13 /18 
+Reallocating..done. *alloclen = 1597
+STEP    14 /18 STEP    15 /18 STEP    16 /18 STEP    17 /18 STEP    18 /18 
+done.
+tbfast (aa) Version 7.520
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Warning message:
+package ‘data.table’ was built under R version 4.2.2 
+Warning message:
+package ‘stringr’ was built under R version 4.2.2 
+Warning message:
+package ‘seqinr’ was built under R version 4.2.3 
+Warning message:
+package ‘tidyr’ was built under R version 4.2.2 
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:seqinr’:
+
+    count
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.2.3 
+Warning message:
+package ‘rentrez’ was built under R version 4.2.1 
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 24    1 / 24    2 / 24    3 / 24    4 / 24    5 / 24    6 / 24    7 / 24    8 / 24    9 / 24   10 / 24   11 / 24   12 / 24   13 / 24   14 / 24   15 / 24   16 / 24   17 / 24   18 / 24   19 / 24   20 / 24   21 / 24   22 / 24tbfast-pair (aa) Version 7.520
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 24   10 / 24   20 / 24
+done.
+
+Progressive alignment ... 
+STEP     1 /23 STEP     2 /23 STEP     3 /23 STEP     4 /23 STEP     5 /23 STEP     6 /23 STEP     7 /23 STEP     8 /23 STEP     9 /23 STEP    10 /23 STEP    11 /23 STEP    12 /23 STEP    13 /23 STEP    14 /23 STEP    15 /23 STEP    16 /23 STEP    17 /23 
+Reallocating..done. *alloclen = 1597
+STEP    18 /23 STEP    19 /23 STEP    20 /23 STEP    21 /23 STEP    22 /23 STEP    23 /23 
+done.
+tbfast (aa) Version 7.520
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

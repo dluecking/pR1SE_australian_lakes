@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/dlueckin/dbs/vs2/db/hmm/pfam/Pfam-A-Eukaryota.hmm
+# Target file:     /tmp/vs2-2SdzbGs9nFiF/all.pdg.faa.0.split
+# Option settings: hmmsearch --tblout iter-0/all.pdg.faa.splitdir/all.pdg.faa.0.split.Eukaryota.splithmmtbl --noali -T 30 --cpu 2 /home/dlueckin/dbs/vs2/db/hmm/pfam/Pfam-A-Eukaryota.hmm /tmp/vs2-2SdzbGs9nFiF/all.pdg.faa.0.split 
+# Current dir:     /home/dlueckin/projects/pR1SE_australian_lakes/Z_mini_tests/cluster_plot_vs2_on_plasmids/vs2
+# Date:            Mon Oct 16 10:37:23 2023
+# [ok]

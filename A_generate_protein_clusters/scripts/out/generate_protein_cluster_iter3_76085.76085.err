@@ -1,0 +1,116 @@
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 48    1 / 48    2 / 48    3 / 48    4 / 48    5 / 48    6 / 48    7 / 48    8 / 48    9 / 48   10 / 48   11 / 48   12 / 48   13 / 48   14 / 48   15 / 48   16 / 48   17 / 48   18 / 48   19 / 48   20 / 48   21 / 48   22 / 48   23 / 48   24 / 48   25 / 48   26 / 48   27 / 48   28 / 48   29 / 48   30 / 48   31 / 48   32 / 48   33 / 48   34 / 48   35 / 48   36 / 48   37 / 48   38 / 48   39 / 48   40 / 48   41 / 48   42 / 48   43 / 48   44 / 48   45 / 48   46 / 48tbfast-pair (aa) Version 7.520
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 48   10 / 48   20 / 48   30 / 48   40 / 48
+done.
+
+Progressive alignment ... 
+STEP     1 /47 STEP     2 /47 STEP     3 /47 STEP     4 /47 STEP     5 /47 STEP     6 /47 STEP     7 /47 STEP     8 /47 STEP     9 /47 STEP    10 /47 STEP    11 /47 STEP    12 /47 STEP    13 /47 STEP    14 /47 STEP    15 /47 STEP    16 /47 STEP    17 /47 STEP    18 /47 STEP    19 /47 STEP    20 /47 STEP    21 /47 STEP    22 /47 STEP    23 /47 STEP    24 /47 STEP    25 /47 STEP    26 /47 STEP    27 /47 STEP    28 /47 STEP    29 /47 
+Reallocating..done. *alloclen = 1784
+STEP    30 /47 STEP    31 /47 STEP    32 /47 STEP    33 /47 STEP    34 /47 STEP    35 /47 STEP    36 /47 STEP    37 /47 STEP    38 /47 STEP    39 /47 STEP    40 /47 STEP    41 /47 STEP    42 /47 STEP    43 /47 STEP    44 /47 STEP    45 /47 STEP    46 /47 STEP    47 /47 
+done.
+tbfast (aa) Version 7.520
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Warning message:
+package ‘data.table’ was built under R version 4.2.2 
+Warning message:
+package ‘stringr’ was built under R version 4.2.2 
+Warning message:
+package ‘seqinr’ was built under R version 4.2.3 
+Warning message:
+package ‘tidyr’ was built under R version 4.2.2 
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:seqinr’:
+
+    count
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.2.3 
+Warning message:
+package ‘rentrez’ was built under R version 4.2.1 
+Warning message:
+In fread(DOMTBLE_FILE, skip = 3, fill = TRUE) :
+  Stopped early on line 363. Expected 29 fields but found 30. Consider fill=TRUE and comment.char=. First discarded non-empty line: <<MCR5736352.1         -            254 ORF10_alignment1     -            337       2.5   22.0   0.2   1   1   4.2e-06       4.4   21.2   0.1     1   108     1   100     1   204 0.84 LPXTG cell wall anchor domain-containing protein [Eubacterium sp.]>>
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 52    1 / 52    2 / 52    3 / 52    4 / 52    5 / 52    6 / 52    7 / 52    8 / 52    9 / 52   10 / 52   11 / 52   12 / 52   13 / 52   14 / 52   15 / 52   16 / 52   17 / 52   18 / 52   19 / 52   20 / 52   21 / 52   22 / 52   23 / 52   24 / 52   25 / 52   26 / 52   27 / 52   28 / 52   29 / 52   30 / 52   31 / 52   32 / 52   33 / 52   34 / 52   35 / 52   36 / 52   37 / 52   38 / 52   39 / 52   40 / 52   41 / 52   42 / 52   43 / 52   44 / 52   45 / 52   46 / 52   47 / 52   48 / 52   49 / 52   50 / 52tbfast-pair (aa) Version 7.520
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 52   10 / 52   20 / 52   30 / 52   40 / 52   50 / 52
+done.
+
+Progressive alignment ... 
+STEP     1 /51 STEP     2 /51 STEP     3 /51 STEP     4 /51 STEP     5 /51 STEP     6 /51 STEP     7 /51 STEP     8 /51 STEP     9 /51 STEP    10 /51 STEP    11 /51 STEP    12 /51 STEP    13 /51 STEP    14 /51 STEP    15 /51 STEP    16 /51 STEP    17 /51 STEP    18 /51 STEP    19 /51 STEP    20 /51 STEP    21 /51 STEP    22 /51 STEP    23 /51 STEP    24 /51 STEP    25 /51 STEP    26 /51 STEP    27 /51 STEP    28 /51 STEP    29 /51 STEP    30 /51 STEP    31 /51 
+Reallocating..done. *alloclen = 1784
+STEP    32 /51 STEP    33 /51 STEP    34 /51 STEP    35 /51 STEP    36 /51 STEP    37 /51 STEP    38 /51 STEP    39 /51 STEP    40 /51 STEP    41 /51 STEP    42 /51 STEP    43 /51 STEP    44 /51 STEP    45 /51 STEP    46 /51 STEP    47 /51 STEP    48 /51 STEP    49 /51 STEP    50 /51 STEP    51 /51 
+done.
+tbfast (aa) Version 7.520
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

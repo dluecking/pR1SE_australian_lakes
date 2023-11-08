@@ -10,6 +10,7 @@ library(ggplot2)
 library(dplyr)
 library(patchwork)
 library(googlesheets4)
+library(cowplot)
 
 # working directory -------------------------------------------------------
 this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
@@ -68,17 +69,26 @@ for(i in 1:nrow(manual_region_df)){
 p1 <- ggplot(manual_region_df, aes(x = inserted_genes)) +
     geom_density() +
     xlim(c(0, 12)) +
-    theme_minimal() +
-    ggtitle("number of inserted genes between ORF10 and ORF17", 
-            subtitle = paste0("complete relatives only (n = ", nrow(manual_region_df), ")"))
+    theme_cowplot(
+        font_size = 10
+    ) +
+    xlab("Genes") +
+    ylab("Density") +
+    ggtitle("Number of genes inserted", 
+            subtitle = paste0("complete apHPVs only (n = ", nrow(manual_region_df), ")"))
 
 
 p2 <- ggplot(manual_region_df, aes(x = insert_size)) +
     geom_density() +
     xlim(c(0, 7500)) +
-    theme_minimal() +
-    ggtitle("length (bp) of inserted region between ORF10 and ORF17", 
-            subtitle = paste0("complete relatives only (n = ", nrow(manual_region_df), ")"))
+    theme_cowplot(
+        font_size = 10
+    ) +
+    xlab("Length (bp)") +
+    ylab("Density") +
+    ggtitle("Insert size (bp)", 
+            subtitle = paste0("complete apHPVs only (n = ", nrow(manual_region_df), ")"))
 p3 <- p1 / p2
 
 ggsave(plot = p3, filename = "../plots/insert_size.pdf", height = 6, width = 6)
+ggsave(plot = p3, filename = "../plots/insert_size.png", height = 6, width = 6)

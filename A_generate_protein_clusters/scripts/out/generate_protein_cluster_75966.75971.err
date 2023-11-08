@@ -1,0 +1,121 @@
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 17    1 / 17    2 / 17    3 / 17    4 / 17    5 / 17    6 / 17    7 / 17    8 / 17    9 / 17   10 / 17   11 / 17   12 / 17   13 / 17   14 / 17   15 / 17tbfast-pair (aa) Version 7.520
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 17   10 / 17
+done.
+
+Progressive alignment ... 
+STEP     1 /16 STEP     2 /16 STEP     3 /16 STEP     4 /16 STEP     5 /16 STEP     6 /16 STEP     7 /16 STEP     8 /16 STEP     9 /16 STEP    10 /16 STEP    11 /16 STEP    12 /16 STEP    13 /16 STEP    14 /16 STEP    15 /16 
+Reallocating..done. *alloclen = 2410
+STEP    16 /16 
+done.
+tbfast (aa) Version 7.520
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Warning message:
+package ‘data.table’ was built under R version 4.2.2 
+Warning message:
+package ‘stringr’ was built under R version 4.2.2 
+Warning message:
+package ‘seqinr’ was built under R version 4.2.3 
+Warning message:
+package ‘tidyr’ was built under R version 4.2.2 
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:seqinr’:
+
+    count
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.2.3 
+Warning message:
+package ‘rentrez’ was built under R version 4.2.1 
+Warning message:
+In fread(DOMTBLE_FILE, skip = 3, fill = TRUE) :
+  Stopped early on line 178. Expected 30 fields but found 32. Consider fill=TRUE and comment.char=. First discarded non-empty line: <<XP_047446297.1       -           3011 ORF24_alignment1     -            544       7.9   19.4   0.3   1   1   5.5e-06        18   18.2   0.3   185   279   165   255   146   280 0.85 piezo-type mechanosensitive ion channel component 2 isoform X6 [Mugil cephalus]>>
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 40    1 / 40    2 / 40    3 / 40    4 / 40    5 / 40    6 / 40    7 / 40    8 / 40    9 / 40   10 / 40   11 / 40   12 / 40   13 / 40   14 / 40   15 / 40   16 / 40   17 / 40   18 / 40   19 / 40   20 / 40   21 / 40   22 / 40   23 / 40   24 / 40   25 / 40   26 / 40   27 / 40   28 / 40   29 / 40   30 / 40   31 / 40   32 / 40   33 / 40   34 / 40   35 / 40   36 / 40   37 / 40   38 / 40tbfast-pair (aa) Version 7.520
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 40   10 / 40   20 / 40   30 / 40
+done.
+
+Progressive alignment ... 
+STEP     1 /39 STEP     2 /39 STEP     3 /39 STEP     4 /39 STEP     5 /39 STEP     6 /39 STEP     7 /39 STEP     8 /39 STEP     9 /39 STEP    10 /39 STEP    11 /39 STEP    12 /39 STEP    13 /39 STEP    14 /39 STEP    15 /39 STEP    16 /39 STEP    17 /39 STEP    18 /39 STEP    19 /39 STEP    20 /39 STEP    21 /39 
+Reallocating..done. *alloclen = 2417
+STEP    22 /39 STEP    23 /39 STEP    24 /39 STEP    25 /39 STEP    26 /39 STEP    27 /39 STEP    28 /39 STEP    29 /39 STEP    30 /39 STEP    31 /39 STEP    32 /39 STEP    33 /39 STEP    34 /39 STEP    35 /39 STEP    36 /39 STEP    37 /39 STEP    38 /39 STEP    39 /39 
+done.
+tbfast (aa) Version 7.520
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Traceback (most recent call last):
+  File "/home/dlueckin/projects/pR1SE_australian_lakes/A_generate_protein_clusters/scripts/inflate_protein_to_protile_to_mafft.py", line 68, in <module>
+    shutil.move(final_alignment_file, args.output_path)
+                                      ^^^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'output_path'. Did you mean: 'output_file'?

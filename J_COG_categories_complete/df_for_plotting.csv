@@ -1,0 +1,53 @@
+LETTER,COUNT,COLOR,DESCRIPTION,SHORT_DESCRIPTION,label,total_count,percentage
+J,27,#FCCCFC,"Translation, ribosomal structure and biogenesis",Translation,pR1SE,1172,2.3037542662116
+A,0,#FCDCFC,RNA processing and modification,RNA processing,pR1SE,1172,0
+K,129,#FCDCEC,Transcription,Transcription,pR1SE,1172,11.0068259385666
+L,195,#FCDCDC,"Replication, recombination and repair","Replication, recombination, repair",pR1SE,1172,16.6382252559727
+B,0,#FCDCCC,Chromatin structure and dynamics,Chromatin structure,pR1SE,1172,0
+D,36,#FCFCDC,"Cell cycle control, cell division, chromosome partitioning","Cell cycle control, division",pR1SE,1172,3.07167235494881
+Y,0,#FCFCCC,Nuclear structure,Nuclear structure,pR1SE,1172,0
+V,97,#FCFCBC,Defense mechanisms,Defense mechanisms,pR1SE,1172,8.27645051194539
+T,54,#FCFCAC,Signal transduction mechanisms,Signal transduction,pR1SE,1172,4.60750853242321
+M,25,#ECFCAC,Cell wall/membrane/envelope biogenesis,Cell wall/membrane/envelope,pR1SE,1172,2.13310580204778
+N,53,#DCFCAC,Cell motility,Cell motility,pR1SE,1172,4.5221843003413
+Z,0,#CCFCAC,Cytoskeleton,Cytoskeleton,pR1SE,1172,0
+W,0,#BCFCAC,Extracellular structures,Extracellular structures,pR1SE,1172,0
+U,7,#ACFCAC,"Intracellular trafficking, secretion, and vesicular transport",Intracellular trafficking,pR1SE,1172,0.597269624573379
+O,49,#9CFCAC,"Posttranslational modification, protein turnover, chaperones",Posttranslational modification,pR1SE,1172,4.18088737201365
+X,72,#9CFC9C,"Mobilome: prophages, transposons",Mobilome,pR1SE,1172,6.14334470989761
+C,34,#BCFCFC,Energy production and conversion,Energy production,pR1SE,1172,2.90102389078498
+G,22,#CCFCFC,Carbohydrate transport and metabolism,Carbohydrate transp. & metabol.,pR1SE,1172,1.87713310580205
+E,61,#DCFCFC,Amino acid transport and metabolism,Amino acid transp. & metabol.,pR1SE,1172,5.20477815699659
+F,15,#DCECFC,Nucleotide transport and metabolism,Nucleotide transp. & metabol.,pR1SE,1172,1.27986348122867
+H,59,#DCDCFC,Coenzyme transport and metabolism,Coenzyme transp. & metabol.,pR1SE,1172,5.03412969283277
+I,43,#DCCCFC,Lipid transport and metabolism,Lipid transp. & metabol.,pR1SE,1172,3.66894197952218
+P,47,#CCCCFC,Inorganic ion transport and metabolism,Inorganic ion transp. & metabol.,pR1SE,1172,4.01023890784983
+Q,11,#BCCCFC,"Secondary metabolites biosynthesis, transport and catabolism",Secondary metabolites,pR1SE,1172,0.938566552901024
+R,113,#E0E0E0,General function prediction only,General function only,pR1SE,1172,9.64163822525597
+S,23,#CCCCCC,Function unknown,Unknown,pR1SE,1172,1.96245733788396
+J,173331,#FCCCFC,"Translation, ribosomal structure and biogenesis",Translation,host,2174956,7.96940259940891
+A,430,#FCDCFC,RNA processing and modification,RNA processing,host,2174956,0.0197705148977726
+K,136558,#FCDCEC,Transcription,Transcription,host,2174956,6.27865575211636
+L,103270,#FCDCDC,"Replication, recombination and repair","Replication, recombination, repair",host,2174956,4.74814203137903
+B,772,#FCDCCC,Chromatin structure and dynamics,Chromatin structure,host,2174956,0.0354949709327453
+D,29534,#FCFCDC,"Cell cycle control, cell division, chromosome partitioning","Cell cycle control, division",host,2174956,1.35791252788562
+Y,0,#FCFCCC,Nuclear structure,Nuclear structure,host,2174956,0
+V,62714,#FCFCBC,Defense mechanisms,Defense mechanisms,host,2174956,2.88346063092771
+T,126864,#FCFCAC,Signal transduction mechanisms,Signal transduction,host,2174956,5.83294558602565
+M,88679,#ECFCAC,Cell wall/membrane/envelope biogenesis,Cell wall/membrane/envelope,host,2174956,4.07727788516181
+N,25210,#DCFCAC,Cell motility,Cell motility,host,2174956,1.15910390830895
+Z,1385,#CCFCAC,Cytoskeleton,Cytoskeleton,host,2174956,0.063679449147477
+W,1999,#BCFCAC,Extracellular structures,Extracellular structures,host,2174956,0.0919099053038314
+U,22009,#ACFCAC,"Intracellular trafficking, secretion, and vesicular transport",Intracellular trafficking,host,2174956,1.0119285171746
+O,109422,#9CFCAC,"Posttranslational modification, protein turnover, chaperones",Posttranslational modification,host,2174956,5.03099832824204
+X,23135,#9CFC9C,"Mobilome: prophages, transposons",Mobilome,host,2174956,1.06369967944179
+C,132967,#BCFCFC,Energy production and conversion,Energy production,host,2174956,6.11354896374915
+G,104438,#CCFCFC,Carbohydrate transport and metabolism,Carbohydrate transp. & metabol.,host,2174956,4.80184426719437
+E,195592,#DCFCFC,Amino acid transport and metabolism,Amino acid transp. & metabol.,host,2174956,8.99291755787244
+F,74135,#DCECFC,Nucleotide transport and metabolism,Nucleotide transp. & metabol.,host,2174956,3.40857470220087
+H,162057,#DCDCFC,Coenzyme transport and metabolism,Coenzyme transp. & metabol.,host,2174956,7.45104728555428
+I,90400,#DCCCFC,Lipid transport and metabolism,Lipid transp. & metabol.,host,2174956,4.15640592269453
+P,139327,#CCCCFC,Inorganic ion transport and metabolism,Inorganic ion transp. & metabol.,host,2174956,6.4059686724697
+Q,34805,#BCCCFC,"Secondary metabolites biosynthesis, transport and catabolism",Secondary metabolites,host,2174956,1.60026225817902
+R,247957,#E0E0E0,General function prediction only,General function only,host,2174956,11.4005524709465
+S,87966,#CCCCCC,Function unknown,Unknown,host,2174956,4.04449561278481

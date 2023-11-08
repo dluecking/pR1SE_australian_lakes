@@ -1,0 +1,15 @@
+# hmmbuild :: profile HMM construction from m./06_hmm_iter1/${ORF}_iter1.msultiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             tmp_ORF6/ORF6_alignment1.msa
+# output HMM file:                  tmp_ORF6/ORF6_profile.hmm
+# input alignment is asserted as:   protein
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     ORF6_alignment1         43  1990  1171     2.83  0.590 
+
+# CPU time: 0.81u 0.00s 00:00:00.81 Elapsed: 00:00:00.81
