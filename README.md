@@ -1,15 +1,4 @@
 ## pR1SE in Australian Salt Lakes
-### Task Description Susanne Email
-
-We will use a core set of conserved proteins for the detection of new pR1SE relatives in the Australian salt lakes and public databases?
-
-If we identified like 30-50 (?) possible candidates, we do the follwing:
-1. Are there more possible "core proteins", if yes, which ones?
-2. Are these core proteins on a main chromosome or on a plasmid?
-3. What replication protein are found?
-4. Who is the host?
-5. Phylogeny of the relatives.
-
 ### Method description
 1. generate a trusted database for each conserved proteins
     1. query public databases / Australian salt lakes with the proteins and find potentially more (evalue 10^-5 and score > 50).
