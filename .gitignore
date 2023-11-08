@@ -1,3 +1,9 @@
+# also: remove ./ in the beginning of files, otherwise it wont work!
+
+# based on the number of subdirectories found in a directory
+# command: find . -type d | cut -d/ -f 2 | uniq -c
+archaeal_proteins/
+
 # number filtered, found with du --inodes xS | sort -n
 A_generate_protein_clusters/90_curated_blastp_interpro/interpro_out/
 G_annotate_complete_relatives/scripts/out/

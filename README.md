@@ -21,7 +21,7 @@ If we identified like 30-50 (?) possible candidates, we do the follwing:
 
 Note: after 2 iterations the profiles did not return any new results.
 
-![image](./pictures/cluster_generation.png)
+![image](./plots/cluster_generation.png)
 
 
 ### input for all of this
