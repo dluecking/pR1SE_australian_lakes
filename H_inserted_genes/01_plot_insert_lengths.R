@@ -45,7 +45,7 @@ for(i in 1:nrow(manual_region_df)){
         filter(contig == manual_region_df$contig[i], annot == "ORF17.faa") %>% 
         select(start) %>% 
         pull()
-
+    
     manual_region_df$insert_size[i] <- abs(ORF17_start - ORF10_end)
     
     
@@ -67,28 +67,30 @@ for(i in 1:nrow(manual_region_df)){
 
 
 p1 <- ggplot(manual_region_df, aes(x = inserted_genes)) +
-    geom_density() +
-    xlim(c(0, 12)) +
+    geom_histogram(binwidth = 1, color = "black", alpha = 0.6) +
+    # xlim(c(0, 12)) +
     theme_cowplot(
         font_size = 10
     ) +
     xlab("Genes") +
-    ylab("Density") +
+    ylab("Count") +
     ggtitle("Number of genes inserted", 
             subtitle = paste0("complete apHPVs only (n = ", nrow(manual_region_df), ")"))
 
 
 p2 <- ggplot(manual_region_df, aes(x = insert_size)) +
-    geom_density() +
-    xlim(c(0, 7500)) +
+    geom_histogram(binwidth = 500, color = "black", alpha = 0.6) +
+    # xlim() +
     theme_cowplot(
         font_size = 10
     ) +
     xlab("Length (bp)") +
-    ylab("Density") +
+    ylab("Count") +
     ggtitle("Insert size (bp)", 
             subtitle = paste0("complete apHPVs only (n = ", nrow(manual_region_df), ")"))
 p3 <- p1 / p2
+p1 / p2
+
 
 ggsave(plot = p3, filename = "../plots/insert_size.pdf", height = 6, width = 6)
 ggsave(plot = p3, filename = "../plots/insert_size.png", height = 6, width = 6)
